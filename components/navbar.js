@@ -491,7 +491,12 @@ const Navbar = (props) => {
             width: 100%;
             display: flex;
             align-items: center;
+            border-color: #949494;
+            border-width: 1px;
             flex-direction: column;
+            border-top-width: 0px;
+            border-left-width: 0px;
+            border-right-width: 0px;
           }
           .navbar-navbar-interactive {
             width: 90%;
@@ -521,22 +526,20 @@ const Navbar = (props) => {
             font-family: Josefin Sans;
             font-weight: 300;
             line-height: 36px;
-            border-color: var(--dl-color-gray-black);
-            border-width: 1px;
-            text-decoration: none;
-            border-top-width: 0px;
-            border-left-width: 0px;
-            border-right-width: 0px;
           }
           .navbar-icon {
             width: 7px;
             height: 7px;
           }
           .navbar-text {
+            font-size: 1.2rem;
+            font-style: normal;
+            font-family: 'Josefin Sans';
+            font-weight: 300;
             background-color: rgb(255, 255, 0);
           }
           .navbar-desktop-menu {
-            display: none;
+            display: flex;
           }
           .navbar-links {
             gap: var(--dl-space-space-threeunits);
@@ -697,7 +700,7 @@ const Navbar = (props) => {
           .navbar-burger-menu {
             width: var(--dl-size-size-small);
             height: var(--dl-size-size-small);
-            display: flex;
+            display: none;
             align-items: center;
             border-radius: var(--dl-radius-radius-round);
             flex-direction: row;
@@ -1661,14 +1664,6 @@ const Navbar = (props) => {
           .navbar-root-class-name5 {
             width: 100%;
           }
-          @media (max-width: 1920px) {
-            .navbar-desktop-menu {
-              display: none;
-            }
-            .navbar-burger-menu {
-              display: flex;
-            }
-          }
           @media (max-width: 1600px) {
             .navbar-navbar-interactive {
               align-items: center;
@@ -1827,7 +1822,11 @@ const Navbar = (props) => {
             }
           }
           @media (max-width: 1200px) {
+            .navbar-desktop-menu {
+              display: none;
+            }
             .navbar-burger-menu {
+              display: flex;
               background-color: ffff00;
             }
           }

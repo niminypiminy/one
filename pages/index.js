@@ -304,6 +304,7 @@ const Home = (props) => {
             display: flex;
             position: relative;
             max-width: auto;
+            margin-top: var(--dl-space-space-sixunits);
             align-items: center;
             padding-left: var(--dl-space-space-oneandhalfunits);
             padding-right: var(--dl-space-space-oneandhalfunits);
@@ -315,6 +316,7 @@ const Home = (props) => {
             width: 40%;
             height: 100%;
             display: flex;
+            margin-top: var(--dl-space-space-threeunits);
             align-items: center;
             margin-left: var(--dl-space-space-fiveunits);
             flex-direction: column;
@@ -359,6 +361,7 @@ const Home = (props) => {
             width: 50%;
             height: 100%;
             display: flex;
+            margin-top: var(--dl-space-space-threeunits);
             align-items: center;
             flex-direction: column;
             justify-content: center;
@@ -858,7 +861,6 @@ const Home = (props) => {
             .home-hero {
               align-items: center;
               padding-left: 00px;
-              margin-bottom: 0px;
               padding-right: 00px;
               justify-content: center;
             }
