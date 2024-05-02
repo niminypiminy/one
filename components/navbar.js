@@ -539,7 +539,7 @@ const Navbar = (props) => {
             background-color: rgb(255, 255, 0);
           }
           .navbar-desktop-menu {
-            display: flex;
+            display: none;
           }
           .navbar-links {
             gap: var(--dl-space-space-threeunits);
@@ -700,7 +700,7 @@ const Navbar = (props) => {
           .navbar-burger-menu {
             width: var(--dl-size-size-small);
             height: var(--dl-size-size-small);
-            display: none;
+            display: flex;
             align-items: center;
             border-radius: var(--dl-radius-radius-round);
             flex-direction: row;
@@ -1664,6 +1664,14 @@ const Navbar = (props) => {
           .navbar-root-class-name5 {
             width: 100%;
           }
+          @media (max-width: 1920px) {
+            .navbar-desktop-menu {
+              display: none;
+            }
+            .navbar-burger-menu {
+              display: flex;
+            }
+          }
           @media (max-width: 1600px) {
             .navbar-navbar-interactive {
               align-items: center;
@@ -1822,9 +1830,6 @@ const Navbar = (props) => {
             }
           }
           @media (max-width: 1200px) {
-            .navbar-desktop-menu {
-              display: none;
-            }
             .navbar-burger-menu {
               display: flex;
               background-color: ffff00;
