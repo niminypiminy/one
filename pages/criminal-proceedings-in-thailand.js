@@ -93,7 +93,7 @@ const CriminalProceedingsInThailand = (props) => {
               {' '}
               often choose to pursue both criminal and civil charges. While
               civil recourse is generally accessible to victims, in many
-              jurisdictions there is a specific procedure for initiating
+              jurisdictions, there is a specific procedure for initiating
               criminal proceedings. In the U.K. and the United States, for
               example, one must: 
             </span>
