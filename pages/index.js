@@ -4,6 +4,7 @@ import Head from 'next/head'
 
 import Navbar from '../components/navbar'
 import Practice from '../components/practice'
+import Footer1 from '../components/footer1'
 
 const Home = (props) => {
   return (
@@ -275,11 +276,7 @@ const Home = (props) => {
             </div>
           </div>
         </section>
-        <footer className="home-footer">
-          <span className="home-text30">
-            © 2023 Danneskiold &amp; Associates LP., All Rights Reserved.
-          </span>
-        </footer>
+        <Footer1></Footer1>
       </div>
       <style jsx>
         {`
@@ -835,25 +832,6 @@ const Home = (props) => {
             transform: rotate(-45deg);
             object-fit: cover;
           }
-          .home-footer {
-            width: 100%;
-            display: flex;
-            max-width: auto;
-            align-items: center;
-            padding-top: var(--dl-space-space-twounits);
-            padding-left: var(--dl-space-space-threeunits);
-            padding-right: var(--dl-space-space-threeunits);
-            padding-bottom: var(--dl-space-space-twounits);
-            justify-content: center;
-          }
-          .home-text30 {
-            color: var(--dl-color-gray-black);
-            font-size: 1.5rem;
-            font-style: normal;
-            text-align: left;
-            font-family: 'Josefin Sans';
-            font-weight: 200;
-          }
           @media (max-width: 1600px) {
             .home-container {
               border-left-width: 0px;
@@ -874,7 +852,12 @@ const Home = (props) => {
             .home-title {
               color: var(--dl-color-gray-black);
               width: 90%;
+              font-size: 2.5rem;
               max-width: auto;
+              font-style: normal;
+              font-family: Josefin Sans;
+              font-weight: 200;
+              line-height: 3rem;
             }
             .home-text01 {
               background-color: rgb(255, 255, 0);
@@ -1035,9 +1018,6 @@ const Home = (props) => {
             .home-textinput {
               font-size: 1.2rem;
               font-family: Josefin Sans;
-            }
-            .home-text30 {
-              color: var(--dl-color-gray-black);
             }
           }
           @media (max-width: 1200px) {
@@ -1318,15 +1298,6 @@ const Home = (props) => {
             .home-text28 {
               font-size: 3rem;
             }
-            .home-footer {
-              padding-left: var(--dl-space-space-twounits);
-              padding-right: var(--dl-space-space-twounits);
-            }
-            .home-text30 {
-              text-align: center;
-              margin-left: var(--dl-space-space-unit);
-              margin-right: var(--dl-space-space-unit);
-            }
           }
           @media (max-width: 479px) {
             .home-hero {
@@ -1411,17 +1382,6 @@ const Home = (props) => {
             }
             .home-textinput {
               color: var(--dl-color-gray-black);
-            }
-            .home-footer {
-              padding: var(--dl-space-space-unit);
-              flex-direction: column;
-            }
-            .home-text30 {
-              color: var(--dl-color-gray-black);
-              font-size: 1.2rem;
-              margin-left: 0px;
-              margin-right: 0px;
-              margin-bottom: var(--dl-space-space-unit);
             }
           }
         `}

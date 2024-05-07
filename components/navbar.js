@@ -461,18 +461,20 @@ const Navbar = (props) => {
                     </li>
                   </ul>
                 </div>
-                <span className="navbar-text22">{props.insights}</span>
+                <Link href="/blog">
+                  <a className="navbar-link19">{props.blog1}</a>
+                </Link>
                 <Link href="/pro-bono">
-                  <a className="navbar-link20">{props.proBono}</a>
+                  <a className="navbar-link21">{props.proBono}</a>
                 </Link>
               </nav>
               <div className="navbar-social-bar">
                 <div className="navbar-container2">
-                  <span className="navbar-text23">{props.telegram}</span>
+                  <span className="navbar-text22">{props.telegram}</span>
                 </div>
-                <span className="navbar-text24">{props.whatsapp}</span>
-                <span className="navbar-text25">{props.facebook}</span>
-                <span className="navbar-text26">{props.line}</span>
+                <span className="navbar-text23">{props.whatsapp}</span>
+                <span className="navbar-text24">{props.facebook}</span>
+                <span className="navbar-text25">{props.line}</span>
               </div>
             </div>
           </header>
@@ -1565,7 +1567,7 @@ const Navbar = (props) => {
             color: var(--dl-color-gray-white);
             background-color: var(--dl-color-gray-black);
           }
-          .navbar-text22 {
+          .navbar-link19 {
             color: var(--dl-color-gray-black);
             font-size: 1.5rem;
             font-style: normal;
@@ -1578,11 +1580,11 @@ const Navbar = (props) => {
             padding-bottom: var(--dl-space-space-halfunit);
             text-decoration: none;
           }
-          .navbar-text22:hover {
+          .navbar-link19:hover {
             color: #122821;
             background-color: #ffff00;
           }
-          .navbar-link20 {
+          .navbar-link21 {
             color: var(--dl-color-gray-black);
             font-size: 1.5rem;
             font-style: normal;
@@ -1595,7 +1597,7 @@ const Navbar = (props) => {
             padding-bottom: var(--dl-space-space-halfunit);
             text-decoration: none;
           }
-          .navbar-link20:hover {
+          .navbar-link21:hover {
             color: var(--dl-color-gray-black);
             background-color: #ffff00;
           }
@@ -1615,11 +1617,19 @@ const Navbar = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
+          .navbar-text22 {
+            font-size: 1.5rem;
+            font-style: normal;
+            font-family: Josefin Sans;
+            font-weight: 200;
+            text-decoration: underline;
+          }
           .navbar-text23 {
             font-size: 1.5rem;
             font-style: normal;
             font-family: Josefin Sans;
             font-weight: 200;
+            margin-left: var(--dl-space-space-unit);
             text-decoration: underline;
           }
           .navbar-text24 {
@@ -1631,14 +1641,6 @@ const Navbar = (props) => {
             text-decoration: underline;
           }
           .navbar-text25 {
-            font-size: 1.5rem;
-            font-style: normal;
-            font-family: Josefin Sans;
-            font-weight: 200;
-            margin-left: var(--dl-space-space-unit);
-            text-decoration: underline;
-          }
-          .navbar-text26 {
             font-size: 1.5rem;
             font-style: normal;
             font-family: Josefin Sans;
@@ -1662,6 +1664,15 @@ const Navbar = (props) => {
             width: 100%;
           }
           .navbar-root-class-name5 {
+            width: 100%;
+          }
+          .navbar-root-class-name6 {
+            width: 100%;
+          }
+          .navbar-root-class-name7 {
+            width: 100%;
+          }
+          .navbar-root-class-name8 {
             width: 100%;
           }
           @media (max-width: 1920px) {
@@ -1804,17 +1815,20 @@ const Navbar = (props) => {
               font-family: Josefin Sans;
               font-weight: 200;
             }
-            .navbar-text22 {
+            .navbar-link19 {
               font-size: 1.2rem;
               font-style: normal;
               font-family: Josefin Sans;
               font-weight: 300;
             }
-            .navbar-link20 {
+            .navbar-link21 {
               font-size: 1.2rem;
               font-style: normal;
               font-family: Josefin Sans;
               font-weight: 300;
+            }
+            .navbar-text22 {
+              font-size: 1.2rem;
             }
             .navbar-text23 {
               font-size: 1.2rem;
@@ -1825,13 +1839,9 @@ const Navbar = (props) => {
             .navbar-text25 {
               font-size: 1.2rem;
             }
-            .navbar-text26 {
-              font-size: 1.2rem;
-            }
           }
           @media (max-width: 1200px) {
             .navbar-burger-menu {
-              display: flex;
               background-color: ffff00;
             }
           }
@@ -1907,7 +1917,7 @@ const Navbar = (props) => {
 Navbar.defaultProps = {
   proBono: 'Pro Bono',
   danneskiold2: 'Danneskiold & Associates',
-  insights: 'Insights',
+  blog1: 'Blog',
   branchOffice: 'Branch Office',
   danneskiold: 'Danneskiold & Associates',
   foreignBusinessLicense: 'Foreign Business License',
@@ -1945,7 +1955,7 @@ Navbar.defaultProps = {
 Navbar.propTypes = {
   proBono: PropTypes.string,
   danneskiold2: PropTypes.string,
-  insights: PropTypes.string,
+  blog1: PropTypes.string,
   branchOffice: PropTypes.string,
   danneskiold: PropTypes.string,
   foreignBusinessLicense: PropTypes.string,
