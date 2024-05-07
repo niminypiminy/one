@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Head from 'next/head'
 
 import Navbar from '../components/navbar'
+import Footer1 from '../components/footer1'
 
 const VirtualOffice = (props) => {
   return (
@@ -40,8 +41,8 @@ const VirtualOffice = (props) => {
           <div className="virtual-office-container3">
             <div className="virtual-office-container4">
               <h1 className="virtual-office-text">Virtual Office Space</h1>
-              <span className="virtual-office-text01">
-                <span className="virtual-office-text02">
+              <span className="virtual-office-text1">
+                <span className="virtual-office-text2">
                   Virtual offices are suitable for Thai-owned companies, and
                   companies that don&apos;t require permits and licences from
                   other agencies. Virtual offices may help remote team&apos;s
@@ -55,27 +56,23 @@ const VirtualOffice = (props) => {
                 <Link href="/power-of-attorney">
                   <a className="virtual-office-link">power of attorney</a>
                 </Link>
-                <span className="virtual-office-text03">.</span>
-                <br className="virtual-office-text04"></br>
+                <span className="virtual-office-text3">.</span>
+                <br className="virtual-office-text4"></br>
               </span>
             </div>
             <div className="virtual-office-container5">
               <div className="virtual-office-container6">
-                <span className="virtual-office-text05">Monthly</span>
-                <span className="virtual-office-text06">500 </span>
+                <span className="virtual-office-text5">Monthly</span>
+                <span className="virtual-office-text6">500 </span>
               </div>
               <div className="virtual-office-container7">
-                <span className="virtual-office-text07">Annually</span>
-                <span className="virtual-office-text08">5000 </span>
+                <span className="virtual-office-text7">Annually</span>
+                <span className="virtual-office-text8">5000 </span>
               </div>
             </div>
           </div>
         </div>
-        <footer className="virtual-office-footer">
-          <span className="virtual-office-text09">
-            © 2023 Danneskiold &amp; Associates LP., All Rights Reserved.
-          </span>
-        </footer>
+        <Footer1 rootClassName="footer1-root-class-name17"></Footer1>
       </div>
       <style jsx>
         {`
@@ -141,7 +138,7 @@ const VirtualOffice = (props) => {
             font-family: Josefin Sans;
             font-weight: 300;
           }
-          .virtual-office-text01 {
+          .virtual-office-text1 {
             font-size: 1.5rem;
             font-style: normal;
             margin-top: var(--dl-space-space-twounits);
@@ -180,7 +177,7 @@ const VirtualOffice = (props) => {
           .virtual-office-container6:hover {
             transform: scale(1.02);
           }
-          .virtual-office-text05 {
+          .virtual-office-text5 {
             color: var(--dl-color-gray-white);
             font-size: 1.5rem;
             font-style: normal;
@@ -189,7 +186,7 @@ const VirtualOffice = (props) => {
             font-weight: 200;
             text-decoration: underline;
           }
-          .virtual-office-text06 {
+          .virtual-office-text6 {
             color: var(--dl-color-gray-white);
             margin: var(--dl-space-space-twounits);
             font-size: 2rem;
@@ -213,7 +210,7 @@ const VirtualOffice = (props) => {
           .virtual-office-container7:hover {
             transform: scale(1.02);
           }
-          .virtual-office-text07 {
+          .virtual-office-text7 {
             font-size: 1.5rem;
             align-self: center;
             font-style: normal;
@@ -222,30 +219,10 @@ const VirtualOffice = (props) => {
             font-weight: 200;
             text-decoration: underline;
           }
-          .virtual-office-text08 {
+          .virtual-office-text8 {
             width: auto;
             margin: var(--dl-space-space-twounits);
             font-size: 2rem;
-            font-family: Josefin Sans;
-            font-weight: 200;
-          }
-          .virtual-office-footer {
-            width: 100%;
-            display: flex;
-            max-width: auto;
-            margin-top: var(--dl-space-space-fourunits);
-            align-items: center;
-            padding-top: var(--dl-space-space-twounits);
-            padding-left: var(--dl-space-space-threeunits);
-            padding-right: var(--dl-space-space-threeunits);
-            padding-bottom: var(--dl-space-space-twounits);
-            justify-content: center;
-          }
-          .virtual-office-text09 {
-            color: rgb(17, 40, 33);
-            font-size: 1.2rem;
-            font-style: normal;
-            text-align: left;
             font-family: Josefin Sans;
             font-weight: 200;
           }
@@ -256,14 +233,14 @@ const VirtualOffice = (props) => {
             .virtual-office-text {
               color: var(--dl-color-gray-black);
             }
-            .virtual-office-text01 {
+            .virtual-office-text1 {
               font-size: 1.5rem;
               font-style: normal;
               font-family: Josefin Sans;
               font-weight: 200;
               line-height: 1.15em;
             }
-            .virtual-office-text02 {
+            .virtual-office-text2 {
               font-size: 1.5rem;
               font-style: normal;
               font-family: Josefin Sans;
@@ -277,24 +254,19 @@ const VirtualOffice = (props) => {
               font-weight: 200;
               line-height: 1.15em;
             }
-            .virtual-office-text03 {
+            .virtual-office-text3 {
               font-size: 1.5rem;
               font-style: normal;
               font-family: Josefin Sans;
               font-weight: 200;
               line-height: 1.15em;
             }
-            .virtual-office-text04 {
+            .virtual-office-text4 {
               font-size: 1.5rem;
               font-style: normal;
               font-family: Josefin Sans;
               font-weight: 200;
               line-height: 1.15em;
-            }
-            .virtual-office-text09 {
-              color: rgb(17, 40, 33);
-              font-size: 1.2rem;
-              font-family: Josefin Sans;
             }
           }
           @media (max-width: 1200px) {
@@ -328,19 +300,19 @@ const VirtualOffice = (props) => {
             .virtual-office-text {
               text-align: center;
             }
-            .virtual-office-text01 {
+            .virtual-office-text1 {
               text-align: left;
             }
-            .virtual-office-text02 {
+            .virtual-office-text2 {
               text-align: left;
             }
             .virtual-office-link {
               text-align: left;
             }
-            .virtual-office-text03 {
+            .virtual-office-text3 {
               text-align: left;
             }
-            .virtual-office-text04 {
+            .virtual-office-text4 {
               text-align: left;
             }
           }
@@ -362,14 +334,14 @@ const VirtualOffice = (props) => {
             .virtual-office-text {
               text-align: left;
             }
-            .virtual-office-text01 {
+            .virtual-office-text1 {
               font-size: 1.5rem;
               font-style: normal;
               font-family: Josefin Sans;
               font-weight: 200;
               line-height: 1.15em;
             }
-            .virtual-office-text02 {
+            .virtual-office-text2 {
               align-self: center;
               text-align: left;
               padding-left: var(--dl-space-space-unit);
@@ -382,13 +354,13 @@ const VirtualOffice = (props) => {
               padding-right: var(--dl-space-space-unit);
               text-decoration: underline;
             }
-            .virtual-office-text03 {
+            .virtual-office-text3 {
               align-self: center;
               text-align: left;
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
             }
-            .virtual-office-text04 {
+            .virtual-office-text4 {
               align-self: center;
               text-align: left;
               padding-left: var(--dl-space-space-unit);
@@ -401,15 +373,6 @@ const VirtualOffice = (props) => {
             .virtual-office-container7 {
               width: 100%;
               height: 100%;
-            }
-            .virtual-office-footer {
-              padding-left: var(--dl-space-space-twounits);
-              padding-right: var(--dl-space-space-twounits);
-            }
-            .virtual-office-text09 {
-              text-align: center;
-              margin-left: var(--dl-space-space-unit);
-              margin-right: var(--dl-space-space-unit);
             }
           }
           @media (max-width: 479px) {
@@ -426,7 +389,7 @@ const VirtualOffice = (props) => {
               max-width: auto;
               text-align: left;
             }
-            .virtual-office-text01 {
+            .virtual-office-text1 {
               width: 100%;
               font-size: 1.5rem;
               font-style: normal;
@@ -441,7 +404,7 @@ const VirtualOffice = (props) => {
               margin-bottom: 0px;
               padding-right: 0px;
             }
-            .virtual-office-text02 {
+            .virtual-office-text2 {
               width: 90%;
               align-self: center;
             }
@@ -449,11 +412,11 @@ const VirtualOffice = (props) => {
               width: 90%;
               align-self: center;
             }
-            .virtual-office-text03 {
+            .virtual-office-text3 {
               width: 90%;
               align-self: center;
             }
-            .virtual-office-text04 {
+            .virtual-office-text4 {
               width: 90%;
               align-self: center;
             }
@@ -470,19 +433,10 @@ const VirtualOffice = (props) => {
               height: 100%;
               align-self: flex-start;
             }
-            .virtual-office-text08 {
+            .virtual-office-text8 {
               font-size: 2rem;
               font-family: Josefin Sans;
               font-weight: 200;
-            }
-            .virtual-office-footer {
-              padding: var(--dl-space-space-unit);
-              flex-direction: column;
-            }
-            .virtual-office-text09 {
-              margin-left: 0px;
-              margin-right: 0px;
-              margin-bottom: var(--dl-space-space-unit);
             }
           }
         `}

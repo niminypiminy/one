@@ -5,6 +5,7 @@ import Head from 'next/head'
 import Navbar from '../components/navbar'
 import Card1 from '../components/card1'
 import FeatureCard41 from '../components/feature-card41'
+import Footer1 from '../components/footer1'
 
 const BoardOfInvestment = (props) => {
   return (
@@ -231,11 +232,7 @@ const BoardOfInvestment = (props) => {
             <a className="board-of-investment-link1">Ask us anything</a>
           </Link>
         </div>
-        <footer className="board-of-investment-footer">
-          <span className="board-of-investment-text18">
-            © 2023 Danneskiold &amp; Associates LP., All Rights Reserved.
-          </span>
-        </footer>
+        <Footer1 rootClassName="footer1-root-class-name4"></Footer1>
       </div>
       <style jsx>
         {`
@@ -672,26 +669,6 @@ const BoardOfInvestment = (props) => {
             padding-bottom: var(--dl-space-space-halfunit);
             text-decoration: underline;
             background-color: #ffff00;
-          }
-          .board-of-investment-footer {
-            width: 100%;
-            display: flex;
-            max-width: auto;
-            margin-top: var(--dl-space-space-fourunits);
-            align-items: center;
-            padding-top: var(--dl-space-space-twounits);
-            padding-left: var(--dl-space-space-threeunits);
-            padding-right: var(--dl-space-space-threeunits);
-            padding-bottom: var(--dl-space-space-twounits);
-            justify-content: center;
-          }
-          .board-of-investment-text18 {
-            color: var(--dl-color-gray-black);
-            font-size: 1.2rem;
-            font-style: normal;
-            text-align: left;
-            font-family: Josefin Sans;
-            font-weight: 200;
           }
           @media (max-width: 1600px) {
             .board-of-investment-container {
@@ -1171,15 +1148,6 @@ const BoardOfInvestment = (props) => {
               color: var(--dl-color-gray-black);
               width: 60%;
             }
-            .board-of-investment-footer {
-              padding-left: var(--dl-space-space-twounits);
-              padding-right: var(--dl-space-space-twounits);
-            }
-            .board-of-investment-text18 {
-              text-align: center;
-              margin-left: var(--dl-space-space-unit);
-              margin-right: var(--dl-space-space-unit);
-            }
           }
           @media (max-width: 479px) {
             .board-of-investment-hero {
@@ -1300,15 +1268,6 @@ const BoardOfInvestment = (props) => {
             }
             .board-of-investment-text17 {
               width: 80%;
-            }
-            .board-of-investment-footer {
-              padding: var(--dl-space-space-unit);
-              flex-direction: column;
-            }
-            .board-of-investment-text18 {
-              margin-left: 0px;
-              margin-right: 0px;
-              margin-bottom: var(--dl-space-space-unit);
             }
           }
         `}

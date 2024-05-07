@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Head from 'next/head'
 
 import Navbar from '../components/navbar'
+import Footer1 from '../components/footer1'
 
 const PowerOfAttorney = (props) => {
   return (
@@ -59,11 +60,7 @@ const PowerOfAttorney = (props) => {
             />
           </div>
         </div>
-        <footer className="power-of-attorney-footer">
-          <span className="power-of-attorney-text3">
-            © 2023 Danneskiold &amp; Associates LP., All Rights Reserved.
-          </span>
-        </footer>
+        <Footer1 rootClassName="footer1-root-class-name11"></Footer1>
       </div>
       <style jsx>
         {`
@@ -162,26 +159,6 @@ const PowerOfAttorney = (props) => {
           .power-of-attorney-image:hover {
             transform: scale(1.2);
           }
-          .power-of-attorney-footer {
-            width: 100%;
-            display: flex;
-            max-width: auto;
-            margin-top: var(--dl-space-space-twounits);
-            align-items: center;
-            padding-top: var(--dl-space-space-twounits);
-            padding-left: var(--dl-space-space-threeunits);
-            padding-right: var(--dl-space-space-threeunits);
-            padding-bottom: var(--dl-space-space-twounits);
-            justify-content: center;
-          }
-          .power-of-attorney-text3 {
-            color: rgb(17, 40, 33);
-            font-size: 1.2rem;
-            font-style: normal;
-            text-align: left;
-            font-family: Josefin Sans;
-            font-weight: 200;
-          }
           @media (max-width: 1600px) {
             .power-of-attorney-text {
               font-size: 2rem;
@@ -193,14 +170,6 @@ const PowerOfAttorney = (props) => {
             .power-of-attorney-image {
               box-shadow: 5px 5px 10px 0px #000000;
               margin-right: 0px;
-            }
-            .power-of-attorney-footer {
-              margin-top: var(--dl-space-space-threeunits);
-            }
-            .power-of-attorney-text3 {
-              font-style: normal;
-              font-family: Josefin Sans;
-              font-weight: 200;
             }
           }
           @media (max-width: 1200px) {
@@ -255,15 +224,6 @@ const PowerOfAttorney = (props) => {
             .power-of-attorney-image {
               width: 100%;
             }
-            .power-of-attorney-footer {
-              padding-left: var(--dl-space-space-twounits);
-              padding-right: var(--dl-space-space-twounits);
-            }
-            .power-of-attorney-text3 {
-              text-align: center;
-              margin-left: var(--dl-space-space-unit);
-              margin-right: var(--dl-space-space-unit);
-            }
           }
           @media (max-width: 479px) {
             .power-of-attorney-container2 {
@@ -282,15 +242,6 @@ const PowerOfAttorney = (props) => {
             }
             .power-of-attorney-text2 {
               align-self: flex-start;
-            }
-            .power-of-attorney-footer {
-              padding: var(--dl-space-space-unit);
-              flex-direction: column;
-            }
-            .power-of-attorney-text3 {
-              margin-left: 0px;
-              margin-right: 0px;
-              margin-bottom: var(--dl-space-space-unit);
             }
           }
         `}

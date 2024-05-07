@@ -36,6 +36,57 @@ const Footer1 = (props) => {
           .footer1-root-class-name1 {
             margin-top: var(--dl-space-space-threeunits);
           }
+          .footer1-root-class-name2 {
+            margin-top: var(--dl-space-space-threeunits);
+          }
+          .footer1-root-class-name3 {
+            margin-top: var(--dl-space-space-threeunits);
+          }
+          .footer1-root-class-name4 {
+            margin-top: var(--dl-space-space-fourunits);
+          }
+          .footer1-root-class-name5 {
+            margin-top: var(--dl-space-space-fourunits);
+          }
+          .footer1-root-class-name6 {
+            margin-top: var(--dl-space-space-fourunits);
+          }
+          .footer1-root-class-name7 {
+            margin-top: var(--dl-space-space-fourunits);
+          }
+          .footer1-root-class-name8 {
+            margin-top: var(--dl-space-space-sixunits);
+          }
+          .footer1-root-class-name9 {
+            margin-top: var(--dl-space-space-twounits);
+          }
+          .footer1-root-class-name10 {
+            margin-top: var(--dl-space-space-twounits);
+          }
+          .footer1-root-class-name11 {
+            margin-top: var(--dl-space-space-twounits);
+          }
+          .footer1-root-class-name12 {
+            margin-top: var(--dl-space-space-twounits);
+          }
+          .footer1-root-class-name13 {
+            margin-top: var(--dl-space-space-twounits);
+          }
+          .footer1-root-class-name14 {
+            margin-top: var(--dl-space-space-threeunits);
+          }
+          .footer1-root-class-name15 {
+            margin-top: var(--dl-space-space-fiveunits);
+          }
+          .footer1-root-class-name16 {
+            margin-top: var(--dl-space-space-twounits);
+          }
+          .footer1-root-class-name17 {
+            margin-top: var(--dl-space-space-fourunits);
+          }
+          .footer1-root-class-name18 {
+            margin-top: var(--dl-space-space-fourunits);
+          }
           @media (max-width: 1600px) {
             .footer1-text {
               color: var(--dl-color-gray-black);

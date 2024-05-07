@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Head from 'next/head'
 
 import Navbar from '../components/navbar'
+import Footer1 from '../components/footer1'
 
 const TreatyOfAmity = (props) => {
   return (
@@ -625,11 +626,7 @@ const TreatyOfAmity = (props) => {
         <Link href="/contact">
           <a className="treaty-of-amity-link4">Ask us anything.</a>
         </Link>
-        <footer className="treaty-of-amity-footer">
-          <span className="treaty-of-amity-text66">
-            © 2023 Danneskiold &amp; Associates LP., All Rights Reserved.
-          </span>
-        </footer>
+        <Footer1 rootClassName="footer1-root-class-name16"></Footer1>
       </div>
       <style jsx>
         {`
@@ -1836,27 +1833,6 @@ const TreatyOfAmity = (props) => {
             text-decoration: underline;
             background-color: #ffff00;
           }
-          .treaty-of-amity-footer {
-            width: 100%;
-            display: flex;
-            max-width: auto;
-            margin-top: var(--dl-space-space-twounits);
-            align-items: center;
-            padding-top: var(--dl-space-space-twounits);
-            padding-left: var(--dl-space-space-threeunits);
-            padding-right: var(--dl-space-space-threeunits);
-            padding-bottom: var(--dl-space-space-twounits);
-            justify-content: center;
-            background-color: #ffffff;
-          }
-          .treaty-of-amity-text66 {
-            color: rgb(17, 40, 33);
-            font-size: 1.2rem;
-            font-style: normal;
-            text-align: left;
-            font-family: Josefin Sans;
-            font-weight: 200;
-          }
           @media (max-width: 1600px) {
             .treaty-of-amity-text {
               font-size: 2.5rem;
@@ -1957,13 +1933,6 @@ const TreatyOfAmity = (props) => {
               margin-bottom: var(--dl-space-space-fourunits);
               padding-right: var(--dl-space-space-halfunit);
               padding-bottom: var(--dl-space-space-halfunit);
-            }
-            .treaty-of-amity-text66 {
-              color: rgb(17, 40, 33);
-              font-size: 1.2rem;
-              font-style: normal;
-              font-family: Josefin Sans;
-              font-weight: 200;
             }
           }
           @media (max-width: 1200px) {
@@ -2433,15 +2402,6 @@ const TreatyOfAmity = (props) => {
             .treaty-of-amity-element4 {
               align-items: flex-start;
             }
-            .treaty-of-amity-footer {
-              padding-left: var(--dl-space-space-twounits);
-              padding-right: var(--dl-space-space-twounits);
-            }
-            .treaty-of-amity-text66 {
-              text-align: center;
-              margin-left: var(--dl-space-space-unit);
-              margin-right: var(--dl-space-space-unit);
-            }
           }
           @media (max-width: 479px) {
             .treaty-of-amity-hero {
@@ -2667,15 +2627,6 @@ const TreatyOfAmity = (props) => {
             .treaty-of-amity-description4 {
               font-size: 14px;
               line-height: 21px;
-            }
-            .treaty-of-amity-footer {
-              padding: var(--dl-space-space-unit);
-              flex-direction: column;
-            }
-            .treaty-of-amity-text66 {
-              margin-left: 0px;
-              margin-right: 0px;
-              margin-bottom: var(--dl-space-space-unit);
             }
           }
         `}

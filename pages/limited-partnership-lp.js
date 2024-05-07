@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Head from 'next/head'
 
 import Navbar from '../components/navbar'
+import Footer1 from '../components/footer1'
 
 const LimitedPartnershipLP = (props) => {
   return (
@@ -561,12 +562,8 @@ const LimitedPartnershipLP = (props) => {
           <Link href="/contact">
             <a className="limited-partnership-lp-link3">Ask us anything.</a>
           </Link>
-          <footer className="limited-partnership-lp-footer">
-            <span className="limited-partnership-lp-text49">
-              © 2023 Danneskiold &amp; Associates LP., All Rights Reserved.
-            </span>
-          </footer>
         </div>
+        <Footer1 rootClassName="footer1-root-class-name10"></Footer1>
       </div>
       <style jsx>
         {`
@@ -1664,26 +1661,6 @@ const LimitedPartnershipLP = (props) => {
             text-decoration: underline;
             background-color: #ffff00;
           }
-          .limited-partnership-lp-footer {
-            width: 100%;
-            display: flex;
-            max-width: auto;
-            margin-top: var(--dl-space-space-twounits);
-            align-items: center;
-            padding-top: var(--dl-space-space-twounits);
-            padding-left: var(--dl-space-space-threeunits);
-            padding-right: var(--dl-space-space-threeunits);
-            padding-bottom: var(--dl-space-space-twounits);
-            justify-content: center;
-          }
-          .limited-partnership-lp-text49 {
-            color: rgb(17, 40, 33);
-            font-size: 1.2rem;
-            font-style: normal;
-            text-align: left;
-            font-family: Josefin Sans;
-            font-weight: 200;
-          }
           @media (max-width: 1600px) {
             .limited-partnership-lp-image {
               box-shadow: 5px 5px 10px 0px #000000;
@@ -1802,11 +1779,6 @@ const LimitedPartnershipLP = (props) => {
               padding-left: var(--dl-space-space-halfunit);
               padding-right: var(--dl-space-space-halfunit);
               padding-bottom: var(--dl-space-space-halfunit);
-            }
-            .limited-partnership-lp-text49 {
-              font-style: normal;
-              font-family: Josefin Sans;
-              font-weight: 200;
             }
           }
           @media (max-width: 1200px) {
@@ -2236,15 +2208,6 @@ const LimitedPartnershipLP = (props) => {
             .limited-partnership-lp-element4 {
               align-items: flex-start;
             }
-            .limited-partnership-lp-footer {
-              padding-left: var(--dl-space-space-twounits);
-              padding-right: var(--dl-space-space-twounits);
-            }
-            .limited-partnership-lp-text49 {
-              text-align: center;
-              margin-left: var(--dl-space-space-unit);
-              margin-right: var(--dl-space-space-unit);
-            }
           }
           @media (max-width: 479px) {
             .limited-partnership-lp-container04 {
@@ -2460,15 +2423,6 @@ const LimitedPartnershipLP = (props) => {
             .limited-partnership-lp-description4 {
               font-size: 14px;
               line-height: 21px;
-            }
-            .limited-partnership-lp-footer {
-              padding: var(--dl-space-space-unit);
-              flex-direction: column;
-            }
-            .limited-partnership-lp-text49 {
-              margin-left: 0px;
-              margin-right: 0px;
-              margin-bottom: var(--dl-space-space-unit);
             }
           }
         `}

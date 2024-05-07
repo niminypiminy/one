@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Head from 'next/head'
 
 import Navbar from '../components/navbar'
+import Footer1 from '../components/footer1'
 
 const ProBono = (props) => {
   return (
@@ -51,16 +52,12 @@ const ProBono = (props) => {
           <div className="pro-bono-container4">
             <img
               alt="image"
-              src="/pro%20bono-600w.jpg"
+              src="/pro%20bono-1200h.jpg"
               className="pro-bono-image"
             />
           </div>
         </div>
-        <footer className="pro-bono-footer">
-          <span className="pro-bono-text6">
-            © 2023 Eireahmon &amp; Associates LP., All Rights Reserved.
-          </span>
-        </footer>
+        <Footer1 rootClassName="footer1-root-class-name12"></Footer1>
       </div>
       <style jsx>
         {`
@@ -146,7 +143,7 @@ const ProBono = (props) => {
           }
           .pro-bono-image {
             width: 80%;
-            height: auto;
+            height: 80%;
             align-self: center;
             box-shadow: 5px 5px 10px 0px #000000;
             object-fit: cover;
@@ -154,26 +151,6 @@ const ProBono = (props) => {
           }
           .pro-bono-image:hover {
             transform: scale(1.2);
-          }
-          .pro-bono-footer {
-            width: 100%;
-            display: flex;
-            max-width: auto;
-            margin-top: var(--dl-space-space-twounits);
-            align-items: center;
-            padding-top: var(--dl-space-space-twounits);
-            padding-left: var(--dl-space-space-threeunits);
-            padding-right: var(--dl-space-space-threeunits);
-            padding-bottom: var(--dl-space-space-twounits);
-            justify-content: center;
-          }
-          .pro-bono-text6 {
-            color: rgb(17, 40, 33);
-            font-size: 1.2rem;
-            font-style: normal;
-            text-align: left;
-            font-family: Josefin Sans;
-            font-weight: 200;
           }
           @media (max-width: 1600px) {
             .pro-bono-container1 {
@@ -195,14 +172,6 @@ const ProBono = (props) => {
             }
             .pro-bono-container4 {
               width: 40%;
-            }
-            .pro-bono-footer {
-              margin-top: var(--dl-space-space-threeunits);
-            }
-            .pro-bono-text6 {
-              font-style: normal;
-              font-family: Josefin Sans;
-              font-weight: 200;
             }
           }
           @media (max-width: 1200px) {
@@ -228,15 +197,6 @@ const ProBono = (props) => {
             .pro-bono-container3 {
               width: 85%;
             }
-            .pro-bono-footer {
-              padding-left: var(--dl-space-space-twounits);
-              padding-right: var(--dl-space-space-twounits);
-            }
-            .pro-bono-text6 {
-              text-align: center;
-              margin-left: var(--dl-space-space-unit);
-              margin-right: var(--dl-space-space-unit);
-            }
           }
           @media (max-width: 479px) {
             .pro-bono-container2 {
@@ -244,15 +204,6 @@ const ProBono = (props) => {
             }
             .pro-bono-container3 {
               width: 85%;
-            }
-            .pro-bono-footer {
-              padding: var(--dl-space-space-unit);
-              flex-direction: column;
-            }
-            .pro-bono-text6 {
-              margin-left: 0px;
-              margin-right: 0px;
-              margin-bottom: var(--dl-space-space-unit);
             }
           }
         `}

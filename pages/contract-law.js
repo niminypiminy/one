@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Head from 'next/head'
 
 import Navbar from '../components/navbar'
+import Footer1 from '../components/footer1'
 
 const ContractLaw = (props) => {
   return (
@@ -54,11 +55,7 @@ const ContractLaw = (props) => {
             </div>
           </div>
         </div>
-        <footer className="contract-law-footer">
-          <span className="contract-law-text3">
-            © 2023 Danneskiold &amp; Associates LP., All Rights Reserved.
-          </span>
-        </footer>
+        <Footer1></Footer1>
       </div>
       <style jsx>
         {`
@@ -159,25 +156,6 @@ const ContractLaw = (props) => {
             color: var(--dl-color-gray-white);
             background-color: #1b1b1b;
           }
-          .contract-law-footer {
-            width: 100%;
-            display: flex;
-            max-width: auto;
-            align-items: center;
-            padding-top: var(--dl-space-space-twounits);
-            padding-left: var(--dl-space-space-threeunits);
-            padding-right: var(--dl-space-space-threeunits);
-            padding-bottom: var(--dl-space-space-twounits);
-            justify-content: center;
-          }
-          .contract-law-text3 {
-            color: rgb(17, 40, 33);
-            font-size: 1.2rem;
-            font-style: normal;
-            text-align: left;
-            font-family: Josefin Sans;
-            font-weight: 200;
-          }
           @media (max-width: 1600px) {
             .contract-law-container1 {
               height: 100vh;
@@ -259,15 +237,6 @@ const ContractLaw = (props) => {
             .contract-law-text2 {
               align-self: flex-start;
             }
-            .contract-law-footer {
-              padding-left: var(--dl-space-space-twounits);
-              padding-right: var(--dl-space-space-twounits);
-            }
-            .contract-law-text3 {
-              text-align: center;
-              margin-left: var(--dl-space-space-unit);
-              margin-right: var(--dl-space-space-unit);
-            }
           }
           @media (max-width: 479px) {
             .contract-law-image {
@@ -290,15 +259,6 @@ const ContractLaw = (props) => {
             }
             .contract-law-text2 {
               align-self: flex-start;
-            }
-            .contract-law-footer {
-              padding: var(--dl-space-space-unit);
-              flex-direction: column;
-            }
-            .contract-law-text3 {
-              margin-left: 0px;
-              margin-right: 0px;
-              margin-bottom: var(--dl-space-space-unit);
             }
           }
         `}

@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Head from 'next/head'
 
 import Navbar from '../components/navbar'
+import Footer1 from '../components/footer1'
 
 const Blog = (props) => {
   return (
@@ -50,15 +51,12 @@ const Blog = (props) => {
                     system compared to common law countries.
                   </p>
                 </div>
-                <div className="blog-actions">
-                  <Link href="/criminal-proceedings-in-thailand">
-                    <a className="blog-link thq-button-filled">
-                      <span className="blog-action1 thq-body-small">
-                        Read Article
-                      </span>
-                    </a>
-                  </Link>
-                </div>
+                <div className="blog-actions"></div>
+                <Link href="/criminal-proceedings-in-thailand">
+                  <a className="blog-link">
+                    <h1 className="blog-text3">Read Article</h1>
+                  </a>
+                </Link>
               </div>
             </div>
             <div className="blog-image-container">
@@ -70,6 +68,7 @@ const Blog = (props) => {
             </div>
           </div>
         </div>
+        <Footer1 rootClassName="footer1-root-class-name2"></Footer1>
       </div>
       <style jsx>
         {`
@@ -104,7 +103,7 @@ const Blog = (props) => {
             font-style: normal;
             text-align: center;
             font-family: 'Josefin Sans';
-            font-weight: 600;
+            font-weight: 300;
           }
           .blog-layout349 {
             display: flex;
@@ -149,38 +148,36 @@ const Blog = (props) => {
             font-size: 2rem;
             font-style: normal;
             font-family: 'Josefin Sans';
-            font-weight: 400;
+            font-weight: 300;
           }
           .blog-text2 {
             font-size: 1.5rem;
             font-style: normal;
             font-family: 'Josefin Sans';
-            font-weight: 300;
+            font-weight: 200;
           }
           .blog-actions {
             gap: var(--dl-space-space-unit);
+            border: 2px dashed rgba(120, 120, 120, 0.4);
             display: flex;
           }
           .blog-link {
-            fill: var(--dl-color-theme-secondary1);
-            color: var(--dl-color-theme-secondary1);
-            transition: 0.3s;
-            padding-top: var(--dl-space-space-halfunit);
-            padding-left: var(--dl-space-space-oneandhalfunits);
-            padding-right: var(--dl-space-space-oneandhalfunits);
-            padding-bottom: var(--dl-space-space-halfunit);
-            text-decoration: none;
-            background-color: var(--dl-color-theme-neutral-dark);
+            display: contents;
           }
-          .blog-link:hover {
-            color: var(--dl-color-theme-neutral-dark);
-            background-color: ffff00;
-          }
-          .blog-action1 {
+          .blog-text3 {
+            width: auto;
+            padding: var(--dl-space-space-oneandhalfunits);
             font-size: 1.5rem;
             font-style: normal;
+            transition: 0.3s;
             font-family: 'Josefin Sans';
             font-weight: 200;
+            border-color: var(--dl-color-gray-black);
+            border-width: 1px;
+          }
+          .blog-text3:hover {
+            color: var(--dl-color-gray-white);
+            background-color: #1b1b1b;
           }
           .blog-image-container {
             flex: 1;
@@ -200,9 +197,6 @@ const Blog = (props) => {
             .blog-actions {
               width: 100%;
               flex-direction: column;
-            }
-            .blog-link {
-              width: 100%;
             }
           }
         `}

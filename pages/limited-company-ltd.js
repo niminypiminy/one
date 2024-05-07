@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Head from 'next/head'
 
 import Navbar from '../components/navbar'
+import Footer1 from '../components/footer1'
 
 const LimitedCompanyLtd = (props) => {
   return (
@@ -542,11 +543,7 @@ const LimitedCompanyLtd = (props) => {
         <Link href="/contact">
           <a className="limited-company-ltd-link4">Ask us anything.</a>
         </Link>
-        <footer className="limited-company-ltd-footer">
-          <span className="limited-company-ltd-text48">
-            © 2023 Danneskiold &amp; Associates LP., All Rights Reserved.
-          </span>
-        </footer>
+        <Footer1 rootClassName="footer1-root-class-name9"></Footer1>
       </div>
       <style jsx>
         {`
@@ -1722,26 +1719,6 @@ const LimitedCompanyLtd = (props) => {
             text-decoration: underline;
             background-color: #ffff00;
           }
-          .limited-company-ltd-footer {
-            width: 100%;
-            display: flex;
-            max-width: auto;
-            margin-top: var(--dl-space-space-twounits);
-            align-items: center;
-            padding-top: var(--dl-space-space-twounits);
-            padding-left: var(--dl-space-space-threeunits);
-            padding-right: var(--dl-space-space-threeunits);
-            padding-bottom: var(--dl-space-space-twounits);
-            justify-content: center;
-          }
-          .limited-company-ltd-text48 {
-            color: rgb(17, 40, 33);
-            font-size: 1.2rem;
-            font-style: normal;
-            text-align: left;
-            font-family: Josefin Sans;
-            font-weight: 200;
-          }
           @media (max-width: 1600px) {
             .limited-company-ltd-text {
               color: var(--dl-color-gray-black);
@@ -1820,11 +1797,6 @@ const LimitedCompanyLtd = (props) => {
               padding-left: var(--dl-space-space-halfunit);
               padding-right: var(--dl-space-space-halfunit);
               padding-bottom: var(--dl-space-space-halfunit);
-            }
-            .limited-company-ltd-text48 {
-              color: var(--dl-color-gray-black);
-              font-size: 1.2rem;
-              font-family: Josefin Sans;
             }
           }
           @media (max-width: 1200px) {
@@ -2282,15 +2254,6 @@ const LimitedCompanyLtd = (props) => {
             .limited-company-ltd-element4 {
               align-items: flex-start;
             }
-            .limited-company-ltd-footer {
-              padding-left: var(--dl-space-space-twounits);
-              padding-right: var(--dl-space-space-twounits);
-            }
-            .limited-company-ltd-text48 {
-              text-align: center;
-              margin-left: var(--dl-space-space-unit);
-              margin-right: var(--dl-space-space-unit);
-            }
           }
           @media (max-width: 479px) {
             .limited-company-ltd-container02 {
@@ -2484,15 +2447,6 @@ const LimitedCompanyLtd = (props) => {
             .limited-company-ltd-description4 {
               font-size: 14px;
               line-height: 21px;
-            }
-            .limited-company-ltd-footer {
-              padding: var(--dl-space-space-unit);
-              flex-direction: column;
-            }
-            .limited-company-ltd-text48 {
-              margin-left: 0px;
-              margin-right: 0px;
-              margin-bottom: var(--dl-space-space-unit);
             }
           }
         `}

@@ -2,6 +2,7 @@ import React from 'react'
 import Head from 'next/head'
 
 import Navbar from '../components/navbar'
+import Footer1 from '../components/footer1'
 
 const Contact = (props) => {
   return (
@@ -122,11 +123,7 @@ const Contact = (props) => {
             </form>
           </div>
         </div>
-        <footer className="contact-footer">
-          <span className="contact-text13">
-            © 2023 Danneskiold &amp; Associates LP., All Rights Reserved.
-          </span>
-        </footer>
+        <Footer1 rootClassName="footer1-root-class-name3"></Footer1>
       </div>
       <style jsx>
         {`
@@ -255,26 +252,6 @@ const Contact = (props) => {
             border-width: 1px;
             background-color: var(--dl-color-gray-white);
           }
-          .contact-footer {
-            width: 100%;
-            display: flex;
-            max-width: auto;
-            margin-top: var(--dl-space-space-threeunits);
-            align-items: center;
-            padding-top: var(--dl-space-space-threeunits);
-            padding-left: var(--dl-space-space-threeunits);
-            padding-right: var(--dl-space-space-threeunits);
-            padding-bottom: var(--dl-space-space-threeunits);
-            justify-content: center;
-          }
-          .contact-text13 {
-            color: rgb(17, 40, 33);
-            font-size: 1.2rem;
-            font-style: normal;
-            text-align: left;
-            font-family: Josefin Sans;
-            font-weight: 200;
-          }
           @media (max-width: 1600px) {
             .contact-container1 {
               margin-top: var(--dl-space-space-threeunits);
@@ -325,17 +302,6 @@ const Contact = (props) => {
             .contact-button {
               margin-top: var(--dl-space-space-twounits);
             }
-            .contact-footer {
-              margin-top: var(--dl-space-space-threeunits);
-              padding-top: var(--dl-space-space-threeunits);
-              padding-bottom: var(--dl-space-space-threeunits);
-            }
-            .contact-text13 {
-              font-size: 1.2rem;
-              font-style: normal;
-              font-family: Josefin Sans;
-              font-weight: 200;
-            }
           }
           @media (max-width: 1200px) {
             .contact-container2 {
@@ -357,15 +323,6 @@ const Contact = (props) => {
             .contact-form {
               width: 95%;
             }
-            .contact-footer {
-              padding-left: var(--dl-space-space-twounits);
-              padding-right: var(--dl-space-space-twounits);
-            }
-            .contact-text13 {
-              text-align: center;
-              margin-left: var(--dl-space-space-unit);
-              margin-right: var(--dl-space-space-unit);
-            }
           }
           @media (max-width: 479px) {
             .contact-container2 {
@@ -382,15 +339,6 @@ const Contact = (props) => {
             }
             .contact-textarea {
               width: 100%;
-            }
-            .contact-footer {
-              padding: var(--dl-space-space-unit);
-              flex-direction: column;
-            }
-            .contact-text13 {
-              margin-left: 0px;
-              margin-right: 0px;
-              margin-bottom: var(--dl-space-space-unit);
             }
           }
         `}

@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Head from 'next/head'
 
 import Navbar from '../components/navbar'
+import Footer1 from '../components/footer1'
 
 const PreferredShares = (props) => {
   return (
@@ -70,11 +71,7 @@ const PreferredShares = (props) => {
             </div>
           </div>
         </div>
-        <footer className="preferred-shares-footer">
-          <span className="preferred-shares-text5">
-            © 2023 Danneskiold &amp; Associates LP., All Rights Reserved.
-          </span>
-        </footer>
+        <Footer1></Footer1>
       </div>
       <style jsx>
         {`
@@ -146,25 +143,6 @@ const PreferredShares = (props) => {
           .preferred-shares-link1 {
             text-decoration: underline;
           }
-          .preferred-shares-footer {
-            width: 100%;
-            display: flex;
-            max-width: auto;
-            align-items: center;
-            padding-top: var(--dl-space-space-twounits);
-            padding-left: var(--dl-space-space-threeunits);
-            padding-right: var(--dl-space-space-threeunits);
-            padding-bottom: var(--dl-space-space-twounits);
-            justify-content: center;
-          }
-          .preferred-shares-text5 {
-            color: rgb(17, 40, 33);
-            font-size: 1.2rem;
-            font-style: normal;
-            text-align: left;
-            font-family: Josefin Sans;
-            font-weight: 200;
-          }
           @media (max-width: 1600px) {
             .preferred-shares-container2 {
               height: 100vh;
@@ -222,15 +200,6 @@ const PreferredShares = (props) => {
               font-weight: 200;
               padding-left: var(--dl-space-space-halfunit);
             }
-            .preferred-shares-footer {
-              padding-left: var(--dl-space-space-twounits);
-              padding-right: var(--dl-space-space-twounits);
-            }
-            .preferred-shares-text5 {
-              text-align: center;
-              margin-left: var(--dl-space-space-unit);
-              margin-right: var(--dl-space-space-unit);
-            }
           }
           @media (max-width: 479px) {
             .preferred-shares-container4 {
@@ -247,15 +216,6 @@ const PreferredShares = (props) => {
               text-align: left;
               padding-left: 0px;
               padding-right: 0px;
-            }
-            .preferred-shares-footer {
-              padding: var(--dl-space-space-unit);
-              flex-direction: column;
-            }
-            .preferred-shares-text5 {
-              margin-left: 0px;
-              margin-right: 0px;
-              margin-bottom: var(--dl-space-space-unit);
             }
           }
         `}

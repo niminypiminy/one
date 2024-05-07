@@ -2,6 +2,7 @@ import React from 'react'
 import Head from 'next/head'
 
 import Navbar from '../components/navbar'
+import Footer1 from '../components/footer1'
 
 const ThankYou = (props) => {
   return (
@@ -35,11 +36,7 @@ const ThankYou = (props) => {
             as soon as humanly possible.
           </h1>
         </div>
-        <footer className="thank-you-footer">
-          <span className="thank-you-text1">
-            © 2023 Danneskiold &amp; Associates LP., All Rights Reserved.
-          </span>
-        </footer>
+        <Footer1></Footer1>
       </div>
       <style jsx>
         {`
@@ -76,26 +73,6 @@ const ThankYou = (props) => {
             font-family: Josefin Sans;
             font-weight: 200;
           }
-          .thank-you-footer {
-            width: 100%;
-            display: flex;
-            max-width: var(--dl-size-size-maxwidth);
-            align-items: center;
-            padding-top: var(--dl-space-space-twounits);
-            padding-left: var(--dl-space-space-threeunits);
-            padding-right: var(--dl-space-space-threeunits);
-            padding-bottom: var(--dl-space-space-twounits);
-            justify-content: center;
-            background-color: #ffffff;
-          }
-          .thank-you-text1 {
-            color: var(--dl-color-gray-black);
-            font-size: 1.2rem;
-            font-style: normal;
-            text-align: left;
-            font-family: Josefin Sans;
-            font-weight: 200;
-          }
           @media (max-width: 1600px) {
             .thank-you-image {
               width: 35%;
@@ -127,15 +104,6 @@ const ThankYou = (props) => {
             .thank-you-text {
               width: 80%;
             }
-            .thank-you-footer {
-              padding-left: var(--dl-space-space-twounits);
-              padding-right: var(--dl-space-space-twounits);
-            }
-            .thank-you-text1 {
-              text-align: center;
-              margin-left: var(--dl-space-space-unit);
-              margin-right: var(--dl-space-space-unit);
-            }
           }
           @media (max-width: 479px) {
             .thank-you-image {
@@ -143,15 +111,6 @@ const ThankYou = (props) => {
             }
             .thank-you-text {
               width: 80%;
-            }
-            .thank-you-footer {
-              padding: var(--dl-space-space-unit);
-              flex-direction: column;
-            }
-            .thank-you-text1 {
-              margin-left: 0px;
-              margin-right: 0px;
-              margin-bottom: var(--dl-space-space-unit);
             }
           }
         `}

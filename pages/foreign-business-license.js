@@ -4,6 +4,7 @@ import Head from 'next/head'
 
 import Navbar from '../components/navbar'
 import IconContainer from '../components/icon-container'
+import Footer1 from '../components/footer1'
 
 const ForeignBusinessLicense = (props) => {
   return (
@@ -620,11 +621,7 @@ const ForeignBusinessLicense = (props) => {
         <Link href="/contact">
           <a className="foreign-business-license-link3">Ask us anything.</a>
         </Link>
-        <footer className="foreign-business-license-footer">
-          <span className="foreign-business-license-text71">
-            © 2023 Danneskiold &amp; Associates LP., All Rights Reserved.
-          </span>
-        </footer>
+        <Footer1 rootClassName="footer1-root-class-name7"></Footer1>
       </div>
       <style jsx>
         {`
@@ -2077,26 +2074,6 @@ const ForeignBusinessLicense = (props) => {
             text-decoration: underline;
             background-color: #ffff00;
           }
-          .foreign-business-license-footer {
-            width: 100%;
-            display: flex;
-            max-width: auto;
-            margin-top: var(--dl-space-space-fourunits);
-            align-items: center;
-            padding-top: var(--dl-space-space-twounits);
-            padding-left: var(--dl-space-space-threeunits);
-            padding-right: var(--dl-space-space-threeunits);
-            padding-bottom: var(--dl-space-space-twounits);
-            justify-content: center;
-          }
-          .foreign-business-license-text71 {
-            color: var(--dl-color-gray-black);
-            font-size: 1.2rem;
-            font-style: normal;
-            text-align: left;
-            font-family: Josefin Sans;
-            font-weight: 200;
-          }
           @media (max-width: 1600px) {
             .foreign-business-license-container01 {
               height: 100vh;
@@ -2196,11 +2173,6 @@ const ForeignBusinessLicense = (props) => {
               padding-left: var(--dl-space-space-halfunit);
               padding-right: var(--dl-space-space-halfunit);
               padding-bottom: var(--dl-space-space-halfunit);
-            }
-            .foreign-business-license-text71 {
-              font-style: normal;
-              font-family: Josefin Sans;
-              font-weight: 200;
             }
           }
           @media (max-width: 1200px) {
@@ -3183,15 +3155,6 @@ const ForeignBusinessLicense = (props) => {
               width: 100%;
               height: 90%;
             }
-            .foreign-business-license-footer {
-              padding-left: var(--dl-space-space-twounits);
-              padding-right: var(--dl-space-space-twounits);
-            }
-            .foreign-business-license-text71 {
-              text-align: center;
-              margin-left: var(--dl-space-space-unit);
-              margin-right: var(--dl-space-space-unit);
-            }
           }
           @media (max-width: 479px) {
             .foreign-business-license-image {
@@ -3288,17 +3251,6 @@ const ForeignBusinessLicense = (props) => {
               font-style: normal;
               font-family: Josefin Sans;
               font-weight: 200;
-            }
-            .foreign-business-license-footer {
-              padding: var(--dl-space-space-unit);
-              flex-direction: column;
-            }
-            .foreign-business-license-text71 {
-              color: var(--dl-color-gray-black);
-              font-size: 1.2rem;
-              margin-left: 0px;
-              margin-right: 0px;
-              margin-bottom: var(--dl-space-space-unit);
             }
           }
         `}

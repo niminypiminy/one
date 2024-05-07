@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Head from 'next/head'
 
 import Navbar from '../components/navbar'
+import Footer1 from '../components/footer1'
 
 const CriminalLaw = (props) => {
   return (
@@ -60,11 +61,7 @@ const CriminalLaw = (props) => {
             />
           </div>
         </div>
-        <footer className="criminal-law-footer">
-          <span className="criminal-law-text5">
-            © 2023 Danneskiold &amp; Associates LP., All Rights Reserved.
-          </span>
-        </footer>
+        <Footer1></Footer1>
       </div>
       <style jsx>
         {`
@@ -162,25 +159,6 @@ const CriminalLaw = (props) => {
           .criminal-law-image:hover {
             transform: scale(1.2);
           }
-          .criminal-law-footer {
-            width: 100%;
-            display: flex;
-            max-width: auto;
-            align-items: center;
-            padding-top: var(--dl-space-space-twounits);
-            padding-left: var(--dl-space-space-threeunits);
-            padding-right: var(--dl-space-space-threeunits);
-            padding-bottom: var(--dl-space-space-twounits);
-            justify-content: center;
-          }
-          .criminal-law-text5 {
-            color: rgb(17, 40, 33);
-            font-size: 1.2rem;
-            font-style: normal;
-            text-align: left;
-            font-family: Josefin Sans;
-            font-weight: 200;
-          }
           @media (max-width: 1600px) {
             .criminal-law-text1 {
               font-size: 1.5rem;
@@ -239,15 +217,6 @@ const CriminalLaw = (props) => {
             .criminal-law-image {
               width: 100%;
             }
-            .criminal-law-footer {
-              padding-left: var(--dl-space-space-twounits);
-              padding-right: var(--dl-space-space-twounits);
-            }
-            .criminal-law-text5 {
-              text-align: center;
-              margin-left: var(--dl-space-space-unit);
-              margin-right: var(--dl-space-space-unit);
-            }
           }
           @media (max-width: 479px) {
             .criminal-law-container2 {
@@ -269,15 +238,6 @@ const CriminalLaw = (props) => {
             }
             .criminal-law-text4 {
               align-self: flex-start;
-            }
-            .criminal-law-footer {
-              padding: var(--dl-space-space-unit);
-              flex-direction: column;
-            }
-            .criminal-law-text5 {
-              margin-left: 0px;
-              margin-right: 0px;
-              margin-bottom: var(--dl-space-space-unit);
             }
           }
         `}

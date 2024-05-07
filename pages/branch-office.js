@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Head from 'next/head'
 
 import Navbar from '../components/navbar'
+import Footer1 from '../components/footer1'
 
 const BranchOffice = (props) => {
   return (
@@ -250,12 +251,8 @@ const BranchOffice = (props) => {
               <a className="branch-office-link1">Ask us anything</a>
             </Link>
           </div>
-          <footer className="branch-office-footer">
-            <span className="branch-office-text29">
-              © 2023 Danneskiold &amp; Associates LP., All Rights Reserved.
-            </span>
-          </footer>
         </div>
+        <Footer1 rootClassName="footer1-root-class-name5"></Footer1>
       </div>
       <style jsx>
         {`
@@ -975,26 +972,6 @@ const BranchOffice = (props) => {
             text-decoration: underline;
             background-color: #ffff00;
           }
-          .branch-office-footer {
-            width: 100%;
-            display: flex;
-            max-width: auto;
-            margin-top: var(--dl-space-space-fourunits);
-            align-items: center;
-            padding-top: var(--dl-space-space-twounits);
-            padding-left: var(--dl-space-space-threeunits);
-            padding-right: var(--dl-space-space-threeunits);
-            padding-bottom: var(--dl-space-space-twounits);
-            justify-content: center;
-          }
-          .branch-office-text29 {
-            color: var(--dl-color-gray-black);
-            font-size: 1.2rem;
-            font-style: normal;
-            text-align: left;
-            font-family: Josefin Sans;
-            font-weight: 200;
-          }
           @media (max-width: 1600px) {
             .branch-office-text {
               color: var(--dl-color-gray-black);
@@ -1503,15 +1480,6 @@ const BranchOffice = (props) => {
             .branch-office-link1 {
               color: var(--dl-color-gray-black);
             }
-            .branch-office-footer {
-              padding-left: var(--dl-space-space-twounits);
-              padding-right: var(--dl-space-space-twounits);
-            }
-            .branch-office-text29 {
-              text-align: center;
-              margin-left: var(--dl-space-space-unit);
-              margin-right: var(--dl-space-space-unit);
-            }
           }
           @media (max-width: 479px) {
             .branch-office-container02 {
@@ -1604,15 +1572,6 @@ const BranchOffice = (props) => {
             }
             .branch-office-text26 {
               width: 80%;
-            }
-            .branch-office-footer {
-              padding: var(--dl-space-space-unit);
-              flex-direction: column;
-            }
-            .branch-office-text29 {
-              margin-left: 0px;
-              margin-right: 0px;
-              margin-bottom: var(--dl-space-space-unit);
             }
           }
         `}

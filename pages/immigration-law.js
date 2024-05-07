@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Head from 'next/head'
 
 import Navbar from '../components/navbar'
+import Footer1 from '../components/footer1'
 
 const ImmigrationLaw = (props) => {
   return (
@@ -51,11 +52,7 @@ const ImmigrationLaw = (props) => {
             />
           </div>
         </div>
-        <footer className="immigration-law-footer">
-          <span className="immigration-law-text3">
-            © 2023 Danneskiold &amp; Associates LP., All Rights Reserved.
-          </span>
-        </footer>
+        <Footer1></Footer1>
       </div>
       <style jsx>
         {`
@@ -153,26 +150,6 @@ const ImmigrationLaw = (props) => {
           .immigration-law-image:hover {
             transform: scale(1.2);
           }
-          .immigration-law-footer {
-            width: 100%;
-            display: flex;
-            max-width: var(--dl-size-size-maxwidth);
-            align-items: center;
-            padding-top: var(--dl-space-space-twounits);
-            padding-left: var(--dl-space-space-threeunits);
-            padding-right: var(--dl-space-space-threeunits);
-            padding-bottom: var(--dl-space-space-twounits);
-            justify-content: center;
-            background-color: #ffffff;
-          }
-          .immigration-law-text3 {
-            color: rgb(17, 40, 33);
-            font-size: 1.2rem;
-            font-style: normal;
-            text-align: left;
-            font-family: Josefin Sans;
-            font-weight: 200;
-          }
           @media (max-width: 1600px) {
             .immigration-law-text {
               font-size: 2rem;
@@ -212,9 +189,6 @@ const ImmigrationLaw = (props) => {
               width: 100%;
               display: none;
             }
-            .immigration-law-footer {
-              max-width: auto;
-            }
           }
           @media (max-width: 767px) {
             .immigration-law-container2 {
@@ -236,15 +210,6 @@ const ImmigrationLaw = (props) => {
             }
             .immigration-law-image {
               width: 100%;
-            }
-            .immigration-law-footer {
-              padding-left: var(--dl-space-space-twounits);
-              padding-right: var(--dl-space-space-twounits);
-            }
-            .immigration-law-text3 {
-              text-align: center;
-              margin-left: var(--dl-space-space-unit);
-              margin-right: var(--dl-space-space-unit);
             }
           }
           @media (max-width: 479px) {
@@ -269,16 +234,6 @@ const ImmigrationLaw = (props) => {
             }
             .immigration-law-text2 {
               align-self: flex-start;
-            }
-            .immigration-law-footer {
-              padding: var(--dl-space-space-unit);
-              max-width: auto;
-              flex-direction: column;
-            }
-            .immigration-law-text3 {
-              margin-left: 0px;
-              margin-right: 0px;
-              margin-bottom: var(--dl-space-space-unit);
             }
           }
         `}

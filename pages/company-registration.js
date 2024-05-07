@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Head from 'next/head'
 
 import Navbar from '../components/navbar'
+import Footer1 from '../components/footer1'
 
 const CompanyRegistration = (props) => {
   return (
@@ -241,11 +242,7 @@ const CompanyRegistration = (props) => {
         <Link href="/contact">
           <a className="company-registration-link09">Ask us anything.</a>
         </Link>
-        <footer className="company-registration-footer">
-          <span className="company-registration-text55">
-            © 2023 Danneskiold &amp; Associates LP., All Rights Reserved.
-          </span>
-        </footer>
+        <Footer1 rootClassName="footer1-root-class-name6"></Footer1>
       </div>
       <style jsx>
         {`
@@ -992,26 +989,6 @@ const CompanyRegistration = (props) => {
             text-decoration: underline;
             background-color: rgb(255, 255, 0);
           }
-          .company-registration-footer {
-            width: 100%;
-            display: flex;
-            max-width: auto;
-            margin-top: var(--dl-space-space-fiveunits);
-            align-items: center;
-            padding-top: var(--dl-space-space-twounits);
-            padding-left: var(--dl-space-space-threeunits);
-            padding-right: var(--dl-space-space-threeunits);
-            padding-bottom: var(--dl-space-space-twounits);
-            justify-content: center;
-          }
-          .company-registration-text55 {
-            color: var(--dl-color-gray-black);
-            font-size: 1.2rem;
-            font-style: normal;
-            text-align: left;
-            font-family: Josefin Sans;
-            font-weight: 200;
-          }
           @media (max-width: 1600px) {
             .company-registration-container01 {
               height: 75vh;
@@ -1033,11 +1010,6 @@ const CompanyRegistration = (props) => {
               padding-left: var(--dl-space-space-halfunit);
               padding-right: var(--dl-space-space-halfunit);
               padding-bottom: var(--dl-space-space-halfunit);
-            }
-            .company-registration-text55 {
-              font-style: normal;
-              font-family: Josefin Sans;
-              font-weight: 200;
             }
           }
           @media (max-width: 1200px) {
@@ -1192,15 +1164,6 @@ const CompanyRegistration = (props) => {
             .company-registration-link08 {
               text-align: center;
             }
-            .company-registration-footer {
-              padding-left: var(--dl-space-space-twounits);
-              padding-right: var(--dl-space-space-twounits);
-            }
-            .company-registration-text55 {
-              text-align: center;
-              margin-left: var(--dl-space-space-unit);
-              margin-right: var(--dl-space-space-unit);
-            }
           }
           @media (max-width: 479px) {
             .company-registration-container01 {
@@ -1283,17 +1246,6 @@ const CompanyRegistration = (props) => {
             }
             .company-registration-link08 {
               text-align: center;
-            }
-            .company-registration-footer {
-              padding: var(--dl-space-space-unit);
-              flex-direction: column;
-            }
-            .company-registration-text55 {
-              color: var(--dl-color-gray-black);
-              font-size: 1.2rem;
-              margin-left: 0px;
-              margin-right: 0px;
-              margin-bottom: var(--dl-space-space-unit);
             }
           }
         `}

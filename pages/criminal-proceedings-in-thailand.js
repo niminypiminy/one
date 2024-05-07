@@ -125,7 +125,7 @@ const CriminalProceedingsInThailand = (props) => {
             </li>
           </ul>
           <span className="criminal-proceedings-in-thailand-text08">
-            <span className="criminal-proceedings-in-thailand-text09">
+            <span>
               In Thailand, however, individual persons have
               <span
                 dangerouslySetInnerHTML={{
@@ -133,10 +133,8 @@ const CriminalProceedingsInThailand = (props) => {
                 }}
               />
             </span>
-            <span className="criminal-proceedings-in-thailand-text10">
-              two available options
-            </span>
-            <span className="criminal-proceedings-in-thailand-text11">:</span>
+            <span>two available options</span>
+            <span>:</span>
           </span>
           <ul className="criminal-proceedings-in-thailand-ul1 list">
             <li className="criminal-proceedings-in-thailand-li03 list-item">
@@ -258,9 +256,7 @@ const CriminalProceedingsInThailand = (props) => {
             minimal resources to your case. 
           </span>
           <span className="criminal-proceedings-in-thailand-text32">
-            <span className="criminal-proceedings-in-thailand-text33">
-              Note:
-            </span>
+            <span>Note:</span>
             <span>
               {' '}
               If the police refer charges to the prosecutor, and the prosecutor
@@ -272,9 +268,7 @@ const CriminalProceedingsInThailand = (props) => {
                 }}
               />
             </span>
-            <span className="criminal-proceedings-in-thailand-text35">
-              private criminal proceeding
-            </span>
+            <span>private criminal proceeding</span>
             <span>.</span>
           </span>
         </div>
@@ -339,7 +333,7 @@ const CriminalProceedingsInThailand = (props) => {
             font-style: normal;
             text-align: left;
             font-family: 'Josefin Sans';
-            font-weight: 300;
+            font-weight: 200;
           }
           .criminal-proceedings-in-thailand-link2 {
             text-decoration: underline;
@@ -360,34 +354,26 @@ const CriminalProceedingsInThailand = (props) => {
             font-size: 2rem;
             font-style: normal;
             font-family: 'Josefin Sans';
-            font-weight: 300;
+            font-weight: 200;
           }
           .criminal-proceedings-in-thailand-text06 {
             font-size: 2rem;
             font-style: normal;
             font-family: 'Josefin Sans';
-            font-weight: 300;
+            font-weight: 200;
           }
           .criminal-proceedings-in-thailand-text07 {
             font-size: 2rem;
             font-style: normal;
             font-family: 'Josefin Sans';
-            font-weight: 300;
+            font-weight: 200;
           }
           .criminal-proceedings-in-thailand-text08 {
             width: 75%;
             font-size: 2rem;
+            font-style: normal;
             font-family: 'Josefin Sans';
-            font-weight: 300;
-          }
-          .criminal-proceedings-in-thailand-text09 {
-            font-style: normal;
-          }
-          .criminal-proceedings-in-thailand-text10 {
-            font-weight: 600;
-          }
-          .criminal-proceedings-in-thailand-text11 {
-            font-style: normal;
+            font-weight: 200;
           }
           .criminal-proceedings-in-thailand-ul1 {
             width: 60%;
@@ -404,7 +390,7 @@ const CriminalProceedingsInThailand = (props) => {
             font-size: 2rem;
             font-style: normal;
             font-family: 'Josefin Sans';
-            font-weight: 300;
+            font-weight: 200;
           }
           .criminal-proceedings-in-thailand-li04 {
             font-size: 16px;
@@ -414,22 +400,14 @@ const CriminalProceedingsInThailand = (props) => {
             font-size: 2rem;
             font-style: normal;
             font-family: 'Josefin Sans';
-            font-weight: 300;
+            font-weight: 200;
           }
           .criminal-proceedings-in-thailand-text14 {
             width: 75%;
             font-size: 2rem;
             font-style: normal;
             font-family: 'Josefin Sans';
-            font-weight: 300;
-          }
-          .criminal-proceedings-in-thailand-text16 {
-            font-style: italic;
-            font-weight: 300;
-          }
-          .criminal-proceedings-in-thailand-text18 {
-            font-style: italic;
-            font-weight: 300;
+            font-weight: 200;
           }
           .criminal-proceedings-in-thailand-text20 {
             width: 75%;
@@ -449,37 +427,37 @@ const CriminalProceedingsInThailand = (props) => {
             font-size: 2rem;
             font-style: normal;
             font-family: 'Josefin Sans';
-            font-weight: 300;
+            font-weight: 200;
           }
           .criminal-proceedings-in-thailand-text22 {
             font-size: 2rem;
             font-style: normal;
             font-family: 'Josefin Sans';
-            font-weight: 300;
+            font-weight: 200;
           }
           .criminal-proceedings-in-thailand-text23 {
             font-size: 2rem;
             font-style: normal;
             font-family: 'Josefin Sans';
-            font-weight: 300;
+            font-weight: 200;
           }
           .criminal-proceedings-in-thailand-text24 {
             font-size: 2rem;
             font-style: normal;
             font-family: 'Josefin Sans';
-            font-weight: 300;
+            font-weight: 200;
           }
           .criminal-proceedings-in-thailand-text25 {
             font-size: 2rem;
             font-style: normal;
             font-family: 'Josefin Sans';
-            font-weight: 300;
+            font-weight: 200;
           }
           .criminal-proceedings-in-thailand-text26 {
             font-size: 2rem;
             font-style: normal;
             font-family: 'Josefin Sans';
-            font-weight: 300;
+            font-weight: 200;
           }
           .criminal-proceedings-in-thailand-text27 {
             width: 75%;
@@ -499,26 +477,26 @@ const CriminalProceedingsInThailand = (props) => {
             font-size: 2rem;
             font-style: normal;
             font-family: 'Josefin Sans';
-            font-weight: 300;
+            font-weight: 200;
           }
           .criminal-proceedings-in-thailand-text29 {
             font-size: 2rem;
             font-style: normal;
             font-family: 'Josefin Sans';
-            font-weight: 300;
+            font-weight: 200;
           }
           .criminal-proceedings-in-thailand-text30 {
             font-size: 2rem;
             font-style: normal;
             font-family: 'Josefin Sans';
-            font-weight: 300;
+            font-weight: 200;
           }
           .criminal-proceedings-in-thailand-text31 {
             width: 75%;
             font-size: 2rem;
             font-style: normal;
             font-family: 'Josefin Sans';
-            font-weight: 300;
+            font-weight: 200;
           }
           .criminal-proceedings-in-thailand-text32 {
             width: 75%;
@@ -526,15 +504,7 @@ const CriminalProceedingsInThailand = (props) => {
             font-style: normal;
             margin-top: var(--dl-space-space-twounits);
             font-family: 'Josefin Sans';
-            font-weight: 300;
-          }
-          .criminal-proceedings-in-thailand-text33 {
-            font-style: italic;
-            font-weight: 400;
-          }
-          .criminal-proceedings-in-thailand-text35 {
-            font-style: italic;
-            font-weight: 300;
+            font-weight: 200;
           }
           .criminal-proceedings-in-thailand-container3 {
             flex: 0 0 auto;

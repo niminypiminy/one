@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Head from 'next/head'
 
 import Navbar from '../components/navbar'
+import Footer1 from '../components/footer1'
 
 const JapanThailandEconomicPartnershipAgreement = (props) => {
   return (
@@ -368,11 +369,7 @@ const JapanThailandEconomicPartnershipAgreement = (props) => {
             </a>
           </Link>
         </div>
-        <footer className="japan-thailand-economic-partnership-agreement-footer">
-          <span className="japan-thailand-economic-partnership-agreement-text56">
-            © 2023 Danneskiold &amp; Associates LP., All Rights Reserved.
-          </span>
-        </footer>
+        <Footer1 rootClassName="footer1-root-class-name8"></Footer1>
       </div>
       <style jsx>
         {`
@@ -1272,26 +1269,6 @@ const JapanThailandEconomicPartnershipAgreement = (props) => {
             text-decoration: underline;
             background-color: #ffff00;
           }
-          .japan-thailand-economic-partnership-agreement-footer {
-            width: 100%;
-            display: flex;
-            max-width: auto;
-            margin-top: var(--dl-space-space-sixunits);
-            align-items: center;
-            padding-top: var(--dl-space-space-twounits);
-            padding-left: var(--dl-space-space-threeunits);
-            padding-right: var(--dl-space-space-threeunits);
-            padding-bottom: var(--dl-space-space-twounits);
-            justify-content: center;
-          }
-          .japan-thailand-economic-partnership-agreement-text56 {
-            color: var(--dl-color-gray-black);
-            font-size: 1.2rem;
-            font-style: normal;
-            text-align: left;
-            font-family: Josefin Sans;
-            font-weight: 200;
-          }
           @media (max-width: 1600px) {
             .japan-thailand-economic-partnership-agreement-text {
               font-size: 2.5rem;
@@ -1362,9 +1339,6 @@ const JapanThailandEconomicPartnershipAgreement = (props) => {
               font-weight: 200;
               text-decoration: underline none;
               background-color: rgb(255, 255, 0);
-            }
-            .japan-thailand-economic-partnership-agreement-text56 {
-              color: var(--dl-color-gray-black);
             }
           }
           @media (max-width: 1200px) {
@@ -1513,15 +1487,6 @@ const JapanThailandEconomicPartnershipAgreement = (props) => {
               color: var(--dl-color-gray-black);
               width: 60%;
             }
-            .japan-thailand-economic-partnership-agreement-footer {
-              padding-left: var(--dl-space-space-twounits);
-              padding-right: var(--dl-space-space-twounits);
-            }
-            .japan-thailand-economic-partnership-agreement-text56 {
-              text-align: center;
-              margin-left: var(--dl-space-space-unit);
-              margin-right: var(--dl-space-space-unit);
-            }
           }
           @media (max-width: 479px) {
             .japan-thailand-economic-partnership-agreement-hero {
@@ -1651,17 +1616,6 @@ const JapanThailandEconomicPartnershipAgreement = (props) => {
             }
             .japan-thailand-economic-partnership-agreement-text55 {
               width: 80%;
-            }
-            .japan-thailand-economic-partnership-agreement-footer {
-              padding: var(--dl-space-space-unit);
-              flex-direction: column;
-            }
-            .japan-thailand-economic-partnership-agreement-text56 {
-              color: var(--dl-color-gray-black);
-              font-size: 1.2rem;
-              margin-left: 0px;
-              margin-right: 0px;
-              margin-bottom: var(--dl-space-space-unit);
             }
           }
         `}
