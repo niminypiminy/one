@@ -42,7 +42,7 @@ const Blog = (props) => {
                 <span className="blog-text thq-body-small">Criminal Law</span>
                 <div className="blog-content1">
                   <h2 className="blog-text1 thq-heading-2">
-                    Exploring Criminal Proceedings in Thailand
+                    Learn more about Criminal Proceedings in Thailand
                   </h2>
                   <p className="blog-text2 thq-body-large">
                     <span>

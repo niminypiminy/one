@@ -124,29 +124,29 @@ const Features20 = (props) => {
 }
 
 Features20.defaultProps = {
+  linkText: 'https://example.com',
+  text: 'Link',
   feature1Action2: 'Secondary action',
+  feature1Title: 'Learn more about Criminal Proceedings in Thailand',
+  feature1Action1: 'Read Article',
   feature1ImageSrc:
     'https://images.unsplash.com/photo-1557672172-298e090bd0f1?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDEwfHxhYnN0cmFjdHxlbnwwfHx8fDE3MTA4NzA5MzB8MA&ixlib=rb-4.0.3&w=1400',
-  feature1Title: 'Learn more about Criminal Proceedings in Thailand',
-  feature1Slogan: 'Criminal Law',
+  feature1ImageAlt: 'Image',
   feature1Description:
     'In most countries, individual persons are not permitted to file criminal charges; those charges often must be brought by a state prosecutor. However, in Thailand an individual retains the right to commence criminal proceedings. Learn more about your rights in Thailand, and how Thailand is different than most common law countries.',
-  feature1Action1: 'Read Article',
-  feature1ImageAlt: 'Image',
-  text: 'Link',
-  linkText: 'https://example.com',
+  feature1Slogan: 'Criminal Law',
 }
 
 Features20.propTypes = {
-  feature1Action2: PropTypes.string,
-  feature1ImageSrc: PropTypes.string,
-  feature1Title: PropTypes.string,
-  feature1Slogan: PropTypes.string,
-  feature1Description: PropTypes.string,
-  feature1Action1: PropTypes.string,
-  feature1ImageAlt: PropTypes.string,
-  text: PropTypes.string,
   linkText: PropTypes.string,
+  text: PropTypes.string,
+  feature1Action2: PropTypes.string,
+  feature1Title: PropTypes.string,
+  feature1Action1: PropTypes.string,
+  feature1ImageSrc: PropTypes.string,
+  feature1ImageAlt: PropTypes.string,
+  feature1Description: PropTypes.string,
+  feature1Slogan: PropTypes.string,
 }
 
 export default Features20

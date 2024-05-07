@@ -123,13 +123,13 @@ const Footer1 = (props) => {
 }
 
 Footer1.defaultProps = {
-  text: '© 2024 Danneskiold & Associates LP., All Rights Reserved.',
   rootClassName: '',
+  text: '© 2024 Danneskiold & Associates LP., All Rights Reserved.',
 }
 
 Footer1.propTypes = {
-  text: PropTypes.string,
   rootClassName: PropTypes.string,
+  text: PropTypes.string,
 }
 
 export default Footer1

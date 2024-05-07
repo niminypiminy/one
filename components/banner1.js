@@ -49,15 +49,15 @@ const Banner1 = (props) => {
 }
 
 Banner1.defaultProps = {
+  heading1: 'Company Name',
   content1: 'Company mission statement',
   action1: 'Call to Action',
-  heading1: 'Company Name',
 }
 
 Banner1.propTypes = {
+  heading1: PropTypes.string,
   content1: PropTypes.string,
   action1: PropTypes.string,
-  heading1: PropTypes.string,
 }
 
 export default Banner1

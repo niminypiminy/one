@@ -129,18 +129,18 @@ const BlogPostHeader8 = (props) => {
 }
 
 BlogPostHeader8.defaultProps = {
+  blogPostImageSrc:
+    'https://images.unsplash.com/photo-1533158307587-828f0a76ef46?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDI0fHxwaG90b3xlbnwwfHx8fDE3MTMxODA1OTZ8MA&ixlib=rb-4.0.3&w=1400',
   blogPostTitle: 'Do your best for your bussiness website',
   authorName: 'By Jane Doe',
   blogPostImageAlt: 'image',
-  blogPostImageSrc:
-    'https://images.unsplash.com/photo-1533158307587-828f0a76ef46?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDI0fHxwaG90b3xlbnwwfHx8fDE3MTMxODA1OTZ8MA&ixlib=rb-4.0.3&w=1400',
 }
 
 BlogPostHeader8.propTypes = {
+  blogPostImageSrc: PropTypes.string,
   blogPostTitle: PropTypes.string,
   authorName: PropTypes.string,
   blogPostImageAlt: PropTypes.string,
-  blogPostImageSrc: PropTypes.string,
 }
 
 export default BlogPostHeader8

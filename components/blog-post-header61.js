@@ -26,11 +26,17 @@ const BlogPostHeader61 = (props) => {
                 className="blog-post-header61-author-image thq-img-round thq-img-ratio-1-1"
               />
               <div className="blog-post-header61-author">
-                <span className="thq-body-small">Written by</span>
-                <span className="thq-body-small">{props.avatarName}</span>
+                <span className="blog-post-header61-text thq-body-small">
+                  Written by
+                </span>
+                <span className="blog-post-header61-text1 thq-body-small">
+                  {props.avatarName}
+                </span>
               </div>
               <div className="blog-post-header61-time">
-                <span className="thq-body-small">{props.date}</span>
+                <span className="blog-post-header61-date thq-body-small">
+                  {props.date}
+                </span>
               </div>
             </div>
           </div>
@@ -55,7 +61,11 @@ const BlogPostHeader61 = (props) => {
             align-items: center;
           }
           .blog-post-header61-category {
+            font-size: 1.2rem;
+            font-style: normal;
             text-align: center;
+            font-family: 'Josefin Sans';
+            font-weight: 300;
           }
           .blog-post-header61-content {
             gap: var(--dl-space-space-oneandhalfunits);
@@ -65,9 +75,14 @@ const BlogPostHeader61 = (props) => {
           }
           .blog-post-header61-title {
             text-align: center;
+            font-family: 'Josefin Sans';
           }
           .blog-post-header61-read-time {
+            font-size: 1.2rem;
+            font-style: normal;
             text-align: center;
+            font-family: 'Josefin Sans';
+            font-weight: 300;
           }
           .blog-post-header61-content1 {
             display: flex;
@@ -83,10 +98,28 @@ const BlogPostHeader61 = (props) => {
             gap: var(--dl-space-space-halfunit);
             display: flex;
           }
+          .blog-post-header61-text {
+            font-size: 1.2rem;
+            font-style: normal;
+            font-family: 'Josefin Sans';
+            font-weight: 200;
+          }
+          .blog-post-header61-text1 {
+            font-size: 1.2rem;
+            font-style: normal;
+            font-family: 'Josefin Sans';
+            font-weight: 300;
+          }
           .blog-post-header61-time {
             gap: 8px;
             display: flex;
             align-items: center;
+          }
+          .blog-post-header61-date {
+            font-size: 1.2rem;
+            font-style: normal;
+            font-family: 'Josefin Sans';
+            font-weight: 200;
           }
         `}
       </style>

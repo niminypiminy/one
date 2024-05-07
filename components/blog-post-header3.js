@@ -26,11 +26,17 @@ const BlogPostHeader3 = (props) => {
                 className="blog-post-header3-author-image thq-img-round thq-img-ratio-1-1"
               />
               <div className="blog-post-header3-author">
-                <span className="thq-body-small">{props.text}</span>
-                <span className="thq-body-small">{props.text1}</span>
+                <span className="blog-post-header3-text thq-body-small">
+                  {props.text}
+                </span>
+                <span className="blog-post-header3-text1 thq-body-small">
+                  {props.text1}
+                </span>
               </div>
               <div className="blog-post-header3-time">
-                <span className="thq-body-small">{props.date}</span>
+                <span className="blog-post-header3-date thq-body-small">
+                  {props.date}
+                </span>
               </div>
             </div>
           </div>
@@ -55,7 +61,11 @@ const BlogPostHeader3 = (props) => {
             align-items: center;
           }
           .blog-post-header3-category {
+            font-size: 1.2rem;
+            font-style: normal;
             text-align: center;
+            font-family: 'Josefin Sans';
+            font-weight: 200;
           }
           .blog-post-header3-content {
             gap: var(--dl-space-space-oneandhalfunits);
@@ -65,9 +75,14 @@ const BlogPostHeader3 = (props) => {
           }
           .blog-post-header3-title {
             text-align: center;
+            font-family: 'Josefin Sans';
           }
           .blog-post-header3-read-time {
+            font-size: 1.2rem;
+            font-style: normal;
             text-align: center;
+            font-family: 'Josefin Sans';
+            font-weight: 300;
           }
           .blog-post-header3-content1 {
             display: flex;
@@ -83,10 +98,28 @@ const BlogPostHeader3 = (props) => {
             display: flex;
             margin-top: var(--dl-space-space-halfunit);
           }
+          .blog-post-header3-text {
+            font-size: 1.2rem;
+            font-style: normal;
+            font-family: 'Josefin Sans';
+            font-weight: 200;
+          }
+          .blog-post-header3-text1 {
+            font-size: 1.2rem;
+            font-style: normal;
+            font-family: 'Josefin Sans';
+            font-weight: 300;
+          }
           .blog-post-header3-time {
             gap: 8px;
             display: flex;
             align-items: center;
+          }
+          .blog-post-header3-date {
+            font-size: 1.2rem;
+            font-style: normal;
+            font-family: 'Josefin Sans';
+            font-weight: 200;
           }
         `}
       </style>
