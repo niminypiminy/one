@@ -44,7 +44,8 @@ const Blog = (props) => {
                   <h2 className="blog-text1 thq-heading-2">
                     Learn more about Criminal Proceedings in Thailand
                   </h2>
-                  <p className="blog-text2 thq-body-large">
+                  <span className="blog-text2">08/05/2024</span>
+                  <p className="blog-text3 thq-body-large">
                     <span>
                       In most jurisdictions, criminal charges are typically
                       brought by state prosecutors rather than individual
@@ -57,19 +58,19 @@ const Blog = (props) => {
                       />
                     </span>
                     <Link href="/criminal-proceedings-in-thailand">
-                      <a>private criminal proceeding</a>
+                      <a className="blog-link">private criminal proceeding</a>
                     </Link>
                     <span>
-                      . Read further to understand your legal rights in Thailand
-                      and this unique aspects of its legal system compared to
-                      common law countries.
+                      . Read further to understand your legal rights in
+                      Thailand, and particulary this unique aspect of its legal
+                      system.
                     </span>
                   </p>
                 </div>
                 <div className="blog-actions"></div>
                 <Link href="/criminal-proceedings-in-thailand">
                   <a className="blog-link1">
-                    <h1 className="blog-text5">Read Article</h1>
+                    <h1 className="blog-text6">Read Article</h1>
                   </a>
                 </Link>
               </div>
@@ -168,10 +169,19 @@ const Blog = (props) => {
             font-weight: 300;
           }
           .blog-text2 {
-            font-size: 1.5rem;
+            font-size: 1.2rem;
             font-style: normal;
             font-family: 'Josefin Sans';
             font-weight: 300;
+          }
+          .blog-text3 {
+            font-size: 1.5rem;
+            font-style: normal;
+            font-family: 'Josefin Sans';
+            font-weight: 200;
+          }
+          .blog-link {
+            text-decoration: underline;
           }
           .blog-actions {
             gap: var(--dl-space-space-unit);
@@ -181,7 +191,9 @@ const Blog = (props) => {
           .blog-link1 {
             display: contents;
           }
-          .blog-text5 {
+          .blog-text6 {
+            fill: var(--dl-color-theme-secondary1);
+            color: var(--dl-color-theme-secondary1);
             width: auto;
             padding: var(--dl-space-space-oneandhalfunits);
             font-size: 1.5rem;
@@ -191,10 +203,12 @@ const Blog = (props) => {
             font-weight: 200;
             border-color: var(--dl-color-gray-black);
             border-width: 1px;
-          }
-          .blog-text5:hover {
-            color: var(--dl-color-gray-white);
             background-color: #1b1b1b;
+          }
+          .blog-text6:hover {
+            fill: var(--dl-color-theme-neutral-dark);
+            color: var(--dl-color-theme-neutral-dark);
+            background-color: #ffff00;
           }
           .blog-image-container {
             flex: 1;

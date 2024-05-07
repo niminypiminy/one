@@ -59,14 +59,7 @@ const CriminalProceedingsInThailand = (props) => {
         ></BlogPostHeader61>
         <div className="criminal-proceedings-in-thailand-container2">
           <span className="criminal-proceedings-in-thailand-text">
-            <span>
-              Individuals encountering situations involving
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
-            </span>
+            <span>Individuals encountering situations that involve </span>
             <Link href="/domestic-abuse">
               <a className="criminal-proceedings-in-thailand-link2">
                 domestic abuse
@@ -98,10 +91,11 @@ const CriminalProceedingsInThailand = (props) => {
             </Link>
             <span>
               {' '}
-              often opt to pursue both criminal and civil charges. While the
-              civil recourse is consistently accessible, in many jurisdictions,
-              there is a specific procedure for initiating criminal proceedings.
-              In the U.K. and the United States, for example, one must: 
+              often choose to pursue both criminal and civil charges. While
+              civil recourse is generally accessible to victims, in many
+              jurisdictions there is a specific procedure for initiating
+              criminal proceedings. In the U.K. and the United States, for
+              example, one must: 
             </span>
           </span>
           <ul className="criminal-proceedings-in-thailand-ul list">
@@ -244,7 +238,8 @@ const CriminalProceedingsInThailand = (props) => {
           <ul className="criminal-proceedings-in-thailand-ul3 list">
             <li className="list-item">
               <span className="criminal-proceedings-in-thailand-text30">
-                Lodge a formal complaint at the local station in Thailand.
+                Lodge a formal complaint at the local police station in
+                Thailand.
               </span>
             </li>
             <li className="list-item">
@@ -268,7 +263,9 @@ const CriminalProceedingsInThailand = (props) => {
             minimal resources to your case. 
           </span>
           <span className="criminal-proceedings-in-thailand-text34">
-            <span>Note:</span>
+            <span className="criminal-proceedings-in-thailand-text35">
+              Note:
+            </span>
             <span>
               {' '}
               If the police refer charges to the prosecutor, and the prosecutor
@@ -442,7 +439,7 @@ const CriminalProceedingsInThailand = (props) => {
             font-weight: 400;
           }
           .criminal-proceedings-in-thailand-ul2 {
-            width: 60%;
+            width: 65%;
             margin-top: var(--dl-space-space-twounits);
             margin-bottom: var(--dl-space-space-twounits);
             list-style-type: disc;
@@ -492,7 +489,7 @@ const CriminalProceedingsInThailand = (props) => {
             font-weight: 400;
           }
           .criminal-proceedings-in-thailand-ul3 {
-            width: 60%;
+            width: 65%;
             margin-top: var(--dl-space-space-twounits);
             margin-bottom: var(--dl-space-space-twounits);
             list-style-type: disc;
@@ -528,6 +525,10 @@ const CriminalProceedingsInThailand = (props) => {
             font-style: normal;
             margin-top: var(--dl-space-space-twounits);
             font-family: 'Josefin Sans';
+            font-weight: 200;
+          }
+          .criminal-proceedings-in-thailand-text35 {
+            font-style: italic;
             font-weight: 200;
           }
           .criminal-proceedings-in-thailand-container3 {

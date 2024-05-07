@@ -74,6 +74,7 @@ const BlogPostHeader61 = (props) => {
             flex-direction: column;
           }
           .blog-post-header61-title {
+            font-size: 3rem;
             text-align: center;
             font-family: 'Josefin Sans';
           }

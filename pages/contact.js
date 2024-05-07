@@ -118,7 +118,7 @@ const Contact = (props) => {
                 type="submit"
                 className="contact-button button"
               >
-                Submit
+                Send
               </button>
             </form>
           </div>
@@ -239,11 +239,11 @@ const Contact = (props) => {
             font-style: normal;
             margin-top: var(--dl-space-space-twounits);
             transition: 0.3s;
-            font-family: Josefin Sans;
+            font-family: 'Josefin Sans';
             font-weight: 200;
             border-radius: 0px;
             text-decoration: none;
-            background-color: #1b1b1b;
+            background-color: rgb(27, 27, 27);
           }
           .contact-button:hover {
             color: var(--dl-color-gray-black);
