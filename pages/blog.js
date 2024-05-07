@@ -29,7 +29,9 @@ const Blog = (props) => {
         <div className="blog-container1 thq-section-padding">
           <div className="blog-max-width thq-section-max-width">
             <div className="blog-container2">
-              <h2 className="blog-title thq-heading-2">Latest Blog Posts</h2>
+              <h2 className="blog-title thq-heading-2">
+                Our Latest Blog Posts
+              </h2>
             </div>
           </div>
         </div>
@@ -43,18 +45,31 @@ const Blog = (props) => {
                     Exploring Criminal Proceedings in Thailand
                   </h2>
                   <p className="blog-text2 thq-body-large">
-                    In most jurisdictions, criminal charges are typically
-                    brought by state prosecutors rather than individual persons.
-                    However, in Thailand, individuals have the right to initiate
-                    criminal proceedings. Explore further to understand your
-                    legal rights in Thailand and the unique aspects of its legal
-                    system compared to common law countries.
+                    <span>
+                      In most jurisdictions, criminal charges are typically
+                      brought by state prosecutors rather than individual
+                      persons. However, in Thailand, individuals have the right
+                      to initiate what is referred to as a
+                      <span
+                        dangerouslySetInnerHTML={{
+                          __html: ' ',
+                        }}
+                      />
+                    </span>
+                    <Link href="/criminal-proceedings-in-thailand">
+                      <a>private criminal proceeding</a>
+                    </Link>
+                    <span>
+                      . Read further to understand your legal rights in Thailand
+                      and this unique aspects of its legal system compared to
+                      common law countries.
+                    </span>
                   </p>
                 </div>
                 <div className="blog-actions"></div>
                 <Link href="/criminal-proceedings-in-thailand">
-                  <a className="blog-link">
-                    <h1 className="blog-text3">Read Article</h1>
+                  <a className="blog-link1">
+                    <h1 className="blog-text5">Read Article</h1>
                   </a>
                 </Link>
               </div>
@@ -110,7 +125,9 @@ const Blog = (props) => {
             overflow: hidden;
             position: relative;
             align-items: center;
+            padding-top: var(--dl-space-space-twounits);
             flex-direction: column;
+            padding-bottom: var(--dl-space-space-twounits);
           }
           .blog-max-width1 {
             gap: var(--dl-space-space-fiveunits);
@@ -154,17 +171,17 @@ const Blog = (props) => {
             font-size: 1.5rem;
             font-style: normal;
             font-family: 'Josefin Sans';
-            font-weight: 200;
+            font-weight: 300;
           }
           .blog-actions {
             gap: var(--dl-space-space-unit);
             border: 2px dashed rgba(120, 120, 120, 0.4);
             display: flex;
           }
-          .blog-link {
+          .blog-link1 {
             display: contents;
           }
-          .blog-text3 {
+          .blog-text5 {
             width: auto;
             padding: var(--dl-space-space-oneandhalfunits);
             font-size: 1.5rem;
@@ -175,7 +192,7 @@ const Blog = (props) => {
             border-color: var(--dl-color-gray-black);
             border-width: 1px;
           }
-          .blog-text3:hover {
+          .blog-text5:hover {
             color: var(--dl-color-gray-white);
             background-color: #1b1b1b;
           }
