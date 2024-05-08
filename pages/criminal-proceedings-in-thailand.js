@@ -92,9 +92,9 @@ const CriminalProceedingsInThailand = (props) => {
             <span>
               {' '}
               often choose to pursue both criminal and civil charges. While
-              individuals can always file civil suits, in many jurisdictions,
-              individuals are prohibited from filing criminal proceedings. In
-              the U.K. and the United States, for example, one must: 
+              individuals can always file a civil case, in many jurisdictions,
+              individuals are prohibited from intiating a criminal proceeding.
+              In the U.K. and the United States, for example, one must: 
             </span>
           </span>
           <ul className="criminal-proceedings-in-thailand-ul list">
@@ -598,11 +598,68 @@ const CriminalProceedingsInThailand = (props) => {
               width: 80%;
               margin-top: var(--dl-space-space-twounits);
             }
+            .criminal-proceedings-in-thailand-text {
+              width: 90%;
+            }
+            .criminal-proceedings-in-thailand-ul {
+              width: 80%;
+            }
+            .criminal-proceedings-in-thailand-text08 {
+              width: 90%;
+            }
+            .criminal-proceedings-in-thailand-ul1 {
+              width: 80%;
+            }
+            .criminal-proceedings-in-thailand-text14 {
+              width: 90%;
+            }
+            .criminal-proceedings-in-thailand-text23 {
+              width: 90%;
+            }
+            .criminal-proceedings-in-thailand-ul2 {
+              width: 80%;
+            }
+            .criminal-proceedings-in-thailand-text30 {
+              width: 90%;
+            }
+            .criminal-proceedings-in-thailand-ul3 {
+              width: 80%;
+            }
+            .criminal-proceedings-in-thailand-text34 {
+              width: 90%;
+            }
+            .criminal-proceedings-in-thailand-text35 {
+              width: 90%;
+            }
           }
           @media (max-width: 479px) {
             .criminal-proceedings-in-thailand-container2 {
               width: 90%;
               margin-top: var(--dl-space-space-threeunits);
+            }
+            .criminal-proceedings-in-thailand-text {
+              width: 90%;
+            }
+            .criminal-proceedings-in-thailand-ul {
+              width: 80%;
+            }
+            .criminal-proceedings-in-thailand-ul1 {
+              width: 80%;
+            }
+            .criminal-proceedings-in-thailand-text14 {
+              width: 90%;
+            }
+            .criminal-proceedings-in-thailand-ul2 {
+              width: 80%;
+            }
+            .criminal-proceedings-in-thailand-ul3 {
+              width: 80%;
+            }
+            .criminal-proceedings-in-thailand-text34 {
+              width: 90%;
+            }
+            .criminal-proceedings-in-thailand-text35 {
+              width: 90%;
             }
           }
         `}

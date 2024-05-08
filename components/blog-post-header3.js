@@ -65,7 +65,7 @@ const BlogPostHeader3 = (props) => {
             font-style: normal;
             text-align: center;
             font-family: 'Josefin Sans';
-            font-weight: 200;
+            font-weight: 300;
           }
           .blog-post-header3-content {
             gap: var(--dl-space-space-oneandhalfunits);
