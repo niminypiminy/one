@@ -53,36 +53,21 @@ const Page = (props) => {
           <span className="page-text">การดำเนินคดีอาญาในประเทศไทย</span>
           <span className="page-text01">
             <span className="page-text02">                 </span>
-            <br></br>
-            <br></br>
-            <span>     </span>
+            <br className="page-text03"></br>
+            <br className="page-text04"></br>
+            <span className="page-text05">       </span>
             <span className="page-text06">
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
-            </span>
-            <span className="page-text07">
               ตามประมวลกฎหมายวิธีพิจารณาความอาญา มาตรา 28
               ได้กำหนดให้บุคคลที่มีอำนาจฟ้องคดีอาญาได้แก่
-            </span>
-            <span>
               <span
                 dangerouslySetInnerHTML={{
                   __html: ' ',
                 }}
               />
             </span>
-            <span className="page-text09">พนักงานอัยการและผู้เสียหาย</span>
-            <span>
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
-            </span>
-            <span className="page-text11">
+            <span className="page-text07">พนักงานอัยการและผู้เสียหาย</span>
+            <span className="page-text08">
+              {' '}
               จะเห็นได้ว่าตามกฎหมายไทยสามารถดำเนินคดีอาญาได้โดยรัฐ (State
               Prosecution) และดำเนินคดีอาญาได้โดยเอกชน (Private Prosecution)
               กล่าวคือ
@@ -90,196 +75,104 @@ const Page = (props) => {
               และอำนาจในการฟ้องคดีอาญาของพนักงานอัยการและผู้เสียหายนั้น
               มีความเป็นอิสระแยกต่างหากออกจากกัน
             </span>
-            <br className="page-text12"></br>
-            <br></br>
-            <span className="page-text14">
+            <br className="page-text09"></br>
+            <br className="page-text10"></br>
+            <span className="page-text11">
               การดำเนินคดีอาญาโดยเอกชน (ผู้เสียหาย)
-            </span>
-            <span className="page-text15">
               <span
                 dangerouslySetInnerHTML={{
                   __html: ' ',
                 }}
               />
             </span>
-            <br className="page-text16"></br>
-            <br></br>
-            <span>     </span>
-            <span className="page-text19">
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
-            </span>
-            <span className="page-text20">
-              ตามกฎหมายไทย
+            <br className="page-text12"></br>
+            <br className="page-text13"></br>
+            <span className="page-text14">
+                    ตามกฎหมายไทย
               ผู้เสียหายมีอำนาจฟ้องคดีอาญาได้เท่าเทียมกับพนักงานอัยการ
               โดยไม่ต้องคำนึงว่าคดีนั้นจะได้มีการร้องทุกข์ต่อตำรวจหรือมีการสอบสวนของพนักงานสอบสวนหรือไม่
               โดยผู้เสียหายสามารถแต่งตั้งทนายความยื่นคำฟ้องคดีอาญาต่อศาลที่มีเขตอำนาจได้
-            </span>
-            <span>
               <span
                 dangerouslySetInnerHTML={{
                   __html: ' ',
                 }}
               />
             </span>
-            <br></br>
-            <br></br>
-            <span>     </span>
-            <span className="page-text25">
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
-            </span>
-            <span className="page-text26">
+            <br className="page-text15"></br>
+            <br className="page-text16"></br>
+            <span className="page-text17">
               โดยการฟ้องคดีอาญาโดยผู้เสียหายนั้นกฎหมายกำหนดให้
             </span>
-            <span className="page-text27">ศาลต้องทำการไต่สวนมูลฟ้อง</span>
-            <span>
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
-            </span>
-            <span className="page-text29">
+            <span className="page-text18">ศาลต้องทำการไต่สวนมูลฟ้อง</span>
+            <span className="page-text19">
+              {' '}
               (กระบวนการที่ศาลทำการตรวจสอบข้อเท็จจริงในคดีที่ฟ้องว่ามีมูลเพียงพอที่ศาลจะรับฟ้องไว้พิจารณาต่อไปหรือไม่)
               ซึ่งแตกต่างจากคดีอาญาที่พนักงานอัยการเป็นผู้ฟ้องคดี
               (การดำเนินคดีอาญาโดยรัฐ) ซึ่งศาลไม่จำต้องไต่สวนมูลฟ้องก่อน
-            </span>
-            <span>
               <span
                 dangerouslySetInnerHTML={{
                   __html: ' ',
                 }}
               />
             </span>
-            <br></br>
-            <br></br>
-            <span>     </span>
-            <span className="page-text34">
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
-            </span>
-            <span className="page-text35">ในกรณีที่ผู้เสียหาย</span>
-            <span className="page-text36">
-              เป็นผู้เยาว์หรือผู้ไร้ความสามารถ
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
-            </span>
-            <span className="page-text37">
+            <br className="page-text20"></br>
+            <br className="page-text21"></br>
+            <span className="page-text22">
+              ในกรณีที่ผู้เสียหายเป็นผู้เยาว์หรือผู้ไร้ความสามารถ
               ให้ผู้แทนโดยชอบธรรม (บิดา มารดา ผู้ปกครองหรือผู้รับบุตรบุญธรรม)
               ของผู้เยาว์หรือผู้อนุบาลของผู้ไร้ความสามารถเป็นผู้มีอำนาจดำเนินคดีอาญาแทนผู้เสียหาย
             </span>
-            <br className="page-text38"></br>
-            <br className="page-text39"></br>
-            <span className="page-text40">
-                   
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
-            </span>
-            <span className="page-text41">ในกรณีที่ผู้เสียหาย</span>
-            <span className="page-text42">
-              ถึงแก่ความตายหรือได้รับบาดเจ็บถึงขนาดไม่สามารถดำเนินคดีเองได้
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
-            </span>
-            <span className="page-text43">
+            <br className="page-text23"></br>
+            <br className="page-text24"></br>
+            <span className="page-text25">
+              ในกรณีที่ผู้เสียหายถึงแก่ความตายหรือได้รับบาดเจ็บถึงขนาดไม่สามารถดำเนินคดีเองได้
               ผู้บุพการี ผู้สืบสันดาน
               สามีหรือภริยาของผู้เสียหายมีอำนาจดำเนินคดีอาญาแทนผู้เสียหายได้
-            </span>
-            <span className="page-text44">
               <span
                 dangerouslySetInnerHTML={{
                   __html: ' ',
                 }}
               />
             </span>
-            <br className="page-text45"></br>
-            <br className="page-text46"></br>
-            <span className="page-text47">
-                   
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
-            </span>
-            <span className="page-text48">ในกรณีที่ผู้เสียหายได้</span>
-            <span className="page-text49">
-              ยื่นฟ้องคดีอาญาไว้แล้วต่อมาเสียชีวิต
-            </span>
-            <span className="page-text50">
-              ในขณะที่คดีอาญากำลังอยู่ในระหว่างการพิจารณา ผู้บุพการี
-              ผู้สืบสันดาน
+            <br className="page-text26"></br>
+            <br className="page-text27"></br>
+            <span className="page-text28">
+              ในกรณีที่ผู้เสียหายได้ยื่นฟ้องคดีอาญาไว้แล้วต่อมาเสียชีวิตในขณะที่คดีอาญากำลังอยู่ในระหว่างการพิจารณา
+              ผู้บุพการี ผู้สืบสันดาน
               สามีหรือภริยาของผู้เสียหายที่เสียชีวิตสามารถดำเนินคดีแทนต่อไปโดยยื่นคำร้องขอเข้ามาในคดีเพื่อดำเนินคดีต่างผู้ตายได้
-            </span>
-            <span>
               <span
                 dangerouslySetInnerHTML={{
                   __html: ' ',
                 }}
               />
             </span>
-            <br></br>
-            <br></br>
-            <span className="page-text54">
+            <br className="page-text29"></br>
+            <br className="page-text30"></br>
+            <span className="page-text31">
               การดำเนินคดีอาญาโดยรัฐ (พนักงานอัยการ)
             </span>
-            <br className="page-text55"></br>
-            <br></br>
-            <span>
-                   
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
-            </span>
-            <span className="page-text58">
+            <br className="page-text32"></br>
+            <br className="page-text33"></br>
+            <span className="page-text34">
+              {' '}
               หากผู้เสียหายต้องการดำเนินคดีอาญาโดยพนักงานอัยการ ผู้เสียหายจะต้อง
             </span>
-            <span className="page-text59">ดำเนินการร้องทุกข์</span>
-            <span className="page-text60">
+            <span className="page-text35">ดำเนินการร้องทุกข์</span>
+            <span className="page-text36">
               ต่อสถานีตำรวจและพนักงานสอบสวนต้องทำการสอบสวนก่อน
               เพราะในการดำเนินคดีอาญาโดยรัฐนั้นกฎหมายห้ามไม่ให้พนักงานอัยการฟ้องคดี
               หากคดีนั้นไม่ได้มีการสอบสวนมาก่อน
               (แตกต่างจากการฟ้องคดีอาญาโดยผู้เสียหายที่ไม่จำต้องมีการสอบสวนมาก่อน)
-            </span>
-            <span className="page-text61">
               <span
                 dangerouslySetInnerHTML={{
                   __html: ' ',
                 }}
               />
             </span>
-            <br className="page-text62"></br>
-            <br className="page-text63"></br>
-            <span className="page-text64">
-                   
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
-            </span>
-            <span className="page-text65">
+            <br className="page-text37"></br>
+            <br className="page-text38"></br>
+            <span className="page-text39">
+              {' '}
               ในกรณีที่มีการสอบสวนในความผิดนั้นแล้ว
               พนักงานอัยการจะคำสั่งฟ้องคดีนั้นหรือไม่ก็ได้
               หากพนักงานอัยการมีคำสั่งฟ้องคดี
@@ -287,61 +180,35 @@ const Page = (props) => {
               (ซึ่งผู้เสียหายสามารถยื่นคำร้องขอเข้าเป็นโจทก์ร่วมกับพนักงานอัยการได้)
               หากพนักงานอัยการมีคำสั่งไม่ฟ้องคดี
               ย่อมไม่ตัดสิทธิผู้เสียหายที่จะฟ้องคดีอาญาต่อศาลเอง
-            </span>
-            <span>
               <span
                 dangerouslySetInnerHTML={{
                   __html: ' ',
                 }}
               />
             </span>
-            <br></br>
-            <br></br>
-            <span className="page-text69">หมายเหตุ</span>
-            <br className="page-text70"></br>
-            <br></br>
-            <span className="page-text72">
-                   
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
-            </span>
-            <span className="page-text73">
+            <br className="page-text40"></br>
+            <br className="page-text41"></br>
+            <span className="page-text42">หมายเหตุ:</span>
+            <br className="page-text43"></br>
+            <br className="page-text44"></br>
+            <span className="page-text45">
               ในคดีอาญาความผิดต่อส่วนตัวหรือความผิดอันยอมความได้
             </span>
-            <span>
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
-            </span>
-            <span className="page-text75">
+            <span className="page-text46">
+              {' '}
               กล่าวคือ ความผิดที่มีผลกระทบต่อผู้ที่ถูกกระทำโดยตรงเท่านั้น
               มิได้ก่อให้เกิดความเสียหายแก่รัฐหรือสังคม เช่น
               ความผิดฐานหมิ่นประมาท ฉ้อโกง ยักยอกทรัพย์ ทำให้เสียทรัพย์ อนาจาร
               ข่มขืนกระทำชำเรา เป็นต้น
-            </span>
-            <span className="page-text76">
               <span
                 dangerouslySetInnerHTML={{
                   __html: ' ',
                 }}
               />
             </span>
-            <br className="page-text77"></br>
-            <br className="page-text78"></br>
-            <span className="page-text79">
-                   
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
-            </span>
-            <span className="page-text80">
+            <br className="page-text47"></br>
+            <br className="page-text48"></br>
+            <span className="page-text49">
               หากผู้เสียหายดำเนินคดีอาญาด้วยตนเอง
               ผู้เสียหายจะต้องฟ้องคดีต่อศาลภายใน 3 เดือน นับแต่วันที่
               “รู้เรื่องความผิด” และ “รู้ตัวผู้กระทำความผิด”
@@ -349,8 +216,13 @@ const Page = (props) => {
               แต่หากผู้เสียหายต้องการดำเนินคดีอาญาโดยพนักงานอัยการ
               ผู้เสียหายจะต้องไปร้องทุกข์ภายในกำหนดเวลา 3
               เดือนนับแต่รู้ถึงความผิดและรู้ตัวผู้กระทำผิดเช่นกัน
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
             </span>
-            <span>
+            <span className="page-text50">
               <span
                 dangerouslySetInnerHTML={{
                   __html: ' ',
@@ -422,253 +294,189 @@ const Page = (props) => {
           .page-text01 {
             width: 60%;
             font-size: 1.5rem;
+            font-family: 'Noto Sans Thai';
+            font-weight: 400;
           }
           .page-text02 {
             font-style: normal;
-            font-weight: 700;
+          }
+          .page-text03 {
+            font-style: normal;
+          }
+          .page-text04 {
+            font-style: normal;
+          }
+          .page-text05 {
+            font-style: normal;
           }
           .page-text06 {
             font-style: normal;
-            font-family: 'Noto Sans Thai';
-            font-weight: 400;
           }
           .page-text07 {
+            font-weight: 600;
+          }
+          .page-text08 {
             font-style: normal;
-            font-family: 'Noto Sans Thai';
-            font-weight: 400;
           }
           .page-text09 {
+            font-size: 1.5rem;
             font-style: normal;
-            font-weight: 700;
+            font-family: 'Noto Sans Thai';
+            font-weight: 400;
+          }
+          .page-text10 {
+            font-style: normal;
           }
           .page-text11 {
-            font-family: 'Noto Sans Thai';
-            font-weight: 400;
+            font-weight: 600;
           }
           .page-text12 {
+            font-size: 1.5rem;
             font-family: 'Noto Sans Thai';
-            font-weight: 400;
+            font-weight: 600;
+          }
+          .page-text13 {
+            font-style: normal;
           }
           .page-text14 {
             font-style: normal;
-            font-family: 'Noto Sans Thai';
-            font-weight: 700;
           }
           .page-text15 {
+            font-size: 1.5rem;
             font-style: normal;
             font-family: 'Noto Sans Thai';
-            font-weight: 700;
+            font-weight: 400;
           }
           .page-text16 {
             font-style: normal;
-            font-family: 'Noto Sans Thai';
-            font-weight: 700;
+          }
+          .page-text17 {
+            font-style: normal;
+          }
+          .page-text18 {
+            font-weight: 600;
           }
           .page-text19 {
             font-style: normal;
-            font-family: 'Josefin Sans';
-            font-weight: 200;
           }
           .page-text20 {
-            font-family: 'Noto Sans Thai';
-            font-weight: 400;
-          }
-          .page-text25 {
+            font-size: 1.5rem;
             font-style: normal;
             font-family: 'Noto Sans Thai';
             font-weight: 400;
           }
+          .page-text21 {
+            font-style: normal;
+          }
+          .page-text22 {
+            font-style: normal;
+          }
+          .page-text23 {
+            font-size: 1.5rem;
+            font-style: normal;
+            font-family: 'Noto Sans Thai';
+            font-weight: 400;
+          }
+          .page-text24 {
+            font-style: normal;
+          }
+          .page-text25 {
+            font-style: normal;
+          }
           .page-text26 {
+            font-size: 1.5rem;
             font-style: normal;
             font-family: 'Noto Sans Thai';
             font-weight: 400;
           }
           .page-text27 {
             font-style: normal;
-            font-weight: 700;
+          }
+          .page-text28 {
+            font-style: normal;
           }
           .page-text29 {
+            font-size: 1.5rem;
+            font-style: normal;
             font-family: 'Noto Sans Thai';
             font-weight: 400;
+          }
+          .page-text30 {
+            font-style: normal;
+          }
+          .page-text31 {
+            font-weight: 600;
+          }
+          .page-text32 {
+            font-size: 1.5rem;
+            font-style: normal;
+            font-family: 'Noto Sans Thai';
+            font-weight: 400;
+          }
+          .page-text33 {
+            font-style: normal;
           }
           .page-text34 {
             font-style: normal;
-            font-family: 'Noto Sans Thai';
-            font-weight: 400;
           }
           .page-text35 {
-            font-style: normal;
-            font-family: 'Noto Sans Thai';
-            font-weight: 400;
+            font-weight: 600;
           }
           .page-text36 {
             font-style: normal;
-            font-family: 'Noto Sans Thai';
-            font-weight: 400;
           }
           .page-text37 {
+            font-size: 1.5rem;
             font-style: normal;
             font-family: 'Noto Sans Thai';
             font-weight: 400;
           }
           .page-text38 {
             font-style: normal;
-            font-family: 'Noto Sans Thai';
-            font-weight: 400;
           }
           .page-text39 {
             font-style: normal;
-            font-family: 'Noto Sans Thai';
-            font-weight: 400;
           }
           .page-text40 {
+            font-size: 1.5rem;
             font-style: normal;
             font-family: 'Noto Sans Thai';
             font-weight: 400;
           }
           .page-text41 {
             font-style: normal;
-            font-family: 'Noto Sans Thai';
-            font-weight: 400;
           }
           .page-text42 {
-            font-style: normal;
-            font-family: 'Noto Sans Thai';
-            font-weight: 400;
+            font-weight: 600;
           }
           .page-text43 {
-            font-style: normal;
+            font-size: 1.5rem;
             font-family: 'Noto Sans Thai';
-            font-weight: 400;
+            font-weight: 600;
           }
           .page-text44 {
             font-style: normal;
-            font-family: 'Noto Sans Thai';
-            font-weight: 400;
           }
           .page-text45 {
-            font-style: normal;
-            font-family: 'Noto Sans Thai';
-            font-weight: 400;
+            font-weight: 600;
           }
           .page-text46 {
             font-style: normal;
-            font-family: 'Noto Sans Thai';
-            font-weight: 400;
           }
           .page-text47 {
+            font-size: 1.5rem;
             font-style: normal;
             font-family: 'Noto Sans Thai';
             font-weight: 400;
           }
           .page-text48 {
             font-style: normal;
-            font-family: 'Noto Sans Thai';
-            font-weight: 400;
           }
           .page-text49 {
             font-style: normal;
-            font-family: 'Noto Sans Thai';
-            font-weight: 400;
           }
           .page-text50 {
             font-style: normal;
-            font-family: 'Noto Sans Thai';
-            font-weight: 400;
-          }
-          .page-text54 {
-            font-style: normal;
-            font-weight: 700;
-          }
-          .page-text55 {
-            font-style: normal;
-            font-weight: 700;
-          }
-          .page-text58 {
-            font-style: normal;
-            font-family: 'Noto Sans Thai';
-            font-weight: 400;
-          }
-          .page-text59 {
-            font-style: normal;
-            font-family: 'Noto Sans Thai';
-            font-weight: 700;
-          }
-          .page-text60 {
-            font-style: normal;
-            font-family: 'Noto Sans Thai';
-            font-weight: 400;
-          }
-          .page-text61 {
-            font-style: normal;
-            font-family: 'Noto Sans Thai';
-            font-weight: 400;
-          }
-          .page-text62 {
-            font-style: normal;
-            font-family: 'Noto Sans Thai';
-            font-weight: 400;
-          }
-          .page-text63 {
-            font-style: normal;
-            font-family: 'Noto Sans Thai';
-            font-weight: 400;
-          }
-          .page-text64 {
-            font-style: normal;
-            font-family: 'Noto Sans Thai';
-            font-weight: 400;
-          }
-          .page-text65 {
-            font-style: normal;
-            font-family: 'Noto Sans Thai';
-            font-weight: 400;
-          }
-          .page-text69 {
-            font-style: normal;
-            font-weight: 700;
-          }
-          .page-text70 {
-            font-style: normal;
-            font-weight: 700;
-          }
-          .page-text72 {
-            font-style: normal;
-            font-weight: 700;
-          }
-          .page-text73 {
-            font-style: normal;
-            font-weight: 700;
-          }
-          .page-text75 {
-            font-style: normal;
-            font-family: 'Noto Sans Thai';
-            font-weight: 400;
-          }
-          .page-text76 {
-            font-style: normal;
-            font-family: 'Noto Sans Thai';
-            font-weight: 400;
-          }
-          .page-text77 {
-            font-style: normal;
-            font-family: 'Noto Sans Thai';
-            font-weight: 400;
-          }
-          .page-text78 {
-            font-style: normal;
-            font-family: 'Noto Sans Thai';
-            font-weight: 400;
-          }
-          .page-text79 {
-            font-style: normal;
-            font-family: 'Noto Sans Thai';
-            font-weight: 400;
-          }
-          .page-text80 {
-            font-style: normal;
-            font-family: 'Noto Sans Thai';
-            font-weight: 400;
           }
           .page-container3 {
             flex: 0 0 auto;
@@ -676,7 +484,7 @@ const Page = (props) => {
             height: 100px;
             display: flex;
             position: relative;
-            margin-top: var(--dl-space-space-threeunits);
+            margin-top: var(--dl-space-space-fiveunits);
             align-items: center;
             justify-content: center;
           }
@@ -699,253 +507,6 @@ const Page = (props) => {
               font-style: normal;
               font-weight: 700;
             }
-            .page-text06 {
-              font-style: normal;
-              font-family: Noto Sans Thai;
-              font-weight: 400;
-            }
-            .page-text07 {
-              font-style: normal;
-              font-family: Noto Sans Thai;
-              font-weight: 400;
-            }
-            .page-text09 {
-              font-style: normal;
-              font-weight: 700;
-            }
-            .page-text11 {
-              font-family: Noto Sans Thai;
-              font-weight: 400;
-            }
-            .page-text12 {
-              font-family: Noto Sans Thai;
-              font-weight: 400;
-            }
-            .page-text14 {
-              font-style: normal;
-              font-family: Noto Sans Thai;
-              font-weight: 700;
-            }
-            .page-text15 {
-              font-style: normal;
-              font-family: Noto Sans Thai;
-              font-weight: 700;
-            }
-            .page-text16 {
-              font-style: normal;
-              font-family: Noto Sans Thai;
-              font-weight: 700;
-            }
-            .page-text19 {
-              font-style: normal;
-              font-family: Josefin Sans;
-              font-weight: 200;
-            }
-            .page-text20 {
-              font-family: Noto Sans Thai;
-              font-weight: 400;
-            }
-            .page-text25 {
-              font-style: normal;
-              font-family: Noto Sans Thai;
-              font-weight: 400;
-            }
-            .page-text26 {
-              font-style: normal;
-              font-family: Noto Sans Thai;
-              font-weight: 400;
-            }
-            .page-text27 {
-              font-style: normal;
-              font-weight: 700;
-              text-decoration: underline;
-            }
-            .page-text29 {
-              font-family: Noto Sans Thai;
-              font-weight: 400;
-            }
-            .page-text34 {
-              font-style: normal;
-              font-family: Noto Sans Thai;
-              font-weight: 400;
-            }
-            .page-text35 {
-              font-style: normal;
-              font-family: Noto Sans Thai;
-              font-weight: 400;
-            }
-            .page-text36 {
-              font-style: normal;
-              font-family: Noto Sans Thai;
-              font-weight: 400;
-              text-decoration: underline;
-            }
-            .page-text37 {
-              font-style: normal;
-              font-family: Noto Sans Thai;
-              font-weight: 400;
-            }
-            .page-text38 {
-              font-style: normal;
-              font-family: Noto Sans Thai;
-              font-weight: 400;
-            }
-            .page-text39 {
-              font-style: normal;
-              font-family: Noto Sans Thai;
-              font-weight: 400;
-            }
-            .page-text40 {
-              font-style: normal;
-              font-family: Noto Sans Thai;
-              font-weight: 400;
-            }
-            .page-text41 {
-              font-style: normal;
-              font-family: Noto Sans Thai;
-              font-weight: 400;
-            }
-            .page-text42 {
-              font-style: normal;
-              font-family: Noto Sans Thai;
-              font-weight: 400;
-              text-decoration: underline;
-            }
-            .page-text43 {
-              font-style: normal;
-              font-family: Noto Sans Thai;
-              font-weight: 400;
-            }
-            .page-text44 {
-              font-style: normal;
-              font-family: Noto Sans Thai;
-              font-weight: 400;
-            }
-            .page-text45 {
-              font-style: normal;
-              font-family: Noto Sans Thai;
-              font-weight: 400;
-            }
-            .page-text46 {
-              font-style: normal;
-              font-family: Noto Sans Thai;
-              font-weight: 400;
-            }
-            .page-text47 {
-              font-style: normal;
-              font-family: Noto Sans Thai;
-              font-weight: 400;
-            }
-            .page-text48 {
-              font-style: normal;
-              font-family: Noto Sans Thai;
-              font-weight: 400;
-            }
-            .page-text49 {
-              font-style: normal;
-              font-family: Noto Sans Thai;
-              font-weight: 400;
-              text-decoration: underline;
-            }
-            .page-text50 {
-              font-style: normal;
-              font-family: Noto Sans Thai;
-              font-weight: 400;
-            }
-            .page-text54 {
-              font-style: normal;
-              font-weight: 700;
-            }
-            .page-text55 {
-              font-style: normal;
-              font-weight: 700;
-            }
-            .page-text58 {
-              font-style: normal;
-              font-family: Noto Sans Thai;
-              font-weight: 400;
-            }
-            .page-text59 {
-              font-style: normal;
-              font-family: Noto Sans Thai;
-              font-weight: 700;
-            }
-            .page-text60 {
-              font-style: normal;
-              font-family: Noto Sans Thai;
-              font-weight: 400;
-            }
-            .page-text61 {
-              font-style: normal;
-              font-family: Noto Sans Thai;
-              font-weight: 400;
-            }
-            .page-text62 {
-              font-style: normal;
-              font-family: Noto Sans Thai;
-              font-weight: 400;
-            }
-            .page-text63 {
-              font-style: normal;
-              font-family: Noto Sans Thai;
-              font-weight: 400;
-            }
-            .page-text64 {
-              font-style: normal;
-              font-family: Noto Sans Thai;
-              font-weight: 400;
-            }
-            .page-text65 {
-              font-style: normal;
-              font-family: Noto Sans Thai;
-              font-weight: 400;
-            }
-            .page-text69 {
-              font-style: normal;
-              font-weight: 700;
-            }
-            .page-text70 {
-              font-style: normal;
-              font-weight: 700;
-            }
-            .page-text72 {
-              font-style: normal;
-              font-weight: 700;
-            }
-            .page-text73 {
-              font-style: normal;
-              font-weight: 700;
-            }
-            .page-text75 {
-              font-style: normal;
-              font-family: Noto Sans Thai;
-              font-weight: 400;
-            }
-            .page-text76 {
-              font-style: normal;
-              font-family: Noto Sans Thai;
-              font-weight: 400;
-            }
-            .page-text77 {
-              font-style: normal;
-              font-family: Noto Sans Thai;
-              font-weight: 400;
-            }
-            .page-text78 {
-              font-style: normal;
-              font-family: Noto Sans Thai;
-              font-weight: 400;
-            }
-            .page-text79 {
-              font-style: normal;
-              font-family: Noto Sans Thai;
-              font-weight: 400;
-            }
-            .page-text80 {
-              font-style: normal;
-              font-family: Noto Sans Thai;
-              font-weight: 400;
-            }
           }
           @media (max-width: 1200px) {
             .page-text01 {
@@ -953,64 +514,6 @@ const Page = (props) => {
               font-size: 1.5rem;
             }
             .page-text02 {
-              font-style: normal;
-              font-weight: 700;
-            }
-            .page-text09 {
-              font-style: normal;
-              font-weight: 700;
-            }
-            .page-text14 {
-              font-style: normal;
-              font-weight: 700;
-            }
-            .page-text15 {
-              font-style: normal;
-              font-weight: 700;
-            }
-            .page-text16 {
-              font-style: normal;
-              font-weight: 700;
-            }
-            .page-text27 {
-              font-style: normal;
-              font-weight: 700;
-              text-decoration: underline;
-            }
-            .page-text36 {
-              text-decoration: underline;
-            }
-            .page-text42 {
-              text-decoration: underline;
-            }
-            .page-text49 {
-              text-decoration: underline;
-            }
-            .page-text54 {
-              font-style: normal;
-              font-weight: 700;
-            }
-            .page-text55 {
-              font-style: normal;
-              font-weight: 700;
-            }
-            .page-text59 {
-              font-style: normal;
-              font-weight: 700;
-            }
-            .page-text69 {
-              font-style: normal;
-              font-weight: 700;
-            }
-            .page-text70 {
-              font-style: normal;
-              font-weight: 700;
-            }
-            .page-text72 {
-              font-style: normal;
-              font-weight: 700;
-            }
-            .page-text73 {
               font-style: normal;
               font-weight: 700;
             }
