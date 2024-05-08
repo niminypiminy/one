@@ -260,7 +260,7 @@ const CriminalProceedingsInThailand = (props) => {
           </ul>
           <span className="criminal-proceedings-in-thailand-text34">
             {' '}
-            The police are subject to budget restraints; thus, if an
+            The police are subject to budget constraints; thus, if an
             investigation is deemed lengthy, costly, and the crime is not
             considered severe (non-violent), they may not refer the case to the
             prosecutor or conduct a thorough investigation. In such cases,
