@@ -74,8 +74,10 @@ const BlogPostHeader3 = (props) => {
             flex-direction: column;
           }
           .blog-post-header3-title {
+            font-style: normal;
             text-align: center;
-            font-family: 'Josefin Sans';
+            font-family: 'Noto Sans Thai';
+            font-weight: 700;
           }
           .blog-post-header3-read-time {
             font-size: 1.2rem;
