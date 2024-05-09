@@ -4,15 +4,15 @@ import Link from 'next/link'
 import PropTypes from 'prop-types'
 
 const FAQ84 = (props) => {
-  const [faq1isVisible, setFaq1isVisible] = useState(true)
-  const [faq2isVisible, setFaq2isVisible] = useState(true)
-  const [faq3isVisible, setFaq3isVisible] = useState(true)
-  const [faq4isVisible, setFaq4isVisible] = useState(true)
-  const [faq5isVisible, setFaq5isVisible] = useState(true)
+  const [faq1Visible, setFaq1Visible] = useState(false)
+  const [faq2Visible, setFaq2Visible] = useState(false)
+  const [faq3Visible, setFaq3Visible] = useState(false)
+  const [faq4Visible, setFaq4Visible] = useState(false)
+  const [faq5Visible, setFaq5Visible] = useState(false)
   return (
     <>
       <div className="faq84-faq8 thq-section-padding">
-        <div className="faq84-max-width thq-flex-column thq-section-max-width">
+        <div className="faq84-max-width thq-section-max-width thq-flex-column">
           <div className="faq84-section-title thq-flex-column">
             <div className="faq84-content">
               <h2 className="faq84-text thq-heading-2">{props.text}</h2>
@@ -21,7 +21,7 @@ const FAQ84 = (props) => {
           <div className="faq84-list thq-flex-column">
             <div className="faq84-faq1 thq-section-max-width thq-box-shadow">
               <div
-                onClick={() => setFaq1isVisible(!faq1isVisible)}
+                onClick={() => setFaq1Visible(!faq1Visible)}
                 className="faq84-trigger"
               >
                 <p className="faq84-faq1-question thq-body-large">
@@ -40,7 +40,7 @@ const FAQ84 = (props) => {
                   </div>
                 </div>
               </div>
-              {!faq1isVisible && (
+              {faq1Visible && (
                 <div className="faq84-container02">
                   <span className="faq84-text01 thq-body-small">
                     <span>
@@ -61,7 +61,7 @@ const FAQ84 = (props) => {
             </div>
             <div className="faq84-faq2 thq-section-max-width thq-box-shadow">
               <div
-                onClick={() => setFaq2isVisible(!faq2isVisible)}
+                onClick={() => setFaq2Visible(!faq2Visible)}
                 className="faq84-trigger1"
               >
                 <p className="faq84-faq2-question thq-body-large">
@@ -80,7 +80,7 @@ const FAQ84 = (props) => {
                   </div>
                 </div>
               </div>
-              {!faq2isVisible && (
+              {faq2Visible && (
                 <div className="faq84-container05">
                   <span className="faq84-text04 thq-body-small">
                     {props.text2}
@@ -90,7 +90,7 @@ const FAQ84 = (props) => {
             </div>
             <div className="faq84-faq3 thq-section-max-width thq-box-shadow">
               <div
-                onClick={() => setFaq3isVisible(!faq3isVisible)}
+                onClick={() => setFaq3Visible(!faq3Visible)}
                 className="faq84-trigger2"
               >
                 <p className="faq84-faq2-question1 thq-body-large">
@@ -109,7 +109,7 @@ const FAQ84 = (props) => {
                   </div>
                 </div>
               </div>
-              {!faq3isVisible && (
+              {faq3Visible && (
                 <div className="faq84-container08">
                   <span className="faq84-text05 thq-body-small">
                     <span>
@@ -134,7 +134,7 @@ const FAQ84 = (props) => {
             </div>
             <div className="faq84-faq4 thq-section-max-width thq-box-shadow">
               <div
-                onClick={() => setFaq4isVisible(!faq4isVisible)}
+                onClick={() => setFaq4Visible(!faq4Visible)}
                 className="faq84-trigger3"
               >
                 <p className="faq84-faq2-question2 thq-body-large">
@@ -153,7 +153,7 @@ const FAQ84 = (props) => {
                   </div>
                 </div>
               </div>
-              {!faq4isVisible && (
+              {faq4Visible && (
                 <div className="faq84-container11">
                   <span className="faq84-text08 thq-body-small">
                     {props.text3}
@@ -163,7 +163,7 @@ const FAQ84 = (props) => {
             </div>
             <div className="faq84-faq5 thq-section-max-width thq-box-shadow">
               <div
-                onClick={() => setFaq5isVisible(!faq5isVisible)}
+                onClick={() => setFaq5Visible(!faq5Visible)}
                 className="faq84-trigger4"
               >
                 <p className="faq84-faq2-question3 thq-body-large">
@@ -182,7 +182,7 @@ const FAQ84 = (props) => {
                   </div>
                 </div>
               </div>
-              {!faq5isVisible && (
+              {faq5Visible && (
                 <div className="faq84-container14">
                   <span className="faq84-text09 thq-body-small">
                     <span>
@@ -530,28 +530,28 @@ const FAQ84 = (props) => {
 }
 
 FAQ84.defaultProps = {
-  text: 'FAQs',
-  faq1Question: 'I lost my case. Can you help me file an appeal?',
-  faq2Question: "I don't trust my current attorney can you take over the case?",
+  faq2Question3: "I want to press charges, but the police don't seem to care.",
   text2:
     "No. We don't take cases in the middle of a trial. If you lose the case, however, we might be able to help you on appeal.",
-  faq2Question1:
-    "My son or daughter was arrested in Thailand. They're in prison. Can you help?",
-  faq2Question2: 'I overstayed my visa.',
+  faq2Question: "I don't trust my current attorney can you take over the case?",
   text3:
     'Overstaying your visa is a criminal offense. If you overstayed for a short time, then you can simply pay a fine at the border of entry. If you overstayed for a long period of time, and/or were arrested by immigration for overstaying, then you will need legal assistance. ',
-  faq2Question3: "I want to press charges, but the police don't seem to care.",
+  text: 'FAQs',
+  faq1Question: 'I lost my case. Can you help me file an appeal?',
+  faq2Question2: 'I overstayed my visa.',
+  faq2Question1:
+    "My son or daughter was arrested in Thailand. They're in prison. Can you help?",
 }
 
 FAQ84.propTypes = {
+  faq2Question3: PropTypes.string,
+  text2: PropTypes.string,
+  faq2Question: PropTypes.string,
+  text3: PropTypes.string,
   text: PropTypes.string,
   faq1Question: PropTypes.string,
-  faq2Question: PropTypes.string,
-  text2: PropTypes.string,
-  faq2Question1: PropTypes.string,
   faq2Question2: PropTypes.string,
-  text3: PropTypes.string,
-  faq2Question3: PropTypes.string,
+  faq2Question1: PropTypes.string,
 }
 
 export default FAQ84

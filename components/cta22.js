@@ -142,23 +142,23 @@ const CTA22 = (props) => {
 }
 
 CTA22.defaultProps = {
+  image1Alt: 'image',
   image1Src:
     'https://images.unsplash.com/photo-1599496507927-9056debd0f0a?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDc1fHxhYnN0cmFjdHxlbnwwfHx8fDE3MTM4ODQ1MDJ8MA&ixlib=rb-4.0.3&w=1400',
-  image1Alt: 'image',
+  heading1: 'Call to action that excites the visitor to try your product',
   content1:
     'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.',
-  action1: 'Action1',
   action2: 'Action2',
-  heading1: 'Call to action that excites the visitor to try your product',
+  action1: 'Action1',
 }
 
 CTA22.propTypes = {
-  image1Src: PropTypes.string,
   image1Alt: PropTypes.string,
-  content1: PropTypes.string,
-  action1: PropTypes.string,
-  action2: PropTypes.string,
+  image1Src: PropTypes.string,
   heading1: PropTypes.string,
+  content1: PropTypes.string,
+  action2: PropTypes.string,
+  action1: PropTypes.string,
 }
 
 export default CTA22

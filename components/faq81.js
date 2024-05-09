@@ -3,9 +3,9 @@ import React, { useState } from 'react'
 import PropTypes from 'prop-types'
 
 const FAQ81 = (props) => {
-  const [faq2Visible, setFaq2Visible] = useState(false)
-  const [faq1Visible, setFaq1Visible] = useState(false)
   const [faq3isVisible, setFaq3isVisible] = useState(false)
+  const [faq1Visible, setFaq1Visible] = useState(false)
+  const [faq2Visible, setFaq2Visible] = useState(false)
   return (
     <>
       <div className="faq81-faq8 thq-section-padding">
@@ -318,22 +318,22 @@ const FAQ81 = (props) => {
 }
 
 FAQ81.defaultProps = {
+  faq1Question4: 'Frequently Asked Questions',
+  faq3Question: 'Frequently Asked Questions',
+  action: 'Contact',
+  faq2Question1: 'Frequently Asked Questions',
   content1:
     'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.',
-  faq3Question: 'Frequently Asked Questions',
-  faq2Question1: 'Frequently Asked Questions',
   heading1: 'FAQs',
-  faq1Question4: 'Frequently Asked Questions',
-  action: 'Contact',
 }
 
 FAQ81.propTypes = {
-  content1: PropTypes.string,
-  faq3Question: PropTypes.string,
-  faq2Question1: PropTypes.string,
-  heading1: PropTypes.string,
   faq1Question4: PropTypes.string,
+  faq3Question: PropTypes.string,
   action: PropTypes.string,
+  faq2Question1: PropTypes.string,
+  content1: PropTypes.string,
+  heading1: PropTypes.string,
 }
 
 export default FAQ81

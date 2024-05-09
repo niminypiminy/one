@@ -3,8 +3,8 @@ import React, { useState } from 'react'
 import PropTypes from 'prop-types'
 
 const FAQ82 = (props) => {
-  const [faq2Visible, setFaq2Visible] = useState(false)
   const [faq1Visible, setFaq1Visible] = useState(false)
+  const [faq2Visible, setFaq2Visible] = useState(false)
   const [faq3isVisible, setFaq3isVisible] = useState(false)
   return (
     <>
@@ -318,22 +318,22 @@ const FAQ82 = (props) => {
 }
 
 FAQ82.defaultProps = {
+  action: 'Contact',
+  heading1: 'FAQs',
+  faq1Question4: 'Frequently Asked Questions',
   content1:
     'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.',
   faq3Question: 'Frequently Asked Questions',
   faq2Question1: 'Frequently Asked Questions',
-  heading1: 'FAQs',
-  faq1Question4: 'Frequently Asked Questions',
-  action: 'Contact',
 }
 
 FAQ82.propTypes = {
+  action: PropTypes.string,
+  heading1: PropTypes.string,
+  faq1Question4: PropTypes.string,
   content1: PropTypes.string,
   faq3Question: PropTypes.string,
   faq2Question1: PropTypes.string,
-  heading1: PropTypes.string,
-  faq1Question4: PropTypes.string,
-  action: PropTypes.string,
 }
 
 export default FAQ82

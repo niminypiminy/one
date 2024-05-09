@@ -3,14 +3,14 @@ import React, { useState } from 'react'
 import PropTypes from 'prop-types'
 
 const FAQ92 = (props) => {
-  const [faq3Visible, setFaq3Visible] = useState(false)
-  const [faq2Visible, setFaq2Visible] = useState(false)
-  const [faq1Visibile, setFaq1Visibile] = useState(false)
   const [faq4Visible, setFaq4Visible] = useState(false)
+  const [faq1Visibile, setFaq1Visibile] = useState(false)
+  const [faq2Visible, setFaq2Visible] = useState(false)
+  const [faq3Visible, setFaq3Visible] = useState(false)
   return (
     <>
       <div className="faq92-faq8 thq-section-padding">
-        <div className="faq92-max-width thq-flex-column thq-section-max-width">
+        <div className="faq92-max-width thq-section-max-width thq-flex-column">
           <div className="faq92-section-title thq-flex-column">
             <div className="faq92-content">
               <h2 className="thq-heading-2">{props.heading1}</h2>
@@ -390,22 +390,22 @@ const FAQ92 = (props) => {
 }
 
 FAQ92.defaultProps = {
+  faq2Question: 'Frequently Asked Questions',
   faq1Question: 'Frequently Asked Questions',
   faq4Question: 'Frequently Asked Questions',
-  faq2Question: 'Frequently Asked Questions',
   content1:
     'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.',
-  heading1: 'FAQs',
   faq3Question: 'Frequently Asked Questions',
+  heading1: 'FAQs',
 }
 
 FAQ92.propTypes = {
+  faq2Question: PropTypes.string,
   faq1Question: PropTypes.string,
   faq4Question: PropTypes.string,
-  faq2Question: PropTypes.string,
   content1: PropTypes.string,
-  heading1: PropTypes.string,
   faq3Question: PropTypes.string,
+  heading1: PropTypes.string,
 }
 
 export default FAQ92

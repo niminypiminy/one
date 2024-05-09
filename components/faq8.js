@@ -7,7 +7,7 @@ const FAQ8 = (props) => {
   return (
     <>
       <div className="faq8-faq8 thq-section-padding">
-        <div className="faq8-max-width thq-flex-column thq-section-max-width">
+        <div className="faq8-max-width thq-section-max-width thq-flex-column">
           <div className="faq8-section-title thq-flex-column">
             <div className="faq8-content">
               <h2 className="faq8-text thq-heading-2">{props.text}</h2>
@@ -506,29 +506,29 @@ const FAQ8 = (props) => {
 
 FAQ8.defaultProps = {
   text: 'FAQs',
+  faq2Question1:
+    "My son or daughter was arrested in Thailand. They're in prison. Can you help?",
+  text3:
+    'Overstaying your visa is a criminal offense. If you overstayed for a short time, then you can simply pay a fine at the border of entry. If you overstayed for a long period of time, and/or were arrested by immigration for overstaying, then you will need legal assistance. ',
+  faq2Question2: 'I overstayed my visa.',
   text1: 'These are the most common questions we receive. ',
   faq1Question: 'I lost my case. Can you help me file an appeal?',
   faq2Question: "I don't trust my current attorney can you take over the case?",
+  faq2Question3: "I want to press charges, but the police don't seem to care.",
   text2:
     "No. We don't take cases in the middle of a trial. If you lose the case, however, we might be able to help you on appeal.",
-  faq2Question1:
-    "My son or daughter was arrested in Thailand. They're in prison. Can you help?",
-  faq2Question2: 'I overstayed my visa.',
-  text3:
-    'Overstaying your visa is a criminal offense. If you overstayed for a short time, then you can simply pay a fine at the border of entry. If you overstayed for a long period of time, and/or were arrested by immigration for overstaying, then you will need legal assistance. ',
-  faq2Question3: "I want to press charges, but the police don't seem to care.",
 }
 
 FAQ8.propTypes = {
   text: PropTypes.string,
+  faq2Question1: PropTypes.string,
+  text3: PropTypes.string,
+  faq2Question2: PropTypes.string,
   text1: PropTypes.string,
   faq1Question: PropTypes.string,
   faq2Question: PropTypes.string,
-  text2: PropTypes.string,
-  faq2Question1: PropTypes.string,
-  faq2Question2: PropTypes.string,
-  text3: PropTypes.string,
   faq2Question3: PropTypes.string,
+  text2: PropTypes.string,
 }
 
 export default FAQ8
