@@ -55,7 +55,7 @@ const CriminalProceedingsInThailand = (props) => {
           category="Criminal Law"
           avatarName="Uilliam "
           blogPostTitle="Criminal Proceedings in Thailand"
-          avatarImageSrc="/psx_20180313_061941-1400w.jpg"
+          avatarImageSrc="/oig4-1400w.jpg"
         ></BlogPostHeader61>
         <div className="criminal-proceedings-in-thailand-container2">
           <span className="criminal-proceedings-in-thailand-text">

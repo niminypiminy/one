@@ -66,16 +66,12 @@ const Home = (props) => {
             </span>
           </div>
           <div className="home-container02">
-            <Link href="/colors">
-              <a className="home-link03">
-                <img
-                  alt="image"
-                  src="/omnibus-1500h.jpg"
-                  loading="eager"
-                  className="home-image"
-                />
-              </a>
-            </Link>
+            <img
+              alt="image"
+              src="/oig2%20(5)-1500h.jpg"
+              loading="eager"
+              className="home-image"
+            />
           </div>
         </header>
         <div className="home-container03">
@@ -115,7 +111,7 @@ const Home = (props) => {
               </span>
             </h2>
             <Link href="/contact">
-              <a className="home-link04">
+              <a className="home-link03">
                 <h1 className="home-text13">Contact</h1>
               </a>
             </Link>
@@ -124,7 +120,7 @@ const Home = (props) => {
         <div className="home-container06">
           <div className="home-container07">
             <Link href="/company-registration">
-              <a className="home-link05">
+              <a className="home-link04">
                 <h1 className="home-text14">
                   <span className="home-text15">Company Registration</span>
                   <br></br>
@@ -132,7 +128,7 @@ const Home = (props) => {
               </a>
             </Link>
             <Link href="/obtain-a-visa">
-              <a className="home-link06">
+              <a className="home-link05">
                 <h1 className="home-text17">Obtain a Visa</h1>
               </a>
             </Link>
@@ -254,7 +250,7 @@ const Home = (props) => {
               <h2 className="home-title1">Need a free consultation?</h2>
             </div>
             <Link href="/contact">
-              <a className="home-link13">
+              <a className="home-link12">
                 <h1 className="home-text27">Let&apos;s Talk</h1>
               </a>
             </Link>
@@ -367,9 +363,6 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .home-link03 {
-            display: contents;
-          }
           .home-image {
             width: 80%;
             height: 60%;
@@ -379,7 +372,6 @@ const Home = (props) => {
             transition: 0.3s;
             margin-right: var(--dl-space-space-sixunits);
             border-radius: var(--dl-radius-radius-radius8);
-            text-decoration: none;
           }
           .home-image:hover {
             transform: scale(1.2);
@@ -462,7 +454,7 @@ const Home = (props) => {
             font-family: Josefin Sans;
             font-weight: 200;
           }
-          .home-link04 {
+          .home-link03 {
             display: contents;
           }
           .home-text13 {
@@ -505,7 +497,7 @@ const Home = (props) => {
             justify-content: center;
             background-color: #1b1b1b;
           }
-          .home-link05 {
+          .home-link04 {
             display: contents;
           }
           .home-text14 {
@@ -524,7 +516,7 @@ const Home = (props) => {
             border-left-width: 0px;
             border-right-width: 0px;
           }
-          .home-link06 {
+          .home-link05 {
             display: contents;
           }
           .home-text17 {
@@ -724,7 +716,7 @@ const Home = (props) => {
             font-weight: 200;
             line-height: 46px;
           }
-          .home-link13 {
+          .home-link12 {
             display: contents;
           }
           .home-text27 {

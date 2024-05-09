@@ -1675,12 +1675,6 @@ const Navbar = (props) => {
           .navbar-root-class-name8 {
             width: 100%;
           }
-          .navbar-root-class-name9 {
-            width: 100%;
-          }
-          .navbar-root-class-name10 {
-            width: 100%;
-          }
           @media (max-width: 1920px) {
             .navbar-desktop-menu {
               display: none;
