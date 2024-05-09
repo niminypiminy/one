@@ -33,7 +33,7 @@ const WorkPermit = (props) => {
           <div className="work-permit-container02">
             <img
               alt="image"
-              src="/work%20permit-600w.jpg"
+              src="/work%20permit-1500w.jpg"
               loading="eager"
               className="work-permit-image"
             />
@@ -351,9 +351,9 @@ const WorkPermit = (props) => {
               </svg>
               <div className="work-permit-container20">
                 <h2 className="work-permit-text62">
-                  Not be insane or mental disorder, a person who is sick with
-                  leprosy. Tuberculosis, Elephantiasis, Drug Addiction,
-                  Alcoholism and third stage of Syphilis.
+                  Not be insane or have a mental disorder, or be a person who is
+                  sick with leprosy. Tuberculosis, Elephantiasis, Drug
+                  Addiction, Alcoholism or third stage of Syphilis.
                 </h2>
               </div>
             </div>
@@ -392,7 +392,12 @@ const WorkPermit = (props) => {
             height: 100vh;
             display: flex;
             align-items: center;
+            border-color: var(--dl-color-gray-black);
+            border-width: 1px;
             justify-content: center;
+            border-top-width: 0px;
+            border-left-width: 0px;
+            border-right-width: 0px;
           }
           .work-permit-container02 {
             flex: 0 0 auto;
@@ -500,11 +505,15 @@ const WorkPermit = (props) => {
             max-width: auto;
             align-items: center;
             padding-top: var(--dl-space-space-fiveunits);
+            border-color: var(--dl-color-gray-black);
+            border-width: 1px;
             padding-left: var(--dl-space-space-oneandhalfunits);
             margin-bottom: var(--dl-space-space-sixunits);
             padding-right: var(--dl-space-space-oneandhalfunits);
             flex-direction: row;
             justify-content: center;
+            border-left-width: 0px;
+            border-right-width: 0px;
           }
           .work-permit-stat {
             gap: var(--dl-space-space-oneandhalfunits);
@@ -1239,36 +1248,58 @@ const WorkPermit = (props) => {
           }
           @media (max-width: 1200px) {
             .work-permit-container01 {
-              height: 75vh;
+              height: 50vh;
+              align-items: center;
+              flex-direction: row;
+              justify-content: center;
             }
             .work-permit-container02 {
               width: 40%;
-              display: none;
+              height: 100%;
+              flex-direction: column;
             }
             .work-permit-image {
-              width: 90%;
-              margin-right: 0px;
+              width: 100%;
             }
             .work-permit-container03 {
+              width: 50%;
+              margin-left: var(--dl-space-space-threeunits);
+            }
+            .work-permit-container04 {
+              margin-top: var(--dl-space-space-threeunits);
+            }
+            .work-permit-container05 {
+              height: 50vh;
+            }
+            .work-permit-ul {
               width: 75%;
             }
+            .work-permit-banner {
+              height: 70vh;
+            }
             .work-permit-container07 {
-              width: 80%;
+              width: 90%;
+            }
+            .work-permit-container18 {
+              width: 90%;
+            }
+            .work-permit-text61 {
+              margin-bottom: 0px;
+            }
+            .work-permit-text62 {
+              font-size: 1.5rem;
+              margin-bottom: 0px;
             }
           }
           @media (max-width: 991px) {
             .work-permit-container01 {
-              height: 75vh;
-            }
-            .work-permit-container02 {
-              display: none;
+              height: 50vh;
             }
             .work-permit-image {
               width: 100%;
-              display: none;
             }
             .work-permit-container03 {
-              width: 80%;
+              width: 50%;
               height: 80%;
             }
             .work-permit-text {
@@ -1277,7 +1308,27 @@ const WorkPermit = (props) => {
             .work-permit-text01 {
               text-align: left;
             }
+            .work-permit-container05 {
+              width: 100%;
+              height: auto;
+            }
+            .work-permit-heading {
+              width: 100%;
+              margin-top: var(--dl-space-space-threeunits);
+              margin-left: 0px;
+              margin-right: 0px;
+              margin-bottom: var(--dl-space-space-threeunits);
+            }
+            .work-permit-text04 {
+              text-align: center;
+            }
+            .work-permit-text07 {
+              width: 75%;
+              align-self: center;
+              text-align: left;
+            }
             .work-permit-stats {
+              height: auto;
               padding-top: var(--dl-space-space-threeunits);
               flex-direction: column;
             }
@@ -1327,60 +1378,63 @@ const WorkPermit = (props) => {
           }
           @media (max-width: 767px) {
             .work-permit-container01 {
-              height: 75vh;
+              height: auto;
+              flex-direction: row;
+            }
+            .work-permit-container02 {
+              width: 40%;
             }
             .work-permit-image {
               width: 100%;
+              margin-top: 0px;
+              margin-left: var(--dl-space-space-twounits);
+              margin-right: 0px;
             }
             .work-permit-container03 {
-              width: 100%;
+              width: 50%;
               height: auto;
+              margin-top: var(--dl-space-space-threeunits);
             }
             .work-permit-container04 {
+              width: auto;
               height: 100%;
               align-self: center;
+              margin-top: var(--dl-space-space-twounits);
             }
             .work-permit-text {
               text-align: left;
             }
             .work-permit-text01 {
+              width: 100%;
               font-size: 1.5rem;
               font-style: normal;
               font-family: Josefin Sans;
               font-weight: 200;
               line-height: 1.15em;
+              margin-bottom: var(--dl-space-space-twounits);
             }
             .work-permit-header {
               gap: var(--dl-space-space-unit);
+            }
+            .work-permit-heading {
+              margin-top: var(--dl-space-space-fiveunits);
+              margin-bottom: var(--dl-space-space-fiveunits);
             }
             .work-permit-text04 {
               font-size: 32px;
               line-height: 44px;
             }
             .work-permit-text07 {
-              font-size: 16px;
               line-height: 24px;
             }
             .work-permit-caption {
               font-size: 32px;
             }
-            .work-permit-description {
-              font-size: 16px;
-              line-height: 24px;
-            }
             .work-permit-caption1 {
               font-size: 32px;
             }
-            .work-permit-description1 {
-              font-size: 16px;
-              line-height: 24px;
-            }
             .work-permit-caption2 {
               font-size: 32px;
-            }
-            .work-permit-description2 {
-              font-size: 16px;
-              line-height: 24px;
             }
             .work-permit-banner {
               width: 100%;
@@ -1402,7 +1456,7 @@ const WorkPermit = (props) => {
             }
             .work-permit-text60 {
               width: 75%;
-              text-align: left;
+              text-align: center;
             }
             .work-permit-container18 {
               width: 75%;
@@ -1428,22 +1482,40 @@ const WorkPermit = (props) => {
             }
           }
           @media (max-width: 479px) {
-            .work-permit-container03 {
-              width: 90%;
+            .work-permit-container01 {
+              border-color: var(--dl-color-gray-black);
+              border-width: 1px;
+              border-top-width: 0px;
+              border-left-width: 0px;
+              border-right-width: 0px;
+            }
+            .work-permit-container02 {
+              width: 100%;
+              display: none;
+            }
+            .work-permit-image {
+              width: 40%;
               height: auto;
+            }
+            .work-permit-container03 {
+              width: 100%;
+              height: auto;
+              margin-left: 0px;
             }
             .work-permit-container04 {
               width: 100%;
               height: auto;
             }
             .work-permit-text {
-              width: 95%;
+              width: 90%;
               max-width: auto;
+              align-self: center;
               text-align: left;
             }
             .work-permit-text01 {
-              width: 100%;
+              width: 90%;
               font-size: 1.5rem;
+              align-self: center;
               font-style: normal;
               margin-top: var(--dl-space-space-twounits);
               text-align: left;
@@ -1453,12 +1525,42 @@ const WorkPermit = (props) => {
               margin-left: 0px;
               margin-right: 0px;
               padding-left: 0px;
-              margin-bottom: 0px;
+              margin-bottom: var(--dl-space-space-twounits);
               padding-right: 0px;
+            }
+            .work-permit-header {
+              border-color: var(--dl-color-gray-black);
+              border-width: 1px;
+              border-top-width: 0px;
+              border-left-width: 0px;
+              border-right-width: 0px;
+            }
+            .work-permit-text04 {
+              width: 90%;
+              font-size: 2rem;
+              align-self: center;
+            }
+            .work-permit-text07 {
+              width: 90%;
+              font-size: 1.5rem;
+              max-width: auto;
+              align-self: center;
+            }
+            .work-permit-caption {
+              font-size: 2rem;
+            }
+            .work-permit-description {
+              font-size: 1.5rem;
+            }
+            .work-permit-description1 {
+              font-size: 1.5rem;
+            }
+            .work-permit-description2 {
+              font-size: 1.5rem;
             }
             .work-permit-banner {
               width: 100%;
-              height: 75vh;
+              height: auto;
               padding-top: 0px;
               padding-left: 0px;
               margin-bottom: var(--dl-space-space-twounits);
@@ -1488,7 +1590,7 @@ const WorkPermit = (props) => {
             }
             .work-permit-text60 {
               width: 100%;
-              text-align: left;
+              text-align: center;
             }
             .work-permit-container18 {
               width: 100%;

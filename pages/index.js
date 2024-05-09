@@ -66,12 +66,16 @@ const Home = (props) => {
             </span>
           </div>
           <div className="home-container02">
-            <img
-              alt="image"
-              src="/omnibus-1500h.jpg"
-              loading="eager"
-              className="home-image"
-            />
+            <Link href="/colors">
+              <a className="home-link03">
+                <img
+                  alt="image"
+                  src="/omnibus-1500h.jpg"
+                  loading="eager"
+                  className="home-image"
+                />
+              </a>
+            </Link>
           </div>
         </header>
         <div className="home-container03">
@@ -111,7 +115,7 @@ const Home = (props) => {
               </span>
             </h2>
             <Link href="/contact">
-              <a className="home-link03">
+              <a className="home-link04">
                 <h1 className="home-text13">Contact</h1>
               </a>
             </Link>
@@ -120,7 +124,7 @@ const Home = (props) => {
         <div className="home-container06">
           <div className="home-container07">
             <Link href="/company-registration">
-              <a className="home-link04">
+              <a className="home-link05">
                 <h1 className="home-text14">
                   <span className="home-text15">Company Registration</span>
                   <br></br>
@@ -128,7 +132,7 @@ const Home = (props) => {
               </a>
             </Link>
             <Link href="/obtain-a-visa">
-              <a className="home-link05">
+              <a className="home-link06">
                 <h1 className="home-text17">Obtain a Visa</h1>
               </a>
             </Link>
@@ -250,7 +254,7 @@ const Home = (props) => {
               <h2 className="home-title1">Need a free consultation?</h2>
             </div>
             <Link href="/contact">
-              <a className="home-link12">
+              <a className="home-link13">
                 <h1 className="home-text27">Let&apos;s Talk</h1>
               </a>
             </Link>
@@ -326,7 +330,7 @@ const Home = (props) => {
             max-width: auto;
             font-style: normal;
             text-align: left;
-            font-family: Josefin Sans;
+            font-family: 'Josefin Sans';
             font-weight: 200;
             line-height: 3rem;
           }
@@ -340,7 +344,7 @@ const Home = (props) => {
             max-width: auto;
             font-style: normal;
             margin-top: var(--dl-space-space-unit);
-            font-family: Josefin Sans;
+            font-family: 'Josefin Sans';
             font-weight: 200;
             line-height: 2rem;
           }
@@ -363,6 +367,9 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: center;
           }
+          .home-link03 {
+            display: contents;
+          }
           .home-image {
             width: 80%;
             height: 60%;
@@ -372,6 +379,7 @@ const Home = (props) => {
             transition: 0.3s;
             margin-right: var(--dl-space-space-sixunits);
             border-radius: var(--dl-radius-radius-radius8);
+            text-decoration: none;
           }
           .home-image:hover {
             transform: scale(1.2);
@@ -454,7 +462,7 @@ const Home = (props) => {
             font-family: Josefin Sans;
             font-weight: 200;
           }
-          .home-link03 {
+          .home-link04 {
             display: contents;
           }
           .home-text13 {
@@ -497,7 +505,7 @@ const Home = (props) => {
             justify-content: center;
             background-color: #1b1b1b;
           }
-          .home-link04 {
+          .home-link05 {
             display: contents;
           }
           .home-text14 {
@@ -516,7 +524,7 @@ const Home = (props) => {
             border-left-width: 0px;
             border-right-width: 0px;
           }
-          .home-link05 {
+          .home-link06 {
             display: contents;
           }
           .home-text17 {
@@ -637,7 +645,7 @@ const Home = (props) => {
             font-size: 3rem;
             font-style: normal;
             text-align: center;
-            font-family: Josefin Sans;
+            font-family: 'Josefin Sans';
             font-weight: 200;
           }
           .home-text24 {
@@ -716,7 +724,7 @@ const Home = (props) => {
             font-weight: 200;
             line-height: 46px;
           }
-          .home-link12 {
+          .home-link13 {
             display: contents;
           }
           .home-text27 {
@@ -1021,6 +1029,17 @@ const Home = (props) => {
             }
           }
           @media (max-width: 1200px) {
+            .home-title {
+              color: var(--dl-color-gray-black);
+              font-size: 2.5rem;
+              font-style: normal;
+              font-family: Josefin Sans;
+              font-weight: 200;
+              line-height: 3rem;
+            }
+            .home-text01 {
+              background-color: rgb(255, 255, 0);
+            }
             .home-container02 {
               width: 45%;
             }
