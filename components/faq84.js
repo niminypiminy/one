@@ -4,7 +4,11 @@ import Link from 'next/link'
 import PropTypes from 'prop-types'
 
 const FAQ84 = (props) => {
-  const [isVisible, setIsVisible] = useState(false)
+  const [faq1isVisible, setFaq1isVisible] = useState(true)
+  const [faq2isVisible, setFaq2isVisible] = useState(true)
+  const [faq3isVisible, setFaq3isVisible] = useState(true)
+  const [faq4isVisible, setFaq4isVisible] = useState(true)
+  const [faq5isVisible, setFaq5isVisible] = useState(true)
   return (
     <>
       <div className="faq84-faq8 thq-section-padding">
@@ -17,7 +21,7 @@ const FAQ84 = (props) => {
           <div className="faq84-list thq-flex-column">
             <div className="faq84-faq1 thq-section-max-width thq-box-shadow">
               <div
-                onClick={() => setIsVisible(!isVisible)}
+                onClick={() => setFaq1isVisible(!faq1isVisible)}
                 className="faq84-trigger"
               >
                 <p className="faq84-faq1-question thq-body-large">
@@ -36,7 +40,7 @@ const FAQ84 = (props) => {
                   </div>
                 </div>
               </div>
-              {isVisible && (
+              {!faq1isVisible && (
                 <div className="faq84-container02">
                   <span className="faq84-text01 thq-body-small">
                     <span>
@@ -57,7 +61,7 @@ const FAQ84 = (props) => {
             </div>
             <div className="faq84-faq2 thq-section-max-width thq-box-shadow">
               <div
-                onClick={() => setIsVisible(!isVisible)}
+                onClick={() => setFaq2isVisible(!faq2isVisible)}
                 className="faq84-trigger1"
               >
                 <p className="faq84-faq2-question thq-body-large">
@@ -76,7 +80,7 @@ const FAQ84 = (props) => {
                   </div>
                 </div>
               </div>
-              {isVisible && (
+              {!faq2isVisible && (
                 <div className="faq84-container05">
                   <span className="faq84-text04 thq-body-small">
                     {props.text2}
@@ -85,7 +89,10 @@ const FAQ84 = (props) => {
               )}
             </div>
             <div className="faq84-faq3 thq-section-max-width thq-box-shadow">
-              <div className="faq84-trigger2">
+              <div
+                onClick={() => setFaq3isVisible(!faq3isVisible)}
+                className="faq84-trigger2"
+              >
                 <p className="faq84-faq2-question1 thq-body-large">
                   {props.faq2Question1}
                 </p>
@@ -102,7 +109,7 @@ const FAQ84 = (props) => {
                   </div>
                 </div>
               </div>
-              {isVisible && (
+              {!faq3isVisible && (
                 <div className="faq84-container08">
                   <span className="faq84-text05 thq-body-small">
                     <span>
@@ -127,7 +134,7 @@ const FAQ84 = (props) => {
             </div>
             <div className="faq84-faq4 thq-section-max-width thq-box-shadow">
               <div
-                onClick={() => setIsVisible(!isVisible)}
+                onClick={() => setFaq4isVisible(!faq4isVisible)}
                 className="faq84-trigger3"
               >
                 <p className="faq84-faq2-question2 thq-body-large">
@@ -146,7 +153,7 @@ const FAQ84 = (props) => {
                   </div>
                 </div>
               </div>
-              {isVisible && (
+              {!faq4isVisible && (
                 <div className="faq84-container11">
                   <span className="faq84-text08 thq-body-small">
                     {props.text3}
@@ -156,7 +163,7 @@ const FAQ84 = (props) => {
             </div>
             <div className="faq84-faq5 thq-section-max-width thq-box-shadow">
               <div
-                onClick={() => setIsVisible(!isVisible)}
+                onClick={() => setFaq5isVisible(!faq5isVisible)}
                 className="faq84-trigger4"
               >
                 <p className="faq84-faq2-question3 thq-body-large">
@@ -175,7 +182,7 @@ const FAQ84 = (props) => {
                   </div>
                 </div>
               </div>
-              {isVisible && (
+              {!faq5isVisible && (
                 <div className="faq84-container14">
                   <span className="faq84-text09 thq-body-small">
                     <span>
