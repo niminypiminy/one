@@ -4,6 +4,7 @@ import Head from 'next/head'
 
 import Navbar from '../components/navbar'
 import IconContainer from '../components/icon-container'
+import Component7 from '../components/component7'
 import Footer1 from '../components/footer1'
 
 const ForeignBusinessLicense = (props) => {
@@ -92,7 +93,7 @@ const ForeignBusinessLicense = (props) => {
                     The Foreign Business Act enumerates three categories of
                     investment
                   </span>
-                  <br className="foreign-business-license-text11"></br>
+                  <br></br>
                   <span>
                     <span
                       dangerouslySetInnerHTML={{
@@ -112,14 +113,9 @@ const ForeignBusinessLicense = (props) => {
                 className="foreign-business-license-element accordion"
               >
                 <div className="foreign-business-license-container05">
-                  <a
-                    href="#category1"
-                    className="foreign-business-license-link"
-                  >
-                    <h3 className="foreign-business-license-header1">
-                      Category 1
-                    </h3>
-                  </a>
+                  <h3 className="foreign-business-license-header1">
+                    Category 1
+                  </h3>
                   <span className="foreign-business-license-text13">
                     <span>
                       Category one prohibits foreign juristic persons from
@@ -135,14 +131,9 @@ const ForeignBusinessLicense = (props) => {
                 className="foreign-business-license-element1 accordion"
               >
                 <div className="foreign-business-license-container06">
-                  <a
-                    href="#category2"
-                    className="foreign-business-license-link1"
-                  >
-                    <h3 className="foreign-business-license-header2">
-                      Category 2
-                    </h3>
-                  </a>
+                  <h3 className="foreign-business-license-header2">
+                    Category 2
+                  </h3>
                   <span className="foreign-business-license-text16">
                     To protect national security, natural resources, or that
                     which is considered fundamental to Thai culture and
@@ -159,14 +150,9 @@ const ForeignBusinessLicense = (props) => {
                 className="foreign-business-license-element2 accordion"
               >
                 <div className="foreign-business-license-container07">
-                  <a
-                    href="#category3"
-                    className="foreign-business-license-link2"
-                  >
-                    <h3 className="foreign-business-license-header3">
-                      Category 3
-                    </h3>
-                  </a>
+                  <h3 className="foreign-business-license-header3">
+                    Category 3
+                  </h3>
                   <span className="foreign-business-license-text17">
                     Category three primarily constitutes nascent industries that
                     the Thai government seeks to protect from foreign
@@ -180,446 +166,132 @@ const ForeignBusinessLicense = (props) => {
             </div>
           </div>
         </section>
-        <div className="foreign-business-license-category-fbl">
-          <div id="category1" className="foreign-business-license-row1">
-            <span className="foreign-business-license-text18">Category 1</span>
-            <div className="foreign-business-license-list">
-              <div className="foreign-business-license-item service">
-                <div className="foreign-business-license-details">
-                  <span className="foreign-business-license-text19">
-                    The press, radio broadcasting station, or radio and
-                    television station business.
-                  </span>
-                </div>
-              </div>
-              <div className="foreign-business-license-item01 service">
-                <div className="foreign-business-license-details01">
-                  <span className="foreign-business-license-text20">
-                    Livestock farming.
-                  </span>
-                </div>
-              </div>
-              <div className="foreign-business-license-item02 service">
-                <div className="foreign-business-license-details02">
-                  <span className="foreign-business-license-text21">
-                    Fishery, only in respect of the catchment of aquatic animals
-                    in Thai waters and specific economic zones of Thailand.
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
-                </div>
-              </div>
-              <div className="foreign-business-license-item03 service">
-                <div className="foreign-business-license-details03">
-                  <span className="foreign-business-license-text22">
-                    Trading and sale of antique objects of Thailand or objects
-                    of historical value of Thailand.
-                  </span>
-                </div>
-              </div>
-              <div className="foreign-business-license-item04 service">
-                <div className="foreign-business-license-details04">
-                  <span className="foreign-business-license-text23">
-                    Rice farming, plantation, or crop growing.
-                  </span>
-                </div>
-              </div>
-              <div className="foreign-business-license-item05 service">
-                <div className="foreign-business-license-details05">
-                  <span className="foreign-business-license-text24">
-                    Extraction of Thai medicinal herbs, and making or casting
-                    Buddha Images and monk alms-bowls. / Marketing
-                  </span>
-                </div>
-              </div>
-              <div className="foreign-business-license-item06 service">
-                <div className="foreign-business-license-details06">
-                  <span className="foreign-business-license-text25">
-                    Forestry and timber processing from a natural forest.
-                  </span>
-                </div>
-              </div>
-              <div className="foreign-business-license-item07 service">
-                <div className="foreign-business-license-details07">
-                  <span className="foreign-business-license-text26">
-                    Trading in land.
-                  </span>
-                </div>
-              </div>
+        <Component7></Component7>
+        <div className="foreign-business-license-category-fbl"></div>
+        <div className="thq-section-padding">
+          <div className="foreign-business-license-max-width thq-section-max-width">
+            <div className="foreign-business-license-container09">
+              <h2 className="foreign-business-license-text18 thq-heading-2">
+                How to apply for FBL
+              </h2>
+              <span className="foreign-business-license-text19 thq-body-small">
+                It can take up to sixty days to receive approval for the foreign
+                business license. Licenses are given on a case-by-case basis. 
+              </span>
+              <div className="foreign-business-license-container10"></div>
             </div>
-          </div>
-          <div id="category2" className="foreign-business-license-row2">
-            <span className="foreign-business-license-text27">Category 2</span>
-            <div className="foreign-business-license-list1">
-              <div className="foreign-business-license-item08 service">
-                <div className="foreign-business-license-details08">
-                  <span className="foreign-business-license-text28">
-                    Production, distribution, and maintenance of firearms,
-                    ammunition, gun powders, and explosives.
-                  </span>
+            <div className="foreign-business-license-timeline-container">
+              <div className="foreign-business-license-step1">
+                <div className="foreign-business-license-container11">
+                  <div className="foreign-business-license-container12"></div>
+                  <div className="foreign-business-license-progress0"></div>
+                </div>
+                <div className="foreign-business-license-container13">
+                  <div className="foreign-business-license-container14 thq-card">
+                    <h3 className="foreign-business-license-text20 thq-heading-3">
+                      Step 1
+                    </h3>
+                    <span className="foreign-business-license-text21 thq-body-small">
+                      Submit an application at the Ministry of Commerce, along
+                      with other pertinent documentation, such as the business
+                      office address, copy of passport, a map showing the
+                      business location, and a letter describing the details of
+                      the business. 
+                    </span>
+                  </div>
                 </div>
               </div>
-              <div className="foreign-business-license-item09 service">
-                <div className="foreign-business-license-details09">
-                  <span className="foreign-business-license-text29">
-                    Trading of antiques or artistic objects that are artistic
-                    works or handicrafts of Thailand.
-                  </span>
+              <div className="foreign-business-license-step2">
+                <div className="foreign-business-license-container15">
+                  <div className="foreign-business-license-container16"></div>
+                  <div className="foreign-business-license-progress01"></div>
+                </div>
+                <div className="foreign-business-license-container17">
+                  <div className="foreign-business-license-container18 thq-card">
+                    <h3 className="foreign-business-license-text22 thq-heading-3">
+                      Step 2
+                    </h3>
+                    <span className="foreign-business-license-text23 thq-body-small">
+                      Wait for your application to undergo review. While
+                      technically the business may commence operations
+                      immediately after submitting the application, it is
+                      important to note that if the application is denied, the
+                      business will be required to halt all activities.
+                    </span>
+                  </div>
                 </div>
               </div>
-              <div className="foreign-business-license-item10 service">
-                <div className="foreign-business-license-details10">
-                  <span className="foreign-business-license-text30">
-                    Silkworm raising, production of Thai silk yarn, weaving of
-                    Thai silk, or printing of Thai silk patterns.
-                  </span>
+              <div className="foreign-business-license-step3">
+                <div className="foreign-business-license-container19">
+                  <div className="foreign-business-license-container20"></div>
+                  <div className="foreign-business-license-progress02"></div>
                 </div>
-              </div>
-              <div className="foreign-business-license-item11 service">
-                <div className="foreign-business-license-details11">
-                  <span className="foreign-business-license-text31">
-                    Production of goldware, silverware, nielloware, bronzeware,
-                    or lacquerware.
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
-                </div>
-              </div>
-              <div className="foreign-business-license-item12 service">
-                <div className="foreign-business-license-details12">
-                  <span className="foreign-business-license-text32">
-                    Salt farming, including non-sea salt farming.
-                  </span>
-                </div>
-              </div>
-              <div className="foreign-business-license-item13 service">
-                <div className="foreign-business-license-details13">
-                  <span className="foreign-business-license-text33">
-                    Timber processing for the production of furniture and
-                    utensils.
-                  </span>
-                </div>
-              </div>
-              <div className="foreign-business-license-item14 service">
-                <div className="foreign-business-license-details14">
-                  <span className="foreign-business-license-text34">
-                    Domestic transportation by land, water, or air, including
-                    domestic aviation.
-                  </span>
-                </div>
-              </div>
-              <div className="foreign-business-license-item15 service">
-                <div className="foreign-business-license-details15">
-                  <span className="foreign-business-license-text35">
-                    Production of wood carvings.
-                  </span>
-                </div>
-              </div>
-              <div className="foreign-business-license-item16 service">
-                <div className="foreign-business-license-details16">
-                  <span className="foreign-business-license-text36">
-                    Production of Thai musical instruments.
-                  </span>
-                </div>
-              </div>
-              <div className="foreign-business-license-item17 service">
-                <div className="foreign-business-license-details17">
-                  <span className="foreign-business-license-text37">
-                    Production of crockery or porcelains representing Thai arts
-                    and culture.
-                  </span>
-                </div>
-              </div>
-              <div className="foreign-business-license-item18 service">
-                <div className="foreign-business-license-details18">
-                  <span className="foreign-business-license-text38">
-                    Production of rock salt.
-                  </span>
-                </div>
-              </div>
-              <div className="foreign-business-license-item19 service">
-                <div className="foreign-business-license-details19">
-                  <span className="foreign-business-license-text39">
-                    Mining, including rock blasting or rock crushing.
-                  </span>
-                </div>
-              </div>
-              <div className="foreign-business-license-item20 service">
-                <div className="foreign-business-license-details20">
-                  <span className="foreign-business-license-text40">
-                    Armaments, ships, aircraft,  vehicles for military use, or
-                    equipment or components of all types of war materials.
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div id="category3" className="foreign-business-license-row3">
-            <span className="foreign-business-license-text41">Category 3</span>
-            <div className="foreign-business-license-list2">
-              <div className="foreign-business-license-item21 service">
-                <div className="foreign-business-license-details21">
-                  <span className="foreign-business-license-text42">
-                    Rice milling and flour production from rice and farm
-                    produce.
-                  </span>
-                </div>
-              </div>
-              <div className="foreign-business-license-item22 service">
-                <div className="foreign-business-license-details22">
-                  <span className="foreign-business-license-text43">
-                    Forestry from a grown forest.
-                  </span>
-                </div>
-              </div>
-              <div className="foreign-business-license-item23 service">
-                <div className="foreign-business-license-details23">
-                  <span className="foreign-business-license-text44">
-                    Production of lime.
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
-                </div>
-              </div>
-              <div className="foreign-business-license-item24 service">
-                <div className="foreign-business-license-details24">
-                  <span className="foreign-business-license-text45">
-                    Legal service business.
-                  </span>
-                </div>
-              </div>
-              <div className="foreign-business-license-item25 service">
-                <div className="foreign-business-license-details25">
-                  <span className="foreign-business-license-text46">
-                    Engineering service business.
-                  </span>
-                </div>
-              </div>
-              <div className="foreign-business-license-item26 service">
-                <div className="foreign-business-license-details26">
-                  <span className="foreign-business-license-text47">
-                    Certain types of brokerages and agencies.
-                  </span>
-                </div>
-              </div>
-              <div className="foreign-business-license-item27 service">
-                <div className="foreign-business-license-details27">
-                  <span className="foreign-business-license-text48">
-                    Internal trade related to traditional agricultural products
-                    or produce not yet prohibited by law, except agricultural
-                    futures trading in the Thai Agricultural Futures Market
-                    without delivery or receipt of agricultural products within
-                    the country.
-                  </span>
-                </div>
-              </div>
-              <div className="foreign-business-license-item28 service">
-                <div className="foreign-business-license-details28">
-                  <span className="foreign-business-license-text49">
-                    Wholesaling all categories of goods having a minimum capital
-                    of each shop of less than 100 million Baht.
-                  </span>
-                </div>
-              </div>
-              <div className="foreign-business-license-item29 service">
-                <div className="foreign-business-license-details29">
-                  <span className="foreign-business-license-text50">
-                    Hotel business, with the exception of the hotel management
-                    service.
-                  </span>
-                </div>
-              </div>
-              <div className="foreign-business-license-item30 service">
-                <div className="foreign-business-license-details30">
-                  <span className="foreign-business-license-text51">
-                    Sale of food and beverages.
-                  </span>
-                </div>
-              </div>
-              <div className="foreign-business-license-item31 service">
-                <div className="foreign-business-license-details31">
-                  <span className="foreign-business-license-text52">
-                    Fishery, specifically marine animal cultures.
-                  </span>
-                </div>
-              </div>
-              <div className="foreign-business-license-item32 service">
-                <div className="foreign-business-license-details32">
-                  <span className="foreign-business-license-text53">
-                    Production of plywood, veneer wood, chipboards or
-                    hardboards.
-                  </span>
-                </div>
-              </div>
-              <div className="foreign-business-license-item33 service">
-                <div className="foreign-business-license-details33">
-                  <span className="foreign-business-license-text54">
-                    Accounting service business.
-                  </span>
-                </div>
-              </div>
-              <div className="foreign-business-license-item34 service">
-                <div className="foreign-business-license-details34">
-                  <span className="foreign-business-license-text55">
-                    Certain types of construction.
-                  </span>
-                </div>
-              </div>
-              <div className="foreign-business-license-item35 service">
-                <div className="foreign-business-license-details35">
-                  <span className="foreign-business-license-text56">
-                    Retailing all categories of goods having a total minimum
-                    capital of less than 100 million Baht or having a minimum
-                    capital of each shop less than 20 million Baht.
-                  </span>
-                </div>
-              </div>
-              <div className="foreign-business-license-item36 service">
-                <div className="foreign-business-license-details36">
-                  <span className="foreign-business-license-text57">
-                    Architecture service business.
-                  </span>
-                </div>
-              </div>
-              <div className="foreign-business-license-item37 service">
-                <div className="foreign-business-license-details37">
-                  <span className="foreign-business-license-text58">
-                    Some types of auctions.
-                  </span>
-                </div>
-              </div>
-              <div className="foreign-business-license-item38 service">
-                <div className="foreign-business-license-details38">
-                  <span className="foreign-business-license-text59">
-                    Advertising business.
-                  </span>
-                </div>
-              </div>
-              <div className="foreign-business-license-item39 service">
-                <div className="foreign-business-license-details39">
-                  <span className="foreign-business-license-text60">
-                    Tour agency.
-                  </span>
-                </div>
-              </div>
-              <div className="foreign-business-license-item40 service">
-                <div className="foreign-business-license-details40">
-                  <span className="foreign-business-license-text61">
-                    Plant cultivation and propagation business.
-                  </span>
+                <div className="foreign-business-license-container21">
+                  <div className="foreign-business-license-container22 thq-card">
+                    <h3 className="foreign-business-license-text24 thq-heading-3">
+                      Step 3
+                    </h3>
+                    <span className="foreign-business-license-text25 thq-body-small">
+                      Submit the prescribed license fees, which are determined
+                      based on the capitalization, and transfer the required
+                      paid-in capital of either 2 million or 3 million baht. The
+                      Foreign Business Act mandates that 25% of the paid-in
+                      capital must be transferred within three months from
+                      either the approval date or the commencement of business
+                      operations. An additional 25% is due within the first
+                      year, followed by another 25% in the second year. The
+                      final 25% must be paid by the conclusion of the third
+                      year.
+                    </span>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <section className="foreign-business-license-roadmap">
-          <div className="foreign-business-license-heading1">
-            <h2 className="foreign-business-license-header4">
-              How to apply for the FBL
-            </h2>
-          </div>
-          <div className="foreign-business-license-list3">
-            <div className="foreign-business-license-container08">
-              <div className="foreign-business-license-step">
-                <div className="foreign-business-license-heading2">
-                  <span className="foreign-business-license-caption">
-                    Step 1
-                  </span>
-                  <p className="foreign-business-license-header5">
-                    Submit an application at the Ministry of Commerce, along
-                    with all pertinent documentation, such as the business
-                    office address, copy of passport, a map showing the business
-                    location, a letter describing the details of the business,
-                    etc.
-                  </p>
-                </div>
-              </div>
-              <div className="foreign-business-license-step1">
-                <div className="foreign-business-license-heading3">
-                  <span className="foreign-business-license-caption1">
-                    Step 2
-                  </span>
-                  <p className="foreign-business-license-header6">
-                    The business may begin operation immediately after
-                    submitting the application, but if the application is denied
-                    then the business must cease all activity. Generally, the
-                    application is approved or disapproved within sixty days.
-                  </p>
-                </div>
-              </div>
-              <div className="foreign-business-license-step2">
-                <div className="foreign-business-license-heading4">
-                  <span className="foreign-business-license-caption2">
-                    Step 3
-                  </span>
-                  <p className="foreign-business-license-header7">
-                    Pay the required license fees, which are predicated upon
-                    capitalization, and remit the necessary paid-in capital
-                    which will either be 2M or 3M baht. The FBA requires that
-                    25% of the paid-in capital be transferred within three
-                    months, either from the date of approval or the date of
-                    business operation, and an additional 25% must be paid
-                    within the first year. Likewise, 25% must be paid within
-                    year two, and the remaining 25% must be paid by the end of
-                    year three.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
         <div className="foreign-business-license-banner">
-          <h1 className="foreign-business-license-text62">Government Fees</h1>
-          <div className="foreign-business-license-container09">
-            <div className="foreign-business-license-container10">
-              <span className="foreign-business-license-text63">Type</span>
+          <h1 className="foreign-business-license-text26">Government Fees</h1>
+          <div className="foreign-business-license-container23">
+            <div className="foreign-business-license-container24">
+              <span className="foreign-business-license-text27">Type</span>
             </div>
-            <div className="foreign-business-license-container11">
-              <span className="foreign-business-license-text64">
+            <div className="foreign-business-license-container25">
+              <span className="foreign-business-license-text28">
                 Cost (baht)
               </span>
             </div>
-            <div className="foreign-business-license-container12">
-              <span className="foreign-business-license-text65">
+            <div className="foreign-business-license-container26">
+              <span className="foreign-business-license-text29">
                 FBL Application Fee
               </span>
             </div>
-            <div className="foreign-business-license-container13">
-              <span className="foreign-business-license-text66">2000</span>
+            <div className="foreign-business-license-container27">
+              <span className="foreign-business-license-text30">2000</span>
             </div>
-            <div className="foreign-business-license-container14">
-              <span className="foreign-business-license-text67">
+            <div className="foreign-business-license-container28">
+              <span className="foreign-business-license-text31">
                 FBL(Category 2)
               </span>
             </div>
-            <div className="foreign-business-license-container15">
-              <span className="foreign-business-license-text68">
+            <div className="foreign-business-license-container29">
+              <span className="foreign-business-license-text32">
                 40,000-500,000
               </span>
             </div>
-            <div className="foreign-business-license-container16">
-              <span className="foreign-business-license-text69">
+            <div className="foreign-business-license-container30">
+              <span className="foreign-business-license-text33">
                 FBL (Category 3)
               </span>
             </div>
-            <div className="foreign-business-license-container17">
-              <span className="foreign-business-license-text70">
+            <div className="foreign-business-license-container31">
+              <span className="foreign-business-license-text34">
                 20,000-250,000
               </span>
             </div>
           </div>
         </div>
         <Link href="/contact">
-          <a className="foreign-business-license-link3">Ask us anything.</a>
+          <a className="foreign-business-license-link">Ask us anything.</a>
         </Link>
         <Footer1 rootClassName="footer1-root-class-name7"></Footer1>
       </div>
@@ -685,8 +357,8 @@ const ForeignBusinessLicense = (props) => {
             font-size: 2.5rem;
             align-self: flex-start;
             font-style: normal;
-            font-family: Josefin Sans;
-            font-weight: 300;
+            font-family: 'Josefin Sans';
+            font-weight: 400;
           }
           .foreign-business-license-text01 {
             width: 85%;
@@ -695,8 +367,8 @@ const ForeignBusinessLicense = (props) => {
             font-style: normal;
             margin-top: var(--dl-space-space-twounits);
             text-align: left;
-            font-family: Josefin Sans;
-            font-weight: 200;
+            font-family: 'Josefin Sans';
+            font-weight: 300;
             margin-bottom: var(--dl-space-space-twounits);
           }
           .foreign-business-license-text03 {
@@ -745,14 +417,12 @@ const ForeignBusinessLicense = (props) => {
             flex-direction: row;
           }
           .foreign-business-license-heading {
-            color: rgb(255, 255, 255);
+            fill: var(--dl-color-theme-accent1);
+            color: var(--dl-color-theme-accent1);
             font-size: 2.5rem;
             font-style: normal;
             font-family: 'Josefin Sans';
-            font-weight: 200;
-          }
-          .foreign-business-license-text11 {
-            color: #ffffff;
+            font-weight: 400;
           }
           .foreign-business-license-content {
             width: 100%;
@@ -786,26 +456,25 @@ const ForeignBusinessLicense = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .foreign-business-license-link {
-            display: contents;
-          }
           .foreign-business-license-header1 {
-            color: rgb(255, 255, 255);
+            fill: var(--dl-color-theme-accent1);
+            color: var(--dl-color-theme-accent1);
             width: 100%;
             font-size: 2rem;
             font-style: normal;
             font-family: 'Josefin Sans';
-            font-weight: 200;
+            font-weight: 400;
             text-decoration: none;
           }
           .foreign-business-license-text13 {
-            color: var(--dl-color-gray-white);
+            fill: var(--dl-color-theme-accent1);
+            color: var(--dl-color-theme-accent1);
             width: 75%;
             font-size: 1.5rem;
             font-style: normal;
             margin-top: var(--dl-space-space-unit);
             font-family: 'Josefin Sans';
-            font-weight: 200;
+            font-weight: 300;
           }
           .foreign-business-license-element1 {
             width: 100%;
@@ -818,26 +487,25 @@ const ForeignBusinessLicense = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .foreign-business-license-link1 {
-            display: contents;
-          }
           .foreign-business-license-header2 {
-            color: rgb(255, 255, 255);
+            fill: var(--dl-color-theme-accent1);
+            color: var(--dl-color-theme-accent1);
             width: 100%;
             font-size: 2rem;
             font-style: normal;
             font-family: 'Josefin Sans';
-            font-weight: 200;
+            font-weight: 400;
             text-decoration: none;
           }
           .foreign-business-license-text16 {
-            color: var(--dl-color-gray-white);
+            fill: var(--dl-color-theme-accent1);
+            color: var(--dl-color-theme-accent1);
             width: 75%;
             font-size: 1.5rem;
             font-style: normal;
             margin-top: var(--dl-space-space-unit);
             font-family: 'Josefin Sans';
-            font-weight: 200;
+            font-weight: 300;
           }
           .foreign-business-license-element2 {
             width: 100%;
@@ -850,26 +518,25 @@ const ForeignBusinessLicense = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .foreign-business-license-link2 {
-            display: contents;
-          }
           .foreign-business-license-header3 {
-            color: rgb(255, 255, 255);
+            fill: var(--dl-color-theme-accent1);
+            color: var(--dl-color-theme-accent1);
             width: 100%;
             font-size: 2rem;
             font-style: normal;
             font-family: 'Josefin Sans';
-            font-weight: 200;
+            font-weight: 400;
             text-decoration: none;
           }
           .foreign-business-license-text17 {
-            color: var(--dl-color-gray-white);
+            fill: var(--dl-color-theme-accent1);
+            color: var(--dl-color-theme-accent1);
             width: 75%;
             font-size: 1.5rem;
             font-style: normal;
             margin-top: var(--dl-space-space-unit);
             font-family: 'Josefin Sans';
-            font-weight: 200;
+            font-weight: 300;
           }
           .foreign-business-license-category-fbl {
             gap: var(--dl-space-space-fiveunits);
@@ -880,1044 +547,259 @@ const ForeignBusinessLicense = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .foreign-business-license-row1 {
+          .foreign-business-license-max-width {
+            width: 100%;
+            height: auto;
+            display: flex;
+            position: relative;
+            align-items: flex-start;
+            flex-direction: row;
+          }
+          .foreign-business-license-container09 {
+            gap: var(--dl-space-space-twounits);
+            flex: 1;
             width: 100%;
             display: flex;
-            align-items: center;
+            align-items: flex-start;
             flex-direction: column;
-            justify-content: center;
           }
           .foreign-business-license-text18 {
-            color: var(--dl-color-gray-black);
-            font-size: 2.5rem;
-            align-self: center;
-            font-style: normal;
-            margin-top: var(--dl-space-space-fourunits);
-            font-family: 'Josefin Sans';
-            font-weight: 200;
-            line-height: 36px;
-            margin-bottom: var(--dl-space-space-fourunits);
-          }
-          .foreign-business-license-list {
-            width: 60%;
-            display: flex;
-            align-items: flex-start;
-            margin-left: var(--dl-space-space-fourunits);
-            margin-right: var(--dl-space-space-fourunits);
-            flex-direction: column;
-            justify-content: flex-start;
-          }
-          .foreign-business-license-item {
-            width: 100%;
-            position: relative;
-          }
-          .foreign-business-license-details {
-            gap: var(--dl-space-space-oneandhalfunits);
-            width: auto;
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-            justify-content: flex-start;
-          }
-          .foreign-business-license-text19 {
-            color: var(--dl-color-gray-black);
-            width: auto;
-            font-size: 1.5rem;
-            font-style: normal;
-            font-family: 'Josefin Sans';
-            font-weight: 200;
-            line-height: 36px;
-          }
-          .foreign-business-license-item01 {
-            width: 100%;
-            position: relative;
-          }
-          .foreign-business-license-details01 {
-            gap: var(--dl-space-space-oneandhalfunits);
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-            justify-content: flex-start;
-          }
-          .foreign-business-license-text20 {
-            color: var(--dl-color-gray-black);
-            font-size: 1.5rem;
-            font-style: normal;
-            font-family: 'Josefin Sans';
-            font-weight: 200;
-            line-height: 36px;
-          }
-          .foreign-business-license-item02 {
-            width: 100%;
-            position: relative;
-          }
-          .foreign-business-license-details02 {
-            gap: var(--dl-space-space-oneandhalfunits);
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-            justify-content: flex-start;
-          }
-          .foreign-business-license-text21 {
-            color: var(--dl-color-gray-black);
-            font-size: 1.5rem;
-            font-style: normal;
-            font-family: 'Josefin Sans';
-            font-weight: 200;
-            line-height: 36px;
-          }
-          .foreign-business-license-item03 {
-            width: 100%;
-            position: relative;
-          }
-          .foreign-business-license-details03 {
-            gap: var(--dl-space-space-oneandhalfunits);
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-            justify-content: flex-start;
-          }
-          .foreign-business-license-text22 {
-            color: var(--dl-color-gray-black);
-            font-size: 1.5rem;
-            font-style: normal;
-            font-family: 'Josefin Sans';
-            font-weight: 200;
-            line-height: 36px;
-          }
-          .foreign-business-license-item04 {
-            width: 100%;
-            position: relative;
-          }
-          .foreign-business-license-details04 {
-            gap: var(--dl-space-space-oneandhalfunits);
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-            justify-content: flex-start;
-          }
-          .foreign-business-license-text23 {
-            color: var(--dl-color-gray-black);
-            font-size: 1.5rem;
-            font-style: normal;
-            font-family: 'Josefin Sans';
-            font-weight: 200;
-            line-height: 36px;
-          }
-          .foreign-business-license-item05 {
-            width: 100%;
-            position: relative;
-          }
-          .foreign-business-license-details05 {
-            gap: var(--dl-space-space-oneandhalfunits);
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-            justify-content: flex-start;
-          }
-          .foreign-business-license-text24 {
-            color: var(--dl-color-gray-black);
-            font-size: 1.5rem;
-            font-style: normal;
-            font-family: 'Josefin Sans';
-            font-weight: 200;
-            line-height: 36px;
-          }
-          .foreign-business-license-item06 {
-            width: 100%;
-            position: relative;
-          }
-          .foreign-business-license-details06 {
-            gap: var(--dl-space-space-oneandhalfunits);
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-            justify-content: flex-start;
-          }
-          .foreign-business-license-text25 {
-            color: var(--dl-color-gray-black);
-            font-size: 1.5rem;
-            font-style: normal;
-            font-family: 'Josefin Sans';
-            font-weight: 200;
-            line-height: 36px;
-          }
-          .foreign-business-license-item07 {
-            width: 100%;
-            position: relative;
-          }
-          .foreign-business-license-details07 {
-            gap: var(--dl-space-space-oneandhalfunits);
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-            justify-content: flex-start;
-          }
-          .foreign-business-license-text26 {
-            color: var(--dl-color-gray-black);
-            font-size: 1.5rem;
-            font-style: normal;
-            font-family: 'Josefin Sans';
-            font-weight: 200;
-            line-height: 36px;
-          }
-          .foreign-business-license-row2 {
-            width: 100%;
-            display: flex;
-            align-items: center;
-            flex-direction: column;
-            justify-content: center;
-            background-color: #efefef;
-          }
-          .foreign-business-license-text27 {
-            color: var(--dl-color-gray-black);
-            font-size: 2.5rem;
-            font-style: normal;
-            margin-top: var(--dl-space-space-fourunits);
-            font-family: 'Josefin Sans';
-            font-weight: 200;
-            line-height: 36px;
-            margin-bottom: var(--dl-space-space-fourunits);
-          }
-          .foreign-business-license-list1 {
-            width: 60%;
-            display: flex;
-            align-items: flex-start;
-            margin-right: var(--dl-space-space-fourunits);
-            flex-direction: column;
-            justify-content: flex-start;
-          }
-          .foreign-business-license-item08 {
-            width: 100%;
-            position: relative;
-          }
-          .foreign-business-license-details08 {
-            gap: var(--dl-space-space-oneandhalfunits);
-            width: auto;
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-            justify-content: flex-start;
-          }
-          .foreign-business-license-text28 {
-            color: var(--dl-color-gray-black);
-            width: auto;
-            font-size: 1.5rem;
-            font-style: normal;
-            font-family: 'Josefin Sans';
-            font-weight: 200;
-            line-height: 36px;
-          }
-          .foreign-business-license-item09 {
-            width: 100%;
-            position: relative;
-          }
-          .foreign-business-license-details09 {
-            gap: var(--dl-space-space-oneandhalfunits);
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-            justify-content: flex-start;
-          }
-          .foreign-business-license-text29 {
-            color: var(--dl-color-gray-black);
-            font-size: 1.5rem;
-            font-style: normal;
-            font-family: 'Josefin Sans';
-            font-weight: 200;
-            line-height: 36px;
-          }
-          .foreign-business-license-item10 {
-            width: 100%;
-            position: relative;
-          }
-          .foreign-business-license-details10 {
-            gap: var(--dl-space-space-oneandhalfunits);
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-            justify-content: flex-start;
-          }
-          .foreign-business-license-text30 {
-            color: var(--dl-color-gray-black);
-            font-size: 1.5rem;
-            font-style: normal;
-            font-family: 'Josefin Sans';
-            font-weight: 200;
-            line-height: 36px;
-          }
-          .foreign-business-license-item11 {
-            width: 100%;
-            position: relative;
-          }
-          .foreign-business-license-details11 {
-            gap: var(--dl-space-space-oneandhalfunits);
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-            justify-content: flex-start;
-          }
-          .foreign-business-license-text31 {
-            color: var(--dl-color-gray-black);
-            font-size: 1.5rem;
-            font-style: normal;
-            font-family: 'Josefin Sans';
-            font-weight: 200;
-            line-height: 36px;
-          }
-          .foreign-business-license-item12 {
-            width: 100%;
-            position: relative;
-          }
-          .foreign-business-license-details12 {
-            gap: var(--dl-space-space-oneandhalfunits);
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-            justify-content: flex-start;
-          }
-          .foreign-business-license-text32 {
-            color: var(--dl-color-gray-black);
-            font-size: 1.5rem;
-            font-style: normal;
-            font-family: 'Josefin Sans';
-            font-weight: 200;
-            line-height: 36px;
-          }
-          .foreign-business-license-item13 {
-            width: 100%;
-            position: relative;
-          }
-          .foreign-business-license-details13 {
-            gap: var(--dl-space-space-oneandhalfunits);
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-            justify-content: flex-start;
-          }
-          .foreign-business-license-text33 {
-            color: var(--dl-color-gray-black);
-            font-size: 1.5rem;
-            font-style: normal;
-            font-family: 'Josefin Sans';
-            font-weight: 200;
-            line-height: 36px;
-          }
-          .foreign-business-license-item14 {
-            width: 100%;
-            position: relative;
-          }
-          .foreign-business-license-details14 {
-            gap: var(--dl-space-space-oneandhalfunits);
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-            justify-content: flex-start;
-          }
-          .foreign-business-license-text34 {
-            color: var(--dl-color-gray-black);
-            font-size: 1.5rem;
-            font-style: normal;
-            font-family: 'Josefin Sans';
-            font-weight: 200;
-            line-height: 36px;
-          }
-          .foreign-business-license-item15 {
-            width: 100%;
-            position: relative;
-          }
-          .foreign-business-license-details15 {
-            gap: var(--dl-space-space-oneandhalfunits);
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-            justify-content: flex-start;
-          }
-          .foreign-business-license-text35 {
-            color: var(--dl-color-gray-black);
-            font-size: 1.5rem;
-            font-style: normal;
-            font-family: 'Josefin Sans';
-            font-weight: 200;
-            line-height: 36px;
-          }
-          .foreign-business-license-item16 {
-            width: 100%;
-            position: relative;
-          }
-          .foreign-business-license-details16 {
-            gap: var(--dl-space-space-oneandhalfunits);
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-            justify-content: flex-start;
-          }
-          .foreign-business-license-text36 {
-            color: var(--dl-color-gray-black);
-            font-size: 1.5rem;
-            font-style: normal;
-            font-family: 'Josefin Sans';
-            font-weight: 200;
-            line-height: 36px;
-          }
-          .foreign-business-license-item17 {
-            width: 100%;
-            position: relative;
-          }
-          .foreign-business-license-details17 {
-            gap: var(--dl-space-space-oneandhalfunits);
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-            justify-content: flex-start;
-          }
-          .foreign-business-license-text37 {
-            color: var(--dl-color-gray-black);
-            font-size: 1.5rem;
-            font-style: normal;
-            font-family: 'Josefin Sans';
-            font-weight: 200;
-            line-height: 36px;
-          }
-          .foreign-business-license-item18 {
-            width: 100%;
-            position: relative;
-          }
-          .foreign-business-license-details18 {
-            gap: var(--dl-space-space-oneandhalfunits);
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-            justify-content: flex-start;
-          }
-          .foreign-business-license-text38 {
-            color: var(--dl-color-gray-black);
-            font-size: 1.5rem;
-            font-style: normal;
-            font-family: 'Josefin Sans';
-            font-weight: 200;
-            line-height: 36px;
-          }
-          .foreign-business-license-item19 {
-            width: 100%;
-            position: relative;
-          }
-          .foreign-business-license-details19 {
-            gap: var(--dl-space-space-oneandhalfunits);
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-            justify-content: flex-start;
-          }
-          .foreign-business-license-text39 {
-            color: var(--dl-color-gray-black);
-            font-size: 1.5rem;
-            font-style: normal;
-            font-family: 'Josefin Sans';
-            font-weight: 200;
-            line-height: 36px;
-          }
-          .foreign-business-license-item20 {
-            width: 100%;
-            position: relative;
-          }
-          .foreign-business-license-details20 {
-            gap: var(--dl-space-space-oneandhalfunits);
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-            justify-content: flex-start;
-          }
-          .foreign-business-license-text40 {
-            color: var(--dl-color-gray-black);
-            font-size: 1.5rem;
-            font-style: normal;
-            font-family: 'Josefin Sans';
-            font-weight: 200;
-            line-height: 36px;
-          }
-          .foreign-business-license-row3 {
-            width: 100%;
-            display: flex;
-            align-items: center;
-            flex-direction: column;
-            justify-content: center;
-          }
-          .foreign-business-license-text41 {
-            color: var(--dl-color-gray-black);
             font-size: 2rem;
             font-style: normal;
-            margin-top: var(--dl-space-space-fourunits);
-            font-family: 'Josefin Sans';
-            font-weight: 200;
-            line-height: 36px;
-            margin-bottom: var(--dl-space-space-fourunits);
-          }
-          .foreign-business-license-list2 {
-            width: 60%;
-            display: flex;
-            align-items: flex-start;
-            margin-right: var(--dl-space-space-fourunits);
-            flex-direction: column;
-            justify-content: flex-start;
-          }
-          .foreign-business-license-item21 {
-            width: 100%;
-            position: relative;
-          }
-          .foreign-business-license-details21 {
-            gap: var(--dl-space-space-oneandhalfunits);
-            width: auto;
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-            justify-content: flex-start;
-          }
-          .foreign-business-license-text42 {
-            color: var(--dl-color-gray-black);
-            width: auto;
-            font-size: 1.5rem;
-            font-style: normal;
-            font-family: 'Josefin Sans';
-            font-weight: 200;
-            line-height: 36px;
-          }
-          .foreign-business-license-item22 {
-            width: 100%;
-            position: relative;
-          }
-          .foreign-business-license-details22 {
-            gap: var(--dl-space-space-oneandhalfunits);
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-            justify-content: flex-start;
-          }
-          .foreign-business-license-text43 {
-            color: var(--dl-color-gray-black);
-            font-size: 1.5rem;
-            font-style: normal;
-            font-family: 'Josefin Sans';
-            font-weight: 200;
-            line-height: 36px;
-          }
-          .foreign-business-license-item23 {
-            width: 100%;
-            position: relative;
-          }
-          .foreign-business-license-details23 {
-            gap: var(--dl-space-space-oneandhalfunits);
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-            justify-content: flex-start;
-          }
-          .foreign-business-license-text44 {
-            color: var(--dl-color-gray-black);
-            font-size: 1.5rem;
-            font-style: normal;
-            font-family: 'Josefin Sans';
-            font-weight: 200;
-            line-height: 36px;
-          }
-          .foreign-business-license-item24 {
-            width: 100%;
-            position: relative;
-          }
-          .foreign-business-license-details24 {
-            gap: var(--dl-space-space-oneandhalfunits);
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-            justify-content: flex-start;
-          }
-          .foreign-business-license-text45 {
-            color: var(--dl-color-gray-black);
-            font-size: 1.5rem;
-            font-style: normal;
-            font-family: 'Josefin Sans';
-            font-weight: 200;
-            line-height: 36px;
-          }
-          .foreign-business-license-item25 {
-            width: 100%;
-            position: relative;
-          }
-          .foreign-business-license-details25 {
-            gap: var(--dl-space-space-oneandhalfunits);
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-            justify-content: flex-start;
-          }
-          .foreign-business-license-text46 {
-            color: var(--dl-color-gray-black);
-            font-size: 1.5rem;
-            font-style: normal;
-            font-family: 'Josefin Sans';
-            font-weight: 200;
-            line-height: 36px;
-          }
-          .foreign-business-license-item26 {
-            width: 100%;
-            position: relative;
-          }
-          .foreign-business-license-details26 {
-            gap: var(--dl-space-space-oneandhalfunits);
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-            justify-content: flex-start;
-          }
-          .foreign-business-license-text47 {
-            color: var(--dl-color-gray-black);
-            font-size: 1.5rem;
-            font-style: normal;
-            font-family: 'Josefin Sans';
-            font-weight: 200;
-            line-height: 36px;
-          }
-          .foreign-business-license-item27 {
-            width: 100%;
-            position: relative;
-          }
-          .foreign-business-license-details27 {
-            gap: var(--dl-space-space-oneandhalfunits);
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-            justify-content: flex-start;
-          }
-          .foreign-business-license-text48 {
-            color: var(--dl-color-gray-black);
-            font-size: 1.5rem;
-            font-style: normal;
-            font-family: 'Josefin Sans';
-            font-weight: 200;
-            line-height: 36px;
-          }
-          .foreign-business-license-item28 {
-            width: 100%;
-            position: relative;
-          }
-          .foreign-business-license-details28 {
-            gap: var(--dl-space-space-oneandhalfunits);
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-            justify-content: flex-start;
-          }
-          .foreign-business-license-text49 {
-            color: var(--dl-color-gray-black);
-            font-size: 1.5rem;
-            font-style: normal;
-            font-family: 'Josefin Sans';
-            font-weight: 200;
-            line-height: 36px;
-          }
-          .foreign-business-license-item29 {
-            width: 100%;
-            position: relative;
-          }
-          .foreign-business-license-details29 {
-            gap: var(--dl-space-space-oneandhalfunits);
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-            justify-content: flex-start;
-          }
-          .foreign-business-license-text50 {
-            color: var(--dl-color-gray-black);
-            font-size: 1.5rem;
-            font-style: normal;
-            font-family: 'Josefin Sans';
-            font-weight: 200;
-            line-height: 36px;
-          }
-          .foreign-business-license-item30 {
-            width: 100%;
-            position: relative;
-          }
-          .foreign-business-license-details30 {
-            gap: var(--dl-space-space-oneandhalfunits);
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-            justify-content: flex-start;
-          }
-          .foreign-business-license-text51 {
-            color: var(--dl-color-gray-black);
-            font-size: 1.5rem;
-            font-style: normal;
-            font-family: 'Josefin Sans';
-            font-weight: 200;
-            line-height: 36px;
-          }
-          .foreign-business-license-item31 {
-            width: 100%;
-            position: relative;
-          }
-          .foreign-business-license-details31 {
-            gap: var(--dl-space-space-oneandhalfunits);
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-            justify-content: flex-start;
-          }
-          .foreign-business-license-text52 {
-            color: var(--dl-color-gray-black);
-            font-size: 1.5rem;
-            font-style: normal;
-            font-family: 'Josefin Sans';
-            font-weight: 200;
-            line-height: 36px;
-          }
-          .foreign-business-license-item32 {
-            width: 100%;
-            position: relative;
-          }
-          .foreign-business-license-details32 {
-            gap: var(--dl-space-space-oneandhalfunits);
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-            justify-content: flex-start;
-          }
-          .foreign-business-license-text53 {
-            color: var(--dl-color-gray-black);
-            font-size: 1.5rem;
-            font-style: normal;
-            font-family: 'Josefin Sans';
-            font-weight: 200;
-            line-height: 36px;
-          }
-          .foreign-business-license-item33 {
-            width: 100%;
-            position: relative;
-          }
-          .foreign-business-license-details33 {
-            gap: var(--dl-space-space-oneandhalfunits);
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-            justify-content: flex-start;
-          }
-          .foreign-business-license-text54 {
-            color: var(--dl-color-gray-black);
-            font-size: 1.5rem;
-            font-style: normal;
-            font-family: 'Josefin Sans';
-            font-weight: 200;
-            line-height: 36px;
-          }
-          .foreign-business-license-item34 {
-            width: 100%;
-            position: relative;
-          }
-          .foreign-business-license-details34 {
-            gap: var(--dl-space-space-oneandhalfunits);
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-            justify-content: flex-start;
-          }
-          .foreign-business-license-text55 {
-            color: var(--dl-color-gray-black);
-            font-size: 1.5rem;
-            font-style: normal;
-            font-family: 'Josefin Sans';
-            font-weight: 200;
-            line-height: 36px;
-          }
-          .foreign-business-license-item35 {
-            width: 100%;
-            position: relative;
-          }
-          .foreign-business-license-details35 {
-            gap: var(--dl-space-space-oneandhalfunits);
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-            justify-content: flex-start;
-          }
-          .foreign-business-license-text56 {
-            color: var(--dl-color-gray-black);
-            font-size: 1.5rem;
-            font-style: normal;
-            font-family: 'Josefin Sans';
-            font-weight: 200;
-            line-height: 36px;
-          }
-          .foreign-business-license-item36 {
-            width: 100%;
-            position: relative;
-          }
-          .foreign-business-license-details36 {
-            gap: var(--dl-space-space-oneandhalfunits);
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-            justify-content: flex-start;
-          }
-          .foreign-business-license-text57 {
-            color: var(--dl-color-gray-black);
-            font-size: 1.5rem;
-            font-style: normal;
-            font-family: 'Josefin Sans';
-            font-weight: 200;
-            line-height: 36px;
-          }
-          .foreign-business-license-item37 {
-            width: 100%;
-            position: relative;
-          }
-          .foreign-business-license-details37 {
-            gap: var(--dl-space-space-oneandhalfunits);
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-            justify-content: flex-start;
-          }
-          .foreign-business-license-text58 {
-            color: var(--dl-color-gray-black);
-            font-size: 1.5rem;
-            font-style: normal;
-            font-family: 'Josefin Sans';
-            font-weight: 200;
-            line-height: 36px;
-          }
-          .foreign-business-license-item38 {
-            width: 100%;
-            position: relative;
-          }
-          .foreign-business-license-details38 {
-            gap: var(--dl-space-space-oneandhalfunits);
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-            justify-content: flex-start;
-          }
-          .foreign-business-license-text59 {
-            color: var(--dl-color-gray-black);
-            font-size: 1.5rem;
-            font-style: normal;
-            font-family: 'Josefin Sans';
-            font-weight: 200;
-            line-height: 36px;
-          }
-          .foreign-business-license-item39 {
-            width: 100%;
-            position: relative;
-          }
-          .foreign-business-license-details39 {
-            gap: var(--dl-space-space-oneandhalfunits);
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-            justify-content: flex-start;
-          }
-          .foreign-business-license-text60 {
-            color: var(--dl-color-gray-black);
-            font-size: 1.5rem;
-            font-style: normal;
-            font-family: 'Josefin Sans';
-            font-weight: 200;
-            line-height: 36px;
-          }
-          .foreign-business-license-item40 {
-            width: 100%;
-            position: relative;
-          }
-          .foreign-business-license-details40 {
-            gap: var(--dl-space-space-oneandhalfunits);
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-            justify-content: flex-start;
-          }
-          .foreign-business-license-text61 {
-            color: var(--dl-color-gray-black);
-            font-size: 1.5rem;
-            font-style: normal;
-            font-family: 'Josefin Sans';
-            font-weight: 200;
-            line-height: 36px;
-          }
-          .foreign-business-license-roadmap {
-            gap: var(--dl-space-space-fiveunits);
-            width: 100%;
-            height: auto;
-            display: flex;
-            max-width: auto;
-            margin-top: var(--dl-space-space-sixunits);
-            align-items: center;
-            margin-bottom: var(--dl-space-space-sixunits);
-            flex-direction: column;
-            justify-content: center;
-          }
-          .foreign-business-license-heading1 {
-            gap: var(--dl-space-space-twounits);
-            width: 100%;
-            display: flex;
-            max-width: auto;
-            align-items: center;
-            flex-direction: column;
-          }
-          .foreign-business-license-header4 {
-            color: var(--dl-color-gray-white);
-            width: auto;
-            font-size: 2.5rem;
-            max-width: auto;
-            min-width: 60%;
-            font-style: normal;
-            margin-top: var(--dl-space-space-twounits);
             text-align: center;
             font-family: 'Josefin Sans';
-            font-weight: 200;
-            line-height: 108px;
-            padding-top: var(--dl-space-space-halfunit);
-            padding-left: var(--dl-space-space-halfunit);
-            padding-right: var(--dl-space-space-halfunit);
-            padding-bottom: var(--dl-space-space-halfunit);
-            background-color: rgb(27, 27, 27);
+            font-weight: 400;
           }
-          .foreign-business-license-list3 {
-            gap: 106px;
-            width: 100%;
-            height: auto;
-            display: flex;
-            border-color: rgba(255, 255, 255, 0.3);
-            flex-direction: column;
-            border-left-width: 1px;
+          .foreign-business-license-text19 {
+            font-size: 1.5rem;
+            font-style: normal;
+            text-align: left;
+            font-family: 'Josefin Sans';
+            font-weight: 300;
           }
-          .foreign-business-license-container08 {
+          .foreign-business-license-container10 {
+            gap: var(--dl-space-space-unit);
             flex: 0 0 auto;
-            width: 100%;
-            height: auto;
+            width: auto;
+            border: 2px dashed rgba(120, 120, 120, 0.4);
             display: flex;
+            align-items: flex-start;
+            flex-direction: row;
+          }
+          .foreign-business-license-timeline-container {
+            flex: 1;
+            height: 100%;
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+          }
+          .foreign-business-license-step1 {
+            display: flex;
+            position: relative;
+            align-items: flex-start;
+            justify-content: center;
+          }
+          .foreign-business-license-container11 {
+            flex: 1;
+            left: var(--dl-space-space-halfunit);
+            height: 100%;
+            display: flex;
+            position: absolute;
             align-items: center;
             flex-direction: column;
             justify-content: center;
           }
-          .foreign-business-license-step {
-            gap: var(--dl-space-space-oneandhalfunits);
-            width: 60%;
-            display: flex;
-            align-items: flex-start;
-            margin-left: 0px;
-            flex-direction: column;
+          .foreign-business-license-container12 {
+            width: 12px;
+            height: 12px;
+            margin: var(--dl-space-space-halfunit);
+            border-radius: var(--dl-radius-radius-round);
+            background-color: #000000;
           }
-          .foreign-business-license-heading2 {
-            gap: var(--dl-space-space-twounits);
-            width: 100%;
-            display: flex;
-            max-width: auto;
-            align-items: flex-start;
-            flex-direction: column;
-          }
-          .foreign-business-license-caption {
-            font-size: 1.5rem;
-            font-style: normal;
-            font-family: Josefin Sans;
-            font-weight: 300;
-            letter-spacing: 1px;
-            text-transform: uppercase;
-          }
-          .foreign-business-license-header5 {
-            color: var(--dl-color-gray-black);
+          .foreign-business-license-progress0 {
             width: auto;
-            font-size: 1.5rem;
-            font-style: normal;
-            font-family: Josefin Sans;
-            font-weight: 200;
-            line-height: 27px;
-          }
-          .foreign-business-license-step1 {
-            gap: var(--dl-space-space-oneandhalfunits);
-            width: 60%;
+            border: 2px dashed rgba(120, 120, 120, 0.4);
+            height: 100%;
             display: flex;
-            margin-top: var(--dl-space-space-threeunits);
             align-items: flex-start;
             flex-direction: column;
+            background-color: #000000;
           }
-          .foreign-business-license-heading3 {
-            gap: var(--dl-space-space-twounits);
-            width: 100%;
+          .foreign-business-license-container13 {
+            gap: var(--dl-space-space-unit);
             display: flex;
-            max-width: auto;
             align-items: flex-start;
+            padding-left: var(--dl-space-space-threeunits);
+            flex-direction: column;
+            padding-bottom: var(--dl-space-space-unit);
+            justify-content: flex-start;
+          }
+          .foreign-business-license-container14 {
+            display: flex;
+            align-items: flex-start;
+            border-color: var(--dl-color-theme-neutral-dark);
+            border-width: 1px;
             flex-direction: column;
           }
-          .foreign-business-license-caption1 {
-            font-size: 1.5rem;
-            font-style: normal;
-            font-family: Josefin Sans;
-            font-weight: 300;
-            letter-spacing: 1px;
-            text-transform: uppercase;
-          }
-          .foreign-business-license-header6 {
-            color: var(--dl-color-gray-black);
-            width: auto;
-            font-size: 1.5rem;
-            font-style: normal;
-            font-family: Josefin Sans;
-            font-weight: 200;
-            line-height: 27px;
-          }
-          .foreign-business-license-step2 {
-            gap: var(--dl-space-space-oneandhalfunits);
-            width: 60%;
-            display: flex;
-            margin-top: var(--dl-space-space-threeunits);
-            align-items: flex-start;
-            flex-direction: column;
-          }
-          .foreign-business-license-heading4 {
-            gap: var(--dl-space-space-twounits);
-            width: 100%;
-            display: flex;
-            max-width: auto;
-            align-items: flex-start;
-            flex-direction: column;
-          }
-          .foreign-business-license-caption2 {
-            font-size: 1.5rem;
-            font-style: normal;
-            font-family: Josefin Sans;
-            font-weight: 300;
-            letter-spacing: 1px;
-            text-transform: uppercase;
-          }
-          .foreign-business-license-header7 {
-            color: var(--dl-color-gray-black);
+          .foreign-business-license-text20 {
             font-size: 1.5rem;
             font-style: normal;
             font-family: 'Josefin Sans';
-            font-weight: 200;
-            line-height: 27px;
+            font-weight: 400;
+          }
+          .foreign-business-license-text21 {
+            font-size: 1.5rem;
+            font-style: normal;
+            font-family: 'Josefin Sans';
+            font-weight: 300;
+          }
+          .foreign-business-license-step2 {
+            display: flex;
+            position: relative;
+            align-items: flex-start;
+            justify-content: center;
+          }
+          .foreign-business-license-container15 {
+            flex: 1;
+            left: var(--dl-space-space-halfunit);
+            width: auto;
+            height: 100%;
+            display: flex;
+            position: absolute;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .foreign-business-license-container16 {
+            width: 12px;
+            height: 12px;
+            margin: var(--dl-space-space-halfunit);
+            border-radius: var(--dl-radius-radius-round);
+            background-color: #000000;
+          }
+          .foreign-business-license-progress01 {
+            width: auto;
+            border: 2px dashed rgba(120, 120, 120, 0.4);
+            height: 100%;
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            background-color: #000000;
+          }
+          .foreign-business-license-container17 {
+            gap: var(--dl-space-space-unit);
+            width: auto;
+            display: flex;
+            align-items: flex-start;
+            padding-left: var(--dl-space-space-threeunits);
+            flex-direction: column;
+            padding-bottom: var(--dl-space-space-unit);
+            justify-content: flex-start;
+          }
+          .foreign-business-license-container18 {
+            display: flex;
+            align-items: flex-start;
+            border-color: var(--dl-color-theme-neutral-dark);
+            border-width: 1px;
+            flex-direction: column;
+          }
+          .foreign-business-license-text22 {
+            font-size: 1.5rem;
+            font-style: normal;
+            font-family: 'Josefin Sans';
+            font-weight: 400;
+          }
+          .foreign-business-license-text23 {
+            font-size: 1.5rem;
+            font-style: normal;
+            font-family: 'Josefin Sans';
+            font-weight: 300;
+          }
+          .foreign-business-license-step3 {
+            display: flex;
+            position: relative;
+            align-items: flex-start;
+            justify-content: center;
+          }
+          .foreign-business-license-container19 {
+            flex: 1;
+            left: var(--dl-space-space-halfunit);
+            width: auto;
+            height: 100%;
+            display: flex;
+            position: absolute;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .foreign-business-license-container20 {
+            width: 12px;
+            height: 12px;
+            margin: var(--dl-space-space-halfunit);
+            border-radius: var(--dl-radius-radius-round);
+            background-color: #000000;
+          }
+          .foreign-business-license-progress02 {
+            width: auto;
+            border: 2px dashed rgba(120, 120, 120, 0.4);
+            height: 100%;
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            background-color: #000000;
+          }
+          .foreign-business-license-container21 {
+            gap: var(--dl-space-space-unit);
+            width: auto;
+            display: flex;
+            align-items: flex-start;
+            padding-left: var(--dl-space-space-threeunits);
+            flex-direction: column;
+            padding-bottom: var(--dl-space-space-unit);
+            justify-content: flex-start;
+          }
+          .foreign-business-license-container22 {
+            display: flex;
+            align-items: flex-start;
+            border-color: var(--dl-color-theme-neutral-dark);
+            border-width: 1px;
+            flex-direction: column;
+          }
+          .foreign-business-license-text24 {
+            font-size: 1.5rem;
+            font-style: normal;
+            font-family: 'Josefin Sans';
+            font-weight: 400;
+          }
+          .foreign-business-license-text25 {
+            font-size: 1.5rem;
+            font-style: normal;
+            font-family: 'Josefin Sans';
+            font-weight: 300;
           }
           .foreign-business-license-banner {
             width: 100%;
-            height: 75vh;
+            height: 100vh;
             display: flex;
             padding: var(--dl-space-space-threeunits);
             margin-top: var(--dl-space-space-fourunits);
             align-items: center;
+            padding-top: 48px;
             margin-bottom: var(--dl-space-space-twounits);
             flex-direction: column;
             justify-content: space-between;
           }
-          .foreign-business-license-text62 {
+          .foreign-business-license-text26 {
             color: var(--dl-color-gray-black);
             font-size: 2.5rem;
             font-style: normal;
             text-align: center;
-            font-family: Josefin Sans;
-            font-weight: 200;
+            font-family: 'Josefin Sans';
+            font-weight: 400;
+            margin-bottom: var(--dl-space-space-twounits);
             text-transform: capitalize;
           }
-          .foreign-business-license-container09 {
+          .foreign-business-license-container23 {
             width: 50%;
             height: 90%;
             display: grid;
@@ -1927,7 +809,7 @@ const ForeignBusinessLicense = (props) => {
             grid-column-gap: 5px;
             grid-template-columns: 1fr 1fr;
           }
-          .foreign-business-license-container10 {
+          .foreign-business-license-container24 {
             flex: 0 0 auto;
             width: 100%;
             height: 100%;
@@ -1938,14 +820,14 @@ const ForeignBusinessLicense = (props) => {
             justify-content: center;
             background-color: #ffff00;
           }
-          .foreign-business-license-text63 {
+          .foreign-business-license-text27 {
             color: var(--dl-color-gray-black);
             font-size: 1.5rem;
             font-style: normal;
-            font-family: Josefin Sans;
-            font-weight: 300;
+            font-family: 'Josefin Sans';
+            font-weight: 400;
           }
-          .foreign-business-license-container11 {
+          .foreign-business-license-container25 {
             flex: 0 0 auto;
             width: 100%;
             height: 100%;
@@ -1956,14 +838,30 @@ const ForeignBusinessLicense = (props) => {
             justify-content: center;
             background-color: #ffff00;
           }
-          .foreign-business-license-text64 {
+          .foreign-business-license-text28 {
             color: var(--dl-color-gray-black);
             font-size: 1.5rem;
             font-style: normal;
-            font-family: Josefin Sans;
+            font-family: 'Josefin Sans';
+            font-weight: 400;
+          }
+          .foreign-business-license-container26 {
+            flex: 0 0 auto;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            border-color: var(--dl-color-gray-black);
+            border-width: 1px;
+            justify-content: center;
+          }
+          .foreign-business-license-text29 {
+            font-size: 1.5rem;
+            font-style: normal;
+            font-family: 'Josefin Sans';
             font-weight: 300;
           }
-          .foreign-business-license-container12 {
+          .foreign-business-license-container27 {
             flex: 0 0 auto;
             width: 100%;
             height: 100%;
@@ -1973,13 +871,13 @@ const ForeignBusinessLicense = (props) => {
             border-width: 1px;
             justify-content: center;
           }
-          .foreign-business-license-text65 {
+          .foreign-business-license-text30 {
             font-size: 1.5rem;
             font-style: normal;
-            font-family: Josefin Sans;
-            font-weight: 200;
+            font-family: 'Josefin Sans';
+            font-weight: 300;
           }
-          .foreign-business-license-container13 {
+          .foreign-business-license-container28 {
             flex: 0 0 auto;
             width: 100%;
             height: 100%;
@@ -1989,13 +887,13 @@ const ForeignBusinessLicense = (props) => {
             border-width: 1px;
             justify-content: center;
           }
-          .foreign-business-license-text66 {
+          .foreign-business-license-text31 {
             font-size: 1.5rem;
             font-style: normal;
-            font-family: Josefin Sans;
-            font-weight: 200;
+            font-family: 'Josefin Sans';
+            font-weight: 300;
           }
-          .foreign-business-license-container14 {
+          .foreign-business-license-container29 {
             flex: 0 0 auto;
             width: 100%;
             height: 100%;
@@ -2005,13 +903,13 @@ const ForeignBusinessLicense = (props) => {
             border-width: 1px;
             justify-content: center;
           }
-          .foreign-business-license-text67 {
+          .foreign-business-license-text32 {
             font-size: 1.5rem;
             font-style: normal;
-            font-family: Josefin Sans;
-            font-weight: 200;
+            font-family: 'Josefin Sans';
+            font-weight: 300;
           }
-          .foreign-business-license-container15 {
+          .foreign-business-license-container30 {
             flex: 0 0 auto;
             width: 100%;
             height: 100%;
@@ -2021,13 +919,13 @@ const ForeignBusinessLicense = (props) => {
             border-width: 1px;
             justify-content: center;
           }
-          .foreign-business-license-text68 {
+          .foreign-business-license-text33 {
             font-size: 1.5rem;
             font-style: normal;
-            font-family: Josefin Sans;
-            font-weight: 200;
+            font-family: 'Josefin Sans';
+            font-weight: 300;
           }
-          .foreign-business-license-container16 {
+          .foreign-business-license-container31 {
             flex: 0 0 auto;
             width: 100%;
             height: 100%;
@@ -2037,36 +935,20 @@ const ForeignBusinessLicense = (props) => {
             border-width: 1px;
             justify-content: center;
           }
-          .foreign-business-license-text69 {
+          .foreign-business-license-text34 {
             font-size: 1.5rem;
             font-style: normal;
-            font-family: Josefin Sans;
-            font-weight: 200;
+            font-family: 'Josefin Sans';
+            font-weight: 300;
           }
-          .foreign-business-license-container17 {
-            flex: 0 0 auto;
-            width: 100%;
-            height: 100%;
-            display: flex;
-            align-items: center;
-            border-color: var(--dl-color-gray-black);
-            border-width: 1px;
-            justify-content: center;
-          }
-          .foreign-business-license-text70 {
-            font-size: 1.5rem;
-            font-style: normal;
-            font-family: Josefin Sans;
-            font-weight: 200;
-          }
-          .foreign-business-license-link3 {
+          .foreign-business-license-link {
             color: var(--dl-color-gray-black);
             font-size: 1.5rem;
             align-self: center;
             font-style: normal;
             margin-top: var(--dl-space-space-threeunits);
-            font-family: Josefin Sans;
-            font-weight: 200;
+            font-family: 'Josefin Sans';
+            font-weight: 300;
             padding-top: var(--dl-space-space-halfunit);
             padding-left: var(--dl-space-space-halfunit);
             padding-right: var(--dl-space-space-halfunit);
@@ -2083,91 +965,21 @@ const ForeignBusinessLicense = (props) => {
             }
             .foreign-business-license-text {
               color: var(--dl-color-gray-black);
-              width: 100%;
-              font-size: 2rem;
-              font-style: normal;
-              font-family: Josefin Sans;
-              font-weight: 300;
-            }
-            .foreign-business-license-text01 {
-              width: 100%;
-              font-size: 1.5rem;
-              font-style: normal;
-              font-family: Josefin Sans;
-              font-weight: 200;
             }
             .foreign-business-license-data {
               width: 75%;
             }
-            .foreign-business-license-roadmap {
-              height: auto;
+            .foreign-business-license-heading {
+              fill: var(--dl-color-theme-accent1);
             }
-            .foreign-business-license-header4 {
-              padding: var(--dl-space-space-halfunit);
-            }
-            .foreign-business-license-list3 {
-              height: auto;
-              align-items: center;
-              flex-direction: column;
-              justify-content: flex-start;
-            }
-            .foreign-business-license-container08 {
-              height: auto;
-              align-items: center;
-              flex-direction: column;
-              justify-content: center;
-            }
-            .foreign-business-license-step {
-              margin-left: 0px;
-            }
-            .foreign-business-license-caption {
-              font-size: 1.5rem;
-              font-style: normal;
-              font-weight: 300;
-            }
-            .foreign-business-license-header5 {
+            .foreign-business-license-text26 {
               color: var(--dl-color-gray-black);
-              font-size: 1.5rem;
             }
-            .foreign-business-license-step1 {
-              margin-top: var(--dl-space-space-threeunits);
-              margin-left: 0px;
-            }
-            .foreign-business-license-heading3 {
-              max-width: auto;
-            }
-            .foreign-business-license-caption1 {
-              font-size: 1.5rem;
-              font-style: normal;
-              font-family: Josefin Sans;
-              font-weight: 300;
-            }
-            .foreign-business-license-header6 {
-              font-size: 1.5rem;
-            }
-            .foreign-business-license-step2 {
-              margin-top: var(--dl-space-space-threeunits);
-              margin-left: 0px;
-            }
-            .foreign-business-license-caption2 {
-              font-size: 1.5rem;
-              font-style: normal;
-              font-family: Josefin Sans;
-              font-weight: 300;
-            }
-            .foreign-business-license-header7 {
-              color: var(--dl-color-gray-black);
-              font-size: 1.5rem;
-            }
-            .foreign-business-license-text62 {
-              color: var(--dl-color-gray-black);
-              font-size: 2.5rem;
-            }
-            .foreign-business-license-container09 {
+            .foreign-business-license-container23 {
               height: 90%;
               margin-top: var(--dl-space-space-unit);
             }
-            .foreign-business-license-link3 {
+            .foreign-business-license-link {
               color: var(--dl-color-gray-black);
               padding-top: var(--dl-space-space-halfunit);
               padding-left: var(--dl-space-space-halfunit);
@@ -2191,22 +1003,10 @@ const ForeignBusinessLicense = (props) => {
             .foreign-business-license-data {
               width: 75%;
             }
-            .foreign-business-license-roadmap {
-              height: auto;
-            }
-            .foreign-business-license-step {
-              width: 75%;
-            }
-            .foreign-business-license-step1 {
-              width: 75%;
-            }
-            .foreign-business-license-step2 {
-              width: 75%;
-            }
             .foreign-business-license-banner {
               height: 75vh;
             }
-            .foreign-business-license-container09 {
+            .foreign-business-license-container23 {
               width: 80%;
             }
           }
@@ -2247,807 +1047,10 @@ const ForeignBusinessLicense = (props) => {
             .foreign-business-license-category-fbl {
               gap: var(--dl-space-space-threeunits);
             }
-            .foreign-business-license-row1 {
-              flex-direction: column;
+            .foreign-business-license-max-width {
+              gap: var(--dl-space-space-twounits);
             }
-            .foreign-business-license-text18 {
-              font-size: 2rem;
-              font-style: normal;
-              font-family: Josefin Sans;
-              font-weight: 200;
-              line-height: 15px;
-              margin-bottom: var(--dl-space-space-fourunits);
-              padding-bottom: var(--dl-space-space-halfunit);
-            }
-            .foreign-business-license-list {
-              width: 80%;
-              margin-left: var(--dl-space-space-fourunits);
-            }
-            .foreign-business-license-item {
-              width: 100%;
-              align-items: flex-start;
-              padding-top: var(--dl-space-space-unit);
-              flex-direction: row;
-              padding-bottom: var(--dl-space-space-unit);
-              justify-content: space-between;
-            }
-            .foreign-business-license-details {
-              gap: var(--dl-space-space-halfunit);
-              align-items: flex-start;
-              flex-direction: column;
-            }
-            .foreign-business-license-text19 {
-              font-size: 1.5rem;
-              line-height: 24px;
-            }
-            .foreign-business-license-item01 {
-              width: 100%;
-              align-items: flex-start;
-              padding-top: var(--dl-space-space-unit);
-              flex-direction: row;
-              padding-bottom: var(--dl-space-space-unit);
-              justify-content: space-between;
-            }
-            .foreign-business-license-details01 {
-              gap: var(--dl-space-space-halfunit);
-              align-items: flex-start;
-              flex-direction: column;
-            }
-            .foreign-business-license-text20 {
-              font-size: 1.5rem;
-              line-height: 24px;
-            }
-            .foreign-business-license-item02 {
-              width: 100%;
-              align-items: flex-start;
-              padding-top: var(--dl-space-space-unit);
-              flex-direction: row;
-              padding-bottom: var(--dl-space-space-unit);
-              justify-content: space-between;
-            }
-            .foreign-business-license-details02 {
-              gap: var(--dl-space-space-halfunit);
-              align-items: flex-start;
-              flex-direction: column;
-            }
-            .foreign-business-license-text21 {
-              font-size: 1.5rem;
-              line-height: 24px;
-            }
-            .foreign-business-license-item03 {
-              width: 100%;
-              align-items: flex-start;
-              padding-top: var(--dl-space-space-unit);
-              flex-direction: row;
-              padding-bottom: var(--dl-space-space-unit);
-              justify-content: space-between;
-            }
-            .foreign-business-license-details03 {
-              gap: var(--dl-space-space-halfunit);
-              align-items: flex-start;
-              flex-direction: column;
-            }
-            .foreign-business-license-text22 {
-              font-size: 1.5rem;
-              line-height: 24px;
-            }
-            .foreign-business-license-item04 {
-              width: 100%;
-              align-items: flex-start;
-              padding-top: var(--dl-space-space-unit);
-              flex-direction: row;
-              padding-bottom: var(--dl-space-space-unit);
-              justify-content: space-between;
-            }
-            .foreign-business-license-details04 {
-              gap: var(--dl-space-space-halfunit);
-              align-items: flex-start;
-              flex-direction: column;
-            }
-            .foreign-business-license-text23 {
-              font-size: 1.5rem;
-              line-height: 24px;
-            }
-            .foreign-business-license-item05 {
-              width: 100%;
-              align-items: flex-start;
-              padding-top: var(--dl-space-space-unit);
-              flex-direction: row;
-              padding-bottom: var(--dl-space-space-unit);
-              justify-content: space-between;
-            }
-            .foreign-business-license-details05 {
-              gap: var(--dl-space-space-halfunit);
-              align-items: flex-start;
-              flex-direction: column;
-            }
-            .foreign-business-license-text24 {
-              font-size: 1.5rem;
-              line-height: 24px;
-            }
-            .foreign-business-license-item06 {
-              width: 100%;
-              align-items: flex-start;
-              padding-top: var(--dl-space-space-unit);
-              flex-direction: row;
-              padding-bottom: var(--dl-space-space-unit);
-              justify-content: space-between;
-            }
-            .foreign-business-license-details06 {
-              gap: var(--dl-space-space-halfunit);
-              align-items: flex-start;
-              flex-direction: column;
-            }
-            .foreign-business-license-text25 {
-              font-size: 1.5rem;
-              line-height: 24px;
-            }
-            .foreign-business-license-item07 {
-              width: 100%;
-              align-items: flex-start;
-              padding-top: var(--dl-space-space-unit);
-              flex-direction: row;
-              padding-bottom: var(--dl-space-space-unit);
-              justify-content: space-between;
-            }
-            .foreign-business-license-details07 {
-              gap: var(--dl-space-space-halfunit);
-              align-items: flex-start;
-              flex-direction: column;
-            }
-            .foreign-business-license-text26 {
-              font-size: 1.5rem;
-              line-height: 24px;
-            }
-            .foreign-business-license-row2 {
-              flex-direction: column;
-            }
-            .foreign-business-license-text27 {
-              font-size: 2rem;
-              margin-top: var(--dl-space-space-fourunits);
-              line-height: 15px;
-              margin-bottom: var(--dl-space-space-fourunits);
-              padding-bottom: var(--dl-space-space-halfunit);
-            }
-            .foreign-business-license-list1 {
-              width: 80%;
-              margin-left: var(--dl-space-space-fourunits);
-            }
-            .foreign-business-license-item08 {
-              width: 100%;
-              align-items: flex-start;
-              padding-top: var(--dl-space-space-unit);
-              flex-direction: row;
-              padding-bottom: var(--dl-space-space-unit);
-              justify-content: space-between;
-            }
-            .foreign-business-license-details08 {
-              gap: var(--dl-space-space-halfunit);
-              align-items: flex-start;
-              flex-direction: column;
-            }
-            .foreign-business-license-text28 {
-              font-size: 1.5rem;
-              font-family: Josefin Sans;
-              line-height: 24px;
-            }
-            .foreign-business-license-item09 {
-              width: 100%;
-              align-items: flex-start;
-              padding-top: var(--dl-space-space-unit);
-              flex-direction: row;
-              padding-bottom: var(--dl-space-space-unit);
-              justify-content: space-between;
-            }
-            .foreign-business-license-details09 {
-              gap: var(--dl-space-space-halfunit);
-              align-items: flex-start;
-              flex-direction: column;
-            }
-            .foreign-business-license-text29 {
-              font-size: 1.5rem;
-              line-height: 24px;
-            }
-            .foreign-business-license-item10 {
-              width: 100%;
-              align-items: flex-start;
-              padding-top: var(--dl-space-space-unit);
-              flex-direction: row;
-              padding-bottom: var(--dl-space-space-unit);
-              justify-content: space-between;
-            }
-            .foreign-business-license-details10 {
-              gap: var(--dl-space-space-halfunit);
-              align-items: flex-start;
-              flex-direction: column;
-            }
-            .foreign-business-license-text30 {
-              font-size: 1.5rem;
-              line-height: 24px;
-            }
-            .foreign-business-license-item11 {
-              width: 100%;
-              align-items: flex-start;
-              padding-top: var(--dl-space-space-unit);
-              flex-direction: row;
-              padding-bottom: var(--dl-space-space-unit);
-              justify-content: space-between;
-            }
-            .foreign-business-license-details11 {
-              gap: var(--dl-space-space-halfunit);
-              align-items: flex-start;
-              flex-direction: column;
-            }
-            .foreign-business-license-text31 {
-              font-size: 1.5rem;
-              line-height: 24px;
-            }
-            .foreign-business-license-item12 {
-              width: 100%;
-              align-items: flex-start;
-              padding-top: var(--dl-space-space-unit);
-              flex-direction: row;
-              padding-bottom: var(--dl-space-space-unit);
-              justify-content: space-between;
-            }
-            .foreign-business-license-details12 {
-              gap: var(--dl-space-space-halfunit);
-              align-items: flex-start;
-              flex-direction: column;
-            }
-            .foreign-business-license-text32 {
-              font-size: 1.5rem;
-              line-height: 24px;
-            }
-            .foreign-business-license-item13 {
-              width: 100%;
-              align-items: flex-start;
-              padding-top: var(--dl-space-space-unit);
-              flex-direction: row;
-              padding-bottom: var(--dl-space-space-unit);
-              justify-content: space-between;
-            }
-            .foreign-business-license-details13 {
-              gap: var(--dl-space-space-halfunit);
-              align-items: flex-start;
-              flex-direction: column;
-            }
-            .foreign-business-license-text33 {
-              font-size: 1.5rem;
-              line-height: 24px;
-            }
-            .foreign-business-license-item14 {
-              width: 100%;
-              align-items: flex-start;
-              padding-top: var(--dl-space-space-unit);
-              flex-direction: row;
-              padding-bottom: var(--dl-space-space-unit);
-              justify-content: space-between;
-            }
-            .foreign-business-license-details14 {
-              gap: var(--dl-space-space-halfunit);
-              align-items: flex-start;
-              flex-direction: column;
-            }
-            .foreign-business-license-text34 {
-              font-size: 1.5rem;
-              font-family: Josefin Sans;
-              line-height: 24px;
-            }
-            .foreign-business-license-item15 {
-              width: 100%;
-              align-items: flex-start;
-              padding-top: var(--dl-space-space-unit);
-              flex-direction: row;
-              padding-bottom: var(--dl-space-space-unit);
-              justify-content: space-between;
-            }
-            .foreign-business-license-details15 {
-              gap: var(--dl-space-space-halfunit);
-              align-items: flex-start;
-              flex-direction: column;
-            }
-            .foreign-business-license-text35 {
-              font-size: 1.5rem;
-              line-height: 24px;
-            }
-            .foreign-business-license-item16 {
-              width: 100%;
-              align-items: flex-start;
-              padding-top: var(--dl-space-space-unit);
-              flex-direction: row;
-              padding-bottom: var(--dl-space-space-unit);
-              justify-content: space-between;
-            }
-            .foreign-business-license-details16 {
-              gap: var(--dl-space-space-halfunit);
-              align-items: flex-start;
-              flex-direction: column;
-            }
-            .foreign-business-license-text36 {
-              font-size: 1.5rem;
-              line-height: 24px;
-            }
-            .foreign-business-license-item17 {
-              width: 100%;
-              align-items: flex-start;
-              padding-top: var(--dl-space-space-unit);
-              flex-direction: row;
-              padding-bottom: var(--dl-space-space-unit);
-              justify-content: space-between;
-            }
-            .foreign-business-license-details17 {
-              gap: var(--dl-space-space-halfunit);
-              align-items: flex-start;
-              flex-direction: column;
-            }
-            .foreign-business-license-text37 {
-              font-size: 1.5rem;
-              line-height: 24px;
-            }
-            .foreign-business-license-item18 {
-              width: 100%;
-              align-items: flex-start;
-              padding-top: var(--dl-space-space-unit);
-              flex-direction: row;
-              padding-bottom: var(--dl-space-space-unit);
-              justify-content: space-between;
-            }
-            .foreign-business-license-details18 {
-              gap: var(--dl-space-space-halfunit);
-              align-items: flex-start;
-              flex-direction: column;
-            }
-            .foreign-business-license-text38 {
-              color: var(--dl-color-gray-black);
-              font-size: 1.5rem;
-              font-style: normal;
-              font-family: Josefin Sans;
-              font-weight: 200;
-              line-height: 24px;
-            }
-            .foreign-business-license-item19 {
-              width: 100%;
-              align-items: flex-start;
-              padding-top: var(--dl-space-space-unit);
-              flex-direction: row;
-              padding-bottom: var(--dl-space-space-unit);
-              justify-content: space-between;
-            }
-            .foreign-business-license-details19 {
-              gap: var(--dl-space-space-halfunit);
-              align-items: flex-start;
-              flex-direction: column;
-            }
-            .foreign-business-license-text39 {
-              color: var(--dl-color-gray-black);
-            }
-            .foreign-business-license-item20 {
-              width: 100%;
-              align-items: flex-start;
-              padding-top: var(--dl-space-space-unit);
-              flex-direction: row;
-              padding-bottom: var(--dl-space-space-unit);
-              justify-content: space-between;
-            }
-            .foreign-business-license-details20 {
-              gap: var(--dl-space-space-halfunit);
-              align-items: flex-start;
-              flex-direction: column;
-            }
-            .foreign-business-license-text40 {
-              color: var(--dl-color-gray-black);
-              line-height: 24px;
-            }
-            .foreign-business-license-row3 {
-              flex-direction: column;
-            }
-            .foreign-business-license-text41 {
-              font-size: 2rem;
-              margin-top: var(--dl-space-space-fourunits);
-              line-height: 24px;
-              margin-bottom: var(--dl-space-space-fourunits);
-              padding-bottom: var(--dl-space-space-halfunit);
-            }
-            .foreign-business-license-list2 {
-              width: 80%;
-              margin-left: var(--dl-space-space-fourunits);
-            }
-            .foreign-business-license-item21 {
-              width: 100%;
-              align-items: flex-start;
-              padding-top: var(--dl-space-space-unit);
-              flex-direction: row;
-              padding-bottom: var(--dl-space-space-unit);
-              justify-content: space-between;
-            }
-            .foreign-business-license-details21 {
-              gap: var(--dl-space-space-halfunit);
-              align-items: flex-start;
-              flex-direction: column;
-            }
-            .foreign-business-license-text42 {
-              font-size: 1.5rem;
-              line-height: 24px;
-            }
-            .foreign-business-license-item22 {
-              width: 100%;
-              align-items: flex-start;
-              padding-top: var(--dl-space-space-unit);
-              flex-direction: row;
-              padding-bottom: var(--dl-space-space-unit);
-              justify-content: space-between;
-            }
-            .foreign-business-license-details22 {
-              gap: var(--dl-space-space-halfunit);
-              align-items: flex-start;
-              flex-direction: column;
-            }
-            .foreign-business-license-text43 {
-              font-size: 1.5rem;
-              line-height: 24px;
-            }
-            .foreign-business-license-item23 {
-              width: 100%;
-              align-items: flex-start;
-              padding-top: var(--dl-space-space-unit);
-              flex-direction: row;
-              padding-bottom: var(--dl-space-space-unit);
-              justify-content: space-between;
-            }
-            .foreign-business-license-details23 {
-              gap: var(--dl-space-space-halfunit);
-              align-items: flex-start;
-              flex-direction: column;
-            }
-            .foreign-business-license-text44 {
-              font-size: 1.5rem;
-              line-height: 24px;
-            }
-            .foreign-business-license-item24 {
-              width: 100%;
-              align-items: flex-start;
-              padding-top: var(--dl-space-space-unit);
-              flex-direction: row;
-              padding-bottom: var(--dl-space-space-unit);
-              justify-content: space-between;
-            }
-            .foreign-business-license-details24 {
-              gap: var(--dl-space-space-halfunit);
-              align-items: flex-start;
-              flex-direction: column;
-            }
-            .foreign-business-license-text45 {
-              font-size: 1.5rem;
-              line-height: 24px;
-            }
-            .foreign-business-license-item25 {
-              width: 100%;
-              align-items: flex-start;
-              padding-top: var(--dl-space-space-unit);
-              flex-direction: row;
-              padding-bottom: var(--dl-space-space-unit);
-              justify-content: space-between;
-            }
-            .foreign-business-license-details25 {
-              gap: var(--dl-space-space-halfunit);
-              align-items: flex-start;
-              flex-direction: column;
-            }
-            .foreign-business-license-text46 {
-              font-size: 1.5rem;
-              line-height: 24px;
-            }
-            .foreign-business-license-item26 {
-              width: 100%;
-              align-items: flex-start;
-              padding-top: var(--dl-space-space-unit);
-              flex-direction: row;
-              padding-bottom: var(--dl-space-space-unit);
-              justify-content: space-between;
-            }
-            .foreign-business-license-details26 {
-              gap: var(--dl-space-space-halfunit);
-              align-items: flex-start;
-              flex-direction: column;
-            }
-            .foreign-business-license-text47 {
-              font-size: 1.5rem;
-              line-height: 24px;
-            }
-            .foreign-business-license-item27 {
-              width: 100%;
-              align-items: flex-start;
-              padding-top: var(--dl-space-space-unit);
-              flex-direction: row;
-              padding-bottom: var(--dl-space-space-unit);
-              justify-content: space-between;
-            }
-            .foreign-business-license-details27 {
-              gap: var(--dl-space-space-halfunit);
-              align-items: flex-start;
-              flex-direction: column;
-            }
-            .foreign-business-license-text48 {
-              font-size: 1.5rem;
-              line-height: 24px;
-            }
-            .foreign-business-license-item28 {
-              width: 100%;
-              align-items: flex-start;
-              padding-top: var(--dl-space-space-unit);
-              flex-direction: row;
-              padding-bottom: var(--dl-space-space-unit);
-              justify-content: space-between;
-            }
-            .foreign-business-license-details28 {
-              gap: var(--dl-space-space-halfunit);
-              align-items: flex-start;
-              flex-direction: column;
-            }
-            .foreign-business-license-text49 {
-              color: var(--dl-color-gray-black);
-              font-size: 1.5rem;
-              font-style: normal;
-              font-family: Josefin Sans;
-              font-weight: 200;
-              line-height: 24px;
-            }
-            .foreign-business-license-item29 {
-              width: 100%;
-              align-items: flex-start;
-              padding-top: var(--dl-space-space-unit);
-              flex-direction: row;
-              padding-bottom: var(--dl-space-space-unit);
-              justify-content: space-between;
-            }
-            .foreign-business-license-details29 {
-              gap: var(--dl-space-space-halfunit);
-              align-items: flex-start;
-              flex-direction: column;
-            }
-            .foreign-business-license-text50 {
-              color: var(--dl-color-gray-black);
-              font-size: 1.5rem;
-              font-style: normal;
-              font-family: Josefin Sans;
-              font-weight: 200;
-              line-height: 24px;
-            }
-            .foreign-business-license-item30 {
-              width: 100%;
-              align-items: flex-start;
-              padding-top: var(--dl-space-space-unit);
-              flex-direction: row;
-              padding-bottom: var(--dl-space-space-unit);
-              justify-content: space-between;
-            }
-            .foreign-business-license-details30 {
-              gap: var(--dl-space-space-halfunit);
-              align-items: flex-start;
-              flex-direction: column;
-            }
-            .foreign-business-license-text51 {
-              color: var(--dl-color-gray-black);
-              font-size: 1.5rem;
-              font-style: normal;
-              font-family: Josefin Sans;
-              font-weight: 200;
-              line-height: 24px;
-            }
-            .foreign-business-license-item31 {
-              width: 100%;
-              align-items: flex-start;
-              padding-top: var(--dl-space-space-unit);
-              flex-direction: row;
-              padding-bottom: var(--dl-space-space-unit);
-              justify-content: space-between;
-            }
-            .foreign-business-license-details31 {
-              gap: var(--dl-space-space-halfunit);
-              align-items: flex-start;
-              flex-direction: column;
-            }
-            .foreign-business-license-text52 {
-              color: var(--dl-color-gray-black);
-              font-size: 1.5rem;
-              font-style: normal;
-              font-family: Josefin Sans;
-              font-weight: 200;
-              line-height: 24px;
-            }
-            .foreign-business-license-item32 {
-              width: 100%;
-              align-items: flex-start;
-              padding-top: var(--dl-space-space-unit);
-              flex-direction: row;
-              padding-bottom: var(--dl-space-space-unit);
-              justify-content: space-between;
-            }
-            .foreign-business-license-details32 {
-              gap: var(--dl-space-space-halfunit);
-              align-items: flex-start;
-              flex-direction: column;
-            }
-            .foreign-business-license-text53 {
-              color: var(--dl-color-gray-black);
-              font-size: 1.5rem;
-              font-style: normal;
-              font-family: Josefin Sans;
-              font-weight: 200;
-              line-height: 24px;
-            }
-            .foreign-business-license-item33 {
-              width: 100%;
-              align-items: flex-start;
-              padding-top: var(--dl-space-space-unit);
-              flex-direction: row;
-              padding-bottom: var(--dl-space-space-unit);
-              justify-content: space-between;
-            }
-            .foreign-business-license-details33 {
-              gap: var(--dl-space-space-halfunit);
-              align-items: flex-start;
-              flex-direction: column;
-            }
-            .foreign-business-license-text54 {
-              color: var(--dl-color-gray-black);
-              font-size: 1.5rem;
-              font-style: normal;
-              font-family: Josefin Sans;
-              font-weight: 200;
-              line-height: 24px;
-            }
-            .foreign-business-license-item34 {
-              width: 100%;
-              align-items: flex-start;
-              padding-top: var(--dl-space-space-unit);
-              flex-direction: row;
-              padding-bottom: var(--dl-space-space-unit);
-              justify-content: space-between;
-            }
-            .foreign-business-license-details34 {
-              gap: var(--dl-space-space-halfunit);
-              align-items: flex-start;
-              flex-direction: column;
-            }
-            .foreign-business-license-text55 {
-              color: var(--dl-color-gray-black);
-              font-size: 1.5rem;
-              font-style: normal;
-              font-family: Josefin Sans;
-              font-weight: 200;
-              line-height: 24px;
-            }
-            .foreign-business-license-item35 {
-              width: 100%;
-              align-items: flex-start;
-              padding-top: var(--dl-space-space-unit);
-              flex-direction: row;
-              padding-bottom: var(--dl-space-space-unit);
-              justify-content: space-between;
-            }
-            .foreign-business-license-details35 {
-              gap: var(--dl-space-space-halfunit);
-              align-items: flex-start;
-              flex-direction: column;
-            }
-            .foreign-business-license-text56 {
-              color: var(--dl-color-gray-black);
-              font-size: 1.5rem;
-              font-style: normal;
-              font-family: Josefin Sans;
-              font-weight: 200;
-              line-height: 24px;
-            }
-            .foreign-business-license-item36 {
-              width: 100%;
-              align-items: flex-start;
-              padding-top: var(--dl-space-space-unit);
-              flex-direction: row;
-              padding-bottom: var(--dl-space-space-unit);
-              justify-content: space-between;
-            }
-            .foreign-business-license-details36 {
-              gap: var(--dl-space-space-halfunit);
-              align-items: flex-start;
-              flex-direction: column;
-            }
-            .foreign-business-license-text57 {
-              color: var(--dl-color-gray-black);
-              font-size: 1.5rem;
-              font-style: normal;
-              font-family: Josefin Sans;
-              font-weight: 200;
-              line-height: 24px;
-            }
-            .foreign-business-license-item37 {
-              width: 100%;
-              align-items: flex-start;
-              padding-top: var(--dl-space-space-unit);
-              flex-direction: row;
-              padding-bottom: var(--dl-space-space-unit);
-              justify-content: space-between;
-            }
-            .foreign-business-license-details37 {
-              gap: var(--dl-space-space-halfunit);
-              align-items: flex-start;
-              flex-direction: column;
-            }
-            .foreign-business-license-text58 {
-              color: var(--dl-color-gray-black);
-              font-size: 1.5rem;
-              font-style: normal;
-              font-family: Josefin Sans;
-              font-weight: 200;
-              line-height: 24px;
-            }
-            .foreign-business-license-item38 {
-              width: 100%;
-              align-items: flex-start;
-              padding-top: var(--dl-space-space-unit);
-              flex-direction: row;
-              padding-bottom: var(--dl-space-space-unit);
-              justify-content: space-between;
-            }
-            .foreign-business-license-details38 {
-              gap: var(--dl-space-space-halfunit);
-              align-items: flex-start;
-              flex-direction: column;
-            }
-            .foreign-business-license-text59 {
-              font-size: 1.5rem;
-              font-family: Josefin Sans;
-              line-height: 24px;
-            }
-            .foreign-business-license-item39 {
-              width: 100%;
-              align-items: flex-start;
-              padding-top: var(--dl-space-space-unit);
-              flex-direction: row;
-              padding-bottom: var(--dl-space-space-unit);
-              justify-content: space-between;
-            }
-            .foreign-business-license-details39 {
-              gap: var(--dl-space-space-halfunit);
-              align-items: flex-start;
-              flex-direction: column;
-            }
-            .foreign-business-license-text60 {
-              font-size: 1.5rem;
-              line-height: 24px;
-            }
-            .foreign-business-license-item40 {
-              width: 100%;
-              align-items: flex-start;
-              padding-top: var(--dl-space-space-unit);
-              flex-direction: row;
-              padding-bottom: var(--dl-space-space-unit);
-              justify-content: space-between;
-            }
-            .foreign-business-license-details40 {
-              gap: var(--dl-space-space-halfunit);
-              align-items: flex-start;
-              flex-direction: column;
-            }
-            .foreign-business-license-text61 {
-              font-size: 1.5rem;
-              line-height: 24px;
-            }
-            .foreign-business-license-roadmap {
-              height: auto;
-            }
-            .foreign-business-license-heading1 {
-              width: 100%;
-            }
-            .foreign-business-license-header4 {
-              width: 80%;
-              text-align: center;
-            }
-            .foreign-business-license-list3 {
-              width: 100%;
-            }
-            .foreign-business-license-container09 {
+            .foreign-business-license-container23 {
               width: 90%;
               margin-top: var(--dl-space-space-twounits);
             }
@@ -3075,8 +1078,8 @@ const ForeignBusinessLicense = (props) => {
               font-size: 1.5rem;
               align-self: center;
               font-style: normal;
-              font-family: Josefin Sans;
-              font-weight: 200;
+              font-family: Lora;
+              font-weight: 400;
               padding-left: var(--dl-space-space-halfunit);
             }
             .foreign-business-license-data {
@@ -3092,66 +1095,21 @@ const ForeignBusinessLicense = (props) => {
             .foreign-business-license-image1 {
               width: 100%;
             }
-            .foreign-business-license-roadmap {
-              height: auto;
-              padding-left: var(--dl-space-space-oneandhalfunits);
-              padding-right: var(--dl-space-space-oneandhalfunits);
-              padding-bottom: var(--dl-space-space-fourunits);
+            .foreign-business-license-max-width {
+              flex-direction: column;
             }
-            .foreign-business-license-heading1 {
-              gap: var(--dl-space-space-unit);
-            }
-            .foreign-business-license-header4 {
-              width: 80%;
-              font-size: 2.5rem;
-              line-height: 43px;
-            }
-            .foreign-business-license-list3 {
-              gap: var(--dl-space-space-threeunits);
-              width: 85%;
-              padding-top: 0px;
-              padding-left: var(--dl-space-space-unit);
-              padding-bottom: 0px;
-            }
-            .foreign-business-license-step {
-              width: 100%;
-            }
-            .foreign-business-license-heading2 {
-              gap: var(--dl-space-space-unit);
-            }
-            .foreign-business-license-header5 {
-              font-size: 1.5rem;
-              line-height: 21px;
-            }
-            .foreign-business-license-step1 {
-              width: 100%;
-            }
-            .foreign-business-license-heading3 {
-              gap: var(--dl-space-space-unit);
-            }
-            .foreign-business-license-header6 {
-              font-size: 1.5rem;
-              line-height: 21px;
-            }
-            .foreign-business-license-step2 {
-              width: 100%;
-            }
-            .foreign-business-license-heading4 {
-              gap: var(--dl-space-space-unit);
-            }
-            .foreign-business-license-header7 {
-              font-size: 1.5rem;
-              line-height: 21px;
+            .foreign-business-license-text19 {
+              padding-left: 0px;
+              padding-right: 0px;
             }
             .foreign-business-license-banner {
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
             }
-            .foreign-business-license-text62 {
+            .foreign-business-license-text26 {
               width: 75%;
-              text-align: center;
             }
-            .foreign-business-license-container09 {
+            .foreign-business-license-container23 {
               width: 100%;
               height: 90%;
             }
@@ -3166,12 +1124,9 @@ const ForeignBusinessLicense = (props) => {
             }
             .foreign-business-license-text {
               width: 100%;
-              text-align: left;
             }
             .foreign-business-license-text01 {
               width: 100%;
-              font-size: 1.5rem;
-              text-align: left;
               padding-left: 0px;
               padding-right: 0px;
             }
@@ -3182,41 +1137,10 @@ const ForeignBusinessLicense = (props) => {
               font-family: Josefin Sans;
               font-weight: 200;
             }
-            .foreign-business-license-list {
-              margin-left: var(--dl-space-space-fourunits);
-              margin-right: var(--dl-space-space-fourunits);
-            }
-            .foreign-business-license-roadmap {
-              height: auto;
-            }
-            .foreign-business-license-header4 {
+            .foreign-business-license-container10 {
               width: 100%;
-            }
-            .foreign-business-license-list3 {
-              width: 95%;
-            }
-            .foreign-business-license-container08 {
+              align-items: stretch;
               flex-direction: column;
-            }
-            .foreign-business-license-step {
-              width: 100%;
-            }
-            .foreign-business-license-header5 {
-              width: 80%;
-            }
-            .foreign-business-license-step1 {
-              width: 100%;
-              margin-top: var(--dl-space-space-unit);
-            }
-            .foreign-business-license-header6 {
-              width: 80%;
-            }
-            .foreign-business-license-step2 {
-              width: 100%;
-              margin-top: var(--dl-space-space-unit);
-            }
-            .foreign-business-license-header7 {
-              width: 80%;
             }
             .foreign-business-license-banner {
               width: 100%;
@@ -3226,27 +1150,26 @@ const ForeignBusinessLicense = (props) => {
               padding-right: var(--dl-space-space-unit);
               padding-bottom: var(--dl-space-space-twounits);
             }
-            .foreign-business-license-text62 {
+            .foreign-business-license-text26 {
               width: 100%;
-              text-align: center;
             }
-            .foreign-business-license-container09 {
+            .foreign-business-license-container23 {
               width: 100%;
               height: 90%;
             }
-            .foreign-business-license-text65 {
+            .foreign-business-license-text29 {
               font-size: 1.5rem;
               font-style: normal;
               font-family: Josefin Sans;
               font-weight: 200;
             }
-            .foreign-business-license-text67 {
+            .foreign-business-license-text31 {
               font-size: 1.5rem;
               font-style: normal;
               font-family: Josefin Sans;
               font-weight: 200;
             }
-            .foreign-business-license-text69 {
+            .foreign-business-license-text33 {
               font-size: 1.5rem;
               font-style: normal;
               font-family: Josefin Sans;

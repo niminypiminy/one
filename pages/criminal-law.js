@@ -34,7 +34,7 @@ const CriminalLaw = (props) => {
           <div className="criminal-law-container2">
             <div className="criminal-law-container3">
               <h1 className="criminal-law-text">Criminal Law</h1>
-              <span className="criminal-law-text1">
+              <span className="criminal-law-text01">
                 Let us know if you&apos;ve been arrested, or think that you
                 might be detained. Our trial attorneys have experience defending
                 clients, and perhaps more importantly we have experience winning
@@ -44,7 +44,7 @@ const CriminalLaw = (props) => {
               </span>
               <Link href="/contact">
                 <a className="criminal-law-link">
-                  <h1 className="criminal-law-text2">Contact</h1>
+                  <h1 className="criminal-law-text02">Contact</h1>
                 </a>
               </Link>
             </div>
@@ -67,14 +67,14 @@ const CriminalLaw = (props) => {
         <div className="criminal-law-container5 thq-section-padding">
           <div className="criminal-law-max-width thq-section-max-width">
             <div className="criminal-law-container6 thq-flex-row">
-              <h2 className="criminal-law-text3 thq-heading-2">
+              <h2 className="criminal-law-text03 thq-heading-2">
                 File Criminal Charges
               </h2>
               <div className="criminal-law-content">
-                <p className="criminal-law-text4 thq-body-large">
+                <p className="criminal-law-text04 thq-body-large">
                   <span>
-                    If you&apos;re interested in initiating a private criminal
-                    proceeding, then please click
+                    If you&apos;re interested in learning more about a private
+                    criminal proceeding, then please click
                     <span
                       dangerouslySetInnerHTML={{
                         __html: ' ',
@@ -85,8 +85,15 @@ const CriminalLaw = (props) => {
                     <a className="criminal-law-link1">here</a>
                   </Link>
                   <span>
-                    {' '}
-                    to learn more about the process, or contact us
+                    , or
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: ' ',
+                      }}
+                    />
+                  </span>
+                  <span>
+                    contact us
                     <span
                       dangerouslySetInnerHTML={{
                         __html: ' ',
@@ -150,25 +157,25 @@ const CriminalLaw = (props) => {
           }
           .criminal-law-text {
             color: var(--dl-color-gray-black);
-            font-size: 2rem;
+            font-size: 2.5rem;
             max-width: auto;
             font-style: normal;
             font-family: Josefin Sans;
-            font-weight: 300;
+            font-weight: 400;
           }
-          .criminal-law-text1 {
+          .criminal-law-text01 {
             font-size: 1.5rem;
             font-style: normal;
             margin-top: var(--dl-space-space-twounits);
             font-family: 'Josefin Sans';
-            font-weight: 200;
+            font-weight: 300;
             line-height: 1.15em;
             margin-bottom: var(--dl-space-space-twounits);
           }
           .criminal-law-link {
             display: contents;
           }
-          .criminal-law-text2 {
+          .criminal-law-text02 {
             color: var(--dl-color-gray-black);
             padding: var(--dl-space-space-halfunit);
             font-size: 1.5rem;
@@ -184,7 +191,7 @@ const CriminalLaw = (props) => {
             padding-bottom: var(--dl-space-space-unit);
             text-decoration: none;
           }
-          .criminal-law-text2:hover {
+          .criminal-law-text02:hover {
             color: var(--dl-color-gray-white);
             background-color: #1b1b1b;
           }
@@ -255,12 +262,12 @@ const CriminalLaw = (props) => {
             align-items: flex-start;
             flex-shrink: 0;
           }
-          .criminal-law-text3 {
+          .criminal-law-text03 {
             width: auto;
-            font-size: 2rem;
+            font-size: 2.5rem;
             font-style: normal;
             font-family: 'Josefin Sans';
-            font-weight: 200;
+            font-weight: 400;
             background-color: #ffff00;
           }
           .criminal-law-content {
@@ -272,11 +279,11 @@ const CriminalLaw = (props) => {
             flex-shrink: 0;
             flex-direction: column;
           }
-          .criminal-law-text4 {
+          .criminal-law-text04 {
             font-size: 1.5rem;
             font-style: normal;
             font-family: 'Josefin Sans';
-            font-weight: 300;
+            font-weight: 200;
           }
           .criminal-law-link1 {
             text-decoration: underline;
@@ -291,13 +298,15 @@ const CriminalLaw = (props) => {
             align-items: flex-start;
           }
           @media (max-width: 1600px) {
-            .criminal-law-text1 {
-              font-size: 1.5rem;
-              line-height: 1.15em;
-            }
             .criminal-law-image {
               box-shadow: 5px 5px 10px 0px #000000;
               margin-right: 0px;
+            }
+            .criminal-law-max-width {
+              width: 80%;
+            }
+            .criminal-law-text03 {
+              font-size: 2rem;
             }
           }
           @media (max-width: 1200px) {
@@ -328,9 +337,6 @@ const CriminalLaw = (props) => {
             .criminal-law-text {
               text-align: center;
             }
-            .criminal-law-text1 {
-              text-align: left;
-            }
             .criminal-law-container4 {
               display: none;
             }
@@ -353,15 +359,14 @@ const CriminalLaw = (props) => {
               align-self: center;
             }
             .criminal-law-text {
-              align-self: center;
+              align-self: flex-start;
+              text-align: center;
             }
-            .criminal-law-text1 {
+            .criminal-law-text01 {
               text-align: left;
-              padding-left: var(--dl-space-space-unit);
-              padding-right: var(--dl-space-space-unit);
             }
-            .criminal-law-text2 {
-              align-self: center;
+            .criminal-law-text02 {
+              align-self: flex-start;
             }
             .criminal-law-image {
               width: 100%;
@@ -391,13 +396,13 @@ const CriminalLaw = (props) => {
               max-width: auto;
               text-align: left;
             }
-            .criminal-law-text1 {
+            .criminal-law-text01 {
               width: 100%;
               text-align: left;
               padding-left: 0px;
               padding-right: 0px;
             }
-            .criminal-law-text2 {
+            .criminal-law-text02 {
               align-self: flex-start;
             }
             .criminal-law-placeholder-image {

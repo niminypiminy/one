@@ -260,18 +260,14 @@ const Navbar = (props) => {
                       data-thq="thq-dropdown"
                       className="navbar-dropdown10 list-item"
                     >
-                      <Link href="/non-immigrant-visa">
-                        <a>
-                          <div
-                            data-thq="thq-dropdown-toggle"
-                            className="navbar-dropdown-toggle12"
-                          >
-                            <span className="navbar-text11">
-                              Non-Immigration Visa
-                            </span>
-                          </div>
-                        </a>
-                      </Link>
+                      <div
+                        data-thq="thq-dropdown-toggle"
+                        className="navbar-dropdown-toggle12"
+                      >
+                        <span className="navbar-text11">
+                          Non-Immigration Visa
+                        </span>
+                      </div>
                     </li>
                     <li
                       data-thq="thq-dropdown"
@@ -391,7 +387,7 @@ const Navbar = (props) => {
                         className="navbar-dropdown-toggle19"
                       >
                         <Link href="/branch-office">
-                          <a className="navbar-link14">{props.branchOffice}</a>
+                          <a className="navbar-link13">{props.branchOffice}</a>
                         </Link>
                       </div>
                     </li>
@@ -462,10 +458,10 @@ const Navbar = (props) => {
                   </ul>
                 </div>
                 <Link href="/blog">
-                  <a className="navbar-link19">{props.blog1}</a>
+                  <a className="navbar-link18">{props.blog1}</a>
                 </Link>
                 <Link href="/pro-bono">
-                  <a className="navbar-link21">{props.proBono}</a>
+                  <a className="navbar-link20">{props.proBono}</a>
                 </Link>
               </nav>
               <div className="navbar-social-bar">
@@ -1415,7 +1411,7 @@ const Navbar = (props) => {
             padding-right: var(--dl-space-space-unit);
             padding-bottom: var(--dl-space-space-halfunit);
           }
-          .navbar-link14 {
+          .navbar-link13 {
             color: var(--dl-color-gray-black);
             width: 100%;
             cursor: pointer;
@@ -1427,7 +1423,7 @@ const Navbar = (props) => {
             font-weight: 200;
             text-decoration: none;
           }
-          .navbar-link14:hover {
+          .navbar-link13:hover {
             color: var(--dl-color-gray-white);
             background-color: var(--dl-color-gray-black);
           }
@@ -1567,7 +1563,7 @@ const Navbar = (props) => {
             color: var(--dl-color-gray-white);
             background-color: var(--dl-color-gray-black);
           }
-          .navbar-link19 {
+          .navbar-link18 {
             color: var(--dl-color-gray-black);
             font-size: 1.5rem;
             font-style: normal;
@@ -1580,11 +1576,11 @@ const Navbar = (props) => {
             padding-bottom: var(--dl-space-space-halfunit);
             text-decoration: none;
           }
-          .navbar-link19:hover {
+          .navbar-link18:hover {
             color: #122821;
             background-color: #ffff00;
           }
-          .navbar-link21 {
+          .navbar-link20 {
             color: var(--dl-color-gray-black);
             font-size: 1.5rem;
             font-style: normal;
@@ -1597,7 +1593,7 @@ const Navbar = (props) => {
             padding-bottom: var(--dl-space-space-halfunit);
             text-decoration: none;
           }
-          .navbar-link21:hover {
+          .navbar-link20:hover {
             color: var(--dl-color-gray-black);
             background-color: #ffff00;
           }
@@ -1785,7 +1781,7 @@ const Navbar = (props) => {
               font-family: Josefin Sans;
               font-weight: 200;
             }
-            .navbar-link14 {
+            .navbar-link13 {
               font-size: 1.2rem;
               font-style: normal;
               font-family: Josefin Sans;
@@ -1815,13 +1811,13 @@ const Navbar = (props) => {
               font-family: Josefin Sans;
               font-weight: 200;
             }
-            .navbar-link19 {
+            .navbar-link18 {
               font-size: 1.2rem;
               font-style: normal;
               font-family: Josefin Sans;
               font-weight: 300;
             }
-            .navbar-link21 {
+            .navbar-link20 {
               font-size: 1.2rem;
               font-style: normal;
               font-family: Josefin Sans;

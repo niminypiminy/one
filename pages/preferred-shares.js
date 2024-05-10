@@ -1,5 +1,4 @@
 import React from 'react'
-import Link from 'next/link'
 import Head from 'next/head'
 
 import Navbar from '../components/navbar'
@@ -35,37 +34,17 @@ const PreferredShares = (props) => {
               <div className="preferred-shares-container4">
                 <h1 className="preferred-shares-text">Preference Shares</h1>
                 <span className="preferred-shares-text1">
-                  <span>
-                    Preference shares agreements cannot be used to circumvent
-                    the restrictions on foreign ownership in Thailand. If Thai
-                    shareholders do not make any contribution, and the court
-                    ascertains that the foreign shareholder contributed more
-                    than or equal to 50% of the registered capital, then the
-                    court will not enforce the contract. Preference shares
-                    agreements can be used in certain cases, whereby a
-                    shareholder wants to claim dividends before ordinary
-                    shareholders, but it cannot be used to circumvent ownership
-                    rights, or be used as an alternative to the 
-                  </span>
-                  <Link href="/foreign-business-license">
-                    <a className="preferred-shares-link">
-                      Foreign Business License
-                    </a>
-                  </Link>
-                  <span>
-                    {' '}
-                    or Foreign Business Certificate. If you need further
-                    consultation on this matter, please click
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
-                  <Link href="/contact">
-                    <a className="preferred-shares-link1">here</a>
-                  </Link>
-                  <span>.</span>
+                  Preference shares agreements in Thailand must comply with all
+                  regulations regarding foreign ownership restrictions. If Thai
+                  shareholders do not provide any contribution and the court
+                  determines that the foreign shareholder has contributed 50% or
+                  more of the registered capital, the contract will not be
+                  enforced. While preference shares agreements can be utilized
+                  for specific purposes, such as prioritizing dividend claims
+                  over ordinary shareholders, they cannot be used to bypass
+                  ownership regulations or substitute the need for a Foreign
+                  Business License or Foreign Business Certificate. For
+                  additional guidance on this issue, please click here.
                 </span>
               </div>
             </div>
@@ -124,7 +103,7 @@ const PreferredShares = (props) => {
             align-self: flex-start;
             font-style: normal;
             font-family: 'Josefin Sans';
-            font-weight: 300;
+            font-weight: 400;
           }
           .preferred-shares-text1 {
             width: 85%;
@@ -136,12 +115,6 @@ const PreferredShares = (props) => {
             font-family: 'Josefin Sans';
             font-weight: 200;
             margin-bottom: var(--dl-space-space-twounits);
-          }
-          .preferred-shares-link {
-            text-decoration: underline;
-          }
-          .preferred-shares-link1 {
-            text-decoration: underline;
           }
           @media (max-width: 1600px) {
             .preferred-shares-container2 {

@@ -4,11 +4,11 @@ import Link from 'next/link'
 import PropTypes from 'prop-types'
 
 const FAQ84 = (props) => {
-  const [faq1Visible, setFaq1Visible] = useState(false)
   const [faq2Visible, setFaq2Visible] = useState(false)
-  const [faq3Visible, setFaq3Visible] = useState(false)
-  const [faq4Visible, setFaq4Visible] = useState(false)
   const [faq5Visible, setFaq5Visible] = useState(false)
+  const [faq4Visible, setFaq4Visible] = useState(false)
+  const [faq1Visible, setFaq1Visible] = useState(false)
+  const [faq3Visible, setFaq3Visible] = useState(false)
   return (
     <>
       <div className="faq84-faq8 thq-section-padding">
@@ -44,7 +44,7 @@ const FAQ84 = (props) => {
                 <div className="faq84-container02">
                   <span className="faq84-text01 thq-body-small">
                     <span>
-                      We&apos;d have to view the merits of the case. Please
+                      We&apos;d have to review the merits of the case. Please
                       <span
                         dangerouslySetInnerHTML={{
                           __html: ' ',
@@ -312,7 +312,7 @@ const FAQ84 = (props) => {
             font-size: 1.5rem;
             font-style: normal;
             font-family: 'Josefin Sans';
-            font-weight: 200;
+            font-weight: 300;
           }
           .faq84-link {
             text-decoration: underline;
@@ -366,7 +366,7 @@ const FAQ84 = (props) => {
             font-size: 1.5rem;
             font-style: normal;
             font-family: 'Josefin Sans';
-            font-weight: 200;
+            font-weight: 300;
           }
           .faq84-faq3 {
             border-color: var(--dl-color-theme-neutral-dark);
@@ -413,7 +413,7 @@ const FAQ84 = (props) => {
             font-size: 1.5rem;
             font-style: normal;
             font-family: 'Josefin Sans';
-            font-weight: 200;
+            font-weight: 300;
           }
           .faq84-link1 {
             text-decoration: underline;
@@ -463,7 +463,7 @@ const FAQ84 = (props) => {
             font-size: 1.5rem;
             font-style: normal;
             font-family: 'Josefin Sans';
-            font-weight: 200;
+            font-weight: 300;
           }
           .faq84-faq5 {
             border-color: var(--dl-color-theme-neutral-dark);
@@ -510,7 +510,7 @@ const FAQ84 = (props) => {
             font-size: 1.5rem;
             font-style: normal;
             font-family: 'Josefin Sans';
-            font-weight: 200;
+            font-weight: 300;
           }
           .faq84-link2 {
             text-decoration: underline;

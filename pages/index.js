@@ -310,7 +310,7 @@ const Home = (props) => {
           }
           .home-container01 {
             flex: 0 0 auto;
-            width: 40%;
+            width: 45%;
             height: 100%;
             display: flex;
             margin-top: var(--dl-space-space-threeunits);
@@ -327,8 +327,7 @@ const Home = (props) => {
             font-style: normal;
             text-align: left;
             font-family: 'Josefin Sans';
-            font-weight: 200;
-            line-height: 3rem;
+            font-weight: 400;
           }
           .home-text01 {
             background-color: rgb(255, 255, 0);
@@ -336,13 +335,12 @@ const Home = (props) => {
           .home-description {
             color: var(--dl-color-gray-black);
             width: 80%;
-            font-size: 2rem;
+            font-size: 1.5rem;
             max-width: auto;
             font-style: normal;
-            margin-top: var(--dl-space-space-unit);
+            margin-top: var(--dl-space-space-halfunit);
             font-family: 'Josefin Sans';
-            font-weight: 200;
-            line-height: 2rem;
+            font-weight: 300;
           }
           .home-link {
             text-decoration: underline;
@@ -355,11 +353,12 @@ const Home = (props) => {
           }
           .home-container02 {
             flex: 0 0 auto;
-            width: 50%;
+            width: 45%;
             height: 100%;
             display: flex;
             margin-top: var(--dl-space-space-threeunits);
             align-items: center;
+            margin-right: var(--dl-space-space-threeunits);
             flex-direction: column;
             justify-content: center;
           }
@@ -370,7 +369,6 @@ const Home = (props) => {
             box-shadow: 5px 5px 10px 0px #000000;
             object-fit: cover;
             transition: 0.3s;
-            margin-right: var(--dl-space-space-sixunits);
             border-radius: var(--dl-radius-radius-radius8);
           }
           .home-image:hover {
@@ -405,6 +403,7 @@ const Home = (props) => {
           }
           .home-text07 {
             color: var(--dl-color-gray-white);
+            font-size: 2rem;
             font-style: normal;
             font-family: Josefin Sans;
             font-weight: 200;
@@ -448,18 +447,18 @@ const Home = (props) => {
           .home-text10 {
             color: var(--dl-color-gray-black);
             width: 80%;
-            font-size: 2rem;
+            font-size: 1.5rem;
             font-style: normal;
             margin-top: var(--dl-space-space-threeunits);
             font-family: Josefin Sans;
-            font-weight: 200;
+            font-weight: 300;
           }
           .home-link03 {
             display: contents;
           }
           .home-text13 {
             color: var(--dl-color-gray-black);
-            font-size: 2rem;
+            font-size: 1.5rem;
             font-style: normal;
             margin-top: var(--dl-space-space-twounits);
             transition: 0.3s;
@@ -501,7 +500,8 @@ const Home = (props) => {
             display: contents;
           }
           .home-text14 {
-            color: var(--dl-color-gray-white);
+            fill: var(--dl-color-theme-secondary1);
+            color: var(--dl-color-theme-secondary1);
             font-size: 2rem;
             font-style: normal;
             transition: 0.3s;
@@ -520,7 +520,8 @@ const Home = (props) => {
             display: contents;
           }
           .home-text17 {
-            color: var(--dl-color-gray-white);
+            fill: var(--dl-color-theme-secondary1);
+            color: var(--dl-color-theme-secondary1);
             font-size: 2rem;
             font-style: normal;
             transition: 0.3s;
@@ -548,10 +549,10 @@ const Home = (props) => {
           }
           .home-text18 {
             color: var(--dl-color-gray-black);
-            font-size: 3rem;
+            font-size: 2.5rem;
             font-style: normal;
-            font-family: Josefin Sans;
-            font-weight: 200;
+            font-family: 'Josefin Sans';
+            font-weight: 400;
           }
           .home-container08 {
             flex: 0 0 auto;
@@ -634,11 +635,11 @@ const Home = (props) => {
           }
           .home-text22 {
             color: var(--dl-color-gray-black);
-            font-size: 3rem;
+            font-size: 2.5rem;
             font-style: normal;
             text-align: center;
             font-family: 'Josefin Sans';
-            font-weight: 200;
+            font-weight: 400;
           }
           .home-text24 {
             background-color: rgb(255, 255, 0);
@@ -712,8 +713,8 @@ const Home = (props) => {
             max-width: 800px;
             font-style: normal;
             text-align: center;
-            font-family: Josefin Sans;
-            font-weight: 200;
+            font-family: 'Josefin Sans';
+            font-weight: 300;
             line-height: 46px;
           }
           .home-link12 {
@@ -766,17 +767,17 @@ const Home = (props) => {
           .home-text28 {
             color: var(--dl-color-gray-black);
             width: 100%;
-            font-size: 3rem;
+            font-size: 2.5rem;
             max-width: 800px;
             font-style: normal;
             text-align: center;
-            font-family: Josefin Sans;
-            font-weight: 200;
+            font-family: 'Josefin Sans';
+            font-weight: 300;
           }
           .home-text29 {
             color: var(--dl-color-gray-black);
             width: 100%;
-            font-size: 2rem;
+            font-size: 1.5rem;
             font-style: normal;
             text-align: center;
             font-family: Josefin Sans;
@@ -843,21 +844,13 @@ const Home = (props) => {
               justify-content: center;
             }
             .home-container01 {
-              width: 40%;
-              height: 100%;
               align-items: center;
-              margin-left: var(--dl-space-space-fiveunits);
               justify-content: center;
             }
             .home-title {
               color: var(--dl-color-gray-black);
               width: 90%;
-              font-size: 2.5rem;
               max-width: auto;
-              font-style: normal;
-              font-family: Josefin Sans;
-              font-weight: 200;
-              line-height: 3rem;
             }
             .home-text01 {
               background-color: rgb(255, 255, 0);
@@ -865,9 +858,7 @@ const Home = (props) => {
             .home-description {
               color: var(--dl-color-gray-black);
               width: 90%;
-              font-size: 1.5rem;
               max-width: auto;
-              margin-top: var(--dl-space-space-halfunit);
             }
             .home-link {
               text-decoration: underline;
@@ -879,7 +870,7 @@ const Home = (props) => {
               text-decoration: underline;
             }
             .home-container02 {
-              width: 50%;
+              width: 45%;
               height: 100%;
               flex-direction: row;
             }
@@ -890,8 +881,6 @@ const Home = (props) => {
               height: 60%;
               position: static;
               box-shadow: 5px 5px 10px 0px #000000;
-              margin-top: var(--dl-space-space-halfunit);
-              margin-right: var(--dl-space-space-sixunits);
               border-radius: var(--dl-radius-radius-radius8);
               padding-right: 0px;
             }
@@ -936,7 +925,6 @@ const Home = (props) => {
             .home-text10 {
               color: var(--dl-color-gray-black);
               width: 80%;
-              font-size: 1.5rem;
             }
             .home-text13 {
               color: var(--dl-color-gray-black);
@@ -959,11 +947,6 @@ const Home = (props) => {
             }
             .home-text14 {
               color: var(--dl-color-gray-white);
-              font-size: 2rem;
-              font-style: normal;
-              font-family: Josefin Sans;
-              font-weight: 200;
-              text-decoration: none;
             }
             .home-text17 {
               color: var(--dl-color-gray-white);
@@ -973,15 +956,9 @@ const Home = (props) => {
             }
             .home-text22 {
               color: var(--dl-color-gray-black);
-              font-size: 3rem;
             }
             .home-text24 {
               background-color: rgb(255, 255, 0);
-            }
-            .home-text26 {
-              font-style: normal;
-              font-family: Josefin Sans;
-              font-weight: 200;
             }
             .home-container10 {
               width: 80%;
@@ -989,11 +966,6 @@ const Home = (props) => {
             }
             .home-title1 {
               color: rgb(247, 247, 247);
-              font-size: 2.5rem;
-              font-style: normal;
-              font-family: Josefin Sans;
-              font-weight: 200;
-              line-height: 46px;
             }
             .home-text27 {
               font-size: 1.5rem;
@@ -1005,35 +977,24 @@ const Home = (props) => {
             .home-newsletter {
               margin-top: var(--dl-space-space-threeunits);
             }
-            .home-text28 {
-              font-style: normal;
-              font-family: Josefin Sans;
-              font-weight: 200;
-            }
-            .home-text29 {
-              font-style: normal;
-              font-family: Josefin Sans;
-              font-weight: 200;
-            }
             .home-textinput {
               font-size: 1.2rem;
               font-family: Josefin Sans;
             }
           }
           @media (max-width: 1200px) {
+            .home-container01 {
+              margin-left: 0px;
+            }
             .home-title {
               color: var(--dl-color-gray-black);
-              font-size: 2.5rem;
-              font-style: normal;
-              font-family: Josefin Sans;
-              font-weight: 200;
-              line-height: 3rem;
             }
             .home-text01 {
               background-color: rgb(255, 255, 0);
             }
             .home-container02 {
               width: 45%;
+              margin-right: 0px;
             }
             .home-image {
               height: 40%;
@@ -1059,9 +1020,6 @@ const Home = (props) => {
             }
             .home-container07 {
               width: 75%;
-            }
-            .home-text22 {
-              font-size: 3rem;
             }
             .home-text26 {
               color: var(--dl-color-gray-black);
@@ -1093,7 +1051,7 @@ const Home = (props) => {
             .home-hero {
               gap: var(--dl-space-space-threeunits);
               width: 100%;
-              height: auto;
+              height: 50vh;
               max-width: auto;
               margin-top: var(--dl-space-space-sixunits);
               align-items: center;
@@ -1104,19 +1062,17 @@ const Home = (props) => {
             }
             .home-container01 {
               width: 80%;
-              margin-left: var(--dl-space-space-threeunits);
+              margin-left: 0px;
             }
             .home-title {
               color: var(--dl-color-gray-black);
               width: 100%;
               max-width: auto;
-              text-align: left;
             }
             .home-description {
               color: var(--dl-color-gray-black);
               width: 100%;
               max-width: auto;
-              text-align: left;
             }
             .home-container02 {
               height: 100%;
@@ -1154,13 +1110,7 @@ const Home = (props) => {
             .home-text10 {
               color: var(--dl-color-gray-black);
               width: 80%;
-              font-size: 1.5rem;
               align-self: center;
-              font-style: normal;
-              text-align: center;
-              font-family: Josefin Sans;
-              font-weight: 200;
-              line-height: 23px;
             }
             .home-text13 {
               align-self: center;
@@ -1201,9 +1151,6 @@ const Home = (props) => {
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-threeunits);
             }
-            .home-text28 {
-              font-size: 3rem;
-            }
             .home-text29 {
               font-size: 1.5rem;
               line-height: 24px;
@@ -1216,20 +1163,16 @@ const Home = (props) => {
               justify-content: center;
             }
             .home-container01 {
-              width: 80%;
-              margin-left: var(--dl-space-space-halfunit);
-              margin-right: var(--dl-space-space-halfunit);
+              width: 90%;
+              margin-left: 0px0;
+              margin-right: 0px0;
             }
             .home-title {
               width: 100%;
-              font-size: 2.5rem;
               margin-top: var(--dl-space-space-fourunits);
-              line-height: 46px;
             }
             .home-description {
               width: 100%;
-              font-size: 1.5rem;
-              line-height: 24px;
             }
             .home-image {
               width: 20%;
@@ -1273,10 +1216,6 @@ const Home = (props) => {
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-fourunits);
             }
-            .home-text18 {
-              font-size: 2.5rem;
-              line-height: 36px;
-            }
             .home-text19 {
               font-size: 30px;
               line-height: 36px;
@@ -1306,19 +1245,16 @@ const Home = (props) => {
             .home-banner1 {
               width: 100%;
             }
-            .home-text28 {
-              font-size: 3rem;
-            }
           }
           @media (max-width: 479px) {
             .home-hero {
               width: 100%;
             }
             .home-container01 {
-              width: auto;
+              width: 90%;
               height: auto;
-              margin-left: var(--dl-space-space-halfunit);
-              margin-right: var(--dl-space-space-halfunit);
+              margin-left: 0px;
+              margin-right: 0px;
             }
             .home-title {
               width: 100%;
@@ -1373,6 +1309,7 @@ const Home = (props) => {
             }
             .home-container10 {
               gap: var(--dl-space-space-oneandhalfunits);
+              height: auto;
               padding-top: var(--dl-space-space-threeunits);
               padding-bottom: var(--dl-space-space-threeunits);
             }
@@ -1382,7 +1319,6 @@ const Home = (props) => {
             }
             .home-text28 {
               color: var(--dl-color-gray-black);
-              font-size: 3rem;
             }
             .home-text29 {
               color: var(--dl-color-gray-black);

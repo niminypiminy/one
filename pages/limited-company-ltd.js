@@ -586,7 +586,7 @@ const LimitedCompanyLtd = (props) => {
             max-width: auto;
             font-style: normal;
             font-family: Josefin Sans;
-            font-weight: 300;
+            font-weight: 400;
           }
           .limited-company-ltd-text02 {
             background-color: rgb(255, 255, 0);
@@ -596,7 +596,7 @@ const LimitedCompanyLtd = (props) => {
             font-style: normal;
             margin-top: var(--dl-space-space-twounits);
             font-family: 'Josefin Sans';
-            font-weight: 200;
+            font-weight: 300;
             line-height: 1.15em;
             margin-bottom: var(--dl-space-space-twounits);
           }
@@ -634,7 +634,7 @@ const LimitedCompanyLtd = (props) => {
             font-size: 2.5rem;
             font-style: normal;
             font-family: Josefin Sans;
-            font-weight: 200;
+            font-weight: 400;
           }
           .limited-company-ltd-container06 {
             width: 100%;
@@ -871,7 +871,7 @@ const LimitedCompanyLtd = (props) => {
             font-style: normal;
             transition: 0.3s;
             font-family: Josefin Sans;
-            font-weight: 200;
+            font-weight: 300;
             padding-top: var(--dl-space-space-oneandhalfunits);
             border-color: var(--dl-color-gray-black);
             border-width: 1px;
@@ -902,7 +902,7 @@ const LimitedCompanyLtd = (props) => {
             font-style: normal;
             text-align: center;
             font-family: Josefin Sans;
-            font-weight: 200;
+            font-weight: 400;
           }
           .limited-company-ltd-text20 {
             background-color: rgb(255, 255, 0);
@@ -1265,7 +1265,7 @@ const LimitedCompanyLtd = (props) => {
             font-style: normal;
             text-align: center;
             font-family: Josefin Sans;
-            font-weight: 200;
+            font-weight: 400;
             margin-bottom: var(--dl-space-space-unit);
             text-transform: capitalize;
           }
@@ -1295,7 +1295,7 @@ const LimitedCompanyLtd = (props) => {
             font-size: 1.5rem;
             font-style: normal;
             font-family: Josefin Sans;
-            font-weight: 300;
+            font-weight: 400;
           }
           .limited-company-ltd-container28 {
             flex: 0 0 auto;
@@ -1313,7 +1313,7 @@ const LimitedCompanyLtd = (props) => {
             font-size: 1.5rem;
             font-style: normal;
             font-family: Josefin Sans;
-            font-weight: 300;
+            font-weight: 400;
           }
           .limited-company-ltd-container29 {
             flex: 0 0 auto;
@@ -1329,7 +1329,7 @@ const LimitedCompanyLtd = (props) => {
             font-size: 1.5rem;
             font-style: normal;
             font-family: Josefin Sans;
-            font-weight: 200;
+            font-weight: 300;
           }
           .limited-company-ltd-container30 {
             flex: 0 0 auto;
@@ -1345,7 +1345,7 @@ const LimitedCompanyLtd = (props) => {
             font-size: 1.5rem;
             font-style: normal;
             font-family: Josefin Sans;
-            font-weight: 200;
+            font-weight: 300;
           }
           .limited-company-ltd-container31 {
             flex: 0 0 auto;
@@ -1361,7 +1361,7 @@ const LimitedCompanyLtd = (props) => {
             font-size: 1.5rem;
             font-style: normal;
             font-family: Josefin Sans;
-            font-weight: 200;
+            font-weight: 300;
           }
           .limited-company-ltd-container32 {
             flex: 0 0 auto;
@@ -1377,7 +1377,7 @@ const LimitedCompanyLtd = (props) => {
             font-size: 1.5rem;
             font-style: normal;
             font-family: Josefin Sans;
-            font-weight: 200;
+            font-weight: 300;
           }
           .limited-company-ltd-container33 {
             flex: 0 0 auto;
@@ -1393,7 +1393,7 @@ const LimitedCompanyLtd = (props) => {
             font-size: 1.5rem;
             font-style: normal;
             font-family: Josefin Sans;
-            font-weight: 200;
+            font-weight: 300;
           }
           .limited-company-ltd-container34 {
             flex: 0 0 auto;
@@ -1409,7 +1409,7 @@ const LimitedCompanyLtd = (props) => {
             font-size: 1.5rem;
             font-style: normal;
             font-family: Josefin Sans;
-            font-weight: 200;
+            font-weight: 300;
           }
           .limited-company-ltd-container35 {
             flex: 0 0 auto;
@@ -1425,7 +1425,7 @@ const LimitedCompanyLtd = (props) => {
             font-size: 1.5rem;
             font-style: normal;
             font-family: Josefin Sans;
-            font-weight: 200;
+            font-weight: 300;
           }
           .limited-company-ltd-container36 {
             flex: 0 0 auto;
@@ -1441,7 +1441,7 @@ const LimitedCompanyLtd = (props) => {
             font-size: 1.5rem;
             font-style: normal;
             font-family: Josefin Sans;
-            font-weight: 200;
+            font-weight: 300;
           }
           .limited-company-ltd-faq {
             width: 100%;
@@ -1475,13 +1475,14 @@ const LimitedCompanyLtd = (props) => {
             justify-content: center;
           }
           .limited-company-ltd-header {
-            color: var(--dl-color-gray-white);
+            fill: var(--dl-color-theme-neutral-light);
+            color: var(--dl-color-theme-neutral-light);
             padding: var(--dl-space-space-halfunit);
             font-size: 2.5rem;
             font-style: normal;
             text-align: center;
             font-family: Josefin Sans;
-            font-weight: 200;
+            font-weight: 300;
             line-height: 60px;
             background-color: #1b1b1b;
           }
@@ -1710,7 +1711,7 @@ const LimitedCompanyLtd = (props) => {
             align-self: center;
             font-style: normal;
             font-family: Josefin Sans;
-            font-weight: 200;
+            font-weight: 300;
             padding-top: var(--dl-space-space-halfunit);
             padding-left: var(--dl-space-space-halfunit);
             margin-bottom: var(--dl-space-space-fourunits);
@@ -1723,13 +1724,6 @@ const LimitedCompanyLtd = (props) => {
             .limited-company-ltd-text {
               color: var(--dl-color-gray-black);
             }
-            .limited-company-ltd-text04 {
-              font-size: 1.5rem;
-              font-style: normal;
-              font-family: Josefin Sans;
-              font-weight: 200;
-              line-height: 1.15em;
-            }
             .limited-company-ltd-image {
               box-shadow: 5px 5px 10px 0px #000000;
               margin-right: 0px;
@@ -1741,8 +1735,16 @@ const LimitedCompanyLtd = (props) => {
               margin-top: var(--dl-space-space-sixunits);
               margin-bottom: var(--dl-space-space-sixunits);
             }
+            .limited-company-ltd-text10 {
+              font-style: normal;
+              font-weight: 400;
+            }
             .limited-company-ltd-container07 {
               margin-top: var(--dl-space-space-twounits);
+            }
+            .limited-company-ltd-text11 {
+              font-style: normal;
+              font-weight: 200;
             }
             .limited-company-ltd-text15 {
               font-family: Josefin Sans;
@@ -2218,10 +2220,6 @@ const LimitedCompanyLtd = (props) => {
             }
             .limited-company-ltd-text33 {
               width: 100%;
-              font-style: normal;
-              text-align: center;
-              font-family: Josefin Sans;
-              font-weight: 200;
             }
             .limited-company-ltd-container26 {
               width: 100%;

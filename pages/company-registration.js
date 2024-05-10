@@ -259,6 +259,7 @@ const CompanyRegistration = (props) => {
             width: 100%;
             height: 75vh;
             display: flex;
+            margin-top: var(--dl-space-space-fourunits);
             align-items: center;
             justify-content: center;
           }
@@ -282,18 +283,18 @@ const CompanyRegistration = (props) => {
           }
           .company-registration-text {
             color: var(--dl-color-gray-black);
-            font-size: 2rem;
+            font-size: 2.5rem;
             max-width: 450px;
             font-style: normal;
             font-family: Josefin Sans;
-            font-weight: 300;
+            font-weight: 400;
           }
           .company-registration-text01 {
             font-size: 1.5rem;
             font-style: normal;
             margin-top: var(--dl-space-space-twounits);
             font-family: Josefin Sans;
-            font-weight: 200;
+            font-weight: 300;
             line-height: 1.15em;
             margin-bottom: var(--dl-space-space-twounits);
           }
@@ -920,7 +921,7 @@ const CompanyRegistration = (props) => {
             font-size: 1.5rem;
             font-style: normal;
             font-family: 'Josefin Sans';
-            font-weight: 200;
+            font-weight: 300;
           }
           .company-registration-container40 {
             flex: 0 0 auto;
@@ -981,7 +982,7 @@ const CompanyRegistration = (props) => {
             font-style: normal;
             margin-top: var(--dl-space-space-fourunits);
             font-family: Josefin Sans;
-            font-weight: 200;
+            font-weight: 300;
             padding-top: var(--dl-space-space-halfunit);
             padding-left: var(--dl-space-space-halfunit);
             padding-right: var(--dl-space-space-halfunit);
@@ -996,9 +997,6 @@ const CompanyRegistration = (props) => {
             .company-registration-text {
               font-size: 2rem;
               max-width: auto;
-            }
-            .company-registration-text01 {
-              line-height: 1.15em;
             }
             .company-registration-image {
               box-shadow: 5px 5px 10px 0px #000000;
@@ -1086,7 +1084,7 @@ const CompanyRegistration = (props) => {
             }
             .company-registration-container40 {
               width: 80%;
-              margin-top: var(--dl-space-space-threeunits);
+              margin-top: var(--dl-space-space-fourunits);
             }
             .company-registration-text46 {
               width: 50%;

@@ -74,7 +74,9 @@ const ProBono = (props) => {
             width: 100%;
             height: 75vh;
             display: flex;
+            margin-top: var(--dl-space-space-fourunits);
             align-items: center;
+            margin-bottom: var(--dl-space-space-fourunits);
             flex-direction: row;
             justify-content: center;
           }
@@ -100,10 +102,10 @@ const ProBono = (props) => {
           }
           .pro-bono-text {
             width: 100%;
-            font-size: 2rem;
+            font-size: 2.5rem;
             font-style: normal;
             font-family: Josefin Sans;
-            font-weight: 300;
+            font-weight: 400;
           }
           .pro-bono-text1 {
             width: 100%;
@@ -112,7 +114,7 @@ const ProBono = (props) => {
             margin-top: var(--dl-space-space-twounits);
             text-align: left;
             font-family: Josefin Sans;
-            font-weight: 200;
+            font-weight: 300;
           }
           .pro-bono-link {
             display: contents;
@@ -163,12 +165,6 @@ const ProBono = (props) => {
             }
             .pro-bono-container3 {
               width: 70%;
-            }
-            .pro-bono-text1 {
-              font-size: 1.5rem;
-              font-style: normal;
-              font-family: Josefin Sans;
-              font-weight: 200;
             }
             .pro-bono-container4 {
               width: 40%;

@@ -166,11 +166,11 @@ const CorporateLaw = (props) => {
           .corporate-law-text {
             color: var(--dl-color-gray-black);
             width: 75%;
-            font-size: 2rem;
+            font-size: 2.5rem;
             align-self: flex-start;
             font-style: normal;
             font-family: Josefin Sans;
-            font-weight: 300;
+            font-weight: 400;
           }
           .corporate-law-text1 {
             width: 85%;
@@ -180,7 +180,7 @@ const CorporateLaw = (props) => {
             margin-top: var(--dl-space-space-twounits);
             text-align: left;
             font-family: Josefin Sans;
-            font-weight: 200;
+            font-weight: 300;
             margin-bottom: var(--dl-space-space-twounits);
           }
           .corporate-law-link {
@@ -231,10 +231,6 @@ const CorporateLaw = (props) => {
             .corporate-law-text {
               color: var(--dl-color-gray-black);
               width: 100%;
-              font-size: 2rem;
-              font-style: normal;
-              font-family: Josefin Sans;
-              font-weight: 300;
             }
             .corporate-law-text1 {
               width: 100%;

@@ -57,7 +57,7 @@ const CriminalProceedingsInThailand = (props) => {
           blogPostTitle="Criminal Proceedings in Thailand"
           avatarImageSrc="/oig4-1400w.jpg"
         ></BlogPostHeader61>
-        <div className="criminal-proceedings-in-thailand-container2">
+        <div className="open1">
           <span className="criminal-proceedings-in-thailand-text">
             <span>Individuals encountering situations that involve </span>
             <Link href="/domestic-abuse">
@@ -333,16 +333,6 @@ const CriminalProceedingsInThailand = (props) => {
             margin-right: var(--dl-space-space-unit);
             text-decoration: none;
           }
-          .criminal-proceedings-in-thailand-container2 {
-            flex: 0 0 auto;
-            width: 60%;
-            height: auto;
-            display: flex;
-            position: relative;
-            align-items: center;
-            flex-direction: column;
-            justify-content: center;
-          }
           .criminal-proceedings-in-thailand-text {
             width: 75%;
             font-size: 2rem;
@@ -567,9 +557,6 @@ const CriminalProceedingsInThailand = (props) => {
             background-color: #ffff00;
           }
           @media (max-width: 1600px) {
-            .criminal-proceedings-in-thailand-container2 {
-              width: 70%;
-            }
             .criminal-proceedings-in-thailand-text18 {
               font-style: italic;
               font-weight: 300;
@@ -583,21 +570,7 @@ const CriminalProceedingsInThailand = (props) => {
               font-weight: 300;
             }
           }
-          @media (max-width: 1200px) {
-            .criminal-proceedings-in-thailand-container2 {
-              width: 80%;
-            }
-          }
-          @media (max-width: 991px) {
-            .criminal-proceedings-in-thailand-container2 {
-              width: 80%;
-            }
-          }
           @media (max-width: 767px) {
-            .criminal-proceedings-in-thailand-container2 {
-              width: 80%;
-              margin-top: var(--dl-space-space-twounits);
-            }
             .criminal-proceedings-in-thailand-text {
               width: 90%;
             }
@@ -633,10 +606,6 @@ const CriminalProceedingsInThailand = (props) => {
             }
           }
           @media (max-width: 479px) {
-            .criminal-proceedings-in-thailand-container2 {
-              width: 90%;
-              margin-top: var(--dl-space-space-threeunits);
-            }
             .criminal-proceedings-in-thailand-text {
               width: 90%;
             }

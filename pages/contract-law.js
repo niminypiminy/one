@@ -116,11 +116,11 @@ const ContractLaw = (props) => {
           .contract-law-text {
             color: var(--dl-color-gray-black);
             width: 75%;
-            font-size: 2rem;
+            font-size: 2.5rem;
             align-self: flex-start;
             font-style: normal;
             font-family: 'Josefin Sans';
-            font-weight: 300;
+            font-weight: 400;
           }
           .contract-law-text1 {
             width: 85%;
@@ -130,7 +130,7 @@ const ContractLaw = (props) => {
             margin-top: var(--dl-space-space-twounits);
             text-align: left;
             font-family: 'Josefin Sans';
-            font-weight: 200;
+            font-weight: 300;
             margin-bottom: var(--dl-space-space-twounits);
           }
           .contract-law-link {
@@ -168,10 +168,6 @@ const ContractLaw = (props) => {
             .contract-law-text {
               color: var(--dl-color-gray-black);
               width: 100%;
-              font-size: 2rem;
-              font-style: normal;
-              font-family: Josefin Sans;
-              font-weight: 300;
             }
             .contract-law-text1 {
               width: 100%;
