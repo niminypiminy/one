@@ -71,7 +71,7 @@ const ThankYou = (props) => {
             margin-top: var(--dl-space-space-twounits);
             text-align: center;
             font-family: Josefin Sans;
-            font-weight: 200;
+            font-weight: 300;
           }
           @media (max-width: 1600px) {
             .thank-you-image {

@@ -514,7 +514,7 @@ const Component7 = (props) => {
             font-style: normal;
             margin-top: var(--dl-space-space-fourunits);
             font-family: 'Josefin Sans';
-            font-weight: 600;
+            font-weight: 400;
             line-height: 36px;
             margin-bottom: var(--dl-space-space-fourunits);
           }
@@ -700,7 +700,7 @@ const Component7 = (props) => {
             font-style: normal;
             margin-top: var(--dl-space-space-fourunits);
             font-family: 'Josefin Sans';
-            font-weight: 600;
+            font-weight: 400;
             line-height: 36px;
             margin-bottom: var(--dl-space-space-fourunits);
           }
@@ -978,7 +978,7 @@ const Component7 = (props) => {
             font-style: normal;
             margin-top: var(--dl-space-space-fourunits);
             font-family: 'Josefin Sans';
-            font-weight: 600;
+            font-weight: 400;
             line-height: 36px;
             margin-bottom: var(--dl-space-space-fourunits);
           }
@@ -1373,9 +1373,13 @@ const Component7 = (props) => {
             line-height: 36px;
           }
           @media (max-width: 1600px) {
-            .component7-text23 {
+            .component7-text {
               font-style: normal;
-              font-weight: 600;
+              font-weight: 400;
+            }
+            .component7-text09 {
+              font-style: normal;
+              font-weight: 400;
             }
           }
           @media (max-width: 1200px) {

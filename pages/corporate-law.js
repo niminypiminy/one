@@ -39,9 +39,11 @@ const CorporateLaw = (props) => {
               <h1 className="corporate-law-text">Corporate law</h1>
               <span className="corporate-law-text1">
                 <span>
-                  Incorporating a company is a complex process that will
-                  determine the legal rights of the entity and its shareholders.
-                  In Thailand, companies can obtain significant tax advantages
+                  Incorporating a company is a multifaceted procedure that plays
+                  a crucial role in establishing the legal framework governing
+                  the entity and its shareholders. In Thailand, companies can
+                  benefit from substantial tax incentives by engaging with the
+                  Board of Investment, securing majority ownership rights
                   through the
                   <span
                     dangerouslySetInnerHTML={{
@@ -49,30 +51,26 @@ const CorporateLaw = (props) => {
                     }}
                   />
                 </span>
-                <Link href="/board-of-investment">
-                  <a className="corporate-law-link">Board of Investment</a>
+                <Link href="/foreign-business-license">
+                  <a className="corporate-law-link">F</a>
+                </Link>
+                <Link href="/foreign-business-license">
+                  <a className="corporate-law-link1">oreign business license</a>
                 </Link>
                 <span>
-                  , majority ownership rights through the
+                  , or by registering their company under a treaty such as the
                   <span
                     dangerouslySetInnerHTML={{
                       __html: ' ',
                     }}
                   />
                 </span>
-                <Link href="/foreign-business-license">
-                  <a className="corporate-law-link1">
-                    foreign business license
-                  </a>
-                </Link>
-                <span>
-                   or by registering their company under a treaty, such as the 
-                </span>
                 <Link href="/treaty-of-amity">
                   <a className="corporate-law-link2">Treaty of Amity</a>
                 </Link>
                 <span>
-                  .
+                  {' '}
+                  or agreements like
                   <span
                     dangerouslySetInnerHTML={{
                       __html: ' ',
@@ -83,7 +81,8 @@ const CorporateLaw = (props) => {
                   <a className="corporate-law-link3">TAFTA</a>
                 </Link>
                 <span>
-                  , or the
+                  {' '}
+                  and the
                   <span
                     dangerouslySetInnerHTML={{
                       __html: ' ',
@@ -92,14 +91,14 @@ const CorporateLaw = (props) => {
                 </span>
                 <Link href="/japan-thailand-economic-partnership-agreement">
                   <a className="corporate-law-link4">
-                    Japan-Thailand Economic Partnership Agreement.
+                    Japan-Thailand Economic Partnership Agreement
                   </a>
                 </Link>
-                <span> </span>
+                <span>.</span>
               </span>
               <Link href="/contact">
                 <a className="corporate-law-link5">
-                  <h1 className="corporate-law-text8">Contact</h1>
+                  <h1 className="corporate-law-text7">Contact</h1>
                 </a>
               </Link>
             </div>
@@ -179,7 +178,7 @@ const CorporateLaw = (props) => {
             font-style: normal;
             margin-top: var(--dl-space-space-twounits);
             text-align: left;
-            font-family: Josefin Sans;
+            font-family: 'Josefin Sans';
             font-weight: 300;
             margin-bottom: var(--dl-space-space-twounits);
           }
@@ -189,19 +188,10 @@ const CorporateLaw = (props) => {
           .corporate-law-link1 {
             text-decoration: underline;
           }
-          .corporate-law-link2 {
-            text-decoration: underline;
-          }
-          .corporate-law-link3 {
-            text-decoration: underline;
-          }
-          .corporate-law-link4 {
-            text-decoration: underline;
-          }
           .corporate-law-link5 {
             display: contents;
           }
-          .corporate-law-text8 {
+          .corporate-law-text7 {
             color: var(--dl-color-gray-black);
             padding: var(--dl-space-space-halfunit);
             font-size: 1.5rem;
@@ -217,7 +207,7 @@ const CorporateLaw = (props) => {
             padding-bottom: var(--dl-space-space-unit);
             text-decoration: none;
           }
-          .corporate-law-text8:hover {
+          .corporate-law-text7:hover {
             color: var(--dl-color-gray-white);
             background-color: #1b1b1b;
           }
@@ -237,12 +227,18 @@ const CorporateLaw = (props) => {
               font-size: 1.5rem;
               font-style: normal;
               font-family: Josefin Sans;
-              font-weight: 200;
+              font-weight: 300;
             }
-            .corporate-law-link {
+            .corporate-law-link1 {
               text-decoration: underline;
             }
             .corporate-law-link2 {
+              text-decoration: underline;
+            }
+            .corporate-law-link3 {
+              text-decoration: underline;
+            }
+            .corporate-law-link4 {
               text-decoration: underline;
             }
           }
@@ -270,9 +266,6 @@ const CorporateLaw = (props) => {
             .corporate-law-container3 {
               width: 80%;
             }
-            .corporate-law-text1 {
-              text-align: left;
-            }
           }
           @media (max-width: 767px) {
             .corporate-law-image {
@@ -291,20 +284,10 @@ const CorporateLaw = (props) => {
             }
             .corporate-law-text1 {
               width: 100%;
-              font-size: 1.5rem;
               align-self: center;
-              font-style: normal;
-              font-family: Josefin Sans;
-              font-weight: 200;
               padding-left: var(--dl-space-space-halfunit);
             }
-            .corporate-law-link {
-              text-decoration: underline;
-            }
-            .corporate-law-link2 {
-              text-decoration: underline;
-            }
-            .corporate-law-text8 {
+            .corporate-law-text7 {
               align-self: flex-start;
             }
           }
@@ -322,12 +305,10 @@ const CorporateLaw = (props) => {
             }
             .corporate-law-text1 {
               width: 100%;
-              font-size: 1.5rem;
-              text-align: left;
               padding-left: 0px;
               padding-right: 0px;
             }
-            .corporate-law-text8 {
+            .corporate-law-text7 {
               align-self: flex-start;
             }
           }

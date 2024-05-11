@@ -657,7 +657,7 @@ const TreatyOfAmity = (props) => {
             max-width: 450px;
             font-style: normal;
             font-family: 'Josefin Sans';
-            font-weight: 300;
+            font-weight: 400;
           }
           .treaty-of-amity-text02 {
             background-color: rgb(255, 255, 0);
@@ -668,7 +668,7 @@ const TreatyOfAmity = (props) => {
             font-style: normal;
             margin-top: var(--dl-space-space-twounits);
             font-family: Josefin Sans;
-            font-weight: 200;
+            font-weight: 300;
             margin-bottom: var(--dl-space-space-twounits);
           }
           .treaty-of-amity-image {
@@ -691,19 +691,18 @@ const TreatyOfAmity = (props) => {
             justify-content: center;
           }
           .treaty-of-amity-text09 {
-            font-size: 2.5rem;
+            font-size: 2rem;
             font-style: normal;
             font-family: Josefin Sans;
-            font-weight: 200;
+            font-weight: 400;
           }
           .treaty-of-amity-text10 {
             color: var(--dl-color-gray-black);
             width: 40%;
             font-size: 1.5rem;
-            font-style: normal;
             text-align: left;
-            font-family: Josefin Sans;
-            font-weight: 200;
+            font-family: 'Josefin Sans';
+            font-weight: 300;
           }
           .treaty-of-amity-container03 {
             width: 100%;
@@ -793,11 +792,11 @@ const TreatyOfAmity = (props) => {
           .treaty-of-amity-text19 {
             color: rgb(17, 40, 33);
             width: 80%;
-            font-size: 2.5rem;
+            font-size: 2rem;
             font-style: normal;
             text-align: center;
             font-family: 'Josefin Sans';
-            font-weight: 200;
+            font-weight: 400;
             margin-bottom: var(--dl-space-space-halfunit);
           }
           .treaty-of-amity-text20 {
@@ -1019,11 +1018,11 @@ const TreatyOfAmity = (props) => {
           .treaty-of-amity-text28 {
             color: var(--dl-color-gray-black);
             width: 50%;
-            font-size: 2.5rem;
+            font-size: 2rem;
             font-style: normal;
             text-align: center;
             font-family: Josefin Sans;
-            font-weight: 200;
+            font-weight: 400;
           }
           .treaty-of-amity-text30 {
             background-color: rgb(255, 255, 0);
@@ -1341,11 +1340,11 @@ const TreatyOfAmity = (props) => {
           }
           .treaty-of-amity-text43 {
             color: var(--dl-color-gray-black);
-            font-size: 2.5rem;
+            font-size: 2rem;
             font-style: normal;
             text-align: center;
             font-family: Josefin Sans;
-            font-weight: 200;
+            font-weight: 400;
             text-transform: capitalize;
           }
           .treaty-of-amity-container23 {
@@ -1374,7 +1373,7 @@ const TreatyOfAmity = (props) => {
             font-size: 1.5rem;
             font-style: normal;
             font-family: Josefin Sans;
-            font-weight: 300;
+            font-weight: 400;
           }
           .treaty-of-amity-container25 {
             flex: 0 0 auto;
@@ -1392,7 +1391,7 @@ const TreatyOfAmity = (props) => {
             font-size: 1.5rem;
             font-style: normal;
             font-family: Josefin Sans;
-            font-weight: 300;
+            font-weight: 400;
           }
           .treaty-of-amity-container26 {
             flex: 0 0 auto;
@@ -1408,7 +1407,7 @@ const TreatyOfAmity = (props) => {
             font-size: 1.5rem;
             font-style: normal;
             font-family: Josefin Sans;
-            font-weight: 200;
+            font-weight: 300;
           }
           .treaty-of-amity-container27 {
             flex: 0 0 auto;
@@ -1424,7 +1423,7 @@ const TreatyOfAmity = (props) => {
             font-size: 1.5rem;
             font-style: normal;
             font-family: Josefin Sans;
-            font-weight: 200;
+            font-weight: 300;
           }
           .treaty-of-amity-container28 {
             flex: 0 0 auto;
@@ -1440,7 +1439,7 @@ const TreatyOfAmity = (props) => {
             font-size: 1.5rem;
             font-style: normal;
             font-family: Josefin Sans;
-            font-weight: 200;
+            font-weight: 300;
           }
           .treaty-of-amity-container29 {
             flex: 0 0 auto;
@@ -1456,7 +1455,7 @@ const TreatyOfAmity = (props) => {
             font-size: 1.5rem;
             font-style: normal;
             font-family: Josefin Sans;
-            font-weight: 200;
+            font-weight: 300;
           }
           .treaty-of-amity-container30 {
             flex: 0 0 auto;
@@ -1472,7 +1471,7 @@ const TreatyOfAmity = (props) => {
             font-size: 1.5rem;
             font-style: normal;
             font-family: Josefin Sans;
-            font-weight: 200;
+            font-weight: 300;
           }
           .treaty-of-amity-container31 {
             flex: 0 0 auto;
@@ -1488,7 +1487,7 @@ const TreatyOfAmity = (props) => {
             font-size: 1.5rem;
             font-style: normal;
             font-family: Josefin Sans;
-            font-weight: 200;
+            font-weight: 300;
           }
           .treaty-of-amity-container32 {
             flex: 0 0 auto;
@@ -1504,7 +1503,7 @@ const TreatyOfAmity = (props) => {
             font-size: 1.5rem;
             font-style: normal;
             font-family: Josefin Sans;
-            font-weight: 200;
+            font-weight: 300;
           }
           .treaty-of-amity-container33 {
             flex: 0 0 auto;
@@ -1520,7 +1519,7 @@ const TreatyOfAmity = (props) => {
             font-size: 1.5rem;
             font-style: normal;
             font-family: Josefin Sans;
-            font-weight: 200;
+            font-weight: 300;
           }
           .treaty-of-amity-container34 {
             flex: 0 0 auto;
@@ -1587,11 +1586,11 @@ const TreatyOfAmity = (props) => {
           .treaty-of-amity-header {
             color: var(--dl-color-gray-white);
             padding: var(--dl-space-space-unit);
-            font-size: 2.5rem;
+            font-size: 2rem;
             font-style: normal;
             text-align: center;
             font-family: Josefin Sans;
-            font-weight: 200;
+            font-weight: 300;
             line-height: 60px;
             background-color: #1b1b1b;
           }
@@ -1824,7 +1823,7 @@ const TreatyOfAmity = (props) => {
             font-style: normal;
             margin-top: var(--dl-space-space-threeunits);
             font-family: Josefin Sans;
-            font-weight: 200;
+            font-weight: 300;
             padding-top: var(--dl-space-space-halfunit);
             padding-left: var(--dl-space-space-halfunit);
             margin-bottom: var(--dl-space-space-fourunits);
@@ -1834,12 +1833,6 @@ const TreatyOfAmity = (props) => {
             background-color: #ffff00;
           }
           @media (max-width: 1600px) {
-            .treaty-of-amity-text {
-              font-size: 2.5rem;
-              font-style: normal;
-              font-family: Josefin Sans;
-              font-weight: 300;
-            }
             .treaty-of-amity-text02 {
               background-color: rgb(255, 255, 0);
             }
@@ -1865,9 +1858,6 @@ const TreatyOfAmity = (props) => {
             .treaty-of-amity-text19 {
               color: var(--dl-color-gray-black);
             }
-            .treaty-of-amity-text20 {
-              font-size: 1.5rem;
-            }
             .treaty-of-amity-container11 {
               height: 50vh;
               margin-top: var(--dl-space-space-twounits);
@@ -1882,8 +1872,6 @@ const TreatyOfAmity = (props) => {
             }
             .treaty-of-amity-text28 {
               color: var(--dl-color-gray-black);
-              font-style: normal;
-              font-weight: 200;
             }
             .treaty-of-amity-text32 {
               color: var(--dl-color-gray-500);
@@ -1903,7 +1891,6 @@ const TreatyOfAmity = (props) => {
             }
             .treaty-of-amity-text43 {
               color: var(--dl-color-gray-black);
-              font-size: 2.5rem;
             }
             .treaty-of-amity-container34 {
               width: 50%;
@@ -1922,9 +1909,6 @@ const TreatyOfAmity = (props) => {
             .treaty-of-amity-content {
               margin-top: var(--dl-space-space-fourunits);
               margin-bottom: var(--dl-space-space-fourunits);
-            }
-            .treaty-of-amity-header {
-              font-size: 2.5rem;
             }
             .treaty-of-amity-link4 {
               color: var(--dl-color-gray-black);
@@ -1951,9 +1935,6 @@ const TreatyOfAmity = (props) => {
             }
             .treaty-of-amity-text28 {
               width: 75%;
-              font-style: normal;
-              font-family: Josefin Sans;
-              font-weight: 200;
             }
             .treaty-of-amity-container23 {
               width: 80%;
@@ -1977,11 +1958,9 @@ const TreatyOfAmity = (props) => {
             .treaty-of-amity-text {
               max-width: auto;
               min-width: 100%;
-              text-align: left;
             }
             .treaty-of-amity-text03 {
               width: 100%;
-              text-align: left;
             }
             .treaty-of-amity-image {
               width: 80%;
@@ -2013,7 +1992,6 @@ const TreatyOfAmity = (props) => {
             }
             .treaty-of-amity-text28 {
               width: 80%;
-              text-align: center;
             }
             .treaty-of-amity-text40 {
               font-size: 1.2rem;
@@ -2094,12 +2072,10 @@ const TreatyOfAmity = (props) => {
             .treaty-of-amity-text {
               width: 75%;
               max-width: auto;
-              text-align: left;
             }
             .treaty-of-amity-text03 {
               width: 75%;
               align-self: flex-start;
-              text-align: left;
               padding-left: 0px;
               padding-right: 0px;
             }
@@ -2135,7 +2111,6 @@ const TreatyOfAmity = (props) => {
             }
             .treaty-of-amity-text19 {
               width: 75%;
-              text-align: left;
             }
             .treaty-of-amity-text20 {
               width: 75%;
@@ -2191,7 +2166,6 @@ const TreatyOfAmity = (props) => {
             }
             .treaty-of-amity-text28 {
               width: 100%;
-              text-align: center;
             }
             .treaty-of-amity-container12 {
               align-items: flex-start;
@@ -2360,7 +2334,6 @@ const TreatyOfAmity = (props) => {
             }
             .treaty-of-amity-text43 {
               width: 75%;
-              text-align: center;
             }
             .treaty-of-amity-container23 {
               width: 100%;
@@ -2385,10 +2358,7 @@ const TreatyOfAmity = (props) => {
             .treaty-of-amity-header {
               width: 100%;
               padding: var(--dl-space-space-unit);
-              font-size: 2.5rem;
               align-self: center;
-              text-align: left;
-              line-height: 31px;
             }
             .treaty-of-amity-element1 {
               align-items: flex-start;
@@ -2416,11 +2386,9 @@ const TreatyOfAmity = (props) => {
             }
             .treaty-of-amity-text {
               max-width: auto;
-              text-align: left;
             }
             .treaty-of-amity-text03 {
               width: 100%;
-              text-align: left;
               padding-left: 0px;
               padding-right: 0px;
             }
@@ -2439,7 +2407,6 @@ const TreatyOfAmity = (props) => {
             .treaty-of-amity-text10 {
               width: 90%;
               height: 100%;
-              text-align: left;
             }
             .treaty-of-amity-container03 {
               height: 75vh;
@@ -2476,11 +2443,9 @@ const TreatyOfAmity = (props) => {
             }
             .treaty-of-amity-text19 {
               width: 100%;
-              text-align: center;
             }
             .treaty-of-amity-text20 {
               width: 100%;
-              text-align: left;
             }
             .treaty-of-amity-container04 {
               width: 100%;
@@ -2514,12 +2479,6 @@ const TreatyOfAmity = (props) => {
               margin-bottom: var(--dl-space-space-sixunits);
               padding-right: var(--dl-space-space-unit);
               padding-bottom: var(--dl-space-space-twounits);
-            }
-            .treaty-of-amity-text28 {
-              font-style: normal;
-              text-align: center;
-              font-family: Josefin Sans;
-              font-weight: 200;
             }
             .treaty-of-amity-container12 {
               padding-left: 0px;
@@ -2567,7 +2526,6 @@ const TreatyOfAmity = (props) => {
             }
             .treaty-of-amity-text43 {
               width: 100%;
-              text-align: center;
             }
             .treaty-of-amity-container23 {
               width: 100%;
@@ -2591,7 +2549,6 @@ const TreatyOfAmity = (props) => {
             }
             .treaty-of-amity-header {
               width: 100%;
-              text-align: center;
             }
             .treaty-of-amity-header1 {
               font-size: 16px;

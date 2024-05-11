@@ -36,13 +36,13 @@ const CompanyRegistration = (props) => {
                 Company Registration
               </h1>
               <span className="company-registration-text01">
-                {' '}
-                Before registering a company, it&apos;s important to consider
-                the liability of each legal structure, along with the types of
-                shares, and how they will be distributed. Additionally,
-                government fees, capitalization requirements, relevant licences,
-                government incentives, company regulations, and other pertinent
-                information ought to be examined.
+                Prior to initiating the company registration process, it is
+                essential to carefully evaluate the liability associated with
+                each legal structure, as well as the distribution of shares.
+                Furthermore, thorough consideration should be given to
+                government fees, capitalization prerequisites, necessary
+                licenses, potential government incentives, regulatory
+                frameworks, and other pertinent details.
               </span>
             </div>
           </div>
@@ -55,7 +55,7 @@ const CompanyRegistration = (props) => {
           </div>
         </div>
         <div className="company-registration-container05">
-          <span className="company-registration-text02">Legal Structures</span>
+          <span className="company-registration-text02">Legal Entities</span>
           <Link href="/limited-partnership-lp">
             <a className="company-registration-link">
               Limited Partnership (LP)
@@ -200,13 +200,13 @@ const CompanyRegistration = (props) => {
         <div className="company-registration-container38">
           <div className="company-registration-container39">
             <span className="company-registration-text45">
-              Foreign juristic persons are regulated by the Foreign Business
-              Act, which means most foreign majority-owned companies wiill need
-              to acquire an FBL. However, certain treaties and the Board of
-              Investment permit foreign juristic persons to operate a business
-              in Thailand with a Foreign Business Certificate. This cetificate
-              is much less expensive, and much easier to obtain than the Foreign
-              Business License.
+              Foreign juristic persons are governed by the regulations set forth
+              in the Foreign Business Act. As a result, most companies with
+              majority foreign ownership will be required to obtain a Foreign
+              Business License (FBL). However, certain treaties and the Board of
+              Investment allow foreign juristic persons to conduct business in
+              Thailand with a Foreign Business Certificate, which is a more
+              cost-effective and streamlined alternative to the FBL.
             </span>
           </div>
           <div className="company-registration-container40">
@@ -408,7 +408,7 @@ const CompanyRegistration = (props) => {
             font-size: 1.5rem;
             font-style: normal;
             font-family: Josefin Sans;
-            font-weight: 300;
+            font-weight: 400;
           }
           .company-registration-container09 {
             flex: 0 0 auto;
@@ -425,7 +425,7 @@ const CompanyRegistration = (props) => {
             font-size: 1.5rem;
             font-style: normal;
             font-family: Josefin Sans;
-            font-weight: 300;
+            font-weight: 400;
           }
           .company-registration-container10 {
             flex: 0 0 auto;
@@ -442,7 +442,7 @@ const CompanyRegistration = (props) => {
             font-size: 1.5rem;
             font-style: normal;
             font-family: Josefin Sans;
-            font-weight: 300;
+            font-weight: 400;
           }
           .company-registration-container11 {
             flex: 0 0 auto;
@@ -459,7 +459,7 @@ const CompanyRegistration = (props) => {
             font-size: 1.5rem;
             font-style: normal;
             font-family: Josefin Sans;
-            font-weight: 300;
+            font-weight: 400;
           }
           .company-registration-container12 {
             flex: 0 0 auto;
@@ -476,7 +476,7 @@ const CompanyRegistration = (props) => {
             font-size: 1.5rem;
             font-style: normal;
             font-family: Josefin Sans;
-            font-weight: 300;
+            font-weight: 400;
           }
           .company-registration-container13 {
             flex: 0 0 auto;
@@ -492,7 +492,7 @@ const CompanyRegistration = (props) => {
             font-size: 1.5rem;
             font-style: normal;
             font-family: Josefin Sans;
-            font-weight: 200;
+            font-weight: 300;
           }
           .company-registration-container14 {
             flex: 0 0 auto;
@@ -508,7 +508,7 @@ const CompanyRegistration = (props) => {
             font-size: 1.5rem;
             font-style: normal;
             font-family: Josefin Sans;
-            font-weight: 200;
+            font-weight: 300;
           }
           .company-registration-container15 {
             flex: 0 0 auto;
@@ -524,7 +524,7 @@ const CompanyRegistration = (props) => {
             font-size: 1.5rem;
             font-style: normal;
             font-family: Josefin Sans;
-            font-weight: 200;
+            font-weight: 300;
           }
           .company-registration-container16 {
             flex: 0 0 auto;
@@ -541,7 +541,7 @@ const CompanyRegistration = (props) => {
             font-style: normal;
             text-align: center;
             font-family: 'Josefin Sans';
-            font-weight: 200;
+            font-weight: 300;
           }
           .company-registration-container17 {
             flex: 0 0 auto;
@@ -558,7 +558,7 @@ const CompanyRegistration = (props) => {
             font-style: normal;
             text-align: center;
             font-family: Josefin Sans;
-            font-weight: 200;
+            font-weight: 300;
           }
           .company-registration-container18 {
             flex: 0 0 auto;
@@ -574,7 +574,7 @@ const CompanyRegistration = (props) => {
             font-size: 1.5rem;
             font-style: normal;
             font-family: Josefin Sans;
-            font-weight: 200;
+            font-weight: 300;
           }
           .company-registration-container19 {
             flex: 0 0 auto;
@@ -590,7 +590,7 @@ const CompanyRegistration = (props) => {
             font-size: 1.5rem;
             font-style: normal;
             font-family: Josefin Sans;
-            font-weight: 200;
+            font-weight: 300;
           }
           .company-registration-container20 {
             flex: 0 0 auto;
@@ -606,7 +606,7 @@ const CompanyRegistration = (props) => {
             font-size: 1.5rem;
             font-style: normal;
             font-family: Josefin Sans;
-            font-weight: 200;
+            font-weight: 300;
           }
           .company-registration-container21 {
             flex: 0 0 auto;
@@ -623,7 +623,7 @@ const CompanyRegistration = (props) => {
             font-style: normal;
             text-align: center;
             font-family: 'Josefin Sans';
-            font-weight: 200;
+            font-weight: 300;
           }
           .company-registration-container22 {
             flex: 0 0 auto;
@@ -640,7 +640,7 @@ const CompanyRegistration = (props) => {
             font-style: normal;
             text-align: center;
             font-family: 'Josefin Sans';
-            font-weight: 200;
+            font-weight: 300;
           }
           .company-registration-container23 {
             flex: 0 0 auto;
@@ -657,7 +657,7 @@ const CompanyRegistration = (props) => {
             font-style: normal;
             text-align: center;
             font-family: Josefin Sans;
-            font-weight: 200;
+            font-weight: 300;
           }
           .company-registration-container24 {
             flex: 0 0 auto;
@@ -674,7 +674,7 @@ const CompanyRegistration = (props) => {
             font-style: normal;
             text-align: center;
             font-family: Josefin Sans;
-            font-weight: 200;
+            font-weight: 300;
           }
           .company-registration-container25 {
             flex: 0 0 auto;
@@ -691,7 +691,7 @@ const CompanyRegistration = (props) => {
             font-style: normal;
             text-align: center;
             font-family: Josefin Sans;
-            font-weight: 200;
+            font-weight: 300;
           }
           .company-registration-container26 {
             flex: 0 0 auto;
@@ -708,7 +708,7 @@ const CompanyRegistration = (props) => {
             font-style: normal;
             text-align: center;
             font-family: Josefin Sans;
-            font-weight: 200;
+            font-weight: 300;
           }
           .company-registration-container27 {
             flex: 0 0 auto;
@@ -725,7 +725,7 @@ const CompanyRegistration = (props) => {
             font-style: normal;
             text-align: center;
             font-family: Josefin Sans;
-            font-weight: 200;
+            font-weight: 300;
           }
           .company-registration-container28 {
             flex: 0 0 auto;
@@ -742,7 +742,7 @@ const CompanyRegistration = (props) => {
             font-style: normal;
             text-align: center;
             font-family: Josefin Sans;
-            font-weight: 200;
+            font-weight: 300;
           }
           .company-registration-container29 {
             flex: 0 0 auto;
@@ -759,7 +759,7 @@ const CompanyRegistration = (props) => {
             font-style: normal;
             text-align: center;
             font-family: Josefin Sans;
-            font-weight: 200;
+            font-weight: 300;
           }
           .company-registration-container30 {
             flex: 0 0 auto;
@@ -776,7 +776,7 @@ const CompanyRegistration = (props) => {
             font-style: normal;
             text-align: center;
             font-family: Josefin Sans;
-            font-weight: 200;
+            font-weight: 300;
           }
           .company-registration-container31 {
             flex: 0 0 auto;
@@ -793,7 +793,7 @@ const CompanyRegistration = (props) => {
             font-style: normal;
             text-align: center;
             font-family: Josefin Sans;
-            font-weight: 200;
+            font-weight: 300;
           }
           .company-registration-container32 {
             flex: 0 0 auto;
@@ -810,7 +810,7 @@ const CompanyRegistration = (props) => {
             font-style: normal;
             text-align: center;
             font-family: Josefin Sans;
-            font-weight: 200;
+            font-weight: 300;
           }
           .company-registration-container33 {
             flex: 0 0 auto;
@@ -827,7 +827,7 @@ const CompanyRegistration = (props) => {
             font-style: normal;
             text-align: center;
             font-family: Josefin Sans;
-            font-weight: 200;
+            font-weight: 300;
           }
           .company-registration-container34 {
             flex: 0 0 auto;
@@ -844,7 +844,7 @@ const CompanyRegistration = (props) => {
             font-style: normal;
             text-align: center;
             font-family: Josefin Sans;
-            font-weight: 200;
+            font-weight: 300;
           }
           .company-registration-container35 {
             flex: 0 0 auto;
@@ -861,7 +861,7 @@ const CompanyRegistration = (props) => {
             font-style: normal;
             text-align: center;
             font-family: Josefin Sans;
-            font-weight: 200;
+            font-weight: 300;
           }
           .company-registration-container36 {
             flex: 0 0 auto;
@@ -878,7 +878,7 @@ const CompanyRegistration = (props) => {
             font-style: normal;
             text-align: center;
             font-family: Josefin Sans;
-            font-weight: 200;
+            font-weight: 300;
           }
           .company-registration-container37 {
             flex: 0 0 auto;
@@ -895,7 +895,7 @@ const CompanyRegistration = (props) => {
             font-style: normal;
             text-align: center;
             font-family: Josefin Sans;
-            font-weight: 200;
+            font-weight: 300;
           }
           .company-registration-container38 {
             flex: 0 0 auto;
@@ -985,6 +985,7 @@ const CompanyRegistration = (props) => {
             font-weight: 300;
             padding-top: var(--dl-space-space-halfunit);
             padding-left: var(--dl-space-space-halfunit);
+            margin-bottom: var(--dl-space-space-fourunits);
             padding-right: var(--dl-space-space-halfunit);
             padding-bottom: var(--dl-space-space-halfunit);
             text-decoration: underline;
@@ -1001,6 +1002,12 @@ const CompanyRegistration = (props) => {
             .company-registration-image {
               box-shadow: 5px 5px 10px 0px #000000;
               margin-right: 0px;
+            }
+            .company-registration-text45 {
+              font-size: 1.5rem;
+              font-style: normal;
+              font-family: Josefin Sans;
+              font-weight: 300;
             }
             .company-registration-link09 {
               color: var(--dl-color-gray-black);

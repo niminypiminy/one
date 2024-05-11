@@ -443,14 +443,14 @@ const WorkPermit = (props) => {
             max-width: auto;
             font-style: normal;
             font-family: 'Josefin Sans';
-            font-weight: 300;
+            font-weight: 400;
           }
           .work-permit-text01 {
             font-size: 1.5rem;
             font-style: normal;
             margin-top: var(--dl-space-space-twounits);
             font-family: 'Josefin Sans';
-            font-weight: 200;
+            font-weight: 300;
             line-height: 1.15em;
             margin-left: 0px;
             margin-right: 0px;
@@ -484,17 +484,20 @@ const WorkPermit = (props) => {
             width: 100%;
             font-size: 2rem;
             max-width: auto;
+            align-self: center;
             font-style: normal;
+            text-align: center;
             font-family: 'Josefin Sans';
-            font-weight: 200;
+            font-weight: 400;
             line-height: 56px;
           }
           .work-permit-text07 {
             width: 100%;
             font-size: 1.5rem;
             max-width: 600px;
+            font-style: normal;
             font-family: 'Josefin Sans';
-            font-weight: 200;
+            font-weight: 300;
             line-height: 27px;
           }
           .work-permit-stats {
@@ -630,8 +633,9 @@ const WorkPermit = (props) => {
             color: var(--dl-color-gray-white);
             padding: var(--dl-space-space-unit);
             font-size: 2rem;
+            font-style: normal;
             font-family: 'Josefin Sans';
-            font-weight: 200;
+            font-weight: 300;
             background-color: var(--dl-color-gray-black);
           }
           .work-permit-text09 {
@@ -858,11 +862,11 @@ const WorkPermit = (props) => {
           }
           .work-permit-text49 {
             color: var(--dl-color-gray-black);
-            font-size: 2.5rem;
+            font-size: 2rem;
             font-style: normal;
             text-align: center;
             font-family: 'Josefin Sans';
-            font-weight: 200;
+            font-weight: 400;
             margin-bottom: var(--dl-space-space-unit);
             text-transform: capitalize;
           }
@@ -892,7 +896,7 @@ const WorkPermit = (props) => {
             font-size: 1.5rem;
             font-style: normal;
             font-family: 'Josefin Sans';
-            font-weight: 300;
+            font-weight: 400;
           }
           .work-permit-container09 {
             flex: 0 0 auto;
@@ -910,7 +914,7 @@ const WorkPermit = (props) => {
             font-size: 1.5rem;
             font-style: normal;
             font-family: 'Josefin Sans';
-            font-weight: 300;
+            font-weight: 400;
           }
           .work-permit-container10 {
             flex: 0 0 auto;
@@ -927,7 +931,7 @@ const WorkPermit = (props) => {
             font-style: normal;
             text-align: center;
             font-family: 'Josefin Sans';
-            font-weight: 200;
+            font-weight: 300;
           }
           .work-permit-container11 {
             flex: 0 0 auto;
@@ -943,7 +947,7 @@ const WorkPermit = (props) => {
             font-size: 1.5rem;
             font-style: normal;
             font-family: 'Josefin Sans';
-            font-weight: 200;
+            font-weight: 300;
           }
           .work-permit-container12 {
             flex: 0 0 auto;
@@ -959,7 +963,7 @@ const WorkPermit = (props) => {
             font-size: 1.5rem;
             font-style: normal;
             font-family: 'Josefin Sans';
-            font-weight: 200;
+            font-weight: 300;
           }
           .work-permit-container13 {
             flex: 0 0 auto;
@@ -975,7 +979,7 @@ const WorkPermit = (props) => {
             font-size: 1.5rem;
             font-style: normal;
             font-family: 'Josefin Sans';
-            font-weight: 200;
+            font-weight: 300;
           }
           .work-permit-container14 {
             flex: 0 0 auto;
@@ -992,7 +996,7 @@ const WorkPermit = (props) => {
             font-style: normal;
             text-align: center;
             font-family: 'Josefin Sans';
-            font-weight: 200;
+            font-weight: 300;
           }
           .work-permit-container15 {
             flex: 0 0 auto;
@@ -1008,7 +1012,7 @@ const WorkPermit = (props) => {
             font-size: 1.5rem;
             font-style: normal;
             font-family: 'Josefin Sans';
-            font-weight: 200;
+            font-weight: 300;
           }
           .work-permit-container16 {
             flex: 0 0 auto;
@@ -1025,7 +1029,7 @@ const WorkPermit = (props) => {
             font-style: normal;
             text-align: center;
             font-family: 'Josefin Sans';
-            font-weight: 200;
+            font-weight: 300;
           }
           .work-permit-container17 {
             flex: 0 0 auto;
@@ -1041,7 +1045,7 @@ const WorkPermit = (props) => {
             font-size: 1.5rem;
             font-style: normal;
             font-family: 'Josefin Sans';
-            font-weight: 200;
+            font-weight: 300;
           }
           .work-permit-features {
             width: 100%;
@@ -1056,11 +1060,11 @@ const WorkPermit = (props) => {
           .work-permit-text60 {
             color: var(--dl-color-gray-black);
             width: 80%;
-            font-size: 2.5rem;
+            font-size: 2rem;
             font-style: normal;
             text-align: center;
             font-family: Josefin Sans;
-            font-weight: 200;
+            font-weight: 400;
             margin-bottom: var(--dl-space-space-halfunit);
           }
           .work-permit-container18 {
@@ -1163,7 +1167,7 @@ const WorkPermit = (props) => {
             font-style: normal;
             margin-top: var(--dl-space-space-fourunits);
             font-family: Josefin Sans;
-            font-weight: 200;
+            font-weight: 300;
             padding-top: var(--dl-space-space-halfunit);
             padding-left: var(--dl-space-space-halfunit);
             margin-bottom: var(--dl-space-space-fourunits);
@@ -1182,20 +1186,6 @@ const WorkPermit = (props) => {
             .work-permit-text {
               color: var(--dl-color-gray-black);
             }
-            .work-permit-text01 {
-              font-size: 1.5rem;
-              font-style: normal;
-              font-family: Josefin Sans;
-              font-weight: 200;
-              line-height: 1.15em;
-            }
-            .work-permit-text04 {
-              font-size: 2.5rem;
-              font-style: normal;
-              font-family: Josefin Sans;
-              font-weight: 200;
-              line-height: 56px;
-            }
             .work-permit-caption2 {
               line-height: 56px;
             }
@@ -1205,26 +1195,18 @@ const WorkPermit = (props) => {
               font-weight: 200;
               line-height: 27px;
             }
-            .work-permit-text08 {
-              font-size: 2.5rem;
-            }
             .work-permit-banner {
               margin-top: var(--dl-space-space-fourunits);
               margin-bottom: var(--dl-space-space-fourunits);
             }
             .work-permit-text49 {
               color: var(--dl-color-gray-black);
-              font-size: 2.5rem;
             }
             .work-permit-features {
               height: auto;
             }
             .work-permit-text60 {
               color: var(--dl-color-gray-black);
-              font-size: 2.5rem;
-              font-style: normal;
-              font-family: Josefin Sans;
-              font-weight: 200;
             }
             .work-permit-text61 {
               font-size: 1.5rem;
@@ -1302,12 +1284,6 @@ const WorkPermit = (props) => {
               width: 50%;
               height: 80%;
             }
-            .work-permit-text {
-              text-align: center;
-            }
-            .work-permit-text01 {
-              text-align: left;
-            }
             .work-permit-container05 {
               width: 100%;
               height: auto;
@@ -1319,13 +1295,9 @@ const WorkPermit = (props) => {
               margin-right: 0px;
               margin-bottom: var(--dl-space-space-threeunits);
             }
-            .work-permit-text04 {
-              text-align: center;
-            }
             .work-permit-text07 {
               width: 75%;
               align-self: center;
-              text-align: left;
             }
             .work-permit-stats {
               height: auto;
@@ -1401,16 +1373,8 @@ const WorkPermit = (props) => {
               align-self: center;
               margin-top: var(--dl-space-space-twounits);
             }
-            .work-permit-text {
-              text-align: left;
-            }
             .work-permit-text01 {
               width: 100%;
-              font-size: 1.5rem;
-              font-style: normal;
-              font-family: Josefin Sans;
-              font-weight: 200;
-              line-height: 1.15em;
               margin-bottom: var(--dl-space-space-twounits);
             }
             .work-permit-header {
@@ -1419,13 +1383,6 @@ const WorkPermit = (props) => {
             .work-permit-heading {
               margin-top: var(--dl-space-space-fiveunits);
               margin-bottom: var(--dl-space-space-fiveunits);
-            }
-            .work-permit-text04 {
-              font-size: 32px;
-              line-height: 44px;
-            }
-            .work-permit-text07 {
-              line-height: 24px;
             }
             .work-permit-caption {
               font-size: 32px;
@@ -1444,8 +1401,6 @@ const WorkPermit = (props) => {
             }
             .work-permit-text49 {
               width: 100%;
-              text-align: center;
-              text-decoration: none;
             }
             .work-permit-container07 {
               width: 100%;
@@ -1456,7 +1411,6 @@ const WorkPermit = (props) => {
             }
             .work-permit-text60 {
               width: 75%;
-              text-align: center;
             }
             .work-permit-container18 {
               width: 75%;
@@ -1510,18 +1464,11 @@ const WorkPermit = (props) => {
               width: 90%;
               max-width: auto;
               align-self: center;
-              text-align: left;
             }
             .work-permit-text01 {
               width: 90%;
-              font-size: 1.5rem;
               align-self: center;
-              font-style: normal;
               margin-top: var(--dl-space-space-twounits);
-              text-align: left;
-              font-family: Josefin Sans;
-              font-weight: 200;
-              line-height: 1.15em;
               margin-left: 0px;
               margin-right: 0px;
               padding-left: 0px;
@@ -1537,12 +1484,10 @@ const WorkPermit = (props) => {
             }
             .work-permit-text04 {
               width: 90%;
-              font-size: 2rem;
               align-self: center;
             }
             .work-permit-text07 {
               width: 90%;
-              font-size: 1.5rem;
               max-width: auto;
               align-self: center;
             }
@@ -1569,10 +1514,6 @@ const WorkPermit = (props) => {
             }
             .work-permit-text49 {
               width: 100%;
-              font-style: normal;
-              text-align: center;
-              font-family: Josefin Sans;
-              font-weight: 200;
               margin-bottom: 0px;
             }
             .work-permit-container07 {
@@ -1590,7 +1531,6 @@ const WorkPermit = (props) => {
             }
             .work-permit-text60 {
               width: 100%;
-              text-align: center;
             }
             .work-permit-container18 {
               width: 100%;

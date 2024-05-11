@@ -631,7 +631,7 @@ const LimitedCompanyLtd = (props) => {
             justify-content: center;
           }
           .limited-company-ltd-text05 {
-            font-size: 2.5rem;
+            font-size: 2rem;
             font-style: normal;
             font-family: Josefin Sans;
             font-weight: 400;
@@ -722,11 +722,11 @@ const LimitedCompanyLtd = (props) => {
           .limited-company-ltd-text10 {
             color: var(--dl-color-gray-black);
             width: 80%;
-            font-size: 2.5rem;
+            font-size: 2rem;
             font-style: normal;
             text-align: center;
             font-family: Josefin Sans;
-            font-weight: 200;
+            font-weight: 400;
             margin-bottom: var(--dl-space-space-halfunit);
           }
           .limited-company-ltd-container07 {
@@ -898,7 +898,7 @@ const LimitedCompanyLtd = (props) => {
           .limited-company-ltd-text18 {
             color: var(--dl-color-gray-black);
             width: 50%;
-            font-size: 2.5rem;
+            font-size: 2rem;
             font-style: normal;
             text-align: center;
             font-family: Josefin Sans;
@@ -1261,7 +1261,7 @@ const LimitedCompanyLtd = (props) => {
           }
           .limited-company-ltd-text33 {
             color: var(--dl-color-gray-black);
-            font-size: 2.5rem;
+            font-size: 2rem;
             font-style: normal;
             text-align: center;
             font-family: Josefin Sans;
@@ -1478,7 +1478,7 @@ const LimitedCompanyLtd = (props) => {
             fill: var(--dl-color-theme-neutral-light);
             color: var(--dl-color-theme-neutral-light);
             padding: var(--dl-space-space-halfunit);
-            font-size: 2.5rem;
+            font-size: 2rem;
             font-style: normal;
             text-align: center;
             font-family: Josefin Sans;
@@ -1735,10 +1735,6 @@ const LimitedCompanyLtd = (props) => {
               margin-top: var(--dl-space-space-sixunits);
               margin-bottom: var(--dl-space-space-sixunits);
             }
-            .limited-company-ltd-text10 {
-              font-style: normal;
-              font-weight: 400;
-            }
             .limited-company-ltd-container07 {
               margin-top: var(--dl-space-space-twounits);
             }
@@ -1844,9 +1840,6 @@ const LimitedCompanyLtd = (props) => {
             .limited-company-ltd-container02 {
               width: 80%;
               height: 80%;
-            }
-            .limited-company-ltd-text {
-              text-align: center;
             }
             .limited-company-ltd-text04 {
               text-align: left;

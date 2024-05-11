@@ -99,7 +99,7 @@ const PreferredShares = (props) => {
           .preferred-shares-text {
             color: var(--dl-color-gray-black);
             width: 75%;
-            font-size: 2rem;
+            font-size: 2.5rem;
             align-self: flex-start;
             font-style: normal;
             font-family: 'Josefin Sans';
@@ -113,7 +113,7 @@ const PreferredShares = (props) => {
             margin-top: var(--dl-space-space-twounits);
             text-align: left;
             font-family: 'Josefin Sans';
-            font-weight: 200;
+            font-weight: 300;
             margin-bottom: var(--dl-space-space-twounits);
           }
           @media (max-width: 1600px) {
@@ -123,17 +123,9 @@ const PreferredShares = (props) => {
             .preferred-shares-text {
               color: var(--dl-color-gray-black);
               width: 100%;
-              font-size: 2rem;
-              font-style: normal;
-              font-family: Josefin Sans;
-              font-weight: 300;
             }
             .preferred-shares-text1 {
               width: 100%;
-              font-size: 1.5rem;
-              font-style: normal;
-              font-family: Josefin Sans;
-              font-weight: 200;
             }
           }
           @media (max-width: 1200px) {
@@ -148,9 +140,6 @@ const PreferredShares = (props) => {
             .preferred-shares-container3 {
               width: 80%;
             }
-            .preferred-shares-text1 {
-              text-align: left;
-            }
           }
           @media (max-width: 767px) {
             .preferred-shares-container3 {
@@ -162,15 +151,10 @@ const PreferredShares = (props) => {
             }
             .preferred-shares-text {
               align-self: center;
-              text-align: left;
             }
             .preferred-shares-text1 {
               width: 100%;
-              font-size: 1.5rem;
               align-self: center;
-              font-style: normal;
-              font-family: Josefin Sans;
-              font-weight: 200;
               padding-left: var(--dl-space-space-halfunit);
             }
           }
@@ -181,12 +165,9 @@ const PreferredShares = (props) => {
             }
             .preferred-shares-text {
               width: 100%;
-              text-align: left;
             }
             .preferred-shares-text1 {
               width: 100%;
-              font-size: 1.5rem;
-              text-align: left;
               padding-left: 0px;
               padding-right: 0px;
             }

@@ -115,11 +115,11 @@ const Blog = (props) => {
             flex-direction: column;
           }
           .blog-title {
-            font-size: 2rem;
+            font-size: 2.5rem;
             font-style: normal;
             text-align: center;
             font-family: 'Josefin Sans';
-            font-weight: 300;
+            font-weight: 400;
           }
           .blog-layout349 {
             display: flex;
@@ -153,7 +153,7 @@ const Blog = (props) => {
             font-size: 1.2rem;
             font-style: normal;
             font-family: 'Josefin Sans';
-            font-weight: 300;
+            font-weight: 200;
           }
           .blog-content1 {
             gap: var(--dl-space-space-oneandhalfunits);
@@ -163,7 +163,7 @@ const Blog = (props) => {
             flex-direction: column;
           }
           .blog-text1 {
-            font-size: 2rem;
+            font-size: 2.5rem;
             font-style: normal;
             font-family: 'Josefin Sans';
             font-weight: 300;
@@ -172,13 +172,13 @@ const Blog = (props) => {
             font-size: 1.2rem;
             font-style: normal;
             font-family: 'Josefin Sans';
-            font-weight: 300;
+            font-weight: 200;
           }
           .blog-text3 {
             font-size: 1.5rem;
             font-style: normal;
             font-family: 'Josefin Sans';
-            font-weight: 200;
+            font-weight: 300;
           }
           .blog-link {
             text-decoration: underline;

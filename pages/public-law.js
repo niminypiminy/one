@@ -118,18 +118,18 @@ const PublicLaw = (props) => {
           }
           .public-law-text {
             color: var(--dl-color-gray-black);
-            font-size: 2rem;
+            font-size: 2.5rem;
             max-width: 450px;
             font-style: normal;
             font-family: Josefin Sans;
-            font-weight: 300;
+            font-weight: 400;
           }
           .public-law-text1 {
             font-size: 1.5rem;
             font-style: normal;
             margin-top: var(--dl-space-space-twounits);
             font-family: Josefin Sans;
-            font-weight: 200;
+            font-weight: 300;
             margin-bottom: var(--dl-space-space-twounits);
           }
           .public-law-link {
@@ -180,12 +180,6 @@ const PublicLaw = (props) => {
             .public-law-container1 {
               height: 100vh;
             }
-            .public-law-text {
-              font-size: 2rem;
-              font-style: normal;
-              font-family: Josefin Sans;
-              font-weight: 300;
-            }
             .public-law-image {
               height: auto;
               box-shadow: 5px 5px 10px 0px #000000;
@@ -203,12 +197,8 @@ const PublicLaw = (props) => {
             .public-law-container2 {
               width: 80%;
             }
-            .public-law-text {
-              text-align: center;
-            }
             .public-law-text1 {
               width: 100%;
-              text-align: left;
             }
             .public-law-container4 {
               display: none;
@@ -224,16 +214,7 @@ const PublicLaw = (props) => {
             .public-law-container3 {
               align-self: center;
             }
-            .public-law-text {
-              align-self: center;
-            }
             .public-law-text1 {
-              align-self: center;
-              text-align: left;
-              padding-left: var(--dl-space-space-unit);
-              padding-right: var(--dl-space-space-unit);
-            }
-            .public-law-text7 {
               align-self: center;
             }
             .public-law-image {
@@ -252,7 +233,6 @@ const PublicLaw = (props) => {
               text-align: left;
             }
             .public-law-text1 {
-              text-align: left;
               padding-left: 0px;
               padding-right: 0px;
             }

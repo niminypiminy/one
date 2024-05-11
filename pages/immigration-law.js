@@ -102,7 +102,7 @@ const ImmigrationLaw = (props) => {
             font-size: 1.5rem;
             font-style: normal;
             margin-top: var(--dl-space-space-twounits);
-            font-family: Josefin Sans;
+            font-family: 'Josefin Sans';
             font-weight: 300;
             line-height: 1.15em;
             margin-bottom: var(--dl-space-space-twounits);
@@ -175,9 +175,6 @@ const ImmigrationLaw = (props) => {
             .immigration-law-container2 {
               width: 80%;
             }
-            .immigration-law-text {
-              text-align: center;
-            }
             .immigration-law-text1 {
               text-align: left;
             }
@@ -198,10 +195,6 @@ const ImmigrationLaw = (props) => {
             }
             .immigration-law-text {
               align-self: flex-start;
-              text-align: center;
-            }
-            .immigration-law-text1 {
-              text-align: left;
             }
             .immigration-law-text2 {
               align-self: flex-start;
@@ -216,7 +209,7 @@ const ImmigrationLaw = (props) => {
             }
             .immigration-law-container3 {
               width: 80%;
-              height: 100%;
+              height: auto;
             }
             .immigration-law-text {
               color: var(--dl-color-gray-black);
@@ -226,7 +219,6 @@ const ImmigrationLaw = (props) => {
             }
             .immigration-law-text1 {
               width: 100%;
-              text-align: left;
               padding-left: 0px;
               padding-right: 0px;
             }

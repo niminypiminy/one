@@ -117,11 +117,11 @@ const TortLaw = (props) => {
           .tort-law-text {
             color: var(--dl-color-gray-black);
             width: 75%;
-            font-size: 2rem;
+            font-size: 2.5rem;
             align-self: flex-start;
             font-style: normal;
             font-family: 'Josefin Sans';
-            font-weight: 300;
+            font-weight: 400;
           }
           .tort-law-text1 {
             width: 85%;
@@ -131,7 +131,7 @@ const TortLaw = (props) => {
             margin-top: var(--dl-space-space-twounits);
             text-align: left;
             font-family: 'Josefin Sans';
-            font-weight: 200;
+            font-weight: 300;
             margin-bottom: var(--dl-space-space-twounits);
           }
           .tort-law-link {
@@ -167,17 +167,9 @@ const TortLaw = (props) => {
             .tort-law-text {
               color: var(--dl-color-gray-black);
               width: 100%;
-              font-size: 2rem;
-              font-style: normal;
-              font-family: Josefin Sans;
-              font-weight: 300;
             }
             .tort-law-text1 {
               width: 100%;
-              font-size: 1.5rem;
-              font-style: normal;
-              font-family: Josefin Sans;
-              font-weight: 200;
             }
           }
           @media (max-width: 1200px) {
@@ -202,9 +194,6 @@ const TortLaw = (props) => {
             .tort-law-container3 {
               width: 80%;
             }
-            .tort-law-text1 {
-              text-align: left;
-            }
           }
           @media (max-width: 767px) {
             .tort-law-image {
@@ -219,15 +208,10 @@ const TortLaw = (props) => {
             }
             .tort-law-text {
               align-self: center;
-              text-align: left;
             }
             .tort-law-text1 {
               width: 100%;
-              font-size: 1.5rem;
               align-self: center;
-              font-style: normal;
-              font-family: Josefin Sans;
-              font-weight: 200;
               padding-left: var(--dl-space-space-halfunit);
             }
             .tort-law-text2 {
@@ -244,12 +228,9 @@ const TortLaw = (props) => {
             }
             .tort-law-text {
               width: 100%;
-              text-align: left;
             }
             .tort-law-text1 {
               width: 100%;
-              font-size: 1.5rem;
-              text-align: left;
               padding-left: 0px;
               padding-right: 0px;
             }

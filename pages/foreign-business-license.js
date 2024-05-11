@@ -791,7 +791,7 @@ const ForeignBusinessLicense = (props) => {
           }
           .foreign-business-license-text26 {
             color: var(--dl-color-gray-black);
-            font-size: 2.5rem;
+            font-size: 2rem;
             font-style: normal;
             text-align: center;
             font-family: 'Josefin Sans';

@@ -171,10 +171,6 @@ const ContractLaw = (props) => {
             }
             .contract-law-text1 {
               width: 100%;
-              font-size: 1.5rem;
-              font-style: normal;
-              font-family: Josefin Sans;
-              font-weight: 200;
             }
           }
           @media (max-width: 1200px) {

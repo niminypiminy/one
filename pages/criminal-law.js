@@ -35,12 +35,12 @@ const CriminalLaw = (props) => {
             <div className="criminal-law-container3">
               <h1 className="criminal-law-text">Criminal Law</h1>
               <span className="criminal-law-text01">
-                Let us know if you&apos;ve been arrested, or think that you
-                might be detained. Our trial attorneys have experience defending
-                clients, and perhaps more importantly we have experience winning
-                cases. We will guide you through the process, look after your
-                well being, and ensure that your rights are defended each step
-                of the way. 
+                If you have been arrested or believe you may be detained, please
+                contact us. Our team of trial attorneys has a proven track
+                record of successfully defending clients. We will provide you
+                with expert guidance throughout the legal process, prioritize
+                your well-being, and vigorously defend your rights at every
+                stage.
               </span>
               <Link href="/contact">
                 <a className="criminal-law-link">
@@ -264,7 +264,7 @@ const CriminalLaw = (props) => {
           }
           .criminal-law-text03 {
             width: auto;
-            font-size: 2.5rem;
+            font-size: 2rem;
             font-style: normal;
             font-family: 'Josefin Sans';
             font-weight: 400;
@@ -283,7 +283,7 @@ const CriminalLaw = (props) => {
             font-size: 1.5rem;
             font-style: normal;
             font-family: 'Josefin Sans';
-            font-weight: 200;
+            font-weight: 300;
           }
           .criminal-law-link1 {
             text-decoration: underline;

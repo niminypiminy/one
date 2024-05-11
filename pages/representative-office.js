@@ -121,10 +121,10 @@ const RepresentativeOffice = (props) => {
               Representative Office (Qualifications)
             </h1>
             <span className="representative-office-text12">
-              The representative office in Thailand is a legal structure that
-              gives foreign juristic persons the right to conduct non-revenue
-              generating activities; therefore, the government restricts the
-              scope of activities to the following: 
+              The representative office in Thailand is a legal entity that
+              allows foreign companies to engage in non-revenue-generating
+              activities. The permitted scope of activities is regulated by the
+              government and includes the following:
             </span>
             <div className="representative-office-container06">
               <div className="representative-office-feature-card04">
@@ -761,7 +761,7 @@ const RepresentativeOffice = (props) => {
             max-width: 450px;
             font-style: normal;
             font-family: Josefin Sans;
-            font-weight: 300;
+            font-weight: 400;
           }
           .representative-office-text01 {
             background-color: rgb(255, 255, 0);
@@ -772,7 +772,7 @@ const RepresentativeOffice = (props) => {
             font-style: normal;
             margin-top: var(--dl-space-space-twounits);
             font-family: Josefin Sans;
-            font-weight: 200;
+            font-weight: 300;
             margin-bottom: var(--dl-space-space-twounits);
           }
           .representative-office-image {
@@ -795,10 +795,10 @@ const RepresentativeOffice = (props) => {
             justify-content: center;
           }
           .representative-office-text04 {
-            font-size: 2.5rem;
+            font-size: 2rem;
             font-style: normal;
             font-family: Josefin Sans;
-            font-weight: 200;
+            font-weight: 400;
           }
           .representative-office-container04 {
             width: 100%;
@@ -963,11 +963,11 @@ const RepresentativeOffice = (props) => {
           .representative-office-text11 {
             color: var(--dl-color-gray-black);
             width: 80%;
-            font-size: 2.5rem;
+            font-size: 2rem;
             font-style: normal;
             text-align: center;
             font-family: Josefin Sans;
-            font-weight: 200;
+            font-weight: 400;
             margin-bottom: var(--dl-space-space-halfunit);
           }
           .representative-office-text12 {
@@ -1171,11 +1171,11 @@ const RepresentativeOffice = (props) => {
           .representative-office-text19 {
             color: var(--dl-color-gray-black);
             width: 80%;
-            font-size: 2.5rem;
+            font-size: 2rem;
             font-style: normal;
             text-align: center;
             font-family: Josefin Sans;
-            font-weight: 200;
+            font-weight: 400;
             margin-bottom: var(--dl-space-space-halfunit);
           }
           .representative-office-text20 {
@@ -1573,11 +1573,11 @@ const RepresentativeOffice = (props) => {
           .representative-office-text38 {
             color: var(--dl-color-gray-black);
             width: 50%;
-            font-size: 2.5rem;
+            font-size: 2rem;
             font-style: normal;
             text-align: center;
             font-family: Josefin Sans;
-            font-weight: 200;
+            font-weight: 400;
           }
           .representative-office-text40 {
             background-color: rgb(255, 255, 0);
@@ -1998,11 +1998,11 @@ const RepresentativeOffice = (props) => {
           .representative-office-header {
             color: var(--dl-color-gray-white);
             padding: var(--dl-space-space-unit);
-            font-size: 2.5rem;
+            font-size: 2rem;
             font-style: normal;
             text-align: center;
             font-family: Josefin Sans;
-            font-weight: 200;
+            font-weight: 300;
             line-height: 60px;
             background-color: #1b1b1b;
           }
@@ -2226,7 +2226,7 @@ const RepresentativeOffice = (props) => {
             font-style: normal;
             margin-top: var(--dl-space-space-fourunits);
             font-family: Josefin Sans;
-            font-weight: 200;
+            font-weight: 300;
             padding-top: var(--dl-space-space-halfunit);
             padding-left: var(--dl-space-space-halfunit);
             padding-right: var(--dl-space-space-halfunit);
@@ -2235,12 +2235,6 @@ const RepresentativeOffice = (props) => {
             background-color: #ffff00;
           }
           @media (max-width: 1600px) {
-            .representative-office-text {
-              font-size: 2.5rem;
-              font-style: normal;
-              font-family: Josefin Sans;
-              font-weight: 300;
-            }
             .representative-office-image {
               box-shadow: 5px 5px 10px 0px #000000;
             }
@@ -2253,9 +2247,6 @@ const RepresentativeOffice = (props) => {
             .representative-office-text11 {
               color: var(--dl-color-gray-black);
             }
-            .representative-office-text12 {
-              font-size: 1.5rem;
-            }
             .representative-office-container12 {
               height: 30vh;
             }
@@ -2267,9 +2258,6 @@ const RepresentativeOffice = (props) => {
             }
             .representative-office-text19 {
               color: var(--dl-color-gray-black);
-            }
-            .representative-office-text20 {
-              font-size: 1.5rem;
             }
             .representative-office-text38 {
               color: var(--dl-color-gray-black);
@@ -2289,9 +2277,6 @@ const RepresentativeOffice = (props) => {
             .representative-office-text55 {
               color: var(--dl-color-gray-500);
               font-size: 1.5rem;
-            }
-            .representative-office-header {
-              font-size: 2.5rem;
             }
             .representative-office-link2 {
               color: var(--dl-color-gray-black);
@@ -2324,11 +2309,9 @@ const RepresentativeOffice = (props) => {
             .representative-office-text {
               max-width: auto;
               min-width: 100%;
-              text-align: left;
             }
             .representative-office-text03 {
               width: 100%;
-              text-align: left;
             }
             .representative-office-image {
               width: 80%;
@@ -2364,7 +2347,6 @@ const RepresentativeOffice = (props) => {
             }
             .representative-office-text38 {
               width: 80%;
-              text-align: center;
             }
             .representative-office-text47 {
               font-size: 1.2rem;
@@ -2436,12 +2418,10 @@ const RepresentativeOffice = (props) => {
             .representative-office-text {
               width: 75%;
               max-width: auto;
-              text-align: left;
             }
             .representative-office-text03 {
               width: 75%;
               align-self: flex-start;
-              text-align: left;
               padding-left: 0px;
               padding-right: 0px;
             }
@@ -2466,7 +2446,6 @@ const RepresentativeOffice = (props) => {
             }
             .representative-office-text11 {
               width: 75%;
-              text-align: left;
             }
             .representative-office-text12 {
               width: 75%;
@@ -2511,11 +2490,9 @@ const RepresentativeOffice = (props) => {
             }
             .representative-office-text19 {
               width: 75%;
-              text-align: left;
             }
             .representative-office-text20 {
               width: 75%;
-              text-align: left;
             }
             .representative-office-container13 {
               width: 75%;
@@ -2604,7 +2581,6 @@ const RepresentativeOffice = (props) => {
             }
             .representative-office-text38 {
               width: 100%;
-              text-align: center;
             }
             .representative-office-container26 {
               align-items: flex-start;
@@ -2822,10 +2798,7 @@ const RepresentativeOffice = (props) => {
             .representative-office-header {
               width: 100%;
               padding: var(--dl-space-space-unit);
-              font-size: 2.5rem;
               align-self: center;
-              text-align: left;
-              line-height: 31px;
             }
             .representative-office-element1 {
               align-items: flex-start;
@@ -2853,11 +2826,9 @@ const RepresentativeOffice = (props) => {
             }
             .representative-office-text {
               max-width: auto;
-              text-align: left;
             }
             .representative-office-text03 {
               width: 100%;
-              text-align: left;
               padding-left: 0px;
               padding-right: 0px;
             }
@@ -2906,11 +2877,9 @@ const RepresentativeOffice = (props) => {
             }
             .representative-office-text11 {
               width: 100%;
-              text-align: left;
             }
             .representative-office-text12 {
               width: 100%;
-              text-align: left;
             }
             .representative-office-container06 {
               width: 100%;
@@ -2940,11 +2909,9 @@ const RepresentativeOffice = (props) => {
             }
             .representative-office-text19 {
               width: 100%;
-              text-align: left;
             }
             .representative-office-text20 {
               width: 100%;
-              text-align: left;
             }
             .representative-office-container13 {
               width: 100%;
@@ -3001,9 +2968,6 @@ const RepresentativeOffice = (props) => {
               padding-right: var(--dl-space-space-unit);
               padding-bottom: var(--dl-space-space-twounits);
             }
-            .representative-office-text38 {
-              text-align: left;
-            }
             .representative-office-container26 {
               padding-left: 0px;
             }
@@ -3052,15 +3016,15 @@ const RepresentativeOffice = (props) => {
               margin-right: var(--dl-space-space-twounits);
             }
             .representative-office-faq {
-              width: 90%;
+              width: 100%;
               align-self: center;
             }
             .representative-office-content {
               width: 100%;
+              max-width: auto;
             }
             .representative-office-header {
               width: 100%;
-              text-align: left;
             }
             .representative-office-header1 {
               font-size: 16px;
