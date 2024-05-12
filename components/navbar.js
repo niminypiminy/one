@@ -11,12 +11,16 @@ const Navbar = (props) => {
           <header data-thq="thq-navbar" className="navbar-navbar-interactive">
             <div className="navbar-branding">
               <Link href="/">
-                <a className="navbar-link">{props.danneskiold}</a>
+                <a className="navbar-link">
+                  <div className="navbar-branding1">
+                    <span className="navbar-text">{props.danneskiold2}</span>
+                    <svg viewBox="0 0 1024 1024" className="navbar-icon">
+                      <path d="M128 128h768v768h-768z"></path>
+                    </svg>
+                    <span className="navbar-text01">{props.lawfirm}</span>
+                  </div>
+                </a>
               </Link>
-              <svg viewBox="0 0 1024 1024" className="navbar-icon">
-                <path d="M128 128h768v768h-768z"></path>
-              </svg>
-              <span className="navbar-text">Law Firm</span>
             </div>
             <div
               data-thq="thq-navbar-nav"
@@ -95,12 +99,12 @@ const Navbar = (props) => {
             </div>
             <div data-thq="thq-mobile-menu" className="navbar-mobile-menu">
               <div className="navbar-top">
-                <div className="navbar-branding1">
-                  <span className="navbar-text01">{props.danneskiold2}</span>
+                <div className="navbar-branding2">
+                  <span className="navbar-text02">{props.danneskiold2}</span>
                   <svg viewBox="0 0 1024 1024" className="navbar-icon02">
                     <path d="M128 128h768v768h-768z"></path>
                   </svg>
-                  <span className="navbar-text02">{props.lawfirm}</span>
+                  <span className="navbar-text03">{props.lawfirm}</span>
                 </div>
                 <div data-thq="thq-close-menu" className="navbar-menu-close">
                   <svg viewBox="0 0 1024 1024" className="navbar-icon04">
@@ -120,7 +124,7 @@ const Navbar = (props) => {
                     data-thq="thq-dropdown-toggle"
                     className="navbar-dropdown-toggle04"
                   >
-                    <span className="navbar-text03">{props.practiceAreas}</span>
+                    <span className="navbar-text04">{props.practiceAreas}</span>
                     <div
                       data-thq="thq-dropdown-arrow"
                       className="navbar-dropdown-arrow"
@@ -144,7 +148,7 @@ const Navbar = (props) => {
                             data-thq="thq-dropdown-toggle"
                             className="navbar-dropdown-toggle05"
                           >
-                            <span className="navbar-text04">{props.cri}</span>
+                            <span className="navbar-text05">{props.cri}</span>
                           </div>
                         </a>
                       </Link>
@@ -159,7 +163,7 @@ const Navbar = (props) => {
                             data-thq="thq-dropdown-toggle"
                             className="navbar-dropdown-toggle06"
                           >
-                            <span className="navbar-text05">{props.tort}</span>
+                            <span className="navbar-text06">{props.tort}</span>
                           </div>
                         </a>
                       </Link>
@@ -174,7 +178,7 @@ const Navbar = (props) => {
                             data-thq="thq-dropdown-toggle"
                             className="navbar-dropdown-toggle07"
                           >
-                            <span className="navbar-text06">
+                            <span className="navbar-text07">
                               {props.contract}
                             </span>
                           </div>
@@ -191,7 +195,7 @@ const Navbar = (props) => {
                             data-thq="thq-dropdown-toggle"
                             className="navbar-dropdown-toggle08"
                           >
-                            <span className="navbar-text07">
+                            <span className="navbar-text08">
                               {props.public}
                             </span>
                           </div>
@@ -208,7 +212,7 @@ const Navbar = (props) => {
                             data-thq="thq-dropdown-toggle"
                             className="navbar-dropdown-toggle09"
                           >
-                            <span className="navbar-text08">
+                            <span className="navbar-text09">
                               {props.immigration}
                             </span>
                           </div>
@@ -225,7 +229,7 @@ const Navbar = (props) => {
                             data-thq="thq-dropdown-toggle"
                             className="navbar-dropdown-toggle10"
                           >
-                            <span className="navbar-text09">
+                            <span className="navbar-text10">
                               {props.corporate}
                             </span>
                           </div>
@@ -242,7 +246,7 @@ const Navbar = (props) => {
                     data-thq="thq-dropdown-toggle"
                     className="navbar-dropdown-toggle11"
                   >
-                    <span className="navbar-text10">Immigration Visas</span>
+                    <span className="navbar-text11">Immigration Visas</span>
                     <div
                       data-thq="thq-dropdown-arrow"
                       className="navbar-dropdown-arrow1"
@@ -264,7 +268,7 @@ const Navbar = (props) => {
                         data-thq="thq-dropdown-toggle"
                         className="navbar-dropdown-toggle12"
                       >
-                        <span className="navbar-text11">
+                        <span className="navbar-text12">
                           Non-Immigration Visa
                         </span>
                       </div>
@@ -279,7 +283,7 @@ const Navbar = (props) => {
                             data-thq="thq-dropdown-toggle"
                             className="navbar-dropdown-toggle13"
                           >
-                            <span className="navbar-text12">Work Permit</span>
+                            <span className="navbar-text13">Work Permit</span>
                           </div>
                         </a>
                       </Link>
@@ -294,7 +298,7 @@ const Navbar = (props) => {
                     data-thq="thq-dropdown-toggle"
                     className="navbar-dropdown-toggle14"
                   >
-                    <span className="navbar-text13">
+                    <span className="navbar-text14">
                       {props.registerYourCompany}
                     </span>
                     <div
@@ -320,7 +324,7 @@ const Navbar = (props) => {
                             data-thq="thq-dropdown-toggle"
                             className="navbar-dropdown-toggle15"
                           >
-                            <span className="navbar-text14">
+                            <span className="navbar-text15">
                               {props.treatyOfAmity}
                             </span>
                           </div>
@@ -337,7 +341,7 @@ const Navbar = (props) => {
                             data-thq="thq-dropdown-toggle"
                             className="navbar-dropdown-toggle16"
                           >
-                            <span className="navbar-text15">
+                            <span className="navbar-text16">
                               {props.boardOfInvestment}
                             </span>
                           </div>
@@ -354,7 +358,7 @@ const Navbar = (props) => {
                             data-thq="thq-dropdown-toggle"
                             className="navbar-dropdown-toggle17"
                           >
-                            <span className="navbar-text16">
+                            <span className="navbar-text17">
                               {props.limitedcompany}
                             </span>
                           </div>
@@ -371,7 +375,7 @@ const Navbar = (props) => {
                             data-thq="thq-dropdown-toggle"
                             className="navbar-dropdown-toggle18"
                           >
-                            <span className="navbar-text17">
+                            <span className="navbar-text18">
                               {props.limitedPartnership}
                             </span>
                           </div>
@@ -401,7 +405,7 @@ const Navbar = (props) => {
                             data-thq="thq-dropdown-toggle"
                             className="navbar-dropdown-toggle20"
                           >
-                            <span className="navbar-text18">
+                            <span className="navbar-text19">
                               {props.repOffice}
                             </span>
                           </div>
@@ -418,7 +422,7 @@ const Navbar = (props) => {
                             data-thq="thq-dropdown-toggle"
                             className="navbar-dropdown-toggle21"
                           >
-                            <span className="navbar-text19">
+                            <span className="navbar-text20">
                               {props.foreignBusinessLicense}
                             </span>
                           </div>
@@ -435,7 +439,7 @@ const Navbar = (props) => {
                             data-thq="thq-dropdown-toggle"
                             className="navbar-dropdown-toggle22"
                           >
-                            <span className="navbar-text20">{props.tafta}</span>
+                            <span className="navbar-text21">{props.tafta}</span>
                           </div>
                         </a>
                       </Link>
@@ -450,7 +454,7 @@ const Navbar = (props) => {
                             data-thq="thq-dropdown-toggle"
                             className="navbar-dropdown-toggle23"
                           >
-                            <span className="navbar-text21">{props.jtepa}</span>
+                            <span className="navbar-text22">{props.jtepa}</span>
                           </div>
                         </a>
                       </Link>
@@ -466,11 +470,11 @@ const Navbar = (props) => {
               </nav>
               <div className="navbar-social-bar">
                 <div className="navbar-container2">
-                  <span className="navbar-text22">{props.telegram}</span>
+                  <span className="navbar-text23">{props.telegram}</span>
                 </div>
-                <span className="navbar-text23">{props.whatsapp}</span>
-                <span className="navbar-text24">{props.facebook}</span>
-                <span className="navbar-text25">{props.line}</span>
+                <span className="navbar-text24">{props.whatsapp}</span>
+                <span className="navbar-text25">{props.facebook}</span>
+                <span className="navbar-text26">{props.line}</span>
               </div>
             </div>
           </header>
@@ -518,29 +522,40 @@ const Navbar = (props) => {
             justify-content: center;
           }
           .navbar-link {
+            display: contents;
+          }
+          .navbar-branding1 {
+            gap: var(--dl-space-space-unit);
+            display: flex;
+            position: relative;
+            align-items: center;
+            flex-direction: row;
+            justify-content: center;
+            text-decoration: none;
+          }
+          .navbar-text {
             color: var(--dl-color-gray-black);
             font-size: 1.2rem;
             font-style: normal;
             font-family: Josefin Sans;
             font-weight: 300;
             line-height: 36px;
+            margin-left: var(--dl-space-space-threeunits);
+            text-decoration: none;
           }
           .navbar-icon {
             width: 7px;
             height: 7px;
           }
-          .navbar-text {
-            fill: var(--dl-color-theme-neutral-light);
-            color: var(--dl-color-theme-neutral-light);
+          .navbar-text01 {
+            color: var(--dl-color-gray-black);
+            padding: var(--dl-space-space-halfunit);
             font-size: 1.2rem;
             font-style: normal;
-            font-family: 'Josefin Sans';
+            font-family: Josefin Sans;
             font-weight: 300;
-            padding-top: var(--dl-space-space-halfunit);
-            padding-left: var(--dl-space-space-halfunit);
-            padding-right: var(--dl-space-space-halfunit);
-            padding-bottom: var(--dl-space-space-halfunit);
-            background-color: var(--dl-color-theme-neutral-dark);
+            line-height: 27px;
+            background-color: #ffff00;
           }
           .navbar-desktop-menu {
             display: none;
@@ -742,7 +757,7 @@ const Navbar = (props) => {
             margin-bottom: var(--dl-space-space-threeunits);
             justify-content: space-between;
           }
-          .navbar-branding1 {
+          .navbar-branding2 {
             gap: var(--dl-space-space-unit);
             display: flex;
             position: relative;
@@ -750,7 +765,7 @@ const Navbar = (props) => {
             flex-direction: row;
             justify-content: center;
           }
-          .navbar-text01 {
+          .navbar-text02 {
             color: var(--dl-color-gray-black);
             font-size: 1.2rem;
             font-style: normal;
@@ -764,7 +779,7 @@ const Navbar = (props) => {
             width: 7px;
             height: 7px;
           }
-          .navbar-text02 {
+          .navbar-text03 {
             color: var(--dl-color-gray-black);
             padding: var(--dl-space-space-halfunit);
             font-size: 1.2rem;
@@ -831,7 +846,7 @@ const Navbar = (props) => {
             padding-right: var(--dl-space-space-unit);
             padding-bottom: var(--dl-space-space-halfunit);
           }
-          .navbar-text03 {
+          .navbar-text04 {
             color: var(--dl-color-gray-black);
             font-size: 1.5rem;
             font-style: normal;
@@ -842,7 +857,7 @@ const Navbar = (props) => {
             margin-right: 4px;
             vertical-align: middle;
           }
-          .navbar-text03:hover {
+          .navbar-text04:hover {
             color: var(--dl-color-gray-black);
             background-color: #ffff00;
           }
@@ -892,40 +907,6 @@ const Navbar = (props) => {
             padding-bottom: var(--dl-space-space-halfunit);
             text-decoration: none;
           }
-          .navbar-text04 {
-            color: var(--dl-color-gray-black);
-            width: 100%;
-            cursor: pointer;
-            display: flex;
-            font-size: 1.5rem;
-            font-style: normal;
-            transition: 0.3s;
-            font-family: Josefin Sans;
-            font-weight: 200;
-          }
-          .navbar-text04:hover {
-            color: var(--dl-color-gray-white);
-            background-color: var(--dl-color-gray-black);
-          }
-          .navbar-dropdown05 {
-            cursor: pointer;
-            display: inline-block;
-            position: relative;
-            border-radius: var(--dl-radius-radius-radius2);
-          }
-          .navbar-dropdown-toggle06 {
-            fill: #595959;
-            color: var(--dl-color-gray-black);
-            width: 100%;
-            display: inline-flex;
-            align-items: center;
-            padding-top: var(--dl-space-space-halfunit);
-            padding-left: var(--dl-space-space-unit);
-            border-radius: var(--dl-radius-radius-radius4);
-            padding-right: var(--dl-space-space-unit);
-            padding-bottom: var(--dl-space-space-halfunit);
-            text-decoration: none;
-          }
           .navbar-text05 {
             color: var(--dl-color-gray-black);
             width: 100%;
@@ -941,13 +922,13 @@ const Navbar = (props) => {
             color: var(--dl-color-gray-white);
             background-color: var(--dl-color-gray-black);
           }
-          .navbar-dropdown06 {
+          .navbar-dropdown05 {
             cursor: pointer;
             display: inline-block;
             position: relative;
             border-radius: var(--dl-radius-radius-radius2);
           }
-          .navbar-dropdown-toggle07 {
+          .navbar-dropdown-toggle06 {
             fill: #595959;
             color: var(--dl-color-gray-black);
             width: 100%;
@@ -975,15 +956,13 @@ const Navbar = (props) => {
             color: var(--dl-color-gray-white);
             background-color: var(--dl-color-gray-black);
           }
-          .navbar-dropdown07 {
+          .navbar-dropdown06 {
             cursor: pointer;
             display: inline-block;
             position: relative;
-            align-items: flex-start;
             border-radius: var(--dl-radius-radius-radius2);
-            flex-direction: column;
           }
-          .navbar-dropdown-toggle08 {
+          .navbar-dropdown-toggle07 {
             fill: #595959;
             color: var(--dl-color-gray-black);
             width: 100%;
@@ -1011,13 +990,15 @@ const Navbar = (props) => {
             color: var(--dl-color-gray-white);
             background-color: var(--dl-color-gray-black);
           }
-          .navbar-dropdown08 {
+          .navbar-dropdown07 {
             cursor: pointer;
             display: inline-block;
             position: relative;
+            align-items: flex-start;
             border-radius: var(--dl-radius-radius-radius2);
+            flex-direction: column;
           }
-          .navbar-dropdown-toggle09 {
+          .navbar-dropdown-toggle08 {
             fill: #595959;
             color: var(--dl-color-gray-black);
             width: 100%;
@@ -1045,13 +1026,13 @@ const Navbar = (props) => {
             color: var(--dl-color-gray-white);
             background-color: var(--dl-color-gray-black);
           }
-          .navbar-dropdown09 {
+          .navbar-dropdown08 {
             cursor: pointer;
             display: inline-block;
             position: relative;
             border-radius: var(--dl-radius-radius-radius2);
           }
-          .navbar-dropdown-toggle10 {
+          .navbar-dropdown-toggle09 {
             fill: #595959;
             color: var(--dl-color-gray-black);
             width: 100%;
@@ -1079,6 +1060,40 @@ const Navbar = (props) => {
             color: var(--dl-color-gray-white);
             background-color: var(--dl-color-gray-black);
           }
+          .navbar-dropdown09 {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            border-radius: var(--dl-radius-radius-radius2);
+          }
+          .navbar-dropdown-toggle10 {
+            fill: #595959;
+            color: var(--dl-color-gray-black);
+            width: 100%;
+            display: inline-flex;
+            align-items: center;
+            padding-top: var(--dl-space-space-halfunit);
+            padding-left: var(--dl-space-space-unit);
+            border-radius: var(--dl-radius-radius-radius4);
+            padding-right: var(--dl-space-space-unit);
+            padding-bottom: var(--dl-space-space-halfunit);
+            text-decoration: none;
+          }
+          .navbar-text10 {
+            color: var(--dl-color-gray-black);
+            width: 100%;
+            cursor: pointer;
+            display: flex;
+            font-size: 1.5rem;
+            font-style: normal;
+            transition: 0.3s;
+            font-family: Josefin Sans;
+            font-weight: 200;
+          }
+          .navbar-text10:hover {
+            color: var(--dl-color-gray-white);
+            background-color: var(--dl-color-gray-black);
+          }
           .navbar-thq-dropdown2 {
             cursor: pointer;
             display: inline-block;
@@ -1097,7 +1112,7 @@ const Navbar = (props) => {
             padding-right: var(--dl-space-space-unit);
             padding-bottom: var(--dl-space-space-halfunit);
           }
-          .navbar-text10 {
+          .navbar-text11 {
             color: var(--dl-color-gray-black);
             font-size: 1.5rem;
             font-style: normal;
@@ -1108,7 +1123,7 @@ const Navbar = (props) => {
             margin-right: 4px;
             vertical-align: middle;
           }
-          .navbar-text10:hover {
+          .navbar-text11:hover {
             background-color: #ffff00;
           }
           .navbar-dropdown-arrow1 {
@@ -1157,7 +1172,7 @@ const Navbar = (props) => {
             padding-bottom: var(--dl-space-space-halfunit);
             text-decoration: none;
           }
-          .navbar-text11 {
+          .navbar-text12 {
             color: var(--dl-color-gray-black);
             width: 100%;
             cursor: pointer;
@@ -1168,7 +1183,7 @@ const Navbar = (props) => {
             font-family: 'Josefin Sans';
             font-weight: 200;
           }
-          .navbar-text11:hover {
+          .navbar-text12:hover {
             color: var(--dl-color-gray-white);
             background-color: var(--dl-color-gray-black);
           }
@@ -1191,7 +1206,7 @@ const Navbar = (props) => {
             padding-bottom: var(--dl-space-space-halfunit);
             text-decoration: none;
           }
-          .navbar-text12 {
+          .navbar-text13 {
             color: var(--dl-color-gray-black);
             width: 100%;
             cursor: pointer;
@@ -1202,7 +1217,7 @@ const Navbar = (props) => {
             font-family: Josefin Sans;
             font-weight: 200;
           }
-          .navbar-text12:hover {
+          .navbar-text13:hover {
             color: var(--dl-color-gray-white);
             background-color: var(--dl-color-gray-black);
           }
@@ -1224,7 +1239,7 @@ const Navbar = (props) => {
             padding-right: var(--dl-space-space-unit);
             padding-bottom: var(--dl-space-space-halfunit);
           }
-          .navbar-text13 {
+          .navbar-text14 {
             color: var(--dl-color-gray-black);
             font-size: 1.5rem;
             font-style: normal;
@@ -1235,7 +1250,7 @@ const Navbar = (props) => {
             margin-right: 4px;
             vertical-align: middle;
           }
-          .navbar-text13:hover {
+          .navbar-text14:hover {
             background-color: #ffff00;
           }
           .navbar-dropdown-arrow2 {
@@ -1284,41 +1299,7 @@ const Navbar = (props) => {
             padding-bottom: var(--dl-space-space-halfunit);
             text-decoration: none;
           }
-          .navbar-text14 {
-            width: 100%;
-            cursor: pointer;
-            display: flex;
-            font-size: 1.5rem;
-            font-style: normal;
-            transition: 0.3s;
-            font-family: Josefin Sans;
-            font-weight: 200;
-          }
-          .navbar-text14:hover {
-            color: var(--dl-color-gray-white);
-            background-color: var(--dl-color-gray-black);
-          }
-          .navbar-dropdown13 {
-            cursor: pointer;
-            display: inline-block;
-            position: relative;
-            border-radius: var(--dl-radius-radius-radius2);
-          }
-          .navbar-dropdown-toggle16 {
-            fill: #595959;
-            color: var(--dl-color-gray-black);
-            width: 100%;
-            display: inline-flex;
-            align-items: center;
-            padding-top: var(--dl-space-space-halfunit);
-            padding-left: var(--dl-space-space-unit);
-            border-radius: var(--dl-radius-radius-radius4);
-            padding-right: var(--dl-space-space-unit);
-            padding-bottom: var(--dl-space-space-halfunit);
-            text-decoration: none;
-          }
           .navbar-text15 {
-            color: var(--dl-color-gray-black);
             width: 100%;
             cursor: pointer;
             display: flex;
@@ -1332,13 +1313,13 @@ const Navbar = (props) => {
             color: var(--dl-color-gray-white);
             background-color: var(--dl-color-gray-black);
           }
-          .navbar-dropdown14 {
+          .navbar-dropdown13 {
             cursor: pointer;
             display: inline-block;
             position: relative;
             border-radius: var(--dl-radius-radius-radius2);
           }
-          .navbar-dropdown-toggle17 {
+          .navbar-dropdown-toggle16 {
             fill: #595959;
             color: var(--dl-color-gray-black);
             width: 100%;
@@ -1366,13 +1347,13 @@ const Navbar = (props) => {
             color: var(--dl-color-gray-white);
             background-color: var(--dl-color-gray-black);
           }
-          .navbar-dropdown15 {
+          .navbar-dropdown14 {
             cursor: pointer;
             display: inline-block;
             position: relative;
             border-radius: var(--dl-radius-radius-radius2);
           }
-          .navbar-dropdown-toggle18 {
+          .navbar-dropdown-toggle17 {
             fill: #595959;
             color: var(--dl-color-gray-black);
             width: 100%;
@@ -1397,6 +1378,40 @@ const Navbar = (props) => {
             font-weight: 200;
           }
           .navbar-text17:hover {
+            color: var(--dl-color-gray-white);
+            background-color: var(--dl-color-gray-black);
+          }
+          .navbar-dropdown15 {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            border-radius: var(--dl-radius-radius-radius2);
+          }
+          .navbar-dropdown-toggle18 {
+            fill: #595959;
+            color: var(--dl-color-gray-black);
+            width: 100%;
+            display: inline-flex;
+            align-items: center;
+            padding-top: var(--dl-space-space-halfunit);
+            padding-left: var(--dl-space-space-unit);
+            border-radius: var(--dl-radius-radius-radius4);
+            padding-right: var(--dl-space-space-unit);
+            padding-bottom: var(--dl-space-space-halfunit);
+            text-decoration: none;
+          }
+          .navbar-text18 {
+            color: var(--dl-color-gray-black);
+            width: 100%;
+            cursor: pointer;
+            display: flex;
+            font-size: 1.5rem;
+            font-style: normal;
+            transition: 0.3s;
+            font-family: Josefin Sans;
+            font-weight: 200;
+          }
+          .navbar-text18:hover {
             color: var(--dl-color-gray-white);
             background-color: var(--dl-color-gray-black);
           }
@@ -1453,40 +1468,6 @@ const Navbar = (props) => {
             padding-bottom: var(--dl-space-space-halfunit);
             text-decoration: none;
           }
-          .navbar-text18 {
-            color: var(--dl-color-gray-black);
-            width: 100%;
-            cursor: pointer;
-            display: flex;
-            font-size: 1.5rem;
-            font-style: normal;
-            transition: 0.3s;
-            font-family: Josefin Sans;
-            font-weight: 200;
-          }
-          .navbar-text18:hover {
-            color: var(--dl-color-gray-white);
-            background-color: var(--dl-color-gray-black);
-          }
-          .navbar-dropdown18 {
-            cursor: pointer;
-            display: inline-block;
-            position: relative;
-            border-radius: var(--dl-radius-radius-radius2);
-          }
-          .navbar-dropdown-toggle21 {
-            fill: #595959;
-            color: var(--dl-color-gray-black);
-            width: 100%;
-            display: inline-flex;
-            align-items: center;
-            padding-top: var(--dl-space-space-halfunit);
-            padding-left: var(--dl-space-space-unit);
-            border-radius: var(--dl-radius-radius-radius4);
-            padding-right: var(--dl-space-space-unit);
-            padding-bottom: var(--dl-space-space-halfunit);
-            text-decoration: none;
-          }
           .navbar-text19 {
             color: var(--dl-color-gray-black);
             width: 100%;
@@ -1502,13 +1483,13 @@ const Navbar = (props) => {
             color: var(--dl-color-gray-white);
             background-color: var(--dl-color-gray-black);
           }
-          .navbar-dropdown19 {
+          .navbar-dropdown18 {
             cursor: pointer;
             display: inline-block;
             position: relative;
             border-radius: var(--dl-radius-radius-radius2);
           }
-          .navbar-dropdown-toggle22 {
+          .navbar-dropdown-toggle21 {
             fill: #595959;
             color: var(--dl-color-gray-black);
             width: 100%;
@@ -1536,13 +1517,13 @@ const Navbar = (props) => {
             color: var(--dl-color-gray-white);
             background-color: var(--dl-color-gray-black);
           }
-          .navbar-dropdown20 {
+          .navbar-dropdown19 {
             cursor: pointer;
             display: inline-block;
             position: relative;
             border-radius: var(--dl-radius-radius-radius2);
           }
-          .navbar-dropdown-toggle23 {
+          .navbar-dropdown-toggle22 {
             fill: #595959;
             color: var(--dl-color-gray-black);
             width: 100%;
@@ -1567,6 +1548,40 @@ const Navbar = (props) => {
             font-weight: 200;
           }
           .navbar-text21:hover {
+            color: var(--dl-color-gray-white);
+            background-color: var(--dl-color-gray-black);
+          }
+          .navbar-dropdown20 {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            border-radius: var(--dl-radius-radius-radius2);
+          }
+          .navbar-dropdown-toggle23 {
+            fill: #595959;
+            color: var(--dl-color-gray-black);
+            width: 100%;
+            display: inline-flex;
+            align-items: center;
+            padding-top: var(--dl-space-space-halfunit);
+            padding-left: var(--dl-space-space-unit);
+            border-radius: var(--dl-radius-radius-radius4);
+            padding-right: var(--dl-space-space-unit);
+            padding-bottom: var(--dl-space-space-halfunit);
+            text-decoration: none;
+          }
+          .navbar-text22 {
+            color: var(--dl-color-gray-black);
+            width: 100%;
+            cursor: pointer;
+            display: flex;
+            font-size: 1.5rem;
+            font-style: normal;
+            transition: 0.3s;
+            font-family: Josefin Sans;
+            font-weight: 200;
+          }
+          .navbar-text22:hover {
             color: var(--dl-color-gray-white);
             background-color: var(--dl-color-gray-black);
           }
@@ -1620,19 +1635,11 @@ const Navbar = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .navbar-text22 {
-            font-size: 1.5rem;
-            font-style: normal;
-            font-family: Josefin Sans;
-            font-weight: 200;
-            text-decoration: underline;
-          }
           .navbar-text23 {
             font-size: 1.5rem;
             font-style: normal;
             font-family: Josefin Sans;
             font-weight: 200;
-            margin-left: var(--dl-space-space-unit);
             text-decoration: underline;
           }
           .navbar-text24 {
@@ -1644,6 +1651,14 @@ const Navbar = (props) => {
             text-decoration: underline;
           }
           .navbar-text25 {
+            font-size: 1.5rem;
+            font-style: normal;
+            font-family: Josefin Sans;
+            font-weight: 200;
+            margin-left: var(--dl-space-space-unit);
+            text-decoration: underline;
+          }
+          .navbar-text26 {
             font-size: 1.5rem;
             font-style: normal;
             font-family: Josefin Sans;
@@ -1691,10 +1706,15 @@ const Navbar = (props) => {
               align-items: center;
               justify-content: space-between;
             }
+            .navbar-text01 {
+              font-style: normal;
+              font-family: Josefin Sans;
+              font-weight: 300;
+            }
             .navbar-burger-menu {
               background-color: ffff00;
             }
-            .navbar-text02 {
+            .navbar-text03 {
               font-style: normal;
               font-family: Josefin Sans;
               font-weight: 300;
@@ -1707,17 +1727,11 @@ const Navbar = (props) => {
             .navbar-link01 {
               background-color: var(--dl-color-gray-black);
             }
-            .navbar-text03 {
-              font-size: 1.2rem;
-              font-style: normal;
-              font-family: Josefin Sans;
-              font-weight: 300;
-            }
             .navbar-text04 {
               font-size: 1.2rem;
               font-style: normal;
               font-family: Josefin Sans;
-              font-weight: 200;
+              font-weight: 300;
             }
             .navbar-text05 {
               font-size: 1.2rem;
@@ -1751,6 +1765,9 @@ const Navbar = (props) => {
             }
             .navbar-text10 {
               font-size: 1.2rem;
+              font-style: normal;
+              font-family: Josefin Sans;
+              font-weight: 200;
             }
             .navbar-text11 {
               font-size: 1.2rem;
@@ -1760,15 +1777,12 @@ const Navbar = (props) => {
             }
             .navbar-text13 {
               font-size: 1.2rem;
-              font-style: normal;
-              font-family: Josefin Sans;
-              font-weight: 300;
             }
             .navbar-text14 {
               font-size: 1.2rem;
               font-style: normal;
               font-family: Josefin Sans;
-              font-weight: 200;
+              font-weight: 300;
             }
             .navbar-text15 {
               font-size: 1.2rem;
@@ -1788,13 +1802,13 @@ const Navbar = (props) => {
               font-family: Josefin Sans;
               font-weight: 200;
             }
-            .navbar-link13 {
+            .navbar-text18 {
               font-size: 1.2rem;
               font-style: normal;
               font-family: Josefin Sans;
               font-weight: 200;
             }
-            .navbar-text18 {
+            .navbar-link13 {
               font-size: 1.2rem;
               font-style: normal;
               font-family: Josefin Sans;
@@ -1818,6 +1832,12 @@ const Navbar = (props) => {
               font-family: Josefin Sans;
               font-weight: 200;
             }
+            .navbar-text22 {
+              font-size: 1.2rem;
+              font-style: normal;
+              font-family: Josefin Sans;
+              font-weight: 200;
+            }
             .navbar-link18 {
               font-size: 1.2rem;
               font-style: normal;
@@ -1830,9 +1850,6 @@ const Navbar = (props) => {
               font-family: Josefin Sans;
               font-weight: 300;
             }
-            .navbar-text22 {
-              font-size: 1.2rem;
-            }
             .navbar-text23 {
               font-size: 1.2rem;
             }
@@ -1840,6 +1857,9 @@ const Navbar = (props) => {
               font-size: 1.2rem;
             }
             .navbar-text25 {
+              font-size: 1.2rem;
+            }
+            .navbar-text26 {
               font-size: 1.2rem;
             }
           }
@@ -1856,7 +1876,7 @@ const Navbar = (props) => {
             .navbar-icon {
               display: none;
             }
-            .navbar-text {
+            .navbar-text01 {
               display: none;
             }
             .navbar-burger-menu {
@@ -1873,7 +1893,7 @@ const Navbar = (props) => {
             .navbar-icon02 {
               display: none;
             }
-            .navbar-text02 {
+            .navbar-text03 {
               display: none;
             }
           }
@@ -1896,10 +1916,15 @@ const Navbar = (props) => {
               max-width: 100%;
               min-width: 100%;
             }
+            .navbar-text {
+              color: rgb(18, 40, 33);
+              font-size: 24px;
+              line-height: 36px;
+            }
             .navbar-burger-menu {
               background-color: ffff00;
             }
-            .navbar-text01 {
+            .navbar-text02 {
               color: rgb(18, 40, 33);
               font-size: 24px;
               line-height: 36px;
