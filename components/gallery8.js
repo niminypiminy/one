@@ -5,9 +5,7 @@ import PropTypes from 'prop-types'
 const Gallery8 = (props) => {
   return (
     <>
-      <div
-        className={`gallery8-gallery3 thq-section-padding ${props.rootClassName} `}
-      >
+      <div className="gallery8-gallery3 thq-section-padding">
         <div className="gallery8-max-width thq-section-max-width">
           <div className="gallery8-section-title">
             <h2 className="gallery8-text thq-heading-2">{props.heading1}</h2>
@@ -201,27 +199,25 @@ Gallery8.defaultProps = {
   image1Src:
     'https://images.unsplash.com/photo-1552083974-186346191183?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDE1fHxhYnN0cmFjdHxlbnwwfHx8fDE3MTA4NzA5MzB8MA&ixlib=rb-4.0.3&w=1400',
   heading1: 'Photo Gallery',
-  image3Src:
-    'https://images.unsplash.com/photo-1557672172-298e090bd0f1?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDEwfHxhYnN0cmFjdHxlbnwwfHx8fDE3MTA4NzA5MzB8MA&ixlib=rb-4.0.3&w=1400',
-  image1Alt: 'image',
-  image2Alt: 'image',
-  content1: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
   image2Src:
     'https://images.unsplash.com/photo-1574169208507-84376144848b?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDN8fGFic3RyYWN0fGVufDB8fHx8MTcxMjc0NTExMHww&ixlib=rb-4.0.3&w=1400',
+  image1Alt: 'image',
+  content1: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
   image3Alt: 'image',
-  rootClassName: '',
+  image2Alt: 'image',
+  image3Src:
+    'https://images.unsplash.com/photo-1557672172-298e090bd0f1?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDEwfHxhYnN0cmFjdHxlbnwwfHx8fDE3MTA4NzA5MzB8MA&ixlib=rb-4.0.3&w=1400',
 }
 
 Gallery8.propTypes = {
   image1Src: PropTypes.string,
   heading1: PropTypes.string,
-  image3Src: PropTypes.string,
-  image1Alt: PropTypes.string,
-  image2Alt: PropTypes.string,
-  content1: PropTypes.string,
   image2Src: PropTypes.string,
+  image1Alt: PropTypes.string,
+  content1: PropTypes.string,
   image3Alt: PropTypes.string,
-  rootClassName: PropTypes.string,
+  image2Alt: PropTypes.string,
+  image3Src: PropTypes.string,
 }
 
 export default Gallery8

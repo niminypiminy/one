@@ -530,11 +530,17 @@ const Navbar = (props) => {
             height: 7px;
           }
           .navbar-text {
+            fill: var(--dl-color-theme-neutral-light);
+            color: var(--dl-color-theme-neutral-light);
             font-size: 1.2rem;
             font-style: normal;
             font-family: 'Josefin Sans';
             font-weight: 300;
-            background-color: rgb(255, 255, 0);
+            padding-top: var(--dl-space-space-halfunit);
+            padding-left: var(--dl-space-space-halfunit);
+            padding-right: var(--dl-space-space-halfunit);
+            padding-bottom: var(--dl-space-space-halfunit);
+            background-color: var(--dl-color-theme-neutral-dark);
           }
           .navbar-desktop-menu {
             display: none;
@@ -760,6 +766,7 @@ const Navbar = (props) => {
           }
           .navbar-text02 {
             color: var(--dl-color-gray-black);
+            padding: var(--dl-space-space-halfunit);
             font-size: 1.2rem;
             font-style: normal;
             font-family: Josefin Sans;
