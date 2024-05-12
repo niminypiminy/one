@@ -27,100 +27,85 @@ const Home = (props) => {
           />
         </Head>
         <Navbar rootClassName="navbar-root-class-name"></Navbar>
-        <animate-on-reveal
-          animation="slideInLeft"
-          duration="300ms"
-          delay="0s"
-          direction="normal"
-          easing="ease"
-          iteration="1"
-        >
-          <header data-thq-animate-on-reveal="true" className="home-hero">
-            <div className="home-container1">
-              <h1 className="home-title">
-                <span>A law firm,</span>
-                <br></br>
-              </h1>
-              <h1 className="home-title1">
-                <span>
-                  You can
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <span className="home-text03">trust</span>
-                <span>.</span>
-                <br></br>
-              </h1>
-              <span className="home-description">
-                <span>
-                  We are a boutique law firm. If you need legal assistance,
-                  please contact us
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <Link href="/contact">
-                  <a className="home-link">here.</a>
-                </Link>
-                <span> To learn more about our practice areas, click </span>
-                <a href="#ourpracticeareas" className="home-link01">
-                  here.
-                </a>
+        <header className="home-hero">
+          <div className="home-container1">
+            <h1 className="home-title">
+              <span>A law firm,</span>
+              <br></br>
+            </h1>
+            <h1 className="home-title1">
+              <span>
+                You can
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
               </span>
-            </div>
-            <img
-              alt="image"
-              src="/designer%20(2)-1500h.jpeg"
-              className="home-image"
-            />
-          </header>
-        </animate-on-reveal>
-        <animate-on-reveal>
-          <section
-            id="missionhome"
-            data-thq-animate-on-reveal="true"
-            className="missionhome"
-          >
-            <img
-              alt="image"
-              src="/designer%20(3)-1100h.jpeg"
-              loading="eager"
-              className="home-image1"
-            />
-            <div className="home-container2">
-              <h2 className="home-text08">
-                <span>
-                  We do not employ an army of paralegals or secretaries, or
-                  outsource cases to other law firms. Each
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <span>
-                  case is handled in-house, directly by an attorney, and with
-                  the utmost care.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-              </h2>
+              <span className="home-text03">trust</span>
+              <span>.</span>
+              <br></br>
+            </h1>
+            <span className="home-description">
+              <span>
+                We are a boutique law firm. If you need legal assistance, please
+                contact us
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
+              </span>
               <Link href="/contact">
-                <a className="home-link02">
-                  <h1 className="home-text11">Contact</h1>
-                </a>
+                <a className="home-link">here.</a>
               </Link>
-            </div>
-          </section>
-        </animate-on-reveal>
+              <span> To learn more about our practice areas, click </span>
+              <a href="#ourpracticeareas" className="home-link01">
+                here.
+              </a>
+            </span>
+          </div>
+          <img
+            alt="image"
+            src="/designer%20(2)-1500h.jpeg"
+            className="home-image"
+          />
+        </header>
+        <section id="missionhome" className="home-mission missionhome">
+          <img
+            alt="image"
+            src="/designer%20(3)-1100h.jpeg"
+            loading="eager"
+            className="home-image1"
+          />
+          <div className="home-container2">
+            <h2 className="home-text08">
+              <span>
+                We do not employ an army of paralegals or secretaries, or
+                outsource cases to other law firms. Each
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
+              </span>
+              <span>
+                case is handled in-house, directly by an attorney, and with the
+                utmost care.
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
+              </span>
+            </h2>
+            <Link href="/contact">
+              <a className="home-link02">
+                <h1 className="home-text11">Contact</h1>
+              </a>
+            </Link>
+          </div>
+        </section>
         <div className="home-container3">
           <div className="home-container4">
             <Link href="/company-registration">
@@ -313,7 +298,7 @@ const Home = (props) => {
             border-top-width: 0px;
             border-left-width: 0px;
             border-right-width: 0px;
-            border-bottom-width: 0px;
+            border-bottom-width: 1px;
           }
           .home-container1 {
             flex: 0 0 auto;
@@ -381,6 +366,12 @@ const Home = (props) => {
             height: 100%;
             object-fit: cover;
             border-radius: var(--dl-radius-radius-imageradius);
+          }
+          .home-mission {
+            margin-top: var(--dl-space-space-sixunits);
+            margin-left: 0px;
+            margin-right: 0px;
+            margin-bottom: var(--dl-space-space-sixunits);
           }
           .home-image1 {
             width: 20%;
