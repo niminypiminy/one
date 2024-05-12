@@ -27,85 +27,100 @@ const Home = (props) => {
           />
         </Head>
         <Navbar rootClassName="navbar-root-class-name"></Navbar>
-        <header className="home-hero">
-          <div className="home-container1">
-            <h1 className="home-title">
-              <span>A law firm,</span>
-              <br></br>
-            </h1>
-            <h1 className="home-title1">
-              <span>
-                You can
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
+        <animate-on-reveal
+          animation="slideInLeft"
+          duration="300ms"
+          delay="0s"
+          direction="normal"
+          easing="ease"
+          iteration="1"
+        >
+          <header data-thq-animate-on-reveal="true" className="home-hero">
+            <div className="home-container1">
+              <h1 className="home-title">
+                <span>A law firm,</span>
+                <br></br>
+              </h1>
+              <h1 className="home-title1">
+                <span>
+                  You can
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: ' ',
+                    }}
+                  />
+                </span>
+                <span className="home-text03">trust</span>
+                <span>.</span>
+                <br></br>
+              </h1>
+              <span className="home-description">
+                <span>
+                  We are a boutique law firm. If you need legal assistance,
+                  please contact us
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: ' ',
+                    }}
+                  />
+                </span>
+                <Link href="/contact">
+                  <a className="home-link">here.</a>
+                </Link>
+                <span> To learn more about our practice areas, click </span>
+                <a href="#ourpracticeareas" className="home-link01">
+                  here.
+                </a>
               </span>
-              <span className="home-text03">trust</span>
-              <span>.</span>
-              <br></br>
-            </h1>
-            <span className="home-description">
-              <span>
-                We are a boutique law firm. If you need legal assistance, please
-                contact us
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </span>
+            </div>
+            <img
+              alt="image"
+              src="/designer%20(2)-1500h.jpeg"
+              className="home-image"
+            />
+          </header>
+        </animate-on-reveal>
+        <animate-on-reveal>
+          <section
+            id="missionhome"
+            data-thq-animate-on-reveal="true"
+            className="missionhome"
+          >
+            <img
+              alt="image"
+              src="/designer%20(3)-1100h.jpeg"
+              loading="eager"
+              className="home-image1"
+            />
+            <div className="home-container2">
+              <h2 className="home-text08">
+                <span>
+                  We do not employ an army of paralegals or secretaries, or
+                  outsource cases to other law firms. Each
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: ' ',
+                    }}
+                  />
+                </span>
+                <span>
+                  case is handled in-house, directly by an attorney, and with
+                  the utmost care.
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: ' ',
+                    }}
+                  />
+                </span>
+              </h2>
               <Link href="/contact">
-                <a className="home-link">here.</a>
+                <a className="home-link02">
+                  <h1 className="home-text11">Contact</h1>
+                </a>
               </Link>
-              <span> To learn more about our practice areas, click </span>
-              <a href="#ourpracticeareas" className="home-link01">
-                here.
-              </a>
-            </span>
-          </div>
-          <img
-            alt="image"
-            src="/designer%20(2)-1500h.jpeg"
-            className="home-image"
-          />
-        </header>
-        <section id="missionhome" className="missionhome">
-          <img
-            alt="image"
-            src="/designer%20(3)-1100h.jpeg"
-            loading="eager"
-            className="home-image1"
-          />
-          <div className="home-container2">
-            <h2 className="home-text08">
-              <span>
-                We do not employ an army of paralegals or secretaries, or
-                outsource cases to other law firms. Each
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </span>
-              <span>
-                case is handled in-house, directly by an attorney, and with the
-                utmost care.
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </span>
-            </h2>
-            <Link href="/contact">
-              <a className="home-link02">
-                <h1 className="home-text11">Contact</h1>
-              </a>
-            </Link>
-          </div>
-        </section>
+            </div>
+          </section>
+        </animate-on-reveal>
         <div className="home-container3">
           <div className="home-container4">
             <Link href="/company-registration">
@@ -312,7 +327,7 @@ const Home = (props) => {
           .home-title {
             color: var(--dl-color-gray-black);
             width: 75%;
-            font-size: 5rem;
+            font-size: 4rem;
             max-width: auto;
             font-style: normal;
             text-align: left;
@@ -328,7 +343,7 @@ const Home = (props) => {
           .home-title1 {
             color: var(--dl-color-gray-black);
             width: 75%;
-            font-size: 6rem;
+            font-size: 4rem;
             max-width: auto;
             font-style: normal;
             text-align: left;
@@ -796,13 +811,6 @@ const Home = (props) => {
             }
             .home-title1 {
               color: var(--dl-color-gray-black);
-              font-size: 6rem;
-              font-style: normal;
-              font-family: Josefin Sans;
-              font-weight: 700;
-            }
-            .home-text03 {
-              background-color: inherit;
             }
             .home-description {
               color: var(--dl-color-gray-black);
