@@ -530,8 +530,8 @@ const Navbar = (props) => {
             height: 7px;
           }
           .navbar-text {
-            fill: var(--dl-color-theme-neutral-dark);
-            color: var(--dl-color-theme-neutral-dark);
+            fill: var(--dl-color-theme-neutral-light);
+            color: var(--dl-color-theme-neutral-light);
             font-size: 1.2rem;
             font-style: normal;
             font-family: 'Josefin Sans';
@@ -540,7 +540,7 @@ const Navbar = (props) => {
             padding-left: var(--dl-space-space-halfunit);
             padding-right: var(--dl-space-space-halfunit);
             padding-bottom: var(--dl-space-space-halfunit);
-            background-color: #ffff00;
+            background-color: var(--dl-color-theme-neutral-dark);
           }
           .navbar-desktop-menu {
             display: none;

@@ -34,7 +34,15 @@ const Home = (props) => {
               <br></br>
             </h1>
             <h1 className="home-title1">
-              <span>You can trust</span>
+              <span>
+                You can
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
+              </span>
+              <span className="home-text03">trust</span>
               <span>.</span>
               <br></br>
             </h1>
@@ -71,7 +79,7 @@ const Home = (props) => {
             className="home-image1"
           />
           <div className="home-container2">
-            <h2 className="home-text07">
+            <h2 className="home-text08">
               <span>
                 We do not employ an army of paralegals or secretaries, or
                 outsource cases to other law firms. Each
@@ -93,7 +101,7 @@ const Home = (props) => {
             </h2>
             <Link href="/contact">
               <a className="home-link02">
-                <h1 className="home-text10">Contact</h1>
+                <h1 className="home-text11">Contact</h1>
               </a>
             </Link>
           </div>
@@ -102,23 +110,23 @@ const Home = (props) => {
           <div className="home-container4">
             <Link href="/company-registration">
               <a className="home-link03">
-                <h1 className="home-text11">
-                  <span className="home-text12">Company Registration</span>
+                <h1 className="home-text12">
+                  <span className="home-text13">Company Registration</span>
                   <br></br>
                 </h1>
               </a>
             </Link>
             <Link href="/obtain-a-visa">
               <a className="home-link04">
-                <h1 className="home-text14">Obtain a Visa</h1>
+                <h1 className="home-text15">Obtain a Visa</h1>
               </a>
             </Link>
           </div>
         </div>
         <section className="home-practices">
-          <h2 id="ourpracticeareas" className="home-text15">
-            <span className="home-text16">Our practice areas</span>
-            <span className="home-text17">.</span>
+          <h2 id="ourpracticeareas" className="home-text16">
+            <span className="home-text17">Our practice areas</span>
+            <span className="home-text18">.</span>
             <br></br>
           </h2>
           <div className="home-container5">
@@ -197,7 +205,7 @@ const Home = (props) => {
           </div>
         </section>
         <div className="home-banner">
-          <h1 className="home-text19">
+          <h1 className="home-text20">
             <span>
               We
               <span
@@ -206,7 +214,7 @@ const Home = (props) => {
                 }}
               />
             </span>
-            <span className="home-text21">fight</span>
+            <span className="home-text22">fight</span>
             <span>
               {' '}
               for our clients.
@@ -220,7 +228,7 @@ const Home = (props) => {
         </div>
         <section className="home-improve">
           <div className="home-heading">
-            <h2 className="home-text23">
+            <h2 className="home-text24">
               Consistently rated as one of the best law firms in Southeast Asia
             </h2>
           </div>
@@ -232,15 +240,15 @@ const Home = (props) => {
             </div>
             <Link href="/contact">
               <a className="home-link11">
-                <h1 className="home-text24">Let&apos;s Talk</h1>
+                <h1 className="home-text25">Let&apos;s Talk</h1>
               </a>
             </Link>
           </div>
         </section>
         <section className="home-newsletter">
           <div className="home-header1">
-            <h2 className="home-text25">Subscribe to our newsletter</h2>
-            <p className="home-text26">
+            <h2 className="home-text26">Subscribe to our newsletter</h2>
+            <p className="home-text27">
               Get legal insights and market updates.
             </p>
           </div>
@@ -321,6 +329,9 @@ const Home = (props) => {
             font-family: 'Josefin Sans';
             font-weight: 700;
           }
+          .home-text03 {
+            background-color: rgb(255, 255, 0);
+          }
           .home-description {
             color: var(--dl-color-gray-black);
             width: 75%;
@@ -370,7 +381,7 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: flex-start;
           }
-          .home-text07 {
+          .home-text08 {
             color: var(--dl-color-gray-black);
             width: 80%;
             font-size: 1.5rem;
@@ -382,7 +393,7 @@ const Home = (props) => {
           .home-link02 {
             display: contents;
           }
-          .home-text10 {
+          .home-text11 {
             color: var(--dl-color-gray-black);
             font-size: 1.5rem;
             font-style: normal;
@@ -398,7 +409,7 @@ const Home = (props) => {
             padding-bottom: var(--dl-space-space-oneandhalfunits);
             text-decoration: none;
           }
-          .home-text10:hover {
+          .home-text11:hover {
             color: var(--dl-color-gray-white);
             background-color: #1b1b1b;
           }
@@ -425,7 +436,7 @@ const Home = (props) => {
           .home-link03 {
             display: contents;
           }
-          .home-text11 {
+          .home-text12 {
             fill: var(--dl-color-theme-secondary1);
             color: var(--dl-color-theme-secondary1);
             font-size: 2rem;
@@ -435,7 +446,7 @@ const Home = (props) => {
             font-weight: 200;
             text-decoration: none;
           }
-          .home-text11:hover {
+          .home-text12:hover {
             border-color: #ffff00;
             border-width: 1px;
             border-top-width: 0px;
@@ -445,7 +456,7 @@ const Home = (props) => {
           .home-link04 {
             display: contents;
           }
-          .home-text14 {
+          .home-text15 {
             fill: var(--dl-color-theme-secondary1);
             color: var(--dl-color-theme-secondary1);
             font-size: 2rem;
@@ -455,7 +466,7 @@ const Home = (props) => {
             font-weight: 200;
             text-decoration: none;
           }
-          .home-text14:hover {
+          .home-text15:hover {
             border-color: #ffff00;
             border-width: 1px;
             border-top-width: 0px;
@@ -473,7 +484,7 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .home-text15 {
+          .home-text16 {
             color: var(--dl-color-gray-black);
             font-size: 2.5rem;
             font-style: normal;
@@ -559,7 +570,7 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: space-between;
           }
-          .home-text19 {
+          .home-text20 {
             color: var(--dl-color-gray-black);
             font-size: 2.5rem;
             font-style: normal;
@@ -567,7 +578,7 @@ const Home = (props) => {
             font-family: 'Josefin Sans';
             font-weight: 400;
           }
-          .home-text21 {
+          .home-text22 {
             background-color: rgb(255, 255, 0);
           }
           .home-improve {
@@ -587,7 +598,7 @@ const Home = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .home-text23 {
+          .home-text24 {
             color: var(--dl-color-gray-black);
             font-size: 2rem;
             max-width: 600px;
@@ -646,7 +657,7 @@ const Home = (props) => {
           .home-link11 {
             display: contents;
           }
-          .home-text24 {
+          .home-text25 {
             color: var(--dl-color-gray-white);
             font-size: 1.5rem;
             font-style: normal;
@@ -662,7 +673,7 @@ const Home = (props) => {
             text-decoration: none;
             background-color: #1b1b1b;
           }
-          .home-text24:hover {
+          .home-text25:hover {
             color: var(--dl-color-gray-black);
             border: none;
             background-color: #ffff00;
@@ -690,7 +701,7 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .home-text25 {
+          .home-text26 {
             color: var(--dl-color-gray-black);
             width: 100%;
             font-size: 2.5rem;
@@ -700,7 +711,7 @@ const Home = (props) => {
             font-family: 'Josefin Sans';
             font-weight: 300;
           }
-          .home-text26 {
+          .home-text27 {
             color: var(--dl-color-gray-black);
             width: 100%;
             font-size: 1.5rem;
@@ -805,11 +816,11 @@ const Home = (props) => {
               padding-bottom: 0px;
               justify-content: flex-start;
             }
-            .home-text07 {
+            .home-text08 {
               color: var(--dl-color-gray-black);
               width: 80%;
             }
-            .home-text10 {
+            .home-text11 {
               color: var(--dl-color-gray-black);
               padding: var(--dl-space-space-oneandhalfunits);
               font-size: 1.5rem;
@@ -828,23 +839,23 @@ const Home = (props) => {
               height: 100%;
               border-radius: var(--dl-radius-radius-round);
             }
-            .home-text11 {
-              color: var(--dl-color-gray-white);
-            }
-            .home-text14 {
+            .home-text12 {
               color: var(--dl-color-gray-white);
             }
             .home-text15 {
+              color: var(--dl-color-gray-white);
+            }
+            .home-text16 {
               color: var(--dl-color-gray-black);
             }
-            .home-text19 {
+            .home-text20 {
               color: var(--dl-color-gray-black);
               font-size: 2.5rem;
               font-style: normal;
               font-family: Josefin Sans;
               font-weight: 400;
             }
-            .home-text21 {
+            .home-text22 {
               background-color: rgb(255, 255, 0);
             }
             .home-container7 {
@@ -854,7 +865,7 @@ const Home = (props) => {
             .home-title2 {
               color: rgb(247, 247, 247);
             }
-            .home-text24 {
+            .home-text25 {
               font-size: 1.5rem;
               font-style: normal;
               font-family: Josefin Sans;
@@ -891,18 +902,18 @@ const Home = (props) => {
             .home-container2 {
               width: 40%;
             }
-            .home-text07 {
+            .home-text08 {
               color: var(--dl-color-gray-black);
               width: 75%;
               max-width: auto;
             }
-            .home-text10 {
+            .home-text11 {
               color: var(--dl-color-gray-black);
             }
             .home-container4 {
               width: 75%;
             }
-            .home-text23 {
+            .home-text24 {
               color: var(--dl-color-gray-black);
               font-size: 2rem;
               font-style: normal;
@@ -916,13 +927,13 @@ const Home = (props) => {
             .home-container7 {
               width: 100%;
             }
-            .home-text24 {
+            .home-text25 {
               background-color: #1b1b1b;
             }
             .home-newsletter {
               max-width: auto;
             }
-            .home-text26 {
+            .home-text27 {
               color: var(--dl-color-gray-black);
               font-size: 1.5rem;
               line-height: 30px;
@@ -967,18 +978,18 @@ const Home = (props) => {
               margin-right: var(--dl-space-space-unit);
               margin-bottom: var(--dl-space-space-unit);
             }
-            .home-text07 {
+            .home-text08 {
               color: var(--dl-color-gray-black);
               width: 80%;
               align-self: center;
             }
-            .home-text10 {
+            .home-text11 {
               align-self: center;
             }
             .home-container3 {
               width: 100%;
             }
-            .home-text14 {
+            .home-text15 {
               font-size: 2rem;
             }
             .home-practices {
@@ -991,7 +1002,7 @@ const Home = (props) => {
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .home-text23 {
+            .home-text24 {
               font-style: normal;
               font-family: Josefin Sans;
               font-weight: 200;
@@ -1000,7 +1011,7 @@ const Home = (props) => {
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .home-text24 {
+            .home-text25 {
               background-color: #1b1b1b;
             }
             .home-newsletter {
@@ -1011,7 +1022,7 @@ const Home = (props) => {
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-threeunits);
             }
-            .home-text26 {
+            .home-text27 {
               font-size: 1.5rem;
               line-height: 24px;
             }
@@ -1045,24 +1056,24 @@ const Home = (props) => {
               margin-left: var(--dl-space-space-unit);
               margin-right: var(--dl-space-space-unit);
             }
-            .home-text07 {
+            .home-text08 {
               width: 80%;
             }
             .home-container4 {
               width: 100%;
               border-radius: var(--dl-radius-radius-radius4);
             }
-            .home-text11 {
+            .home-text12 {
               color: var(--dl-color-gray-white);
               font-size: 2rem;
               font-style: normal;
               font-family: Josefin Sans;
               font-weight: 200;
             }
-            .home-text12 {
+            .home-text13 {
               color: var(--dl-color-gray-white);
             }
-            .home-text14 {
+            .home-text15 {
               font-size: 2rem;
             }
             .home-practices {
@@ -1071,11 +1082,11 @@ const Home = (props) => {
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-fourunits);
             }
-            .home-text16 {
+            .home-text17 {
               font-size: 30px;
               line-height: 36px;
             }
-            .home-text17 {
+            .home-text18 {
               font-size: 30px;
               line-height: 36px;
             }
@@ -1092,7 +1103,7 @@ const Home = (props) => {
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
             }
-            .home-text23 {
+            .home-text24 {
               color: var(--dl-color-gray-black);
               font-size: 2rem;
               line-height: 41px;
@@ -1119,7 +1130,7 @@ const Home = (props) => {
               width: 100%;
               margin-left: var(--dl-space-space-unit);
             }
-            .home-text07 {
+            .home-text08 {
               width: 100%;
             }
             .home-container4 {
@@ -1127,7 +1138,7 @@ const Home = (props) => {
               height: 100%;
               border-radius: var(--dl-radius-radius-radius4);
             }
-            .home-text14 {
+            .home-text15 {
               font-size: 2rem;
             }
             .home-practices {
@@ -1141,7 +1152,7 @@ const Home = (props) => {
               padding-right: var(--dl-space-space-unit);
               padding-bottom: var(--dl-space-space-twounits);
             }
-            .home-text23 {
+            .home-text24 {
               color: var(--dl-color-gray-black);
               font-size: 2rem;
             }
@@ -1160,10 +1171,10 @@ const Home = (props) => {
               font-size: 2.5rem;
               line-height: 41px;
             }
-            .home-text25 {
+            .home-text26 {
               color: var(--dl-color-gray-black);
             }
-            .home-text26 {
+            .home-text27 {
               color: var(--dl-color-gray-black);
               font-size: 1.5rem;
             }
