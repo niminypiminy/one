@@ -30,7 +30,7 @@ const Home = (props) => {
         <header className="home-hero">
           <div className="home-container1">
             <h1 className="home-title">
-              <span>A law firm,</span>
+              <span>Legal Advice,</span>
               <br></br>
             </h1>
             <h1 className="home-title1">

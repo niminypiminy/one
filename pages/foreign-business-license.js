@@ -12,14 +12,16 @@ const ForeignBusinessLicense = (props) => {
     <>
       <div className="foreign-business-license-container">
         <Head>
-          <title>Foreign-Business-License - Danneskiold & Associates</title>
+          <title>
+            Foreign-Business-License - Danneskiold & Associates | Law Firm
+          </title>
           <meta
             name="description"
             content="Danneskiold &amp; Associates is a boutique law firm in Bangkok, providing expertise in criminal, immigration, tort, contract, and corporate law."
           />
           <meta
             property="og:title"
-            content="Foreign-Business-License - Danneskiold &amp; Associates"
+            content="Foreign-Business-License - Danneskiold &amp; Associates | Law Firm "
           />
           <meta
             property="og:description"

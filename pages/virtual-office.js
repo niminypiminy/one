@@ -9,14 +9,14 @@ const VirtualOffice = (props) => {
     <>
       <div className="virtual-office-container">
         <Head>
-          <title>Virtual-Office - Danneskiold & Associates</title>
+          <title>Virtual-Office - Danneskiold & Associates | Law Firm</title>
           <meta
             name="description"
             content="Danneskiold &amp; Associates is a boutique law firm in Bangkok, providing expertise in criminal, immigration, tort, contract, and corporate law."
           />
           <meta
             property="og:title"
-            content="Virtual-Office - Danneskiold &amp; Associates"
+            content="Virtual-Office - Danneskiold &amp; Associates | Law Firm "
           />
           <meta
             property="og:description"

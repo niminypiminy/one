@@ -77,7 +77,7 @@ const BlogPostHeader3 = (props) => {
             font-style: normal;
             text-align: center;
             font-family: 'Noto Sans Thai';
-            font-weight: 700;
+            font-weight: 400;
           }
           .blog-post-header3-read-time {
             font-size: 1.2rem;

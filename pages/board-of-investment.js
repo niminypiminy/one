@@ -11,14 +11,16 @@ const BoardOfInvestment = (props) => {
     <>
       <div className="board-of-investment-container">
         <Head>
-          <title>Board-of-Investment - Danneskiold & Associates</title>
+          <title>
+            Board-of-Investment - Danneskiold & Associates | Law Firm
+          </title>
           <meta
             name="description"
             content="Danneskiold &amp; Associates is a boutique law firm in Bangkok, providing expertise in criminal, immigration, tort, contract, and corporate law."
           />
           <meta
             property="og:title"
-            content="Board-of-Investment - Danneskiold &amp; Associates"
+            content="Board-of-Investment - Danneskiold &amp; Associates | Law Firm "
           />
           <meta
             property="og:description"

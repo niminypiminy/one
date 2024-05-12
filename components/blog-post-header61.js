@@ -75,8 +75,10 @@ const BlogPostHeader61 = (props) => {
           }
           .blog-post-header61-title {
             font-size: 3rem;
+            font-style: normal;
             text-align: center;
             font-family: 'Josefin Sans';
+            font-weight: 400;
           }
           .blog-post-header61-read-time {
             font-size: 1.2rem;

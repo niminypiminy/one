@@ -11,7 +11,8 @@ const ThaiAustraliaFreeTradeAgreement = (props) => {
       <div className="thai-australia-free-trade-agreement-container">
         <Head>
           <title>
-            Thai-Australia-Free-Trade-Agreement - Danneskiold & Associates
+            Thai-Australia-Free-Trade-Agreement - Danneskiold & Associates | Law
+            Firm
           </title>
           <meta
             name="description"
@@ -19,7 +20,7 @@ const ThaiAustraliaFreeTradeAgreement = (props) => {
           />
           <meta
             property="og:title"
-            content="Thai-Australia-Free-Trade-Agreement - Danneskiold &amp; Associates"
+            content="Thai-Australia-Free-Trade-Agreement - Danneskiold &amp; Associates | Law Firm "
           />
           <meta
             property="og:description"

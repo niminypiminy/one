@@ -10,14 +10,16 @@ const RepresentativeOffice = (props) => {
     <>
       <div className="representative-office-container">
         <Head>
-          <title>Representative-Office - Danneskiold & Associates</title>
+          <title>
+            Representative-Office - Danneskiold & Associates | Law Firm
+          </title>
           <meta
             name="description"
             content="Danneskiold &amp; Associates is a boutique law firm in Bangkok, providing expertise in criminal, immigration, tort, contract, and corporate law."
           />
           <meta
             property="og:title"
-            content="Representative-Office - Danneskiold &amp; Associates"
+            content="Representative-Office - Danneskiold &amp; Associates | Law Firm "
           />
           <meta
             property="og:description"

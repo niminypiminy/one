@@ -8,14 +8,14 @@ const Fraud = (props) => {
     <>
       <div className="fraud-container">
         <Head>
-          <title>Fraud - Danneskiold & Associates</title>
+          <title>Fraud - Danneskiold & Associates | Law Firm</title>
           <meta
             name="description"
             content="Danneskiold &amp; Associates is a boutique law firm in Bangkok, providing expertise in criminal, immigration, tort, contract, and corporate law."
           />
           <meta
             property="og:title"
-            content="Fraud - Danneskiold &amp; Associates"
+            content="Fraud - Danneskiold &amp; Associates | Law Firm "
           />
           <meta
             property="og:description"

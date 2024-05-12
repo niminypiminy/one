@@ -9,14 +9,14 @@ const PreferredShares = (props) => {
     <>
       <div className="preferred-shares-container">
         <Head>
-          <title>Preferred-shares - Danneskiold & Associates</title>
+          <title>Preferred-shares - Danneskiold & Associates | Law Firm</title>
           <meta
             name="description"
             content="Danneskiold &amp; Associates is a boutique law firm in Bangkok, providing expertise in criminal, immigration, tort, contract, and corporate law."
           />
           <meta
             property="og:title"
-            content="Preferred-shares - Danneskiold &amp; Associates"
+            content="Preferred-shares - Danneskiold &amp; Associates | Law Firm "
           />
           <meta
             property="og:description"

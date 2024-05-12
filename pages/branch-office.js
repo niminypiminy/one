@@ -10,14 +10,14 @@ const BranchOffice = (props) => {
     <>
       <div className="branch-office-container">
         <Head>
-          <title>Branch-Office - Danneskiold & Associates</title>
+          <title>Branch-Office - Danneskiold & Associates | Law Firm</title>
           <meta
             name="description"
             content="Danneskiold &amp; Associates is a boutique law firm in Bangkok, providing expertise in criminal, immigration, tort, contract, and corporate law."
           />
           <meta
             property="og:title"
-            content="Branch-Office - Danneskiold &amp; Associates"
+            content="Branch-Office - Danneskiold &amp; Associates | Law Firm "
           />
           <meta
             property="og:description"

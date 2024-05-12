@@ -10,14 +10,14 @@ const ProBono = (props) => {
     <>
       <div className="pro-bono-container">
         <Head>
-          <title>Pro-bono - Danneskiold & Associates</title>
+          <title>Pro-bono - Danneskiold & Associates | Law Firm</title>
           <meta
             name="description"
             content="Danneskiold &amp; Associates is a boutique law firm in Bangkok, providing expertise in criminal, immigration, tort, contract, and corporate law."
           />
           <meta
             property="og:title"
-            content="Pro-bono - Danneskiold &amp; Associates"
+            content="Pro-bono - Danneskiold &amp; Associates | Law Firm "
           />
           <meta
             property="og:description"

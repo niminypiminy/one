@@ -10,14 +10,14 @@ const ContractLaw = (props) => {
     <>
       <div className="contract-law-container">
         <Head>
-          <title>Contract-Law - Danneskiold & Associates</title>
+          <title>Contract-Law - Danneskiold & Associates | Law Firm</title>
           <meta
             name="description"
             content="Danneskiold &amp; Associates is a boutique law firm in Bangkok, providing expertise in criminal, immigration, tort, contract, and corporate law."
           />
           <meta
             property="og:title"
-            content="Contract-Law - Danneskiold &amp; Associates"
+            content="Contract-Law - Danneskiold &amp; Associates | Law Firm "
           />
           <meta
             property="og:description"

@@ -6,14 +6,14 @@ const Page1 = (props) => {
     <>
       <div className="page1-container">
         <Head>
-          <title>Page1 - Danneskiold & Associates</title>
+          <title>Page1 - Danneskiold & Associates | Law Firm</title>
           <meta
             name="description"
             content="Danneskiold &amp; Associates is a boutique law firm in Bangkok, providing expertise in criminal, immigration, tort, contract, and corporate law."
           />
           <meta
             property="og:title"
-            content="Page1 - Danneskiold &amp; Associates"
+            content="Page1 - Danneskiold &amp; Associates | Law Firm "
           />
           <meta
             property="og:description"

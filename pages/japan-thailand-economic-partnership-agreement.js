@@ -12,7 +12,7 @@ const JapanThailandEconomicPartnershipAgreement = (props) => {
         <Head>
           <title>
             Japan-Thailand-Economic-Partnership-Agreement - Danneskiold &
-            Associates
+            Associates | Law Firm
           </title>
           <meta
             name="description"
@@ -20,7 +20,7 @@ const JapanThailandEconomicPartnershipAgreement = (props) => {
           />
           <meta
             property="og:title"
-            content="Japan-Thailand-Economic-Partnership-Agreement - Danneskiold &amp; Associates"
+            content="Japan-Thailand-Economic-Partnership-Agreement - Danneskiold &amp; Associates | Law Firm "
           />
           <meta
             property="og:description"

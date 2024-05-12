@@ -11,7 +11,8 @@ const CriminalProceedingsInThailand = (props) => {
       <div className="criminal-proceedings-in-thailand-container">
         <Head>
           <title>
-            Criminal-Proceedings-in-Thailand - Danneskiold & Associates
+            Criminal-Proceedings-in-Thailand - Danneskiold & Associates | Law
+            Firm
           </title>
           <meta
             name="description"
@@ -19,7 +20,7 @@ const CriminalProceedingsInThailand = (props) => {
           />
           <meta
             property="og:title"
-            content="Criminal-Proceedings-in-Thailand - Danneskiold &amp; Associates"
+            content="Criminal-Proceedings-in-Thailand - Danneskiold &amp; Associates | Law Firm "
           />
           <meta
             property="og:description"
@@ -77,6 +78,19 @@ const CriminalProceedingsInThailand = (props) => {
               <a className="criminal-proceedings-in-thailand-link3">fraud</a>
             </Link>
             <span>
+              ,
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
+            </span>
+            <Link href="/defamation">
+              <a className="criminal-proceedings-in-thailand-link4">
+                defamation
+              </a>
+            </Link>
+            <span>
               , and
               <span
                 dangerouslySetInnerHTML={{
@@ -85,7 +99,7 @@ const CriminalProceedingsInThailand = (props) => {
               />
             </span>
             <Link href="/trespass-to-the-person">
-              <a className="criminal-proceedings-in-thailand-link4">
+              <a className="criminal-proceedings-in-thailand-link5">
                 trespass to the person
               </a>
             </Link>
@@ -99,19 +113,19 @@ const CriminalProceedingsInThailand = (props) => {
           </span>
           <ul className="criminal-proceedings-in-thailand-ul list">
             <li className="list-item">
-              <span className="criminal-proceedings-in-thailand-text05">
+              <span className="criminal-proceedings-in-thailand-text06">
                 Lodge a formal complaint with the police.
               </span>
             </li>
-            <li className="list-item">
-              <span className="criminal-proceedings-in-thailand-text06">
+            <li className="criminal-proceedings-in-thailand-li01 list-item">
+              <span className="criminal-proceedings-in-thailand-text07">
                 The police will conduct an investigation and refer the case to
                 the Crown Prosecution Service (in the U.K.) or the local
                 prosecutor (in the U.S.A.).
               </span>
             </li>
             <li className="list-item">
-              <span className="criminal-proceedings-in-thailand-text07">
+              <span className="criminal-proceedings-in-thailand-text08">
                 Subsequently, the prosecutor in both jurisdictions will
                 determine whether to file criminal charges based on the specific
                 merits of the case.
@@ -123,7 +137,7 @@ const CriminalProceedingsInThailand = (props) => {
               </span>
             </li>
           </ul>
-          <span className="criminal-proceedings-in-thailand-text08">
+          <span className="criminal-proceedings-in-thailand-text09">
             <span>
               In Thailand, however, individual persons have
               <span
@@ -137,20 +151,20 @@ const CriminalProceedingsInThailand = (props) => {
           </span>
           <ul className="criminal-proceedings-in-thailand-ul1 list">
             <li className="criminal-proceedings-in-thailand-li03 list-item">
-              <span className="criminal-proceedings-in-thailand-text12">
+              <span className="criminal-proceedings-in-thailand-text13">
                 Lodge a complaint with the police, who will conduct an
                 investigation and subsequently refer the case to the state
                 prosecutor.
               </span>
             </li>
             <li className="criminal-proceedings-in-thailand-li04 list-item">
-              <span className="criminal-proceedings-in-thailand-text13">
+              <span className="criminal-proceedings-in-thailand-text14">
                 Alternatively, individuals can instigate criminal proceedings
                 themselves, often with the aid of legal representation.
               </span>
             </li>
           </ul>
-          <span className="criminal-proceedings-in-thailand-text14">
+          <span className="criminal-proceedings-in-thailand-text15">
             <span>
               Under Section 28 of the
               <span
@@ -159,7 +173,7 @@ const CriminalProceedingsInThailand = (props) => {
                 }}
               />
             </span>
-            <span className="criminal-proceedings-in-thailand-text16">
+            <span className="criminal-proceedings-in-thailand-text17">
               Criminal Procedure Code
             </span>
             <span>
@@ -173,7 +187,7 @@ const CriminalProceedingsInThailand = (props) => {
                 }}
               />
             </span>
-            <span className="criminal-proceedings-in-thailand-text18">
+            <span className="criminal-proceedings-in-thailand-text19">
               Private Criminal Proceedings
             </span>
             <span>
@@ -184,52 +198,52 @@ const CriminalProceedingsInThailand = (props) => {
                 }}
               />
             </span>
-            <span className="criminal-proceedings-in-thailand-text20">
+            <span className="criminal-proceedings-in-thailand-text21">
               Public criminal proceeding
             </span>
-            <span className="criminal-proceedings-in-thailand-text21">s</span>
+            <span className="criminal-proceedings-in-thailand-text22">s</span>
             <span>
                which are initiated by prosecutors on behalf of the state.
             </span>
           </span>
-          <span className="criminal-proceedings-in-thailand-text23">
+          <span className="criminal-proceedings-in-thailand-text24">
             Process for Self-Initiated Filing:
           </span>
           <ul className="criminal-proceedings-in-thailand-ul2 list">
             <li className="list-item">
-              <span className="criminal-proceedings-in-thailand-text24">
+              <span className="criminal-proceedings-in-thailand-text25">
                 Ask a lawyer to submit a criminal complaint to the appropriate
                 court.
               </span>
             </li>
             <li className="list-item">
-              <span className="criminal-proceedings-in-thailand-text25">
+              <span className="criminal-proceedings-in-thailand-text26">
                 The court will undertake an initial evaluation to review the
                 merits of the case.
               </span>
             </li>
             <li className="list-item">
-              <span className="criminal-proceedings-in-thailand-text26">
+              <span className="criminal-proceedings-in-thailand-text27">
                 If the case is deemed to have legal merit, the court will
                 authorize the continuation of the legal proceedings.
               </span>
             </li>
             <li className="list-item">
-              <span className="criminal-proceedings-in-thailand-text27">
+              <span className="criminal-proceedings-in-thailand-text28">
                 In instances where the injured party is a minor or otherwise
                 incapacitated, a guardian or parent often assumes the right to
                 initiate legal action on their behalf.
               </span>
             </li>
             <li className="list-item">
-              <span className="criminal-proceedings-in-thailand-text28">
+              <span className="criminal-proceedings-in-thailand-text29">
                 In cases involving a deceased or incapacitated victim, a family
                 member may commence the criminal proceeding by petitioning the
                 court.
               </span>
             </li>
             <li className="list-item">
-              <span className="criminal-proceedings-in-thailand-text29">
+              <span className="criminal-proceedings-in-thailand-text30">
                 Complaints against individuals for defamation, fraud,
                 misappropriation, mischief, and other compoundable offenses must
                 be lodged within three months from the date the offense and the
@@ -237,28 +251,28 @@ const CriminalProceedingsInThailand = (props) => {
               </span>
             </li>
           </ul>
-          <span className="criminal-proceedings-in-thailand-text30">
+          <span className="criminal-proceedings-in-thailand-text31">
             Process for Filing with the Police:
           </span>
           <ul className="criminal-proceedings-in-thailand-ul3 list">
             <li className="list-item">
-              <span className="criminal-proceedings-in-thailand-text31">
+              <span className="criminal-proceedings-in-thailand-text32">
                 Lodge a formal complaint at the local police station in
                 Thailand.
               </span>
             </li>
             <li className="list-item">
-              <span className="criminal-proceedings-in-thailand-text32">
+              <span className="criminal-proceedings-in-thailand-text33">
                 Allow the police time to conduct an investigation.
               </span>
             </li>
             <li className="list-item">
-              <span className="criminal-proceedings-in-thailand-text33">
+              <span className="criminal-proceedings-in-thailand-text34">
                 Wait for the prosecutor to file criminal charges.
               </span>
             </li>
           </ul>
-          <span className="criminal-proceedings-in-thailand-text34">
+          <span className="criminal-proceedings-in-thailand-text35">
             {' '}
             The police are subject to budget constraints; thus, if an
             investigation is deemed lengthy, costly, and the crime is not
@@ -267,8 +281,8 @@ const CriminalProceedingsInThailand = (props) => {
             it&apos;s more likely than not that they will allocate minimal
             resources. 
           </span>
-          <span className="criminal-proceedings-in-thailand-text35">
-            <span className="criminal-proceedings-in-thailand-text36">
+          <span className="criminal-proceedings-in-thailand-text36">
+            <span className="criminal-proceedings-in-thailand-text37">
               Important note:
             </span>
             <span>
@@ -282,7 +296,7 @@ const CriminalProceedingsInThailand = (props) => {
                 }}
               />
             </span>
-            <span className="criminal-proceedings-in-thailand-text38">
+            <span className="criminal-proceedings-in-thailand-text39">
               private criminal proceeding
             </span>
             <span>.</span>
@@ -290,7 +304,7 @@ const CriminalProceedingsInThailand = (props) => {
         </div>
         <div className="criminal-proceedings-in-thailand-container3">
           <Link href="/contact">
-            <a className="criminal-proceedings-in-thailand-link5 button">
+            <a className="criminal-proceedings-in-thailand-link6 button">
               Contact
             </a>
           </Link>
@@ -335,7 +349,7 @@ const CriminalProceedingsInThailand = (props) => {
           }
           .criminal-proceedings-in-thailand-text {
             width: 75%;
-            font-size: 2rem;
+            font-size: 1.5rem;
             font-style: normal;
             text-align: left;
             font-family: 'Josefin Sans';
@@ -350,33 +364,39 @@ const CriminalProceedingsInThailand = (props) => {
           .criminal-proceedings-in-thailand-link4 {
             text-decoration: underline;
           }
+          .criminal-proceedings-in-thailand-link5 {
+            text-decoration: underline;
+          }
           .criminal-proceedings-in-thailand-ul {
             width: 60%;
             margin-top: var(--dl-space-space-twounits);
             margin-bottom: var(--dl-space-space-twounits);
             list-style-type: disc;
           }
-          .criminal-proceedings-in-thailand-text05 {
-            font-size: 2rem;
+          .criminal-proceedings-in-thailand-text06 {
+            font-size: 1.5rem;
             font-style: normal;
             font-family: 'Josefin Sans';
             font-weight: 200;
           }
-          .criminal-proceedings-in-thailand-text06 {
-            font-size: 2rem;
-            font-style: normal;
+          .criminal-proceedings-in-thailand-li01 {
+            font-size: 1.5rem;
             font-family: 'Josefin Sans';
-            font-weight: 200;
           }
           .criminal-proceedings-in-thailand-text07 {
-            font-size: 2rem;
+            font-size: 1.5rem;
             font-style: normal;
-            font-family: 'Josefin Sans';
             font-weight: 200;
           }
           .criminal-proceedings-in-thailand-text08 {
+            font-size: 1.5rem;
+            font-style: normal;
+            font-family: 'Josefin Sans';
+            font-weight: 200;
+          }
+          .criminal-proceedings-in-thailand-text09 {
             width: 75%;
-            font-size: 2rem;
+            font-size: 1.5rem;
             font-style: normal;
             font-family: 'Josefin Sans';
             font-weight: 200;
@@ -392,8 +412,8 @@ const CriminalProceedingsInThailand = (props) => {
             font-family: 'Lora';
             list-style-type: disc;
           }
-          .criminal-proceedings-in-thailand-text12 {
-            font-size: 2rem;
+          .criminal-proceedings-in-thailand-text13 {
+            font-size: 1.5rem;
             font-style: normal;
             font-family: 'Josefin Sans';
             font-weight: 200;
@@ -402,38 +422,38 @@ const CriminalProceedingsInThailand = (props) => {
             font-size: 16px;
             font-family: 'Lora';
           }
-          .criminal-proceedings-in-thailand-text13 {
-            font-size: 2rem;
-            font-style: normal;
-            font-family: 'Josefin Sans';
-            font-weight: 200;
-          }
           .criminal-proceedings-in-thailand-text14 {
-            width: 75%;
-            font-size: 2rem;
+            font-size: 1.5rem;
             font-style: normal;
             font-family: 'Josefin Sans';
             font-weight: 200;
           }
-          .criminal-proceedings-in-thailand-text16 {
+          .criminal-proceedings-in-thailand-text15 {
+            width: 75%;
+            font-size: 1.5rem;
+            font-style: normal;
+            font-family: 'Josefin Sans';
+            font-weight: 200;
+          }
+          .criminal-proceedings-in-thailand-text17 {
             font-style: italic;
             font-weight: 200;
           }
-          .criminal-proceedings-in-thailand-text18 {
+          .criminal-proceedings-in-thailand-text19 {
             font-style: italic;
-            font-weight: 300;
-          }
-          .criminal-proceedings-in-thailand-text20 {
-            font-style: normal;
             font-weight: 300;
           }
           .criminal-proceedings-in-thailand-text21 {
+            font-style: normal;
+            font-weight: 300;
+          }
+          .criminal-proceedings-in-thailand-text22 {
             font-style: italic;
             font-weight: 200;
           }
-          .criminal-proceedings-in-thailand-text23 {
+          .criminal-proceedings-in-thailand-text24 {
             width: 75%;
-            font-size: 2rem;
+            font-size: 1.5rem;
             font-style: normal;
             margin-top: var(--dl-space-space-twounits);
             font-family: 'Josefin Sans';
@@ -445,45 +465,45 @@ const CriminalProceedingsInThailand = (props) => {
             margin-bottom: var(--dl-space-space-twounits);
             list-style-type: disc;
           }
-          .criminal-proceedings-in-thailand-text24 {
-            font-size: 2rem;
-            font-style: normal;
-            font-family: 'Josefin Sans';
-            font-weight: 200;
-          }
           .criminal-proceedings-in-thailand-text25 {
-            font-size: 2rem;
+            font-size: 1.5rem;
             font-style: normal;
             font-family: 'Josefin Sans';
             font-weight: 200;
           }
           .criminal-proceedings-in-thailand-text26 {
-            font-size: 2rem;
+            font-size: 1.5rem;
             font-style: normal;
             font-family: 'Josefin Sans';
             font-weight: 200;
           }
           .criminal-proceedings-in-thailand-text27 {
-            font-size: 2rem;
+            font-size: 1.5rem;
             font-style: normal;
             font-family: 'Josefin Sans';
             font-weight: 200;
           }
           .criminal-proceedings-in-thailand-text28 {
-            font-size: 2rem;
+            font-size: 1.5rem;
             font-style: normal;
             font-family: 'Josefin Sans';
             font-weight: 200;
           }
           .criminal-proceedings-in-thailand-text29 {
-            font-size: 2rem;
+            font-size: 1.5rem;
             font-style: normal;
             font-family: 'Josefin Sans';
             font-weight: 200;
           }
           .criminal-proceedings-in-thailand-text30 {
+            font-size: 1.5rem;
+            font-style: normal;
+            font-family: 'Josefin Sans';
+            font-weight: 200;
+          }
+          .criminal-proceedings-in-thailand-text31 {
             width: 75%;
-            font-size: 2rem;
+            font-size: 1.5rem;
             font-style: normal;
             margin-top: var(--dl-space-space-twounits);
             font-family: 'Josefin Sans';
@@ -495,44 +515,44 @@ const CriminalProceedingsInThailand = (props) => {
             margin-bottom: var(--dl-space-space-twounits);
             list-style-type: disc;
           }
-          .criminal-proceedings-in-thailand-text31 {
-            font-size: 2rem;
-            font-style: normal;
-            font-family: 'Josefin Sans';
-            font-weight: 200;
-          }
           .criminal-proceedings-in-thailand-text32 {
-            font-size: 2rem;
+            font-size: 1.5rem;
             font-style: normal;
             font-family: 'Josefin Sans';
             font-weight: 200;
           }
           .criminal-proceedings-in-thailand-text33 {
-            font-size: 2rem;
+            font-size: 1.5rem;
             font-style: normal;
             font-family: 'Josefin Sans';
             font-weight: 200;
           }
           .criminal-proceedings-in-thailand-text34 {
-            width: 75%;
-            font-size: 2rem;
+            font-size: 1.5rem;
             font-style: normal;
             font-family: 'Josefin Sans';
             font-weight: 200;
           }
           .criminal-proceedings-in-thailand-text35 {
             width: 75%;
-            font-size: 2rem;
+            font-size: 1.5rem;
+            font-style: normal;
+            font-family: 'Josefin Sans';
+            font-weight: 200;
+          }
+          .criminal-proceedings-in-thailand-text36 {
+            width: 75%;
+            font-size: 1.5rem;
             font-style: normal;
             margin-top: var(--dl-space-space-twounits);
             font-family: 'Josefin Sans';
             font-weight: 200;
           }
-          .criminal-proceedings-in-thailand-text36 {
+          .criminal-proceedings-in-thailand-text37 {
             font-style: italic;
             font-weight: 200;
           }
-          .criminal-proceedings-in-thailand-text38 {
+          .criminal-proceedings-in-thailand-text39 {
             font-style: italic;
             font-weight: 300;
           }
@@ -546,7 +566,7 @@ const CriminalProceedingsInThailand = (props) => {
             align-items: center;
             justify-content: center;
           }
-          .criminal-proceedings-in-thailand-link5 {
+          .criminal-proceedings-in-thailand-link6 {
             fill: var(--dl-color-theme-neutral-dark);
             color: var(--dl-color-theme-neutral-dark);
             font-size: 1.5rem;
@@ -557,15 +577,15 @@ const CriminalProceedingsInThailand = (props) => {
             background-color: #ffff00;
           }
           @media (max-width: 1600px) {
-            .criminal-proceedings-in-thailand-text18 {
-              font-style: italic;
-              font-weight: 300;
-            }
-            .criminal-proceedings-in-thailand-text20 {
+            .criminal-proceedings-in-thailand-text19 {
               font-style: italic;
               font-weight: 300;
             }
             .criminal-proceedings-in-thailand-text21 {
+              font-style: italic;
+              font-weight: 300;
+            }
+            .criminal-proceedings-in-thailand-text22 {
               font-style: italic;
               font-weight: 300;
             }
@@ -577,31 +597,31 @@ const CriminalProceedingsInThailand = (props) => {
             .criminal-proceedings-in-thailand-ul {
               width: 80%;
             }
-            .criminal-proceedings-in-thailand-text08 {
+            .criminal-proceedings-in-thailand-text09 {
               width: 90%;
             }
             .criminal-proceedings-in-thailand-ul1 {
               width: 80%;
             }
-            .criminal-proceedings-in-thailand-text14 {
+            .criminal-proceedings-in-thailand-text15 {
               width: 90%;
             }
-            .criminal-proceedings-in-thailand-text23 {
+            .criminal-proceedings-in-thailand-text24 {
               width: 90%;
             }
             .criminal-proceedings-in-thailand-ul2 {
               width: 80%;
             }
-            .criminal-proceedings-in-thailand-text30 {
+            .criminal-proceedings-in-thailand-text31 {
               width: 90%;
             }
             .criminal-proceedings-in-thailand-ul3 {
               width: 80%;
             }
-            .criminal-proceedings-in-thailand-text34 {
+            .criminal-proceedings-in-thailand-text35 {
               width: 90%;
             }
-            .criminal-proceedings-in-thailand-text35 {
+            .criminal-proceedings-in-thailand-text36 {
               width: 90%;
             }
           }
@@ -615,7 +635,7 @@ const CriminalProceedingsInThailand = (props) => {
             .criminal-proceedings-in-thailand-ul1 {
               width: 80%;
             }
-            .criminal-proceedings-in-thailand-text14 {
+            .criminal-proceedings-in-thailand-text15 {
               width: 90%;
             }
             .criminal-proceedings-in-thailand-ul2 {
@@ -624,10 +644,10 @@ const CriminalProceedingsInThailand = (props) => {
             .criminal-proceedings-in-thailand-ul3 {
               width: 80%;
             }
-            .criminal-proceedings-in-thailand-text34 {
+            .criminal-proceedings-in-thailand-text35 {
               width: 90%;
             }
-            .criminal-proceedings-in-thailand-text35 {
+            .criminal-proceedings-in-thailand-text36 {
               width: 90%;
             }
           }

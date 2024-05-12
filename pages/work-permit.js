@@ -10,14 +10,14 @@ const WorkPermit = (props) => {
     <>
       <div className="work-permit-container">
         <Head>
-          <title>Work-Permit - Danneskiold & Associates</title>
+          <title>Work-Permit - Danneskiold & Associates | Law Firm</title>
           <meta
             name="description"
             content="Danneskiold &amp; Associates is a boutique law firm in Bangkok, providing expertise in criminal, immigration, tort, contract, and corporate law."
           />
           <meta
             property="og:title"
-            content="Work-Permit - Danneskiold &amp; Associates"
+            content="Work-Permit - Danneskiold &amp; Associates | Law Firm "
           />
           <meta
             property="og:description"

@@ -8,14 +8,14 @@ const ObtainAVisa = (props) => {
     <>
       <div className="obtain-a-visa-container">
         <Head>
-          <title>Obtain-a-Visa - Danneskiold & Associates</title>
+          <title>Obtain-a-Visa - Danneskiold & Associates | Law Firm</title>
           <meta
             name="description"
             content="Danneskiold &amp; Associates is a boutique law firm in Bangkok, providing expertise in criminal, immigration, tort, contract, and corporate law."
           />
           <meta
             property="og:title"
-            content="Obtain-a-Visa - Danneskiold &amp; Associates"
+            content="Obtain-a-Visa - Danneskiold &amp; Associates | Law Firm "
           />
           <meta
             property="og:description"

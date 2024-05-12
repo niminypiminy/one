@@ -10,14 +10,16 @@ const LimitedPartnershipLP = (props) => {
     <>
       <div className="limited-partnership-lp-container">
         <Head>
-          <title>Limited-Partnership-LP - Danneskiold & Associates</title>
+          <title>
+            Limited-Partnership-LP - Danneskiold & Associates | Law Firm
+          </title>
           <meta
             name="description"
             content="Danneskiold &amp; Associates is a boutique law firm in Bangkok, providing expertise in criminal, immigration, tort, contract, and corporate law."
           />
           <meta
             property="og:title"
-            content="Limited-Partnership-LP - Danneskiold &amp; Associates"
+            content="Limited-Partnership-LP - Danneskiold &amp; Associates | Law Firm "
           />
           <meta
             property="og:description"
