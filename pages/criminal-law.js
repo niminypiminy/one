@@ -168,7 +168,7 @@ const CriminalLaw = (props) => {
             font-style: normal;
             margin-top: var(--dl-space-space-twounits);
             font-family: 'Josefin Sans';
-            font-weight: 300;
+            font-weight: 200;
             line-height: 1.15em;
             margin-bottom: var(--dl-space-space-twounits);
           }
@@ -267,7 +267,7 @@ const CriminalLaw = (props) => {
             font-size: 2rem;
             font-style: normal;
             font-family: 'Josefin Sans';
-            font-weight: 400;
+            font-weight: 300;
             background-color: #ffff00;
           }
           .criminal-law-content {
@@ -283,7 +283,7 @@ const CriminalLaw = (props) => {
             font-size: 1.5rem;
             font-style: normal;
             font-family: 'Josefin Sans';
-            font-weight: 300;
+            font-weight: 200;
           }
           .criminal-law-link1 {
             text-decoration: underline;
@@ -304,9 +304,6 @@ const CriminalLaw = (props) => {
             }
             .criminal-law-max-width {
               width: 80%;
-            }
-            .criminal-law-text03 {
-              font-size: 2rem;
             }
           }
           @media (max-width: 1200px) {

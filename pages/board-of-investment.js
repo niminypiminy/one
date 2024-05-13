@@ -36,7 +36,7 @@ const BoardOfInvestment = (props) => {
           <div className="board-of-investment-container01">
             <h1 className="board-of-investment-text">
               <span>
-                How to register with the Thai Board of
+                Thailand Board of
                 <span
                   dangerouslySetInnerHTML={{
                     __html: ' ',
@@ -47,10 +47,11 @@ const BoardOfInvestment = (props) => {
               <span> (BOI). </span>
             </h1>
             <span className="board-of-investment-text04">
-              The board of investment was established in 1966, under the office
-              of the prime minister of Thailand for the purpose of attracting
-              foreign investment. The BOI offers both tax and non-tax
-              incentives.
+              The Board of Investment (BOI) was founded in 1966 under the
+              authority of the Prime Minister of Thailand with the primary
+              objective of attracting foreign investments. The BOI provides a
+              wide range of incentives, including tax exemptions and other
+              benefits, to eligible businesses.
             </span>
           </div>
           <img
@@ -70,11 +71,11 @@ const BoardOfInvestment = (props) => {
             />
           </h1>
           <span className="board-of-investment-text06">
-            The Board of Investment (BOI) evaluates incentives individually,
-            taking into account factors such as capital investment, sector of
-            activity, workforce size, and other relevant criteria. Among the
-            advantages are tax exemptions, tariff waivers, full foreign
-            ownership rights, and protection of intellectual property.
+            The Board of Investment (BOI) carefully assesses incentives on a
+            case-by-case basis, considering factors like capital investment,
+            industry sector, workforce scale, and other pertinent criteria.
+            Benefits include tax exemptions, tariff exemptions, complete foreign
+            ownership privileges, and safeguarding of intellectual property.
           </span>
         </div>
         <section id="arrow" className="board-of-investment-section">
@@ -354,19 +355,19 @@ const BoardOfInvestment = (props) => {
             font-size: 2.5rem;
             max-width: auto;
             font-style: normal;
-            font-family: Josefin Sans;
+            font-family: 'Josefin Sans';
             font-weight: 400;
           }
           .board-of-investment-text02 {
             background-color: rgb(255, 255, 0);
           }
           .board-of-investment-text04 {
-            width: 75%;
+            width: 65%;
             font-size: 1.5rem;
             font-style: normal;
             margin-top: var(--dl-space-space-twounits);
             font-family: Josefin Sans;
-            font-weight: 300;
+            font-weight: 200;
             margin-bottom: var(--dl-space-space-twounits);
           }
           .board-of-investment-image {
@@ -406,7 +407,7 @@ const BoardOfInvestment = (props) => {
             margin-top: var(--dl-space-space-twounits);
             text-align: center;
             font-family: 'Josefin Sans';
-            font-weight: 300;
+            font-weight: 200;
           }
           .board-of-investment-section {
             gap: var(--dl-space-space-fiveunits);
@@ -472,7 +473,7 @@ const BoardOfInvestment = (props) => {
             font-style: normal;
             text-align: center;
             font-family: 'Josefin Sans';
-            font-weight: 300;
+            font-weight: 200;
           }
           .board-of-investment-container03 {
             width: 100%;
@@ -720,7 +721,7 @@ const BoardOfInvestment = (props) => {
             font-size: 1.5rem;
             font-style: normal;
             font-family: 'Josefin Sans';
-            font-weight: 300;
+            font-weight: 200;
           }
           .board-of-investment-link1 {
             text-decoration: underline;
@@ -781,7 +782,7 @@ const BoardOfInvestment = (props) => {
             font-size: 1.5rem;
             font-style: normal;
             font-family: 'Josefin Sans';
-            font-weight: 300;
+            font-weight: 200;
           }
           .board-of-investment-step3 {
             width: auto;
@@ -839,7 +840,7 @@ const BoardOfInvestment = (props) => {
             font-size: 1.5rem;
             font-style: normal;
             font-family: 'Josefin Sans';
-            font-weight: 300;
+            font-weight: 200;
           }
           .board-of-investment-step4 {
             width: auto;
@@ -897,7 +898,7 @@ const BoardOfInvestment = (props) => {
             font-size: 1.5rem;
             font-style: normal;
             font-family: 'Josefin Sans';
-            font-weight: 300;
+            font-weight: 200;
           }
           .board-of-investment-step5 {
             width: auto;
@@ -955,7 +956,7 @@ const BoardOfInvestment = (props) => {
             font-size: 1.5rem;
             font-style: normal;
             font-family: 'Josefin Sans';
-            font-weight: 300;
+            font-weight: 200;
           }
           .board-of-investment-step6 {
             width: auto;
@@ -1013,7 +1014,7 @@ const BoardOfInvestment = (props) => {
             font-size: 1.5rem;
             font-style: normal;
             font-family: 'Josefin Sans';
-            font-weight: 300;
+            font-weight: 200;
           }
           .board-of-investment-container30 {
             flex: 0 0 auto;
@@ -1036,7 +1037,7 @@ const BoardOfInvestment = (props) => {
             font-style: normal;
             text-align: center;
             font-family: Josefin Sans;
-            font-weight: 300;
+            font-weight: 200;
           }
           .board-of-investment-link2 {
             color: var(--dl-color-gray-black);
