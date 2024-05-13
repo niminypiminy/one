@@ -31,11 +31,13 @@ const ImmigrationLaw = (props) => {
             <div className="immigration-law-container3">
               <h1 className="immigration-law-text">Immigration Law</h1>
               <span className="immigration-law-text1">
-                If you have been blacklisted, deported, are applying for aslyum,
-                have overstayed your visa in Thailand, or simply need help
-                acquiring a visa, then our immigration attorneys can help. We
-                have extensive contacts at the bureau of immigration, and in
-                most cases can help you negotiate a resolution.
+                If you are facing challenges such as being blacklisted,
+                deported, seeking asylum, overstaying your visa in Thailand, or
+                require assistance with visa applications, our team of
+                experienced immigration attorneys is here to provide expert
+                guidance. With strong connections at the Bureau of Immigration,
+                we can effectively advocate on your behalf and assist in
+                negotiating favorable resolutions to your immigration issues.
               </span>
               <Link href="/contact">
                 <a className="immigration-law-link">
@@ -47,7 +49,7 @@ const ImmigrationLaw = (props) => {
           <div className="immigration-law-container4">
             <img
               alt="image"
-              src="/immigration%20office-600w.jpg"
+              src="/designer%20(2)1-600w.jpeg"
               className="immigration-law-image"
             />
           </div>

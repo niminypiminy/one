@@ -33,29 +33,99 @@ const ContractLaw = (props) => {
           <div className="contract-law-container2">
             <img
               alt="image"
-              src="/contractlaw-min-600w.jpg"
+              src="/designer-600w.jpeg"
               className="contract-law-image"
             />
           </div>
           <div className="contract-law-container3">
             <div className="contract-law-container4">
               <h1 className="contract-law-text">Contract Law</h1>
-              <span className="contract-law-text1">
-                Our team can negotiate, review, draft, and enforce contracts for
-                a wide range of business activities, such as real estate
-                acquisitions, intellectual property, labor and employment,
-                settlements, service agreements, purchase agreements, and sale
-                of goods agreements.
+              <span className="contract-law-text01">
+                Our firm has extensive experience in the drafting and
+                enforcement of contracts across various business sectors,
+                including but not limited to real estate acquisitions,
+                intellectual property, labor and employment, settlements,
+                service agreements, purchase agreements, and sale of goods
+                agreements.
               </span>
               <Link href="/contact">
                 <a className="contract-law-link">
-                  <h1 className="contract-law-text2">Contact</h1>
+                  <h1 className="contract-law-text02">Contact</h1>
                 </a>
               </Link>
             </div>
           </div>
         </div>
-        <Footer1></Footer1>
+        <div className="contract-law-layout186 thq-section-padding">
+          <div className="thq-section-max-width thq-flex-column">
+            <h2 className="contract-law-text03 thq-heading-2">
+              <span>
+                We don&apos;t just write contracts.
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
+              </span>
+              <br></br>
+              <span>We </span>
+              <span className="contract-law-text07">enforce</span>
+              <span> them.</span>
+            </h2>
+            <p className="contract-law-text09 thq-body-large">
+              While many lawyers are willing to draft contracts for clients, not
+              all are equipped to effectively enforce the terms of the
+              agreement. Businesses engaged in the exchange of goods and
+              services require legal representation that is committed to
+              upholding and enforcing contractual obligations.
+            </p>
+          </div>
+        </div>
+        <div className="contract-law-container5">
+          <img
+            alt="PlaceholderImage1314"
+            src="/designer%20(1)-600w.jpeg"
+            className="contract-law-image1"
+          />
+        </div>
+        <div className="contract-law-container6 thq-section-padding">
+          <div className="contract-law-max-width1 thq-section-max-width">
+            <div className="contract-law-content">
+              <h2 className="contract-law-heading1 thq-heading-2">
+                Be wary of business service firms in Thailand, who market
+                themselves as law firms. 
+              </h2>
+              <p className="contract-law-content1 thq-body-large">
+                <span>
+                  Business service firms typically concentrate on marketing and
+                  advertising strategies to appeal to a broad clientele.
+                  Although they may offer contract drafting assistance, they
+                  frequently subcontract legal tasks to established law firms
+                  such as ours. A significant red flag indicating that a firm is
+                  not a bona fide law firm is if they promote themselves as
+                  being
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: ' ',
+                    }}
+                  />
+                </span>
+                <span className="contract-law-text11">
+                  registered under the BOI.
+                </span>
+                <span>
+                  {' '}
+                  It is important to note that the BOI does not register law
+                  firms; rather, it registers business service firms. Many of
+                  these entities tend to levy excessive fees on their clients.
+                  It is advisable to opt for local rates instead of paying
+                  inflated rates.
+                </span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <Footer1 rootClassName="footer1-root-class-name19"></Footer1>
       </div>
       <style jsx>
         {`
@@ -122,7 +192,7 @@ const ContractLaw = (props) => {
             font-family: 'Josefin Sans';
             font-weight: 400;
           }
-          .contract-law-text1 {
+          .contract-law-text01 {
             width: 85%;
             font-size: 1.5rem;
             align-self: flex-start;
@@ -130,13 +200,13 @@ const ContractLaw = (props) => {
             margin-top: var(--dl-space-space-twounits);
             text-align: left;
             font-family: 'Josefin Sans';
-            font-weight: 300;
+            font-weight: 200;
             margin-bottom: var(--dl-space-space-twounits);
           }
           .contract-law-link {
             display: contents;
           }
-          .contract-law-text2 {
+          .contract-law-text02 {
             color: var(--dl-color-gray-black);
             padding: var(--dl-space-space-halfunit);
             font-size: 1.5rem;
@@ -152,9 +222,97 @@ const ContractLaw = (props) => {
             padding-bottom: var(--dl-space-space-unit);
             text-decoration: none;
           }
-          .contract-law-text2:hover {
+          .contract-law-text02:hover {
             color: var(--dl-color-gray-white);
             background-color: #1b1b1b;
+          }
+          .contract-law-layout186 {
+            width: 100%;
+            height: auto;
+            display: flex;
+            overflow: hidden;
+            position: relative;
+            margin-top: var(--dl-space-space-sixunits);
+            align-items: center;
+            flex-shrink: 0;
+            margin-bottom: var(--dl-space-space-sixunits);
+            flex-direction: column;
+            justify-content: center;
+          }
+          .contract-law-text03 {
+            z-index: 2;
+            font-size: 2rem;
+            font-style: normal;
+            text-align: center;
+            font-family: 'Josefin Sans';
+            font-weight: 300;
+          }
+          .contract-law-text07 {
+            background-color: rgb(255, 255, 0);
+          }
+          .contract-law-text09 {
+            width: 50%;
+            z-index: 2;
+            font-size: 1.5rem;
+            font-style: normal;
+            text-align: center;
+            font-family: 'Josefin Sans';
+            font-weight: 200;
+          }
+          .contract-law-container5 {
+            width: 100%;
+            display: flex;
+            overflow: hidden;
+            position: relative;
+            align-items: center;
+          }
+          .contract-law-image1 {
+            flex: 1;
+            width: 40%;
+            height: 100%;
+          }
+          .contract-law-container6 {
+            gap: var(--dl-space-space-threeunits);
+            display: flex;
+            overflow: hidden;
+            position: relative;
+            margin-top: var(--dl-space-space-sixunits);
+            margin-bottom: var(--dl-space-space-sixunits);
+            flex-direction: column;
+          }
+          .contract-law-max-width1 {
+            width: 100%;
+            display: flex;
+            max-width: var(--dl-size-size-maxwidth);
+            align-items: center;
+            flex-direction: column;
+          }
+          .contract-law-content {
+            gap: var(--dl-space-space-oneandhalfunits);
+            display: flex;
+            align-self: stretch;
+            align-items: center;
+            flex-direction: column;
+          }
+          .contract-law-heading1 {
+            width: 60%;
+            font-size: 2rem;
+            font-style: normal;
+            text-align: left;
+            font-family: 'Josefin Sans';
+            font-weight: 300;
+          }
+          .contract-law-content1 {
+            width: 60%;
+            font-size: 1.5rem;
+            font-style: normal;
+            text-align: left;
+            font-family: 'Josefin Sans';
+            font-weight: 200;
+          }
+          .contract-law-text11 {
+            font-style: italic;
+            font-weight: 200;
           }
           @media (max-width: 1600px) {
             .contract-law-container1 {
@@ -169,7 +327,7 @@ const ContractLaw = (props) => {
               color: var(--dl-color-gray-black);
               width: 100%;
             }
-            .contract-law-text1 {
+            .contract-law-text01 {
               width: 100%;
             }
           }
@@ -183,7 +341,7 @@ const ContractLaw = (props) => {
             .contract-law-container4 {
               width: 95%;
             }
-            .contract-law-text1 {
+            .contract-law-text01 {
               width: 100%;
             }
           }
@@ -198,8 +356,11 @@ const ContractLaw = (props) => {
             .contract-law-container3 {
               width: 80%;
             }
-            .contract-law-text1 {
+            .contract-law-text01 {
               text-align: left;
+            }
+            .contract-law-container5 {
+              flex-direction: column;
             }
           }
           @media (max-width: 767px) {
@@ -217,7 +378,7 @@ const ContractLaw = (props) => {
               align-self: center;
               text-align: left;
             }
-            .contract-law-text1 {
+            .contract-law-text01 {
               width: 100%;
               font-size: 1.5rem;
               align-self: center;
@@ -226,7 +387,7 @@ const ContractLaw = (props) => {
               font-weight: 200;
               padding-left: var(--dl-space-space-halfunit);
             }
-            .contract-law-text2 {
+            .contract-law-text02 {
               align-self: flex-start;
             }
           }
@@ -242,14 +403,14 @@ const ContractLaw = (props) => {
               width: 100%;
               text-align: left;
             }
-            .contract-law-text1 {
+            .contract-law-text01 {
               width: 100%;
               font-size: 1.5rem;
               text-align: left;
               padding-left: 0px;
               padding-right: 0px;
             }
-            .contract-law-text2 {
+            .contract-law-text02 {
               align-self: flex-start;
             }
           }
