@@ -370,7 +370,7 @@ const ForeignBusinessLicense = (props) => {
             margin-top: var(--dl-space-space-twounits);
             text-align: left;
             font-family: 'Josefin Sans';
-            font-weight: 300;
+            font-weight: 200;
             margin-bottom: var(--dl-space-space-twounits);
           }
           .foreign-business-license-text03 {
@@ -1080,8 +1080,8 @@ const ForeignBusinessLicense = (props) => {
               font-size: 1.5rem;
               align-self: center;
               font-style: normal;
-              font-family: Lora;
-              font-weight: 400;
+              font-family: Josefin Sans;
+              font-weight: 200;
               padding-left: var(--dl-space-space-halfunit);
             }
             .foreign-business-license-data {

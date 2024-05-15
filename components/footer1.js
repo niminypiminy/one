@@ -30,12 +30,7 @@ const Footer1 = (props) => {
             font-family: 'Josefin Sans';
             font-weight: 200;
           }
-          .footer1-root-class-name {
-            margin-top: var(--dl-space-space-threeunits);
-          }
-          .footer1-root-class-name1 {
-            margin-top: var(--dl-space-space-threeunits);
-          }
+
           .footer1-root-class-name2 {
             margin-top: var(--dl-space-space-threeunits);
           }
@@ -90,6 +85,7 @@ const Footer1 = (props) => {
           .footer1-root-class-name19 {
             height: auto;
           }
+
           @media (max-width: 1600px) {
             .footer1-text {
               color: var(--dl-color-gray-black);

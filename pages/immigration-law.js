@@ -105,7 +105,7 @@ const ImmigrationLaw = (props) => {
             font-style: normal;
             margin-top: var(--dl-space-space-twounits);
             font-family: 'Josefin Sans';
-            font-weight: 300;
+            font-weight: 200;
             line-height: 1.15em;
             margin-bottom: var(--dl-space-space-twounits);
           }
@@ -155,9 +155,6 @@ const ImmigrationLaw = (props) => {
           @media (max-width: 1600px) {
             .immigration-law-text {
               max-width: auto;
-            }
-            .immigration-law-text1 {
-              line-height: 1.15em;
             }
             .immigration-law-image {
               box-shadow: 5px 5px 10px 0px #000000;

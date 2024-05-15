@@ -186,9 +186,9 @@ const FAQ84 = (props) => {
                 <div className="faq84-container14">
                   <span className="faq84-text09 thq-body-small">
                     <span>
-                      They do care. However, the police are subject to budget
-                      constraints, so they won&apos;t spend a lot of money
-                      investigating non violent offenses. Many victims of
+                      The police are subject to budget constraints, so they
+                      won&apos;t spend a lot of resources investigating non
+                      violent offenses. Many victims of
                       <span
                         dangerouslySetInnerHTML={{
                           __html: ' ',
@@ -200,8 +200,8 @@ const FAQ84 = (props) => {
                     </Link>
                     <span>
                       , for example, file private criminal proceedings as
-                      opposed to public criminal proceedings. You can read more
-                      about that
+                      opposed to waiting for the prosecutor to file charges. You
+                      can read more about that
                       <span
                         dangerouslySetInnerHTML={{
                           __html: ' ',
@@ -312,7 +312,7 @@ const FAQ84 = (props) => {
             font-size: 1.5rem;
             font-style: normal;
             font-family: 'Josefin Sans';
-            font-weight: 300;
+            font-weight: 200;
           }
           .faq84-link {
             text-decoration: underline;
@@ -366,7 +366,7 @@ const FAQ84 = (props) => {
             font-size: 1.5rem;
             font-style: normal;
             font-family: 'Josefin Sans';
-            font-weight: 300;
+            font-weight: 200;
           }
           .faq84-faq3 {
             border-color: var(--dl-color-theme-neutral-dark);
@@ -413,7 +413,7 @@ const FAQ84 = (props) => {
             font-size: 1.5rem;
             font-style: normal;
             font-family: 'Josefin Sans';
-            font-weight: 300;
+            font-weight: 200;
           }
           .faq84-link1 {
             text-decoration: underline;
@@ -463,7 +463,7 @@ const FAQ84 = (props) => {
             font-size: 1.5rem;
             font-style: normal;
             font-family: 'Josefin Sans';
-            font-weight: 300;
+            font-weight: 200;
           }
           .faq84-faq5 {
             border-color: var(--dl-color-theme-neutral-dark);
@@ -510,7 +510,7 @@ const FAQ84 = (props) => {
             font-size: 1.5rem;
             font-style: normal;
             font-family: 'Josefin Sans';
-            font-weight: 300;
+            font-weight: 200;
           }
           .faq84-link2 {
             text-decoration: underline;

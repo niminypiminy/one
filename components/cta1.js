@@ -87,19 +87,19 @@ const CTA1 = (props) => {
 
 CTA1.defaultProps = {
   action1: 'Main action',
-  heading1: 'Call to action that excites the visitor to try your product',
+  rootClassName: '',
+  action2: 'Secondary action',
   content1:
     'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.',
-  action2: 'Secondary action',
-  rootClassName: '',
+  heading1: 'Call to action that excites the visitor to try your product',
 }
 
 CTA1.propTypes = {
   action1: PropTypes.string,
-  heading1: PropTypes.string,
-  content1: PropTypes.string,
-  action2: PropTypes.string,
   rootClassName: PropTypes.string,
+  action2: PropTypes.string,
+  content1: PropTypes.string,
+  heading1: PropTypes.string,
 }
 
 export default CTA1

@@ -44,7 +44,7 @@ const VirtualOffice = (props) => {
                 Virtual offices are suitable for Thai-owned companies, and
                 companies that don&apos;t require permits and licences from
                 other agencies. Virtual offices may help remote team&apos;s
-                lower costs. We can also act as your power of attorney.
+                lower costs. 
               </span>
             </div>
             <div className="virtual-office-container5">
@@ -129,8 +129,8 @@ const VirtualOffice = (props) => {
             font-size: 1.5rem;
             font-style: normal;
             margin-top: var(--dl-space-space-twounits);
-            font-family: Josefin Sans;
-            font-weight: 300;
+            font-family: 'Josefin Sans';
+            font-weight: 200;
             line-height: 1.15em;
             margin-left: 0px;
             margin-right: 0px;

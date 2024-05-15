@@ -283,7 +283,9 @@ const Page = (props) => {
         </div>
         <div className="page-container3">
           <Link href="/contact">
-            <a className="page-link2 button">Contact</a>
+            <a className="page-link2">
+              <h1 className="page-text61">Contact</h1>
+            </a>
           </Link>
         </div>
         <Footer1 rootClassName="footer1-root-class-name1"></Footer1>
@@ -561,17 +563,31 @@ const Page = (props) => {
             position: relative;
             margin-top: var(--dl-space-space-fiveunits);
             align-items: center;
+            margin-bottom: var(--dl-space-space-fiveunits);
             justify-content: center;
           }
           .page-link2 {
-            fill: var(--dl-color-theme-neutral-dark);
-            color: var(--dl-color-theme-neutral-dark);
+            display: contents;
+          }
+          .page-text61 {
+            color: var(--dl-color-gray-black);
+            padding: var(--dl-space-space-halfunit);
             font-size: 1.5rem;
             font-style: normal;
-            font-family: 'Josefin Sans';
-            font-weight: 300;
+            transition: 0.3s;
+            font-family: Josefin Sans;
+            font-weight: 200;
+            padding-top: var(--dl-space-space-unit);
+            border-color: var(--dl-color-gray-black);
+            border-width: 1px;
+            padding-left: var(--dl-space-space-unit);
+            padding-right: var(--dl-space-space-unit);
+            padding-bottom: var(--dl-space-space-unit);
             text-decoration: none;
-            background-color: #ffff00;
+          }
+          .page-text61:hover {
+            color: var(--dl-color-gray-white);
+            background-color: #1b1b1b;
           }
           @media (max-width: 1600px) {
             .page-text01 {
@@ -605,6 +621,9 @@ const Page = (props) => {
             .page-text01 {
               width: 90%;
             }
+            .page-text61 {
+              align-self: flex-start;
+            }
           }
           @media (max-width: 479px) {
             .page-container2 {
@@ -613,6 +632,9 @@ const Page = (props) => {
             }
             .page-text01 {
               width: 90%;
+            }
+            .page-text61 {
+              align-self: flex-start;
             }
           }
         `}

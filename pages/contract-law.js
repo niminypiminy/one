@@ -208,7 +208,6 @@ const ContractLaw = (props) => {
           }
           .contract-law-text02 {
             color: var(--dl-color-gray-black);
-            padding: var(--dl-space-space-halfunit);
             font-size: 1.5rem;
             font-style: normal;
             transition: 0.3s;

@@ -169,7 +169,7 @@ const Contact = (props) => {
             align-self: center;
             font-style: normal;
             font-family: Josefin Sans;
-            font-weight: 400;
+            font-weight: 300;
             border-color: #112821;
             border-width: 1px;
             border-top-width: 0px;
@@ -274,12 +274,7 @@ const Contact = (props) => {
             .contact-text {
               fill: var(--dl-color-theme-neutral-dark);
               color: var(--dl-color-theme-neutral-dark);
-              font-size: 2rem;
               align-self: center;
-              font-style: normal;
-              text-align: left;
-              font-family: Josefin Sans;
-              font-weight: 400;
             }
             .contact-text03 {
               color: rgb(17, 40, 33);
