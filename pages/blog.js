@@ -113,7 +113,7 @@ const Blog = (props) => {
             <div className="blog-image-container1">
               <img
                 alt="Image"
-                src="/26682751244_5c54498c3a_b-1400w.jpg"
+                src="/designer1-1400w.jpeg"
                 className="blog-placeholder-image1 thq-img-ratio-16-9"
               />
             </div>
