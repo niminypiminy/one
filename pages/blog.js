@@ -176,7 +176,11 @@ const Blog = (props) => {
             align-items: center;
           }
           .blog-placeholder-image {
+            transition: 0.3s;
             border-radius: var(--dl-radius-radius-radius4);
+          }
+          .blog-placeholder-image:hover {
+            transform: scale(1.2);
           }
           .blog-content {
             gap: var(--dl-space-space-oneandhalfunits);
@@ -343,7 +347,11 @@ const Blog = (props) => {
             align-items: center;
           }
           .blog-placeholder-image1 {
+            transition: 0.3s;
             border-radius: var(--dl-radius-radius-radius4);
+          }
+          .blog-placeholder-image1:hover {
+            transform: scale(1.2);
           }
           @media (max-width: 991px) {
             .blog-max-width1 {

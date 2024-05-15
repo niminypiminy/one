@@ -327,7 +327,11 @@ const Home = (props) => {
             width: 40%;
             height: 100%;
             object-fit: cover;
+            transition: 0.3s;
             border-radius: var(--dl-radius-radius-image-radius);
+          }
+          .home-image:hover {
+            transform: scale(1.2);
           }
           .home-mission {
             margin-top: var(--dl-space-space-sixunits);
