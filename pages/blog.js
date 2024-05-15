@@ -61,7 +61,7 @@ const Blog = (props) => {
                 <div className="blog-actions">
                   <Link href="/defamation">
                     <a className="blog-link">
-                      <h1 className="blog-text04">Learn More</h1>
+                      <h1 className="blog-text04">Read More</h1>
                     </a>
                   </Link>
                 </div>

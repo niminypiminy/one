@@ -29,7 +29,7 @@ const Defamation = (props) => {
           />
         </Head>
         <div className="defamation-container1">
-          <Link href="/criminal-proceedings-in-thailand">
+          <Link href="/defamation">
             <a className="defamation-link">
               <img
                 alt="image"
@@ -38,15 +38,11 @@ const Defamation = (props) => {
               />
             </a>
           </Link>
-          <Link href="/page">
-            <a className="defamation-link1">
-              <img
-                alt="image"
-                src="/thailand-200h.png"
-                className="defamation-image1"
-              />
-            </a>
-          </Link>
+          <img
+            alt="image"
+            src="/thailand-200h.png"
+            className="defamation-image1"
+          />
         </div>
         <BlogPostHeader62></BlogPostHeader62>
         <div className="defamation-container2 open1">
@@ -311,7 +307,7 @@ const Defamation = (props) => {
                   />
                 </span>
                 <Link href="/contact">
-                  <a className="defamation-link2">here</a>
+                  <a className="defamation-link1">here</a>
                 </Link>
                 <span> for a brief consultation.</span>
               </span>
@@ -358,7 +354,7 @@ const Defamation = (props) => {
               />
             </span>
             <Link href="/criminal-proceedings-in-thailand">
-              <a className="defamation-link3">here</a>
+              <a className="defamation-link2">here</a>
             </Link>
             <span>.</span>
             <br></br>
@@ -372,7 +368,7 @@ const Defamation = (props) => {
               />
             </span>
             <Link href="/contact">
-              <a className="defamation-link4">here</a>
+              <a className="defamation-link3">here</a>
             </Link>
             <span>.</span>
             <br></br>
@@ -380,7 +376,7 @@ const Defamation = (props) => {
         </div>
         <div className="defamation-container3">
           <Link href="/contact">
-            <a className="defamation-link5">
+            <a className="defamation-link4">
               <h1 className="defamation-text79">Contact</h1>
             </a>
           </Link>
@@ -412,16 +408,12 @@ const Defamation = (props) => {
             object-fit: cover;
             text-decoration: none;
           }
-          .defamation-link1 {
-            display: contents;
-          }
           .defamation-image1 {
             width: var(--dl-size-size-small);
             height: var(--dl-size-size-small);
             object-fit: cover;
             margin-left: var(--dl-space-space-unit);
             margin-right: var(--dl-space-space-unit);
-            text-decoration: none;
           }
           .defamation-container2 {
             width: 60%;
@@ -752,7 +744,7 @@ const Defamation = (props) => {
           .defamation-text64 {
             font-weight: 200;
           }
-          .defamation-link2 {
+          .defamation-link1 {
             text-decoration: underline;
           }
           .defamation-li13 {
@@ -779,10 +771,10 @@ const Defamation = (props) => {
             font-weight: 200;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .defamation-link3 {
+          .defamation-link2 {
             text-decoration: underline;
           }
-          .defamation-link4 {
+          .defamation-link3 {
             text-decoration: underline;
           }
           .defamation-container3 {
@@ -796,7 +788,7 @@ const Defamation = (props) => {
             margin-bottom: var(--dl-space-space-fiveunits);
             justify-content: center;
           }
-          .defamation-link5 {
+          .defamation-link4 {
             display: contents;
           }
           .defamation-text79 {
