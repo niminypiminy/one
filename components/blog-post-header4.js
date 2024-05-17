@@ -257,32 +257,32 @@ const BlogPostHeader4 = (props) => {
 }
 
 BlogPostHeader4.defaultProps = {
-  avatarImageSrc:
-    'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDN8fHVzZXJ8ZW58MHx8fHwxNzEwOTQyNjEyfDA&ixlib=rb-4.0.3&w=200',
-  blogPostImageAlt: 'PlaceholderImage3501',
-  avatarImageAlt: 'PlaceholderImage3501',
   readTime: '7min read',
   blogPostSubtitle: 'Awesome subtitle',
+  date: '20 March 2024',
+  avatarName: 'Full name',
+  avatarImageAlt: 'PlaceholderImage3501',
   blogPostTitle: 'Awesome blog title',
   articleBody:
     'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris ....',
   blogPostImageSrc:
     'https://images.unsplash.com/photo-1574169208507-84376144848b?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDN8fGFic3RyYWN0fGVufDB8fHx8MTcxMDg3MDkzMHww&ixlib=rb-4.0.3&w=1400',
-  avatarName: 'Full name',
-  date: '20 March 2024',
+  avatarImageSrc:
+    'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDN8fHVzZXJ8ZW58MHx8fHwxNzEwOTQyNjEyfDA&ixlib=rb-4.0.3&w=200',
+  blogPostImageAlt: 'PlaceholderImage3501',
 }
 
 BlogPostHeader4.propTypes = {
-  avatarImageSrc: PropTypes.string,
-  blogPostImageAlt: PropTypes.string,
-  avatarImageAlt: PropTypes.string,
   readTime: PropTypes.string,
   blogPostSubtitle: PropTypes.string,
+  date: PropTypes.string,
+  avatarName: PropTypes.string,
+  avatarImageAlt: PropTypes.string,
   blogPostTitle: PropTypes.string,
   articleBody: PropTypes.string,
   blogPostImageSrc: PropTypes.string,
-  avatarName: PropTypes.string,
-  date: PropTypes.string,
+  avatarImageSrc: PropTypes.string,
+  blogPostImageAlt: PropTypes.string,
 }
 
 export default BlogPostHeader4

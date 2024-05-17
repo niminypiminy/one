@@ -5,7 +5,9 @@ import PropTypes from 'prop-types'
 const BlogPostHeader62 = (props) => {
   return (
     <>
-      <div className="blog-post-header62-blog-post-header3 thq-section-padding">
+      <div
+        className={`blog-post-header62-blog-post-header3 thq-section-padding ${props.rootClassName} `}
+      >
         <div className="blog-post-header62-max-width thq-section-max-width">
           <div className="blog-post-header62-breadcrumbs">
             <span className="blog-post-header62-category thq-body-small">
@@ -131,6 +133,7 @@ const BlogPostHeader62 = (props) => {
 }
 
 BlogPostHeader62.defaultProps = {
+  rootClassName: '',
   avatarName: 'Ulliam',
   category: 'Criminal Law',
   blogPostTitle: 'Defamation in Thailand',
@@ -141,6 +144,7 @@ BlogPostHeader62.defaultProps = {
 }
 
 BlogPostHeader62.propTypes = {
+  rootClassName: PropTypes.string,
   avatarName: PropTypes.string,
   category: PropTypes.string,
   blogPostTitle: PropTypes.string,
