@@ -78,8 +78,8 @@ const CompanyRegistration = (props) => {
         </div>
         <div className="company-registration-container06">
           <img
-            src="/external/designer%20(8)-1500h.jpeg"
             alt="image"
+            src="/external/designer%20(8)-1500h.jpeg"
             className="company-registration-image1"
           />
         </div>

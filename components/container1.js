@@ -20,7 +20,7 @@ const Container1 = (props) => {
         </div>
         <span className="container1-text">
           <span>Individuals encountering situations that involve </span>
-          <Link href="/domestic-abuse">
+          <Link href="/domestic-abuse-thailand">
             <a className="container1-link">domestic abuse</a>
           </Link>
           <span>

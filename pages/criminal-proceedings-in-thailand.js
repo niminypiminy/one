@@ -95,7 +95,7 @@ const CriminalProceedingsInThailand = (props) => {
         <div className="criminal-proceedings-in-thailand-container2 open1">
           <span className="criminal-proceedings-in-thailand-text02">
             <span>Individuals encountering situations that involve </span>
-            <Link href="/domestic-abuse">
+            <Link href="/domestic-abuse-thailand">
               <a className="criminal-proceedings-in-thailand-link2">
                 domestic abuse
               </a>

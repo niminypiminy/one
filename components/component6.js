@@ -34,7 +34,7 @@ const Component6 = (props) => {
           <div className="open1">
             <span className="component6-text">
               <span>Individuals encountering situations that involve </span>
-              <Link href="/domestic-abuse">
+              <Link href="/domestic-abuse-thailand">
                 <a className="component6-link">domestic abuse</a>
               </Link>
               <span>

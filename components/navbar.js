@@ -1684,9 +1684,6 @@ const Navbar = (props) => {
           .navbar-root-class-name5 {
             width: 100%;
           }
-          .navbar-root-class-name6 {
-            width: 100%;
-          }
           .navbar-root-class-name7 {
             width: 100%;
           }
