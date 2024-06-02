@@ -59,7 +59,7 @@ const Home = (props) => {
           </div>
           <img
             alt="image"
-            src="/designer%20(2)-1500h.jpeg"
+            src="/designer%20(1)1-1500h.jpeg"
             className="home-image"
           />
         </header>
@@ -263,19 +263,14 @@ const Home = (props) => {
           .home-hero {
             gap: var(--dl-space-space-threeunits);
             width: 100%;
+            border: none;
             height: 100vh;
             display: flex;
             position: relative;
             max-width: 100%;
             align-items: center;
-            border-color: var(--dl-color-gray-black);
-            border-width: 1px;
             flex-direction: row;
             justify-content: center;
-            border-top-width: 0px;
-            border-left-width: 0px;
-            border-right-width: 0px;
-            border-bottom-width: 1px;
           }
           .home-container1 {
             flex: 0 0 auto;
@@ -757,7 +752,6 @@ const Home = (props) => {
               padding-left: 00px;
               padding-right: 00px;
               justify-content: center;
-              border-bottom-width: 1px;
             }
             .home-container1 {
               align-items: center;
@@ -765,9 +759,11 @@ const Home = (props) => {
             }
             .home-title {
               color: var(--dl-color-gray-black);
+              font-size: 3rem;
             }
             .home-title1 {
               color: var(--dl-color-gray-black);
+              font-size: 3rem;
             }
             .home-description {
               color: var(--dl-color-gray-black);
@@ -825,13 +821,16 @@ const Home = (props) => {
             }
             .home-text13 {
               color: var(--dl-color-gray-black);
+              font-size: 3rem;
+              font-style: normal;
+              font-weight: 300;
             }
             .home-text17 {
               color: var(--dl-color-gray-black);
               font-size: 2.5rem;
               font-style: normal;
               font-family: Josefin Sans;
-              font-weight: 400;
+              font-weight: 300;
             }
             .home-text19 {
               background-color: rgb(255, 255, 0);

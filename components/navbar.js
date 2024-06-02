@@ -493,12 +493,7 @@ const Navbar = (props) => {
             width: 100%;
             display: flex;
             align-items: center;
-            border-color: #949494;
-            border-width: 1px;
             flex-direction: column;
-            border-top-width: 0px;
-            border-left-width: 0px;
-            border-right-width: 0px;
           }
           .navbar-navbar-interactive {
             width: 90%;
@@ -549,7 +544,6 @@ const Navbar = (props) => {
           }
           .navbar-text01 {
             color: var(--dl-color-gray-black);
-            padding: var(--dl-space-space-halfunit);
             font-size: 1.2rem;
             font-style: normal;
             font-family: Josefin Sans;
