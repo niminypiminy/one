@@ -543,7 +543,6 @@ const Navbar = (props) => {
             height: 7px;
           }
           .navbar-text01 {
-            color: var(--dl-color-gray-black);
             font-size: 1.2rem;
             font-style: normal;
             font-family: Josefin Sans;
@@ -718,7 +717,6 @@ const Navbar = (props) => {
             border-radius: var(--dl-radius-radius-round);
             flex-direction: row;
             justify-content: center;
-            background-color: ffff00;
           }
           .navbar-hamburger {
             width: 16px;
@@ -1702,9 +1700,6 @@ const Navbar = (props) => {
               font-family: Josefin Sans;
               font-weight: 300;
             }
-            .navbar-burger-menu {
-              background-color: ffff00;
-            }
             .navbar-text03 {
               font-style: normal;
               font-family: Josefin Sans;
@@ -1854,11 +1849,6 @@ const Navbar = (props) => {
               font-size: 1.2rem;
             }
           }
-          @media (max-width: 1200px) {
-            .navbar-burger-menu {
-              background-color: ffff00;
-            }
-          }
           @media (max-width: 991px) {
             .navbar-navbar-interactive {
               padding-left: var(--dl-space-space-oneandhalfunits);
@@ -1876,7 +1866,6 @@ const Navbar = (props) => {
               align-items: center;
               border-radius: var(--dl-radius-radius-round);
               justify-content: center;
-              background-color: ffff00;
             }
             .navbar-mobile-menu {
               width: 100%;
@@ -1895,7 +1884,6 @@ const Navbar = (props) => {
               aspect-ratio: 1;
               border-radius: var(--dl-radius-radius-round);
               justify-content: center;
-              background-color: ffff00;
             }
             .navbar-social-bar {
               padding-left: var(--dl-space-space-twounits);
@@ -1911,9 +1899,6 @@ const Navbar = (props) => {
               color: rgb(18, 40, 33);
               font-size: 24px;
               line-height: 36px;
-            }
-            .navbar-burger-menu {
-              background-color: ffff00;
             }
             .navbar-text02 {
               color: rgb(18, 40, 33);

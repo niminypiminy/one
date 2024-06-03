@@ -59,7 +59,7 @@ const Home = (props) => {
           </div>
           <img
             alt="image"
-            src="/designer%20(1)1-1500h.jpeg"
+            src="/designer%20(2)2-1500h.jpeg"
             className="home-image"
           />
         </header>
@@ -274,7 +274,7 @@ const Home = (props) => {
           }
           .home-container1 {
             flex: 0 0 auto;
-            width: 55%;
+            width: 40%;
             height: 80%;
             display: flex;
             align-items: center;
@@ -322,11 +322,6 @@ const Home = (props) => {
             width: 40%;
             height: 100%;
             object-fit: cover;
-            transition: 0.3s;
-            border-radius: var(--dl-radius-radius-image-radius);
-          }
-          .home-image:hover {
-            transform: scale(1.2);
           }
           .home-mission {
             margin-top: var(--dl-space-space-sixunits);
