@@ -1916,9 +1916,6 @@ const Navbar = (props) => {
             .navbar-icon {
               display: none;
             }
-            .navbar-text01 {
-              display: none;
-            }
             .navbar-burger-menu {
               width: var(--dl-size-size-small);
               height: var(--dl-size-size-small);
@@ -1930,9 +1927,6 @@ const Navbar = (props) => {
               width: 100%;
             }
             .navbar-icon02 {
-              display: none;
-            }
-            .navbar-text03 {
               display: none;
             }
           }
@@ -1956,13 +1950,19 @@ const Navbar = (props) => {
             }
             .navbar-text {
               color: rgb(18, 40, 33);
+              width: auto;
               font-size: 24px;
               line-height: 36px;
+              margin-left: 0px;
+            }
+            .navbar-text01 {
+              width: auto;
             }
             .navbar-text02 {
               color: rgb(18, 40, 33);
               font-size: 24px;
               line-height: 36px;
+              margin-left: 0px;
             }
             .navbar-social-bar {
               padding-top: var(--dl-space-space-twounits);

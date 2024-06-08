@@ -72,9 +72,9 @@ const Home = (props) => {
           />
           <div className="home-container2">
             <h2 className="home-text07">
-              Each case is personally handled by our experienced attorneys
-              in-house, ensuring the highest level of care and attention to
-              detail.
+              We don&apos;t outsource cases to other law firms. Each case is
+              handled in-house, ensuring the highest level of care and attention
+              to detail.
             </h2>
             <Link href="/contact">
               <a className="home-link02">
@@ -877,7 +877,11 @@ const Home = (props) => {
             .home-text07 {
               color: var(--dl-color-gray-black);
               width: 75%;
+              font-size: 1.5rem;
               max-width: auto;
+              font-style: normal;
+              font-family: Josefin Sans;
+              font-weight: 200;
             }
             .home-text08 {
               color: var(--dl-color-gray-black);
