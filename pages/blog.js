@@ -29,13 +29,11 @@ const Blog = (props) => {
         <div className="blog-container1 thq-section-padding">
           <div className="blog-max-width thq-section-max-width">
             <div className="blog-container2">
-              <h2 className="blog-title thq-heading-2">
-                Our Latest Blog Posts
-              </h2>
+              <h2 className="blog-title thq-heading-2">Our Latest Posts</h2>
             </div>
           </div>
         </div>
-        <div className="blog-layout350 thq-section-padding">
+        <div className="blog-online-fraud thq-section-padding">
           <div className="blog-max-width1 thq-section-max-width">
             <div className="blog-image-container">
               <img
@@ -77,7 +75,7 @@ const Blog = (props) => {
             </div>
           </div>
         </div>
-        <div className="blog-layout349 thq-section-padding">
+        <div className="blog-domestic-abuse thq-section-padding">
           <div className="blog-max-width2 thq-section-max-width">
             <div className="blog-content2">
               <div className="blog-section-title1">
@@ -113,7 +111,7 @@ const Blog = (props) => {
             </div>
           </div>
         </div>
-        <div className="blog-layout3501 thq-section-padding">
+        <div className="blog-defamation-thailand thq-section-padding">
           <div className="blog-max-width3 thq-section-max-width">
             <div className="blog-image-container2">
               <img
@@ -149,7 +147,7 @@ const Blog = (props) => {
             </div>
           </div>
         </div>
-        <div className="blog-layout3491 thq-section-padding">
+        <div className="blog-criminal-porceedings thq-section-padding">
           <div className="blog-max-width4 thq-section-max-width">
             <div className="blog-content6">
               <div className="blog-section-title3">
@@ -230,13 +228,13 @@ const Blog = (props) => {
             flex-direction: column;
           }
           .blog-title {
-            font-size: 3rem;
+            font-size: 2.5rem;
             font-style: normal;
             text-align: center;
             font-family: 'Josefin Sans';
             font-weight: 300;
           }
-          .blog-layout350 {
+          .blog-online-fraud {
             display: flex;
             overflow: hidden;
             position: relative;
@@ -290,7 +288,7 @@ const Blog = (props) => {
             flex-direction: column;
           }
           .blog-text01 {
-            font-size: 2.5rem;
+            font-size: 2rem;
             font-style: normal;
             font-family: 'Josefin Sans';
             font-weight: 300;
@@ -333,7 +331,7 @@ const Blog = (props) => {
             color: var(--dl-color-gray-white);
             background-color: #1b1b1b;
           }
-          .blog-layout349 {
+          .blog-domestic-abuse {
             display: flex;
             overflow: hidden;
             position: relative;
@@ -375,7 +373,7 @@ const Blog = (props) => {
             flex-direction: column;
           }
           .blog-text06 {
-            font-size: 2.5rem;
+            font-size: 2rem;
             font-style: normal;
             font-family: 'Josefin Sans';
             font-weight: 300;
@@ -430,7 +428,7 @@ const Blog = (props) => {
           .blog-placeholder-image1:hover {
             transform: scale(1.2);
           }
-          .blog-layout3501 {
+          .blog-defamation-thailand {
             display: flex;
             overflow: hidden;
             position: relative;
@@ -484,7 +482,7 @@ const Blog = (props) => {
             flex-direction: column;
           }
           .blog-text11 {
-            font-size: 2.5rem;
+            font-size: 2rem;
             font-style: normal;
             font-family: 'Josefin Sans';
             font-weight: 300;
@@ -527,7 +525,7 @@ const Blog = (props) => {
             color: var(--dl-color-gray-white);
             background-color: #1b1b1b;
           }
-          .blog-layout3491 {
+          .blog-criminal-porceedings {
             display: flex;
             overflow: hidden;
             position: relative;
@@ -569,7 +567,7 @@ const Blog = (props) => {
             flex-direction: column;
           }
           .blog-text16 {
-            font-size: 2.5rem;
+            font-size: 2rem;
             font-style: normal;
             font-family: 'Josefin Sans';
             font-weight: 300;
@@ -639,7 +637,7 @@ const Blog = (props) => {
               font-style: normal;
               font-weight: 400;
             }
-            .blog-layout349 {
+            .blog-domestic-abuse {
               flex-direction: column;
             }
             .blog-max-width2 {

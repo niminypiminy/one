@@ -397,7 +397,7 @@ const JapanThailandEconomicPartnershipAgreement = (props) => {
           }
           .japan-thailand-economic-partnership-agreement-text {
             width: 60%;
-            font-size: 2.5rem;
+            font-size: 2rem;
             max-width: auto;
             font-style: normal;
             font-family: 'Josefin Sans';

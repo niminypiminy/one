@@ -292,7 +292,7 @@ const Fraud = (props) => {
             flex-direction: column;
           }
           .fraud-title {
-            font-size: 3rem;
+            font-size: 2.5rem;
             font-style: normal;
             text-align: center;
             font-family: 'Josefin Sans';

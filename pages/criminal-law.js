@@ -155,7 +155,7 @@ const CriminalLaw = (props) => {
           }
           .criminal-law-text {
             color: var(--dl-color-gray-black);
-            font-size: 2.5rem;
+            font-size: 2rem;
             max-width: auto;
             font-style: normal;
             font-family: Josefin Sans;

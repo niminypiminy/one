@@ -653,7 +653,7 @@ const TreatyOfAmity = (props) => {
           }
           .treaty-of-amity-text {
             width: 100%;
-            font-size: 2.5rem;
+            font-size: 2rem;
             max-width: 450px;
             font-style: normal;
             font-family: 'Josefin Sans';

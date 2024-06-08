@@ -288,7 +288,7 @@ const DomesticAbuse = (props) => {
             flex-direction: column;
           }
           .domestic-abuse-title {
-            font-size: 3rem;
+            font-size: 2.5rem;
             font-style: normal;
             text-align: center;
             font-family: 'Josefin Sans';

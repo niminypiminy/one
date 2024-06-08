@@ -118,7 +118,7 @@ const PublicLaw = (props) => {
           }
           .public-law-text {
             color: var(--dl-color-gray-black);
-            font-size: 2.5rem;
+            font-size: 2rem;
             max-width: 450px;
             font-style: normal;
             font-family: Josefin Sans;

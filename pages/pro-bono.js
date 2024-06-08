@@ -102,7 +102,7 @@ const ProBono = (props) => {
           }
           .pro-bono-text {
             width: 100%;
-            font-size: 2.5rem;
+            font-size: 2rem;
             font-style: normal;
             font-family: Josefin Sans;
             font-weight: 400;

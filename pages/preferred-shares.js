@@ -99,7 +99,7 @@ const PreferredShares = (props) => {
           .preferred-shares-text {
             color: var(--dl-color-gray-black);
             width: 75%;
-            font-size: 2.5rem;
+            font-size: 2rem;
             align-self: flex-start;
             font-style: normal;
             font-family: 'Josefin Sans';

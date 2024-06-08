@@ -169,7 +169,7 @@ const Contact = (props) => {
             align-self: center;
             font-style: normal;
             font-family: Josefin Sans;
-            font-weight: 300;
+            font-weight: 400;
             border-color: #112821;
             border-width: 1px;
             border-top-width: 0px;

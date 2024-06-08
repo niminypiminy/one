@@ -352,7 +352,7 @@ const BoardOfInvestment = (props) => {
           }
           .board-of-investment-text {
             width: 75%;
-            font-size: 2.5rem;
+            font-size: 2rem;
             max-width: auto;
             font-style: normal;
             font-family: 'Josefin Sans';

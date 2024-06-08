@@ -311,7 +311,7 @@ const FraudThailand = (props) => {
             flex-direction: column;
           }
           .fraud-thailand-title {
-            font-size: 3rem;
+            font-size: 2.5rem;
             font-style: normal;
             text-align: center;
             font-family: 'Noto Sans Thai';

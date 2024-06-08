@@ -371,6 +371,7 @@ const Page = (props) => {
             flex-direction: column;
           }
           .page-title {
+            font-size: 2.5rem;
             font-style: normal;
             text-align: center;
             font-family: 'Noto Sans Thai';
