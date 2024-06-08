@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import Head from 'next/head'
 
+import Navbar from '../components/navbar'
 import Footer1 from '../components/footer1'
 
 const DomesticAbuse = (props) => {
@@ -27,26 +28,7 @@ const DomesticAbuse = (props) => {
             content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/3b36eceb-15bd-4df9-a03b-c15ec4324845/6e310911-4daf-49cb-aeb2-76841f7d3639?org_if_sml=1&amp;force_format=original"
           />
         </Head>
-        <div className="domestic-abuse-container1">
-          <Link href="/domestic-abuse">
-            <a className="domestic-abuse-link">
-              <img
-                alt="image"
-                src="/united-kingdom-200h.png"
-                className="domestic-abuse-image"
-              />
-            </a>
-          </Link>
-          <Link href="/domestic-abuse-thailand">
-            <a className="domestic-abuse-link1">
-              <img
-                alt="image"
-                src="/thailand-200h.png"
-                className="domestic-abuse-image1"
-              />
-            </a>
-          </Link>
-        </div>
+        <Navbar rootClassName="navbar-root-class-name6"></Navbar>
         <div className="domestic-abuse-blog-post-header3 thq-section-padding">
           <div className="domestic-abuse-max-width thq-section-max-width">
             <div className="domestic-abuse-breadcrumbs">
@@ -79,6 +61,26 @@ const DomesticAbuse = (props) => {
                   <span className="domestic-abuse-date thq-body-small">
                     26 May 2024
                   </span>
+                </div>
+                <div className="domestic-abuse-container1">
+                  <Link href="/domestic-abuse">
+                    <a className="domestic-abuse-link">
+                      <img
+                        alt="image"
+                        src="/united-kingdom-200h.png"
+                        className="domestic-abuse-image"
+                      />
+                    </a>
+                  </Link>
+                  <Link href="/domestic-abuse-thailand">
+                    <a className="domestic-abuse-link1">
+                      <img
+                        alt="image"
+                        src="/thailand-200h.png"
+                        className="domestic-abuse-image1"
+                      />
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -163,7 +165,7 @@ const DomesticAbuse = (props) => {
                     }}
                   />
                 </span>
-                <Link href="/criminal-proceedings-in-thailand">
+                <Link href="/criminal-proceedings">
                   <a className="domestic-abuse-link2">
                     private criminal proceeding
                   </a>
@@ -256,32 +258,6 @@ const DomesticAbuse = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .domestic-abuse-container1 {
-            width: 100%;
-            display: flex;
-            position: relative;
-            justify-content: flex-end;
-          }
-          .domestic-abuse-link {
-            display: contents;
-          }
-          .domestic-abuse-image {
-            width: var(--dl-size-size-small);
-            height: var(--dl-size-size-small);
-            object-fit: cover;
-            text-decoration: none;
-          }
-          .domestic-abuse-link1 {
-            display: contents;
-          }
-          .domestic-abuse-image1 {
-            width: var(--dl-size-size-small);
-            height: var(--dl-size-size-small);
-            object-fit: cover;
-            margin-left: var(--dl-space-space-unit);
-            margin-right: var(--dl-space-space-unit);
-            text-decoration: none;
-          }
           .domestic-abuse-blog-post-header3 {
             display: flex;
             position: relative;
@@ -362,6 +338,35 @@ const DomesticAbuse = (props) => {
             font-family: 'Josefin Sans';
             font-weight: 200;
           }
+          .domestic-abuse-container1 {
+            flex: 0 0 auto;
+            width: 100%;
+            height: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+          .domestic-abuse-link {
+            display: contents;
+          }
+          .domestic-abuse-image {
+            width: 32px;
+            height: 32px;
+            object-fit: cover;
+            margin-left: var(--dl-space-space-unit);
+            text-decoration: none;
+          }
+          .domestic-abuse-link1 {
+            display: contents;
+          }
+          .domestic-abuse-image1 {
+            width: 32px;
+            height: 32px;
+            object-fit: cover;
+            margin-left: var(--dl-space-space-unit);
+            margin-right: var(--dl-space-space-unit);
+            text-decoration: none;
+          }
           .domestic-abuse-container2 {
             width: 60%;
           }
@@ -405,7 +410,9 @@ const DomesticAbuse = (props) => {
           }
           .domestic-abuse-li01 {
             font-size: 1.5rem;
+            margin-top: var(--dl-space-space-unit);
             font-family: 'Josefin Sans';
+            margin-bottom: var(--dl-space-space-unit);
           }
           .domestic-abuse-text12 {
             font-size: 1.5rem;
@@ -447,7 +454,9 @@ const DomesticAbuse = (props) => {
           }
           .domestic-abuse-li04 {
             font-size: 1.5rem;
+            margin-top: var(--dl-space-space-unit);
             font-family: 'Josefin Sans';
+            margin-bottom: var(--dl-space-space-unit);
           }
           .domestic-abuse-text16 {
             font-size: 1.5rem;
@@ -468,7 +477,9 @@ const DomesticAbuse = (props) => {
           }
           .domestic-abuse-li06 {
             font-size: 1.5rem;
+            margin-top: var(--dl-space-space-unit);
             font-family: 'Josefin Sans';
+            margin-bottom: var(--dl-space-space-unit);
           }
           .domestic-abuse-text20 {
             font-style: normal;
@@ -486,7 +497,9 @@ const DomesticAbuse = (props) => {
           }
           .domestic-abuse-li08 {
             font-size: 1.5rem;
+            margin-top: var(--dl-space-space-unit);
             font-family: 'Josefin Sans';
+            margin-bottom: var(--dl-space-space-unit);
           }
           .domestic-abuse-text22 {
             font-size: 1.5rem;
@@ -531,7 +544,9 @@ const DomesticAbuse = (props) => {
           }
           .domestic-abuse-li11 {
             font-size: 1.5rem;
+            margin-top: var(--dl-space-space-unit);
             font-family: 'Josefin Sans';
+            margin-bottom: var(--dl-space-space-unit);
           }
           .domestic-abuse-text27 {
             font-weight: 200;
@@ -545,6 +560,7 @@ const DomesticAbuse = (props) => {
           }
           .domestic-abuse-li13 {
             font-size: 1.5rem;
+            margin-top: var(--dl-space-space-unit);
             font-family: 'Josefin Sans';
           }
           .domestic-abuse-text29 {

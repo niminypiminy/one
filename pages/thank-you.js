@@ -28,12 +28,13 @@ const ThankYou = (props) => {
         <div className="thank-you-container1">
           <img
             alt="image"
-            src="/photo-1505664194779-8beaceb93744-modified-1500w.jpg"
+            src="/designer%20(1)2-1500w.jpeg"
             className="thank-you-image"
           />
           <h1 className="thank-you-text">
-            Thank you for contacting our team. We will respond to your enquiry
-            as soon as humanly possible.
+            Thank you for contacting our law firm. We will endeavor to respond
+            to your enquiry as soon as humanly possible. Usually, within the
+            hour, unless we&apos;re in court or with a client.
           </h1>
         </div>
         <Footer1></Footer1>
@@ -60,7 +61,7 @@ const ThankYou = (props) => {
           }
           .thank-you-image {
             width: 30%;
-            height: auto;
+            height: 59%;
             object-fit: cover;
           }
           .thank-you-text {
@@ -70,7 +71,7 @@ const ThankYou = (props) => {
             font-style: normal;
             margin-top: var(--dl-space-space-twounits);
             text-align: center;
-            font-family: Josefin Sans;
+            font-family: 'Josefin Sans';
             font-weight: 300;
           }
           @media (max-width: 1600px) {

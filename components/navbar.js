@@ -475,6 +475,18 @@ const Navbar = (props) => {
                 <span className="navbar-text24">{props.whatsapp}</span>
                 <span className="navbar-text25">{props.facebook}</span>
                 <span className="navbar-text26">{props.line}</span>
+                <div className="navbar-container3">
+                  <img
+                    alt={props.imageAlt}
+                    src={props.imageSrc}
+                    className="navbar-image"
+                  />
+                  <img
+                    alt={props.imageAlt1}
+                    src={props.imageSrc1}
+                    className="navbar-image1"
+                  />
+                </div>
               </div>
             </div>
           </header>
@@ -1615,6 +1627,7 @@ const Navbar = (props) => {
             width: 100%;
             display: flex;
             padding: var(--dl-space-space-threeunits);
+            position: relative;
             margin-top: auto;
             padding-top: 48px;
             justify-content: flex-start;
@@ -1658,6 +1671,31 @@ const Navbar = (props) => {
             margin-left: var(--dl-space-space-unit);
             text-decoration: underline;
           }
+          .navbar-container3 {
+            top: 48px;
+            flex: 0 0 auto;
+            right: 0px;
+            width: auto;
+            height: auto;
+            display: flex;
+            position: absolute;
+            align-self: flex-end;
+            align-items: center;
+            justify-content: center;
+          }
+          .navbar-image {
+            width: 32px;
+            height: 32px;
+            object-fit: cover;
+            margin-left: var(--dl-space-space-unit);
+          }
+          .navbar-image1 {
+            width: 32px;
+            height: 32px;
+            object-fit: cover;
+            margin-left: var(--dl-space-space-unit);
+            margin-right: var(--dl-space-space-unit);
+          }
           .navbar-root-class-name {
             width: 100%;
           }
@@ -1676,10 +1714,31 @@ const Navbar = (props) => {
           .navbar-root-class-name5 {
             width: 100%;
           }
+          .navbar-root-class-name6 {
+            width: 100%;
+          }
           .navbar-root-class-name7 {
             width: 100%;
           }
           .navbar-root-class-name8 {
+            width: 100%;
+          }
+          .navbar-root-class-name9 {
+            width: 100%;
+          }
+          .navbar-root-class-name10 {
+            width: 100%;
+          }
+          .navbar-root-class-name11 {
+            width: 100%;
+          }
+          .navbar-root-class-name12 {
+            width: 100%;
+          }
+          .navbar-root-class-name13 {
+            width: 100%;
+          }
+          .navbar-root-class-name14 {
             width: 100%;
           }
           @media (max-width: 1920px) {
@@ -1911,6 +1970,20 @@ const Navbar = (props) => {
               padding-right: var(--dl-space-space-unit);
               padding-bottom: var(--dl-space-space-twounits);
             }
+            .navbar-container3 {
+              position: static;
+              margin-bottom: 0px;
+              flex-direction: column;
+            }
+            .navbar-image {
+              margin-left: var(--dl-space-space-twounits);
+              margin-right: var(--dl-space-space-unit);
+            }
+            .navbar-image1 {
+              margin-left: var(--dl-space-space-twounits);
+              margin-right: var(--dl-space-space-unit);
+              margin-bottom: 0px;
+            }
           }
         `}
       </style>
@@ -1919,6 +1992,10 @@ const Navbar = (props) => {
 }
 
 Navbar.defaultProps = {
+  imageSrc1: '/thailand-200h.png',
+  imageAlt1: 'image',
+  imageAlt: 'image',
+  imageSrc: '/united-kingdom-200h.png',
   proBono: 'Pro Bono',
   danneskiold2: 'Danneskiold & Associates',
   blog1: 'Blog',
@@ -1957,6 +2034,10 @@ Navbar.defaultProps = {
 }
 
 Navbar.propTypes = {
+  imageSrc1: PropTypes.string,
+  imageAlt1: PropTypes.string,
+  imageAlt: PropTypes.string,
+  imageSrc: PropTypes.string,
   proBono: PropTypes.string,
   danneskiold2: PropTypes.string,
   blog1: PropTypes.string,

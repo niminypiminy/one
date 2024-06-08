@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import Head from 'next/head'
 
-import BlogPostHeader62 from '../components/blog-post-header62'
+import Navbar from '../components/navbar'
 import Footer1 from '../components/footer1'
 
 const Defamation = (props) => {
@@ -28,30 +28,67 @@ const Defamation = (props) => {
             content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/3b36eceb-15bd-4df9-a03b-c15ec4324845/6e310911-4daf-49cb-aeb2-76841f7d3639?org_if_sml=1&amp;force_format=original"
           />
         </Head>
-        <div className="defamation-container1">
-          <Link href="/defamation">
-            <a className="defamation-link">
-              <img
-                alt="image"
-                src="/united-kingdom-200h.png"
-                className="defamation-image"
-              />
-            </a>
-          </Link>
-          <Link href="/defamation-thailand">
-            <a className="defamation-link1">
-              <img
-                alt="image"
-                src="/thailand-200h.png"
-                className="defamation-image1"
-              />
-            </a>
-          </Link>
+        <Navbar rootClassName="navbar-root-class-name9"></Navbar>
+        <div className="defamation-blog-post-header3 thq-section-padding">
+          <div className="defamation-max-width thq-section-max-width">
+            <div className="defamation-breadcrumbs">
+              <span className="defamation-category thq-body-small">
+                Criminal Law
+              </span>
+            </div>
+            <div className="defamation-content thq-flex-column">
+              <h1 className="defamation-title thq-heading-1">
+                Defamation in Thailand
+              </h1>
+              <span className="defamation-read-time thq-body-small">
+                5 min read
+              </span>
+              <div className="defamation-content1">
+                <img
+                  alt="PlaceholderImage3501"
+                  src="/oig4-1400w.jpg"
+                  className="defamation-author-image thq-img-round thq-img-ratio-1-1"
+                />
+                <div className="defamation-author">
+                  <span className="defamation-text thq-body-small">
+                    Written by
+                  </span>
+                  <span className="defamation-text01 thq-body-small">
+                    Ulliam
+                  </span>
+                </div>
+                <div className="defamation-time">
+                  <span className="defamation-date thq-body-small">
+                    15 May 2024
+                  </span>
+                </div>
+                <div className="defamation-container1">
+                  <Link href="/defamation">
+                    <a className="defamation-link">
+                      <img
+                        alt="image"
+                        src="/united-kingdom-200h.png"
+                        className="defamation-image"
+                      />
+                    </a>
+                  </Link>
+                  <Link href="/defamation-thailand">
+                    <a className="defamation-link1">
+                      <img
+                        alt="image"
+                        src="/thailand-200h.png"
+                        className="defamation-image1"
+                      />
+                    </a>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <BlogPostHeader62></BlogPostHeader62>
         <div className="defamation-container2 open1">
-          <span className="defamation-text">
-            <span className="defamation-text01">
+          <span className="defamation-text02">
+            <span className="defamation-text03">
               Many journalists in the United States and the United Kingdom are
               familiar with the landmark case
               <span
@@ -60,10 +97,10 @@ const Defamation = (props) => {
                 }}
               />
             </span>
-            <span className="defamation-text02">
+            <span className="defamation-text04">
               Crown v. John Peter Zenger (1734)
             </span>
-            <span className="defamation-text03">
+            <span className="defamation-text05">
               , in which Zenger&apos;s lawyer, Andrew Hamilton, argued that true
               statements ought to be an absolute defense to the charge of
               defamation. The jury agreed with Hamilton&apos;s arguments,
@@ -76,10 +113,10 @@ const Defamation = (props) => {
                 }}
               />
             </span>
-            <span className="defamation-text04">
+            <span className="defamation-text06">
               New York Times Co. v. Sullivan (1964)
             </span>
-            <span className="defamation-text05">
+            <span className="defamation-text07">
               {' '}
               to include the concept of
               <span
@@ -88,16 +125,16 @@ const Defamation = (props) => {
                 }}
               />
             </span>
-            <span className="defamation-text06">Actual Malice</span>
-            <span className="defamation-text07">.</span>
-            <br className="defamation-text08"></br>
-            <br className="defamation-text09"></br>
-            <span className="defamation-text10">
+            <span className="defamation-text08">Actual Malice</span>
+            <span className="defamation-text09">.</span>
+            <br className="defamation-text10"></br>
+            <br className="defamation-text11"></br>
+            <span className="defamation-text12">
               In contrast, journalists should be mindful that the truthfulness
               of a statement in Thailand is 
             </span>
-            <span className="defamation-text11">not</span>
-            <span className="defamation-text12">
+            <span className="defamation-text13">not</span>
+            <span className="defamation-text14">
               {' '}
               a viable defense. The definition can be translated to:
               <span
@@ -106,16 +143,16 @@ const Defamation = (props) => {
                 }}
               />
             </span>
-            <br className="defamation-text13"></br>
-            <br className="defamation-text14"></br>
-            <span className="defamation-text15">
+            <br className="defamation-text15"></br>
+            <br className="defamation-text16"></br>
+            <span className="defamation-text17">
               any oral or written statement of fact, true or false, with the
               intent to defame, which is not in the public interest, and which
               is likely to cause loss to reputation.
             </span>
-            <br className="defamation-text16"></br>
-            <br className="defamation-text17"></br>
-            <span className="defamation-text18">
+            <br className="defamation-text18"></br>
+            <br className="defamation-text19"></br>
+            <span className="defamation-text20">
               Therefore, to successfully defeat a defamation claim you would
               have to prove that you honestly believed your statement was true,
               and that the statement served the public interest. If the
@@ -128,9 +165,9 @@ const Defamation = (props) => {
                 }}
               />
             </span>
-            <br className="defamation-text19"></br>
-            <br className="defamation-text20"></br>
-            <span className="defamation-text21">
+            <br className="defamation-text21"></br>
+            <br className="defamation-text22"></br>
+            <span className="defamation-text23">
               And unlike the United States and the United Kingdom, defamation in
               Thailand is considered both a criminal and civil offense.
               Therefore, it&apos;s prudent to be cautious when making
@@ -140,63 +177,63 @@ const Defamation = (props) => {
             <br></br>
             <br></br>
           </span>
-          <span className="defamation-text24">
-            <span className="defamation-text25">
+          <span className="defamation-text26">
+            <span className="defamation-text27">
               Requirements for an actionable Claim
             </span>
-            <br className="defamation-text26"></br>
-            <br className="defamation-text27"></br>
-            <span className="defamation-text28">
+            <br className="defamation-text28"></br>
+            <br className="defamation-text29"></br>
+            <span className="defamation-text30">
               To bring an actionable claim, the claimant will have to prove that
               the statement:
             </span>
-            <br className="defamation-text29"></br>
-            <br className="defamation-text30"></br>
+            <br className="defamation-text31"></br>
+            <br className="defamation-text32"></br>
           </span>
           <ul className="defamation-ul list">
             <li className="defamation-li list-item">
-              <span className="defamation-text31">
+              <span className="defamation-text33">
                 Was conveyed to a third party.
               </span>
             </li>
             <li className="defamation-li01 list-item">
-              <span className="defamation-text32">
+              <span className="defamation-text34">
                 likely caused loss to reputation. One does not have to prove the
                 damage to their reputation actually occurred: but rather, only
                 that the damage was likely to occur.
               </span>
             </li>
             <li className="defamation-li02 list-item">
-              <span className="defamation-text33">
+              <span className="defamation-text35">
                 That the defendant made the statement with intent to defame.
                 This means the defendant either knew or ought to have known that
                 the statement would cause loss to reputation.
               </span>
             </li>
             <li className="defamation-li03 list-item">
-              <span className="defamation-text34">
+              <span className="defamation-text36">
                 If the statement is true, that the statement was not in the
                 public interest.
               </span>
             </li>
             <li className="defamation-li04 list-item">
-              <span className="defamation-text35">
+              <span className="defamation-text37">
                 That it was a statement of fact, and not simply an opinion.
               </span>
             </li>
           </ul>
-          <span className="defamation-text36">
+          <span className="defamation-text38">
             The severity of the claim in Thailand depends on the method of
             distribution. Social media posts and other publications and
             advertisements with wide distribution are treated more severely than
             cases involving a few bystanders. For serious offenses, one may be
             imprisoned up to five years and fined up to 200,000 baht.
           </span>
-          <span className="defamation-text37">
-            <span className="defamation-text38">Qualifications/Exceptions</span>
-            <br className="defamation-text39"></br>
-            <br className="defamation-text40"></br>
-            <span className="defamation-text41">
+          <span className="defamation-text39">
+            <span className="defamation-text40">Qualifications/Exceptions</span>
+            <br className="defamation-text41"></br>
+            <br className="defamation-text42"></br>
+            <span className="defamation-text43">
               There are a number of exceptions to the general rule, or what we
               call qualifications, which can serve as an absolute or partial
               defense to defamation.
@@ -204,38 +241,38 @@ const Defamation = (props) => {
           </span>
           <ul className="defamation-ul1 list">
             <li className="defamation-li05 list-item">
-              <span className="defamation-text42">
+              <span className="defamation-text44">
                 A statement made with the intent to defend one&apos;s reputation
                 or for the protection of a legitimate interest.
               </span>
             </li>
             <li className="defamation-li06 list-item">
-              <span className="defamation-text43">
+              <span className="defamation-text45">
                 A true statement, or a statement reasonably believed to be true
                 directed towards a public official in the exercise of their
                 duties.
               </span>
             </li>
             <li className="defamation-li07 list-item">
-              <span className="defamation-text44">
+              <span className="defamation-text46">
                 A true statement, or statement reasonably believed to be true
                 which criticizes a public figure, and which is in the public
                 interest.
               </span>
             </li>
             <li className="defamation-li08 list-item">
-              <span className="defamation-text45">
+              <span className="defamation-text47">
                 A statement that is not seen or heard by a third party.
               </span>
             </li>
             <li className="defamation-li09 list-item">
-              <span className="defamation-text46">
+              <span className="defamation-text48">
                 A statement that is made without the intent to harm one&apos;s
                 reputation.
               </span>
             </li>
             <li className="defamation-li10 list-item">
-              <span className="defamation-text47">
+              <span className="defamation-text49">
                 <span>
                   A statement that is unlikely to cause loss to one&apos;s
                   reputation. This is determined objectively. Courts employ what
@@ -246,7 +283,7 @@ const Defamation = (props) => {
                     }}
                   />
                 </span>
-                <span className="defamation-text49">
+                <span className="defamation-text51">
                   ordinary reasonable person test
                 </span>
                 <span>
@@ -258,42 +295,42 @@ const Defamation = (props) => {
                     }}
                   />
                 </span>
-                <span className="defamation-text51">reasonable man test</span>
+                <span className="defamation-text53">reasonable man test</span>
               </span>
             </li>
           </ul>
-          <span className="defamation-text52">
-            <span className="defamation-text53">
+          <span className="defamation-text54">
+            <span className="defamation-text55">
               In principle, criticism of a public figure is not considered
               defamation as long as the statement is true or reasonably believed
               to be true. The court presumes that such statements were made in
               the public interest. However, criticism of the royal family is
               strictly prohibited.
             </span>
-            <br className="defamation-text54"></br>
-            <br className="defamation-text55"></br>
-            <span className="defamation-text56">
+            <br className="defamation-text56"></br>
+            <br className="defamation-text57"></br>
+            <span className="defamation-text58">
               <span
                 dangerouslySetInnerHTML={{
                   __html: ' ',
                 }}
               />
             </span>
-            <br className="defamation-text57"></br>
+            <br className="defamation-text59"></br>
             <br></br>
-            <span className="defamation-text59">
+            <span className="defamation-text61">
               What should I do if I&apos;ve been defamed?
             </span>
           </span>
           <ul className="defamation-ul2 list">
             <li className="defamation-li11 list-item">
-              <span className="defamation-text60">
+              <span className="defamation-text62">
                 If the statement is made online, then please take a screen shot
                 of the defamatory message and carefully organize the evidence.
               </span>
             </li>
             <li className="defamation-li12 list-item">
-              <span className="defamation-text61">
+              <span className="defamation-text63">
                 <span>
                   Contact us
                   <span
@@ -309,13 +346,13 @@ const Defamation = (props) => {
               </span>
             </li>
             <li className="defamation-li13 list-item">
-              <span className="defamation-text64">
+              <span className="defamation-text66">
                 To successfully proceed with the claim, you will need at least
                 one witness to testify on your behalf.
               </span>
             </li>
             <li className="defamation-li14 list-item">
-              <span className="defamation-text65">
+              <span className="defamation-text67">
                 A person who has been defamed may file both a civil and criminal
                 case; however, the defamation claim must be filed within three
                 months from the date the offense and the offender were known to
@@ -323,7 +360,7 @@ const Defamation = (props) => {
               </span>
             </li>
           </ul>
-          <span className="defamation-text66">
+          <span className="defamation-text68">
             <span>
               <span
                 dangerouslySetInnerHTML={{
@@ -349,7 +386,7 @@ const Defamation = (props) => {
                 }}
               />
             </span>
-            <Link href="/criminal-proceedings-in-thailand">
+            <Link href="/criminal-proceedings">
               <a className="defamation-link3">here</a>
             </Link>
             <span>.</span>
@@ -373,7 +410,7 @@ const Defamation = (props) => {
         <div className="defamation-container3">
           <Link href="/contact">
             <a className="defamation-link5">
-              <h1 className="defamation-text76">Contact</h1>
+              <h1 className="defamation-text78">Contact</h1>
             </a>
           </Link>
         </div>
@@ -389,27 +426,110 @@ const Defamation = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .defamation-container1 {
-            width: 100%;
+          .defamation-blog-post-header3 {
             display: flex;
             position: relative;
-            justify-content: flex-end;
+            align-items: center;
+          }
+          .defamation-max-width {
+            gap: var(--dl-space-space-oneandhalfunits);
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+          }
+          .defamation-breadcrumbs {
+            gap: var(--dl-space-space-halfunit);
+            display: flex;
+            align-items: center;
+          }
+          .defamation-category {
+            font-size: 1.2rem;
+            font-style: normal;
+            text-align: center;
+            font-family: 'Josefin Sans';
+            font-weight: 300;
+          }
+          .defamation-content {
+            gap: var(--dl-space-space-oneandhalfunits);
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+          }
+          .defamation-title {
+            font-size: 3rem;
+            font-style: normal;
+            text-align: center;
+            font-family: 'Josefin Sans';
+            font-weight: 400;
+          }
+          .defamation-read-time {
+            font-size: 1.2rem;
+            font-style: normal;
+            text-align: center;
+            font-family: 'Josefin Sans';
+            font-weight: 300;
+          }
+          .defamation-content1 {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+          }
+          .defamation-author-image {
+            width: var(--dl-size-size-small);
+            height: var(--dl-size-size-small);
+            margin-bottom: var(--dl-space-space-unit);
+          }
+          .defamation-author {
+            gap: var(--dl-space-space-halfunit);
+            display: flex;
+          }
+          .defamation-text {
+            font-size: 1.2rem;
+            font-style: normal;
+            font-family: 'Josefin Sans';
+            font-weight: 200;
+          }
+          .defamation-text01 {
+            font-size: 1.2rem;
+            font-style: normal;
+            font-family: 'Josefin Sans';
+            font-weight: 300;
+          }
+          .defamation-time {
+            gap: 8px;
+            display: flex;
+            align-items: center;
+          }
+          .defamation-date {
+            font-size: 1.2rem;
+            font-style: normal;
+            font-family: 'Josefin Sans';
+            font-weight: 200;
+          }
+          .defamation-container1 {
+            flex: 0 0 auto;
+            width: 100%;
+            height: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
           }
           .defamation-link {
             display: contents;
           }
           .defamation-image {
-            width: var(--dl-size-size-small);
-            height: var(--dl-size-size-small);
+            width: 32px;
+            height: 32px;
             object-fit: cover;
+            margin-left: var(--dl-space-space-unit);
             text-decoration: none;
           }
           .defamation-link1 {
             display: contents;
           }
           .defamation-image1 {
-            width: var(--dl-size-size-small);
-            height: var(--dl-size-size-small);
+            width: 32px;
+            height: 32px;
             object-fit: cover;
             margin-left: var(--dl-space-space-unit);
             margin-right: var(--dl-space-space-unit);
@@ -418,20 +538,10 @@ const Defamation = (props) => {
           .defamation-container2 {
             width: 60%;
           }
-          .defamation-text {
+          .defamation-text02 {
             width: 75%;
             font-size: 1.5rem;
             font-style: normal;
-            font-family: 'Josefin Sans';
-            font-weight: 200;
-          }
-          .defamation-text01 {
-            font-size: 1.5rem;
-            font-family: 'Josefin Sans';
-          }
-          .defamation-text02 {
-            font-size: 1.5rem;
-            font-style: italic;
             font-family: 'Josefin Sans';
             font-weight: 200;
           }
@@ -460,9 +570,13 @@ const Defamation = (props) => {
             font-family: 'Josefin Sans';
           }
           .defamation-text08 {
+            font-size: 1.5rem;
+            font-style: italic;
             font-family: 'Josefin Sans';
+            font-weight: 200;
           }
           .defamation-text09 {
+            font-size: 1.5rem;
             font-family: 'Josefin Sans';
           }
           .defamation-text10 {
@@ -475,14 +589,10 @@ const Defamation = (props) => {
             font-family: 'Josefin Sans';
           }
           .defamation-text13 {
-            font-style: italic;
             font-family: 'Josefin Sans';
-            font-weight: 200;
           }
           .defamation-text14 {
-            font-style: italic;
             font-family: 'Josefin Sans';
-            font-weight: 200;
           }
           .defamation-text15 {
             font-style: italic;
@@ -490,10 +600,14 @@ const Defamation = (props) => {
             font-weight: 200;
           }
           .defamation-text16 {
+            font-style: italic;
             font-family: 'Josefin Sans';
+            font-weight: 200;
           }
           .defamation-text17 {
+            font-style: italic;
             font-family: 'Josefin Sans';
+            font-weight: 200;
           }
           .defamation-text18 {
             font-family: 'Josefin Sans';
@@ -507,7 +621,13 @@ const Defamation = (props) => {
           .defamation-text21 {
             font-family: 'Josefin Sans';
           }
-          .defamation-text24 {
+          .defamation-text22 {
+            font-family: 'Josefin Sans';
+          }
+          .defamation-text23 {
+            font-family: 'Josefin Sans';
+          }
+          .defamation-text26 {
             width: 75%;
             font-size: 1.5rem;
             margin-top: var(--dl-space-space-oneandhalfunits);
@@ -517,22 +637,22 @@ const Defamation = (props) => {
             margin-right: 0px;
             margin-bottom: 0px;
           }
-          .defamation-text25 {
-            font-style: normal;
-          }
-          .defamation-text26 {
-            font-style: normal;
-          }
           .defamation-text27 {
             font-style: normal;
           }
           .defamation-text28 {
-            font-weight: 200;
+            font-style: normal;
           }
           .defamation-text29 {
-            font-weight: 200;
+            font-style: normal;
           }
           .defamation-text30 {
+            font-weight: 200;
+          }
+          .defamation-text31 {
+            font-weight: 200;
+          }
+          .defamation-text32 {
             font-style: normal;
           }
           .defamation-ul {
@@ -543,7 +663,7 @@ const Defamation = (props) => {
             font-size: 1.5rem;
             font-family: 'Josefin Sans';
           }
-          .defamation-text31 {
+          .defamation-text33 {
             font-size: 1.5rem;
             font-style: normal;
             font-family: 'Josefin Sans';
@@ -551,9 +671,11 @@ const Defamation = (props) => {
           }
           .defamation-li01 {
             font-size: 1.5rem;
+            margin-top: var(--dl-space-space-unit);
             font-family: 'Josefin Sans';
+            margin-bottom: var(--dl-space-space-unit);
           }
-          .defamation-text32 {
+          .defamation-text34 {
             font-style: normal;
             font-family: 'Josefin Sans';
             font-weight: 200;
@@ -562,7 +684,7 @@ const Defamation = (props) => {
             font-size: 1.5rem;
             font-family: 'Josefin Sans';
           }
-          .defamation-text33 {
+          .defamation-text35 {
             font-size: 1.5rem;
             font-style: normal;
             font-family: 'Josefin Sans';
@@ -570,9 +692,11 @@ const Defamation = (props) => {
           }
           .defamation-li03 {
             font-size: 1.5rem;
+            margin-top: var(--dl-space-space-unit);
             font-family: 'Josefin Sans';
+            margin-bottom: var(--dl-space-space-unit);
           }
-          .defamation-text34 {
+          .defamation-text36 {
             font-style: normal;
             font-weight: 200;
           }
@@ -580,38 +704,38 @@ const Defamation = (props) => {
             font-size: 1.5rem;
             font-family: 'Josefin Sans';
           }
-          .defamation-text35 {
-            font-style: normal;
-            font-family: 'Josefin Sans';
-            font-weight: 200;
-          }
-          .defamation-text36 {
-            width: 75%;
-            font-size: 1.5rem;
-            font-style: normal;
-            margin-top: var(--dl-space-space-oneandhalfunits);
-            font-family: 'Josefin Sans';
-            font-weight: 200;
-            margin-bottom: var(--dl-space-space-oneandhalfunits);
-          }
           .defamation-text37 {
-            width: 75%;
-            font-size: 1.5rem;
-            margin-top: var(--dl-space-space-oneandhalfunits);
+            font-style: normal;
             font-family: 'Josefin Sans';
             font-weight: 200;
-            margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
           .defamation-text38 {
-            font-weight: 400;
+            width: 75%;
+            font-size: 1.5rem;
+            font-style: normal;
+            margin-top: var(--dl-space-space-oneandhalfunits);
+            font-family: 'Josefin Sans';
+            font-weight: 200;
+            margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
           .defamation-text39 {
-            font-style: normal;
+            width: 75%;
+            font-size: 1.5rem;
+            margin-top: var(--dl-space-space-oneandhalfunits);
+            font-family: 'Josefin Sans';
+            font-weight: 200;
+            margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
           .defamation-text40 {
-            font-style: normal;
+            font-weight: 400;
           }
           .defamation-text41 {
+            font-style: normal;
+          }
+          .defamation-text42 {
+            font-style: normal;
+          }
+          .defamation-text43 {
             font-style: normal;
           }
           .defamation-ul1 {
@@ -622,15 +746,17 @@ const Defamation = (props) => {
             font-size: 1.5rem;
             font-family: 'Josefin Sans';
           }
-          .defamation-text42 {
+          .defamation-text44 {
             font-style: normal;
             font-weight: 200;
           }
           .defamation-li06 {
             font-size: 1.5rem;
+            margin-top: var(--dl-space-space-unit);
             font-family: 'Josefin Sans';
+            margin-bottom: var(--dl-space-space-unit);
           }
-          .defamation-text43 {
+          .defamation-text45 {
             font-style: normal;
             font-weight: 200;
           }
@@ -638,15 +764,17 @@ const Defamation = (props) => {
             font-size: 1.5rem;
             font-family: 'Josefin Sans';
           }
-          .defamation-text44 {
+          .defamation-text46 {
             font-style: normal;
             font-weight: 200;
           }
           .defamation-li08 {
             font-size: 1.5rem;
+            margin-top: var(--dl-space-space-unit);
             font-family: 'Josefin Sans';
+            margin-bottom: var(--dl-space-space-unit);
           }
-          .defamation-text45 {
+          .defamation-text47 {
             font-style: normal;
             font-weight: 200;
           }
@@ -654,20 +782,16 @@ const Defamation = (props) => {
             font-size: 1.5rem;
             font-family: 'Josefin Sans';
           }
-          .defamation-text46 {
+          .defamation-text48 {
             font-style: normal;
             font-weight: 200;
           }
           .defamation-li10 {
             font-size: 1.5rem;
+            margin-top: var(--dl-space-space-unit);
             font-family: 'Josefin Sans';
-          }
-          .defamation-text47 {
-            font-weight: 200;
           }
           .defamation-text49 {
-            font-style: italic;
-            font-family: 'Josefin Sans';
             font-weight: 200;
           }
           .defamation-text51 {
@@ -675,22 +799,15 @@ const Defamation = (props) => {
             font-family: 'Josefin Sans';
             font-weight: 200;
           }
-          .defamation-text52 {
-            width: 75%;
-            margin-top: var(--dl-space-space-oneandhalfunits);
-            margin-bottom: var(--dl-space-space-oneandhalfunits);
-          }
           .defamation-text53 {
-            font-size: 1.5rem;
-            font-style: normal;
+            font-style: italic;
             font-family: 'Josefin Sans';
             font-weight: 200;
           }
           .defamation-text54 {
-            font-size: 1.5rem;
-            font-style: normal;
-            font-family: 'Josefin Sans';
-            font-weight: 200;
+            width: 75%;
+            margin-top: var(--dl-space-space-oneandhalfunits);
+            margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
           .defamation-text55 {
             font-size: 1.5rem;
@@ -710,7 +827,19 @@ const Defamation = (props) => {
             font-family: 'Josefin Sans';
             font-weight: 200;
           }
+          .defamation-text58 {
+            font-size: 1.5rem;
+            font-style: normal;
+            font-family: 'Josefin Sans';
+            font-weight: 200;
+          }
           .defamation-text59 {
+            font-size: 1.5rem;
+            font-style: normal;
+            font-family: 'Josefin Sans';
+            font-weight: 200;
+          }
+          .defamation-text61 {
             font-size: 1.5rem;
             font-style: normal;
             font-family: 'Josefin Sans';
@@ -724,15 +853,17 @@ const Defamation = (props) => {
             font-size: 1.5rem;
             font-family: 'Josefin Sans';
           }
-          .defamation-text60 {
+          .defamation-text62 {
             font-style: normal;
             font-weight: 200;
           }
           .defamation-li12 {
             font-size: 1.5rem;
+            margin-top: var(--dl-space-space-unit);
             font-family: 'Josefin Sans';
+            margin-bottom: var(--dl-space-space-unit);
           }
-          .defamation-text61 {
+          .defamation-text63 {
             font-weight: 200;
           }
           .defamation-link2 {
@@ -742,19 +873,20 @@ const Defamation = (props) => {
             font-size: 1.5rem;
             font-family: 'Josefin Sans';
           }
-          .defamation-text64 {
+          .defamation-text66 {
             font-style: normal;
             font-weight: 200;
           }
           .defamation-li14 {
             font-size: 1.5rem;
+            margin-top: var(--dl-space-space-unit);
             font-family: 'Josefin Sans';
           }
-          .defamation-text65 {
+          .defamation-text67 {
             font-style: normal;
             font-weight: 200;
           }
-          .defamation-text66 {
+          .defamation-text68 {
             width: 75%;
             font-size: 1.5rem;
             margin-top: var(--dl-space-space-oneandhalfunits);
@@ -782,7 +914,7 @@ const Defamation = (props) => {
           .defamation-link5 {
             display: contents;
           }
-          .defamation-text76 {
+          .defamation-text78 {
             color: var(--dl-color-gray-black);
             padding: var(--dl-space-space-halfunit);
             font-size: 1.5rem;
@@ -798,12 +930,12 @@ const Defamation = (props) => {
             padding-bottom: var(--dl-space-space-unit);
             text-decoration: none;
           }
-          .defamation-text76:hover {
+          .defamation-text78:hover {
             color: var(--dl-color-gray-white);
             background-color: #1b1b1b;
           }
           @media (max-width: 1600px) {
-            .defamation-text66 {
+            .defamation-text68 {
               font-size: 1.5rem;
               font-family: Josefin Sans;
               font-weight: 200;
@@ -813,44 +945,44 @@ const Defamation = (props) => {
             .defamation-container2 {
               width: 80%;
             }
-            .defamation-text {
+            .defamation-text02 {
               width: 90%;
             }
-            .defamation-text24 {
+            .defamation-text26 {
               width: 90%;
             }
             .defamation-ul {
               width: 90%;
             }
-            .defamation-text36 {
+            .defamation-text38 {
               width: 90%;
             }
-            .defamation-text37 {
+            .defamation-text39 {
               width: 90%;
             }
             .defamation-ul1 {
               width: 90%;
             }
-            .defamation-text52 {
+            .defamation-text54 {
               width: 90%;
             }
             .defamation-ul2 {
               width: 90%;
             }
-            .defamation-text66 {
+            .defamation-text68 {
               width: 90%;
             }
           }
           @media (max-width: 767px) {
-            .defamation-text76 {
+            .defamation-text78 {
               align-self: flex-start;
             }
           }
           @media (max-width: 479px) {
-            .defamation-text66 {
+            .defamation-text68 {
               width: 90%;
             }
-            .defamation-text76 {
+            .defamation-text78 {
               align-self: flex-start;
             }
           }

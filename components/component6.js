@@ -56,9 +56,7 @@ const Component6 = (props) => {
                   }}
                 />
               </span>
-              <Link href="/trespass-to-the-person">
-                <a className="component6-link2">trespass to the person</a>
-              </Link>
+              <span className="component6-text04">trespass to the person</span>
               <span>
                 {' '}
                 often choose to pursue both criminal and civil charges. While
@@ -69,16 +67,16 @@ const Component6 = (props) => {
             </span>
             <ul className="component6-ul list">
               <li className="list-item">
-                <span className="component6-text05">{props.text3}</span>
+                <span className="component6-text06">{props.text3}</span>
               </li>
               <li className="list-item">
-                <span className="component6-text06">{props.text4}</span>
+                <span className="component6-text07">{props.text4}</span>
               </li>
               <li className="list-item">
-                <span className="component6-text07">{props.text5}</span>
+                <span className="component6-text08">{props.text5}</span>
               </li>
             </ul>
-            <span className="component6-text08">
+            <span className="component6-text09">
               <span>
                 In Thailand, however, individual persons have
                 <span
@@ -92,13 +90,13 @@ const Component6 = (props) => {
             </span>
             <ul className="component6-ul1 list">
               <li className="component6-li03 list-item">
-                <span className="component6-text12">{props.text6}</span>
+                <span className="component6-text13">{props.text6}</span>
               </li>
               <li className="component6-li04 list-item">
-                <span className="component6-text13">{props.text7}</span>
+                <span className="component6-text14">{props.text7}</span>
               </li>
             </ul>
-            <span className="component6-text14">
+            <span className="component6-text15">
               <span>
                 Under Section 28 of the
                 <span
@@ -107,7 +105,7 @@ const Component6 = (props) => {
                   }}
                 />
               </span>
-              <span className="component6-text16">Criminal Procedure Code</span>
+              <span className="component6-text17">Criminal Procedure Code</span>
               <span>
                 , individual persons are granted the right, subsequent to a
                 preliminary investigation into the merits, to file criminal
@@ -119,7 +117,7 @@ const Component6 = (props) => {
                   }}
                 />
               </span>
-              <span className="component6-text18">
+              <span className="component6-text19">
                 Private Criminal Proceedings
               </span>
               <span>
@@ -130,50 +128,50 @@ const Component6 = (props) => {
                   }}
                 />
               </span>
-              <span className="component6-text20">
+              <span className="component6-text21">
                 Public criminal proceeding
               </span>
-              <span className="component6-text21">s</span>
+              <span className="component6-text22">s</span>
               <span>
                  which are initiated by prosecutors on behalf of the state.
               </span>
             </span>
-            <span className="component6-text23">{props.text}</span>
+            <span className="component6-text24">{props.text}</span>
             <ul className="component6-ul2 list">
               <li className="list-item">
-                <span className="component6-text24">{props.text8}</span>
+                <span className="component6-text25">{props.text8}</span>
               </li>
               <li className="list-item">
-                <span className="component6-text25">{props.text9}</span>
+                <span className="component6-text26">{props.text9}</span>
               </li>
               <li className="list-item">
-                <span className="component6-text26">{props.text10}</span>
+                <span className="component6-text27">{props.text10}</span>
               </li>
               <li className="list-item">
-                <span className="component6-text27">{props.text11}</span>
+                <span className="component6-text28">{props.text11}</span>
               </li>
               <li className="list-item">
-                <span className="component6-text28">{props.text12}</span>
+                <span className="component6-text29">{props.text12}</span>
               </li>
               <li className="list-item">
-                <span className="component6-text29">{props.text13}</span>
+                <span className="component6-text30">{props.text13}</span>
               </li>
             </ul>
-            <span className="component6-text30">{props.text1}</span>
+            <span className="component6-text31">{props.text1}</span>
             <ul className="component6-ul3 list">
               <li className="list-item">
-                <span className="component6-text31">{props.text14}</span>
+                <span className="component6-text32">{props.text14}</span>
               </li>
               <li className="list-item">
-                <span className="component6-text32">{props.text15}</span>
+                <span className="component6-text33">{props.text15}</span>
               </li>
               <li className="list-item">
-                <span className="component6-text33">{props.text16}</span>
+                <span className="component6-text34">{props.text16}</span>
               </li>
             </ul>
-            <span className="component6-text34">{props.text2}</span>
-            <span className="component6-text35">
-              <span className="component6-text36">Important note:</span>
+            <span className="component6-text35">{props.text2}</span>
+            <span className="component6-text36">
+              <span className="component6-text37">Important note:</span>
               <span>
                 {' '}
                 If the police refer charges to the prosecutor, and the
@@ -186,7 +184,7 @@ const Component6 = (props) => {
                   }}
                 />
               </span>
-              <span className="component6-text38">
+              <span className="component6-text39">
                 private criminal proceeding
               </span>
               <span>.</span>
@@ -225,7 +223,7 @@ const Component6 = (props) => {
           .component6-link1 {
             text-decoration: underline;
           }
-          .component6-link2 {
+          .component6-text04 {
             text-decoration: underline;
           }
           .component6-ul {
@@ -233,12 +231,6 @@ const Component6 = (props) => {
             margin-top: var(--dl-space-space-twounits);
             margin-bottom: var(--dl-space-space-twounits);
             list-style-type: disc;
-          }
-          .component6-text05 {
-            font-size: 2rem;
-            font-style: normal;
-            font-family: 'Josefin Sans';
-            font-weight: 200;
           }
           .component6-text06 {
             font-size: 2rem;
@@ -253,6 +245,12 @@ const Component6 = (props) => {
             font-weight: 200;
           }
           .component6-text08 {
+            font-size: 2rem;
+            font-style: normal;
+            font-family: 'Josefin Sans';
+            font-weight: 200;
+          }
+          .component6-text09 {
             width: 75%;
             font-size: 2rem;
             font-style: normal;
@@ -270,7 +268,7 @@ const Component6 = (props) => {
             font-family: 'Lora';
             list-style-type: disc;
           }
-          .component6-text12 {
+          .component6-text13 {
             font-size: 2rem;
             font-style: normal;
             font-family: 'Josefin Sans';
@@ -280,36 +278,36 @@ const Component6 = (props) => {
             font-size: 16px;
             font-family: 'Lora';
           }
-          .component6-text13 {
+          .component6-text14 {
             font-size: 2rem;
             font-style: normal;
             font-family: 'Josefin Sans';
             font-weight: 200;
           }
-          .component6-text14 {
+          .component6-text15 {
             width: 75%;
             font-size: 2rem;
             font-style: normal;
             font-family: 'Josefin Sans';
             font-weight: 200;
           }
-          .component6-text16 {
+          .component6-text17 {
             font-style: italic;
             font-weight: 200;
           }
-          .component6-text18 {
+          .component6-text19 {
             font-style: italic;
-            font-weight: 300;
-          }
-          .component6-text20 {
-            font-style: normal;
             font-weight: 300;
           }
           .component6-text21 {
+            font-style: normal;
+            font-weight: 300;
+          }
+          .component6-text22 {
             font-style: italic;
             font-weight: 200;
           }
-          .component6-text23 {
+          .component6-text24 {
             width: 75%;
             font-size: 2rem;
             font-style: normal;
@@ -322,12 +320,6 @@ const Component6 = (props) => {
             margin-top: var(--dl-space-space-twounits);
             margin-bottom: var(--dl-space-space-twounits);
             list-style-type: disc;
-          }
-          .component6-text24 {
-            font-size: 2rem;
-            font-style: normal;
-            font-family: 'Josefin Sans';
-            font-weight: 200;
           }
           .component6-text25 {
             font-size: 2rem;
@@ -360,6 +352,12 @@ const Component6 = (props) => {
             font-weight: 200;
           }
           .component6-text30 {
+            font-size: 2rem;
+            font-style: normal;
+            font-family: 'Josefin Sans';
+            font-weight: 200;
+          }
+          .component6-text31 {
             width: 75%;
             font-size: 2rem;
             font-style: normal;
@@ -372,12 +370,6 @@ const Component6 = (props) => {
             margin-top: var(--dl-space-space-twounits);
             margin-bottom: var(--dl-space-space-twounits);
             list-style-type: disc;
-          }
-          .component6-text31 {
-            font-size: 2rem;
-            font-style: normal;
-            font-family: 'Josefin Sans';
-            font-weight: 200;
           }
           .component6-text32 {
             font-size: 2rem;
@@ -392,7 +384,6 @@ const Component6 = (props) => {
             font-weight: 200;
           }
           .component6-text34 {
-            width: 75%;
             font-size: 2rem;
             font-style: normal;
             font-family: 'Josefin Sans';
@@ -402,28 +393,35 @@ const Component6 = (props) => {
             width: 75%;
             font-size: 2rem;
             font-style: normal;
-            margin-top: var(--dl-space-space-twounits);
             font-family: 'Josefin Sans';
             font-weight: 200;
           }
           .component6-text36 {
+            width: 75%;
+            font-size: 2rem;
+            font-style: normal;
+            margin-top: var(--dl-space-space-twounits);
+            font-family: 'Josefin Sans';
+            font-weight: 200;
+          }
+          .component6-text37 {
             font-style: italic;
             font-weight: 200;
           }
-          .component6-text38 {
+          .component6-text39 {
             font-style: italic;
             font-weight: 300;
           }
           @media (max-width: 1600px) {
-            .component6-text18 {
-              font-style: italic;
-              font-weight: 300;
-            }
-            .component6-text20 {
+            .component6-text19 {
               font-style: italic;
               font-weight: 300;
             }
             .component6-text21 {
+              font-style: italic;
+              font-weight: 300;
+            }
+            .component6-text22 {
               font-style: italic;
               font-weight: 300;
             }
@@ -435,31 +433,31 @@ const Component6 = (props) => {
             .component6-ul {
               width: 80%;
             }
-            .component6-text08 {
+            .component6-text09 {
               width: 90%;
             }
             .component6-ul1 {
               width: 80%;
             }
-            .component6-text14 {
+            .component6-text15 {
               width: 90%;
             }
-            .component6-text23 {
+            .component6-text24 {
               width: 90%;
             }
             .component6-ul2 {
               width: 80%;
             }
-            .component6-text30 {
+            .component6-text31 {
               width: 90%;
             }
             .component6-ul3 {
               width: 80%;
             }
-            .component6-text34 {
+            .component6-text35 {
               width: 90%;
             }
-            .component6-text35 {
+            .component6-text36 {
               width: 90%;
             }
           }
@@ -473,7 +471,7 @@ const Component6 = (props) => {
             .component6-ul1 {
               width: 80%;
             }
-            .component6-text14 {
+            .component6-text15 {
               width: 90%;
             }
             .component6-ul2 {
@@ -482,10 +480,10 @@ const Component6 = (props) => {
             .component6-ul3 {
               width: 80%;
             }
-            .component6-text34 {
+            .component6-text35 {
               width: 90%;
             }
-            .component6-text35 {
+            .component6-text36 {
               width: 90%;
             }
           }

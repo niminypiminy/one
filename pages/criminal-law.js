@@ -35,12 +35,10 @@ const CriminalLaw = (props) => {
             <div className="criminal-law-container3">
               <h1 className="criminal-law-text">Criminal Law</h1>
               <span className="criminal-law-text01">
-                If you have been arrested or believe you may be detained, please
-                contact us. Our team of trial attorneys has a proven track
-                record of successfully defending clients. We will provide you
-                with expert guidance throughout the legal process, prioritize
-                your well-being, and vigorously defend your rights at every
-                stage.
+                Our team of trial attorneys have a proven track record of
+                success. We will provide you with expert guidance throughout the
+                legal process, prioritize your well-being, and vigorously defend
+                your rights at every stage.
               </span>
               <Link href="/contact">
                 <a className="criminal-law-link">
@@ -81,7 +79,7 @@ const CriminalLaw = (props) => {
                       }}
                     />
                   </span>
-                  <Link href="/criminal-proceedings-in-thailand">
+                  <Link href="/criminal-proceedings">
                     <a className="criminal-law-link1">here</a>
                   </Link>
                   <span>

@@ -208,7 +208,7 @@ const FAQ84 = (props) => {
                         }}
                       />
                     </span>
-                    <Link href="/criminal-proceedings-in-thailand">
+                    <Link href="/criminal-proceedings">
                       <a className="faq84-link3">here</a>
                     </Link>
                     <span>. </span>

@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import Head from 'next/head'
 
+import Navbar from '../components/navbar'
 import Footer1 from '../components/footer1'
 
 const DomesticAbuseThailand = (props) => {
@@ -29,26 +30,7 @@ const DomesticAbuseThailand = (props) => {
             content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/3b36eceb-15bd-4df9-a03b-c15ec4324845/6e310911-4daf-49cb-aeb2-76841f7d3639?org_if_sml=1&amp;force_format=original"
           />
         </Head>
-        <div className="domestic-abuse-thailand-container1">
-          <Link href="/domestic-abuse">
-            <a className="domestic-abuse-thailand-link">
-              <img
-                alt="image"
-                src="/united-kingdom-200h.png"
-                className="domestic-abuse-thailand-image"
-              />
-            </a>
-          </Link>
-          <Link href="/domestic-abuse-thailand">
-            <a className="domestic-abuse-thailand-link1">
-              <img
-                alt="image"
-                src="/thailand-200h.png"
-                className="domestic-abuse-thailand-image1"
-              />
-            </a>
-          </Link>
-        </div>
+        <Navbar rootClassName="navbar-root-class-name13"></Navbar>
         <div className="domestic-abuse-thailand-blog-post-header3 thq-section-padding">
           <div className="domestic-abuse-thailand-max-width thq-section-max-width">
             <div className="domestic-abuse-thailand-breadcrumbs">
@@ -81,6 +63,26 @@ const DomesticAbuseThailand = (props) => {
                   <span className="domestic-abuse-thailand-date thq-body-small">
                     25 May 2024
                   </span>
+                </div>
+                <div className="domestic-abuse-thailand-container1">
+                  <Link href="/domestic-abuse">
+                    <a className="domestic-abuse-thailand-link">
+                      <img
+                        alt="image"
+                        src="/united-kingdom-200h.png"
+                        className="domestic-abuse-thailand-image"
+                      />
+                    </a>
+                  </Link>
+                  <Link href="/domestic-abuse-thailand">
+                    <a className="domestic-abuse-thailand-link1">
+                      <img
+                        alt="image"
+                        src="/thailand-200h.png"
+                        className="domestic-abuse-thailand-image1"
+                      />
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -310,32 +312,6 @@ const DomesticAbuseThailand = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .domestic-abuse-thailand-container1 {
-            width: 100%;
-            display: flex;
-            position: relative;
-            justify-content: flex-end;
-          }
-          .domestic-abuse-thailand-link {
-            display: contents;
-          }
-          .domestic-abuse-thailand-image {
-            width: var(--dl-size-size-small);
-            height: var(--dl-size-size-small);
-            object-fit: cover;
-            text-decoration: none;
-          }
-          .domestic-abuse-thailand-link1 {
-            display: contents;
-          }
-          .domestic-abuse-thailand-image1 {
-            width: var(--dl-size-size-small);
-            height: var(--dl-size-size-small);
-            object-fit: cover;
-            margin-left: var(--dl-space-space-unit);
-            margin-right: var(--dl-space-space-unit);
-            text-decoration: none;
-          }
           .domestic-abuse-thailand-blog-post-header3 {
             display: flex;
             position: relative;
@@ -416,6 +392,35 @@ const DomesticAbuseThailand = (props) => {
             font-family: 'Josefin Sans';
             font-weight: 200;
           }
+          .domestic-abuse-thailand-container1 {
+            flex: 0 0 auto;
+            width: 100%;
+            height: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+          .domestic-abuse-thailand-link {
+            display: contents;
+          }
+          .domestic-abuse-thailand-image {
+            width: 32px;
+            height: 32px;
+            object-fit: cover;
+            margin-left: var(--dl-space-space-unit);
+            text-decoration: none;
+          }
+          .domestic-abuse-thailand-link1 {
+            display: contents;
+          }
+          .domestic-abuse-thailand-image1 {
+            width: 32px;
+            height: 32px;
+            object-fit: cover;
+            margin-left: var(--dl-space-space-unit);
+            margin-right: var(--dl-space-space-unit);
+            text-decoration: none;
+          }
           .domestic-abuse-thailand-container2 {
             width: 60%;
           }
@@ -451,7 +456,9 @@ const DomesticAbuseThailand = (props) => {
           }
           .domestic-abuse-thailand-li01 {
             font-size: 1.5rem;
+            margin-top: var(--dl-space-space-unit);
             font-family: 'Noto Sans Thai';
+            margin-bottom: var(--dl-space-space-unit);
           }
           .domestic-abuse-thailand-text10 {
             font-style: normal;
@@ -491,7 +498,9 @@ const DomesticAbuseThailand = (props) => {
           }
           .domestic-abuse-thailand-li04 {
             font-size: 1.5rem;
+            margin-top: var(--dl-space-space-unit);
             font-family: 'Noto Sans Thai';
+            margin-bottom: var(--dl-space-space-unit);
           }
           .domestic-abuse-thailand-text14 {
             font-size: 1.5rem;
@@ -510,7 +519,9 @@ const DomesticAbuseThailand = (props) => {
           }
           .domestic-abuse-thailand-li06 {
             font-size: 1.5rem;
+            margin-top: var(--dl-space-space-unit);
             font-family: 'Noto Sans Thai';
+            margin-bottom: var(--dl-space-space-unit);
           }
           .domestic-abuse-thailand-text16 {
             font-weight: 200;
@@ -529,7 +540,9 @@ const DomesticAbuseThailand = (props) => {
           }
           .domestic-abuse-thailand-li08 {
             font-size: 1.5rem;
+            margin-top: var(--dl-space-space-unit);
             font-family: 'Noto Sans Thai';
+            margin-bottom: var(--dl-space-space-unit);
           }
           .domestic-abuse-thailand-text20 {
             font-size: 1.5rem;
@@ -548,7 +561,9 @@ const DomesticAbuseThailand = (props) => {
           }
           .domestic-abuse-thailand-li10 {
             font-size: 1.5rem;
+            margin-top: var(--dl-space-space-unit);
             font-family: 'Noto Sans Thai';
+            margin-bottom: var(--dl-space-space-unit);
           }
           .domestic-abuse-thailand-text22 {
             font-size: 1.5rem;
@@ -628,7 +643,9 @@ const DomesticAbuseThailand = (props) => {
           }
           .domestic-abuse-thailand-li13 {
             font-size: 1.5rem;
+            margin-top: var(--dl-space-space-unit);
             font-family: 'Noto Sans Thai';
+            margin-bottom: var(--dl-space-space-unit);
           }
           .domestic-abuse-thailand-text32 {
             font-family: 'Noto Sans Thai';
@@ -643,6 +660,7 @@ const DomesticAbuseThailand = (props) => {
           .domestic-abuse-thailand-li14 {
             font-size: 1.5rem;
             font-family: 'Noto Sans Thai';
+            margin-bottom: var(--dl-space-space-unit);
           }
           .domestic-abuse-thailand-text35 {
             font-family: 'Noto Sans Thai';

@@ -30,7 +30,7 @@ const Contact = (props) => {
             <form
               id="submit-form"
               name="submit-form"
-              action="https://formsubmit.co/ldrob@tuta.io"
+              action="https://formsubmit.co/support@danneskiold.zohodesk.com"
               method="POST"
               enctype="multipart/form-data"
               className="contact-form"

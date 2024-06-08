@@ -42,9 +42,7 @@ const Container1 = (props) => {
               }}
             />
           </span>
-          <Link href="/trespass-to-the-person">
-            <a className="container1-link2">trespass to the person</a>
-          </Link>
+          <span className="container1-text04">trespass to the person</span>
           <span>
             {' '}
             often choose to pursue both criminal and civil charges. While
@@ -55,16 +53,16 @@ const Container1 = (props) => {
         </span>
         <ul className="container1-ul list">
           <li className="list-item">
-            <span className="container1-text05">{props.text3}</span>
+            <span className="container1-text06">{props.text3}</span>
           </li>
           <li className="list-item">
-            <span className="container1-text06">{props.text4}</span>
+            <span className="container1-text07">{props.text4}</span>
           </li>
           <li className="list-item">
-            <span className="container1-text07">{props.text5}</span>
+            <span className="container1-text08">{props.text5}</span>
           </li>
         </ul>
-        <span className="container1-text08">
+        <span className="container1-text09">
           <span>
             In Thailand, however, individual persons have
             <span
@@ -78,13 +76,13 @@ const Container1 = (props) => {
         </span>
         <ul className="container1-ul1 list">
           <li className="container1-li03 list-item">
-            <span className="container1-text12">{props.text6}</span>
+            <span className="container1-text13">{props.text6}</span>
           </li>
           <li className="container1-li04 list-item">
-            <span className="container1-text13">{props.text7}</span>
+            <span className="container1-text14">{props.text7}</span>
           </li>
         </ul>
-        <span className="container1-text14">
+        <span className="container1-text15">
           <span>
             Under Section 28 of the
             <span
@@ -93,7 +91,7 @@ const Container1 = (props) => {
               }}
             />
           </span>
-          <span className="container1-text16">Criminal Procedure Code</span>
+          <span className="container1-text17">Criminal Procedure Code</span>
           <span>
             , individual persons are granted the right, subsequent to a
             preliminary investigation into the merits, to file criminal charges
@@ -104,7 +102,7 @@ const Container1 = (props) => {
               }}
             />
           </span>
-          <span className="container1-text18">
+          <span className="container1-text19">
             Private Criminal Proceedings
           </span>
           <span>
@@ -115,48 +113,48 @@ const Container1 = (props) => {
               }}
             />
           </span>
-          <span className="container1-text20">Public criminal proceeding</span>
-          <span className="container1-text21">s</span>
+          <span className="container1-text21">Public criminal proceeding</span>
+          <span className="container1-text22">s</span>
           <span>
              which are initiated by prosecutors on behalf of the state.
           </span>
         </span>
-        <span className="container1-text23">{props.text}</span>
+        <span className="container1-text24">{props.text}</span>
         <ul className="container1-ul2 list">
           <li className="list-item">
-            <span className="container1-text24">{props.text8}</span>
+            <span className="container1-text25">{props.text8}</span>
           </li>
           <li className="list-item">
-            <span className="container1-text25">{props.text9}</span>
+            <span className="container1-text26">{props.text9}</span>
           </li>
           <li className="list-item">
-            <span className="container1-text26">{props.text10}</span>
+            <span className="container1-text27">{props.text10}</span>
           </li>
           <li className="list-item">
-            <span className="container1-text27">{props.text11}</span>
+            <span className="container1-text28">{props.text11}</span>
           </li>
           <li className="list-item">
-            <span className="container1-text28">{props.text12}</span>
+            <span className="container1-text29">{props.text12}</span>
           </li>
           <li className="list-item">
-            <span className="container1-text29">{props.text13}</span>
+            <span className="container1-text30">{props.text13}</span>
           </li>
         </ul>
-        <span className="container1-text30">{props.text1}</span>
+        <span className="container1-text31">{props.text1}</span>
         <ul className="container1-ul3 list">
           <li className="list-item">
-            <span className="container1-text31">{props.text14}</span>
+            <span className="container1-text32">{props.text14}</span>
           </li>
           <li className="list-item">
-            <span className="container1-text32">{props.text15}</span>
+            <span className="container1-text33">{props.text15}</span>
           </li>
           <li className="list-item">
-            <span className="container1-text33">{props.text16}</span>
+            <span className="container1-text34">{props.text16}</span>
           </li>
         </ul>
-        <span className="container1-text34">{props.text2}</span>
-        <span className="container1-text35">
-          <span className="container1-text36">Important note:</span>
+        <span className="container1-text35">{props.text2}</span>
+        <span className="container1-text36">
+          <span className="container1-text37">Important note:</span>
           <span>
             {' '}
             If the police refer charges to the prosecutor, and the prosecutor
@@ -168,7 +166,7 @@ const Container1 = (props) => {
               }}
             />
           </span>
-          <span className="container1-text38">private criminal proceeding</span>
+          <span className="container1-text39">private criminal proceeding</span>
           <span>.</span>
         </span>
       </div>
@@ -206,7 +204,7 @@ const Container1 = (props) => {
           .container1-link1 {
             text-decoration: underline;
           }
-          .container1-link2 {
+          .container1-text04 {
             text-decoration: underline;
           }
           .container1-ul {
@@ -214,12 +212,6 @@ const Container1 = (props) => {
             margin-top: var(--dl-space-space-twounits);
             margin-bottom: var(--dl-space-space-twounits);
             list-style-type: disc;
-          }
-          .container1-text05 {
-            font-size: 2rem;
-            font-style: normal;
-            font-family: 'Josefin Sans';
-            font-weight: 200;
           }
           .container1-text06 {
             font-size: 2rem;
@@ -234,6 +226,12 @@ const Container1 = (props) => {
             font-weight: 200;
           }
           .container1-text08 {
+            font-size: 2rem;
+            font-style: normal;
+            font-family: 'Josefin Sans';
+            font-weight: 200;
+          }
+          .container1-text09 {
             width: 75%;
             font-size: 2rem;
             font-style: normal;
@@ -251,7 +249,7 @@ const Container1 = (props) => {
             font-family: 'Lora';
             list-style-type: disc;
           }
-          .container1-text12 {
+          .container1-text13 {
             font-size: 2rem;
             font-style: normal;
             font-family: 'Josefin Sans';
@@ -261,36 +259,36 @@ const Container1 = (props) => {
             font-size: 16px;
             font-family: 'Lora';
           }
-          .container1-text13 {
+          .container1-text14 {
             font-size: 2rem;
             font-style: normal;
             font-family: 'Josefin Sans';
             font-weight: 200;
           }
-          .container1-text14 {
+          .container1-text15 {
             width: 75%;
             font-size: 2rem;
             font-style: normal;
             font-family: 'Josefin Sans';
             font-weight: 200;
           }
-          .container1-text16 {
+          .container1-text17 {
             font-style: italic;
             font-weight: 200;
           }
-          .container1-text18 {
+          .container1-text19 {
             font-style: italic;
-            font-weight: 300;
-          }
-          .container1-text20 {
-            font-style: normal;
             font-weight: 300;
           }
           .container1-text21 {
+            font-style: normal;
+            font-weight: 300;
+          }
+          .container1-text22 {
             font-style: italic;
             font-weight: 200;
           }
-          .container1-text23 {
+          .container1-text24 {
             width: 75%;
             font-size: 2rem;
             font-style: normal;
@@ -303,12 +301,6 @@ const Container1 = (props) => {
             margin-top: var(--dl-space-space-twounits);
             margin-bottom: var(--dl-space-space-twounits);
             list-style-type: disc;
-          }
-          .container1-text24 {
-            font-size: 2rem;
-            font-style: normal;
-            font-family: 'Josefin Sans';
-            font-weight: 200;
           }
           .container1-text25 {
             font-size: 2rem;
@@ -341,6 +333,12 @@ const Container1 = (props) => {
             font-weight: 200;
           }
           .container1-text30 {
+            font-size: 2rem;
+            font-style: normal;
+            font-family: 'Josefin Sans';
+            font-weight: 200;
+          }
+          .container1-text31 {
             width: 75%;
             font-size: 2rem;
             font-style: normal;
@@ -353,12 +351,6 @@ const Container1 = (props) => {
             margin-top: var(--dl-space-space-twounits);
             margin-bottom: var(--dl-space-space-twounits);
             list-style-type: disc;
-          }
-          .container1-text31 {
-            font-size: 2rem;
-            font-style: normal;
-            font-family: 'Josefin Sans';
-            font-weight: 200;
           }
           .container1-text32 {
             font-size: 2rem;
@@ -373,7 +365,6 @@ const Container1 = (props) => {
             font-weight: 200;
           }
           .container1-text34 {
-            width: 75%;
             font-size: 2rem;
             font-style: normal;
             font-family: 'Josefin Sans';
@@ -383,15 +374,22 @@ const Container1 = (props) => {
             width: 75%;
             font-size: 2rem;
             font-style: normal;
-            margin-top: var(--dl-space-space-twounits);
             font-family: 'Josefin Sans';
             font-weight: 200;
           }
           .container1-text36 {
+            width: 75%;
+            font-size: 2rem;
+            font-style: normal;
+            margin-top: var(--dl-space-space-twounits);
+            font-family: 'Josefin Sans';
+            font-weight: 200;
+          }
+          .container1-text37 {
             font-style: italic;
             font-weight: 200;
           }
-          .container1-text38 {
+          .container1-text39 {
             font-style: italic;
             font-weight: 300;
           }
@@ -399,15 +397,15 @@ const Container1 = (props) => {
             .container1-container {
               width: 70%;
             }
-            .container1-text18 {
-              font-style: italic;
-              font-weight: 300;
-            }
-            .container1-text20 {
+            .container1-text19 {
               font-style: italic;
               font-weight: 300;
             }
             .container1-text21 {
+              font-style: italic;
+              font-weight: 300;
+            }
+            .container1-text22 {
               font-style: italic;
               font-weight: 300;
             }
@@ -433,31 +431,31 @@ const Container1 = (props) => {
             .container1-ul {
               width: 80%;
             }
-            .container1-text08 {
+            .container1-text09 {
               width: 90%;
             }
             .container1-ul1 {
               width: 80%;
             }
-            .container1-text14 {
+            .container1-text15 {
               width: 90%;
             }
-            .container1-text23 {
+            .container1-text24 {
               width: 90%;
             }
             .container1-ul2 {
               width: 80%;
             }
-            .container1-text30 {
+            .container1-text31 {
               width: 90%;
             }
             .container1-ul3 {
               width: 80%;
             }
-            .container1-text34 {
+            .container1-text35 {
               width: 90%;
             }
-            .container1-text35 {
+            .container1-text36 {
               width: 90%;
             }
           }
@@ -475,7 +473,7 @@ const Container1 = (props) => {
             .container1-ul1 {
               width: 80%;
             }
-            .container1-text14 {
+            .container1-text15 {
               width: 90%;
             }
             .container1-ul2 {
@@ -484,10 +482,10 @@ const Container1 = (props) => {
             .container1-ul3 {
               width: 80%;
             }
-            .container1-text34 {
+            .container1-text35 {
               width: 90%;
             }
-            .container1-text35 {
+            .container1-text36 {
               width: 90%;
             }
           }
