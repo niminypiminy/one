@@ -44,7 +44,7 @@ const Fraud = (props) => {
               <div className="fraud-content1">
                 <img
                   alt="PlaceholderImage3501"
-                  src="/oig4-1400w.jpg"
+                  src="/android-chrome-512x512-1400w.png"
                   className="fraud-author-image thq-img-round thq-img-ratio-1-1"
                 />
                 <div className="fraud-author">

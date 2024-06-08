@@ -46,7 +46,7 @@ const DomesticAbuse = (props) => {
               <div className="domestic-abuse-content1">
                 <img
                   alt="PlaceholderImage3501"
-                  src="/oig4-1400w.jpg"
+                  src="/android-chrome-512x512-1400w.png"
                   className="domestic-abuse-author-image thq-img-round thq-img-ratio-1-1"
                 />
                 <div className="domestic-abuse-author">

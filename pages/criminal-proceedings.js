@@ -48,7 +48,7 @@ const CriminalProceedings = (props) => {
               <div className="criminal-proceedings-content1">
                 <img
                   alt="PlaceholderImage3501"
-                  src="/oig4-1400w.jpg"
+                  src="/android-chrome-512x512-1400w.png"
                   className="criminal-proceedings-author-image thq-img-round thq-img-ratio-1-1"
                 />
                 <div className="criminal-proceedings-author">

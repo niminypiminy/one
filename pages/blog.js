@@ -54,16 +54,16 @@ const Blog = (props) => {
                   <span className="blog-text02">06/06/2024</span>
                   <p className="blog-text03 thq-body-large">
                     In Thailand, instances of online fraud concerning both
-                    products and services are unfortunately prevalent. The rise
-                    of technology has empowered individuals to establish their
-                    own online storefronts, yet some of these ventures engage in
-                    deceitful practices, accepting payments without delivering
-                    the promised goods or services. To address this issue,
-                    Thailand has enacted a comprehensive criminal code targeting
-                    online fraudsters. Through concerted efforts to apprehend
-                    offenders and extend support to victims, the country aims to
-                    mitigate the impact of such fraudulent activities on its
-                    digital commerce landscape.
+                    products and services are unfortunately prevalent. Some
+                    online stores engage in deceitful practices, accepting
+                    payments without delivering the promised goods or services.
+                    To address this issue, Thailand has enacted a comprehensive
+                    criminal code targeting online fraudsters.
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: ' ',
+                      }}
+                    />
                   </p>
                 </div>
                 <div className="blog-actions">
@@ -293,7 +293,7 @@ const Blog = (props) => {
             font-size: 2.5rem;
             font-style: normal;
             font-family: 'Josefin Sans';
-            font-weight: 200;
+            font-weight: 300;
           }
           .blog-text02 {
             font-size: 1.2rem;
@@ -632,17 +632,48 @@ const Blog = (props) => {
               gap: var(--dl-space-space-twounits);
               flex-direction: column-reverse;
             }
+            .blog-placeholder-image {
+              display: none;
+            }
+            .blog-text01 {
+              font-style: normal;
+              font-weight: 400;
+            }
+            .blog-layout349 {
+              flex-direction: column;
+            }
             .blog-max-width2 {
               gap: var(--dl-space-space-twounits);
               flex-direction: column-reverse;
+            }
+            .blog-text06 {
+              font-style: normal;
+              font-weight: 400;
+            }
+            .blog-placeholder-image1 {
+              display: none;
             }
             .blog-max-width3 {
               gap: var(--dl-space-space-twounits);
               flex-direction: column-reverse;
             }
+            .blog-placeholder-image2 {
+              display: none;
+            }
+            .blog-text11 {
+              font-style: normal;
+              font-weight: 400;
+            }
             .blog-max-width4 {
               gap: var(--dl-space-space-twounits);
               flex-direction: column-reverse;
+            }
+            .blog-text16 {
+              font-style: normal;
+              font-weight: 400;
+            }
+            .blog-placeholder-image3 {
+              display: none;
             }
           }
           @media (max-width: 767px) {
