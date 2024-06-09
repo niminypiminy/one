@@ -52,7 +52,7 @@ const Blog = (props) => {
                   </p>
                 </div>
                 <div className="blog-actions">
-                  <Link href="/domestic-abuse">
+                  <Link href="/drug-possession">
                     <a className="blog-link">
                       <h1 className="blog-text04">Learn More</h1>
                     </a>
