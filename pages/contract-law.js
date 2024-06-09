@@ -84,7 +84,7 @@ const ContractLaw = (props) => {
         <div className="contract-law-container5">
           <img
             alt="PlaceholderImage1314"
-            src="/designer%20(1)-600w.jpeg"
+            src="/designer%20(1)-200h.jpeg"
             className="contract-law-image1"
           />
         </div>
@@ -97,13 +97,12 @@ const ContractLaw = (props) => {
               </h2>
               <p className="contract-law-content1 thq-body-large">
                 <span>
-                  Business service firms typically concentrate on marketing and
-                  advertising strategies to appeal to a broad clientele.
-                  Although they may offer contract drafting assistance, they
-                  frequently subcontract legal tasks to established law firms
-                  such as ours. A significant red flag indicating that a firm is
-                  not a bona fide law firm is if they promote themselves as
-                  being
+                  Business service firms may offer you contract drafting
+                  assistance, company formation services, and other legal
+                  services, but they are not doing the work themselves. They
+                  subcontract legal tasks to established law firms such as ours.
+                  A significant red flag indicating that a firm is not a bona
+                  fide law firm is if they promote themselves as being
                   <span
                     dangerouslySetInnerHTML={{
                       __html: ' ',
@@ -115,11 +114,10 @@ const ContractLaw = (props) => {
                 </span>
                 <span>
                   {' '}
-                  It is important to note that the BOI does not register law
-                  firms; rather, it registers business service firms. Many of
-                  these entities tend to levy excessive fees on their clients.
-                  It is advisable to opt for local rates instead of paying
-                  inflated rates.
+                  It is important to note that law firms cannot registered under
+                  the BOI; rather; these entities tend to levy excessive fees on
+                  their clients, acting as a middleman between yourself and the
+                  law firm.
                 </span>
               </p>
             </div>
@@ -259,7 +257,7 @@ const ContractLaw = (props) => {
             font-weight: 200;
           }
           .contract-law-container5 {
-            width: 100%;
+            width: 25%;
             display: flex;
             overflow: hidden;
             position: relative;
@@ -267,8 +265,8 @@ const ContractLaw = (props) => {
           }
           .contract-law-image1 {
             flex: 1;
-            width: 40%;
-            height: 100%;
+            width: auto;
+            height: auto;
           }
           .contract-law-container6 {
             gap: var(--dl-space-space-threeunits);

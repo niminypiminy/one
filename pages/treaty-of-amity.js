@@ -694,7 +694,7 @@ const TreatyOfAmity = (props) => {
             font-size: 2rem;
             font-style: normal;
             font-family: Josefin Sans;
-            font-weight: 400;
+            font-weight: 300;
           }
           .treaty-of-amity-text10 {
             color: var(--dl-color-gray-black);
@@ -797,7 +797,7 @@ const TreatyOfAmity = (props) => {
             font-style: normal;
             text-align: center;
             font-family: 'Josefin Sans';
-            font-weight: 400;
+            font-weight: 300;
             margin-bottom: var(--dl-space-space-halfunit);
           }
           .treaty-of-amity-text20 {
@@ -1023,7 +1023,7 @@ const TreatyOfAmity = (props) => {
             font-style: normal;
             text-align: center;
             font-family: Josefin Sans;
-            font-weight: 400;
+            font-weight: 300;
           }
           .treaty-of-amity-text30 {
             background-color: rgb(255, 255, 0);
@@ -1345,7 +1345,7 @@ const TreatyOfAmity = (props) => {
             font-style: normal;
             text-align: center;
             font-family: Josefin Sans;
-            font-weight: 400;
+            font-weight: 300;
             text-transform: capitalize;
           }
           .treaty-of-amity-container23 {

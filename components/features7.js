@@ -108,29 +108,29 @@ const Features7 = (props) => {
 }
 
 Features7.defaultProps = {
-  feature3Title: 'Discover the Magic of Lorem Ipsum Text Generation',
-  feature1Slogan: 'Slogan',
   feature2Slogan: 'Slogan',
-  feature2Description:
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.',
   feature1Description:
     'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.',
+  feature3Title: 'Discover the Magic of Lorem Ipsum Text Generation',
+  feature2Description:
+    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.',
+  feature3Slogan: 'Slogan',
   feature3Description:
     'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.',
+  feature1Slogan: 'Slogan',
   feature1Title: 'Discover the Magic of Lorem Ipsum Text Generation',
-  feature3Slogan: 'Slogan',
   feature2Title: 'Discover the Magic of Lorem Ipsum Text Generation',
 }
 
 Features7.propTypes = {
-  feature3Title: PropTypes.string,
-  feature1Slogan: PropTypes.string,
   feature2Slogan: PropTypes.string,
-  feature2Description: PropTypes.string,
   feature1Description: PropTypes.string,
-  feature3Description: PropTypes.string,
-  feature1Title: PropTypes.string,
+  feature3Title: PropTypes.string,
+  feature2Description: PropTypes.string,
   feature3Slogan: PropTypes.string,
+  feature3Description: PropTypes.string,
+  feature1Slogan: PropTypes.string,
+  feature1Title: PropTypes.string,
   feature2Title: PropTypes.string,
 }
 

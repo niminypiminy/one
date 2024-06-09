@@ -758,7 +758,7 @@ const RepresentativeOffice = (props) => {
           .representative-office-text {
             width: 100%;
             font-size: 2rem;
-            max-width: 450px;
+            max-width: auto;
             font-style: normal;
             font-family: 'Josefin Sans';
             font-weight: 400;
@@ -769,7 +769,7 @@ const RepresentativeOffice = (props) => {
             font-style: normal;
             margin-top: var(--dl-space-space-twounits);
             font-family: Josefin Sans;
-            font-weight: 300;
+            font-weight: 200;
             margin-bottom: var(--dl-space-space-twounits);
           }
           .representative-office-image {
@@ -795,7 +795,7 @@ const RepresentativeOffice = (props) => {
             font-size: 2rem;
             font-style: normal;
             font-family: Josefin Sans;
-            font-weight: 400;
+            font-weight: 300;
           }
           .representative-office-container04 {
             width: 100%;
@@ -964,7 +964,7 @@ const RepresentativeOffice = (props) => {
             font-style: normal;
             text-align: center;
             font-family: Josefin Sans;
-            font-weight: 400;
+            font-weight: 300;
             margin-bottom: var(--dl-space-space-halfunit);
           }
           .representative-office-text12 {
@@ -1172,7 +1172,7 @@ const RepresentativeOffice = (props) => {
             font-style: normal;
             text-align: center;
             font-family: Josefin Sans;
-            font-weight: 400;
+            font-weight: 300;
             margin-bottom: var(--dl-space-space-halfunit);
           }
           .representative-office-text20 {
@@ -1574,7 +1574,7 @@ const RepresentativeOffice = (props) => {
             font-style: normal;
             text-align: center;
             font-family: Josefin Sans;
-            font-weight: 400;
+            font-weight: 300;
           }
           .representative-office-text40 {
             background-color: rgb(255, 255, 0);

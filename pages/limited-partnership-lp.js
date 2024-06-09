@@ -646,7 +646,7 @@ const LimitedPartnershipLP = (props) => {
             font-style: normal;
             margin-top: var(--dl-space-space-twounits);
             font-family: 'Josefin Sans';
-            font-weight: 300;
+            font-weight: 200;
             line-height: 1.15em;
             margin-bottom: var(--dl-space-space-twounits);
           }
@@ -664,7 +664,7 @@ const LimitedPartnershipLP = (props) => {
             font-size: 2rem;
             font-style: normal;
             font-family: Josefin Sans;
-            font-weight: 400;
+            font-weight: 300;
           }
           .limited-partnership-lp-container07 {
             width: 100%;
@@ -756,7 +756,7 @@ const LimitedPartnershipLP = (props) => {
             font-style: normal;
             text-align: center;
             font-family: Josefin Sans;
-            font-weight: 400;
+            font-weight: 300;
             margin-bottom: var(--dl-space-space-halfunit);
           }
           .limited-partnership-lp-container08 {
@@ -961,7 +961,7 @@ const LimitedPartnershipLP = (props) => {
             font-style: normal;
             text-align: center;
             font-family: Josefin Sans;
-            font-weight: 400;
+            font-weight: 300;
           }
           .limited-partnership-lp-text28 {
             background-color: rgb(255, 255, 0);
@@ -1243,7 +1243,7 @@ const LimitedPartnershipLP = (props) => {
             font-style: normal;
             text-align: center;
             font-family: Josefin Sans;
-            font-weight: 400;
+            font-weight: 300;
             margin-bottom: var(--dl-space-space-unit);
             text-transform: capitalize;
           }

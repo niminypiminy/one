@@ -131,7 +131,7 @@ const TortLaw = (props) => {
             margin-top: var(--dl-space-space-twounits);
             text-align: left;
             font-family: 'Josefin Sans';
-            font-weight: 300;
+            font-weight: 200;
             margin-bottom: var(--dl-space-space-twounits);
           }
           .tort-law-link {

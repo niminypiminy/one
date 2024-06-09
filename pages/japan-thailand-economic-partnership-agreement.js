@@ -407,7 +407,7 @@ const JapanThailandEconomicPartnershipAgreement = (props) => {
             font-style: normal;
             margin-top: var(--dl-space-space-twounits);
             font-family: 'Josefin Sans';
-            font-weight: 300;
+            font-weight: 200;
             margin-bottom: var(--dl-space-space-twounits);
           }
           .japan-thailand-economic-partnership-agreement-image {
@@ -439,7 +439,7 @@ const JapanThailandEconomicPartnershipAgreement = (props) => {
             font-style: normal;
             margin-top: var(--dl-space-space-unit);
             font-family: Josefin Sans;
-            font-weight: 400;
+            font-weight: 300;
             margin-left: var(--dl-space-space-unit);
             padding-top: var(--dl-space-space-unit);
             padding-left: var(--dl-space-space-unit);
@@ -606,7 +606,7 @@ const JapanThailandEconomicPartnershipAgreement = (props) => {
             font-style: normal;
             text-align: center;
             font-family: 'Josefin Sans';
-            font-weight: 400;
+            font-weight: 300;
             text-transform: capitalize;
           }
           .japan-thailand-economic-partnership-agreement-container04 {
@@ -1114,7 +1114,7 @@ const JapanThailandEconomicPartnershipAgreement = (props) => {
             font-style: normal;
             text-align: center;
             font-family: Josefin Sans;
-            font-weight: 400;
+            font-weight: 300;
             margin-bottom: var(--dl-space-space-unit);
             text-transform: capitalize;
           }

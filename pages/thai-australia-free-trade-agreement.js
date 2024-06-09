@@ -822,7 +822,7 @@ const ThaiAustraliaFreeTradeAgreement = (props) => {
             font-style: normal;
             margin-top: var(--dl-space-space-twounits);
             font-family: Josefin Sans;
-            font-weight: 300;
+            font-weight: 200;
             line-height: 1.15em;
             margin-bottom: var(--dl-space-space-twounits);
           }
@@ -916,7 +916,7 @@ const ThaiAustraliaFreeTradeAgreement = (props) => {
             font-style: normal;
             text-align: center;
             font-family: Josefin Sans;
-            font-weight: 400;
+            font-weight: 300;
             margin-bottom: var(--dl-space-space-halfunit);
           }
           .thai-australia-free-trade-agreement-container06 {
@@ -1057,7 +1057,7 @@ const ThaiAustraliaFreeTradeAgreement = (props) => {
             font-style: normal;
             text-align: center;
             font-family: 'Josefin Sans';
-            font-weight: 400;
+            font-weight: 300;
             text-transform: capitalize;
           }
           .thai-australia-free-trade-agreement-container11 {
@@ -2004,7 +2004,7 @@ const ThaiAustraliaFreeTradeAgreement = (props) => {
             font-style: normal;
             text-align: center;
             font-family: Josefin Sans;
-            font-weight: 400;
+            font-weight: 300;
             margin-bottom: var(--dl-space-space-unit);
             text-transform: capitalize;
           }

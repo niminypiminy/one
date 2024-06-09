@@ -114,7 +114,7 @@ const ProBono = (props) => {
             margin-top: var(--dl-space-space-twounits);
             text-align: left;
             font-family: Josefin Sans;
-            font-weight: 300;
+            font-weight: 200;
           }
           .pro-bono-link {
             display: contents;

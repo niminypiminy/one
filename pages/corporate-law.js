@@ -43,8 +43,17 @@ const CorporateLaw = (props) => {
                   a crucial role in establishing the legal framework governing
                   the entity and its shareholders. In Thailand, companies can
                   benefit from substantial tax incentives by engaging with the
-                  Board of Investment, securing majority ownership rights
-                  through the
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: ' ',
+                    }}
+                  />
+                </span>
+                <Link href="/board-of-investment">
+                  <a className="corporate-law-link">Board of Investment</a>
+                </Link>
+                <span>
+                  , securing majority ownership rights through the
                   <span
                     dangerouslySetInnerHTML={{
                       __html: ' ',
@@ -52,10 +61,10 @@ const CorporateLaw = (props) => {
                   />
                 </span>
                 <Link href="/foreign-business-license">
-                  <a className="corporate-law-link">F</a>
+                  <a className="corporate-law-link1">F</a>
                 </Link>
                 <Link href="/foreign-business-license">
-                  <a className="corporate-law-link1">oreign business license</a>
+                  <a className="corporate-law-link2">oreign business license</a>
                 </Link>
                 <span>
                   , or by registering their company under a treaty such as the
@@ -66,7 +75,7 @@ const CorporateLaw = (props) => {
                   />
                 </span>
                 <Link href="/treaty-of-amity">
-                  <a className="corporate-law-link2">Treaty of Amity</a>
+                  <a className="corporate-law-link3">Treaty of Amity</a>
                 </Link>
                 <span>
                   {' '}
@@ -78,7 +87,7 @@ const CorporateLaw = (props) => {
                   />
                 </span>
                 <Link href="/thai-australia-free-trade-agreement">
-                  <a className="corporate-law-link3">TAFTA</a>
+                  <a className="corporate-law-link4">TAFTA</a>
                 </Link>
                 <span>
                   {' '}
@@ -90,15 +99,15 @@ const CorporateLaw = (props) => {
                   />
                 </span>
                 <Link href="/japan-thailand-economic-partnership-agreement">
-                  <a className="corporate-law-link4">
+                  <a className="corporate-law-link5">
                     Japan-Thailand Economic Partnership Agreement
                   </a>
                 </Link>
                 <span>.</span>
               </span>
               <Link href="/contact">
-                <a className="corporate-law-link5">
-                  <h1 className="corporate-law-text7">Contact</h1>
+                <a className="corporate-law-link6">
+                  <h1 className="corporate-law-text8">Contact</h1>
                 </a>
               </Link>
             </div>
@@ -188,10 +197,22 @@ const CorporateLaw = (props) => {
           .corporate-law-link1 {
             text-decoration: underline;
           }
+          .corporate-law-link2 {
+            text-decoration: underline;
+          }
+          .corporate-law-link3 {
+            text-decoration: underline;
+          }
+          .corporate-law-link4 {
+            text-decoration: underline;
+          }
           .corporate-law-link5 {
+            text-decoration: underline;
+          }
+          .corporate-law-link6 {
             display: contents;
           }
-          .corporate-law-text7 {
+          .corporate-law-text8 {
             color: var(--dl-color-gray-black);
             padding: var(--dl-space-space-halfunit);
             font-size: 1.5rem;
@@ -207,7 +228,7 @@ const CorporateLaw = (props) => {
             padding-bottom: var(--dl-space-space-unit);
             text-decoration: none;
           }
-          .corporate-law-text7:hover {
+          .corporate-law-text8:hover {
             color: var(--dl-color-gray-white);
             background-color: #1b1b1b;
           }
@@ -233,12 +254,6 @@ const CorporateLaw = (props) => {
               text-decoration: underline;
             }
             .corporate-law-link2 {
-              text-decoration: underline;
-            }
-            .corporate-law-link3 {
-              text-decoration: underline;
-            }
-            .corporate-law-link4 {
               text-decoration: underline;
             }
           }
@@ -287,7 +302,7 @@ const CorporateLaw = (props) => {
               align-self: center;
               padding-left: var(--dl-space-space-halfunit);
             }
-            .corporate-law-text7 {
+            .corporate-law-text8 {
               align-self: flex-start;
             }
           }
@@ -308,7 +323,7 @@ const CorporateLaw = (props) => {
               padding-left: 0px;
               padding-right: 0px;
             }
-            .corporate-law-text7 {
+            .corporate-law-text8 {
               align-self: flex-start;
             }
           }

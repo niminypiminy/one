@@ -44,7 +44,7 @@ const BoardOfInvestment = (props) => {
                 />
               </span>
               <span>Investment</span>
-              <span> (BOI). </span>
+              <span> (BOI) </span>
             </h1>
             <span className="board-of-investment-text04">
               The Board of Investment (BOI) was founded in 1966 under the
@@ -139,10 +139,24 @@ const BoardOfInvestment = (props) => {
                   Category 2 and 3
                 </strong>
                 <span className="board-of-investment-description2 thq-body-small">
-                  If the business is registered under category 2 or 3 of the
-                  Foreign Business Act (FBA), foreign investors are allowed to
-                  own 100% of the shares, as long as the company complies with
-                  all relevant legal provisions.
+                  <span>
+                    If the business is registered under category 2 or 3 of the
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: ' ',
+                      }}
+                    />
+                  </span>
+                  <Link href="/foreign-business-license">
+                    <a className="board-of-investment-link">
+                      Foreign Business Act (FBA)
+                    </a>
+                  </Link>
+                  <span>
+                    , foreign investors are allowed to own 100% of the shares,
+                    as long as the company complies with all relevant legal
+                    provisions.
+                  </span>
                 </span>
               </div>
             </div>
@@ -203,7 +217,7 @@ const BoardOfInvestment = (props) => {
         <div className="board-of-investment-container03 thq-section-padding">
           <div className="board-of-investment-max-width3 thq-section-max-width">
             <div className="board-of-investment-container04">
-              <h2 className="board-of-investment-text09 thq-heading-2">
+              <h2 className="board-of-investment-text11 thq-heading-2">
                 Registration Process
               </h2>
             </div>
@@ -214,10 +228,10 @@ const BoardOfInvestment = (props) => {
                   <div className="board-of-investment-progress0"></div>
                 </div>
                 <div className="board-of-investment-container07">
-                  <h3 className="board-of-investment-text10 thq-heading-3">
+                  <h3 className="board-of-investment-text12 thq-heading-3">
                     Step 1
                   </h3>
-                  <span className="board-of-investment-text11 thq-body-small">
+                  <span className="board-of-investment-text13 thq-body-small">
                     <span>
                       The application for the BOI can be submitted online at
                       <span
@@ -230,7 +244,7 @@ const BoardOfInvestment = (props) => {
                       href="https://boi.go.th"
                       target="_blank"
                       rel="noreferrer noopener"
-                      className="board-of-investment-link"
+                      className="board-of-investment-link1"
                     >
                       boi.go.th
                     </a>
@@ -244,10 +258,10 @@ const BoardOfInvestment = (props) => {
                   <div className="board-of-investment-progress01"></div>
                 </div>
                 <div className="board-of-investment-container10">
-                  <h3 className="board-of-investment-text14 thq-heading-3">
+                  <h3 className="board-of-investment-text16 thq-heading-3">
                     Step 2
                   </h3>
-                  <span className="board-of-investment-text15 thq-body-small">
+                  <span className="board-of-investment-text17 thq-body-small">
                     Within ten days of submission, the BOI will contact the
                     company representative to schedule a presentation. 
                   </span>
@@ -259,10 +273,10 @@ const BoardOfInvestment = (props) => {
                   <div className="board-of-investment-progress02"></div>
                 </div>
                 <div className="board-of-investment-container13">
-                  <h3 className="board-of-investment-text16 thq-heading-3">
+                  <h3 className="board-of-investment-text18 thq-heading-3">
                     Step 3
                   </h3>
-                  <span className="board-of-investment-text17 thq-body-small">
+                  <span className="board-of-investment-text19 thq-body-small">
                     BOI officials will review the company presentation, the
                     company data, and consider the merits of the project.
                   </span>
@@ -274,10 +288,10 @@ const BoardOfInvestment = (props) => {
                   <div className="board-of-investment-progress03"></div>
                 </div>
                 <div className="board-of-investment-container16">
-                  <h3 className="board-of-investment-text18 thq-heading-3">
+                  <h3 className="board-of-investment-text20 thq-heading-3">
                     Step 4
                   </h3>
-                  <span className="board-of-investment-text19 thq-body-small">
+                  <span className="board-of-investment-text21 thq-body-small">
                     If your application is accepted, you will be given one month
                     to confirm your intent. 
                   </span>
@@ -289,10 +303,10 @@ const BoardOfInvestment = (props) => {
                   <div className="board-of-investment-progress04"></div>
                 </div>
                 <div className="board-of-investment-container19">
-                  <h3 className="board-of-investment-text20 thq-heading-3">
+                  <h3 className="board-of-investment-text22 thq-heading-3">
                     Step 5
                   </h3>
-                  <span className="board-of-investment-text21 thq-body-small">
+                  <span className="board-of-investment-text23 thq-body-small">
                     Once accepted, the BOI will ask you to register a Thai
                     company within six months. 
                   </span>
@@ -304,10 +318,10 @@ const BoardOfInvestment = (props) => {
                   <div className="board-of-investment-progress05"></div>
                 </div>
                 <div className="board-of-investment-container22">
-                  <h3 className="board-of-investment-text22 thq-heading-3">
+                  <h3 className="board-of-investment-text24 thq-heading-3">
                     Step 6
                   </h3>
-                  <span className="board-of-investment-text23 thq-body-small">
+                  <span className="board-of-investment-text25 thq-body-small">
                     After registering your company, and presenting incorporation
                     documents, the BOI will issue an official certificate. 
                   </span>
@@ -317,14 +331,14 @@ const BoardOfInvestment = (props) => {
           </div>
         </div>
         <div className="board-of-investment-container23">
-          <span className="board-of-investment-text24">
+          <span className="board-of-investment-text26">
             If your company is registered with the BOI under categories 2 or 3,
             then you will also need a foreign business certificate. The
             application fee for a foreign business certificate is 2000 baht, and
             20,000 upon issuance.
           </span>
           <Link href="/contact">
-            <a className="board-of-investment-link1">Ask us anything</a>
+            <a className="board-of-investment-link2">Ask us anything</a>
           </Link>
         </div>
         <Footer1 rootClassName="footer1-root-class-name4"></Footer1>
@@ -343,17 +357,20 @@ const BoardOfInvestment = (props) => {
             height: 75vh;
             display: flex;
             max-width: 100%;
-            margin-top: var(--dl-space-space-fourunits);
+            margin-top: var(--dl-space-space-fiveunits);
             min-height: auto;
             align-items: center;
-            margin-bottom: var(--dl-space-space-fourunits);
+            margin-bottom: var(--dl-space-space-fiveunits);
             flex-direction: row;
             justify-content: center;
           }
           .board-of-investment-container01 {
             width: 50%;
+            height: 100%;
             display: flex;
+            align-items: center;
             flex-direction: column;
+            justify-content: center;
           }
           .board-of-investment-text {
             width: 75%;
@@ -364,7 +381,7 @@ const BoardOfInvestment = (props) => {
             font-weight: 400;
           }
           .board-of-investment-text04 {
-            width: 65%;
+            width: 75%;
             font-size: 1.5rem;
             font-style: normal;
             margin-top: var(--dl-space-space-twounits);
@@ -373,13 +390,10 @@ const BoardOfInvestment = (props) => {
             margin-bottom: var(--dl-space-space-twounits);
           }
           .board-of-investment-image {
-            width: 30%;
+            width: 50%;
+            height: 100%;
             box-shadow: 5px 5px 10px 0px #000000;
             object-fit: cover;
-            transition: 0.3s;
-          }
-          .board-of-investment-image:hover {
-            transform: scale(1.2);
           }
           .board-of-investment-banner {
             width: auto;
@@ -395,11 +409,11 @@ const BoardOfInvestment = (props) => {
             fill: #1b1b1b;
             color: #1b1b1b;
             width: auto;
-            font-size: 2.5rem;
+            font-size: 2rem;
             font-style: normal;
             margin-top: var(--dl-space-space-twounits);
             font-family: 'Josefin Sans';
-            font-weight: 400;
+            font-weight: 300;
           }
           .board-of-investment-text06 {
             color: var(--dl-color-gray-black);
@@ -415,17 +429,18 @@ const BoardOfInvestment = (props) => {
           .board-of-investment-section {
             gap: var(--dl-space-space-fiveunits);
             flex: 1;
-            width: 90%;
+            width: 100%;
             height: 60vh;
             display: flex;
             align-self: center;
             margin-top: var(--dl-space-space-sixunits);
             margin-bottom: var(--dl-space-space-sixunits);
             flex-direction: row;
+            justify-content: center;
           }
           .board-of-investment-cards {
             gap: var(--dl-space-space-threeunits);
-            width: 100%;
+            width: 90%;
             height: auto;
             display: flex;
             max-width: 100%;
@@ -439,7 +454,7 @@ const BoardOfInvestment = (props) => {
             display: flex;
             overflow: hidden;
             position: relative;
-            margin-top: var(--dl-space-space-sixunits);
+            margin-top: var(--dl-space-space-fourunits);
             align-items: flex-start;
             flex-direction: row;
             justify-content: center;
@@ -461,10 +476,10 @@ const BoardOfInvestment = (props) => {
             flex-direction: column;
           }
           .board-of-investment-text07 {
-            font-size: 2.5rem;
+            font-size: 2rem;
             font-style: normal;
             font-family: 'Josefin Sans';
-            font-weight: 400;
+            font-weight: 300;
           }
           .board-of-investment-text08 {
             width: auto;
@@ -489,7 +504,7 @@ const BoardOfInvestment = (props) => {
             border-top-width: 1px;
             border-left-width: 1px;
             border-right-width: 1px;
-            border-bottom-width: 0px;
+            border-bottom-width: 1px;
           }
           .board-of-investment-max-width1 {
             align-self: flex-start;
@@ -500,7 +515,7 @@ const BoardOfInvestment = (props) => {
             font-style: normal;
             text-align: left;
             font-family: 'Josefin Sans';
-            font-weight: 400;
+            font-weight: 300;
           }
           .board-of-investment-description1 {
             font-size: 1.5rem;
@@ -515,7 +530,7 @@ const BoardOfInvestment = (props) => {
             font-style: normal;
             text-align: left;
             font-family: 'Josefin Sans';
-            font-weight: 400;
+            font-weight: 300;
           }
           .board-of-investment-description2 {
             font-size: 1.5rem;
@@ -524,13 +539,16 @@ const BoardOfInvestment = (props) => {
             font-family: 'Josefin Sans';
             font-weight: 200;
           }
+          .board-of-investment-link {
+            text-decoration: underline;
+          }
           .board-of-investment-title3 {
             font-size: 1.5rem;
             align-self: flex-start;
             font-style: normal;
             text-align: left;
             font-family: 'Josefin Sans';
-            font-weight: 400;
+            font-weight: 300;
           }
           .board-of-investment-description3 {
             font-size: 1.5rem;
@@ -565,7 +583,7 @@ const BoardOfInvestment = (props) => {
             font-style: normal;
             text-align: left;
             font-family: 'Josefin Sans';
-            font-weight: 400;
+            font-weight: 300;
           }
           .board-of-investment-description11 {
             font-size: 1.5rem;
@@ -580,7 +598,7 @@ const BoardOfInvestment = (props) => {
             font-style: normal;
             text-align: left;
             font-family: 'Josefin Sans';
-            font-weight: 400;
+            font-weight: 300;
           }
           .board-of-investment-description21 {
             font-size: 1.5rem;
@@ -595,7 +613,7 @@ const BoardOfInvestment = (props) => {
             font-style: normal;
             text-align: left;
             font-family: 'Josefin Sans';
-            font-weight: 400;
+            font-weight: 300;
           }
           .board-of-investment-description31 {
             font-size: 1.5rem;
@@ -625,13 +643,13 @@ const BoardOfInvestment = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .board-of-investment-text09 {
+          .board-of-investment-text11 {
             width: 100%;
             font-size: 2rem;
             font-style: normal;
             text-align: center;
             font-family: 'Josefin Sans';
-            font-weight: 400;
+            font-weight: 300;
             margin-bottom: var(--dl-space-space-twounits);
           }
           .board-of-investment-timeline-container {
@@ -688,19 +706,19 @@ const BoardOfInvestment = (props) => {
             padding-bottom: var(--dl-space-space-unit);
             justify-content: flex-start;
           }
-          .board-of-investment-text10 {
-            font-size: 2rem;
+          .board-of-investment-text12 {
+            font-size: 1.5rem;
             font-style: normal;
             font-family: 'Josefin Sans';
             font-weight: 300;
           }
-          .board-of-investment-text11 {
+          .board-of-investment-text13 {
             font-size: 1.5rem;
             font-style: normal;
             font-family: 'Josefin Sans';
             font-weight: 200;
           }
-          .board-of-investment-link {
+          .board-of-investment-link1 {
             text-decoration: underline;
           }
           .board-of-investment-step2 {
@@ -749,13 +767,13 @@ const BoardOfInvestment = (props) => {
             padding-bottom: var(--dl-space-space-unit);
             justify-content: flex-start;
           }
-          .board-of-investment-text14 {
-            font-size: 2rem;
+          .board-of-investment-text16 {
+            font-size: 1.5rem;
             font-style: normal;
             font-family: 'Josefin Sans';
             font-weight: 300;
           }
-          .board-of-investment-text15 {
+          .board-of-investment-text17 {
             font-size: 1.5rem;
             font-style: normal;
             font-family: 'Josefin Sans';
@@ -807,13 +825,13 @@ const BoardOfInvestment = (props) => {
             padding-bottom: var(--dl-space-space-unit);
             justify-content: flex-start;
           }
-          .board-of-investment-text16 {
-            font-size: 2rem;
+          .board-of-investment-text18 {
+            font-size: 1.5rem;
             font-style: normal;
             font-family: 'Josefin Sans';
             font-weight: 300;
           }
-          .board-of-investment-text17 {
+          .board-of-investment-text19 {
             font-size: 1.5rem;
             font-style: normal;
             font-family: 'Josefin Sans';
@@ -865,13 +883,13 @@ const BoardOfInvestment = (props) => {
             padding-bottom: var(--dl-space-space-unit);
             justify-content: flex-start;
           }
-          .board-of-investment-text18 {
-            font-size: 2rem;
+          .board-of-investment-text20 {
+            font-size: 1.5rem;
             font-style: normal;
             font-family: 'Josefin Sans';
             font-weight: 300;
           }
-          .board-of-investment-text19 {
+          .board-of-investment-text21 {
             font-size: 1.5rem;
             font-style: normal;
             font-family: 'Josefin Sans';
@@ -923,13 +941,13 @@ const BoardOfInvestment = (props) => {
             padding-bottom: var(--dl-space-space-unit);
             justify-content: flex-start;
           }
-          .board-of-investment-text20 {
-            font-size: 2rem;
+          .board-of-investment-text22 {
+            font-size: 1.5rem;
             font-style: normal;
             font-family: 'Josefin Sans';
             font-weight: 300;
           }
-          .board-of-investment-text21 {
+          .board-of-investment-text23 {
             font-size: 1.5rem;
             font-style: normal;
             font-family: 'Josefin Sans';
@@ -981,13 +999,13 @@ const BoardOfInvestment = (props) => {
             padding-bottom: var(--dl-space-space-unit);
             justify-content: flex-start;
           }
-          .board-of-investment-text22 {
-            font-size: 2rem;
+          .board-of-investment-text24 {
+            font-size: 1.5rem;
             font-style: normal;
             font-family: 'Josefin Sans';
             font-weight: 300;
           }
-          .board-of-investment-text23 {
+          .board-of-investment-text25 {
             font-size: 1.5rem;
             font-style: normal;
             font-family: 'Josefin Sans';
@@ -1008,7 +1026,7 @@ const BoardOfInvestment = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .board-of-investment-text24 {
+          .board-of-investment-text26 {
             width: 40%;
             font-size: 1.5rem;
             font-style: normal;
@@ -1016,7 +1034,7 @@ const BoardOfInvestment = (props) => {
             font-family: Josefin Sans;
             font-weight: 200;
           }
-          .board-of-investment-link1 {
+          .board-of-investment-link2 {
             color: var(--dl-color-gray-black);
             font-size: 1.5rem;
             font-style: normal;
@@ -1034,6 +1052,16 @@ const BoardOfInvestment = (props) => {
             .board-of-investment-container {
               align-items: center;
               justify-content: center;
+            }
+            .board-of-investment-container01 {
+              align-items: center;
+              justify-content: center;
+            }
+            .board-of-investment-text {
+              font-size: 2rem;
+              font-style: normal;
+              font-family: Josefin Sans;
+              font-weight: 400;
             }
             .board-of-investment-image {
               box-shadow: 5px 5px 10px 0px #000000;
@@ -1053,30 +1081,22 @@ const BoardOfInvestment = (props) => {
               margin-top: var(--dl-space-space-twounits);
             }
             .board-of-investment-section {
-              width: 80%;
-              height: auto;
               margin-top: var(--dl-space-space-sixunits);
             }
             .board-of-investment-cards {
               height: auto;
               max-width: 100%;
             }
-            .board-of-investment-text07 {
-              font-size: 2.5rem;
-              font-style: normal;
-              font-family: Josefin Sans;
-              font-weight: 400;
-            }
             .board-of-investment-container23 {
               width: 50%;
               height: 60vh;
               border-radius: var(--dl-radius-radius-radius8);
             }
-            .board-of-investment-text24 {
+            .board-of-investment-text26 {
               color: var(--dl-color-gray-black);
               width: 50%;
             }
-            .board-of-investment-link1 {
+            .board-of-investment-link2 {
               color: var(--dl-color-gray-black);
               width: auto;
               font-size: 1.5rem;
@@ -1112,7 +1132,7 @@ const BoardOfInvestment = (props) => {
             .board-of-investment-container23 {
               width: auto;
             }
-            .board-of-investment-text24 {
+            .board-of-investment-text26 {
               width: 50%;
               text-align: center;
             }
@@ -1145,8 +1165,12 @@ const BoardOfInvestment = (props) => {
             .board-of-investment-banner {
               height: 50vh;
             }
+            .board-of-investment-text06 {
+              width: 80%;
+            }
             .board-of-investment-section {
               gap: var(--dl-space-space-threeunits);
+              width: 80%;
               height: auto;
               padding-top: 100px;
               flex-direction: column;
@@ -1196,7 +1220,7 @@ const BoardOfInvestment = (props) => {
             .board-of-investment-max-width3 {
               gap: var(--dl-space-space-twounits);
             }
-            .board-of-investment-text24 {
+            .board-of-investment-text26 {
               width: 60%;
             }
           }
@@ -1215,7 +1239,7 @@ const BoardOfInvestment = (props) => {
               text-align: left;
             }
             .board-of-investment-text04 {
-              width: 75%;
+              width: auto;
               align-self: flex-start;
               text-align: left;
               padding-left: 0px;
@@ -1228,6 +1252,9 @@ const BoardOfInvestment = (props) => {
               width: 80%;
               padding-left: 0px;
               padding-right: 0px;
+            }
+            .board-of-investment-text05 {
+              align-self: flex-start;
             }
             .board-of-investment-text06 {
               width: 100%;
@@ -1243,7 +1270,7 @@ const BoardOfInvestment = (props) => {
             .board-of-investment-container23 {
               border-radius: var(--dl-radius-radius-radius4);
             }
-            .board-of-investment-text24 {
+            .board-of-investment-text26 {
               color: var(--dl-color-gray-black);
               width: 60%;
             }
@@ -1280,6 +1307,7 @@ const BoardOfInvestment = (props) => {
               padding-bottom: 0px;
             }
             .board-of-investment-text05 {
+              align-self: flex-start;
               text-align: left;
             }
             .board-of-investment-text06 {
@@ -1306,7 +1334,7 @@ const BoardOfInvestment = (props) => {
             .board-of-investment-container23 {
               border-radius: var(--dl-radius-radius-radius4);
             }
-            .board-of-investment-text24 {
+            .board-of-investment-text26 {
               width: 80%;
             }
           }

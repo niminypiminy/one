@@ -421,7 +421,7 @@ const ForeignBusinessLicense = (props) => {
           .foreign-business-license-heading {
             fill: var(--dl-color-theme-accent1);
             color: var(--dl-color-theme-accent1);
-            font-size: 2.5rem;
+            font-size: 2rem;
             font-style: normal;
             font-family: 'Josefin Sans';
             font-weight: 400;
@@ -797,7 +797,7 @@ const ForeignBusinessLicense = (props) => {
             font-style: normal;
             text-align: center;
             font-family: 'Josefin Sans';
-            font-weight: 400;
+            font-weight: 300;
             margin-bottom: var(--dl-space-space-twounits);
             text-transform: capitalize;
           }
