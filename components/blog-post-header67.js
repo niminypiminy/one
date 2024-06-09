@@ -94,24 +94,24 @@ const BlogPostHeader67 = (props) => {
 }
 
 BlogPostHeader67.defaultProps = {
-  avatarImageAlt: 'PlaceholderImage3501',
-  avatarName: 'Full name',
-  category: 'Category',
-  readTime: '5 min read',
   date: '23 March 2024',
+  category: 'Category',
   avatarImageSrc:
     'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDN8fHVzZXJ8ZW58MHx8fHwxNzEwOTQyNjEyfDA&ixlib=rb-4.0.3&w=200',
+  readTime: '5 min read',
   blogPostTitle: 'Latest Blog Posts',
+  avatarImageAlt: 'PlaceholderImage3501',
+  avatarName: 'Full name',
 }
 
 BlogPostHeader67.propTypes = {
+  date: PropTypes.string,
+  category: PropTypes.string,
+  avatarImageSrc: PropTypes.string,
+  readTime: PropTypes.string,
+  blogPostTitle: PropTypes.string,
   avatarImageAlt: PropTypes.string,
   avatarName: PropTypes.string,
-  category: PropTypes.string,
-  readTime: PropTypes.string,
-  date: PropTypes.string,
-  avatarImageSrc: PropTypes.string,
-  blogPostTitle: PropTypes.string,
 }
 
 export default BlogPostHeader67

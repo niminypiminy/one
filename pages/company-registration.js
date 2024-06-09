@@ -339,8 +339,9 @@ const CompanyRegistration = (props) => {
           .company-registration-container01 {
             flex: 0 0 auto;
             width: 100%;
-            height: 100vh;
+            height: 75vh;
             display: flex;
+            margin-top: var(--dl-space-space-fourunits);
             align-items: center;
             justify-content: center;
           }
@@ -383,7 +384,8 @@ const CompanyRegistration = (props) => {
             justify-content: center;
           }
           .company-registration-text {
-            color: var(--dl-color-gray-black);
+            fill: #1b1b1b;
+            color: #1b1b1b;
             width: 75%;
             font-size: 2rem;
             align-self: flex-start;
@@ -429,7 +431,9 @@ const CompanyRegistration = (props) => {
             width: 80%;
             height: 50vh;
             display: flex;
+            margin-top: var(--dl-space-space-sixunits);
             align-items: center;
+            margin-bottom: var(--dl-space-space-sixunits);
             flex-direction: row;
             justify-content: center;
           }
@@ -548,7 +552,6 @@ const CompanyRegistration = (props) => {
             display: flex;
             padding: 0px;
             position: relative;
-            margin-top: var(--dl-space-space-sixunits);
             align-items: center;
           }
           .company-registration-max-width {
@@ -585,6 +588,7 @@ const CompanyRegistration = (props) => {
             display: flex;
             margin-top: var(--dl-space-space-threeunits);
             align-items: flex-start;
+            margin-bottom: var(--dl-space-space-threeunits);
             justify-content: center;
           }
           .company-registration-container09 {
@@ -602,7 +606,7 @@ const CompanyRegistration = (props) => {
             border-color: var(--dl-color-gray-black);
             border-width: 1px;
             justify-content: center;
-            background-color: var(--dl-color-theme-neutral-dark);
+            background-color: #1b1b1b;
           }
           .company-registration-text04 {
             fill: var(--dl-color-theme-neutral-light);
@@ -621,7 +625,7 @@ const CompanyRegistration = (props) => {
             border-color: var(--dl-color-gray-black);
             border-width: 1px;
             justify-content: center;
-            background-color: var(--dl-color-theme-neutral-dark);
+            background-color: #1b1b1b;
           }
           .company-registration-text05 {
             fill: var(--dl-color-theme-neutral-light);
@@ -640,7 +644,7 @@ const CompanyRegistration = (props) => {
             border-color: var(--dl-color-gray-black);
             border-width: 1px;
             justify-content: center;
-            background-color: var(--dl-color-theme-neutral-dark);
+            background-color: #1b1b1b;
           }
           .company-registration-text06 {
             fill: var(--dl-color-theme-neutral-light);
@@ -659,7 +663,7 @@ const CompanyRegistration = (props) => {
             border-color: var(--dl-color-gray-black);
             border-width: 1px;
             justify-content: center;
-            background-color: var(--dl-color-theme-neutral-dark);
+            background-color: #1b1b1b;
           }
           .company-registration-text07 {
             fill: var(--dl-color-theme-neutral-light);
@@ -678,7 +682,7 @@ const CompanyRegistration = (props) => {
             border-color: var(--dl-color-gray-black);
             border-width: 1px;
             justify-content: center;
-            background-color: var(--dl-color-theme-neutral-dark);
+            background-color: #1b1b1b;
           }
           .company-registration-text08 {
             fill: var(--dl-color-theme-neutral-light);
@@ -1206,9 +1210,6 @@ const CompanyRegistration = (props) => {
             color: #ffff00;
           }
           @media (max-width: 1600px) {
-            .company-registration-container01 {
-              height: 100vh;
-            }
             .company-registration-image {
               width: 80%;
               height: auto;
@@ -1275,6 +1276,9 @@ const CompanyRegistration = (props) => {
             }
           }
           @media (max-width: 991px) {
+            .company-registration-container01 {
+              height: 75vh;
+            }
             .company-registration-container02 {
               display: none;
             }
@@ -1295,17 +1299,25 @@ const CompanyRegistration = (props) => {
             .company-registration-title1 {
               text-align: center;
             }
+            .company-registration-feature2 {
+              margin-top: var(--dl-space-space-unit);
+              margin-bottom: var(--dl-space-space-unit);
+            }
             .company-registration-title12 {
               text-align: center;
+            }
+            .company-registration-feature4 {
+              margin-top: var(--dl-space-space-unit);
+              margin-bottom: var(--dl-space-space-unit);
             }
             .company-registration-title13 {
               text-align: center;
             }
             .company-registration-container08 {
-              height: 50vh;
+              height: auto;
             }
             .company-registration-container09 {
-              height: 100%;
+              height: auto;
             }
             .company-registration-container40 {
               height: auto;
@@ -1366,6 +1378,9 @@ const CompanyRegistration = (props) => {
             .company-registration-text02 {
               align-self: flex-start;
             }
+            .company-registration-container05 {
+              height: auto;
+            }
             .company-registration-feature1 {
               width: 50%;
             }
@@ -1383,9 +1398,6 @@ const CompanyRegistration = (props) => {
             }
             .company-registration-feature5 {
               width: 50%;
-            }
-            .company-registration-container08 {
-              height: 50vh;
             }
             .company-registration-container09 {
               width: 95%;

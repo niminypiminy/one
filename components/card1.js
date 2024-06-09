@@ -63,20 +63,22 @@ const Card1 = (props) => {
           .card1-root-class-name {
             height: 100%;
             opacity: 0.9;
-            background-color: var(--dl-color-gray-black);
+            background-color: #1b1b1b;
           }
           .card1-root-class-name1 {
             height: 100%;
             opacity: 0.9;
-            background-color: var(--dl-color-gray-black);
+            background-color: #1b1b1b;
           }
           .card1-root-class-name2 {
             height: 100%;
-            background-color: var(--dl-color-gray-black);
+            opacity: 0.9;
+            background-color: #1b1b1b;
           }
           .card1-root-class-name3 {
             height: 100%;
-            background-color: var(--dl-color-gray-black);
+            opacity: 0.9;
+            background-color: #1b1b1b;
           }
           @media (max-width: 1600px) {
             .card1-icon {

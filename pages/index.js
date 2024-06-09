@@ -292,7 +292,8 @@ const Home = (props) => {
             font-weight: 300;
           }
           .home-title1 {
-            color: var(--dl-color-gray-black);
+            fill: #1b1b1b;
+            color: #1b1b1b;
             width: 75%;
             font-size: 4rem;
             max-width: auto;
