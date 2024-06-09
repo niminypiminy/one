@@ -45,7 +45,7 @@ const Component6 = (props) => {
                   }}
                 />
               </span>
-              <Link href="/fraud">
+              <Link href="/online-fraud">
                 <a className="component6-link1">fraud</a>
               </Link>
               <span>

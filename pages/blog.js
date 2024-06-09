@@ -33,24 +33,60 @@ const Blog = (props) => {
             </div>
           </div>
         </div>
-        <div className="blog-online-fraud thq-section-padding">
+        <div className="blog-drug-possession-thailand thq-section-padding">
           <div className="blog-max-width1 thq-section-max-width">
-            <div className="blog-image-container">
-              <img
-                alt="Image"
-                src="/designer3-1400w.jpeg"
-                className="blog-placeholder-image thq-img-ratio-16-9"
-              />
-            </div>
             <div className="blog-content">
               <div className="blog-section-title">
                 <span className="blog-text thq-body-small">Criminal Law</span>
-                <div className="blog-content1">
+                <div className="blog-content01">
                   <h2 className="blog-text01 thq-heading-2">
+                    Learn more about Drug Possession in Thailand 
+                  </h2>
+                  <span className="blog-text02">09/06/2024</span>
+                  <p className="blog-text03 thq-body-large">
+                    In 2021, Thailand implemented new legislation that brought
+                    about significant revisions to the nation&apos;s drug laws.
+                    Under the updated laws, individuals found in possession of
+                    drugs for personal use now have the option to undergo
+                    medical treatment instead of facing imprisonment.
+                  </p>
+                </div>
+                <div className="blog-actions">
+                  <Link href="/domestic-abuse">
+                    <a className="blog-link">
+                      <h1 className="blog-text04">Learn More</h1>
+                    </a>
+                  </Link>
+                </div>
+              </div>
+            </div>
+            <div className="blog-image-container">
+              <img
+                alt="Image"
+                src="/designer4-1400w.jpeg"
+                className="blog-placeholder-image thq-img-ratio-16-9"
+              />
+            </div>
+          </div>
+        </div>
+        <div className="blog-online-fraud thq-section-padding">
+          <div className="blog-max-width2 thq-section-max-width">
+            <div className="blog-image-container1">
+              <img
+                alt="Image"
+                src="/designer3-1400w.jpeg"
+                className="blog-placeholder-image1 thq-img-ratio-16-9"
+              />
+            </div>
+            <div className="blog-content02">
+              <div className="blog-section-title1">
+                <span className="blog-text05 thq-body-small">Criminal Law</span>
+                <div className="blog-content03">
+                  <h2 className="blog-text06 thq-heading-2">
                     Online Fraud in Thailand
                   </h2>
-                  <span className="blog-text02">06/06/2024</span>
-                  <p className="blog-text03 thq-body-large">
+                  <span className="blog-text07">06/06/2024</span>
+                  <p className="blog-text08 thq-body-large">
                     In Thailand, instances of online fraud concerning both
                     products and services are unfortunately prevalent. Some
                     online stores engage in deceitful practices, accepting
@@ -64,10 +100,10 @@ const Blog = (props) => {
                     />
                   </p>
                 </div>
-                <div className="blog-actions">
-                  <Link href="/fraud">
-                    <a className="blog-link">
-                      <h1 className="blog-text04">Read More</h1>
+                <div className="blog-actions1">
+                  <Link href="/online-fraud">
+                    <a className="blog-link1">
+                      <h1 className="blog-text09">Read More</h1>
                     </a>
                   </Link>
                 </div>
@@ -76,16 +112,16 @@ const Blog = (props) => {
           </div>
         </div>
         <div className="blog-domestic-abuse thq-section-padding">
-          <div className="blog-max-width2 thq-section-max-width">
-            <div className="blog-content2">
-              <div className="blog-section-title1">
-                <span className="blog-text05 thq-body-small">Criminal Law</span>
-                <div className="blog-content3">
-                  <h2 className="blog-text06 thq-heading-2">
+          <div className="blog-max-width3 thq-section-max-width">
+            <div className="blog-content04">
+              <div className="blog-section-title2">
+                <span className="blog-text10 thq-body-small">Criminal Law</span>
+                <div className="blog-content05">
+                  <h2 className="blog-text11 thq-heading-2">
                     Domestic Abuse Thailand
                   </h2>
-                  <span className="blog-text07">29/05/2024</span>
-                  <p className="blog-text08 thq-body-large">
+                  <span className="blog-text12">29/05/2024</span>
+                  <p className="blog-text13 thq-body-large">
                     Domestic violence is considered both a criminal and civil
                     offense in Thailand, primarily regulated by the Domestic
                     Violence Victims Protection Act of 2007. If you are a victim
@@ -93,42 +129,42 @@ const Blog = (props) => {
                     firm may be able to provide assistance.
                   </p>
                 </div>
-                <div className="blog-actions1">
+                <div className="blog-actions2">
                   <Link href="/domestic-abuse">
-                    <a className="blog-link1">
-                      <h1 className="blog-text09">Learn More</h1>
+                    <a className="blog-link2">
+                      <h1 className="blog-text14">Learn More</h1>
                     </a>
                   </Link>
                 </div>
               </div>
             </div>
-            <div className="blog-image-container1">
+            <div className="blog-image-container2">
               <img
                 alt="Image"
                 src="/designer2-1400w.jpeg"
-                className="blog-placeholder-image1 thq-img-ratio-16-9"
+                className="blog-placeholder-image2 thq-img-ratio-16-9"
               />
             </div>
           </div>
         </div>
         <div className="blog-defamation-thailand thq-section-padding">
-          <div className="blog-max-width3 thq-section-max-width">
-            <div className="blog-image-container2">
+          <div className="blog-max-width4 thq-section-max-width">
+            <div className="blog-image-container3">
               <img
                 alt="Image"
                 src="/designer%20(6)-1400w.jpeg"
-                className="blog-placeholder-image2 thq-img-ratio-16-9"
+                className="blog-placeholder-image3 thq-img-ratio-16-9"
               />
             </div>
-            <div className="blog-content4">
-              <div className="blog-section-title2">
-                <span className="blog-text10 thq-body-small">Criminal Law</span>
-                <div className="blog-content5">
-                  <h2 className="blog-text11 thq-heading-2">
+            <div className="blog-content06">
+              <div className="blog-section-title3">
+                <span className="blog-text15 thq-body-small">Criminal Law</span>
+                <div className="blog-content07">
+                  <h2 className="blog-text16 thq-heading-2">
                     Defamation in Thailand 
                   </h2>
-                  <span className="blog-text12">15/05/2024</span>
-                  <p className="blog-text13 thq-body-large">
+                  <span className="blog-text17">15/05/2024</span>
+                  <p className="blog-text18 thq-body-large">
                     Defamation in Thailand is considered both a civil and
                     criminal offense. In this article, we explore the necessary
                     criteria for filing a claim, steps to take if you have been
@@ -136,10 +172,10 @@ const Blog = (props) => {
                     Thailand and those in common law jurisdictions.
                   </p>
                 </div>
-                <div className="blog-actions2">
+                <div className="blog-actions3">
                   <Link href="/defamation">
-                    <a className="blog-link2">
-                      <h1 className="blog-text14">Read More</h1>
+                    <a className="blog-link3">
+                      <h1 className="blog-text19">Read More</h1>
                     </a>
                   </Link>
                 </div>
@@ -148,16 +184,16 @@ const Blog = (props) => {
           </div>
         </div>
         <div className="blog-criminal-porceedings thq-section-padding">
-          <div className="blog-max-width4 thq-section-max-width">
-            <div className="blog-content6">
-              <div className="blog-section-title3">
-                <span className="blog-text15 thq-body-small">Criminal Law</span>
-                <div className="blog-content7">
-                  <h2 className="blog-text16 thq-heading-2">
+          <div className="blog-max-width5 thq-section-max-width">
+            <div className="blog-content08">
+              <div className="blog-section-title4">
+                <span className="blog-text20 thq-body-small">Criminal Law</span>
+                <div className="blog-content09">
+                  <h2 className="blog-text21 thq-heading-2">
                     Learn more about Criminal Proceedings in Thailand
                   </h2>
-                  <span className="blog-text17">08/05/2024</span>
-                  <p className="blog-text18 thq-body-large">
+                  <span className="blog-text22">08/05/2024</span>
+                  <p className="blog-text23 thq-body-large">
                     <span>
                       In most jurisdictions, criminal charges are typically
                       brought by state prosecutors rather than individual
@@ -170,7 +206,7 @@ const Blog = (props) => {
                       />
                     </span>
                     <Link href="/criminal-proceedings">
-                      <a className="blog-link3">private criminal proceeding</a>
+                      <a className="blog-link4">private criminal proceeding</a>
                     </Link>
                     <span>
                       . Read further to understand your legal rights in
@@ -179,20 +215,20 @@ const Blog = (props) => {
                     </span>
                   </p>
                 </div>
-                <div className="blog-actions3">
+                <div className="blog-actions4">
                   <Link href="/criminal-proceedings">
-                    <a className="blog-link4">
-                      <h1 className="blog-text21">Learn More</h1>
+                    <a className="blog-link5">
+                      <h1 className="blog-text26">Learn More</h1>
                     </a>
                   </Link>
                 </div>
               </div>
             </div>
-            <div className="blog-image-container3">
+            <div className="blog-image-container4">
               <img
                 alt="Image"
                 src="/designer1-1400w.jpeg"
-                className="blog-placeholder-image3 thq-img-ratio-16-9"
+                className="blog-placeholder-image4 thq-img-ratio-16-9"
               />
             </div>
           </div>
@@ -234,7 +270,7 @@ const Blog = (props) => {
             font-family: 'Josefin Sans';
             font-weight: 300;
           }
-          .blog-online-fraud {
+          .blog-drug-possession-thailand {
             display: flex;
             overflow: hidden;
             position: relative;
@@ -247,18 +283,6 @@ const Blog = (props) => {
             gap: var(--dl-space-space-fiveunits);
             display: flex;
             align-items: center;
-          }
-          .blog-image-container {
-            flex: 1;
-            display: flex;
-            align-items: center;
-          }
-          .blog-placeholder-image {
-            transition: 0.3s;
-            border-radius: var(--dl-radius-radius-radius4);
-          }
-          .blog-placeholder-image:hover {
-            transform: scale(1.2);
           }
           .blog-content {
             gap: var(--dl-space-space-oneandhalfunits);
@@ -280,7 +304,7 @@ const Blog = (props) => {
             font-family: 'Josefin Sans';
             font-weight: 200;
           }
-          .blog-content1 {
+          .blog-content01 {
             gap: var(--dl-space-space-oneandhalfunits);
             display: flex;
             align-self: stretch;
@@ -296,7 +320,7 @@ const Blog = (props) => {
           .blog-text02 {
             font-size: 1.2rem;
             font-style: normal;
-            font-family: 'Josefin Sans';
+            font-family: 'Noto Sans Thai';
             font-weight: 200;
           }
           .blog-text03 {
@@ -331,7 +355,15 @@ const Blog = (props) => {
             color: var(--dl-color-gray-white);
             background-color: #1b1b1b;
           }
-          .blog-domestic-abuse {
+          .blog-image-container {
+            flex: 1;
+            display: flex;
+            align-items: center;
+          }
+          .blog-placeholder-image {
+            border-radius: var(--dl-radius-radius-radius4);
+          }
+          .blog-online-fraud {
             display: flex;
             overflow: hidden;
             position: relative;
@@ -345,7 +377,15 @@ const Blog = (props) => {
             display: flex;
             align-items: center;
           }
-          .blog-content2 {
+          .blog-image-container1 {
+            flex: 1;
+            display: flex;
+            align-items: center;
+          }
+          .blog-placeholder-image1 {
+            border-radius: var(--dl-radius-radius-radius4);
+          }
+          .blog-content02 {
             gap: var(--dl-space-space-oneandhalfunits);
             flex: 1;
             display: flex;
@@ -365,7 +405,7 @@ const Blog = (props) => {
             font-family: 'Josefin Sans';
             font-weight: 200;
           }
-          .blog-content3 {
+          .blog-content03 {
             gap: var(--dl-space-space-oneandhalfunits);
             display: flex;
             align-self: stretch;
@@ -416,19 +456,7 @@ const Blog = (props) => {
             color: var(--dl-color-gray-white);
             background-color: #1b1b1b;
           }
-          .blog-image-container1 {
-            flex: 1;
-            display: flex;
-            align-items: center;
-          }
-          .blog-placeholder-image1 {
-            transition: 0.3s;
-            border-radius: var(--dl-radius-radius-radius4);
-          }
-          .blog-placeholder-image1:hover {
-            transform: scale(1.2);
-          }
-          .blog-defamation-thailand {
+          .blog-domestic-abuse {
             display: flex;
             overflow: hidden;
             position: relative;
@@ -442,19 +470,7 @@ const Blog = (props) => {
             display: flex;
             align-items: center;
           }
-          .blog-image-container2 {
-            flex: 1;
-            display: flex;
-            align-items: center;
-          }
-          .blog-placeholder-image2 {
-            transition: 0.3s;
-            border-radius: var(--dl-radius-radius-radius4);
-          }
-          .blog-placeholder-image2:hover {
-            transform: scale(1.2);
-          }
-          .blog-content4 {
+          .blog-content04 {
             gap: var(--dl-space-space-oneandhalfunits);
             flex: 1;
             display: flex;
@@ -474,7 +490,7 @@ const Blog = (props) => {
             font-family: 'Josefin Sans';
             font-weight: 200;
           }
-          .blog-content5 {
+          .blog-content05 {
             gap: var(--dl-space-space-oneandhalfunits);
             display: flex;
             align-self: stretch;
@@ -525,7 +541,15 @@ const Blog = (props) => {
             color: var(--dl-color-gray-white);
             background-color: #1b1b1b;
           }
-          .blog-criminal-porceedings {
+          .blog-image-container2 {
+            flex: 1;
+            display: flex;
+            align-items: center;
+          }
+          .blog-placeholder-image2 {
+            border-radius: var(--dl-radius-radius-radius4);
+          }
+          .blog-defamation-thailand {
             display: flex;
             overflow: hidden;
             position: relative;
@@ -539,7 +563,15 @@ const Blog = (props) => {
             display: flex;
             align-items: center;
           }
-          .blog-content6 {
+          .blog-image-container3 {
+            flex: 1;
+            display: flex;
+            align-items: center;
+          }
+          .blog-placeholder-image3 {
+            border-radius: var(--dl-radius-radius-radius4);
+          }
+          .blog-content06 {
             gap: var(--dl-space-space-oneandhalfunits);
             flex: 1;
             display: flex;
@@ -559,7 +591,7 @@ const Blog = (props) => {
             font-family: 'Josefin Sans';
             font-weight: 200;
           }
-          .blog-content7 {
+          .blog-content07 {
             gap: var(--dl-space-space-oneandhalfunits);
             display: flex;
             align-self: stretch;
@@ -584,17 +616,14 @@ const Blog = (props) => {
             font-family: 'Josefin Sans';
             font-weight: 200;
           }
-          .blog-link3 {
-            text-decoration: underline;
-          }
           .blog-actions3 {
             gap: var(--dl-space-space-unit);
             display: flex;
           }
-          .blog-link4 {
+          .blog-link3 {
             display: contents;
           }
-          .blog-text21 {
+          .blog-text19 {
             color: var(--dl-color-gray-black);
             font-size: 1.5rem;
             font-style: normal;
@@ -609,68 +638,166 @@ const Blog = (props) => {
             padding-bottom: var(--dl-space-space-unit);
             text-decoration: none;
           }
-          .blog-text21:hover {
+          .blog-text19:hover {
             color: var(--dl-color-gray-white);
             background-color: #1b1b1b;
           }
-          .blog-image-container3 {
+          .blog-criminal-porceedings {
+            display: flex;
+            overflow: hidden;
+            position: relative;
+            align-items: center;
+            padding-top: var(--dl-space-space-twounits);
+            flex-direction: column;
+            padding-bottom: var(--dl-space-space-twounits);
+          }
+          .blog-max-width5 {
+            gap: var(--dl-space-space-fiveunits);
+            display: flex;
+            align-items: center;
+          }
+          .blog-content08 {
+            gap: var(--dl-space-space-oneandhalfunits);
+            flex: 1;
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+          }
+          .blog-section-title4 {
+            gap: var(--dl-space-space-oneandhalfunits);
+            display: flex;
+            align-self: stretch;
+            align-items: flex-start;
+            flex-direction: column;
+          }
+          .blog-text20 {
+            font-size: 1.2rem;
+            font-style: normal;
+            font-family: 'Josefin Sans';
+            font-weight: 200;
+          }
+          .blog-content09 {
+            gap: var(--dl-space-space-oneandhalfunits);
+            display: flex;
+            align-self: stretch;
+            align-items: flex-start;
+            flex-direction: column;
+          }
+          .blog-text21 {
+            font-size: 2rem;
+            font-style: normal;
+            font-family: 'Josefin Sans';
+            font-weight: 300;
+          }
+          .blog-text22 {
+            font-size: 1.2rem;
+            font-style: normal;
+            font-family: 'Josefin Sans';
+            font-weight: 200;
+          }
+          .blog-text23 {
+            font-size: 1.5rem;
+            font-style: normal;
+            font-family: 'Josefin Sans';
+            font-weight: 200;
+          }
+          .blog-link4 {
+            text-decoration: underline;
+          }
+          .blog-actions4 {
+            gap: var(--dl-space-space-unit);
+            display: flex;
+          }
+          .blog-link5 {
+            display: contents;
+          }
+          .blog-text26 {
+            color: var(--dl-color-gray-black);
+            font-size: 1.5rem;
+            font-style: normal;
+            transition: 0.3s;
+            font-family: 'Josefin Sans';
+            font-weight: 200;
+            padding-top: var(--dl-space-space-unit);
+            border-color: var(--dl-color-gray-black);
+            border-width: 1px;
+            padding-left: var(--dl-space-space-unit);
+            padding-right: var(--dl-space-space-unit);
+            padding-bottom: var(--dl-space-space-unit);
+            text-decoration: none;
+          }
+          .blog-text26:hover {
+            color: var(--dl-color-gray-white);
+            background-color: #1b1b1b;
+          }
+          .blog-image-container4 {
             flex: 1;
             display: flex;
             align-items: center;
           }
-          .blog-placeholder-image3 {
-            transition: 0.3s;
+          .blog-placeholder-image4 {
             border-radius: var(--dl-radius-radius-radius4);
           }
-          .blog-placeholder-image3:hover {
-            transform: scale(1.2);
-          }
           @media (max-width: 991px) {
+            .blog-drug-possession-thailand {
+              flex-direction: column;
+            }
             .blog-max-width1 {
               gap: var(--dl-space-space-twounits);
               flex-direction: column-reverse;
             }
+            .blog-text01 {
+              font-style: normal;
+              font-weight: 400;
+            }
             .blog-placeholder-image {
               display: none;
             }
-            .blog-text01 {
+            .blog-max-width2 {
+              gap: var(--dl-space-space-twounits);
+              flex-direction: column-reverse;
+            }
+            .blog-placeholder-image1 {
+              display: none;
+            }
+            .blog-text06 {
               font-style: normal;
               font-weight: 400;
             }
             .blog-domestic-abuse {
               flex-direction: column;
             }
-            .blog-max-width2 {
-              gap: var(--dl-space-space-twounits);
-              flex-direction: column-reverse;
-            }
-            .blog-text06 {
-              font-style: normal;
-              font-weight: 400;
-            }
-            .blog-placeholder-image1 {
-              display: none;
-            }
             .blog-max-width3 {
               gap: var(--dl-space-space-twounits);
               flex-direction: column-reverse;
-            }
-            .blog-placeholder-image2 {
-              display: none;
             }
             .blog-text11 {
               font-style: normal;
               font-weight: 400;
             }
+            .blog-placeholder-image2 {
+              display: none;
+            }
             .blog-max-width4 {
               gap: var(--dl-space-space-twounits);
               flex-direction: column-reverse;
+            }
+            .blog-placeholder-image3 {
+              display: none;
             }
             .blog-text16 {
               font-style: normal;
               font-weight: 400;
             }
-            .blog-placeholder-image3 {
+            .blog-max-width5 {
+              gap: var(--dl-space-space-twounits);
+              flex-direction: column-reverse;
+            }
+            .blog-text21 {
+              font-style: normal;
+              font-weight: 400;
+            }
+            .blog-placeholder-image4 {
               display: none;
             }
           }
@@ -684,7 +811,10 @@ const Blog = (props) => {
             .blog-text14 {
               align-self: flex-start;
             }
-            .blog-text21 {
+            .blog-text19 {
+              align-self: flex-start;
+            }
+            .blog-text26 {
               align-self: flex-start;
             }
           }
@@ -714,7 +844,14 @@ const Blog = (props) => {
               width: 100%;
               flex-direction: column;
             }
-            .blog-text21 {
+            .blog-text19 {
+              align-self: flex-start;
+            }
+            .blog-actions4 {
+              width: 100%;
+              flex-direction: column;
+            }
+            .blog-text26 {
               align-self: flex-start;
             }
           }

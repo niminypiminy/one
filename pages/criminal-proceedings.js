@@ -107,7 +107,7 @@ const CriminalProceedings = (props) => {
                 }}
               />
             </span>
-            <Link href="/fraud">
+            <Link href="/online-fraud">
               <a className="criminal-proceedings-link3">fraud</a>
             </Link>
             <span>

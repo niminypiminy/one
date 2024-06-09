@@ -43,7 +43,7 @@ const BoardOfInvestment = (props) => {
                   }}
                 />
               </span>
-              <span className="board-of-investment-text02">Investment</span>
+              <span>Investment</span>
               <span> (BOI). </span>
             </h1>
             <span className="board-of-investment-text04">
@@ -357,9 +357,6 @@ const BoardOfInvestment = (props) => {
             font-style: normal;
             font-family: 'Josefin Sans';
             font-weight: 400;
-          }
-          .board-of-investment-text02 {
-            background-color: rgb(255, 255, 0);
           }
           .board-of-investment-text04 {
             width: 65%;

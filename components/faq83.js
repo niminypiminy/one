@@ -171,7 +171,7 @@ const FAQ83 = (props) => {
                       }}
                     />
                   </span>
-                  <Link href="/fraud">
+                  <Link href="/online-fraud">
                     <a className="faq83-link2">fraud</a>
                   </Link>
                   <span>

@@ -35,9 +35,7 @@ const JapanThailandEconomicPartnershipAgreement = (props) => {
         <div className="japan-thailand-economic-partnership-agreement-hero">
           <div className="japan-thailand-economic-partnership-agreement-container01">
             <h1 className="japan-thailand-economic-partnership-agreement-text">
-              <span className="japan-thailand-economic-partnership-agreement-text01">
-                Japan-Thailand
-              </span>
+              <span>Japan-Thailand</span>
               <span> Economic Partnership Agreement (JTEPA)</span>
             </h1>
             <span className="japan-thailand-economic-partnership-agreement-text03">
@@ -402,9 +400,6 @@ const JapanThailandEconomicPartnershipAgreement = (props) => {
             font-style: normal;
             font-family: 'Josefin Sans';
             font-weight: 400;
-          }
-          .japan-thailand-economic-partnership-agreement-text01 {
-            background-color: rgb(255, 255, 0);
           }
           .japan-thailand-economic-partnership-agreement-text03 {
             width: 75%;

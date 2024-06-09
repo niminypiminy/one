@@ -58,10 +58,18 @@ const WorkPermit = (props) => {
           <div className="work-permit-header">
             <div className="work-permit-heading">
               <h2 className="work-permit-text04">
-                <span>Who needs a work permit</span>
+                <span>
+                  Who needs a work
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: ' ',
+                    }}
+                  />
+                </span>
+                <span className="work-permit-text06">permit</span>
                 <span>?</span>
               </h2>
-              <span className="work-permit-text07">
+              <span className="work-permit-text08">
                 Every foreigner who is employed in the Kingdom of Thailand must
                 acquire a work permit from the ministry of labor, and companies
                 that employ foreigners must meet certain capital and ratio
@@ -100,132 +108,132 @@ const WorkPermit = (props) => {
           </div>
         </div>
         <div className="work-permit-container06">
-          <h1 className="work-permit-text08">Prohibited Work</h1>
-          <span className="work-permit-text09">
+          <h1 className="work-permit-text09">Prohibited Work</h1>
+          <span className="work-permit-text10">
             No foreigner shall be employed in any of the following:
           </span>
           <ul className="work-permit-ul list">
             <li className="list-item">
-              <span className="work-permit-text10">Manual labor</span>
+              <span className="work-permit-text11">Manual labor</span>
             </li>
             <li className="list-item">
-              <span className="work-permit-text11">
+              <span className="work-permit-text12">
                 Work in agriculture, animal husbandry, forestry or fishery,
                 except for specialized work in each particular branch or farm
                 supervision
               </span>
             </li>
             <li className="list-item">
-              <span className="work-permit-text12">
+              <span className="work-permit-text13">
                 Brickwork, carpentry or other construction works
               </span>
             </li>
             <li className="list-item">
-              <span className="work-permit-text13">Wood carving</span>
+              <span className="work-permit-text14">Wood carving</span>
             </li>
             <li className="list-item">
-              <span className="work-permit-text14">
+              <span className="work-permit-text15">
                 Driving mechanically propelled carried or driving
                 non-mechanically-propelled vehicle, excluding international
                 aircraft piloting
               </span>
             </li>
             <li className="list-item">
-              <span className="work-permit-text15">Shop attendance</span>
+              <span className="work-permit-text16">Shop attendance</span>
             </li>
             <li className="list-item">
-              <span className="work-permit-text16">Auction</span>
+              <span className="work-permit-text17">Auction</span>
             </li>
             <li className="list-item">
-              <span className="work-permit-text17">
+              <span className="work-permit-text18">
                 Controlling, auditing or providing accounting services, except
                 for internal auditing on occasions
               </span>
             </li>
             <li className="list-item">
-              <span className="work-permit-text18">
+              <span className="work-permit-text19">
                 Cutting or polishing of gemstones or diamonds
               </span>
             </li>
             <li className="list-item">
-              <span className="work-permit-text19">
+              <span className="work-permit-text20">
                 Hair-cutting, hairdressing or beauty salon
               </span>
             </li>
             <li className="list-item">
-              <span className="work-permit-text20">Hand weaving</span>
+              <span className="work-permit-text21">Hand weaving</span>
             </li>
             <li className="list-item">
-              <span className="work-permit-text21">
+              <span className="work-permit-text22">
                 Weaving of mate or making products from reeds, rattan, hemp,
                 straw or bamboo pellicle
               </span>
             </li>
             <li className="list-item">
-              <span className="work-permit-text22">
+              <span className="work-permit-text23">
                 Mulberry paper making by hand
               </span>
             </li>
             <li className="list-item">
-              <span className="work-permit-text23">Lacquer ware making</span>
+              <span className="work-permit-text24">Lacquer ware making</span>
             </li>
             <li className="list-item">
-              <span className="work-permit-text24">
+              <span className="work-permit-text25">
                 Thai musical instrument making
               </span>
             </li>
             <li className="list-item">
-              <span className="work-permit-text25">Niello ware making</span>
+              <span className="work-permit-text26">Niello ware making</span>
             </li>
             <li className="list-item">
-              <span className="work-permit-text26">
+              <span className="work-permit-text27">
                 Products from gold, silver or copper alloy making
               </span>
             </li>
             <li className="list-item">
-              <span className="work-permit-text27">Bronze ware making</span>
+              <span className="work-permit-text28">Bronze ware making</span>
             </li>
             <li className="list-item">
-              <span className="work-permit-text28">Thai dolls making</span>
+              <span className="work-permit-text29">Thai dolls making</span>
             </li>
             <li className="list-item">
-              <span className="work-permit-text29">
+              <span className="work-permit-text30">
                 Mattress or quilt blanket making
               </span>
             </li>
             <li className="list-item">
-              <span className="work-permit-text30">Alms bowls casting</span>
+              <span className="work-permit-text31">Alms bowls casting</span>
             </li>
             <li className="list-item">
-              <span className="work-permit-text31">
+              <span className="work-permit-text32">
                 Making products from silk by hand
               </span>
             </li>
             <li className="list-item">
-              <span className="work-permit-text32">Buddha statue making</span>
+              <span className="work-permit-text33">Buddha statue making</span>
             </li>
             <li className="list-item">
-              <span className="work-permit-text33">Knife making</span>
+              <span className="work-permit-text34">Knife making</span>
             </li>
             <li className="list-item">
-              <span className="work-permit-text34">
+              <span className="work-permit-text35">
                 Umbrella making with paper or cloth
               </span>
             </li>
             <li className="list-item">
-              <span className="work-permit-text35">Shoe making</span>
+              <span className="work-permit-text36">Shoe making</span>
             </li>
             <li className="list-item">
-              <span className="work-permit-text36">Hat making</span>
+              <span className="work-permit-text37">Hat making</span>
             </li>
             <li className="list-item">
-              <span className="work-permit-text37">
+              <span className="work-permit-text38">
                 Brokerage or agency excluding brokerage or agency in
                 international trade business
               </span>
             </li>
             <li className="list-item">
-              <span className="work-permit-text38">
+              <span className="work-permit-text39">
                 Engineering work in civil engineering branch concerning
                 designing and calculation, organization, research, planning,
                 testing, construction supervision or advising excluding
@@ -233,84 +241,84 @@ const WorkPermit = (props) => {
               </span>
             </li>
             <li className="list-item">
-              <span className="work-permit-text39">
+              <span className="work-permit-text40">
                 Architectural work concerning designing, drawing of plan,
                 estimating, construction directing or advising
               </span>
             </li>
             <li className="list-item">
-              <span className="work-permit-text40">Costume making</span>
+              <span className="work-permit-text41">Costume making</span>
             </li>
             <li className="list-item">
-              <span className="work-permit-text41">
+              <span className="work-permit-text42">
                 Sculpting or making pottery
               </span>
             </li>
             <li className="list-item">
-              <span className="work-permit-text42">
+              <span className="work-permit-text43">
                 Cigarette making by hand
               </span>
             </li>
             <li className="list-item">
-              <span className="work-permit-text43">
+              <span className="work-permit-text44">
                 Guide or conducting sightseeing tours
               </span>
             </li>
             <li className="list-item">
-              <span className="work-permit-text44">Street vending</span>
+              <span className="work-permit-text45">Street vending</span>
             </li>
             <li className="list-item">
-              <span className="work-permit-text45">
+              <span className="work-permit-text46">
                 Thai alphabet typography by hand
               </span>
             </li>
             <li className="list-item">
-              <span className="work-permit-text46">
+              <span className="work-permit-text47">
                 Drawing and twisting silk-thread by hand
               </span>
             </li>
             <li className="list-item">
-              <span className="work-permit-text47">
+              <span className="work-permit-text48">
                 Office or secretarial work
               </span>
             </li>
             <li className="list-item">
-              <span className="work-permit-text48">
+              <span className="work-permit-text49">
                 Legal or lawsuit services
               </span>
             </li>
           </ul>
         </div>
         <div className="work-permit-banner">
-          <h1 className="work-permit-text49">
+          <h1 className="work-permit-text50">
             Minimum Income for Foreigners in Thailand
           </h1>
           <div className="work-permit-container07">
             <div className="work-permit-container08">
-              <span className="work-permit-text50">Country of Nationality</span>
+              <span className="work-permit-text51">Country of Nationality</span>
             </div>
             <div className="work-permit-container09">
-              <span className="work-permit-text51">Salary</span>
+              <span className="work-permit-text52">Salary</span>
             </div>
             <div className="work-permit-container10">
-              <span className="work-permit-text52">
+              <span className="work-permit-text53">
                 Western European Countries (except Russia), Australia, Canada,
                 Japan, and the United States of America
               </span>
             </div>
             <div className="work-permit-container11">
-              <span className="work-permit-text53">50,000/month</span>
+              <span className="work-permit-text54">50,000/month</span>
             </div>
             <div className="work-permit-container12">
-              <span className="work-permit-text54">
+              <span className="work-permit-text55">
                 Hong Kong, South Korea, Singapore and Taiwan
               </span>
             </div>
             <div className="work-permit-container13">
-              <span className="work-permit-text55">45,000/month</span>
+              <span className="work-permit-text56">45,000/month</span>
             </div>
             <div className="work-permit-container14">
-              <span className="work-permit-text56">
+              <span className="work-permit-text57">
                 Asian Countries (except Japan, Hong Kong, South Korea,
                 Singapore, Taiwan, Cambodia, Laos, Myanmar, and Vietnam), South
                 America, Eastern European Countries, Central American Countries,
@@ -318,28 +326,28 @@ const WorkPermit = (props) => {
               </span>
             </div>
             <div className="work-permit-container15">
-              <span className="work-permit-text57">35,000/month</span>
+              <span className="work-permit-text58">35,000/month</span>
             </div>
             <div className="work-permit-container16">
-              <span className="work-permit-text58">
+              <span className="work-permit-text59">
                 African Countries (except South Africa), Cambodia, Myanmar, Laos
                 and Vietnam
               </span>
             </div>
             <div className="work-permit-container17">
-              <span className="work-permit-text59">25,000/month</span>
+              <span className="work-permit-text60">25,000/month</span>
             </div>
           </div>
         </div>
         <div className="work-permit-features">
-          <h1 className="work-permit-text60"> (Qualifications)</h1>
+          <h1 className="work-permit-text61"> (Qualifications)</h1>
           <div className="work-permit-container18">
             <div className="work-permit-feature-card">
               <svg viewBox="0 0 1024 1024" className="work-permit-icon">
                 <path d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"></path>
               </svg>
               <div className="work-permit-container19">
-                <h2 className="work-permit-text61">
+                <h2 className="work-permit-text62">
                   Having knowledge and ability to work as requested for a Work
                   Permit.
                 </h2>
@@ -350,7 +358,7 @@ const WorkPermit = (props) => {
                 <path d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"></path>
               </svg>
               <div className="work-permit-container20">
-                <h2 className="work-permit-text62">
+                <h2 className="work-permit-text63">
                   Not be insane or have a mental disorder, or be a person who is
                   sick with leprosy. Tuberculosis, Elephantiasis, Drug
                   Addiction, Alcoholism or third stage of Syphilis.
@@ -362,7 +370,7 @@ const WorkPermit = (props) => {
                 <path d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"></path>
               </svg>
               <div className="work-permit-container21">
-                <h2 className="work-permit-text63">
+                <h2 className="work-permit-text64">
                   Never having been imprisoned for an offense under the
                   Immigration Law or the Working of Foreign Law at least one
                   year prior to the date of application for permit.
@@ -450,7 +458,7 @@ const WorkPermit = (props) => {
             font-style: normal;
             margin-top: var(--dl-space-space-twounits);
             font-family: 'Josefin Sans';
-            font-weight: 300;
+            font-weight: 200;
             line-height: 1.15em;
             margin-left: 0px;
             margin-right: 0px;
@@ -486,18 +494,21 @@ const WorkPermit = (props) => {
             max-width: auto;
             align-self: center;
             font-style: normal;
-            text-align: center;
+            text-align: left;
             font-family: 'Josefin Sans';
             font-weight: 400;
             line-height: 56px;
           }
-          .work-permit-text07 {
+          .work-permit-text06 {
+            background-color: rgb(255, 255, 0);
+          }
+          .work-permit-text08 {
             width: 100%;
             font-size: 1.5rem;
             max-width: 600px;
             font-style: normal;
             font-family: 'Josefin Sans';
-            font-weight: 300;
+            font-weight: 200;
             line-height: 27px;
           }
           .work-permit-stats {
@@ -629,7 +640,7 @@ const WorkPermit = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .work-permit-text08 {
+          .work-permit-text09 {
             color: var(--dl-color-gray-white);
             padding: var(--dl-space-space-unit);
             font-size: 2rem;
@@ -638,7 +649,7 @@ const WorkPermit = (props) => {
             font-weight: 300;
             background-color: var(--dl-color-gray-black);
           }
-          .work-permit-text09 {
+          .work-permit-text10 {
             width: 50%;
             font-size: 1.5rem;
             margin-top: var(--dl-space-space-oneandhalfunits);
@@ -650,11 +661,6 @@ const WorkPermit = (props) => {
             width: 50%;
             margin-top: var(--dl-space-space-threeunits);
             list-style-type: decimal;
-          }
-          .work-permit-text10 {
-            font-size: 1.5rem;
-            font-family: 'Josefin Sans';
-            font-weight: 200;
           }
           .work-permit-text11 {
             font-size: 1.5rem;
@@ -846,8 +852,13 @@ const WorkPermit = (props) => {
             font-family: 'Josefin Sans';
             font-weight: 200;
           }
+          .work-permit-text49 {
+            font-size: 1.5rem;
+            font-family: 'Josefin Sans';
+            font-weight: 200;
+          }
           .work-permit-banner {
-            width: 100%;
+            width: 75%;
             height: 75vh;
             display: flex;
             margin-top: var(--dl-space-space-twounits);
@@ -860,7 +871,7 @@ const WorkPermit = (props) => {
             padding-bottom: var(--dl-space-space-threeunits);
             justify-content: space-between;
           }
-          .work-permit-text49 {
+          .work-permit-text50 {
             color: var(--dl-color-gray-black);
             font-size: 2rem;
             font-style: normal;
@@ -891,7 +902,7 @@ const WorkPermit = (props) => {
             justify-content: center;
             background-color: #ffff00;
           }
-          .work-permit-text50 {
+          .work-permit-text51 {
             color: var(--dl-color-gray-black);
             font-size: 1.5rem;
             font-style: normal;
@@ -909,7 +920,7 @@ const WorkPermit = (props) => {
             justify-content: center;
             background-color: #ffff00;
           }
-          .work-permit-text51 {
+          .work-permit-text52 {
             color: var(--dl-color-gray-black);
             font-size: 1.5rem;
             font-style: normal;
@@ -926,7 +937,7 @@ const WorkPermit = (props) => {
             border-width: 1px;
             justify-content: center;
           }
-          .work-permit-text52 {
+          .work-permit-text53 {
             font-size: 1.5rem;
             font-style: normal;
             text-align: center;
@@ -943,7 +954,7 @@ const WorkPermit = (props) => {
             border-width: 1px;
             justify-content: center;
           }
-          .work-permit-text53 {
+          .work-permit-text54 {
             font-size: 1.5rem;
             font-style: normal;
             font-family: 'Josefin Sans';
@@ -959,7 +970,7 @@ const WorkPermit = (props) => {
             border-width: 1px;
             justify-content: center;
           }
-          .work-permit-text54 {
+          .work-permit-text55 {
             font-size: 1.5rem;
             font-style: normal;
             font-family: 'Josefin Sans';
@@ -975,7 +986,7 @@ const WorkPermit = (props) => {
             border-width: 1px;
             justify-content: center;
           }
-          .work-permit-text55 {
+          .work-permit-text56 {
             font-size: 1.5rem;
             font-style: normal;
             font-family: 'Josefin Sans';
@@ -991,7 +1002,7 @@ const WorkPermit = (props) => {
             border-width: 1px;
             justify-content: center;
           }
-          .work-permit-text56 {
+          .work-permit-text57 {
             font-size: 1.5rem;
             font-style: normal;
             text-align: center;
@@ -1008,7 +1019,7 @@ const WorkPermit = (props) => {
             border-width: 1px;
             justify-content: center;
           }
-          .work-permit-text57 {
+          .work-permit-text58 {
             font-size: 1.5rem;
             font-style: normal;
             font-family: 'Josefin Sans';
@@ -1024,7 +1035,7 @@ const WorkPermit = (props) => {
             border-width: 1px;
             justify-content: center;
           }
-          .work-permit-text58 {
+          .work-permit-text59 {
             font-size: 1.5rem;
             font-style: normal;
             text-align: center;
@@ -1041,7 +1052,7 @@ const WorkPermit = (props) => {
             border-width: 1px;
             justify-content: center;
           }
-          .work-permit-text59 {
+          .work-permit-text60 {
             font-size: 1.5rem;
             font-style: normal;
             font-family: 'Josefin Sans';
@@ -1057,7 +1068,7 @@ const WorkPermit = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .work-permit-text60 {
+          .work-permit-text61 {
             color: var(--dl-color-gray-black);
             width: 80%;
             font-size: 2rem;
@@ -1097,7 +1108,7 @@ const WorkPermit = (props) => {
             flex-direction: column;
             justify-content: flex-start;
           }
-          .work-permit-text61 {
+          .work-permit-text62 {
             font-size: 1.5rem;
             font-style: normal;
             font-family: Josefin Sans;
@@ -1126,7 +1137,7 @@ const WorkPermit = (props) => {
             flex-direction: column;
             justify-content: flex-start;
           }
-          .work-permit-text62 {
+          .work-permit-text63 {
             font-size: 1.5rem;
             font-style: normal;
             font-family: Josefin Sans;
@@ -1155,7 +1166,7 @@ const WorkPermit = (props) => {
             flex-direction: column;
             justify-content: flex-start;
           }
-          .work-permit-text63 {
+          .work-permit-text64 {
             font-style: normal;
             font-family: Josefin Sans;
             font-weight: 200;
@@ -1199,22 +1210,22 @@ const WorkPermit = (props) => {
               margin-top: var(--dl-space-space-fourunits);
               margin-bottom: var(--dl-space-space-fourunits);
             }
-            .work-permit-text49 {
+            .work-permit-text50 {
               color: var(--dl-color-gray-black);
             }
             .work-permit-features {
               height: auto;
             }
-            .work-permit-text60 {
-              color: var(--dl-color-gray-black);
-            }
             .work-permit-text61 {
-              font-size: 1.5rem;
+              color: var(--dl-color-gray-black);
             }
             .work-permit-text62 {
               font-size: 1.5rem;
             }
             .work-permit-text63 {
+              font-size: 1.5rem;
+            }
+            .work-permit-text64 {
               font-style: normal;
               font-family: Josefin Sans;
               font-weight: 200;
@@ -1265,10 +1276,10 @@ const WorkPermit = (props) => {
             .work-permit-container18 {
               width: 90%;
             }
-            .work-permit-text61 {
+            .work-permit-text62 {
               margin-bottom: 0px;
             }
-            .work-permit-text62 {
+            .work-permit-text63 {
               font-size: 1.5rem;
               margin-bottom: 0px;
             }
@@ -1295,7 +1306,7 @@ const WorkPermit = (props) => {
               margin-right: 0px;
               margin-bottom: var(--dl-space-space-threeunits);
             }
-            .work-permit-text07 {
+            .work-permit-text08 {
               width: 75%;
               align-self: center;
             }
@@ -1399,7 +1410,7 @@ const WorkPermit = (props) => {
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
             }
-            .work-permit-text49 {
+            .work-permit-text50 {
               width: 100%;
             }
             .work-permit-container07 {
@@ -1409,7 +1420,7 @@ const WorkPermit = (props) => {
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
             }
-            .work-permit-text60 {
+            .work-permit-text61 {
               width: 75%;
             }
             .work-permit-container18 {
@@ -1486,7 +1497,7 @@ const WorkPermit = (props) => {
               width: 90%;
               align-self: center;
             }
-            .work-permit-text07 {
+            .work-permit-text08 {
               width: 90%;
               max-width: auto;
               align-self: center;
@@ -1512,7 +1523,7 @@ const WorkPermit = (props) => {
               padding-right: 0px;
               padding-bottom: 0px;
             }
-            .work-permit-text49 {
+            .work-permit-text50 {
               width: 100%;
               margin-bottom: 0px;
             }
@@ -1529,7 +1540,7 @@ const WorkPermit = (props) => {
               padding-right: var(--dl-space-space-unit);
               padding-bottom: var(--dl-space-space-twounits);
             }
-            .work-permit-text60 {
+            .work-permit-text61 {
               width: 100%;
             }
             .work-permit-container18 {

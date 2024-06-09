@@ -51,8 +51,8 @@ const LimitedPartnershipLP = (props) => {
                       }}
                     />
                   </span>
-                  <span className="limited-partnership-lp-text02">
-                    Partnership
+                  <span>Partnership</span>
+                  <span className="limited-partnership-lp-text03">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: ' ',
@@ -61,7 +61,7 @@ const LimitedPartnershipLP = (props) => {
                   </span>
                   <span>(LP)</span>
                 </h1>
-                <span className="limited-partnership-lp-text04">
+                <span className="limited-partnership-lp-text05">
                   A Thai limited partnership includes two or more partners, in
                   which one partner is registered as a general partner. The
                   general partner must assume all liability for business
@@ -79,7 +79,7 @@ const LimitedPartnershipLP = (props) => {
             </div>
           </div>
           <div className="limited-partnership-lp-container06">
-            <h1 className="limited-partnership-lp-text05">Benefits</h1>
+            <h1 className="limited-partnership-lp-text06">Benefits</h1>
           </div>
           <div className="limited-partnership-lp-container07">
             <div className="limited-partnership-lp-feature-card">
@@ -89,7 +89,7 @@ const LimitedPartnershipLP = (props) => {
               >
                 <path d="M391.429 742.286l350.857-350.857c14.286-14.286 14.286-37.143 0-51.429l-58.286-58.286c-14.286-14.286-37.143-14.286-51.429 0l-266.857 266.857-120.571-120.571c-14.286-14.286-37.143-14.286-51.429 0l-58.286 58.286c-14.286 14.286-14.286 37.143 0 51.429l204.571 204.571c14.286 14.286 37.143 14.286 51.429 0zM877.714 237.714v548.571c0 90.857-73.714 164.571-164.571 164.571h-548.571c-90.857 0-164.571-73.714-164.571-164.571v-548.571c0-90.857 73.714-164.571 164.571-164.571h548.571c90.857 0 164.571 73.714 164.571 164.571z"></path>
               </svg>
-              <h2 className="limited-partnership-lp-text06">
+              <h2 className="limited-partnership-lp-text07">
                 <span>Easy to establish</span>
                 <br></br>
               </h2>
@@ -101,13 +101,13 @@ const LimitedPartnershipLP = (props) => {
               >
                 <path d="M391.429 742.286l350.857-350.857c14.286-14.286 14.286-37.143 0-51.429l-58.286-58.286c-14.286-14.286-37.143-14.286-51.429 0l-266.857 266.857-120.571-120.571c-14.286-14.286-37.143-14.286-51.429 0l-58.286 58.286c-14.286 14.286-14.286 37.143 0 51.429l204.571 204.571c14.286 14.286 37.143 14.286 51.429 0zM877.714 237.714v548.571c0 90.857-73.714 164.571-164.571 164.571h-548.571c-90.857 0-164.571-73.714-164.571-164.571v-548.571c0-90.857 73.714-164.571 164.571-164.571h548.571c90.857 0 164.571 73.714 164.571 164.571z"></path>
               </svg>
-              <h2 className="limited-partnership-lp-text09">
+              <h2 className="limited-partnership-lp-text10">
                 Limited Liability
               </h2>
             </div>
           </div>
           <div className="limited-partnership-lp-features">
-            <h1 className="limited-partnership-lp-text10">
+            <h1 className="limited-partnership-lp-text11">
               Limited Partnership (Qualifications)
             </h1>
             <div className="limited-partnership-lp-container08">
@@ -119,7 +119,7 @@ const LimitedPartnershipLP = (props) => {
                   <path d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"></path>
                 </svg>
                 <div className="limited-partnership-lp-container09">
-                  <h2 className="limited-partnership-lp-text11">
+                  <h2 className="limited-partnership-lp-text12">
                     Foreign majority-owned partnerships are required to have 2
                     million or 3 million baht in registered capital, depending
                     on the category of investment.
@@ -134,7 +134,7 @@ const LimitedPartnershipLP = (props) => {
                   <path d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"></path>
                 </svg>
                 <div className="limited-partnership-lp-container10">
-                  <h2 className="limited-partnership-lp-text12">
+                  <h2 className="limited-partnership-lp-text13">
                     <span>
                       If foreign ownership exceeds 49%, the company must obtain
                       the
@@ -144,7 +144,7 @@ const LimitedPartnershipLP = (props) => {
                         }}
                       />
                     </span>
-                    <span className="limited-partnership-lp-text14">
+                    <span className="limited-partnership-lp-text15">
                       Foreign Business License,
                     </span>
                     <span>
@@ -174,7 +174,7 @@ const LimitedPartnershipLP = (props) => {
                   <path d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"></path>
                 </svg>
                 <div className="limited-partnership-lp-container11">
-                  <h2 className="limited-partnership-lp-text19">
+                  <h2 className="limited-partnership-lp-text20">
                     <span>
                       If the managing director is a foreigner, then the company
                       must also acquire a Foreign Business License, or a Foreign
@@ -192,7 +192,7 @@ const LimitedPartnershipLP = (props) => {
                   <path d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"></path>
                 </svg>
                 <div className="limited-partnership-lp-container12">
-                  <h2 className="limited-partnership-lp-text22">
+                  <h2 className="limited-partnership-lp-text23">
                     There must be at least two partners, and one of the partners
                     must be a General partner, which is to say that one person
                     must assume liability for debts and obligations.
@@ -207,7 +207,7 @@ const LimitedPartnershipLP = (props) => {
                   <path d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"></path>
                 </svg>
                 <div className="limited-partnership-lp-container13">
-                  <h2 className="limited-partnership-lp-text23">
+                  <h2 className="limited-partnership-lp-text24">
                     LP&apos;s in Thailand are not considered &apos;pass through
                     entities.&apos; In other words, the partnership must pay the
                     corporate tax rate.
@@ -219,14 +219,14 @@ const LimitedPartnershipLP = (props) => {
           <div className="limited-partnership-lp-container14">
             <Link href="/contact">
               <a className="limited-partnership-lp-link1">
-                <h1 className="limited-partnership-lp-text24">
+                <h1 className="limited-partnership-lp-text25">
                   Get a free consultation
                 </h1>
               </a>
             </Link>
           </div>
           <div className="limited-partnership-lp-steps">
-            <h1 className="limited-partnership-lp-text25">
+            <h1 className="limited-partnership-lp-text26">
               <span>
                 How to Register a Thai
                 <span
@@ -235,7 +235,7 @@ const LimitedPartnershipLP = (props) => {
                   }}
                 />
               </span>
-              <span className="limited-partnership-lp-text27">
+              <span className="limited-partnership-lp-text28">
                 Limited Partnership
               </span>
             </h1>
@@ -254,10 +254,10 @@ const LimitedPartnershipLP = (props) => {
                   <div className="limited-partnership-lp-line1"></div>
                 </div>
                 <div className="limited-partnership-lp-container18">
-                  <h1 className="limited-partnership-lp-text28">
+                  <h1 className="limited-partnership-lp-text29">
                     Reserve the Company Name
                   </h1>
-                  <span className="limited-partnership-lp-text29">
+                  <span className="limited-partnership-lp-text30">
                     <span>
                       The company name must be in Thai and English. It can be
                       registered online at https://reserve.dbd.go.th The
@@ -282,10 +282,10 @@ const LimitedPartnershipLP = (props) => {
                   <div className="limited-partnership-lp-line3"></div>
                 </div>
                 <div className="limited-partnership-lp-container21">
-                  <h1 className="limited-partnership-lp-text32">
+                  <h1 className="limited-partnership-lp-text33">
                     Apply for Registration at DBD
                   </h1>
-                  <span className="limited-partnership-lp-text33">
+                  <span className="limited-partnership-lp-text34">
                     The DBD will ask for the name of the partners, name of the
                     managing partner, location of head office, objective of
                     partnership, among other requirements.
@@ -306,10 +306,10 @@ const LimitedPartnershipLP = (props) => {
                   <div className="limited-partnership-lp-line5"></div>
                 </div>
                 <div className="limited-partnership-lp-container24">
-                  <h1 className="limited-partnership-lp-text34">
+                  <h1 className="limited-partnership-lp-text35">
                     Register the Company
                   </h1>
-                  <span className="limited-partnership-lp-text35">
+                  <span className="limited-partnership-lp-text36">
                     <span>
                       Documents must be signed by all partners, and each partner
                       must bring a contribution to the partnership, either
@@ -322,39 +322,39 @@ const LimitedPartnershipLP = (props) => {
             </div>
           </div>
           <div className="limited-partnership-lp-banner">
-            <h1 className="limited-partnership-lp-text38">Government Fees</h1>
+            <h1 className="limited-partnership-lp-text39">Government Fees</h1>
             <div className="limited-partnership-lp-container25">
               <div className="limited-partnership-lp-container26">
-                <span className="limited-partnership-lp-text39">Type</span>
+                <span className="limited-partnership-lp-text40">Type</span>
               </div>
               <div className="limited-partnership-lp-container27">
-                <span className="limited-partnership-lp-text40">
+                <span className="limited-partnership-lp-text41">
                   Cost (baht)
                 </span>
               </div>
               <div className="limited-partnership-lp-container28">
-                <span className="limited-partnership-lp-text41">
+                <span className="limited-partnership-lp-text42">
                   Registration Fee 
                 </span>
               </div>
               <div className="limited-partnership-lp-container29">
-                <span className="limited-partnership-lp-text42">1000</span>
+                <span className="limited-partnership-lp-text43">1000</span>
               </div>
               <div className="limited-partnership-lp-container30">
-                <span className="limited-partnership-lp-text43">
+                <span className="limited-partnership-lp-text44">
                   Certificate of registration
                 </span>
               </div>
               <div className="limited-partnership-lp-container31">
-                <span className="limited-partnership-lp-text44">100</span>
+                <span className="limited-partnership-lp-text45">100</span>
               </div>
               <div className="limited-partnership-lp-container32">
-                <span className="limited-partnership-lp-text45">
+                <span className="limited-partnership-lp-text46">
                   Certified Documents (optional)
                 </span>
               </div>
               <div className="limited-partnership-lp-container33">
-                <span className="limited-partnership-lp-text46">
+                <span className="limited-partnership-lp-text47">
                   50 (per page)
                 </span>
               </div>
@@ -635,13 +635,13 @@ const LimitedPartnershipLP = (props) => {
             font-size: 2rem;
             max-width: auto;
             font-style: normal;
-            font-family: Josefin Sans;
+            font-family: 'Josefin Sans';
             font-weight: 400;
           }
-          .limited-partnership-lp-text02 {
+          .limited-partnership-lp-text03 {
             background-color: rgb(255, 255, 0);
           }
-          .limited-partnership-lp-text04 {
+          .limited-partnership-lp-text05 {
             font-size: 1.5rem;
             font-style: normal;
             margin-top: var(--dl-space-space-twounits);
@@ -660,7 +660,7 @@ const LimitedPartnershipLP = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .limited-partnership-lp-text05 {
+          .limited-partnership-lp-text06 {
             font-size: 2rem;
             font-style: normal;
             font-family: Josefin Sans;
@@ -696,7 +696,7 @@ const LimitedPartnershipLP = (props) => {
             width: var(--dl-size-size-small);
             height: var(--dl-size-size-small);
           }
-          .limited-partnership-lp-text06 {
+          .limited-partnership-lp-text07 {
             color: rgb(255, 255, 255);
             font-size: 1.5rem;
             font-style: normal;
@@ -729,7 +729,7 @@ const LimitedPartnershipLP = (props) => {
             width: var(--dl-size-size-small);
             height: var(--dl-size-size-small);
           }
-          .limited-partnership-lp-text09 {
+          .limited-partnership-lp-text10 {
             color: rgb(255, 255, 255);
             font-size: 1.5rem;
             font-style: normal;
@@ -749,7 +749,7 @@ const LimitedPartnershipLP = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .limited-partnership-lp-text10 {
+          .limited-partnership-lp-text11 {
             color: rgb(17, 40, 33);
             width: 80%;
             font-size: 2rem;
@@ -788,7 +788,7 @@ const LimitedPartnershipLP = (props) => {
             flex-direction: column;
             justify-content: flex-start;
           }
-          .limited-partnership-lp-text11 {
+          .limited-partnership-lp-text12 {
             font-size: 1.5rem;
             font-style: normal;
             font-family: Josefin Sans;
@@ -817,14 +817,14 @@ const LimitedPartnershipLP = (props) => {
             flex-direction: column;
             justify-content: flex-start;
           }
-          .limited-partnership-lp-text12 {
+          .limited-partnership-lp-text13 {
             font-size: 1.5rem;
             font-style: normal;
             font-family: Josefin Sans;
             font-weight: 200;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .limited-partnership-lp-text14 {
+          .limited-partnership-lp-text15 {
             text-decoration: underline;
           }
           .limited-partnership-lp-feature-card4 {
@@ -849,7 +849,7 @@ const LimitedPartnershipLP = (props) => {
             flex-direction: column;
             justify-content: flex-start;
           }
-          .limited-partnership-lp-text19 {
+          .limited-partnership-lp-text20 {
             font-size: 1.5rem;
             font-style: normal;
             font-family: Josefin Sans;
@@ -878,7 +878,7 @@ const LimitedPartnershipLP = (props) => {
             flex-direction: column;
             justify-content: flex-start;
           }
-          .limited-partnership-lp-text22 {
+          .limited-partnership-lp-text23 {
             font-style: normal;
             font-family: Josefin Sans;
             font-weight: 200;
@@ -905,7 +905,7 @@ const LimitedPartnershipLP = (props) => {
             flex-direction: column;
             justify-content: flex-start;
           }
-          .limited-partnership-lp-text23 {
+          .limited-partnership-lp-text24 {
             font-style: normal;
             font-family: Josefin Sans;
             font-weight: 200;
@@ -924,7 +924,7 @@ const LimitedPartnershipLP = (props) => {
           .limited-partnership-lp-link1 {
             display: contents;
           }
-          .limited-partnership-lp-text24 {
+          .limited-partnership-lp-text25 {
             color: var(--dl-color-gray-black);
             font-size: 1.5rem;
             font-style: normal;
@@ -939,7 +939,7 @@ const LimitedPartnershipLP = (props) => {
             padding-bottom: var(--dl-space-space-oneandhalfunits);
             text-decoration: none;
           }
-          .limited-partnership-lp-text24:hover {
+          .limited-partnership-lp-text25:hover {
             color: var(--dl-color-gray-white);
             background-color: #1b1b1b;
           }
@@ -954,7 +954,7 @@ const LimitedPartnershipLP = (props) => {
             flex-direction: column;
             justify-content: flex-start;
           }
-          .limited-partnership-lp-text25 {
+          .limited-partnership-lp-text26 {
             color: var(--dl-color-gray-black);
             width: 50%;
             font-size: 2rem;
@@ -963,7 +963,7 @@ const LimitedPartnershipLP = (props) => {
             font-family: Josefin Sans;
             font-weight: 400;
           }
-          .limited-partnership-lp-text27 {
+          .limited-partnership-lp-text28 {
             background-color: rgb(255, 255, 0);
           }
           .limited-partnership-lp-container15 {
@@ -1041,7 +1041,7 @@ const LimitedPartnershipLP = (props) => {
             flex-direction: column;
             padding-bottom: var(--dl-space-space-unit);
           }
-          .limited-partnership-lp-text28 {
+          .limited-partnership-lp-text29 {
             font-size: 1.5rem;
             font-style: normal;
             text-align: center;
@@ -1049,7 +1049,7 @@ const LimitedPartnershipLP = (props) => {
             font-weight: 300;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .limited-partnership-lp-text29 {
+          .limited-partnership-lp-text30 {
             color: var(--dl-color-gray-500);
             font-size: 1.5rem;
             font-style: normal;
@@ -1124,7 +1124,7 @@ const LimitedPartnershipLP = (props) => {
             flex-direction: column;
             padding-bottom: var(--dl-space-space-unit);
           }
-          .limited-partnership-lp-text32 {
+          .limited-partnership-lp-text33 {
             font-size: 1.5rem;
             font-style: normal;
             text-align: center;
@@ -1132,7 +1132,7 @@ const LimitedPartnershipLP = (props) => {
             font-weight: 300;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .limited-partnership-lp-text33 {
+          .limited-partnership-lp-text34 {
             color: var(--dl-color-gray-500);
             font-size: 1.5rem;
             font-style: normal;
@@ -1207,7 +1207,7 @@ const LimitedPartnershipLP = (props) => {
             flex-direction: column;
             padding-bottom: var(--dl-space-space-unit);
           }
-          .limited-partnership-lp-text34 {
+          .limited-partnership-lp-text35 {
             font-size: 1.5rem;
             font-style: normal;
             text-align: center;
@@ -1215,7 +1215,7 @@ const LimitedPartnershipLP = (props) => {
             font-weight: 300;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .limited-partnership-lp-text35 {
+          .limited-partnership-lp-text36 {
             color: var(--dl-color-gray-500);
             font-size: 1.5rem;
             font-style: normal;
@@ -1237,7 +1237,7 @@ const LimitedPartnershipLP = (props) => {
             padding-bottom: var(--dl-space-space-threeunits);
             justify-content: space-between;
           }
-          .limited-partnership-lp-text38 {
+          .limited-partnership-lp-text39 {
             color: var(--dl-color-gray-black);
             font-size: 2rem;
             font-style: normal;
@@ -1268,7 +1268,7 @@ const LimitedPartnershipLP = (props) => {
             justify-content: center;
             background-color: #ffff00;
           }
-          .limited-partnership-lp-text39 {
+          .limited-partnership-lp-text40 {
             color: var(--dl-color-gray-black);
             font-size: 1.5rem;
             font-style: normal;
@@ -1286,7 +1286,7 @@ const LimitedPartnershipLP = (props) => {
             justify-content: center;
             background-color: #ffff00;
           }
-          .limited-partnership-lp-text40 {
+          .limited-partnership-lp-text41 {
             color: var(--dl-color-gray-black);
             font-size: 1.5rem;
             font-style: normal;
@@ -1303,7 +1303,7 @@ const LimitedPartnershipLP = (props) => {
             border-width: 1px;
             justify-content: center;
           }
-          .limited-partnership-lp-text41 {
+          .limited-partnership-lp-text42 {
             font-size: 1.5rem;
             font-style: normal;
             font-family: Josefin Sans;
@@ -1319,7 +1319,7 @@ const LimitedPartnershipLP = (props) => {
             border-width: 1px;
             justify-content: center;
           }
-          .limited-partnership-lp-text42 {
+          .limited-partnership-lp-text43 {
             font-size: 1.5rem;
             font-style: normal;
             font-family: Josefin Sans;
@@ -1335,7 +1335,7 @@ const LimitedPartnershipLP = (props) => {
             border-width: 1px;
             justify-content: center;
           }
-          .limited-partnership-lp-text43 {
+          .limited-partnership-lp-text44 {
             font-size: 1.5rem;
             font-style: normal;
             font-family: Josefin Sans;
@@ -1351,7 +1351,7 @@ const LimitedPartnershipLP = (props) => {
             border-width: 1px;
             justify-content: center;
           }
-          .limited-partnership-lp-text44 {
+          .limited-partnership-lp-text45 {
             font-size: 1.5rem;
             font-style: normal;
             font-family: Josefin Sans;
@@ -1367,7 +1367,7 @@ const LimitedPartnershipLP = (props) => {
             border-width: 1px;
             justify-content: center;
           }
-          .limited-partnership-lp-text45 {
+          .limited-partnership-lp-text46 {
             font-size: 1.5rem;
             font-style: normal;
             font-family: Josefin Sans;
@@ -1383,7 +1383,7 @@ const LimitedPartnershipLP = (props) => {
             border-width: 1px;
             justify-content: center;
           }
-          .limited-partnership-lp-text46 {
+          .limited-partnership-lp-text47 {
             font-size: 1.5rem;
             font-style: normal;
             font-family: Josefin Sans;
@@ -1679,37 +1679,37 @@ const LimitedPartnershipLP = (props) => {
               margin-top: var(--dl-space-space-twounits);
               margin-bottom: var(--dl-space-space-twounits);
             }
-            .limited-partnership-lp-text10 {
+            .limited-partnership-lp-text11 {
               margin-top: var(--dl-space-space-fourunits);
             }
             .limited-partnership-lp-container08 {
               margin-top: var(--dl-space-space-twounits);
             }
-            .limited-partnership-lp-text11 {
+            .limited-partnership-lp-text12 {
               font-size: 1.5rem;
               font-style: normal;
               font-family: Josefin Sans;
               font-weight: 200;
             }
-            .limited-partnership-lp-text12 {
+            .limited-partnership-lp-text13 {
               font-size: 1.5rem;
             }
-            .limited-partnership-lp-text14 {
+            .limited-partnership-lp-text15 {
               text-decoration: underline;
             }
             .limited-partnership-lp-link {
               text-decoration: underline;
             }
-            .limited-partnership-lp-text19 {
+            .limited-partnership-lp-text20 {
               font-size: 1.5rem;
               font-style: normal;
               font-family: Josefin Sans;
               font-weight: 200;
             }
-            .limited-partnership-lp-text22 {
+            .limited-partnership-lp-text23 {
               font-family: Josefin Sans;
             }
-            .limited-partnership-lp-text23 {
+            .limited-partnership-lp-text24 {
               font-family: Josefin Sans;
             }
             .limited-partnership-lp-container14 {
@@ -1717,7 +1717,7 @@ const LimitedPartnershipLP = (props) => {
               margin-top: var(--dl-space-space-fourunits);
               margin-bottom: var(--dl-space-space-fourunits);
             }
-            .limited-partnership-lp-text24 {
+            .limited-partnership-lp-text25 {
               padding: var(--dl-space-space-oneandhalfunits);
               font-style: normal;
               font-weight: 200;
@@ -1725,22 +1725,22 @@ const LimitedPartnershipLP = (props) => {
             .limited-partnership-lp-steps {
               margin-bottom: var(--dl-space-space-sixunits);
             }
-            .limited-partnership-lp-text25 {
+            .limited-partnership-lp-text26 {
               color: var(--dl-color-gray-black);
             }
-            .limited-partnership-lp-text29 {
+            .limited-partnership-lp-text30 {
               color: var(--dl-color-gray-500);
               font-size: 1.5rem;
             }
-            .limited-partnership-lp-text33 {
+            .limited-partnership-lp-text34 {
               color: var(--dl-color-gray-500);
               font-size: 1.5rem;
             }
-            .limited-partnership-lp-text35 {
+            .limited-partnership-lp-text36 {
               color: var(--dl-color-gray-500);
               font-size: 1.5rem;
             }
-            .limited-partnership-lp-text38 {
+            .limited-partnership-lp-text39 {
               color: var(--dl-color-gray-black);
             }
             .limited-partnership-lp-faq {
@@ -1794,7 +1794,7 @@ const LimitedPartnershipLP = (props) => {
               width: 90%;
               margin-top: var(--dl-space-space-twounits);
             }
-            .limited-partnership-lp-text25 {
+            .limited-partnership-lp-text26 {
               width: 75%;
             }
             .limited-partnership-lp-container15 {
@@ -1842,7 +1842,7 @@ const LimitedPartnershipLP = (props) => {
             .limited-partnership-lp-steps {
               width: 90%;
             }
-            .limited-partnership-lp-text25 {
+            .limited-partnership-lp-text26 {
               width: 80%;
             }
             .limited-partnership-lp-container15 {
@@ -1859,7 +1859,7 @@ const LimitedPartnershipLP = (props) => {
             .limited-partnership-lp-step2 {
               width: 75%;
             }
-            .limited-partnership-lp-text35 {
+            .limited-partnership-lp-text36 {
               font-size: 1.2rem;
             }
             .limited-partnership-lp-banner {
@@ -1941,7 +1941,7 @@ const LimitedPartnershipLP = (props) => {
               width: 100%;
               align-self: center;
             }
-            .limited-partnership-lp-text04 {
+            .limited-partnership-lp-text05 {
               width: 100%;
               align-self: center;
               margin-top: var(--dl-space-space-unit);
@@ -1955,7 +1955,7 @@ const LimitedPartnershipLP = (props) => {
               align-items: center;
               justify-content: center;
             }
-            .limited-partnership-lp-text05 {
+            .limited-partnership-lp-text06 {
               width: auto;
             }
             .limited-partnership-lp-feature-card {
@@ -2010,7 +2010,7 @@ const LimitedPartnershipLP = (props) => {
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
             }
-            .limited-partnership-lp-text25 {
+            .limited-partnership-lp-text26 {
               width: 100%;
             }
             .limited-partnership-lp-container15 {
@@ -2049,14 +2049,14 @@ const LimitedPartnershipLP = (props) => {
               padding-bottom: var(--dl-space-space-twounits);
               justify-content: space-between;
             }
-            .limited-partnership-lp-text28 {
+            .limited-partnership-lp-text29 {
               margin-top: var(--dl-space-space-twounits);
               text-align: left;
               margin-left: 0px;
               margin-right: 0px;
               margin-bottom: var(--dl-space-space-unit);
             }
-            .limited-partnership-lp-text29 {
+            .limited-partnership-lp-text30 {
               text-align: left;
             }
             .limited-partnership-lp-step1 {
@@ -2094,14 +2094,14 @@ const LimitedPartnershipLP = (props) => {
               padding-bottom: var(--dl-space-space-twounits);
               justify-content: space-between;
             }
-            .limited-partnership-lp-text32 {
+            .limited-partnership-lp-text33 {
               margin-top: var(--dl-space-space-twounits);
               text-align: left;
               margin-left: 0px;
               margin-right: 0px;
               margin-bottom: var(--dl-space-space-unit);
             }
-            .limited-partnership-lp-text33 {
+            .limited-partnership-lp-text34 {
               text-align: left;
             }
             .limited-partnership-lp-step2 {
@@ -2139,14 +2139,14 @@ const LimitedPartnershipLP = (props) => {
               padding-bottom: var(--dl-space-space-twounits);
               justify-content: space-between;
             }
-            .limited-partnership-lp-text34 {
+            .limited-partnership-lp-text35 {
               margin-top: var(--dl-space-space-twounits);
               text-align: left;
               margin-left: 0px;
               margin-right: 0px;
               margin-bottom: var(--dl-space-space-unit);
             }
-            .limited-partnership-lp-text35 {
+            .limited-partnership-lp-text36 {
               text-align: left;
             }
             .limited-partnership-lp-banner {
@@ -2155,7 +2155,7 @@ const LimitedPartnershipLP = (props) => {
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
             }
-            .limited-partnership-lp-text38 {
+            .limited-partnership-lp-text39 {
               width: 100%;
             }
             .limited-partnership-lp-container25 {
@@ -2196,7 +2196,7 @@ const LimitedPartnershipLP = (props) => {
               width: 100%;
               max-width: auto;
             }
-            .limited-partnership-lp-text04 {
+            .limited-partnership-lp-text05 {
               width: 100%;
               align-self: center;
               margin-top: var(--dl-space-space-unit);
@@ -2219,7 +2219,7 @@ const LimitedPartnershipLP = (props) => {
               height: 100%;
               margin-top: var(--dl-space-space-twounits);
             }
-            .limited-partnership-lp-text06 {
+            .limited-partnership-lp-text07 {
               color: var(--dl-color-gray-white);
               font-size: 1.5rem;
               font-style: normal;
@@ -2261,7 +2261,7 @@ const LimitedPartnershipLP = (props) => {
             .limited-partnership-lp-container14 {
               height: auto;
             }
-            .limited-partnership-lp-text24 {
+            .limited-partnership-lp-text25 {
               font-style: normal;
               font-weight: 200;
             }
@@ -2284,7 +2284,7 @@ const LimitedPartnershipLP = (props) => {
               padding-right: 0px;
               padding-bottom: var(--dl-space-space-twounits);
             }
-            .limited-partnership-lp-text28 {
+            .limited-partnership-lp-text29 {
               text-align: left;
               margin-left: 0px;
               margin-right: var(--dl-space-space-twounits);
@@ -2295,12 +2295,12 @@ const LimitedPartnershipLP = (props) => {
               padding-right: 0px;
               padding-bottom: var(--dl-space-space-twounits);
             }
-            .limited-partnership-lp-text32 {
+            .limited-partnership-lp-text33 {
               text-align: left;
               margin-left: 0px;
               margin-right: var(--dl-space-space-twounits);
             }
-            .limited-partnership-lp-text33 {
+            .limited-partnership-lp-text34 {
               color: var(--dl-color-gray-500);
               font-size: 1.5rem;
               font-style: normal;
@@ -2313,12 +2313,12 @@ const LimitedPartnershipLP = (props) => {
               padding-right: 0px;
               padding-bottom: var(--dl-space-space-twounits);
             }
-            .limited-partnership-lp-text34 {
+            .limited-partnership-lp-text35 {
               text-align: left;
               margin-left: 0px;
               margin-right: var(--dl-space-space-twounits);
             }
-            .limited-partnership-lp-text35 {
+            .limited-partnership-lp-text36 {
               color: var(--dl-color-gray-500);
               font-size: 1.5rem;
               font-style: normal;
@@ -2334,7 +2334,7 @@ const LimitedPartnershipLP = (props) => {
               padding-right: 0px;
               padding-bottom: 0px;
             }
-            .limited-partnership-lp-text38 {
+            .limited-partnership-lp-text39 {
               width: 100%;
               margin-bottom: 0px;
             }

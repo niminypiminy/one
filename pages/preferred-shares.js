@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 import Head from 'next/head'
 
 import Navbar from '../components/navbar'
@@ -34,17 +35,29 @@ const PreferredShares = (props) => {
               <div className="preferred-shares-container4">
                 <h1 className="preferred-shares-text">Preference Shares</h1>
                 <span className="preferred-shares-text1">
-                  Preference shares agreements in Thailand must comply with all
-                  regulations regarding foreign ownership restrictions. If Thai
-                  shareholders do not provide any contribution and the court
-                  determines that the foreign shareholder has contributed 50% or
-                  more of the registered capital, the contract will not be
-                  enforced. While preference shares agreements can be utilized
-                  for specific purposes, such as prioritizing dividend claims
-                  over ordinary shareholders, they cannot be used to bypass
-                  ownership regulations or substitute the need for a Foreign
-                  Business License or Foreign Business Certificate. For
-                  additional guidance on this issue, please click here.
+                  <span>
+                    Preference shares agreements in Thailand must comply with
+                    all regulations regarding foreign ownership restrictions. If
+                    Thai shareholders do not provide any contribution and the
+                    court determines that the foreign shareholder has
+                    contributed 50% or more of the registered capital, the
+                    contract will not be enforced. While preference shares
+                    agreements can be utilized for specific purposes, such as
+                    prioritizing dividend claims over ordinary shareholders,
+                    they cannot be used to bypass ownership regulations or
+                    substitute the need for a Foreign Business License or
+                    Foreign Business Certificate. For additional guidance on
+                    this issue, please click
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: ' ',
+                      }}
+                    />
+                  </span>
+                  <Link href="/foreign-business-license">
+                    <a className="preferred-shares-link">here</a>
+                  </Link>
+                  <span>.</span>
                 </span>
               </div>
             </div>
@@ -115,6 +128,9 @@ const PreferredShares = (props) => {
             font-family: 'Josefin Sans';
             font-weight: 300;
             margin-bottom: var(--dl-space-space-twounits);
+          }
+          .preferred-shares-link {
+            text-decoration: underline;
           }
           @media (max-width: 1600px) {
             .preferred-shares-container2 {

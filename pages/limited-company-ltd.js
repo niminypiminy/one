@@ -43,9 +43,7 @@ const LimitedCompanyLtd = (props) => {
                     }}
                   />
                 </span>
-                <span className="limited-company-ltd-text02">
-                  Limited Company
-                </span>
+                <span>Limited Company</span>
                 <span> (Ltd.)</span>
               </h1>
               <span className="limited-company-ltd-text04">
@@ -587,11 +585,8 @@ const LimitedCompanyLtd = (props) => {
             font-size: 2rem;
             max-width: auto;
             font-style: normal;
-            font-family: Josefin Sans;
+            font-family: 'Josefin Sans';
             font-weight: 400;
-          }
-          .limited-company-ltd-text02 {
-            background-color: rgb(255, 255, 0);
           }
           .limited-company-ltd-text04 {
             font-size: 1.5rem;

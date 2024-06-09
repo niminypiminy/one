@@ -668,7 +668,7 @@ const TreatyOfAmity = (props) => {
             font-style: normal;
             margin-top: var(--dl-space-space-twounits);
             font-family: Josefin Sans;
-            font-weight: 300;
+            font-weight: 200;
             margin-bottom: var(--dl-space-space-twounits);
           }
           .treaty-of-amity-image {
@@ -700,9 +700,10 @@ const TreatyOfAmity = (props) => {
             color: var(--dl-color-gray-black);
             width: 40%;
             font-size: 1.5rem;
+            font-style: normal;
             text-align: left;
             font-family: 'Josefin Sans';
-            font-weight: 300;
+            font-weight: 200;
           }
           .treaty-of-amity-container03 {
             width: 100%;

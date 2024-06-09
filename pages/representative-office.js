@@ -35,9 +35,7 @@ const RepresentativeOffice = (props) => {
           <div className="representative-office-hero">
             <div className="representative-office-container02">
               <h1 className="representative-office-text">
-                <span className="representative-office-text01">
-                  Representative
-                </span>
+                <span>Representative</span>
                 <span> Office (Thailand)</span>
               </h1>
               <span className="representative-office-text03">
@@ -762,11 +760,8 @@ const RepresentativeOffice = (props) => {
             font-size: 2rem;
             max-width: 450px;
             font-style: normal;
-            font-family: Josefin Sans;
+            font-family: 'Josefin Sans';
             font-weight: 400;
-          }
-          .representative-office-text01 {
-            background-color: rgb(255, 255, 0);
           }
           .representative-office-text03 {
             width: 75%;
