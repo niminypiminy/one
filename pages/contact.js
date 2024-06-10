@@ -30,7 +30,7 @@ const Contact = (props) => {
             <form
               id="submit-form"
               name="submit-form"
-              action="https://formsubmit.co/support@danneskiold.zohodesk.com"
+              action="https://submit-form.com/BCiQzHi2"
               method="POST"
               enctype="multipart/form-data"
               className="contact-form"
@@ -93,15 +93,13 @@ const Contact = (props) => {
               />
               <input
                 type="hidden"
-                name="_next"
-                value="https://yourdomain.co/thanks.html"
+                name="_redirect"
                 placeholder="placeholder"
+                value="https://one-tan-nine.vercel.app/Thanks"
                 className="contact-textinput2 input"
               />
               <input
                 type="hidden"
-                name="_captcha"
-                value="false"
                 placeholder="placeholder"
                 className="contact-textinput3 input"
               />
