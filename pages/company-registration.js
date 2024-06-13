@@ -1242,9 +1242,6 @@ const CompanyRegistration = (props) => {
             color: var(--dl-color-theme-neutral-dark);
           }
           @media (max-width: 1600px) {
-            .company-registration-container {
-              background-color: var(--dl-color-theme-accent1);
-            }
             .company-registration-image {
               width: 80%;
               height: auto;
