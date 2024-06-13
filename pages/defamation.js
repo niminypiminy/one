@@ -425,6 +425,7 @@ const Defamation = (props) => {
             min-height: 100vh;
             align-items: center;
             flex-direction: column;
+            background-color: var(--dl-color-theme-neutral-light);
           }
           .defamation-blog-post-header3 {
             display: flex;

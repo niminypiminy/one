@@ -389,7 +389,7 @@ const JapanThailandEconomicPartnershipAgreement = (props) => {
             min-height: 100vh;
             align-items: center;
             flex-direction: column;
-            background-color: var(--dl-color-theme-accent1);
+            background-color: var(--dl-color-theme-neutral-light);
           }
           .japan-thailand-economic-partnership-agreement-hero {
             width: 100%;

@@ -335,6 +335,7 @@ const DefamationThailand = (props) => {
             min-height: 100vh;
             align-items: center;
             flex-direction: column;
+            background-color: var(--dl-color-theme-neutral-light);
           }
           .defamation-thailand-blog-post-header3 {
             display: flex;

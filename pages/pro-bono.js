@@ -68,7 +68,7 @@ const ProBono = (props) => {
             min-height: 100vh;
             flex-direction: column;
             justify-content: flex-start;
-            background-color: var(--dl-color-theme-accent1);
+            background-color: var(--dl-color-theme-neutral-light);
           }
           .pro-bono-container1 {
             flex: 0 0 auto;

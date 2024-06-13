@@ -340,6 +340,7 @@ const Page = (props) => {
             min-height: 100vh;
             align-items: center;
             flex-direction: column;
+            background-color: var(--dl-color-theme-neutral-light);
           }
           .page-blog-post-header3 {
             display: flex;

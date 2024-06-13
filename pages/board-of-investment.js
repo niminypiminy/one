@@ -351,7 +351,7 @@ const BoardOfInvestment = (props) => {
             overflow: auto;
             min-height: 100vh;
             flex-direction: column;
-            background-color: var(--dl-color-theme-accent1);
+            background-color: var(--dl-color-theme-neutral-light);
           }
           .board-of-investment-hero {
             width: 100%;

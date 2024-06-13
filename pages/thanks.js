@@ -49,6 +49,7 @@ const Thanks = (props) => {
             align-items: center;
             flex-direction: column;
             justify-content: center;
+            background-color: var(--dl-color-theme-neutral-light);
           }
           .thanks-container1 {
             flex: 0 0 auto;

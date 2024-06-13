@@ -636,7 +636,7 @@ const TreatyOfAmity = (props) => {
             display: flex;
             min-height: 100vh;
             flex-direction: column;
-            background-color: var(--dl-color-theme-accent1);
+            background-color: var(--dl-color-theme-neutral-light);
           }
           .treaty-of-amity-hero {
             width: 100%;

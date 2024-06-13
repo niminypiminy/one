@@ -269,6 +269,7 @@ const DrugPossession = (props) => {
             min-height: 100vh;
             align-items: center;
             flex-direction: column;
+            background-color: var(--dl-color-theme-neutral-light);
           }
           .drug-possession-blog-post-header3 {
             display: flex;

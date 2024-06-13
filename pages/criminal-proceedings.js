@@ -347,6 +347,7 @@ const CriminalProceedings = (props) => {
             min-height: 100vh;
             align-items: center;
             flex-direction: column;
+            background-color: var(--dl-color-theme-neutral-light);
           }
           .criminal-proceedings-blog-post-header3 {
             display: flex;

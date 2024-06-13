@@ -310,7 +310,7 @@ const Home = (props) => {
             border-color: var(--dl-color-gray-black);
             border-width: 5vw;
             flex-direction: column;
-            background-color: var(--dl-color-theme-accent1);
+            background-color: var(--dl-color-theme-neutral-light);
             border-top-width: 0px;
             border-left-width: 0px;
             border-right-width: 0px;
@@ -374,8 +374,14 @@ const Home = (props) => {
           .home-link02 {
             fill: var(--dl-color-theme-neutral-light);
             color: var(--dl-color-theme-neutral-light);
+            transition: 0.3s;
             text-decoration: none;
             background-color: #1b1b1b;
+          }
+          .home-link02:hover {
+            fill: var(--dl-color-theme-accent1);
+            color: var(--dl-color-theme-accent1);
+            background-color: var(--dl-color-theme-primary2);
           }
           .home-text05 {
             font-style: normal;
@@ -390,8 +396,15 @@ const Home = (props) => {
           .home-link03 {
             fill: var(--dl-color-theme-neutral-dark);
             color: var(--dl-color-theme-neutral-dark);
+            transition: 0.3s;
+            font-family: 'Josefin Sans';
             border-color: var(--dl-color-theme-neutral-dark);
             text-decoration: none;
+          }
+          .home-link03:hover {
+            fill: var(--dl-color-theme-accent1);
+            color: var(--dl-color-theme-accent1);
+            background-color: var(--dl-color-theme-primary2);
           }
           .home-text06 {
             font-style: normal;

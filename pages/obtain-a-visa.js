@@ -40,6 +40,7 @@ const ObtainAVisa = (props) => {
             min-height: 100vh;
             align-items: center;
             flex-direction: column;
+            background-color: var(--dl-color-theme-neutral-light);
           }
           .obtain-a-visa-container1 {
             flex: 0 0 auto;

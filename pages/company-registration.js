@@ -332,7 +332,7 @@ const CompanyRegistration = (props) => {
             transition: 0.3s;
             align-items: center;
             flex-direction: column;
-            background-color: var(--dl-color-theme-accent1);
+            background-color: var(--dl-color-theme-neutral-light);
           }
           .company-registration-container:hover {
             width: 100%;

@@ -244,6 +244,7 @@ const Blog = (props) => {
             min-height: 100vh;
             align-items: center;
             flex-direction: column;
+            background-color: var(--dl-color-theme-neutral-light);
           }
           .blog-container1 {
             gap: var(--dl-space-space-unit);

@@ -393,6 +393,7 @@ const WorkPermit = (props) => {
             min-height: 100vh;
             align-items: center;
             flex-direction: column;
+            background-color: var(--dl-color-theme-neutral-light);
           }
           .work-permit-container01 {
             flex: 0 0 auto;
