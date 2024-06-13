@@ -544,7 +544,7 @@ const Navbar = (props) => {
             color: var(--dl-color-gray-black);
             font-size: 1.2rem;
             font-style: normal;
-            font-family: Josefin Sans;
+            font-family: 'Josefin Sans';
             font-weight: 300;
             line-height: 36px;
             margin-left: var(--dl-space-space-threeunits);
@@ -555,12 +555,14 @@ const Navbar = (props) => {
             height: 7px;
           }
           .navbar-text01 {
+            fill: var(--dl-color-theme-neutral-light);
+            color: var(--dl-color-theme-neutral-light);
             font-size: 1.2rem;
             font-style: normal;
-            font-family: Josefin Sans;
+            font-family: 'Josefin Sans';
             font-weight: 300;
             line-height: 27px;
-            background-color: #ffff00;
+            background-color: var(--dl-color-theme-primary2);
           }
           .navbar-desktop-menu {
             display: none;
@@ -784,14 +786,15 @@ const Navbar = (props) => {
             height: 7px;
           }
           .navbar-text03 {
-            color: var(--dl-color-gray-black);
+            fill: var(--dl-color-theme-neutral-light);
+            color: var(--dl-color-theme-neutral-light);
             padding: var(--dl-space-space-halfunit);
             font-size: 1.2rem;
             font-style: normal;
             font-family: Josefin Sans;
             font-weight: 300;
             line-height: 27px;
-            background-color: #ffff00;
+            background-color: var(--dl-color-theme-primary2);
           }
           .navbar-menu-close {
             display: flex;
@@ -829,8 +832,9 @@ const Navbar = (props) => {
             background-color: var(--dl-color-gray-black);
           }
           .navbar-link01:hover {
-            color: var(--dl-color-gray-black);
-            background-color: #ffff00;
+            fill: var(--dl-color-theme-accent1);
+            color: var(--dl-color-theme-accent1);
+            background-color: var(--dl-color-theme-primary2);
           }
           .navbar-thq-dropdown1 {
             cursor: pointer;
@@ -862,8 +866,9 @@ const Navbar = (props) => {
             vertical-align: middle;
           }
           .navbar-text04:hover {
-            color: var(--dl-color-gray-black);
-            background-color: #ffff00;
+            fill: var(--dl-color-theme-accent1);
+            color: var(--dl-color-theme-accent1);
+            background-color: var(--dl-color-theme-primary2);
           }
           .navbar-dropdown-arrow {
             transition: 0.3s;
@@ -1128,7 +1133,9 @@ const Navbar = (props) => {
             vertical-align: middle;
           }
           .navbar-text11:hover {
-            background-color: #ffff00;
+            fill: var(--dl-color-theme-accent1);
+            color: var(--dl-color-theme-accent1);
+            background-color: var(--dl-color-theme-primary2);
           }
           .navbar-dropdown-arrow1 {
             transition: 0.3s;
@@ -1255,7 +1262,9 @@ const Navbar = (props) => {
             vertical-align: middle;
           }
           .navbar-text14:hover {
-            background-color: #ffff00;
+            fill: var(--dl-color-theme-accent1);
+            color: var(--dl-color-theme-accent1);
+            background-color: var(--dl-color-theme-primary2);
           }
           .navbar-dropdown-arrow2 {
             transition: 0.3s;
@@ -1603,8 +1612,9 @@ const Navbar = (props) => {
             text-decoration: none;
           }
           .navbar-link18:hover {
-            color: #122821;
-            background-color: #ffff00;
+            fill: var(--dl-color-theme-accent1);
+            color: var(--dl-color-theme-accent1);
+            background-color: var(--dl-color-theme-primary2);
           }
           .navbar-link20 {
             color: var(--dl-color-gray-black);
@@ -1620,8 +1630,9 @@ const Navbar = (props) => {
             text-decoration: none;
           }
           .navbar-link20:hover {
-            color: var(--dl-color-gray-black);
-            background-color: #ffff00;
+            fill: var(--dl-color-theme-accent1);
+            color: var(--dl-color-theme-accent1);
+            background-color: var(--dl-color-theme-primary2);
           }
           .navbar-social-bar {
             width: 100%;
@@ -1745,6 +1756,9 @@ const Navbar = (props) => {
             width: 100%;
           }
           .navbar-root-class-name16 {
+            width: 100%;
+          }
+          .navbar-root-class-name17 {
             width: 100%;
           }
           @media (max-width: 1920px) {

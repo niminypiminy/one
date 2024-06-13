@@ -25,7 +25,7 @@ const BranchOffice = (props) => {
           />
           <meta
             property="og:image"
-            content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/3b36eceb-15bd-4df9-a03b-c15ec4324845/6e310911-4daf-49cb-aeb2-76841f7d3639?org_if_sml=1&amp;force_format=original"
+            content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/1e7f4ee4-0cee-4fac-a5b5-9bf26476dc3e/5631a551-dd96-44ef-935a-e149f868456e?org_if_sml=1&amp;force_format=original"
           />
         </Head>
         <Navbar></Navbar>
@@ -248,6 +248,7 @@ const BranchOffice = (props) => {
             min-height: 100vh;
             align-items: center;
             flex-direction: column;
+            background-color: var(--dl-color-theme-accent1);
           }
           .branch-office-container01 {
             flex: 0 0 auto;
@@ -281,17 +282,18 @@ const BranchOffice = (props) => {
             font-size: 2rem;
             max-width: auto;
             font-style: normal;
-            font-family: Josefin Sans;
-            font-weight: 400;
+            font-family: 'Josefin Sans';
+            font-weight: 300;
           }
           .branch-office-text02 {
-            background-color: rgb(255, 255, 0);
+            color: var(--dl-color-theme-neutral-light);
+            background-color: var(--dl-color-theme-primary2);
           }
           .branch-office-text04 {
             font-size: 1.5rem;
             font-style: normal;
             margin-top: var(--dl-space-space-twounits);
-            font-family: Josefin Sans;
+            font-family: 'Josefin Sans';
             font-weight: 200;
             line-height: 1.15em;
             margin-bottom: var(--dl-space-space-twounits);
@@ -310,11 +312,7 @@ const BranchOffice = (props) => {
             height: auto;
             box-shadow: 5px 5px 10px 0px #000000;
             object-fit: contain;
-            transition: 0.3s;
             margin-right: 0px;
-          }
-          .branch-office-image:hover {
-            transform: scale(1.2);
           }
           .branch-office-container05 {
             width: 100%;
@@ -341,7 +339,7 @@ const BranchOffice = (props) => {
             font-style: normal;
             margin-top: var(--dl-space-space-twounits);
             font-family: Josefin Sans;
-            font-weight: 400;
+            font-weight: 300;
           }
           .branch-office-text06 {
             color: var(--dl-color-gray-black);
@@ -403,7 +401,7 @@ const BranchOffice = (props) => {
             border-radius: 50%;
             flex-direction: column;
             justify-content: center;
-            background-color: #ffff00;
+            background-color: var(--dl-color-theme-secondary2);
           }
           .branch-office-content {
             gap: var(--dl-space-space-halfunit);
@@ -455,7 +453,7 @@ const BranchOffice = (props) => {
             border-radius: 50%;
             flex-direction: column;
             justify-content: center;
-            background-color: #ffff00;
+            background-color: var(--dl-color-theme-secondary2);
           }
           .branch-office-content1 {
             gap: var(--dl-space-space-halfunit);
@@ -670,7 +668,7 @@ const BranchOffice = (props) => {
             margin-bottom: var(--dl-space-space-sixunits);
             flex-direction: column;
             justify-content: center;
-            background-color: #1b1b1b;
+            background-color: #521e01;
           }
           .branch-office-icon2 {
             fill: var(--dl-color-gray-white);
@@ -723,10 +721,11 @@ const BranchOffice = (props) => {
             border-color: var(--dl-color-gray-black);
             border-width: 1px;
             justify-content: center;
-            background-color: #ffff00;
+            background-color: #1b1b1b;
           }
           .branch-office-text13 {
-            color: var(--dl-color-gray-black);
+            fill: var(--dl-color-theme-accent1);
+            color: var(--dl-color-theme-accent1);
             font-size: 1.5rem;
             font-style: normal;
             font-family: Josefin Sans;
@@ -741,10 +740,11 @@ const BranchOffice = (props) => {
             border-color: var(--dl-color-gray-black);
             border-width: 1px;
             justify-content: center;
-            background-color: #ffff00;
+            background-color: #1b1b1b;
           }
           .branch-office-text14 {
-            color: var(--dl-color-gray-black);
+            fill: var(--dl-color-theme-accent1);
+            color: var(--dl-color-theme-accent1);
             font-size: 1.5rem;
             font-style: normal;
             font-family: Josefin Sans;
@@ -903,7 +903,8 @@ const BranchOffice = (props) => {
             font-weight: 200;
           }
           .branch-office-link1 {
-            color: var(--dl-color-gray-black);
+            fill: var(--dl-color-theme-accent1);
+            color: var(--dl-color-theme-accent1);
             font-size: 1.5rem;
             font-style: normal;
             margin-top: var(--dl-space-space-fourunits);
@@ -914,7 +915,7 @@ const BranchOffice = (props) => {
             padding-right: var(--dl-space-space-halfunit);
             padding-bottom: var(--dl-space-space-halfunit);
             text-decoration: underline;
-            background-color: #ffff00;
+            background-color: var(--dl-color-theme-primary2);
           }
           @media (max-width: 1600px) {
             .branch-office-text {
@@ -955,9 +956,6 @@ const BranchOffice = (props) => {
               height: auto;
               max-width: 100%;
             }
-            .branch-office-icon {
-              background-color: #ffff00;
-            }
             .branch-office-header {
               font-style: normal;
               font-weight: 300;
@@ -966,9 +964,6 @@ const BranchOffice = (props) => {
               color: rgb(194, 198, 204);
               font-size: 1.5rem;
               line-height: 28px;
-            }
-            .branch-office-icon1 {
-              background-color: #ffff00;
             }
             .branch-office-header1 {
               font-style: normal;
@@ -989,6 +984,10 @@ const BranchOffice = (props) => {
             }
             .branch-office-roadmap {
               height: auto;
+            }
+            .branch-office-header2 {
+              font-style: normal;
+              font-weight: 300;
             }
             .branch-office-list {
               height: auto;
@@ -1038,7 +1037,9 @@ const BranchOffice = (props) => {
             }
             .branch-office-text12 {
               color: var(--dl-color-gray-black);
+              font-style: normal;
               margin-top: var(--dl-space-space-sixunits);
+              font-weight: 300;
             }
             .branch-office-container20 {
               width: 50%;
@@ -1053,11 +1054,9 @@ const BranchOffice = (props) => {
               margin-top: var(--dl-space-space-twounits);
             }
             .branch-office-link1 {
-              color: var(--dl-color-gray-black);
               width: auto;
               align-self: center;
               margin-top: var(--dl-space-space-fourunits);
-              background-color: rgb(255, 255, 0);
             }
           }
           @media (max-width: 1200px) {

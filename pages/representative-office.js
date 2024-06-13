@@ -27,7 +27,7 @@ const RepresentativeOffice = (props) => {
           />
           <meta
             property="og:image"
-            content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/3b36eceb-15bd-4df9-a03b-c15ec4324845/6e310911-4daf-49cb-aeb2-76841f7d3639?org_if_sml=1&amp;force_format=original"
+            content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/1e7f4ee4-0cee-4fac-a5b5-9bf26476dc3e/5631a551-dd96-44ef-935a-e149f868456e?org_if_sml=1&amp;force_format=original"
           />
         </Head>
         <div className="representative-office-container01">
@@ -734,6 +734,7 @@ const RepresentativeOffice = (props) => {
             min-height: 100vh;
             align-items: center;
             flex-direction: column;
+            background-color: var(--dl-color-theme-accent1);
           }
           .representative-office-container01 {
             width: 100%;
@@ -761,7 +762,7 @@ const RepresentativeOffice = (props) => {
             max-width: auto;
             font-style: normal;
             font-family: 'Josefin Sans';
-            font-weight: 400;
+            font-weight: 300;
           }
           .representative-office-text03 {
             width: 75%;
@@ -776,10 +777,6 @@ const RepresentativeOffice = (props) => {
             width: 30%;
             box-shadow: 5px 5px 10px 0px #000000;
             object-fit: cover;
-            transition: 0.3s;
-          }
-          .representative-office-image:hover {
-            transform: scale(1.2);
           }
           .representative-office-container03 {
             flex: 0 0 auto;
@@ -816,6 +813,7 @@ const RepresentativeOffice = (props) => {
             width: auto;
             height: auto;
             display: flex;
+            opacity: 0.9;
             padding: var(--dl-space-space-twounits);
             transition: 0.3s;
             align-items: center;
@@ -830,7 +828,7 @@ const RepresentativeOffice = (props) => {
             transform: scale(1.2);
           }
           .representative-office-icon {
-            fill: #ffff00;
+            fill: var(--dl-color-theme-accent2);
             width: var(--dl-size-size-small);
             height: var(--dl-size-size-small);
           }
@@ -848,6 +846,7 @@ const RepresentativeOffice = (props) => {
             width: auto;
             height: auto;
             display: flex;
+            opacity: 0.9;
             padding: var(--dl-space-space-twounits);
             transition: 0.3s;
             align-items: center;
@@ -864,7 +863,7 @@ const RepresentativeOffice = (props) => {
             border-color: var(--dl-color-gray-black);
           }
           .representative-office-icon02 {
-            fill: #ffff00;
+            fill: var(--dl-color-theme-accent2);
             width: var(--dl-size-size-small);
             height: var(--dl-size-size-small);
           }
@@ -882,6 +881,7 @@ const RepresentativeOffice = (props) => {
             width: auto;
             height: auto;
             display: flex;
+            opacity: 0.9;
             padding: var(--dl-space-space-twounits);
             margin-top: var(--dl-space-space-unit);
             transition: 0.3s;
@@ -897,7 +897,7 @@ const RepresentativeOffice = (props) => {
             transform: scale(1.2);
           }
           .representative-office-icon04 {
-            fill: #ffff00;
+            fill: var(--dl-color-theme-accent2);
             width: var(--dl-size-size-small);
             height: var(--dl-size-size-small);
           }
@@ -918,6 +918,7 @@ const RepresentativeOffice = (props) => {
             width: auto;
             height: auto;
             display: flex;
+            opacity: 0.9;
             padding: var(--dl-space-space-twounits);
             margin-top: var(--dl-space-space-unit);
             transition: 0.3s;
@@ -934,7 +935,7 @@ const RepresentativeOffice = (props) => {
             transform: scale(1.2);
           }
           .representative-office-icon06 {
-            fill: #ffff00;
+            fill: var(--dl-color-theme-accent2);
             width: var(--dl-size-size-small);
             height: var(--dl-size-size-small);
           }
@@ -1573,11 +1574,12 @@ const RepresentativeOffice = (props) => {
             font-size: 2rem;
             font-style: normal;
             text-align: center;
-            font-family: Josefin Sans;
+            font-family: 'Josefin Sans';
             font-weight: 300;
           }
           .representative-office-text40 {
-            background-color: rgb(255, 255, 0);
+            color: var(--dl-color-theme-accent1);
+            background-color: var(--dl-color-theme-primary2);
           }
           .representative-office-container26 {
             flex: 0 0 auto;
@@ -1972,7 +1974,6 @@ const RepresentativeOffice = (props) => {
             padding-right: var(--dl-space-space-fiveunits);
             flex-direction: column;
             padding-bottom: var(--dl-space-space-fourunits);
-            background-color: var(--dl-color-gray-white);
           }
           .representative-office-content {
             gap: var(--dl-space-space-fiveunits);
@@ -1981,7 +1982,6 @@ const RepresentativeOffice = (props) => {
             max-width: 1440px;
             align-items: center;
             flex-direction: column;
-            background-color: var(--dl-color-gray-white);
           }
           .representative-office-heading {
             gap: var(--dl-space-space-oneandhalfunits);
@@ -1994,6 +1994,7 @@ const RepresentativeOffice = (props) => {
           }
           .representative-office-header {
             color: var(--dl-color-gray-white);
+            opacity: 0.9;
             padding: var(--dl-space-space-unit);
             font-size: 2rem;
             font-style: normal;
@@ -2217,7 +2218,8 @@ const RepresentativeOffice = (props) => {
             height: 16px;
           }
           .representative-office-link2 {
-            color: var(--dl-color-gray-black);
+            fill: var(--dl-color-theme-accent1);
+            color: var(--dl-color-theme-accent1);
             font-size: 1.5rem;
             align-self: center;
             font-style: normal;
@@ -2229,7 +2231,7 @@ const RepresentativeOffice = (props) => {
             padding-right: var(--dl-space-space-halfunit);
             padding-bottom: var(--dl-space-space-halfunit);
             text-decoration: underline;
-            background-color: #ffff00;
+            background-color: var(--dl-color-theme-primary2);
           }
           @media (max-width: 1600px) {
             .representative-office-image {
@@ -2276,7 +2278,6 @@ const RepresentativeOffice = (props) => {
               font-size: 1.5rem;
             }
             .representative-office-link2 {
-              color: var(--dl-color-gray-black);
               padding-top: var(--dl-space-space-halfunit);
               padding-left: var(--dl-space-space-halfunit);
               padding-right: var(--dl-space-space-halfunit);

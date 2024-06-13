@@ -35,7 +35,7 @@ const Card1 = (props) => {
             border-radius: 50%;
             flex-direction: column;
             justify-content: center;
-            background-color: #ffff00;
+            background-color: var(--dl-color-theme-secondary2);
           }
           .card1-content {
             gap: var(--dl-space-space-halfunit);
@@ -81,9 +81,6 @@ const Card1 = (props) => {
             background-color: #1b1b1b;
           }
           @media (max-width: 1600px) {
-            .card1-icon {
-              background-color: #ffff00;
-            }
             .card1-description {
               font-size: 1.5rem;
               font-style: normal;
@@ -93,22 +90,18 @@ const Card1 = (props) => {
             .card1-root-class-name {
               height: 100%;
               opacity: 0.9;
-              background-color: var(--dl-color-gray-black);
             }
             .card1-root-class-name1 {
               height: 100%;
               opacity: 0.9;
-              background-color: var(--dl-color-gray-black);
             }
             .card1-root-class-name2 {
               height: 100%;
               opacity: 0.9;
-              background-color: var(--dl-color-gray-black);
             }
             .card1-root-class-name3 {
               height: 100%;
               opacity: 0.9;
-              background-color: var(--dl-color-gray-black);
             }
           }
           @media (max-width: 1200px) {

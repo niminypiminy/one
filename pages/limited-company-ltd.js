@@ -27,7 +27,7 @@ const LimitedCompanyLtd = (props) => {
           />
           <meta
             property="og:image"
-            content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/3b36eceb-15bd-4df9-a03b-c15ec4324845/6e310911-4daf-49cb-aeb2-76841f7d3639?org_if_sml=1&amp;force_format=original"
+            content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/1e7f4ee4-0cee-4fac-a5b5-9bf26476dc3e/5631a551-dd96-44ef-935a-e149f868456e?org_if_sml=1&amp;force_format=original"
           />
         </Head>
         <Navbar></Navbar>
@@ -43,8 +43,10 @@ const LimitedCompanyLtd = (props) => {
                     }}
                   />
                 </span>
-                <span>Limited Company</span>
-                <span> (Ltd.)</span>
+                <span className="limited-company-ltd-text02">
+                  Limited Company
+                </span>
+                <span className="limited-company-ltd-text03"> (Ltd.)</span>
               </h1>
               <span className="limited-company-ltd-text04">
                 A Thai limited company is relatively easy to establish. There
@@ -553,6 +555,7 @@ const LimitedCompanyLtd = (props) => {
             min-height: 100vh;
             align-items: center;
             flex-direction: column;
+            background-color: var(--dl-color-theme-accent1);
           }
           .limited-company-ltd-container01 {
             flex: 0 0 auto;
@@ -586,7 +589,15 @@ const LimitedCompanyLtd = (props) => {
             max-width: auto;
             font-style: normal;
             font-family: 'Josefin Sans';
-            font-weight: 400;
+            font-weight: 300;
+          }
+          .limited-company-ltd-text02 {
+            color: var(--dl-color-theme-accent1);
+            background-color: var(--dl-color-theme-primary2);
+          }
+          .limited-company-ltd-text03 {
+            color: var(--dl-color-theme-accent1);
+            background-color: var(--dl-color-theme-primary2);
           }
           .limited-company-ltd-text04 {
             font-size: 1.5rem;
@@ -645,6 +656,7 @@ const LimitedCompanyLtd = (props) => {
             width: 33%;
             height: 50%;
             display: flex;
+            opacity: 0.9;
             padding: var(--dl-space-space-twounits);
             transition: 0.3s;
             align-items: center;
@@ -659,7 +671,7 @@ const LimitedCompanyLtd = (props) => {
             transform: scale(1.2);
           }
           .limited-company-ltd-icon {
-            fill: #ffff00;
+            fill: var(--dl-color-theme-accent2);
             width: var(--dl-size-size-small);
             height: var(--dl-size-size-small);
           }
@@ -677,6 +689,7 @@ const LimitedCompanyLtd = (props) => {
             width: 33%;
             height: 50%;
             display: flex;
+            opacity: 0.9;
             padding: var(--dl-space-space-twounits);
             transition: 0.3s;
             align-items: center;
@@ -692,7 +705,7 @@ const LimitedCompanyLtd = (props) => {
             transform: scale(1.2);
           }
           .limited-company-ltd-icon02 {
-            fill: #ffff00;
+            fill: var(--dl-color-theme-accent2);
             width: var(--dl-size-size-small);
             height: var(--dl-size-size-small);
           }
@@ -898,11 +911,12 @@ const LimitedCompanyLtd = (props) => {
             font-size: 2rem;
             font-style: normal;
             text-align: center;
-            font-family: Josefin Sans;
+            font-family: 'Josefin Sans';
             font-weight: 300;
           }
           .limited-company-ltd-text20 {
-            background-color: rgb(255, 255, 0);
+            color: var(--dl-color-theme-accent1);
+            background-color: var(--dl-color-theme-primary2);
           }
           .limited-company-ltd-container13 {
             flex: 0 0 auto;
@@ -1285,14 +1299,15 @@ const LimitedCompanyLtd = (props) => {
             border-color: var(--dl-color-gray-black);
             border-width: 1px;
             justify-content: center;
-            background-color: #ffff00;
+            background-color: var(--dl-color-theme-neutral-dark);
           }
           .limited-company-ltd-text34 {
-            color: var(--dl-color-gray-black);
+            fill: var(--dl-color-theme-accent1);
+            color: var(--dl-color-theme-accent1);
             font-size: 1.5rem;
             font-style: normal;
             font-family: Josefin Sans;
-            font-weight: 400;
+            font-weight: 300;
           }
           .limited-company-ltd-container28 {
             flex: 0 0 auto;
@@ -1303,14 +1318,15 @@ const LimitedCompanyLtd = (props) => {
             border-color: var(--dl-color-gray-black);
             border-width: 1px;
             justify-content: center;
-            background-color: #ffff00;
+            background-color: var(--dl-color-theme-neutral-dark);
           }
           .limited-company-ltd-text35 {
-            color: var(--dl-color-gray-black);
+            fill: var(--dl-color-theme-accent1);
+            color: var(--dl-color-theme-accent1);
             font-size: 1.5rem;
             font-style: normal;
             font-family: Josefin Sans;
-            font-weight: 400;
+            font-weight: 300;
           }
           .limited-company-ltd-container29 {
             flex: 0 0 auto;
@@ -1451,7 +1467,6 @@ const LimitedCompanyLtd = (props) => {
             padding-right: var(--dl-space-space-fiveunits);
             flex-direction: column;
             padding-bottom: var(--dl-space-space-fourunits);
-            background-color: var(--dl-color-gray-white);
           }
           .limited-company-ltd-content {
             gap: var(--dl-space-space-fiveunits);
@@ -1460,7 +1475,6 @@ const LimitedCompanyLtd = (props) => {
             max-width: 1440px;
             align-items: center;
             flex-direction: column;
-            background-color: var(--dl-color-gray-white);
           }
           .limited-company-ltd-heading {
             gap: var(--dl-space-space-oneandhalfunits);
@@ -1472,8 +1486,9 @@ const LimitedCompanyLtd = (props) => {
             justify-content: center;
           }
           .limited-company-ltd-header {
-            fill: var(--dl-color-theme-neutral-light);
-            color: var(--dl-color-theme-neutral-light);
+            fill: var(--dl-color-theme-accent1);
+            color: var(--dl-color-theme-accent1);
+            opacity: 0.9;
             padding: var(--dl-space-space-halfunit);
             font-size: 2rem;
             font-style: normal;
@@ -1703,7 +1718,8 @@ const LimitedCompanyLtd = (props) => {
             height: 16px;
           }
           .limited-company-ltd-link4 {
-            color: var(--dl-color-gray-black);
+            fill: var(--dl-color-theme-accent1);
+            color: var(--dl-color-theme-accent1);
             font-size: 1.5rem;
             align-self: center;
             font-style: normal;
@@ -1715,7 +1731,7 @@ const LimitedCompanyLtd = (props) => {
             padding-right: var(--dl-space-space-halfunit);
             padding-bottom: var(--dl-space-space-halfunit);
             text-decoration: underline;
-            background-color: #ffff00;
+            background-color: var(--dl-color-theme-primary2);
           }
           @media (max-width: 1600px) {
             .limited-company-ltd-text {
@@ -1787,7 +1803,6 @@ const LimitedCompanyLtd = (props) => {
               color: rgb(0, 0, 0);
             }
             .limited-company-ltd-link4 {
-              color: var(--dl-color-gray-black);
               padding-top: var(--dl-space-space-halfunit);
               padding-left: var(--dl-space-space-halfunit);
               padding-right: var(--dl-space-space-halfunit);

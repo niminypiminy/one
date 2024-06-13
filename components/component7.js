@@ -430,7 +430,7 @@ const Component7 = (props) => {
             font-style: normal;
             font-family: 'Josefin Sans';
             font-weight: 300;
-            background-color: #ffff00;
+            background-color: var(--dl-color-theme-accent2);
           }
           .component7-button1 {
             fill: var(--dl-color-theme-neutral-dark);
@@ -443,7 +443,7 @@ const Component7 = (props) => {
             border-color: var(--dl-color-theme-neutral-dark);
           }
           .component7-button1:hover {
-            background-color: #ffff00;
+            background-color: var(--dl-color-theme-accent2);
           }
           .component7-button2 {
             fill: var(--dl-color-theme-neutral-dark);
@@ -456,7 +456,7 @@ const Component7 = (props) => {
             border-color: var(--dl-color-theme-neutral-dark);
           }
           .component7-button2:hover {
-            background-color: #ffff00;
+            background-color: var(--dl-color-theme-accent2);
           }
           .component7-button3 {
             fill: var(--dl-color-theme-neutral-dark);
@@ -465,7 +465,7 @@ const Component7 = (props) => {
             font-style: normal;
             font-family: 'Josefin Sans';
             font-weight: 300;
-            background-color: #ffff00;
+            background-color: var(--dl-color-theme-accent2);
           }
           .component7-button4 {
             fill: var(--dl-color-theme-neutral-dark);
@@ -478,7 +478,7 @@ const Component7 = (props) => {
             border-color: var(--dl-color-theme-neutral-dark);
           }
           .component7-button4:hover {
-            background-color: #ffff00;
+            background-color: var(--dl-color-theme-accent2);
           }
           .component7-button5 {
             fill: var(--dl-color-theme-neutral-dark);
@@ -487,7 +487,7 @@ const Component7 = (props) => {
             font-style: normal;
             font-family: 'Josefin Sans';
             font-weight: 300;
-            background-color: #ffff00;
+            background-color: var(--dl-color-theme-accent2);
           }
           .component7-container2 {
             flex: 0 0 auto;
@@ -514,7 +514,7 @@ const Component7 = (props) => {
             font-style: normal;
             margin-top: var(--dl-space-space-fourunits);
             font-family: 'Josefin Sans';
-            font-weight: 400;
+            font-weight: 300;
             line-height: 36px;
             margin-bottom: var(--dl-space-space-fourunits);
           }
@@ -700,7 +700,7 @@ const Component7 = (props) => {
             font-style: normal;
             margin-top: var(--dl-space-space-fourunits);
             font-family: 'Josefin Sans';
-            font-weight: 400;
+            font-weight: 300;
             line-height: 36px;
             margin-bottom: var(--dl-space-space-fourunits);
           }
@@ -978,7 +978,7 @@ const Component7 = (props) => {
             font-style: normal;
             margin-top: var(--dl-space-space-fourunits);
             font-family: 'Josefin Sans';
-            font-weight: 400;
+            font-weight: 300;
             line-height: 36px;
             margin-bottom: var(--dl-space-space-fourunits);
           }

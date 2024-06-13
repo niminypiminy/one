@@ -29,7 +29,7 @@ const ForeignBusinessLicense = (props) => {
           />
           <meta
             property="og:image"
-            content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/3b36eceb-15bd-4df9-a03b-c15ec4324845/6e310911-4daf-49cb-aeb2-76841f7d3639?org_if_sml=1&amp;force_format=original"
+            content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/1e7f4ee4-0cee-4fac-a5b5-9bf26476dc3e/5631a551-dd96-44ef-935a-e149f868456e?org_if_sml=1&amp;force_format=original"
           />
         </Head>
         <Navbar></Navbar>
@@ -306,6 +306,7 @@ const ForeignBusinessLicense = (props) => {
             min-height: 100vh;
             align-items: center;
             flex-direction: column;
+            background-color: var(--dl-color-theme-accent1);
           }
           .foreign-business-license-container01 {
             flex: 0 0 auto;
@@ -360,7 +361,7 @@ const ForeignBusinessLicense = (props) => {
             align-self: flex-start;
             font-style: normal;
             font-family: 'Josefin Sans';
-            font-weight: 400;
+            font-weight: 300;
           }
           .foreign-business-license-text01 {
             width: 85%;
@@ -374,16 +375,20 @@ const ForeignBusinessLicense = (props) => {
             margin-bottom: var(--dl-space-space-twounits);
           }
           .foreign-business-license-text03 {
-            background-color: rgb(255, 255, 0);
+            color: var(--dl-color-theme-accent1);
+            background-color: var(--dl-color-theme-primary2);
           }
           .foreign-business-license-text04 {
-            background-color: rgb(255, 255, 0);
+            color: var(--dl-color-theme-accent1);
+            background-color: var(--dl-color-theme-primary2);
           }
           .foreign-business-license-text07 {
-            background-color: rgb(255, 255, 0);
+            color: var(--dl-color-theme-accent1);
+            background-color: var(--dl-color-theme-primary2);
           }
           .foreign-business-license-text08 {
-            background-color: rgb(255, 255, 0);
+            color: var(--dl-color-theme-accent1);
+            background-color: var(--dl-color-theme-primary2);
           }
           .foreign-business-license-data {
             gap: var(--dl-space-space-fiveunits);
@@ -424,7 +429,7 @@ const ForeignBusinessLicense = (props) => {
             font-size: 2rem;
             font-style: normal;
             font-family: 'Josefin Sans';
-            font-weight: 400;
+            font-weight: 300;
           }
           .foreign-business-license-content {
             width: 100%;
@@ -465,7 +470,7 @@ const ForeignBusinessLicense = (props) => {
             font-size: 2rem;
             font-style: normal;
             font-family: 'Josefin Sans';
-            font-weight: 400;
+            font-weight: 300;
             text-decoration: none;
           }
           .foreign-business-license-text13 {
@@ -496,7 +501,7 @@ const ForeignBusinessLicense = (props) => {
             font-size: 2rem;
             font-style: normal;
             font-family: 'Josefin Sans';
-            font-weight: 400;
+            font-weight: 300;
             text-decoration: none;
           }
           .foreign-business-license-text16 {
@@ -527,7 +532,7 @@ const ForeignBusinessLicense = (props) => {
             font-size: 2rem;
             font-style: normal;
             font-family: 'Josefin Sans';
-            font-weight: 400;
+            font-weight: 300;
             text-decoration: none;
           }
           .foreign-business-license-text17 {
@@ -570,7 +575,7 @@ const ForeignBusinessLicense = (props) => {
             font-style: normal;
             text-align: center;
             font-family: 'Josefin Sans';
-            font-weight: 400;
+            font-weight: 300;
           }
           .foreign-business-license-text19 {
             font-size: 1.5rem;
@@ -647,7 +652,7 @@ const ForeignBusinessLicense = (props) => {
             font-size: 1.5rem;
             font-style: normal;
             font-family: 'Josefin Sans';
-            font-weight: 400;
+            font-weight: 300;
           }
           .foreign-business-license-text21 {
             font-size: 1.5rem;
@@ -709,7 +714,7 @@ const ForeignBusinessLicense = (props) => {
             font-size: 1.5rem;
             font-style: normal;
             font-family: 'Josefin Sans';
-            font-weight: 400;
+            font-weight: 300;
           }
           .foreign-business-license-text23 {
             font-size: 1.5rem;
@@ -771,7 +776,7 @@ const ForeignBusinessLicense = (props) => {
             font-size: 1.5rem;
             font-style: normal;
             font-family: 'Josefin Sans';
-            font-weight: 400;
+            font-weight: 300;
           }
           .foreign-business-license-text25 {
             font-size: 1.5rem;
@@ -820,10 +825,11 @@ const ForeignBusinessLicense = (props) => {
             border-color: var(--dl-color-gray-black);
             border-width: 1px;
             justify-content: center;
-            background-color: #ffff00;
+            background-color: var(--dl-color-theme-neutral-dark);
           }
           .foreign-business-license-text27 {
-            color: var(--dl-color-gray-black);
+            fill: var(--dl-color-theme-accent1);
+            color: var(--dl-color-theme-accent1);
             font-size: 1.5rem;
             font-style: normal;
             font-family: 'Josefin Sans';
@@ -838,10 +844,11 @@ const ForeignBusinessLicense = (props) => {
             border-color: var(--dl-color-gray-black);
             border-width: 1px;
             justify-content: center;
-            background-color: #ffff00;
+            background-color: var(--dl-color-theme-neutral-dark);
           }
           .foreign-business-license-text28 {
-            color: var(--dl-color-gray-black);
+            fill: var(--dl-color-theme-accent1);
+            color: var(--dl-color-theme-accent1);
             font-size: 1.5rem;
             font-style: normal;
             font-family: 'Josefin Sans';
@@ -944,7 +951,8 @@ const ForeignBusinessLicense = (props) => {
             font-weight: 300;
           }
           .foreign-business-license-link {
-            color: var(--dl-color-gray-black);
+            fill: var(--dl-color-theme-accent1);
+            color: var(--dl-color-theme-accent1);
             font-size: 1.5rem;
             align-self: center;
             font-style: normal;
@@ -956,7 +964,7 @@ const ForeignBusinessLicense = (props) => {
             padding-right: var(--dl-space-space-halfunit);
             padding-bottom: var(--dl-space-space-halfunit);
             text-decoration: underline;
-            background-color: #ffff00;
+            background-color: var(--dl-color-theme-primary2);
           }
           @media (max-width: 1600px) {
             .foreign-business-license-container01 {
@@ -982,7 +990,6 @@ const ForeignBusinessLicense = (props) => {
               margin-top: var(--dl-space-space-unit);
             }
             .foreign-business-license-link {
-              color: var(--dl-color-gray-black);
               padding-top: var(--dl-space-space-halfunit);
               padding-left: var(--dl-space-space-halfunit);
               padding-right: var(--dl-space-space-halfunit);

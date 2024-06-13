@@ -28,7 +28,7 @@ const BoardOfInvestment = (props) => {
           />
           <meta
             property="og:image"
-            content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/3b36eceb-15bd-4df9-a03b-c15ec4324845/6e310911-4daf-49cb-aeb2-76841f7d3639?org_if_sml=1&amp;force_format=original"
+            content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/1e7f4ee4-0cee-4fac-a5b5-9bf26476dc3e/5631a551-dd96-44ef-935a-e149f868456e?org_if_sml=1&amp;force_format=original"
           />
         </Head>
         <Navbar></Navbar>
@@ -43,8 +43,8 @@ const BoardOfInvestment = (props) => {
                   }}
                 />
               </span>
-              <span>Investment</span>
-              <span> (BOI) </span>
+              <span className="board-of-investment-text02">Investment</span>
+              <span className="board-of-investment-text03"> (BOI) </span>
             </h1>
             <span className="board-of-investment-text04">
               The Board of Investment (BOI) was founded in 1966 under the
@@ -351,6 +351,7 @@ const BoardOfInvestment = (props) => {
             overflow: auto;
             min-height: 100vh;
             flex-direction: column;
+            background-color: var(--dl-color-theme-accent1);
           }
           .board-of-investment-hero {
             width: 100%;
@@ -378,7 +379,15 @@ const BoardOfInvestment = (props) => {
             max-width: auto;
             font-style: normal;
             font-family: 'Josefin Sans';
-            font-weight: 400;
+            font-weight: 300;
+          }
+          .board-of-investment-text02 {
+            color: var(--dl-color-theme-accent1);
+            background-color: var(--dl-color-theme-primary2);
+          }
+          .board-of-investment-text03 {
+            color: var(--dl-color-theme-accent1);
+            background-color: var(--dl-color-theme-primary2);
           }
           .board-of-investment-text04 {
             width: 75%;
@@ -1035,18 +1044,18 @@ const BoardOfInvestment = (props) => {
             font-weight: 200;
           }
           .board-of-investment-link2 {
-            color: var(--dl-color-gray-black);
+            color: var(--dl-color-theme-neutral-light);
             font-size: 1.5rem;
             font-style: normal;
             margin-top: var(--dl-space-space-fourunits);
-            font-family: Josefin Sans;
+            font-family: 'Josefin Sans';
             font-weight: 300;
             padding-top: var(--dl-space-space-halfunit);
             padding-left: var(--dl-space-space-halfunit);
             padding-right: var(--dl-space-space-halfunit);
             padding-bottom: var(--dl-space-space-halfunit);
             text-decoration: underline;
-            background-color: #ffff00;
+            background-color: var(--dl-color-theme-primary2);
           }
           @media (max-width: 1600px) {
             .board-of-investment-container {
@@ -1057,12 +1066,6 @@ const BoardOfInvestment = (props) => {
               align-items: center;
               justify-content: center;
             }
-            .board-of-investment-text {
-              font-size: 2rem;
-              font-style: normal;
-              font-family: Josefin Sans;
-              font-weight: 400;
-            }
             .board-of-investment-image {
               box-shadow: 5px 5px 10px 0px #000000;
             }
@@ -1071,7 +1074,6 @@ const BoardOfInvestment = (props) => {
               padding-top: 0px;
             }
             .board-of-investment-text05 {
-              color: var(--dl-color-gray-black);
               width: auto;
               margin-top: var(--dl-space-space-twounits);
             }

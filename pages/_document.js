@@ -20,7 +20,7 @@ class CustomDocument extends Document {
           <style
             dangerouslySetInnerHTML={{
               __html:
-                '\n  html {\n    font-family: Lora;\n    font-size: 16px;\n  }\n\n  body {\n    font-weight: 400;\n    font-style:normal;\n    text-decoration: none;\n    text-transform: none;\n    letter-spacing: normal;\n    line-height: 1.15;\n    color: var(--dl-color-gray-black);\n    background-color: var(--dl-color-gray-white);\n    \n    null\n  }\n\n  \n\n  ',
+                '\n  html {\n    font-family: Lora;\n    font-size: 16px;\n  }\n\n  body {\n    font-weight: 400;\n    font-style:normal;\n    text-decoration: none;\n    text-transform: none;\n    letter-spacing: normal;\n    line-height: 1.15;\n    color: var(--dl-color-gray-black);\n    background-color: var(--dl-color-gray-white);\n    \n    fill: var(--dl-color-gray-black);\n  }\n\n  \n\n  ',
             }}
             data-tag="default-style-sheet"
           ></style>
@@ -33,11 +33,6 @@ class CustomDocument extends Document {
             href="/favicon-32x32.png"
             type="icon/png"
             sizes="32x32"
-          ></link>
-          <link
-            rel="stylesheet"
-            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
-            data-tag="font"
           ></link>
           <link
             rel="stylesheet"

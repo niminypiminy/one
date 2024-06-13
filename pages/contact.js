@@ -21,7 +21,7 @@ const Contact = (props) => {
           />
           <meta
             property="og:image"
-            content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/3b36eceb-15bd-4df9-a03b-c15ec4324845/6e310911-4daf-49cb-aeb2-76841f7d3639?org_if_sml=1&amp;force_format=original"
+            content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/1e7f4ee4-0cee-4fac-a5b5-9bf26476dc3e/5631a551-dd96-44ef-935a-e149f868456e?org_if_sml=1&amp;force_format=original"
           />
         </Head>
         <Navbar></Navbar>
@@ -94,8 +94,8 @@ const Contact = (props) => {
               <input
                 type="hidden"
                 name="_redirect"
-                placeholder="placeholder"
                 value="https://one-tan-nine.vercel.app/Thanks"
+                placeholder="placeholder"
                 className="contact-textinput2 input"
               />
               <input
@@ -133,6 +133,7 @@ const Contact = (props) => {
             min-height: 100vh;
             align-items: center;
             flex-direction: column;
+            background-color: var(--dl-color-theme-neutral-light);
           }
           .contact-container1 {
             flex: 0 0 auto;
@@ -167,7 +168,7 @@ const Contact = (props) => {
             align-self: center;
             font-style: normal;
             font-family: Josefin Sans;
-            font-weight: 400;
+            font-weight: 300;
             border-color: #112821;
             border-width: 1px;
             border-top-width: 0px;
@@ -232,7 +233,8 @@ const Contact = (props) => {
             font-weight: 200;
           }
           .contact-button {
-            color: var(--dl-color-gray-white);
+            fill: var(--dl-color-theme-neutral-light);
+            color: var(--dl-color-theme-neutral-light);
             font-size: 1.5rem;
             align-self: center;
             font-style: normal;
@@ -242,14 +244,15 @@ const Contact = (props) => {
             font-weight: 200;
             border-radius: 0px;
             text-decoration: none;
-            background-color: rgb(27, 27, 27);
+            background-color: var(--dl-color-theme-primary2);
           }
           .contact-button:hover {
-            color: var(--dl-color-gray-black);
+            fill: var(--dl-color-theme-neutral-light);
+            color: var(--dl-color-theme-neutral-light);
             opacity: 1;
             border-color: var(--dl-color-gray-black);
             border-width: 1px;
-            background-color: var(--dl-color-gray-white);
+            background-color: var(--dl-color-theme-neutral-dark);
           }
           @media (max-width: 1600px) {
             .contact-container1 {

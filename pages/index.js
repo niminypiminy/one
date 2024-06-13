@@ -23,92 +23,147 @@ const Home = (props) => {
           />
           <meta
             property="og:image"
-            content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/3b36eceb-15bd-4df9-a03b-c15ec4324845/7ad1e33a-106f-474c-89cf-8ba0be7d0400?org_if_sml=1&amp;force_format=original"
+            content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/1e7f4ee4-0cee-4fac-a5b5-9bf26476dc3e/7ad1e33a-106f-474c-89cf-8ba0be7d0400?org_if_sml=1&amp;force_format=original"
           />
         </Head>
         <Navbar rootClassName="navbar-root-class-name"></Navbar>
-        <header className="home-hero">
-          <div className="home-container1">
-            <h1 className="home-title">
-              <span>Legal Advice,</span>
-              <br></br>
-            </h1>
-            <h1 className="home-title1">
-              <span>You can trust</span>
-              <span>.</span>
-              <br></br>
-            </h1>
-            <span className="home-description">
-              <span>
-                We are a boutique law firm. If you need legal assistance, please
-                contact us
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
+        <div className="home-header23 thq-section-padding">
+          <div className="home-max-width thq-section-max-width">
+            <div className="home-content">
+              <h1 className="home-text thq-heading-1">
+                Reliable Counsel, Resolute Advocacy, Unyielding Integrity.
+              </h1>
+              <p className="home-text01 thq-body-large">
+                <span>
+                  We are a boutique law firm. If you need legal assistance,
+                  please contact us
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: ' ',
+                    }}
+                  />
+                </span>
+                <Link href="/contact">
+                  <a className="home-link">here</a>
+                </Link>
+                <span>. To learn more about our practice areas, click </span>
+                <a href="#ourpracticeareas" className="home-link01">
+                  here
+                </a>
+                <span>.</span>
+              </p>
+              <div className="home-actions">
+                <div className="home-container1">
+                  <Link href="/about-us">
+                    <a className="home-link02 thq-button-filled">
+                      <span className="home-text05 thq-body-small">
+                        About us
+                      </span>
+                    </a>
+                  </Link>
+                </div>
+                <div className="home-container2">
+                  <Link href="/contact">
+                    <a className="home-link03 thq-button-outline">
+                      <span className="home-text06 thq-body-small">
+                        Contact Us
+                      </span>
+                    </a>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="home-header76">
+          <div className="home-max-width1 thq-section-max-width">
+            <div className="home-column thq-section-padding">
+              <h1 className="home-text07 thq-heading-1">
+                <span>
+                  Legal advice you can
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: ' ',
+                    }}
+                  />
+                </span>
+                <span className="home-text09">trust.</span>
+              </h1>
+              <p className="home-text10 thq-body-large">
+                We don&apos;t outsource cases. Each case is handled in-house,
+                directly by an attorney, ensuring the highest level of care and
+                attention to detail.
+              </p>
+            </div>
+            <div className="home-content1">
+              <div className="home-column1">
+                <img
+                  alt="Legal consultation meeting"
+                  src="/images-700w.jpg"
+                  className="home-placeholder-image thq-img-ratio-1-1"
                 />
-              </span>
-              <Link href="/contact">
-                <a className="home-link">here.</a>
-              </Link>
-              <span> To learn more about our practice areas, click </span>
-              <a href="#ourpracticeareas" className="home-link01">
-                here.
-              </a>
-            </span>
+                <img
+                  alt="Team of lawyers discussing case"
+                  src="/designer%20(2)2-700w.jpeg"
+                  className="home-placeholder-image1 thq-img-ratio-1-1"
+                />
+                <img
+                  alt="Client receiving legal advice"
+                  src="/designer%20(1)-700w.jpeg"
+                  className="home-placeholder-image2 thq-img-ratio-1-1"
+                />
+              </div>
+              <div className="home-column2">
+                <img
+                  alt="Lawyer reviewing documents"
+                  src="https://images.unsplash.com/photo-1696677528468-7b5af2d5363b?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxODIzODc2OHw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                  className="home-placeholder-image3 thq-img-ratio-1-1"
+                />
+                <img
+                  alt="Immigration visa application process"
+                  src="https://images.unsplash.com/photo-1473186505569-9c61870c11f9?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxODIzODc2OXw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                  className="home-placeholder-image4 thq-img-ratio-1-1"
+                />
+                <img
+                  alt="Company registration paperwork"
+                  src="/designer%20(3)-400h.jpeg"
+                  className="home-placeholder-image5 thq-img-ratio-1-1"
+                />
+                <img
+                  alt="Criminal law courtroom scene"
+                  src="https://images.unsplash.com/photo-1555374018-13a8994ab246?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxODIzODc2N3w&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                  className="home-placeholder-image6 thq-img-ratio-1-1"
+                />
+              </div>
+            </div>
           </div>
-          <img
-            alt="image"
-            src="/designer%20(2)2-1500h.jpeg"
-            className="home-image"
-          />
-        </header>
-        <section id="missionhome" className="home-mission missionhome">
-          <img
-            alt="image"
-            src="/designer%20(3)-1100h.jpeg"
-            loading="eager"
-            className="home-image1"
-          />
-          <div className="home-container2">
-            <h2 className="home-text07">
-              We don&apos;t outsource cases to other law firms. Each case is
-              handled in-house, ensuring the highest level of care and attention
-              to detail.
-            </h2>
-            <Link href="/contact">
-              <a className="home-link02">
-                <h1 className="home-text08">Contact</h1>
-              </a>
-            </Link>
-          </div>
-        </section>
+        </div>
         <div className="home-container3">
           <div className="home-container4">
             <Link href="/company-registration">
-              <a className="home-link03">
-                <h1 className="home-text09">
-                  <span className="home-text10">Company Registration</span>
+              <a className="home-link04">
+                <h1 className="home-text11">
+                  <span className="home-text12">Company Registration</span>
                   <br></br>
                 </h1>
               </a>
             </Link>
             <Link href="/obtain-a-visa">
-              <a className="home-link04">
-                <h1 className="home-text12">Obtain a Visa</h1>
+              <a className="home-link05">
+                <h1 className="home-text14">Obtain a Visa</h1>
               </a>
             </Link>
           </div>
         </div>
         <section className="home-practices">
-          <h2 id="ourpracticeareas" className="home-text13">
-            <span className="home-text14">Our practice areas</span>
-            <span className="home-text15">.</span>
+          <h2 id="ourpracticeareas" className="home-text15">
+            <span className="home-text16">Our practice areas</span>
+            <span className="home-text17">.</span>
             <br></br>
           </h2>
           <div className="home-container5">
             <div className="home-container6">
-              <div className="home-content">
+              <div className="home-content2">
                 <div className="home-grid">
                   <div className="home-practice-wrapper">
                     <Link href="/contract-law">
@@ -182,8 +237,8 @@ const Home = (props) => {
           </div>
         </section>
         <div className="home-banner">
-          <h1 className="home-text17">
-            <span>
+          <h1 className="home-text19">
+            <span className="home-text20">
               We
               <span
                 dangerouslySetInnerHTML={{
@@ -191,8 +246,8 @@ const Home = (props) => {
                 }}
               />
             </span>
-            <span className="home-text19">fight</span>
-            <span>
+            <span className="home-text21">fight</span>
+            <span className="home-text22">
               {' '}
               for our clients.
               <span
@@ -205,7 +260,7 @@ const Home = (props) => {
         </div>
         <section className="home-improve">
           <div className="home-heading">
-            <h2 className="home-text21">
+            <h2 className="home-text23">
               Consistently rated as one of the best law firms in Southeast Asia
             </h2>
           </div>
@@ -213,23 +268,23 @@ const Home = (props) => {
         <section className="home-banner1">
           <div className="home-container7">
             <div className="home-header">
-              <h2 className="home-title2">Need a free consultation?</h2>
+              <h2 className="home-title">Need a free consultation?</h2>
             </div>
             <Link href="/contact">
-              <a className="home-link11">
-                <h1 className="home-text22">Let&apos;s Talk</h1>
+              <a className="home-link12">
+                <h1 className="home-text24">Let&apos;s Talk</h1>
               </a>
             </Link>
           </div>
         </section>
         <section className="home-newsletter">
           <div className="home-header1">
-            <h2 className="home-text23">Subscribe to our newsletter</h2>
-            <p className="home-text24">
+            <h2 className="home-text25">Subscribe to our newsletter</h2>
+            <p className="home-text26">
               Get legal insights and market updates.
             </p>
           </div>
-          <div className="home-content1">
+          <div className="home-content3">
             <div className="home-email">
               <input
                 type="text"
@@ -237,7 +292,7 @@ const Home = (props) => {
                 className="home-textinput input"
               />
               <div className="home-submit">
-                <img alt="image" src="/frame.svg" className="home-image2" />
+                <img alt="image" src="/frame.svg" className="home-image" />
               </div>
             </div>
           </div>
@@ -255,62 +310,50 @@ const Home = (props) => {
             border-color: var(--dl-color-gray-black);
             border-width: 5vw;
             flex-direction: column;
+            background-color: var(--dl-color-theme-accent1);
             border-top-width: 0px;
             border-left-width: 0px;
             border-right-width: 0px;
             border-bottom-width: 0px;
           }
-          .home-hero {
-            gap: var(--dl-space-space-threeunits);
-            width: 100%;
-            border: none;
-            height: 100vh;
-            display: flex;
-            position: relative;
-            max-width: 100%;
-            align-items: center;
-            flex-direction: row;
+          .home-header23 {
+            height: 75vh;
             justify-content: center;
           }
-          .home-container1 {
-            flex: 0 0 auto;
-            width: 40%;
-            height: 80%;
+          .home-max-width {
             display: flex;
+            align-self: center;
+            align-items: center;
+            justify-content: center;
+          }
+          .home-content {
+            gap: var(--dl-space-space-oneandhalfunits);
+            display: flex;
+            max-width: 1000px;
+            align-self: stretch;
             align-items: center;
             flex-direction: column;
-            justify-content: center;
           }
-          .home-title {
-            color: var(--dl-color-gray-black);
-            width: 75%;
-            font-size: 4rem;
-            max-width: auto;
+          .home-text {
+            font-size: 3rem;
             font-style: normal;
-            text-align: left;
-            font-family: 'Josefin Sans';
-            font-weight: 300;
-          }
-          .home-title1 {
-            fill: #1b1b1b;
-            color: #1b1b1b;
-            width: 75%;
-            font-size: 4rem;
-            max-width: auto;
-            font-style: normal;
-            text-align: left;
+            text-align: center;
             font-family: 'Josefin Sans';
             font-weight: 400;
+            animation-name: pulse;
+            animation-delay: 0s;
+            animation-duration: 300ms;
+            animation-direction: normal;
+            animation-iteration-count: 1;
+            animation-timing-function: ease;
           }
-          .home-description {
-            color: var(--dl-color-gray-black);
+          .home-text01 {
             width: 75%;
             font-size: 1.5rem;
-            max-width: auto;
             font-style: normal;
-            margin-top: var(--dl-space-space-halfunit);
+            text-align: center;
             font-family: 'Josefin Sans';
-            font-weight: 200;
+            font-weight: 300;
           }
           .home-link {
             text-decoration: underline;
@@ -318,75 +361,164 @@ const Home = (props) => {
           .home-link01 {
             text-decoration: underline;
           }
-          .home-image {
-            flex: 1;
-            width: 40%;
-            height: 100%;
-            object-fit: cover;
+          .home-actions {
+            gap: var(--dl-space-space-unit);
+            display: flex;
+            margin-top: var(--dl-space-space-unit);
+            align-items: flex-start;
           }
-          .home-mission {
-            margin-top: var(--dl-space-space-sixunits);
-            margin-left: 0px;
-            margin-right: 0px;
-            margin-bottom: var(--dl-space-space-sixunits);
+          .home-container1 {
+            display: flex;
+            align-items: flex-start;
           }
-          .home-image1 {
-            width: 20%;
-            height: 50%;
-            box-shadow: 5px 5px 10px 0px #000000;
-            object-fit: fill;
-            transition: 0.3s;
+          .home-link02 {
+            fill: var(--dl-color-theme-neutral-light);
+            color: var(--dl-color-theme-neutral-light);
+            text-decoration: none;
+            background-color: #1b1b1b;
           }
-          .home-image1:hover {
-            transform: scale(1.2);
+          .home-text05 {
+            font-style: normal;
+            text-align: center;
+            font-family: 'Josefin Sans';
+            font-weight: 300;
           }
           .home-container2 {
-            flex: 0 0 auto;
-            width: 40%;
+            display: flex;
+            align-items: flex-start;
+          }
+          .home-link03 {
+            fill: var(--dl-color-theme-neutral-dark);
+            color: var(--dl-color-theme-neutral-dark);
+            border-color: var(--dl-color-theme-neutral-dark);
+            text-decoration: none;
+          }
+          .home-text06 {
+            font-style: normal;
+            text-align: center;
+            font-family: 'Josefin Sans';
+            font-weight: 300;
+          }
+          .home-header76 {
+            gap: var(--dl-space-space-unit);
+            width: 100%;
+            height: auto;
+            display: flex;
+            overflow: hidden;
+            position: relative;
+            align-items: center;
+            flex-shrink: 0;
+            padding-left: var(--dl-space-space-twounits);
+            padding-right: var(--dl-space-space-twounits);
+            flex-direction: row;
+            justify-content: center;
+          }
+          .home-max-width1 {
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            justify-content: center;
+          }
+          .home-column {
+            gap: var(--dl-space-space-oneandhalfunits);
+            width: 50%;
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .home-text07 {
+            width: 532px;
+            font-size: 2rem;
+            font-style: normal;
+            font-family: 'Josefin Sans';
+            font-weight: 400;
+          }
+          .home-text09 {
+            color: var(--dl-color-theme-neutral-light);
+            background-color: var(--dl-color-theme-primary2);
+          }
+          .home-text10 {
+            font-size: 1.5rem;
+            font-style: normal;
+            font-family: 'Josefin Sans';
+            font-weight: 300;
+          }
+          .home-content1 {
+            gap: var(--dl-space-space-unit);
+            width: 50%;
+            height: 900px;
+            display: flex;
+            position: relative;
+            align-items: center;
+          }
+          .home-column1 {
+            gap: 16px;
+            width: 50%;
             height: auto;
             display: flex;
             align-items: flex-start;
-            margin-left: var(--dl-space-space-threeunits);
+            flex-shrink: 0;
             flex-direction: column;
-            justify-content: flex-start;
           }
-          .home-text07 {
-            color: var(--dl-color-gray-black);
-            width: 80%;
-            font-size: 1.5rem;
-            font-style: normal;
-            margin-top: var(--dl-space-space-threeunits);
-            font-family: 'Josefin Sans';
-            font-weight: 200;
+          .home-placeholder-image {
+            width: 100%;
+            height: 400px;
+            align-self: stretch;
+            border-radius: var(--dl-radius-radius-radius4);
           }
-          .home-link02 {
-            display: contents;
+          .home-placeholder-image1 {
+            width: 100%;
+            height: 400px;
+            align-self: stretch;
+            border-radius: var(--dl-radius-radius-radius4);
           }
-          .home-text08 {
-            color: var(--dl-color-gray-black);
-            font-size: 1.5rem;
-            font-style: normal;
-            margin-top: var(--dl-space-space-twounits);
-            transition: 0.3s;
-            font-family: Josefin Sans;
-            font-weight: 200;
-            padding-top: var(--dl-space-space-oneandhalfunits);
-            border-color: var(--dl-color-gray-black);
-            border-width: 1px;
-            padding-left: var(--dl-space-space-oneandhalfunits);
-            padding-right: var(--dl-space-space-oneandhalfunits);
-            padding-bottom: var(--dl-space-space-oneandhalfunits);
-            text-decoration: none;
+          .home-placeholder-image2 {
+            width: 100%;
+            height: 400px;
+            align-self: stretch;
+            border-radius: var(--dl-radius-radius-radius4);
           }
-          .home-text08:hover {
-            color: var(--dl-color-gray-white);
-            background-color: #1b1b1b;
+          .home-column2 {
+            gap: 16px;
+            width: 50%;
+            height: auto;
+            display: flex;
+            z-index: 1;
+            align-items: flex-start;
+            flex-shrink: 0;
+            flex-direction: column;
+          }
+          .home-placeholder-image3 {
+            width: 100%;
+            height: 400px;
+            align-self: stretch;
+            border-radius: var(--dl-radius-radius-radius4);
+          }
+          .home-placeholder-image4 {
+            width: 100%;
+            height: 400px;
+            align-self: stretch;
+            border-radius: var(--dl-radius-radius-radius4);
+          }
+          .home-placeholder-image5 {
+            width: 100%;
+            height: 400px;
+            align-self: stretch;
+            border-radius: var(--dl-radius-radius-radius4);
+          }
+          .home-placeholder-image6 {
+            width: 100%;
+            height: 400px;
+            align-self: stretch;
+            border-radius: var(--dl-radius-radius-radius4);
           }
           .home-container3 {
             flex: 0 0 auto;
             width: 100%;
             height: 75vh;
             display: flex;
+            margin-top: var(--dl-space-space-sixunits);
             align-items: center;
             margin-bottom: var(--dl-space-space-sixunits);
             justify-content: center;
@@ -394,18 +526,18 @@ const Home = (props) => {
           .home-container4 {
             flex: 0 0 auto;
             width: 50%;
-            height: 75%;
+            height: 50%;
             display: flex;
             align-items: center;
-            border-radius: var(--dl-radius-radius-round);
+            border-radius: var(--dl-radius-radius-cardradius);
             flex-direction: column;
             justify-content: center;
-            background-color: #1b1b1b;
+            background-color: #521e01;
           }
-          .home-link03 {
+          .home-link04 {
             display: contents;
           }
-          .home-text09 {
+          .home-text11 {
             fill: var(--dl-color-theme-secondary1);
             color: var(--dl-color-theme-secondary1);
             font-size: 2rem;
@@ -415,17 +547,17 @@ const Home = (props) => {
             font-weight: 200;
             text-decoration: none;
           }
-          .home-text09:hover {
-            border-color: #ffff00;
+          .home-text11:hover {
+            border-color: var(--dl-color-theme-accent2);
             border-width: 1px;
             border-top-width: 0px;
             border-left-width: 0px;
             border-right-width: 0px;
           }
-          .home-link04 {
+          .home-link05 {
             display: contents;
           }
-          .home-text12 {
+          .home-text14 {
             fill: var(--dl-color-theme-secondary1);
             color: var(--dl-color-theme-secondary1);
             font-size: 2rem;
@@ -435,8 +567,8 @@ const Home = (props) => {
             font-weight: 200;
             text-decoration: none;
           }
-          .home-text12:hover {
-            border-color: #ffff00;
+          .home-text14:hover {
+            border-color: var(--dl-color-theme-accent2);
             border-width: 1px;
             border-top-width: 0px;
             border-left-width: 0px;
@@ -453,7 +585,7 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .home-text13 {
+          .home-text15 {
             color: var(--dl-color-gray-black);
             font-size: 2.5rem;
             font-style: normal;
@@ -474,7 +606,7 @@ const Home = (props) => {
             display: flex;
             flex-direction: column;
           }
-          .home-content {
+          .home-content2 {
             gap: var(--dl-space-space-fourunits);
             display: flex;
             align-items: flex-start;
@@ -539,16 +671,22 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: space-between;
           }
-          .home-text17 {
-            color: var(--dl-color-gray-black);
+          .home-text19 {
             font-size: 2.5rem;
             font-style: normal;
             text-align: center;
             font-family: 'Josefin Sans';
             font-weight: 300;
           }
-          .home-text19 {
-            background-color: rgb(255, 255, 0);
+          .home-text20 {
+            color: var(--dl-color-gray-black);
+          }
+          .home-text21 {
+            color: var(--dl-color-theme-neutral-light);
+            background-color: var(--dl-color-theme-primary2);
+          }
+          .home-text22 {
+            color: var(--dl-color-gray-black);
           }
           .home-improve {
             gap: var(--dl-space-space-fiveunits);
@@ -567,7 +705,7 @@ const Home = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .home-text21 {
+          .home-text23 {
             color: var(--dl-color-gray-black);
             font-size: 1.5rem;
             max-width: 600px;
@@ -612,7 +750,7 @@ const Home = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .home-title2 {
+          .home-title {
             color: rgb(247, 247, 247);
             width: 100%;
             font-size: 2.5rem;
@@ -623,10 +761,10 @@ const Home = (props) => {
             font-weight: 300;
             line-height: 46px;
           }
-          .home-link11 {
+          .home-link12 {
             display: contents;
           }
-          .home-text22 {
+          .home-text24 {
             color: var(--dl-color-gray-white);
             font-size: 1.5rem;
             font-style: normal;
@@ -642,10 +780,11 @@ const Home = (props) => {
             text-decoration: none;
             background-color: #1b1b1b;
           }
-          .home-text22:hover {
-            color: var(--dl-color-gray-black);
+          .home-text24:hover {
+            fill: var(--dl-color-theme-neutral-light);
+            color: var(--dl-color-theme-neutral-light);
             border: none;
-            background-color: #ffff00;
+            background-color: var(--dl-color-theme-primary2);
           }
           .home-newsletter {
             gap: var(--dl-space-space-threeunits);
@@ -670,7 +809,7 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .home-text23 {
+          .home-text25 {
             color: var(--dl-color-gray-black);
             width: 100%;
             font-size: 2.5rem;
@@ -680,7 +819,7 @@ const Home = (props) => {
             font-family: 'Josefin Sans';
             font-weight: 300;
           }
-          .home-text24 {
+          .home-text26 {
             color: var(--dl-color-gray-black);
             width: 100%;
             font-size: 1.5rem;
@@ -690,7 +829,7 @@ const Home = (props) => {
             font-weight: 200;
             line-height: 30px;
           }
-          .home-content1 {
+          .home-content3 {
             gap: var(--dl-space-space-unit);
             width: 100%;
             display: flex;
@@ -730,9 +869,9 @@ const Home = (props) => {
             border-radius: var(--dl-radius-radius-round);
             flex-direction: row;
             justify-content: center;
-            background-color: #1b1b1b;
+            background-color: var(--dl-color-theme-primary2);
           }
-          .home-image2 {
+          .home-image {
             width: 18px;
             filter: brightness(0) saturate(100%) invert(88%) sepia(8%)
               saturate(484%) hue-rotate(62deg) brightness(111%) contrast(95%);
@@ -743,95 +882,32 @@ const Home = (props) => {
             .home-container {
               border-left-width: 0px;
             }
-            .home-hero {
-              align-items: center;
-              padding-left: 00px;
-              padding-right: 00px;
-              justify-content: center;
-            }
-            .home-container1 {
-              align-items: center;
-              justify-content: center;
-            }
-            .home-title {
-              color: var(--dl-color-gray-black);
-              font-size: 3rem;
-            }
-            .home-title1 {
-              color: var(--dl-color-gray-black);
-              font-size: 3rem;
-            }
-            .home-description {
-              color: var(--dl-color-gray-black);
-            }
-            .home-link {
-              text-decoration: underline;
-            }
-            .home-link01 {
-              text-decoration: underline;
-            }
-            .home-image1 {
-              width: 30%;
-              height: 70%;
-            }
-            .home-container2 {
-              width: 40%;
-              height: auto;
-              margin-top: var(--dl-space-space-twounits);
-              align-items: flex-start;
-              margin-left: var(--dl-space-space-twounits);
-              padding-top: 0px;
-              padding-left: 0px;
-              margin-bottom: var(--dl-space-space-twounits);
-              padding-bottom: 0px;
-              justify-content: flex-start;
-            }
-            .home-text07 {
-              color: var(--dl-color-gray-black);
-              width: 80%;
-            }
-            .home-text08 {
-              color: var(--dl-color-gray-black);
-              padding: var(--dl-space-space-oneandhalfunits);
-              font-size: 1.5rem;
-              margin-top: var(--dl-space-space-twounits);
-              border-radius: var(--dl-radius-radius-radius8);
-              padding-bottom: 24px;
-            }
             .home-container3 {
               align-items: center;
               border-color: var(--dl-color-gray-white);
               justify-content: center;
-              background-color: var(--dl-color-gray-white);
             }
             .home-container4 {
-              width: 50%;
-              height: 100%;
-              border-radius: var(--dl-radius-radius-round);
+              border-radius: var(--dl-radius-radius-cardradius);
             }
-            .home-text09 {
+            .home-text11 {
+              color: var(--dl-color-gray-white);
+              font-family: Josefin Sans;
+            }
+            .home-text14 {
               color: var(--dl-color-gray-white);
             }
-            .home-text12 {
-              color: var(--dl-color-gray-white);
-            }
-            .home-text13 {
+            .home-text15 {
               color: var(--dl-color-gray-black);
-            }
-            .home-text17 {
-              color: var(--dl-color-gray-black);
-            }
-            .home-text19 {
-              background-color: rgb(255, 255, 0);
             }
             .home-container7 {
               width: 80%;
               border-radius: var(--dl-radius-radius-radius8);
             }
-            .home-title2 {
+            .home-title {
               color: rgb(247, 247, 247);
             }
-            .home-text22 {
+            .home-text24 {
               font-size: 1.5rem;
               font-style: normal;
               font-family: Josefin Sans;
@@ -847,46 +923,10 @@ const Home = (props) => {
             }
           }
           @media (max-width: 1200px) {
-            .home-hero {
-              height: 75vh;
-            }
-            .home-container1 {
-              width: 80%;
-              margin-left: 0px;
-            }
-            .home-title {
-              color: var(--dl-color-gray-black);
-            }
-            .home-title1 {
-              color: var(--dl-color-gray-black);
-            }
-            .home-image {
-              display: none;
-            }
-            .home-image1 {
-              left: -65px;
-              width: 40%;
-              bottom: -355px;
-            }
-            .home-container2 {
-              width: 40%;
-            }
-            .home-text07 {
-              color: var(--dl-color-gray-black);
-              width: 75%;
-              font-size: 1.5rem;
-              max-width: auto;
-              font-style: normal;
-              font-family: Josefin Sans;
-              font-weight: 200;
-            }
-            .home-text08 {
-              color: var(--dl-color-gray-black);
-            }
             .home-container4 {
               width: 75%;
             }
-            .home-text21 {
+            .home-text23 {
               color: var(--dl-color-gray-black);
               font-size: 2rem;
               font-style: normal;
@@ -900,69 +940,86 @@ const Home = (props) => {
             .home-container7 {
               width: 100%;
             }
-            .home-text22 {
+            .home-text24 {
               background-color: #1b1b1b;
             }
             .home-newsletter {
               max-width: auto;
             }
-            .home-text24 {
+            .home-text26 {
               color: var(--dl-color-gray-black);
               font-size: 1.5rem;
               line-height: 30px;
             }
           }
           @media (max-width: 991px) {
-            .home-hero {
-              gap: var(--dl-space-space-threeunits);
-              margin-top: 0px;
-              align-items: center;
+            .home-header23 {
+              margin-top: var(--dl-space-space-threeunits);
+              margin-bottom: var(--dl-space-space-threeunits);
+            }
+            .home-header76 {
               padding-left: 0px;
               padding-right: 0px;
               flex-direction: column;
-              justify-content: center;
             }
-            .home-container1 {
-              width: 80%;
-              margin-left: 0px;
+            .home-max-width1 {
+              flex-direction: column;
             }
-            .home-title {
-              color: var(--dl-color-gray-black);
-              width: 85%;
-            }
-            .home-title1 {
-              color: var(--dl-color-gray-black);
-              width: 85%;
-            }
-            .home-description {
-              color: var(--dl-color-gray-black);
-              width: 85%;
-            }
-            .home-mission {
-              height: 50vh;
-            }
-            .home-image1 {
-              display: none;
-            }
-            .home-container2 {
-              width: 80%;
-              margin-top: var(--dl-space-space-unit);
-              margin-left: var(--dl-space-space-unit);
-              margin-right: var(--dl-space-space-unit);
-              margin-bottom: var(--dl-space-space-unit);
+            .home-column {
+              width: 100%;
+              padding-left: var(--dl-space-space-fiveunits);
+              padding-right: var(--dl-space-space-fiveunits);
             }
             .home-text07 {
-              color: var(--dl-color-gray-black);
-              width: 80%;
+              width: 50%;
               align-self: center;
+              text-align: left;
             }
-            .home-text08 {
+            .home-text10 {
+              width: 50%;
               align-self: center;
+              text-align: left;
+            }
+            .home-content1 {
+              width: auto;
+              height: auto;
+              flex-direction: column;
+            }
+            .home-column1 {
+              width: auto;
+              margin-top: 0px;
+              margin-left: -200px;
+              flex-direction: row;
+            }
+            .home-placeholder-image {
+              width: 400px;
+            }
+            .home-placeholder-image1 {
+              width: 400px;
+            }
+            .home-placeholder-image2 {
+              width: 400px;
+            }
+            .home-column2 {
+              width: auto;
+              flex-direction: row;
+            }
+            .home-placeholder-image3 {
+              width: 400px;
+            }
+            .home-placeholder-image4 {
+              width: 400px;
+            }
+            .home-placeholder-image5 {
+              width: 400px;
+            }
+            .home-placeholder-image6 {
+              width: 400px;
             }
             .home-container3 {
               width: 100%;
             }
-            .home-text12 {
+            .home-text14 {
               font-size: 2rem;
             }
             .home-practices {
@@ -975,7 +1032,7 @@ const Home = (props) => {
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .home-text21 {
+            .home-text23 {
               font-style: normal;
               font-family: Josefin Sans;
               font-weight: 200;
@@ -984,7 +1041,7 @@ const Home = (props) => {
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .home-text22 {
+            .home-text24 {
               background-color: #1b1b1b;
             }
             .home-newsletter {
@@ -995,59 +1052,60 @@ const Home = (props) => {
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-threeunits);
             }
-            .home-text24 {
+            .home-text26 {
               font-size: 1.5rem;
               line-height: 24px;
             }
           }
           @media (max-width: 767px) {
-            .home-hero {
-              margin-top: 0px;
-              align-items: center;
-              padding-left: 0px0;
-              padding-right: 0px0;
-              justify-content: center;
-            }
-            .home-container1 {
-              width: 95%;
-              margin-left: 0px0;
-              margin-right: 0px0;
-            }
-            .home-title {
-              width: 95%;
-              margin-top: var(--dl-space-space-fourunits);
-            }
-            .home-title1 {
-              width: 95%;
-              margin-top: var(--dl-space-space-unit);
-            }
-            .home-description {
-              width: 95%;
-              margin-top: var(--dl-space-space-unit);
-            }
-            .home-container2 {
-              width: 75%;
-              margin-left: var(--dl-space-space-unit);
-              margin-right: var(--dl-space-space-unit);
+            .home-column {
+              padding-top: var(--dl-space-space-threeunits);
+              padding-left: var(--dl-space-space-threeunits);
+              padding-right: var(--dl-space-space-threeunits);
+              padding-bottom: var(--dl-space-space-threeunits);
             }
             .home-text07 {
-              width: 80%;
+              align-self: center;
+              text-align: center;
+            }
+            .home-text10 {
+              text-align: center;
+            }
+            .home-column1 {
+              width: 100%;
+              margin-left: 0px;
+              flex-direction: column;
+            }
+            .home-placeholder-image {
+              width: 100%;
+              height: 500px;
+            }
+            .home-placeholder-image1 {
+              width: 100%;
+              height: 500px;
+            }
+            .home-placeholder-image2 {
+              width: 100%;
+              height: 500px;
+            }
+            .home-column2 {
+              display: none;
             }
             .home-container4 {
-              width: 100%;
+              width: 75%;
               border-radius: var(--dl-radius-radius-radius4);
             }
-            .home-text09 {
+            .home-text11 {
               color: var(--dl-color-gray-white);
               font-size: 2rem;
               font-style: normal;
               font-family: Josefin Sans;
               font-weight: 200;
             }
-            .home-text10 {
+            .home-text12 {
               color: var(--dl-color-gray-white);
             }
-            .home-text12 {
+            .home-text14 {
               font-size: 2rem;
             }
             .home-practices {
@@ -1056,15 +1114,15 @@ const Home = (props) => {
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-fourunits);
             }
-            .home-text14 {
+            .home-text16 {
               font-size: 30px;
               line-height: 36px;
             }
-            .home-text15 {
+            .home-text17 {
               font-size: 30px;
               line-height: 36px;
             }
-            .home-content {
+            .home-content2 {
               gap: var(--dl-space-space-threeunits);
               width: 100%;
             }
@@ -1077,7 +1135,7 @@ const Home = (props) => {
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
             }
-            .home-text21 {
+            .home-text23 {
               color: var(--dl-color-gray-black);
               font-size: 2rem;
               line-height: 41px;
@@ -1087,25 +1145,33 @@ const Home = (props) => {
             }
           }
           @media (max-width: 479px) {
-            .home-hero {
+            .home-actions {
               width: 100%;
-              height: 75vh;
+              flex-direction: column;
             }
             .home-container1 {
               width: 100%;
-              height: auto;
-              margin-left: 0px;
-              margin-right: 0px;
             }
-            .home-title1 {
-              margin-top: var(--dl-space-space-unit);
+            .home-link02 {
+              width: 100%;
             }
             .home-container2 {
               width: 100%;
-              margin-left: var(--dl-space-space-unit);
+            }
+            .home-link03 {
+              width: 100%;
+            }
+            .home-column {
+              padding-top: var(--dl-space-space-oneandhalfunits);
+              padding-left: var(--dl-space-space-oneandhalfunits);
+              padding-right: var(--dl-space-space-oneandhalfunits);
             }
             .home-text07 {
-              width: 100%;
+              width: auto;
+              align-self: center;
+              text-align: center;
+            }
+            .home-text10 {
               text-align: center;
             }
             .home-container4 {
@@ -1113,7 +1179,7 @@ const Home = (props) => {
               height: 100%;
               border-radius: var(--dl-radius-radius-radius4);
             }
-            .home-text12 {
+            .home-text14 {
               font-size: 2rem;
             }
             .home-practices {
@@ -1127,7 +1193,7 @@ const Home = (props) => {
               padding-right: var(--dl-space-space-unit);
               padding-bottom: var(--dl-space-space-twounits);
             }
-            .home-text21 {
+            .home-text23 {
               color: var(--dl-color-gray-black);
               font-size: 2rem;
             }
@@ -1144,7 +1210,7 @@ const Home = (props) => {
               padding-bottom: var(--dl-space-space-threeunits);
               justify-content: center;
             }
-            .home-title2 {
+            .home-title {
               font-size: 2.5rem;
               line-height: 41px;
             }
@@ -1153,10 +1219,10 @@ const Home = (props) => {
               align-items: center;
               justify-content: center;
             }
-            .home-text23 {
+            .home-text25 {
               color: var(--dl-color-gray-black);
             }
-            .home-text24 {
+            .home-text26 {
               color: var(--dl-color-gray-black);
               font-size: 1.5rem;
             }
