@@ -58,7 +58,7 @@ const JapanThailandEconomicPartnershipAgreement = (props) => {
           </div>
           <img
             alt="image"
-            src="/japan-min-1500h.jpg"
+            src="/japanthai-1500h.jpg"
             loading="eager"
             className="japan-thailand-economic-partnership-agreement-image"
           />
@@ -395,8 +395,10 @@ const JapanThailandEconomicPartnershipAgreement = (props) => {
             width: 100%;
             display: flex;
             max-width: 100%;
+            margin-top: var(--dl-space-space-threeunits);
             min-height: 80vh;
             align-items: center;
+            margin-bottom: var(--dl-space-space-threeunits);
             flex-direction: row;
             justify-content: center;
           }

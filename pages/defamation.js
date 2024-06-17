@@ -54,7 +54,7 @@ const Defamation = (props) => {
                     Written by
                   </span>
                   <span className="defamation-text01 thq-body-small">
-                    Ulliam
+                    Uilliam
                   </span>
                 </div>
                 <div className="defamation-time">

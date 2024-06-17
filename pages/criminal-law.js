@@ -58,7 +58,7 @@ const CriminalLaw = (props) => {
         <div className="criminal-law-header9">
           <img
             alt="Hero Image"
-            src="/oig2-1500h.jpg"
+            src="/criminal%20law2-1500w.jpg"
             className="criminal-law-placeholder-image thq-img-ratio-16-9"
           />
         </div>
@@ -129,12 +129,7 @@ const CriminalLaw = (props) => {
             height: 100vh;
             display: flex;
             align-items: center;
-            border-color: var(--dl-color-gray-black);
-            border-width: 1px;
             justify-content: center;
-            border-top-width: 0px;
-            border-left-width: 0px;
-            border-right-width: 0px;
           }
           .criminal-law-container2 {
             flex: 0 0 auto;
@@ -218,8 +213,10 @@ const CriminalLaw = (props) => {
             flex-direction: column;
           }
           .criminal-law-placeholder-image {
-            height: 150vh;
+            height: auto;
             opacity: 0.9;
+            margin-top: var(--dl-space-space-fourunits);
+            margin-bottom: var(--dl-space-space-fourunits);
           }
           .criminal-law-container5 {
             width: 100%;
@@ -310,7 +307,7 @@ const CriminalLaw = (props) => {
               margin-right: 0px;
             }
             .criminal-law-placeholder-image {
-              height: 100vh;
+              height: auto;
             }
             .criminal-law-container5 {
               height: auto;
@@ -336,9 +333,6 @@ const CriminalLaw = (props) => {
               width: 100%;
               display: none;
             }
-            .criminal-law-placeholder-image {
-              height: 75vh;
-            }
           }
           @media (max-width: 767px) {
             .criminal-law-container1 {
@@ -362,9 +356,6 @@ const CriminalLaw = (props) => {
             }
             .criminal-law-image {
               width: 100%;
-            }
-            .criminal-law-placeholder-image {
-              height: 75vh;
             }
             .criminal-law-container6 {
               gap: var(--dl-space-space-threeunits);
@@ -396,10 +387,6 @@ const CriminalLaw = (props) => {
             }
             .criminal-law-text02 {
               align-self: flex-start;
-            }
-            .criminal-law-placeholder-image {
-              width: 100%;
-              height: 50vh;
             }
             .criminal-law-container5 {
               height: 40vh;

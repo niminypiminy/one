@@ -36,7 +36,7 @@ const ThaiAustraliaFreeTradeAgreement = (props) => {
           <div className="thai-australia-free-trade-agreement-container02">
             <img
               alt="image"
-              src="/australia-min-600w.jpg"
+              src="/austhai-600w.jpeg"
               className="thai-australia-free-trade-agreement-image"
             />
           </div>
@@ -783,11 +783,7 @@ const ThaiAustraliaFreeTradeAgreement = (props) => {
             height: auto;
             box-shadow: 5px 5px 10px 0px #000000;
             object-fit: cover;
-            transition: 0.3s;
             margin-right: 0px;
-          }
-          .thai-australia-free-trade-agreement-image:hover {
-            transform: scale(1.2);
           }
           .thai-australia-free-trade-agreement-container03 {
             flex: 0 0 auto;

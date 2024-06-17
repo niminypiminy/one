@@ -54,7 +54,7 @@ const DrugPossession = (props) => {
                     Written by
                   </span>
                   <span className="drug-possession-text01 thq-body-small">
-                    Ulliam
+                    Uilliam
                   </span>
                 </div>
                 <div className="drug-possession-time">

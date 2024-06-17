@@ -31,121 +31,118 @@ const CompanyRegistration = (props) => {
           />
         </Head>
         <Navbar></Navbar>
-        <div className="company-registration-container01">
-          <div className="company-registration-container02">
-            <img
-              alt="image"
-              src="/designer%20(7)-600w.jpeg"
-              className="company-registration-image"
-            />
+        <div className="company-registration-hero">
+          <div className="company-registration-container01">
+            <h1 className="company-registration-text">Company Registration</h1>
+            <span className="company-registration-text01">
+              Prior to initiating the company registration process, it is
+              essential to carefully evaluate the liability associated with each
+              legal structure, as well as the distribution of shares.
+              Furthermore, thorough consideration should be given to government
+              fees, capitalization prerequisites, necessary licenses, potential
+              government incentives, regulatory frameworks, and other pertinent
+              details.
+            </span>
           </div>
+          <img
+            alt="image"
+            src="/companyregistration-1500h.jpeg"
+            loading="eager"
+            className="company-registration-image"
+          />
+        </div>
+        <div className="company-registration-container02">
           <div className="company-registration-container03">
-            <div className="company-registration-container04">
-              <h1 className="company-registration-text">
-                Company Registration 
-              </h1>
-              <span className="company-registration-text01">
-                Prior to initiating the company registration process, it is
-                essential to carefully evaluate the liability associated with
-                each legal structure, as well as the distribution of shares.
-                Furthermore, thorough consideration should be given to
-                government fees, capitalization prerequisites, necessary
-                licenses, potential government incentives, regulatory
-                frameworks, and other pertinent details.
-              </span>
-              <Link href="/contact">
-                <a className="company-registration-link">
-                  <h1 className="company-registration-text02">Contact</h1>
-                </a>
-              </Link>
+            <span className="company-registration-text02">
+              Types of Business Entitites
+            </span>
+          </div>
+          <div className="company-registration-container04">
+            <div className="company-registration-feature1 thq-flex-column">
+              <img
+                alt="image"
+                src="/limited%20partnership-200h.jpg"
+                className="company-registration-image1 thq-team-image-round"
+              />
+              <div className="company-registration-content thq-flex-column">
+                <Link href="/limited-partnership-lp">
+                  <a>
+                    <h3 className="company-registration-title1 thq-heading-3">
+                      Limited Partnership
+                    </h3>
+                  </a>
+                </Link>
+              </div>
+            </div>
+            <div className="company-registration-feature2 thq-flex-column">
+              <img
+                alt="image"
+                src="/branch%20office-200h.jpg"
+                className="company-registration-image2 thq-team-image-round"
+              />
+              <div className="company-registration-content1 thq-flex-column">
+                <Link href="/branch-office">
+                  <a>
+                    <h3 className="company-registration-title11 thq-heading-3">
+                      Branch Office
+                    </h3>
+                  </a>
+                </Link>
+              </div>
+            </div>
+            <div className="company-registration-feature3 thq-flex-column">
+              <img
+                alt="image"
+                src="/limited%20company-200h.jpg"
+                className="company-registration-image3 thq-team-image-round"
+              />
+              <div className="company-registration-content2 thq-flex-column">
+                <Link href="/limited-company-ltd">
+                  <a>
+                    <h3 className="company-registration-title12 thq-heading-3">
+                      Limited Company
+                    </h3>
+                  </a>
+                </Link>
+              </div>
+            </div>
+            <div className="company-registration-feature4 thq-flex-column">
+              <img
+                alt="image"
+                src="/board%20of%20investment-200h.jpg"
+                className="company-registration-image4 thq-team-image-round"
+              />
+              <div className="company-registration-content3 thq-flex-column">
+                <Link href="/board-of-investment">
+                  <a>
+                    <h3 className="company-registration-title13 thq-heading-3">
+                      Board of Investment
+                    </h3>
+                  </a>
+                </Link>
+              </div>
+            </div>
+            <div className="company-registration-feature5 thq-flex-column">
+              <img
+                alt="image"
+                src="/repoffice-200h.jpg"
+                className="company-registration-image5 thq-team-image-round"
+              />
+              <div className="company-registration-content4 thq-flex-column">
+                <Link href="/representative-office">
+                  <a>
+                    <h3 className="company-registration-title14 thq-heading-3">
+                      Rep Office
+                    </h3>
+                  </a>
+                </Link>
+              </div>
             </div>
           </div>
         </div>
-        <div className="company-registration-container05">
-          <div className="company-registration-feature1 thq-flex-column">
-            <img
-              alt="image"
-              src="/limited%20partnership-200h.jpg"
-              className="company-registration-image1 thq-team-image-round"
-            />
-            <div className="company-registration-content thq-flex-column">
-              <Link href="/limited-partnership-lp">
-                <a>
-                  <h3 className="company-registration-title1 thq-heading-3">
-                    Limited Partnership
-                  </h3>
-                </a>
-              </Link>
-            </div>
-          </div>
-          <div className="company-registration-feature2 thq-flex-column">
-            <img
-              alt="image"
-              src="/branch%20office-200h.jpg"
-              className="company-registration-image2 thq-team-image-round"
-            />
-            <div className="company-registration-content1 thq-flex-column">
-              <Link href="/branch-office">
-                <a>
-                  <h3 className="company-registration-title11 thq-heading-3">
-                    Branch Office
-                  </h3>
-                </a>
-              </Link>
-            </div>
-          </div>
-          <div className="company-registration-feature3 thq-flex-column">
-            <img
-              alt="image"
-              src="/limited%20company-200h.jpg"
-              className="company-registration-image3 thq-team-image-round"
-            />
-            <div className="company-registration-content2 thq-flex-column">
-              <Link href="/limited-company-ltd">
-                <a>
-                  <h3 className="company-registration-title12 thq-heading-3">
-                    Limited Company
-                  </h3>
-                </a>
-              </Link>
-            </div>
-          </div>
-          <div className="company-registration-feature4 thq-flex-column">
-            <img
-              alt="image"
-              src="/board%20of%20investment-200h.jpg"
-              className="company-registration-image4 thq-team-image-round"
-            />
-            <div className="company-registration-content3 thq-flex-column">
-              <Link href="/board-of-investment">
-                <a>
-                  <h3 className="company-registration-title13 thq-heading-3">
-                    Board of Investment
-                  </h3>
-                </a>
-              </Link>
-            </div>
-          </div>
-          <div className="company-registration-feature5 thq-flex-column">
-            <img
-              alt="image"
-              src="/repoffice-200h.jpg"
-              className="company-registration-image5 thq-team-image-round"
-            />
-            <div className="company-registration-content4 thq-flex-column">
-              <Link href="/representative-office">
-                <a>
-                  <h3 className="company-registration-title14 thq-heading-3">
-                    Rep Office
-                  </h3>
-                </a>
-              </Link>
-            </div>
-          </div>
-        </div>
-        <div className="company-registration-container06 thq-section-padding">
+        <div className="company-registration-container05 thq-section-padding">
           <div className="company-registration-max-width thq-section-max-width">
-            <div className="company-registration-container07">
+            <div className="company-registration-container06">
               <h2 className="company-registration-title thq-heading-2">
                 At a glance
               </h2>
@@ -155,39 +152,39 @@ const CompanyRegistration = (props) => {
             </div>
           </div>
         </div>
-        <div className="company-registration-container08">
-          <div className="company-registration-container09">
-            <div className="company-registration-container10">
+        <div className="company-registration-container07">
+          <div className="company-registration-container08">
+            <div className="company-registration-container09">
               <span className="company-registration-text04">Type</span>
             </div>
-            <div className="company-registration-container11">
+            <div className="company-registration-container10">
               <span className="company-registration-text05">
                 Limited Liability
               </span>
             </div>
-            <div className="company-registration-container12">
+            <div className="company-registration-container11">
               <span className="company-registration-text06">
                 Corporate tax 
               </span>
             </div>
-            <div className="company-registration-container13">
+            <div className="company-registration-container12">
               <span className="company-registration-text07">FBL Required</span>
             </div>
-            <div className="company-registration-container14">
+            <div className="company-registration-container13">
               <span className="company-registration-text08">
                 Capitalization
               </span>
             </div>
-            <div className="company-registration-container15">
+            <div className="company-registration-container14">
               <span className="company-registration-text09">LP</span>
             </div>
-            <div className="company-registration-container16">
+            <div className="company-registration-container15">
               <span className="company-registration-text10">Yes</span>
             </div>
-            <div className="company-registration-container17">
+            <div className="company-registration-container16">
               <span className="company-registration-text11">20%</span>
             </div>
-            <div className="company-registration-container18">
+            <div className="company-registration-container17">
               <span className="company-registration-text12">
                 <span>Yes. (if Foreign Owned)</span>
                 <br></br>
@@ -195,22 +192,22 @@ const CompanyRegistration = (props) => {
                 <br></br>
               </span>
             </div>
-            <div className="company-registration-container19">
+            <div className="company-registration-container18">
               <span className="company-registration-text17">
                 <span>2M-3M (Foreign Owned)</span>
                 <br></br>
               </span>
             </div>
-            <div className="company-registration-container20">
+            <div className="company-registration-container19">
               <span className="company-registration-text20">Ltd.</span>
             </div>
-            <div className="company-registration-container21">
+            <div className="company-registration-container20">
               <span className="company-registration-text21">Yes</span>
             </div>
-            <div className="company-registration-container22">
+            <div className="company-registration-container21">
               <span className="company-registration-text22">20%</span>
             </div>
-            <div className="company-registration-container23">
+            <div className="company-registration-container22">
               <span className="company-registration-text23">
                 <span>Yes (if Foreign Owned)</span>
                 <br></br>
@@ -218,7 +215,7 @@ const CompanyRegistration = (props) => {
                 <br></br>
               </span>
             </div>
-            <div className="company-registration-container24">
+            <div className="company-registration-container23">
               <span className="company-registration-text28">
                 <span>
                   2M-3M (Foreign Owned).
@@ -231,55 +228,55 @@ const CompanyRegistration = (props) => {
                 <br></br>
               </span>
             </div>
-            <div className="company-registration-container25">
+            <div className="company-registration-container24">
               <span className="company-registration-text31">Rep Office</span>
             </div>
-            <div className="company-registration-container26">
+            <div className="company-registration-container25">
               <span className="company-registration-text32">No</span>
             </div>
-            <div className="company-registration-container27">
+            <div className="company-registration-container26">
               <span className="company-registration-text33">0%</span>
             </div>
-            <div className="company-registration-container28">
+            <div className="company-registration-container27">
               <span className="company-registration-text34">No</span>
             </div>
-            <div className="company-registration-container29">
+            <div className="company-registration-container28">
               <span className="company-registration-text35">2M</span>
             </div>
-            <div className="company-registration-container30">
+            <div className="company-registration-container29">
               <span className="company-registration-text36">BOI</span>
             </div>
-            <div className="company-registration-container31">
+            <div className="company-registration-container30">
               <span className="company-registration-text37">Yes</span>
             </div>
-            <div className="company-registration-container32">
+            <div className="company-registration-container31">
               <span className="company-registration-text38">0%</span>
             </div>
-            <div className="company-registration-container33">
+            <div className="company-registration-container32">
               <span className="company-registration-text39">No</span>
             </div>
-            <div className="company-registration-container34">
+            <div className="company-registration-container33">
               <span className="company-registration-text40">Minimum of 1M</span>
             </div>
-            <div className="company-registration-container35">
+            <div className="company-registration-container34">
               <span className="company-registration-text41">Branch Office</span>
             </div>
-            <div className="company-registration-container36">
+            <div className="company-registration-container35">
               <span className="company-registration-text42">No</span>
             </div>
-            <div className="company-registration-container37">
+            <div className="company-registration-container36">
               <span className="company-registration-text43">20%</span>
             </div>
-            <div className="company-registration-container38">
+            <div className="company-registration-container37">
               <span className="company-registration-text44">Yes</span>
             </div>
-            <div className="company-registration-container39">
+            <div className="company-registration-container38">
               <span className="company-registration-text45">2M-3M</span>
             </div>
           </div>
         </div>
-        <div className="company-registration-container40">
-          <div className="company-registration-container41">
+        <div className="company-registration-container39">
+          <div className="company-registration-container40">
             <span className="company-registration-text46">
               Foreign juristic persons are governed by the regulations set forth
               in the Foreign Business Act. As a result, most companies with
@@ -290,30 +287,30 @@ const CompanyRegistration = (props) => {
               cost-effective and streamlined alternative to the FBL.
             </span>
           </div>
-          <div className="company-registration-container42">
+          <div className="company-registration-container41">
             <span className="company-registration-text47">
               <span>FBL &amp; Foreign Business Certificate</span>
               <br></br>
             </span>
             <Link href="/japan-thailand-economic-partnership-agreement">
-              <a className="company-registration-link06">
+              <a className="company-registration-link5">
                 <span>Japan-Thailand Economic Partnership Agreement</span>
                 <br></br>
               </a>
             </Link>
             <Link href="/thai-australia-free-trade-agreement">
-              <a className="company-registration-link07">
+              <a className="company-registration-link6">
                 <span>Thai-Australia Free Trade Agreement</span>
                 <br></br>
               </a>
             </Link>
             <Link href="/foreign-business-license">
-              <a className="company-registration-link08">
+              <a className="company-registration-link7">
                 Foreign Business License
               </a>
             </Link>
             <Link href="/treaty-of-amity">
-              <a className="company-registration-link09">
+              <a className="company-registration-link8">
                 <span>Treaty of Amity</span>
                 <br></br>
               </a>
@@ -337,107 +334,83 @@ const CompanyRegistration = (props) => {
           .company-registration-container:hover {
             width: 100%;
           }
-          .company-registration-container01 {
-            flex: 0 0 auto;
+          .company-registration-hero {
             width: 100%;
-            height: 75vh;
             display: flex;
-            margin-top: var(--dl-space-space-fourunits);
+            max-width: 100%;
+            margin-top: var(--dl-space-space-threeunits);
+            min-height: 80vh;
             align-items: center;
+            margin-bottom: var(--dl-space-space-threeunits);
+            flex-direction: row;
             justify-content: center;
           }
-          .company-registration-container02 {
-            flex: 0 0 auto;
-            width: 40%;
-            height: 100%;
+          .company-registration-container01 {
+            width: 50%;
             display: flex;
-            align-items: center;
             flex-direction: column;
-            justify-content: center;
-          }
-          .company-registration-image {
-            width: 80%;
-            height: auto;
-            align-self: center;
-            box-shadow: 5px 5px 10px 0px #000000;
-            object-fit: cover;
-            transition: 0.3s;
-          }
-          .company-registration-image:hover {
-            transform: scale(1.2);
-          }
-          .company-registration-container03 {
-            flex: 0 0 auto;
-            width: 40%;
-            height: 100%;
-            display: flex;
-            align-items: center;
-            flex-direction: column;
-            justify-content: center;
-          }
-          .company-registration-container04 {
-            flex: 0 0 auto;
-            width: 80%;
-            height: auto;
-            display: flex;
-            align-items: flex-start;
-            flex-direction: column;
-            justify-content: center;
           }
           .company-registration-text {
-            fill: #1b1b1b;
-            color: #1b1b1b;
-            width: 75%;
+            width: 100%;
             font-size: 2rem;
-            align-self: flex-start;
+            max-width: auto;
             font-style: normal;
             font-family: 'Josefin Sans';
             font-weight: 300;
           }
           .company-registration-text01 {
-            width: 85%;
+            width: 75%;
             font-size: 1.5rem;
-            align-self: flex-start;
             font-style: normal;
             margin-top: var(--dl-space-space-twounits);
-            text-align: left;
             font-family: 'Josefin Sans';
             font-weight: 200;
             margin-bottom: var(--dl-space-space-twounits);
           }
-          .company-registration-link {
-            display: contents;
+          .company-registration-image {
+            width: 30%;
+            box-shadow: 5px 5px 10px 0px #000000;
+            object-fit: cover;
           }
-          .company-registration-text02 {
-            color: var(--dl-color-gray-black);
-            font-size: 1.5rem;
-            font-style: normal;
-            transition: 0.3s;
-            font-family: Josefin Sans;
-            font-weight: 200;
-            padding-top: var(--dl-space-space-unit);
-            border-color: var(--dl-color-gray-black);
-            border-width: 1px;
-            padding-left: var(--dl-space-space-unit);
-            padding-right: var(--dl-space-space-unit);
-            padding-bottom: var(--dl-space-space-unit);
-            text-decoration: none;
-          }
-          .company-registration-text02:hover {
-            fill: var(--dl-color-theme-accent1);
-            color: var(--dl-color-theme-accent1);
-            background-color: var(--dl-color-theme-primary2);
-          }
-          .company-registration-container05 {
+          .company-registration-container02 {
             flex: 0 0 auto;
-            width: 80%;
-            height: 50vh;
+            width: 100%;
+            height: auto;
             display: flex;
-            margin-top: var(--dl-space-space-sixunits);
+            opacity: 0.9;
+            margin-top: var(--dl-space-space-threeunits);
+            min-height: 80vh;
             align-items: center;
-            margin-bottom: var(--dl-space-space-sixunits);
+            margin-bottom: var(--dl-space-space-threeunits);
+            flex-direction: column;
+            justify-content: center;
+            background-color: var(--dl-color-theme-neutral-dark);
+          }
+          .company-registration-container03 {
+            flex: 0 0 auto;
+            width: 100%;
+            height: auto;
+            display: flex;
+            align-items: center;
             flex-direction: row;
             justify-content: center;
+          }
+          .company-registration-text02 {
+            fill: var(--dl-color-theme-neutral-light);
+            color: var(--dl-color-theme-neutral-light);
+            font-size: 2rem;
+            font-style: normal;
+            font-family: 'Josefin Sans';
+            font-weight: 300;
+            margin-bottom: var(--dl-space-space-twounits);
+          }
+          .company-registration-container04 {
+            flex: 0 0 auto;
+            width: 75%;
+            height: 75%;
+            display: flex;
+            margin-top: var(--dl-space-space-threeunits);
+            align-items: flex-start;
           }
           .company-registration-feature1 {
             width: 20%;
@@ -455,6 +428,8 @@ const CompanyRegistration = (props) => {
             align-items: flex-start;
           }
           .company-registration-title1 {
+            fill: var(--dl-color-theme-neutral-light);
+            color: var(--dl-color-theme-neutral-light);
             font-size: 1.5rem;
             font-style: normal;
             transition: 0.3s;
@@ -463,8 +438,8 @@ const CompanyRegistration = (props) => {
             text-decoration: underline;
           }
           .company-registration-title1:hover {
-            fill: #521e01;
-            color: #521e01;
+            fill: var(--dl-color-theme-primary1);
+            color: var(--dl-color-theme-primary1);
           }
           .company-registration-feature2 {
             width: 20%;
@@ -482,6 +457,8 @@ const CompanyRegistration = (props) => {
             align-items: flex-start;
           }
           .company-registration-title11 {
+            fill: var(--dl-color-theme-neutral-light);
+            color: var(--dl-color-theme-neutral-light);
             font-size: 1.5rem;
             font-style: normal;
             transition: 0.3s;
@@ -490,8 +467,8 @@ const CompanyRegistration = (props) => {
             text-decoration: underline;
           }
           .company-registration-title11:hover {
-            fill: #521e01;
-            color: #521e01;
+            fill: var(--dl-color-theme-primary1);
+            color: var(--dl-color-theme-primary1);
           }
           .company-registration-feature3 {
             width: 20%;
@@ -509,6 +486,8 @@ const CompanyRegistration = (props) => {
             align-items: flex-start;
           }
           .company-registration-title12 {
+            fill: var(--dl-color-theme-neutral-light);
+            color: var(--dl-color-theme-neutral-light);
             font-size: 1.5rem;
             font-style: normal;
             transition: 0.3s;
@@ -517,8 +496,8 @@ const CompanyRegistration = (props) => {
             text-decoration: underline;
           }
           .company-registration-title12:hover {
-            fill: #521e01;
-            color: #521e01;
+            fill: var(--dl-color-theme-primary1);
+            color: var(--dl-color-theme-primary1);
           }
           .company-registration-feature4 {
             width: 20%;
@@ -536,6 +515,8 @@ const CompanyRegistration = (props) => {
             align-items: flex-start;
           }
           .company-registration-title13 {
+            fill: var(--dl-color-theme-neutral-light);
+            color: var(--dl-color-theme-neutral-light);
             font-size: 1.5rem;
             font-style: normal;
             transition: 0.3s;
@@ -544,8 +525,8 @@ const CompanyRegistration = (props) => {
             text-decoration: underline;
           }
           .company-registration-title13:hover {
-            fill: #521e01;
-            color: #521e01;
+            fill: var(--dl-color-theme-primary1);
+            color: var(--dl-color-theme-primary1);
           }
           .company-registration-feature5 {
             width: 20%;
@@ -563,6 +544,8 @@ const CompanyRegistration = (props) => {
             align-items: flex-start;
           }
           .company-registration-title14 {
+            fill: var(--dl-color-theme-neutral-light);
+            color: var(--dl-color-theme-neutral-light);
             font-size: 1.5rem;
             font-style: normal;
             transition: 0.3s;
@@ -571,14 +554,14 @@ const CompanyRegistration = (props) => {
             text-decoration: underline;
           }
           .company-registration-title14:hover {
-            fill: #521e01;
-            color: #521e01;
+            fill: var(--dl-color-theme-primary1);
+            color: var(--dl-color-theme-primary1);
           }
-          .company-registration-container06 {
+          .company-registration-container05 {
             gap: var(--dl-space-space-unit);
             display: flex;
-            padding: 0px;
             position: relative;
+            margin-top: var(--dl-space-space-fourunits);
             align-items: center;
           }
           .company-registration-max-width {
@@ -587,7 +570,7 @@ const CompanyRegistration = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .company-registration-container07 {
+          .company-registration-container06 {
             gap: var(--dl-space-space-halfunit);
             display: flex;
             align-items: center;
@@ -608,21 +591,40 @@ const CompanyRegistration = (props) => {
             font-family: 'Josefin Sans';
             font-weight: 200;
           }
-          .company-registration-container08 {
+          .company-registration-container07 {
             flex: 0 0 auto;
             width: 100%;
-            height: 50vh;
+            height: 75vh;
             display: flex;
             margin-top: var(--dl-space-space-threeunits);
             align-items: flex-start;
             margin-bottom: var(--dl-space-space-threeunits);
             justify-content: center;
           }
-          .company-registration-container09 {
+          .company-registration-container08 {
             width: 75%;
             height: 100%;
             display: grid;
             grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+          }
+          .company-registration-container09 {
+            flex: 0 0 auto;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            border-color: var(--dl-color-gray-black);
+            border-width: 1px;
+            justify-content: center;
+            background-color: var(--dl-color-theme-secondary1);
+          }
+          .company-registration-text04 {
+            fill: var(--dl-color-theme-neutral-dark);
+            color: var(--dl-color-theme-neutral-dark);
+            font-size: 1.5rem;
+            font-style: normal;
+            font-family: Josefin Sans;
+            font-weight: 400;
           }
           .company-registration-container10 {
             flex: 0 0 auto;
@@ -633,11 +635,11 @@ const CompanyRegistration = (props) => {
             border-color: var(--dl-color-gray-black);
             border-width: 1px;
             justify-content: center;
-            background-color: #1b1b1b;
+            background-color: var(--dl-color-theme-secondary1);
           }
-          .company-registration-text04 {
-            fill: var(--dl-color-theme-neutral-light);
-            color: var(--dl-color-theme-neutral-light);
+          .company-registration-text05 {
+            fill: var(--dl-color-theme-neutral-dark);
+            color: var(--dl-color-theme-neutral-dark);
             font-size: 1.5rem;
             font-style: normal;
             font-family: Josefin Sans;
@@ -652,11 +654,11 @@ const CompanyRegistration = (props) => {
             border-color: var(--dl-color-gray-black);
             border-width: 1px;
             justify-content: center;
-            background-color: #1b1b1b;
+            background-color: var(--dl-color-theme-secondary1);
           }
-          .company-registration-text05 {
-            fill: var(--dl-color-theme-neutral-light);
-            color: var(--dl-color-theme-neutral-light);
+          .company-registration-text06 {
+            fill: var(--dl-color-theme-neutral-dark);
+            color: var(--dl-color-theme-neutral-dark);
             font-size: 1.5rem;
             font-style: normal;
             font-family: Josefin Sans;
@@ -671,11 +673,11 @@ const CompanyRegistration = (props) => {
             border-color: var(--dl-color-gray-black);
             border-width: 1px;
             justify-content: center;
-            background-color: #1b1b1b;
+            background-color: var(--dl-color-theme-secondary1);
           }
-          .company-registration-text06 {
-            fill: var(--dl-color-theme-neutral-light);
-            color: var(--dl-color-theme-neutral-light);
+          .company-registration-text07 {
+            fill: var(--dl-color-theme-neutral-dark);
+            color: var(--dl-color-theme-neutral-dark);
             font-size: 1.5rem;
             font-style: normal;
             font-family: Josefin Sans;
@@ -690,36 +692,17 @@ const CompanyRegistration = (props) => {
             border-color: var(--dl-color-gray-black);
             border-width: 1px;
             justify-content: center;
-            background-color: #1b1b1b;
+            background-color: var(--dl-color-theme-accent1);
           }
-          .company-registration-text07 {
-            fill: var(--dl-color-theme-neutral-light);
-            color: var(--dl-color-theme-neutral-light);
+          .company-registration-text08 {
+            fill: var(--dl-color-theme-neutral-dark);
+            color: var(--dl-color-theme-neutral-dark);
             font-size: 1.5rem;
             font-style: normal;
             font-family: Josefin Sans;
             font-weight: 400;
           }
           .company-registration-container14 {
-            flex: 0 0 auto;
-            width: 100%;
-            height: 100%;
-            display: flex;
-            align-items: center;
-            border-color: var(--dl-color-gray-black);
-            border-width: 1px;
-            justify-content: center;
-            background-color: #1b1b1b;
-          }
-          .company-registration-text08 {
-            fill: var(--dl-color-theme-neutral-light);
-            color: var(--dl-color-theme-neutral-light);
-            font-size: 1.5rem;
-            font-style: normal;
-            font-family: Josefin Sans;
-            font-weight: 400;
-          }
-          .company-registration-container15 {
             flex: 0 0 auto;
             width: 100%;
             height: 100%;
@@ -735,7 +718,7 @@ const CompanyRegistration = (props) => {
             font-family: Josefin Sans;
             font-weight: 300;
           }
-          .company-registration-container16 {
+          .company-registration-container15 {
             flex: 0 0 auto;
             width: 100%;
             height: 100%;
@@ -751,7 +734,7 @@ const CompanyRegistration = (props) => {
             font-family: Josefin Sans;
             font-weight: 300;
           }
-          .company-registration-container17 {
+          .company-registration-container16 {
             flex: 0 0 auto;
             width: 100%;
             height: 100%;
@@ -767,7 +750,7 @@ const CompanyRegistration = (props) => {
             font-family: Josefin Sans;
             font-weight: 300;
           }
-          .company-registration-container18 {
+          .company-registration-container17 {
             flex: 0 0 auto;
             width: 100%;
             height: 100%;
@@ -784,7 +767,7 @@ const CompanyRegistration = (props) => {
             font-family: 'Josefin Sans';
             font-weight: 300;
           }
-          .company-registration-container19 {
+          .company-registration-container18 {
             flex: 0 0 auto;
             width: 100%;
             height: 100%;
@@ -801,7 +784,7 @@ const CompanyRegistration = (props) => {
             font-family: Josefin Sans;
             font-weight: 300;
           }
-          .company-registration-container20 {
+          .company-registration-container19 {
             flex: 0 0 auto;
             width: 100%;
             height: 100%;
@@ -817,7 +800,7 @@ const CompanyRegistration = (props) => {
             font-family: Josefin Sans;
             font-weight: 300;
           }
-          .company-registration-container21 {
+          .company-registration-container20 {
             flex: 0 0 auto;
             width: 100%;
             height: 100%;
@@ -833,7 +816,7 @@ const CompanyRegistration = (props) => {
             font-family: Josefin Sans;
             font-weight: 300;
           }
-          .company-registration-container22 {
+          .company-registration-container21 {
             flex: 0 0 auto;
             width: 100%;
             height: 100%;
@@ -849,7 +832,7 @@ const CompanyRegistration = (props) => {
             font-family: Josefin Sans;
             font-weight: 300;
           }
-          .company-registration-container23 {
+          .company-registration-container22 {
             flex: 0 0 auto;
             width: 100%;
             height: 100%;
@@ -866,7 +849,7 @@ const CompanyRegistration = (props) => {
             font-family: 'Josefin Sans';
             font-weight: 300;
           }
-          .company-registration-container24 {
+          .company-registration-container23 {
             flex: 0 0 auto;
             width: 100%;
             height: 100%;
@@ -883,7 +866,7 @@ const CompanyRegistration = (props) => {
             font-family: 'Josefin Sans';
             font-weight: 300;
           }
-          .company-registration-container25 {
+          .company-registration-container24 {
             flex: 0 0 auto;
             width: 100%;
             height: 100%;
@@ -900,7 +883,7 @@ const CompanyRegistration = (props) => {
             font-family: Josefin Sans;
             font-weight: 300;
           }
-          .company-registration-container26 {
+          .company-registration-container25 {
             flex: 0 0 auto;
             width: 100%;
             height: 100%;
@@ -917,7 +900,7 @@ const CompanyRegistration = (props) => {
             font-family: Josefin Sans;
             font-weight: 300;
           }
-          .company-registration-container27 {
+          .company-registration-container26 {
             flex: 0 0 auto;
             width: 100%;
             height: 100%;
@@ -934,7 +917,7 @@ const CompanyRegistration = (props) => {
             font-family: Josefin Sans;
             font-weight: 300;
           }
-          .company-registration-container28 {
+          .company-registration-container27 {
             flex: 0 0 auto;
             width: 100%;
             height: 100%;
@@ -951,7 +934,7 @@ const CompanyRegistration = (props) => {
             font-family: Josefin Sans;
             font-weight: 300;
           }
-          .company-registration-container29 {
+          .company-registration-container28 {
             flex: 0 0 auto;
             width: 100%;
             height: 100%;
@@ -968,7 +951,7 @@ const CompanyRegistration = (props) => {
             font-family: Josefin Sans;
             font-weight: 300;
           }
-          .company-registration-container30 {
+          .company-registration-container29 {
             flex: 0 0 auto;
             width: 100%;
             height: 100%;
@@ -985,7 +968,7 @@ const CompanyRegistration = (props) => {
             font-family: Josefin Sans;
             font-weight: 300;
           }
-          .company-registration-container31 {
+          .company-registration-container30 {
             flex: 0 0 auto;
             width: 100%;
             height: 100%;
@@ -1002,7 +985,7 @@ const CompanyRegistration = (props) => {
             font-family: Josefin Sans;
             font-weight: 300;
           }
-          .company-registration-container32 {
+          .company-registration-container31 {
             flex: 0 0 auto;
             width: 100%;
             height: 100%;
@@ -1019,7 +1002,7 @@ const CompanyRegistration = (props) => {
             font-family: Josefin Sans;
             font-weight: 300;
           }
-          .company-registration-container33 {
+          .company-registration-container32 {
             flex: 0 0 auto;
             width: 100%;
             height: 100%;
@@ -1036,7 +1019,7 @@ const CompanyRegistration = (props) => {
             font-family: Josefin Sans;
             font-weight: 300;
           }
-          .company-registration-container34 {
+          .company-registration-container33 {
             flex: 0 0 auto;
             width: 100%;
             height: 100%;
@@ -1053,7 +1036,7 @@ const CompanyRegistration = (props) => {
             font-family: Josefin Sans;
             font-weight: 300;
           }
-          .company-registration-container35 {
+          .company-registration-container34 {
             flex: 0 0 auto;
             width: 100%;
             height: 100%;
@@ -1070,7 +1053,7 @@ const CompanyRegistration = (props) => {
             font-family: Josefin Sans;
             font-weight: 300;
           }
-          .company-registration-container36 {
+          .company-registration-container35 {
             flex: 0 0 auto;
             width: 100%;
             height: 100%;
@@ -1087,7 +1070,7 @@ const CompanyRegistration = (props) => {
             font-family: Josefin Sans;
             font-weight: 300;
           }
-          .company-registration-container37 {
+          .company-registration-container36 {
             flex: 0 0 auto;
             width: 100%;
             height: 100%;
@@ -1104,7 +1087,7 @@ const CompanyRegistration = (props) => {
             font-family: Josefin Sans;
             font-weight: 300;
           }
-          .company-registration-container38 {
+          .company-registration-container37 {
             flex: 0 0 auto;
             width: 100%;
             height: 100%;
@@ -1121,7 +1104,7 @@ const CompanyRegistration = (props) => {
             font-family: Josefin Sans;
             font-weight: 300;
           }
-          .company-registration-container39 {
+          .company-registration-container38 {
             flex: 0 0 auto;
             width: 100%;
             height: 100%;
@@ -1138,7 +1121,7 @@ const CompanyRegistration = (props) => {
             font-family: Josefin Sans;
             font-weight: 300;
           }
-          .company-registration-container40 {
+          .company-registration-container39 {
             flex: 0 0 auto;
             width: 100%;
             height: 100vh;
@@ -1148,7 +1131,7 @@ const CompanyRegistration = (props) => {
             margin-bottom: var(--dl-space-space-sixunits);
             justify-content: center;
           }
-          .company-registration-container41 {
+          .company-registration-container40 {
             flex: 0 0 auto;
             width: 40%;
             height: 80%;
@@ -1164,7 +1147,7 @@ const CompanyRegistration = (props) => {
             font-family: 'Josefin Sans';
             font-weight: 200;
           }
-          .company-registration-container42 {
+          .company-registration-container41 {
             flex: 0 0 auto;
             width: 40%;
             height: 60%;
@@ -1184,7 +1167,7 @@ const CompanyRegistration = (props) => {
             font-family: Josefin Sans;
             font-weight: 300;
           }
-          .company-registration-link06 {
+          .company-registration-link5 {
             fill: var(--dl-color-theme-accent1);
             color: var(--dl-color-theme-accent1);
             font-size: 1.5rem;
@@ -1195,11 +1178,11 @@ const CompanyRegistration = (props) => {
             font-weight: 200;
             text-decoration: underline;
           }
-          .company-registration-link06:hover {
-            fill: var(--dl-color-theme-neutral-dark);
-            color: var(--dl-color-theme-neutral-dark);
+          .company-registration-link5:hover {
+            fill: var(--dl-color-theme-primary1);
+            color: var(--dl-color-theme-primary1);
           }
-          .company-registration-link07 {
+          .company-registration-link6 {
             fill: var(--dl-color-theme-accent1);
             color: var(--dl-color-theme-accent1);
             font-size: 1.5rem;
@@ -1209,11 +1192,11 @@ const CompanyRegistration = (props) => {
             font-weight: 200;
             text-decoration: underline;
           }
-          .company-registration-link07:hover {
-            fill: var(--dl-color-theme-neutral-dark);
-            color: var(--dl-color-theme-neutral-dark);
+          .company-registration-link6:hover {
+            fill: var(--dl-color-theme-primary1);
+            color: var(--dl-color-theme-primary1);
           }
-          .company-registration-link08 {
+          .company-registration-link7 {
             fill: var(--dl-color-theme-accent1);
             color: var(--dl-color-theme-accent1);
             font-size: 1.5rem;
@@ -1223,11 +1206,11 @@ const CompanyRegistration = (props) => {
             font-weight: 200;
             text-decoration: underline;
           }
-          .company-registration-link08:hover {
-            fill: var(--dl-color-theme-neutral-dark);
-            color: var(--dl-color-theme-neutral-dark);
+          .company-registration-link7:hover {
+            fill: var(--dl-color-theme-primary1);
+            color: var(--dl-color-theme-primary1);
           }
-          .company-registration-link09 {
+          .company-registration-link8 {
             fill: var(--dl-color-theme-accent1);
             color: var(--dl-color-theme-accent1);
             font-size: 1.5rem;
@@ -1237,121 +1220,118 @@ const CompanyRegistration = (props) => {
             font-weight: 200;
             text-decoration: underline;
           }
-          .company-registration-link09:hover {
-            fill: var(--dl-color-theme-neutral-dark);
-            color: var(--dl-color-theme-neutral-dark);
+          .company-registration-link8:hover {
+            fill: var(--dl-color-theme-primary1);
+            color: var(--dl-color-theme-primary1);
           }
           @media (max-width: 1600px) {
+            .company-registration-text {
+              font-size: 2rem;
+              font-style: normal;
+              font-family: Josefin Sans;
+              font-weight: 300;
+            }
             .company-registration-image {
-              width: 80%;
-              height: auto;
               box-shadow: 5px 5px 10px 0px #000000;
             }
-            .company-registration-text {
-              color: var(--dl-color-gray-black);
-              width: 100%;
-            }
-            .company-registration-text01 {
-              width: 100%;
-            }
             .company-registration-container08 {
-              height: 50vh;
-            }
-            .company-registration-container09 {
               height: 100%;
             }
-            .company-registration-container42 {
+            .company-registration-container41 {
               height: 60%;
               border-radius: var(--dl-radius-radius-cardradius);
-              background-color: #521e01;
             }
             .company-registration-text47 {
               fill: var(--dl-color-theme-accent1);
               color: var(--dl-color-theme-accent1);
             }
-            .company-registration-link06 {
+            .company-registration-link5 {
               fill: var(--dl-color-theme-accent1);
               color: var(--dl-color-theme-accent1);
             }
-            .company-registration-link07 {
+            .company-registration-link6 {
               fill: var(--dl-color-theme-accent1);
               color: var(--dl-color-theme-accent1);
             }
-            .company-registration-link08 {
+            .company-registration-link7 {
               fill: var(--dl-color-theme-accent1);
               color: var(--dl-color-theme-accent1);
             }
-            .company-registration-link09 {
+            .company-registration-link8 {
               fill: var(--dl-color-theme-accent1);
               color: var(--dl-color-theme-accent1);
             }
           }
           @media (max-width: 1200px) {
             .company-registration-container02 {
-              width: 40%;
-            }
-            .company-registration-image {
-              width: 80%;
-            }
-            .company-registration-container04 {
-              width: 95%;
-            }
-            .company-registration-text01 {
               width: 100%;
             }
-            .company-registration-container05 {
-              width: 90%;
+            .company-registration-container04 {
+              width: 100%;
             }
-            .company-registration-container08 {
+            .company-registration-container07 {
               height: 75vh;
             }
-            .company-registration-container09 {
+            .company-registration-container08 {
               width: 90%;
               height: 100%;
             }
             .company-registration-text46 {
               width: 90%;
             }
-            .company-registration-container42 {
+            .company-registration-container41 {
               width: 50%;
               height: 80%;
             }
             .company-registration-text47 {
               text-align: center;
             }
-            .company-registration-link06 {
+            .company-registration-link5 {
               text-align: center;
             }
-            .company-registration-link07 {
+            .company-registration-link6 {
               text-align: center;
             }
-            .company-registration-link08 {
+            .company-registration-link7 {
               text-align: center;
             }
-            .company-registration-link09 {
+            .company-registration-link8 {
               text-align: center;
             }
           }
           @media (max-width: 991px) {
+            .company-registration-hero {
+              margin-top: var(--dl-space-space-sixunits);
+              flex-direction: column;
+            }
             .company-registration-container01 {
-              height: 75vh;
-            }
-            .company-registration-container02 {
-              display: none;
-            }
-            .company-registration-image {
-              order: 2;
-              width: 100%;
-            }
-            .company-registration-container03 {
               width: 80%;
+              align-items: center;
+              margin-right: 0px;
+              margin-bottom: var(--dl-space-space-twounits);
+              padding-right: 0px;
+            }
+            .company-registration-text {
+              max-width: auto;
+              min-width: 100%;
             }
             .company-registration-text01 {
-              text-align: left;
+              width: 100%;
             }
-            .company-registration-container05 {
-              height: 100vh;
+            .company-registration-image {
+              width: 80%;
+            }
+            .company-registration-container02 {
+              height: auto;
               flex-direction: column;
+            }
+            .company-registration-text02 {
+              margin-top: var(--dl-space-space-twounits);
+            }
+            .company-registration-container04 {
+              align-items: center;
+              flex-direction: column;
+              justify-content: center;
             }
             .company-registration-title1 {
               text-align: center;
@@ -1370,23 +1350,26 @@ const CompanyRegistration = (props) => {
             .company-registration-title13 {
               text-align: center;
             }
+            .company-registration-title14 {
+              padding-bottom: var(--dl-space-space-twounits);
+            }
+            .company-registration-container07 {
+              height: auto;
+            }
             .company-registration-container08 {
               height: auto;
             }
-            .company-registration-container09 {
-              height: auto;
-            }
-            .company-registration-container40 {
+            .company-registration-container39 {
               height: auto;
               flex-direction: column;
             }
-            .company-registration-container41 {
+            .company-registration-container40 {
               width: 70%;
             }
             .company-registration-text46 {
               margin-top: var(--dl-space-space-unit);
             }
-            .company-registration-container42 {
+            .company-registration-container41 {
               width: 80%;
               height: 60vh;
               margin-top: var(--dl-space-space-fourunits);
@@ -1395,47 +1378,42 @@ const CompanyRegistration = (props) => {
               width: 50%;
               text-align: center;
             }
-            .company-registration-link06 {
+            .company-registration-link5 {
               text-align: center;
             }
-            .company-registration-link07 {
+            .company-registration-link6 {
               text-align: center;
             }
-            .company-registration-link08 {
+            .company-registration-link7 {
               text-align: center;
             }
-            .company-registration-link09 {
+            .company-registration-link8 {
               text-align: center;
             }
           }
           @media (max-width: 767px) {
-            .company-registration-image {
-              width: 100%;
+            .company-registration-hero {
+              padding-left: var(--dl-space-space-twounits);
+              padding-right: var(--dl-space-space-twounits);
             }
-            .company-registration-container03 {
-              width: 100%;
-            }
-            .company-registration-container04 {
-              width: 90%;
-              align-self: center;
+            .company-registration-container01 {
+              width: 80%;
+              margin-top: var(--dl-space-space-threeunits);
             }
             .company-registration-text {
-              align-self: center;
-              text-align: left;
+              width: 75%;
+              max-width: auto;
             }
             .company-registration-text01 {
-              width: 100%;
-              font-size: 1.5rem;
-              align-self: center;
-              font-style: normal;
-              font-family: Josefin Sans;
-              font-weight: 200;
-              padding-left: var(--dl-space-space-halfunit);
-            }
-            .company-registration-text02 {
+              width: 75%;
               align-self: flex-start;
+              padding-left: 0px;
+              padding-right: 0px;
             }
-            .company-registration-container05 {
+            .company-registration-image {
+              width: 80%;
+            }
+            .company-registration-container02 {
               height: auto;
             }
             .company-registration-feature1 {
@@ -1456,7 +1434,7 @@ const CompanyRegistration = (props) => {
             .company-registration-feature5 {
               width: 50%;
             }
-            .company-registration-container09 {
+            .company-registration-container08 {
               width: 95%;
             }
             .company-registration-text05 {
@@ -1468,13 +1446,13 @@ const CompanyRegistration = (props) => {
             .company-registration-text07 {
               text-align: center;
             }
-            .company-registration-container40 {
+            .company-registration-container39 {
               height: auto;
             }
-            .company-registration-container41 {
+            .company-registration-container40 {
               width: 80%;
             }
-            .company-registration-container42 {
+            .company-registration-container41 {
               width: 100%;
               height: 75vh;
               padding: var(--dl-space-space-threeunits);
@@ -1484,40 +1462,40 @@ const CompanyRegistration = (props) => {
             .company-registration-text47 {
               width: 80%;
             }
-            .company-registration-link06 {
+            .company-registration-link5 {
               text-align: center;
             }
-            .company-registration-link07 {
+            .company-registration-link6 {
               text-align: center;
             }
-            .company-registration-link08 {
+            .company-registration-link7 {
               text-align: center;
             }
-            .company-registration-link09 {
+            .company-registration-link8 {
               text-align: center;
             }
           }
           @media (max-width: 479px) {
-            .company-registration-image {
-              width: 100%;
+            .company-registration-hero {
+              padding-top: var(--dl-space-space-twounits);
+              padding-left: var(--dl-space-space-unit);
+              padding-right: var(--dl-space-space-unit);
+              padding-bottom: var(--dl-space-space-twounits);
             }
-            .company-registration-container04 {
-              width: 80%;
-              height: 100%;
+            .company-registration-container01 {
+              width: 90%;
+              margin-bottom: var(--dl-space-space-unit);
             }
             .company-registration-text {
-              width: 100%;
-              text-align: left;
+              max-width: auto;
             }
             .company-registration-text01 {
               width: 100%;
-              font-size: 1.5rem;
-              text-align: left;
               padding-left: 0px;
               padding-right: 0px;
             }
-            .company-registration-text02 {
-              align-self: flex-start;
+            .company-registration-image {
+              width: 100%;
             }
             .company-registration-feature1 {
               width: 50%;
@@ -1537,29 +1515,25 @@ const CompanyRegistration = (props) => {
             .company-registration-title14 {
               text-align: center;
             }
+            .company-registration-container06 {
+              display: none;
+            }
             .company-registration-container07 {
+              width: 100%;
+              height: auto;
               display: none;
             }
             .company-registration-container08 {
               width: 100%;
               height: auto;
-              display: none;
             }
-            .company-registration-container09 {
-              width: 100%;
-              height: auto;
-            }
-            .company-registration-container18 {
+            .company-registration-container17 {
               height: 100%;
-            }
-            .company-registration-container40 {
-              margin-top: 0px;
-              margin-bottom: 0px;
             }
             .company-registration-text46 {
               width: 100%;
             }
-            .company-registration-container42 {
+            .company-registration-container41 {
               width: 100%;
               height: 75vh;
               padding: var(--dl-space-space-twounits);
@@ -1567,17 +1541,17 @@ const CompanyRegistration = (props) => {
             .company-registration-text47 {
               text-align: center;
             }
-            .company-registration-link06 {
+            .company-registration-link5 {
               width: 100%;
               text-align: center;
             }
-            .company-registration-link07 {
+            .company-registration-link6 {
               text-align: center;
             }
-            .company-registration-link08 {
+            .company-registration-link7 {
               text-align: center;
             }
-            .company-registration-link09 {
+            .company-registration-link8 {
               text-align: center;
             }
           }

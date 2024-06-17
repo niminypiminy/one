@@ -49,7 +49,7 @@ const ImmigrationLaw = (props) => {
           <div className="immigration-law-container4">
             <img
               alt="image"
-              src="/designer%20(2)1-600w.jpeg"
+              src="/immigration-600w.jpeg"
               className="immigration-law-image"
             />
           </div>

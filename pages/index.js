@@ -98,18 +98,18 @@ const Home = (props) => {
             <div className="home-content1">
               <div className="home-column1">
                 <img
-                  alt="Legal consultation meeting"
+                  alt="John Locke"
                   src="/images-700w.jpg"
                   className="home-placeholder-image thq-img-ratio-1-1"
                 />
                 <img
-                  alt="Team of lawyers discussing case"
-                  src="/designer%20(2)2-700w.jpeg"
+                  alt="Law Library"
+                  src="/homepage1-700w.jpeg"
                   className="home-placeholder-image1 thq-img-ratio-1-1"
                 />
                 <img
-                  alt="Client receiving legal advice"
-                  src="/designer%20(1)-700w.jpeg"
+                  alt="Lawyers Negotiating"
+                  src="/lawyersnegotiating-700w.jpeg"
                   className="home-placeholder-image2 thq-img-ratio-1-1"
                 />
               </div>
@@ -120,13 +120,13 @@ const Home = (props) => {
                   className="home-placeholder-image3 thq-img-ratio-1-1"
                 />
                 <img
-                  alt="Immigration visa application process"
-                  src="https://images.unsplash.com/photo-1473186505569-9c61870c11f9?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxODIzODc2OXw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                  alt="Drafting a contract"
+                  src="https://images.unsplash.com/photo-1473186505569-9c61870c11f9?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxODIzODc2OXw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
                   className="home-placeholder-image4 thq-img-ratio-1-1"
                 />
                 <img
-                  alt="Company registration paperwork"
-                  src="/designer%20(3)-400h.jpeg"
+                  alt="Woman Having Coffee in Office"
+                  src="/womancoffeeoffice-400h.jpeg"
                   className="home-placeholder-image5 thq-img-ratio-1-1"
                 />
                 <img

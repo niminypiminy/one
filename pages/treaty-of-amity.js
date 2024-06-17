@@ -71,7 +71,7 @@ const TreatyOfAmity = (props) => {
           </div>
           <img
             alt="image"
-            src="/treaty%20of%20amity%203-1500h.jpg"
+            src="/treaty%20of%20amity-1500h.jpg"
             loading="eager"
             className="treaty-of-amity-image"
           />

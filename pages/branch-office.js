@@ -257,6 +257,7 @@ const BranchOffice = (props) => {
             display: flex;
             margin-top: var(--dl-space-space-fourunits);
             align-items: center;
+            margin-bottom: var(--dl-space-space-fourunits);
             justify-content: center;
           }
           .branch-office-container02 {
@@ -697,7 +698,7 @@ const BranchOffice = (props) => {
             margin-top: var(--dl-space-space-sixunits);
             text-align: center;
             font-family: Josefin Sans;
-            font-weight: 400;
+            font-weight: 300;
             text-transform: capitalize;
           }
           .branch-office-container09 {
@@ -729,7 +730,7 @@ const BranchOffice = (props) => {
             font-size: 1.5rem;
             font-style: normal;
             font-family: Josefin Sans;
-            font-weight: 400;
+            font-weight: 300;
           }
           .branch-office-container11 {
             flex: 0 0 auto;
@@ -748,7 +749,7 @@ const BranchOffice = (props) => {
             font-size: 1.5rem;
             font-style: normal;
             font-family: Josefin Sans;
-            font-weight: 400;
+            font-weight: 300;
           }
           .branch-office-container12 {
             flex: 0 0 auto;
@@ -909,7 +910,7 @@ const BranchOffice = (props) => {
             font-style: normal;
             margin-top: var(--dl-space-space-fourunits);
             font-family: Josefin Sans;
-            font-weight: 200;
+            font-weight: 300;
             padding-top: var(--dl-space-space-halfunit);
             padding-left: var(--dl-space-space-halfunit);
             padding-right: var(--dl-space-space-halfunit);
@@ -1302,9 +1303,6 @@ const BranchOffice = (props) => {
             .branch-office-text23 {
               color: var(--dl-color-gray-black);
               width: 60%;
-            }
-            .branch-office-link1 {
-              color: var(--dl-color-gray-black);
             }
           }
           @media (max-width: 479px) {

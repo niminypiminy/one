@@ -86,6 +86,9 @@ const Footer1 = (props) => {
             height: auto;
           }
 
+          .footer1-root-class-name26 {
+            margin-top: var(--dl-space-space-sixunits);
+          }
           @media (max-width: 1600px) {
             .footer1-text {
               color: var(--dl-color-gray-black);

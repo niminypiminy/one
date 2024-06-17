@@ -63,7 +63,7 @@ const Blog = (props) => {
             <div className="blog-image-container">
               <img
                 alt="Image"
-                src="/designer4-1400w.jpeg"
+                src="/drug%20possession-1400w.jpeg"
                 className="blog-placeholder-image thq-img-ratio-16-9"
               />
             </div>
@@ -74,7 +74,7 @@ const Blog = (props) => {
             <div className="blog-image-container1">
               <img
                 alt="Image"
-                src="/designer3-1400w.jpeg"
+                src="/onlinefraud-1400w.jpeg"
                 className="blog-placeholder-image1 thq-img-ratio-16-9"
               />
             </div>
@@ -141,7 +141,7 @@ const Blog = (props) => {
             <div className="blog-image-container2">
               <img
                 alt="Image"
-                src="/designer2-1400w.jpeg"
+                src="/domesticabuse-1400w.jpeg"
                 className="blog-placeholder-image2 thq-img-ratio-16-9"
               />
             </div>
@@ -152,7 +152,7 @@ const Blog = (props) => {
             <div className="blog-image-container3">
               <img
                 alt="Image"
-                src="/designer%20(6)-1400w.jpeg"
+                src="/defamation-1400w.jpeg"
                 className="blog-placeholder-image3 thq-img-ratio-16-9"
               />
             </div>
@@ -227,7 +227,7 @@ const Blog = (props) => {
             <div className="blog-image-container4">
               <img
                 alt="Image"
-                src="/designer1-1400w.jpeg"
+                src="/criminal%20proceeding-1400w.jpeg"
                 className="blog-placeholder-image4 thq-img-ratio-16-9"
               />
             </div>

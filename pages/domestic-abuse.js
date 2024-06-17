@@ -54,7 +54,7 @@ const DomesticAbuse = (props) => {
                     Written by
                   </span>
                   <span className="domestic-abuse-text01 thq-body-small">
-                    Ulliam
+                    Uilliam
                   </span>
                 </div>
                 <div className="domestic-abuse-time">

@@ -746,8 +746,10 @@ const RepresentativeOffice = (props) => {
             width: 100%;
             display: flex;
             max-width: 100%;
+            margin-top: var(--dl-space-space-threeunits);
             min-height: 80vh;
             align-items: center;
+            margin-bottom: var(--dl-space-space-threeunits);
             flex-direction: row;
             justify-content: center;
           }

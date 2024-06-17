@@ -331,10 +331,6 @@ const ForeignBusinessLicense = (props) => {
             align-self: center;
             box-shadow: 5px 5px 10px 0px #000000;
             object-fit: cover;
-            transition: 0.3s;
-          }
-          .foreign-business-license-image:hover {
-            transform: scale(1.2);
           }
           .foreign-business-license-container03 {
             flex: 0 0 auto;

@@ -557,6 +557,7 @@ const Navbar = (props) => {
           .navbar-text01 {
             fill: var(--dl-color-theme-neutral-light);
             color: var(--dl-color-theme-neutral-light);
+            padding: var(--dl-space-space-halfunit);
             font-size: 1.2rem;
             font-style: normal;
             font-family: 'Josefin Sans';

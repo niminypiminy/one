@@ -33,7 +33,7 @@ const ContractLaw = (props) => {
           <div className="contract-law-container2">
             <img
               alt="image"
-              src="/designer-600w.jpeg"
+              src="/contract%20law%20-600w.jpeg"
               className="contract-law-image"
             />
           </div>
@@ -41,12 +41,11 @@ const ContractLaw = (props) => {
             <div className="contract-law-container4">
               <h1 className="contract-law-text">Contract Law</h1>
               <span className="contract-law-text01">
-                Our firm has extensive experience in the drafting and
-                enforcement of contracts across various business sectors,
-                including but not limited to real estate acquisitions,
-                intellectual property, labor and employment, settlements,
-                service agreements, purchase agreements, and sale of goods
-                agreements.
+                Our firm has extensive experience in the drafting and enforcing
+                contracts across various business sectors, including but not
+                limited to real estate acquisitions, intellectual property,
+                labor and employment, settlements, service agreements, purchase
+                agreements, and sale of goods agreements.
               </span>
               <Link href="/contact">
                 <a className="contract-law-link">
@@ -96,10 +95,9 @@ const ContractLaw = (props) => {
                 subcontract legal tasks to established law firms such as ours. A
                 significant red flag indicating that a firm is not a bona fide
                 law firm is if they promote themselves as being registered under
-                the BOI. It is important to note that law firms cannot
-                registered under the BOI; rather; these entities tend to levy
-                excessive fees on their clients, acting as a middleman between
-                yourself and the law firm.
+                the BOI. These entities tend to levy excessive fees on their
+                clients, acting as a middleman between yourself and the law
+                firm.
               </p>
               <div className="contract-law-actions"></div>
             </div>
@@ -141,10 +139,6 @@ const ContractLaw = (props) => {
             align-self: center;
             box-shadow: 5px 5px 10px 0px #000000;
             object-fit: cover;
-            transition: 0.3s;
-          }
-          .contract-law-image:hover {
-            transform: scale(1.2);
           }
           .contract-law-container3 {
             flex: 0 0 auto;
@@ -212,10 +206,10 @@ const ContractLaw = (props) => {
             display: flex;
             overflow: hidden;
             position: relative;
-            margin-top: var(--dl-space-space-sixunits);
+            margin-top: var(--dl-space-space-fourunits);
             align-items: center;
             flex-shrink: 0;
-            margin-bottom: var(--dl-space-space-sixunits);
+            margin-bottom: var(--dl-space-space-fourunits);
             flex-direction: column;
             justify-content: center;
           }
@@ -248,6 +242,7 @@ const ContractLaw = (props) => {
             display: flex;
             overflow: hidden;
             position: relative;
+            margin-top: var(--dl-space-space-twounits);
             align-items: center;
           }
           .contract-law-column {
