@@ -37,31 +37,25 @@ const AboutUs = (props) => {
                 <span>
                   At Danneskiold &amp; Associates LP, we&apos;re dedicated to
                   delivering practical, effective, and affordable legal
-                  solutions tailored to our clients&apos; needs. Unlike many
-                  firms in Thailand&apos;s legal market, we pride ourselves on
-                  our direct client relationships and commitment to integrity.
+                  solutions tailored to our clients&apos; needs.
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: ' ',
+                    }}
+                  />
                 </span>
                 <br></br>
                 <br></br>
                 <span>
-                  While some firms act as intermediaries, outsourcing cases to
-                  lawyers at inflated costs, we operate differently. We believe
-                  in transparency and value, offering a flat-rate fee structure
-                  that applies equally to all clients, whether domestic or
-                  foreign. Additionally, your case is always handled in-house,
-                  ensuring personalized attention and expertise every step of
-                  the way.
-                </span>
-                <br></br>
-                <br></br>
-                <span>
-                  Unlike business service firms, who focus on conversion rate
-                  optimization, we&apos;re an actual law firm focused on winning
-                  cases. We handle a diverse range of legal matters,
-                  encompassing both individual and corporate needs. And you can
-                  be confident in knowing that we offer tangible results, not
-                  empty promises, Our firm only takes on cases where we can
-                  deliver genuine value.
+                  Unlike business service firms who act as intermediaries
+                  between lawyers and clients, and focus on conversion rate
+                  optimization, we&apos;re a law firm focused on winning cases.
+                  We handle a diverse range of legal matters, encompassing both
+                  individual and corporate needs. And we offer tangible results,
+                  not empty promises, Our firm will only take your case if we
+                  can deliver genuine value. Additionally, your case is always
+                  handled in-house, ensuring personalized attention and
+                  expertise every step of the way. 
                 </span>
                 <br></br>
                 <br></br>
@@ -78,67 +72,6 @@ const AboutUs = (props) => {
                   <span className="thq-body-small">Contact Us</span>
                 </a>
               </Link>
-            </div>
-          </div>
-          <div className="about-us-content1">
-            <div className="about-us-row">
-              <img
-                alt="Law firm building in Southeast Asia"
-                src="/images%20(1)-1500w.jpg"
-                className="about-us-placeholder-image thq-img-ratio-1-1"
-              />
-              <img
-                alt="Hero Image"
-                src="/download-1500w.jpg"
-                className="about-us-placeholder-image01 thq-img-ratio-1-1"
-              />
-              <img
-                alt="Hero Image"
-                src="/images%20(2)-1500w.jpg"
-                className="about-us-placeholder-image02 thq-img-ratio-1-1"
-              />
-              <img
-                alt="Hero Image"
-                src="/thomas-jefferson-hulton-archive-1500w.jpg"
-                className="about-us-placeholder-image03 thq-img-ratio-1-1"
-              />
-              <img
-                alt="Hero Image"
-                src="/71fatprz66l._ac_uf894%2C1000_ql80_-1500w.jpg"
-                className="about-us-placeholder-image04 thq-img-ratio-1-1"
-              />
-            </div>
-            <div className="about-us-row1">
-              <img
-                alt="Hero Image"
-                src="/albert_venn_dicey_in_academic_robes-1500w.jpg"
-                className="about-us-placeholder-image05 thq-img-ratio-1-1"
-              />
-              <img
-                alt="Hero Image"
-                src="/images%20(1)1-1500w.jpg"
-                className="about-us-placeholder-image06 thq-img-ratio-1-1"
-              />
-              <img
-                alt="Hero Image"
-                src="/images%20(2)1-1500w.jpg"
-                className="about-us-placeholder-image07 thq-img-ratio-1-1"
-              />
-              <img
-                alt="Hero Image"
-                src="/images-1500w.jpg"
-                className="about-us-placeholder-image08 thq-img-ratio-1-1"
-              />
-              <img
-                alt="Hero Image"
-                src="/images1-1500w.jpg"
-                className="about-us-placeholder-image09 thq-img-ratio-1-1"
-              />
-              <img
-                alt="Hero Image"
-                src="/istockphoto-1250276068-612x612-1500w.jpg"
-                className="about-us-placeholder-image10 thq-img-ratio-1-1"
-              />
             </div>
           </div>
         </div>
@@ -195,7 +128,7 @@ const AboutUs = (props) => {
             font-style: normal;
             text-align: left;
             font-family: 'Josefin Sans';
-            font-weight: 300;
+            font-weight: 200;
           }
           .about-us-actions {
             gap: var(--dl-space-space-unit);
@@ -207,84 +140,6 @@ const AboutUs = (props) => {
             padding: var(--dl-space-space-oneandhalfunits);
             margin-top: var(--dl-space-space-unit);
             text-decoration: none;
-          }
-          .about-us-content1 {
-            gap: var(--dl-space-space-oneandhalfunits);
-            display: flex;
-            position: relative;
-            align-items: center;
-            flex-direction: column;
-          }
-          .about-us-row {
-            gap: var(--dl-space-space-oneandhalfunits);
-            width: auto;
-            height: auto;
-            display: flex;
-            align-items: flex-start;
-            flex-shrink: 0;
-          }
-          .about-us-placeholder-image {
-            width: 400px;
-            height: 400px;
-            border-radius: var(--dl-radius-radius-radius4);
-          }
-          .about-us-placeholder-image01 {
-            width: 400px;
-            height: 400px;
-            border-radius: var(--dl-radius-radius-radius4);
-          }
-          .about-us-placeholder-image02 {
-            width: 400px;
-            height: 400px;
-            border-radius: var(--dl-radius-radius-radius4);
-          }
-          .about-us-placeholder-image03 {
-            width: 400px;
-            height: 400px;
-            border-radius: var(--dl-radius-radius-radius4);
-          }
-          .about-us-placeholder-image04 {
-            width: 400px;
-            height: 400px;
-            border-radius: var(--dl-radius-radius-radius4);
-          }
-          .about-us-row1 {
-            gap: var(--dl-space-space-oneandhalfunits);
-            width: auto;
-            display: flex;
-            z-index: 1;
-            align-items: flex-start;
-            flex-shrink: 0;
-          }
-          .about-us-placeholder-image05 {
-            width: 400px;
-            height: 400px;
-            border-radius: var(--dl-radius-radius-radius4);
-          }
-          .about-us-placeholder-image06 {
-            width: 400px;
-            height: 400px;
-            border-radius: var(--dl-radius-radius-radius4);
-          }
-          .about-us-placeholder-image07 {
-            width: 400px;
-            height: 400px;
-            border-radius: var(--dl-radius-radius-radius4);
-          }
-          .about-us-placeholder-image08 {
-            width: 400px;
-            height: 400px;
-            border-radius: var(--dl-radius-radius-radius4);
-          }
-          .about-us-placeholder-image09 {
-            width: 400px;
-            height: 400px;
-            border-radius: var(--dl-radius-radius-radius4);
-          }
-          .about-us-placeholder-image10 {
-            width: 400px;
-            height: 400px;
-            border-radius: var(--dl-radius-radius-radius4);
           }
           @media (max-width: 1200px) {
             .about-us-column {
@@ -299,51 +154,6 @@ const AboutUs = (props) => {
           @media (max-width: 767px) {
             .about-us-header78 {
               padding: var(--dl-space-space-threeunits);
-            }
-            .about-us-content1 {
-              width: 100%;
-            }
-            .about-us-row {
-              width: 100%;
-              flex-direction: column;
-            }
-            .about-us-placeholder-image {
-              width: 100%;
-            }
-            .about-us-placeholder-image01 {
-              width: 100%;
-            }
-            .about-us-placeholder-image02 {
-              width: 100%;
-            }
-            .about-us-placeholder-image03 {
-              width: 100%;
-            }
-            .about-us-placeholder-image04 {
-              width: 100%;
-            }
-            .about-us-row1 {
-              width: 100%;
-              display: none;
-              flex-direction: column;
-            }
-            .about-us-placeholder-image05 {
-              width: 100%;
-            }
-            .about-us-placeholder-image06 {
-              width: 100%;
-            }
-            .about-us-placeholder-image07 {
-              width: 100%;
-            }
-            .about-us-placeholder-image08 {
-              width: 100%;
-            }
-            .about-us-placeholder-image09 {
-              width: 100%;
-            }
-            .about-us-placeholder-image10 {
-              width: 100%;
             }
           }
           @media (max-width: 479px) {
