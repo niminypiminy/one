@@ -47,7 +47,7 @@ const RepresentativeOffice = (props) => {
               </span>
             </div>
             <img
-              alt="image"
+              alt="illustration of a rep office"
               src="/repoffice-1500h.jpg"
               loading="eager"
               className="representative-office-image"

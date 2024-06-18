@@ -57,7 +57,7 @@ const JapanThailandEconomicPartnershipAgreement = (props) => {
             </span>
           </div>
           <img
-            alt="image"
+            alt="Mount Fuji"
             src="/japanthai-1500h.jpg"
             loading="eager"
             className="japan-thailand-economic-partnership-agreement-image"

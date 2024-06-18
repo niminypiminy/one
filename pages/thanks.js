@@ -26,7 +26,11 @@ const Thanks = (props) => {
         </Head>
         <Navbar></Navbar>
         <div className="thanks-container1">
-          <img alt="image" src="/oig4-1500w.jpg" className="thanks-image" />
+          <img
+            alt="court room gavel"
+            src="/oig4-1500w.jpg"
+            className="thanks-image"
+          />
           <h1 className="thanks-text">
             Thank you for contacting our law firm. We will respond to your
             enquiry as soon as humanly possible. Usually, within the hour,

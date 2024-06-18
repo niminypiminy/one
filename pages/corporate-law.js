@@ -29,7 +29,7 @@ const CorporateLaw = (props) => {
         <div className="corporate-law-container1">
           <div className="corporate-law-container2">
             <img
-              alt="image"
+              alt="bangkok city skyline"
               src="/corporate%20law-600w.jpg"
               className="corporate-law-image"
             />

@@ -35,7 +35,7 @@ const LimitedPartnershipLP = (props) => {
           <div className="limited-partnership-lp-container02">
             <div className="limited-partnership-lp-container03">
               <img
-                alt="image"
+                alt="two men shaking hands"
                 src="/limited%20partnership-600w.jpg"
                 className="limited-partnership-lp-image"
               />

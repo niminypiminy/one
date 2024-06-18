@@ -54,7 +54,7 @@ const BranchOffice = (props) => {
           </div>
           <div className="branch-office-container04">
             <img
-              alt="image"
+              alt="People discussing work at a Branch office"
               src="/branch%20office-600w.jpg"
               loading="eager"
               className="branch-office-image"

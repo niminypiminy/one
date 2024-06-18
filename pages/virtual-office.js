@@ -31,7 +31,7 @@ const VirtualOffice = (props) => {
         <div className="virtual-office-container1">
           <div className="virtual-office-container2">
             <img
-              alt="image"
+              alt="image of a virtual office"
               src="/virtual%20office-600w.jpg"
               loading="eager"
               className="virtual-office-image"

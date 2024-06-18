@@ -98,7 +98,7 @@ const Home = (props) => {
             <div className="home-content1">
               <div className="home-column1">
                 <img
-                  alt="John Locke"
+                  alt="Photo of Philosopher John Locke"
                   src="/images-700w.jpg"
                   className="home-placeholder-image thq-img-ratio-1-1"
                 />
@@ -115,8 +115,8 @@ const Home = (props) => {
               </div>
               <div className="home-column2">
                 <img
-                  alt="Lawyer reviewing documents"
-                  src="https://images.unsplash.com/photo-1696677528468-7b5af2d5363b?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxODIzODc2OHw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                  alt="Lawyers"
+                  src="https://images.unsplash.com/photo-1696677528468-7b5af2d5363b?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxODIzODc2OHw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
                   className="home-placeholder-image3 thq-img-ratio-1-1"
                 />
                 <img
@@ -130,8 +130,8 @@ const Home = (props) => {
                   className="home-placeholder-image5 thq-img-ratio-1-1"
                 />
                 <img
-                  alt="Criminal law courtroom scene"
-                  src="https://images.unsplash.com/photo-1555374018-13a8994ab246?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxODIzODc2N3w&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                  alt="Judges Gavel"
+                  src="https://images.unsplash.com/photo-1555374018-13a8994ab246?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxODIzODc2N3w&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
                   className="home-placeholder-image6 thq-img-ratio-1-1"
                 />
               </div>

@@ -71,7 +71,7 @@ const PublicLaw = (props) => {
           </div>
           <div className="public-law-container4">
             <img
-              alt="image"
+              alt="thai people walking on a street"
               src="/public%20law-500w.jpg"
               loading="eager"
               className="public-law-image"

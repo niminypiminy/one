@@ -49,7 +49,7 @@ const CriminalLaw = (props) => {
           </div>
           <div className="criminal-law-container4">
             <img
-              alt="image"
+              alt="lawyer meeting with a client in jail"
               src="/criminal%20law-600w.jpg"
               className="criminal-law-image"
             />
@@ -57,7 +57,7 @@ const CriminalLaw = (props) => {
         </div>
         <div className="criminal-law-header9">
           <img
-            alt="Hero Image"
+            alt="defense attorneys meeting"
             src="/criminal%20law2-1500w.jpg"
             className="criminal-law-placeholder-image thq-img-ratio-16-9"
           />

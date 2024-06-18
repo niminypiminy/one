@@ -41,7 +41,7 @@ const Page = (props) => {
               <span className="page-read-time thq-body-small">5 min read</span>
               <div className="page-content1">
                 <img
-                  alt="PlaceholderImage3501"
+                  alt="attorney manita sroykeeree"
                   src="/photo_2024-04-29_08-16-34-1400w.jpg"
                   className="page-author-image thq-img-round thq-img-ratio-1-1"
                 />

@@ -56,7 +56,7 @@ const BoardOfInvestment = (props) => {
             </span>
           </div>
           <img
-            alt="image"
+            alt="A group of people at a board meeting"
             src="/board%20of%20investment-1500h.jpg"
             loading="eager"
             className="board-of-investment-image"

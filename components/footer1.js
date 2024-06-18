@@ -32,7 +32,7 @@ const Footer1 = (props) => {
           }
 
           .footer1-root-class-name2 {
-            margin-top: var(--dl-space-space-threeunits);
+            margin-top: var(--dl-space-space-fourunits);
           }
           .footer1-root-class-name3 {
             margin-top: var(--dl-space-space-threeunits);
@@ -87,7 +87,7 @@ const Footer1 = (props) => {
           }
 
           .footer1-root-class-name26 {
-            margin-top: var(--dl-space-space-sixunits);
+            margin-top: var(--dl-space-space-fourunits);
           }
           @media (max-width: 1600px) {
             .footer1-text {

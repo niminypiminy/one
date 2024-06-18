@@ -45,7 +45,7 @@ const CompanyRegistration = (props) => {
             </span>
           </div>
           <img
-            alt="image"
+            alt="Incorporating a company"
             src="/companyregistration-1500h.jpeg"
             loading="eager"
             className="company-registration-image"

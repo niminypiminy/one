@@ -51,7 +51,7 @@ const ProBono = (props) => {
           </div>
           <div className="pro-bono-container4">
             <img
-              alt="image"
+              alt="meeting with client in a jail cell"
               src="/pro%20bono-1200h.jpg"
               className="pro-bono-image"
             />

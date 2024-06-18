@@ -36,7 +36,7 @@ const ForeignBusinessLicense = (props) => {
         <div className="foreign-business-license-container01">
           <div className="foreign-business-license-container02">
             <img
-              alt="image"
+              alt="foreigner in his office"
               src="/foreign%20business%20license-600w.jpg"
               className="foreign-business-license-image"
             />

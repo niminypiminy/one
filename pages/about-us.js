@@ -33,37 +33,20 @@ const AboutUs = (props) => {
           <div className="about-us-column thq-section-max-width thq-section-padding">
             <div className="about-us-content">
               <h1 className="about-us-text thq-heading-1">About us</h1>
-              <p className="about-us-text01 thq-body-large">
-                <span>
-                  At Danneskiold &amp; Associates LP, we&apos;re dedicated to
-                  delivering practical, effective, and affordable legal
-                  solutions tailored to our clients&apos; needs.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <br></br>
-                <br></br>
-                <span>
-                  Unlike business service firms who act as intermediaries
-                  between lawyers and clients, and focus on conversion rate
-                  optimization, we&apos;re a law firm focused on winning cases.
-                  We handle a diverse range of legal matters, encompassing both
-                  individual and corporate needs. And we offer tangible results,
-                  not empty promises, Our firm will only take your case if we
-                  can deliver genuine value. Additionally, your case is always
-                  handled in-house, ensuring personalized attention and
-                  expertise every step of the way. 
-                </span>
-                <br></br>
-                <br></br>
-                <span>
-                  For additional information, please contact us. Our team will
-                  endeavor to respond as soon as humanly possible. Generally,
-                  within the hour unless we&apos;re in court. 
-                </span>
+              <p className="about-us-text1 thq-body-large">
+                At Danneskiold &amp; Associates LP, we are dedicated to
+                delivering practical, effective, and affordable legal solutions
+                tailored to our clients needs. Unlike business service firms
+                that act as intermediaries between lawyers and clients and focus
+                on conversion rate optimization, we are a law firm dedicated to
+                winning cases. We handle a diverse range of legal matters,
+                catering to both individual and corporate needs, and we deliver
+                tangible results, not empty promises. We take on cases only when
+                we can provide genuine value. Additionally, your case is always
+                handled in-house, ensuring personalized attention and expertise
+                every step of the way. For more information, please contact us.
+                Our team strives to respond as promptly as possible, typically
+                within the hour unless we are in court.
               </p>
             </div>
             <div className="about-us-actions">
@@ -102,6 +85,7 @@ const AboutUs = (props) => {
             gap: var(--dl-space-space-oneandhalfunits);
             width: 60%;
             display: flex;
+            margin-top: var(--dl-space-space-fourunits);
             align-items: center;
             flex-shrink: 0;
             flex-direction: column;
@@ -114,19 +98,18 @@ const AboutUs = (props) => {
             flex-direction: column;
           }
           .about-us-text {
-            font-size: 2.5rem;
-            align-self: flex-start;
+            font-size: 2rem;
+            align-self: center;
             font-style: normal;
-            text-align: left;
             font-family: 'Josefin Sans';
-            font-weight: 400;
+            font-weight: 300;
           }
-          .about-us-text01 {
+          .about-us-text1 {
             width: auto;
             font-size: 1.5rem;
             align-self: flex-start;
             font-style: normal;
-            text-align: left;
+            text-align: center;
             font-family: 'Josefin Sans';
             font-weight: 200;
           }

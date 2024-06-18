@@ -60,7 +60,7 @@ const LimitedCompanyLtd = (props) => {
           </div>
           <div className="limited-company-ltd-container04">
             <img
-              alt="image"
+              alt="businessman working at his office"
               src="/limited%20company-600w.jpg"
               loading="eager"
               className="limited-company-ltd-image"

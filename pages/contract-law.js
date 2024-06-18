@@ -32,7 +32,7 @@ const ContractLaw = (props) => {
         <div className="contract-law-container1">
           <div className="contract-law-container2">
             <img
-              alt="image"
+              alt="a woman drafting a contract in her office"
               src="/contract%20law%20-600w.jpeg"
               className="contract-law-image"
             />

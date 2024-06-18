@@ -35,7 +35,7 @@ const ThaiAustraliaFreeTradeAgreement = (props) => {
         <div className="thai-australia-free-trade-agreement-container01">
           <div className="thai-australia-free-trade-agreement-container02">
             <img
-              alt="image"
+              alt="business partnership between Australians and Thais"
               src="/austhai-600w.jpeg"
               className="thai-australia-free-trade-agreement-image"
             />

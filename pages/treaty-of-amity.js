@@ -70,7 +70,7 @@ const TreatyOfAmity = (props) => {
             </span>
           </div>
           <img
-            alt="image"
+            alt="diplomat signing a treaty"
             src="/treaty%20of%20amity-1500h.jpg"
             loading="eager"
             className="treaty-of-amity-image"
