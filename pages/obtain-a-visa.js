@@ -690,8 +690,8 @@ const ObtainAVisa = (props) => {
             align-self: flex-start;
           }
           .obtain-a-visa-title1 {
-            fill: var(--dl-color-theme-accent1);
-            color: var(--dl-color-theme-accent1);
+            fill: var(--dl-color-theme-neutral-light);
+            color: var(--dl-color-theme-neutral-light);
             font-size: 1.5rem;
             font-style: normal;
             text-align: center;
@@ -709,8 +709,8 @@ const ObtainAVisa = (props) => {
             font-weight: 200;
           }
           .obtain-a-visa-title11 {
-            fill: var(--dl-color-theme-accent1);
-            color: var(--dl-color-theme-accent1);
+            fill: var(--dl-color-theme-neutral-light);
+            color: var(--dl-color-theme-neutral-light);
             font-size: 1.5rem;
             font-style: normal;
             text-align: center;
@@ -728,8 +728,8 @@ const ObtainAVisa = (props) => {
             font-weight: 200;
           }
           .obtain-a-visa-title12 {
-            fill: var(--dl-color-theme-accent1);
-            color: var(--dl-color-theme-accent1);
+            fill: var(--dl-color-theme-neutral-light);
+            color: var(--dl-color-theme-neutral-light);
             font-size: 1.5rem;
             font-style: normal;
             text-align: center;
@@ -750,8 +750,8 @@ const ObtainAVisa = (props) => {
             margin-top: var(--dl-space-space-twounits);
           }
           .obtain-a-visa-title13 {
-            fill: var(--dl-color-theme-accent1);
-            color: var(--dl-color-theme-accent1);
+            fill: var(--dl-color-theme-neutral-light);
+            color: var(--dl-color-theme-neutral-light);
             font-size: 1.5rem;
             font-style: normal;
             text-align: center;
@@ -772,8 +772,8 @@ const ObtainAVisa = (props) => {
             margin-top: var(--dl-space-space-twounits);
           }
           .obtain-a-visa-title2 {
-            fill: var(--dl-color-theme-accent1);
-            color: var(--dl-color-theme-accent1);
+            fill: var(--dl-color-theme-neutral-light);
+            color: var(--dl-color-theme-neutral-light);
             font-size: 1.5rem;
             font-style: normal;
             text-align: center;
@@ -794,8 +794,8 @@ const ObtainAVisa = (props) => {
             margin-top: var(--dl-space-space-twounits);
           }
           .obtain-a-visa-title3 {
-            fill: var(--dl-color-theme-accent1);
-            color: var(--dl-color-theme-accent1);
+            fill: var(--dl-color-theme-neutral-light);
+            color: var(--dl-color-theme-neutral-light);
             font-size: 1.5rem;
             font-style: normal;
             text-align: center;
@@ -2129,6 +2129,30 @@ const ObtainAVisa = (props) => {
             }
             .obtain-a-visa-title {
               font-size: 2rem;
+            }
+            .obtain-a-visa-title1 {
+              fill: var(--dl-color-theme-neutral-light);
+              color: var(--dl-color-theme-neutral-light);
+            }
+            .obtain-a-visa-title11 {
+              fill: var(--dl-color-theme-neutral-light);
+              color: var(--dl-color-theme-neutral-light);
+            }
+            .obtain-a-visa-title12 {
+              fill: var(--dl-color-theme-neutral-light);
+              color: var(--dl-color-theme-neutral-light);
+            }
+            .obtain-a-visa-title13 {
+              fill: var(--dl-color-theme-neutral-light);
+              color: var(--dl-color-theme-neutral-light);
+            }
+            .obtain-a-visa-title2 {
+              fill: var(--dl-color-theme-neutral-light);
+              color: var(--dl-color-theme-neutral-light);
+            }
+            .obtain-a-visa-title3 {
+              fill: var(--dl-color-theme-neutral-light);
+              color: var(--dl-color-theme-neutral-light);
             }
             .obtain-a-visa-text67 {
               font-size: 1.5rem;
