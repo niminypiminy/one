@@ -2120,28 +2120,28 @@ const ObtainAVisa = (props) => {
               font-size: 2rem;
             }
             .obtain-a-visa-title1 {
-              fill: var(--dl-color-theme-neutral-light);
-              color: var(--dl-color-theme-neutral-light);
+              fill: var(--dl-color-theme-accent1);
+              color: var(--dl-color-theme-accent1);
             }
             .obtain-a-visa-title11 {
-              fill: var(--dl-color-theme-neutral-light);
-              color: var(--dl-color-theme-neutral-light);
+              fill: var(--dl-color-theme-accent1);
+              color: var(--dl-color-theme-accent1);
             }
             .obtain-a-visa-title12 {
-              fill: var(--dl-color-theme-neutral-light);
-              color: var(--dl-color-theme-neutral-light);
+              fill: var(--dl-color-theme-accent1);
+              color: var(--dl-color-theme-accent1);
             }
             .obtain-a-visa-title13 {
-              fill: var(--dl-color-theme-neutral-light);
-              color: var(--dl-color-theme-neutral-light);
+              fill: var(--dl-color-theme-accent1);
+              color: var(--dl-color-theme-accent1);
             }
             .obtain-a-visa-title2 {
-              fill: var(--dl-color-theme-neutral-light);
-              color: var(--dl-color-theme-neutral-light);
+              fill: var(--dl-color-theme-accent1);
+              color: var(--dl-color-theme-accent1);
             }
             .obtain-a-visa-title3 {
-              fill: var(--dl-color-theme-neutral-light);
-              color: var(--dl-color-theme-neutral-light);
+              fill: var(--dl-color-theme-accent1);
+              color: var(--dl-color-theme-accent1);
             }
             .obtain-a-visa-text67 {
               font-size: 1.5rem;
