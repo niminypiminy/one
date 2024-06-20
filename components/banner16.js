@@ -50,14 +50,14 @@ const Banner16 = (props) => {
 
 Banner16.defaultProps = {
   content1: 'Your trusted legal partner in Southeast Asia',
-  action1: 'Contact Us for a Free Consultation',
   heading1: 'Welcome to Danneskiold & Associates',
+  action1: 'Contact Us for a Free Consultation',
 }
 
 Banner16.propTypes = {
   content1: PropTypes.string,
-  action1: PropTypes.string,
   heading1: PropTypes.string,
+  action1: PropTypes.string,
 }
 
 export default Banner16

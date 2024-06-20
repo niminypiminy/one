@@ -67,14 +67,12 @@ const ObtainAVisa = (props) => {
             </div>
           </div>
         </div>
-        <div className="obtain-a-visa-layout226 thq-section-padding">
+        <div className="obtain-a-visa-types-of-visas">
           <div className="obtain-a-visa-max-width1 thq-section-max-width thq-grid-auto-300">
             <div className="thq-flex-column">
               <div className="thq-flex-column obtain-a-visa-content1">
                 <a href="#transitvisa">
-                  <h3 className="obtain-a-visa-title1 thq-heading-3">
-                    Transit Visa
-                  </h3>
+                  <h3 className="obtain-a-visa-title1">Transit Visa</h3>
                 </a>
                 <span className="obtain-a-visa-description1 thq-body-small">
                   Primarily issued to individuals who are transiting through
@@ -85,9 +83,7 @@ const ObtainAVisa = (props) => {
             <div className="thq-flex-column obtain-a-visa-column2">
               <div className="thq-flex-column obtain-a-visa-content2">
                 <a href="#diplomaticvisa">
-                  <h3 className="obtain-a-visa-title11 thq-heading-3">
-                    Diplomatic Visa
-                  </h3>
+                  <h3 className="obtain-a-visa-title11">Diplomatic Visa</h3>
                 </a>
                 <span className="obtain-a-visa-description11 thq-body-small">
                   Issued to diplomats at embassies and UN agencies visiting
@@ -98,9 +94,7 @@ const ObtainAVisa = (props) => {
             <div className="thq-flex-column obtain-a-visa-column3">
               <div className="thq-flex-column obtain-a-visa-content3">
                 <a href="#officialvisa">
-                  <h3 className="obtain-a-visa-title12 thq-heading-3">
-                    Official Visa
-                  </h3>
+                  <h3 className="obtain-a-visa-title12">Official Visa</h3>
                 </a>
                 <span className="obtain-a-visa-description12 thq-body-small">
                   Issued predominately to UN officials and agents of governments
@@ -111,9 +105,7 @@ const ObtainAVisa = (props) => {
             <div className="obtain-a-visa-column4 thq-flex-column">
               <div className="thq-flex-column obtain-a-visa-content4">
                 <a href="#courtesyvisa">
-                  <h3 className="obtain-a-visa-title13 thq-heading-3">
-                    Courtesy Visa
-                  </h3>
+                  <h3 className="obtain-a-visa-title13">Courtesy Visa</h3>
                 </a>
                 <span className="obtain-a-visa-description13 thq-body-small">
                   Given to guests of the royal family, and government agencies.
@@ -123,9 +115,7 @@ const ObtainAVisa = (props) => {
             <div className="obtain-a-visa-column5 thq-flex-column">
               <div className="thq-flex-column obtain-a-visa-content5">
                 <a href="#touristvisa">
-                  <strong className="obtain-a-visa-title2 thq-heading-3">
-                    Tourist Visa
-                  </strong>
+                  <h3 className="obtain-a-visa-title2">Tourist Visa</h3>
                 </a>
                 <span className="obtain-a-visa-description2 thq-body-small">
                   Given to those who who seek to visit Thailand for tourism
@@ -136,9 +126,7 @@ const ObtainAVisa = (props) => {
             <div className="obtain-a-visa-column6 thq-flex-column">
               <div className="thq-flex-column obtain-a-visa-content6">
                 <a href="#non-immigrantvisa">
-                  <strong className="obtain-a-visa-title3 thq-heading-3">
-                    Non-Immigrant Visa
-                  </strong>
+                  <h3 className="obtain-a-visa-title3">Non-Immigrant Visa</h3>
                 </a>
                 <span className="obtain-a-visa-description3 thq-body-small">
                   Issued to students, investors, businessmen, missionaries, or
@@ -672,10 +660,11 @@ const ObtainAVisa = (props) => {
           .obtain-a-visa-text01 {
             background-color: var(--dl-color-theme-primary1);
           }
-          .obtain-a-visa-layout226 {
+          .obtain-a-visa-types-of-visas {
             width: 100%;
             display: flex;
             opacity: 0.9;
+            padding: var(--dl-space-space-fiveunits);
             overflow: hidden;
             position: relative;
             align-items: center;

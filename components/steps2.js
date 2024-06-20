@@ -206,27 +206,27 @@ const Steps2 = (props) => {
 }
 
 Steps2.defaultProps = {
-  step1Description:
-    'Schedule a meeting with one of our experienced attorneys to discuss your legal needs and assess how we can assist you.',
-  step3Description:
-    'We will provide you with dedicated legal representation, ensuring that your rights are protected and advocating for the best possible outcome.',
-  step2Title: 'Legal Strategy Development',
   step2Description:
     'Our team will work closely with you to develop a customized legal strategy tailored to your specific situation and goals.',
   step1Title: 'Initial Consultation',
+  step3Description:
+    'We will provide you with dedicated legal representation, ensuring that your rights are protected and advocating for the best possible outcome.',
   step3Title: 'Legal Representation',
+  step2Title: 'Legal Strategy Development',
+  step1Description:
+    'Schedule a meeting with one of our experienced attorneys to discuss your legal needs and assess how we can assist you.',
   step4Description:
     'We will guide you through the legal process until your case is successfully resolved, keeping you informed and supported every step of the way.',
   step4Title: 'Case Resolution',
 }
 
 Steps2.propTypes = {
-  step1Description: PropTypes.string,
-  step3Description: PropTypes.string,
-  step2Title: PropTypes.string,
   step2Description: PropTypes.string,
   step1Title: PropTypes.string,
+  step3Description: PropTypes.string,
   step3Title: PropTypes.string,
+  step2Title: PropTypes.string,
+  step1Description: PropTypes.string,
   step4Description: PropTypes.string,
   step4Title: PropTypes.string,
 }

@@ -108,30 +108,30 @@ const Features71 = (props) => {
 }
 
 Features71.defaultProps = {
-  feature3Title: 'Integrity and Trust',
-  feature1Slogan: 'Your one-stop solution for all legal needs',
-  feature2Slogan: 'Dedicated lawyers working directly on your case',
-  feature2Description:
-    "At Danneskiold & Associates, we believe in providing personalized attention to each case. That's why our in-house attorneys handle your legal matters directly, ensuring quality representation and timely assistance.",
-  feature1Description:
-    'Danneskiold & Associates offers a wide range of legal services including immigration visas, company registration, criminal law, and tax law. Our experienced attorneys are here to assist you with any legal matter you may encounter.',
   feature3Description:
     'Trust is the foundation of our practice. We prioritize integrity in all our interactions and transactions, ensuring that you receive honest counsel and trustworthy advice every step of the way.',
-  feature1Title: 'Comprehensive Legal Services',
+  feature3Title: 'Integrity and Trust',
+  feature2Description:
+    "At Danneskiold & Associates, we believe in providing personalized attention to each case. That's why our in-house attorneys handle your legal matters directly, ensuring quality representation and timely assistance.",
   feature3Slogan: 'Your reliable partner in the legal world',
+  feature1Slogan: 'Your one-stop solution for all legal needs',
   feature2Title: 'In-House Attorneys',
+  feature1Title: 'Comprehensive Legal Services',
+  feature2Slogan: 'Dedicated lawyers working directly on your case',
+  feature1Description:
+    'Danneskiold & Associates offers a wide range of legal services including immigration visas, company registration, criminal law, and tax law. Our experienced attorneys are here to assist you with any legal matter you may encounter.',
 }
 
 Features71.propTypes = {
-  feature3Title: PropTypes.string,
-  feature1Slogan: PropTypes.string,
-  feature2Slogan: PropTypes.string,
-  feature2Description: PropTypes.string,
-  feature1Description: PropTypes.string,
   feature3Description: PropTypes.string,
-  feature1Title: PropTypes.string,
+  feature3Title: PropTypes.string,
+  feature2Description: PropTypes.string,
   feature3Slogan: PropTypes.string,
+  feature1Slogan: PropTypes.string,
   feature2Title: PropTypes.string,
+  feature1Title: PropTypes.string,
+  feature2Slogan: PropTypes.string,
+  feature1Description: PropTypes.string,
 }
 
 export default Features71
