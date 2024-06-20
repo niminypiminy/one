@@ -32,8 +32,8 @@ const TortLaw = (props) => {
         <div className="tort-law-container1">
           <div className="tort-law-container2">
             <img
-              alt="defendant and plaintiff trying to reach agreement"
-              src="/tort%20law-600w.jpg"
+              alt="plaintiff slipped on the floor"
+              src="/tort%20law-600w.jpeg"
               className="tort-law-image"
             />
           </div>

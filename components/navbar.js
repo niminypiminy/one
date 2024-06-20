@@ -555,8 +555,8 @@ const Navbar = (props) => {
             height: 7px;
           }
           .navbar-text01 {
-            fill: var(--dl-color-theme-neutral-light);
-            color: var(--dl-color-theme-neutral-light);
+            fill: var(--dl-color-theme-accent1);
+            color: var(--dl-color-theme-accent1);
             padding: var(--dl-space-space-halfunit);
             font-size: 1.2rem;
             font-style: normal;
@@ -1774,11 +1774,6 @@ const Navbar = (props) => {
             .navbar-navbar-interactive {
               align-items: center;
               justify-content: space-between;
-            }
-            .navbar-text01 {
-              font-style: normal;
-              font-family: Josefin Sans;
-              font-weight: 300;
             }
             .navbar-text03 {
               font-style: normal;

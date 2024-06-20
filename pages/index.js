@@ -31,9 +31,18 @@ const Home = (props) => {
           <div className="home-max-width thq-section-max-width">
             <div className="home-content">
               <h1 className="home-text thq-heading-1">
-                Reliable Counsel, Resolute Advocacy, Unyielding Integrity.
+                <span>
+                  Reliable Counsel, Resolute Advocacy, Unyielding
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: ' ',
+                    }}
+                  />
+                </span>
+                <span className="home-text02">Integrity</span>
+                <span>.</span>
               </h1>
-              <p className="home-text01 thq-body-large">
+              <p className="home-text04 thq-body-large">
                 <span>
                   We are a boutique law firm. If you need legal assistance,
                   please contact us
@@ -56,7 +65,7 @@ const Home = (props) => {
                 <div className="home-container1">
                   <Link href="/about-us">
                     <a className="home-link02 thq-button-filled">
-                      <span className="home-text05 thq-body-small">
+                      <span className="home-text08 thq-body-small">
                         About us
                       </span>
                     </a>
@@ -65,7 +74,7 @@ const Home = (props) => {
                 <div className="home-container2">
                   <Link href="/contact">
                     <a className="home-link03 thq-button-outline">
-                      <span className="home-text06 thq-body-small">
+                      <span className="home-text09 thq-body-small">
                         Contact Us
                       </span>
                     </a>
@@ -78,7 +87,7 @@ const Home = (props) => {
         <div className="home-header76">
           <div className="home-max-width1 thq-section-max-width">
             <div className="home-column thq-section-padding">
-              <h1 className="home-text07 thq-heading-1">
+              <h1 className="home-text10 thq-heading-1">
                 <span>
                   Legal advice you can
                   <span
@@ -87,9 +96,9 @@ const Home = (props) => {
                     }}
                   />
                 </span>
-                <span className="home-text09">trust.</span>
+                <span className="home-text12">trust.</span>
               </h1>
-              <p className="home-text10 thq-body-large">
+              <p className="home-text13 thq-body-large">
                 We don&apos;t outsource cases. Each case is handled in-house,
                 directly by an attorney, ensuring the highest level of care and
                 attention to detail.
@@ -142,23 +151,23 @@ const Home = (props) => {
           <div className="home-container4">
             <Link href="/company-registration">
               <a className="home-link04">
-                <h1 className="home-text11">
-                  <span className="home-text12">Company Registration</span>
+                <h1 className="home-text14">
+                  <span className="home-text15">Company Registration</span>
                   <br></br>
                 </h1>
               </a>
             </Link>
             <Link href="/obtain-a-visa">
               <a className="home-link05">
-                <h1 className="home-text14">Obtain a Visa</h1>
+                <h1 className="home-text17">Obtain a Visa</h1>
               </a>
             </Link>
           </div>
         </div>
         <section className="home-practices">
-          <h2 id="ourpracticeareas" className="home-text15">
-            <span className="home-text16">Our practice areas</span>
-            <span className="home-text17">.</span>
+          <h2 id="ourpracticeareas" className="home-text18">
+            <span className="home-text19">Our practice areas</span>
+            <span className="home-text20">.</span>
             <br></br>
           </h2>
           <div className="home-container5">
@@ -237,8 +246,8 @@ const Home = (props) => {
           </div>
         </section>
         <div className="home-banner">
-          <h1 className="home-text19">
-            <span className="home-text20">
+          <h1 className="home-text22">
+            <span className="home-text23">
               We
               <span
                 dangerouslySetInnerHTML={{
@@ -246,8 +255,8 @@ const Home = (props) => {
                 }}
               />
             </span>
-            <span className="home-text21">fight</span>
-            <span className="home-text22">
+            <span className="home-text24">fight</span>
+            <span className="home-text25">
               {' '}
               for our clients.
               <span
@@ -260,7 +269,7 @@ const Home = (props) => {
         </div>
         <section className="home-improve">
           <div className="home-heading">
-            <h2 className="home-text23">
+            <h2 className="home-text26">
               Consistently rated as one of the best law firms in Southeast Asia
             </h2>
           </div>
@@ -272,15 +281,15 @@ const Home = (props) => {
             </div>
             <Link href="/contact">
               <a className="home-link12">
-                <h1 className="home-text24">Let&apos;s Talk</h1>
+                <h1 className="home-text27">Let&apos;s Talk</h1>
               </a>
             </Link>
           </div>
         </section>
         <section className="home-newsletter">
           <div className="home-header1">
-            <h2 className="home-text25">Subscribe to our newsletter</h2>
-            <p className="home-text26">
+            <h2 className="home-text28">Subscribe to our newsletter</h2>
+            <p className="home-text29">
               Get legal insights and market updates.
             </p>
           </div>
@@ -347,7 +356,11 @@ const Home = (props) => {
             animation-iteration-count: 1;
             animation-timing-function: ease;
           }
-          .home-text01 {
+          .home-text02 {
+            color: var(--dl-color-theme-neutral-dark);
+            background-color: var(--dl-color-theme-accent2);
+          }
+          .home-text04 {
             width: 75%;
             font-size: 1.5rem;
             font-style: normal;
@@ -381,9 +394,9 @@ const Home = (props) => {
           .home-link02:hover {
             fill: var(--dl-color-theme-accent1);
             color: var(--dl-color-theme-accent1);
-            background-color: var(--dl-color-theme-primary2);
+            background-color: var(--dl-color-theme-primary1);
           }
-          .home-text05 {
+          .home-text08 {
             font-style: normal;
             text-align: center;
             font-family: 'Josefin Sans';
@@ -406,7 +419,7 @@ const Home = (props) => {
             color: var(--dl-color-theme-accent1);
             background-color: var(--dl-color-theme-primary2);
           }
-          .home-text06 {
+          .home-text09 {
             font-style: normal;
             text-align: center;
             font-family: 'Josefin Sans';
@@ -440,18 +453,18 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .home-text07 {
+          .home-text10 {
             width: 532px;
             font-size: 2rem;
             font-style: normal;
             font-family: 'Josefin Sans';
             font-weight: 400;
           }
-          .home-text09 {
-            color: var(--dl-color-theme-neutral-light);
+          .home-text12 {
+            color: var(--dl-color-theme-accent1);
             background-color: var(--dl-color-theme-primary2);
           }
-          .home-text10 {
+          .home-text13 {
             font-size: 1.5rem;
             font-style: normal;
             font-family: 'Josefin Sans';
@@ -550,26 +563,6 @@ const Home = (props) => {
           .home-link04 {
             display: contents;
           }
-          .home-text11 {
-            fill: var(--dl-color-theme-secondary1);
-            color: var(--dl-color-theme-secondary1);
-            font-size: 2rem;
-            font-style: normal;
-            transition: 0.3s;
-            font-family: Josefin Sans;
-            font-weight: 200;
-            text-decoration: none;
-          }
-          .home-text11:hover {
-            border-color: var(--dl-color-theme-accent2);
-            border-width: 1px;
-            border-top-width: 0px;
-            border-left-width: 0px;
-            border-right-width: 0px;
-          }
-          .home-link05 {
-            display: contents;
-          }
           .home-text14 {
             fill: var(--dl-color-theme-secondary1);
             color: var(--dl-color-theme-secondary1);
@@ -587,6 +580,26 @@ const Home = (props) => {
             border-left-width: 0px;
             border-right-width: 0px;
           }
+          .home-link05 {
+            display: contents;
+          }
+          .home-text17 {
+            fill: var(--dl-color-theme-secondary1);
+            color: var(--dl-color-theme-secondary1);
+            font-size: 2rem;
+            font-style: normal;
+            transition: 0.3s;
+            font-family: Josefin Sans;
+            font-weight: 200;
+            text-decoration: none;
+          }
+          .home-text17:hover {
+            border-color: var(--dl-color-theme-accent2);
+            border-width: 1px;
+            border-top-width: 0px;
+            border-left-width: 0px;
+            border-right-width: 0px;
+          }
           .home-practices {
             gap: var(--dl-space-space-threeunits);
             width: 100%;
@@ -598,7 +611,7 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .home-text15 {
+          .home-text18 {
             color: var(--dl-color-gray-black);
             font-size: 2.5rem;
             font-style: normal;
@@ -684,21 +697,21 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: space-between;
           }
-          .home-text19 {
+          .home-text22 {
             font-size: 2.5rem;
             font-style: normal;
             text-align: center;
             font-family: 'Josefin Sans';
             font-weight: 300;
           }
-          .home-text20 {
+          .home-text23 {
             color: var(--dl-color-gray-black);
           }
-          .home-text21 {
+          .home-text24 {
             color: var(--dl-color-theme-neutral-light);
-            background-color: var(--dl-color-theme-primary2);
+            background-color: var(--dl-color-theme-primary1);
           }
-          .home-text22 {
+          .home-text25 {
             color: var(--dl-color-gray-black);
           }
           .home-improve {
@@ -718,7 +731,7 @@ const Home = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .home-text23 {
+          .home-text26 {
             color: var(--dl-color-gray-black);
             font-size: 1.5rem;
             max-width: 600px;
@@ -777,7 +790,7 @@ const Home = (props) => {
           .home-link12 {
             display: contents;
           }
-          .home-text24 {
+          .home-text27 {
             color: var(--dl-color-gray-white);
             font-size: 1.5rem;
             font-style: normal;
@@ -793,7 +806,7 @@ const Home = (props) => {
             text-decoration: none;
             background-color: #1b1b1b;
           }
-          .home-text24:hover {
+          .home-text27:hover {
             fill: var(--dl-color-theme-neutral-light);
             color: var(--dl-color-theme-neutral-light);
             border: none;
@@ -822,7 +835,7 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .home-text25 {
+          .home-text28 {
             color: var(--dl-color-gray-black);
             width: 100%;
             font-size: 2.5rem;
@@ -832,7 +845,7 @@ const Home = (props) => {
             font-family: 'Josefin Sans';
             font-weight: 300;
           }
-          .home-text26 {
+          .home-text29 {
             color: var(--dl-color-gray-black);
             width: 100%;
             font-size: 1.5rem;
@@ -903,14 +916,14 @@ const Home = (props) => {
             .home-container4 {
               border-radius: var(--dl-radius-radius-cardradius);
             }
-            .home-text11 {
+            .home-text14 {
               color: var(--dl-color-gray-white);
               font-family: Josefin Sans;
             }
-            .home-text14 {
+            .home-text17 {
               color: var(--dl-color-gray-white);
             }
-            .home-text15 {
+            .home-text18 {
               color: var(--dl-color-gray-black);
             }
             .home-container7 {
@@ -920,7 +933,7 @@ const Home = (props) => {
             .home-title {
               color: rgb(247, 247, 247);
             }
-            .home-text24 {
+            .home-text27 {
               font-size: 1.5rem;
               font-style: normal;
               font-family: Josefin Sans;
@@ -939,7 +952,7 @@ const Home = (props) => {
             .home-container4 {
               width: 75%;
             }
-            .home-text23 {
+            .home-text26 {
               color: var(--dl-color-gray-black);
               font-size: 2rem;
               font-style: normal;
@@ -953,13 +966,13 @@ const Home = (props) => {
             .home-container7 {
               width: 100%;
             }
-            .home-text24 {
+            .home-text27 {
               background-color: #1b1b1b;
             }
             .home-newsletter {
               max-width: auto;
             }
-            .home-text26 {
+            .home-text29 {
               color: var(--dl-color-gray-black);
               font-size: 1.5rem;
               line-height: 30px;
@@ -983,12 +996,12 @@ const Home = (props) => {
               padding-left: var(--dl-space-space-fiveunits);
               padding-right: var(--dl-space-space-fiveunits);
             }
-            .home-text07 {
+            .home-text10 {
               width: 50%;
               align-self: center;
               text-align: left;
             }
-            .home-text10 {
+            .home-text13 {
               width: 50%;
               align-self: center;
               text-align: left;
@@ -1032,7 +1045,7 @@ const Home = (props) => {
             .home-container3 {
               width: 100%;
             }
-            .home-text14 {
+            .home-text17 {
               font-size: 2rem;
             }
             .home-practices {
@@ -1045,7 +1058,7 @@ const Home = (props) => {
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .home-text23 {
+            .home-text26 {
               font-style: normal;
               font-family: Josefin Sans;
               font-weight: 200;
@@ -1054,7 +1067,7 @@ const Home = (props) => {
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .home-text24 {
+            .home-text27 {
               background-color: #1b1b1b;
             }
             .home-newsletter {
@@ -1065,7 +1078,7 @@ const Home = (props) => {
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-threeunits);
             }
-            .home-text26 {
+            .home-text29 {
               font-size: 1.5rem;
               line-height: 24px;
             }
@@ -1077,11 +1090,11 @@ const Home = (props) => {
               padding-right: var(--dl-space-space-threeunits);
               padding-bottom: var(--dl-space-space-threeunits);
             }
-            .home-text07 {
+            .home-text10 {
               align-self: center;
               text-align: center;
             }
-            .home-text10 {
+            .home-text13 {
               text-align: center;
             }
             .home-column1 {
@@ -1108,17 +1121,17 @@ const Home = (props) => {
               width: 75%;
               border-radius: var(--dl-radius-radius-radius4);
             }
-            .home-text11 {
+            .home-text14 {
               color: var(--dl-color-gray-white);
               font-size: 2rem;
               font-style: normal;
               font-family: Josefin Sans;
               font-weight: 200;
             }
-            .home-text12 {
+            .home-text15 {
               color: var(--dl-color-gray-white);
             }
-            .home-text14 {
+            .home-text17 {
               font-size: 2rem;
             }
             .home-practices {
@@ -1127,11 +1140,11 @@ const Home = (props) => {
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-fourunits);
             }
-            .home-text16 {
+            .home-text19 {
               font-size: 30px;
               line-height: 36px;
             }
-            .home-text17 {
+            .home-text20 {
               font-size: 30px;
               line-height: 36px;
             }
@@ -1148,7 +1161,7 @@ const Home = (props) => {
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
             }
-            .home-text23 {
+            .home-text26 {
               color: var(--dl-color-gray-black);
               font-size: 2rem;
               line-height: 41px;
@@ -1179,12 +1192,12 @@ const Home = (props) => {
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .home-text07 {
+            .home-text10 {
               width: auto;
               align-self: center;
               text-align: center;
             }
-            .home-text10 {
+            .home-text13 {
               text-align: center;
             }
             .home-container4 {
@@ -1192,7 +1205,7 @@ const Home = (props) => {
               height: 100%;
               border-radius: var(--dl-radius-radius-radius4);
             }
-            .home-text14 {
+            .home-text17 {
               font-size: 2rem;
             }
             .home-practices {
@@ -1206,7 +1219,7 @@ const Home = (props) => {
               padding-right: var(--dl-space-space-unit);
               padding-bottom: var(--dl-space-space-twounits);
             }
-            .home-text23 {
+            .home-text26 {
               color: var(--dl-color-gray-black);
               font-size: 2rem;
             }
@@ -1232,10 +1245,10 @@ const Home = (props) => {
               align-items: center;
               justify-content: center;
             }
-            .home-text25 {
+            .home-text28 {
               color: var(--dl-color-gray-black);
             }
-            .home-text26 {
+            .home-text29 {
               color: var(--dl-color-gray-black);
               font-size: 1.5rem;
             }
