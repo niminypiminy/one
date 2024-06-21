@@ -1038,7 +1038,7 @@ const Home = (props) => {
               text-align: left;
             }
             .home-text13 {
-              width: 50%;
+              width: 60%;
               align-self: center;
               text-align: left;
             }
@@ -1137,6 +1137,7 @@ const Home = (props) => {
               text-align: center;
             }
             .home-text13 {
+              width: 75%;
               text-align: center;
             }
             .home-column1 {
@@ -1159,6 +1160,9 @@ const Home = (props) => {
             .home-column2 {
               display: none;
             }
+            .home-container3 {
+              margin-bottom: var(--dl-space-space-unit);
+            }
             .home-container4 {
               width: 75%;
               border-radius: var(--dl-radius-radius-radius4);
@@ -1177,6 +1181,7 @@ const Home = (props) => {
               font-size: 2rem;
             }
             .home-practices {
+              margin-top: var(--dl-space-space-halfunit);
               padding-top: var(--dl-space-space-fourunits);
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
@@ -1230,12 +1235,14 @@ const Home = (props) => {
             }
             .home-link02 {
               width: 100%;
+              align-self: center;
             }
             .home-container2 {
               width: 100%;
             }
             .home-link03 {
               width: 100%;
+              align-self: center;
             }
             .home-column {
               margin-top: var(--dl-space-space-fiveunits);
@@ -1250,6 +1257,7 @@ const Home = (props) => {
               text-align: center;
             }
             .home-text13 {
+              width: 80%;
               text-align: center;
             }
             .home-container4 {

@@ -146,6 +146,9 @@ const AboutUs = (props) => {
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
+            .about-us-column {
+              margin-top: var(--dl-space-space-unit);
+            }
           }
         `}
       </style>
