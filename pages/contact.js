@@ -21,7 +21,7 @@ const Contact = (props) => {
           />
           <meta
             property="og:image"
-            content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/1e7f4ee4-0cee-4fac-a5b5-9bf26476dc3e/5631a551-dd96-44ef-935a-e149f868456e?org_if_sml=1&amp;force_format=original"
+            content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/1e7f4ee4-0cee-4fac-a5b5-9bf26476dc3e/8e5f1e02-471e-46a9-8f50-e3f10d72f098?org_if_sml=1&amp;force_format=original"
           />
         </Head>
         <Navbar></Navbar>
@@ -77,7 +77,7 @@ const Contact = (props) => {
               <input
                 type="text"
                 id="name"
-                name="name"
+                name="Name"
                 required
                 placeholder="Name"
                 className="contact-textinput input"
@@ -85,7 +85,7 @@ const Contact = (props) => {
               <input
                 type="email"
                 id="email"
-                name="Email"
+                name="email"
                 rows="Email"
                 required
                 placeholder="Email"
@@ -107,12 +107,13 @@ const Contact = (props) => {
                 id="message"
                 name="message"
                 type="text"
-                placeholder="Your Message"
+                placeholder="Message"
+                required='""'
                 className="contact-textarea textarea"
               ></textarea>
               <button
-                id="submitform"
-                name="submitform"
+                id="submit"
+                name="submit"
                 type="submit"
                 className="contact-button button"
               >
