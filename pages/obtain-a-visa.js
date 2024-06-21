@@ -34,13 +34,13 @@ const ObtainAVisa = (props) => {
             <div className="obtain-a-visa-content">
               <h1 className="obtain-a-visa-heading1 thq-heading-1">Visas</h1>
               <p className="obtain-a-visa-content1 thq-body-large">
-                When traveling, investing, working, or conducting business,
-                it&apos;s important to ensure you have the correct visa. Many
-                entrepreneurs mistakenly run their businesses on tourist visas,
-                which can have severe consequences. Not only could you face
-                imprisonment and deportation, but your assets might also be
-                seized, and you could risk being blacklisted, a costly issue to
-                resolve.
+                When venturing abroad for business, investment, or work,
+                it&apos;s crucial to obtain the appropriate visa to avoid severe
+                legal and financial consequences. In Thailand, for instance,
+                entrepreneurs often make the mistake of running their businesses
+                on tourist visas, which can lead to serious repercussions,
+                including imprisonment, deportation, asset seizure, and
+                blacklisting.
               </p>
             </div>
           </div>
@@ -219,7 +219,7 @@ const ObtainAVisa = (props) => {
                           Follow these steps to get your visa.
                         </p>
                         <Link href="/contact">
-                          <a className="obtain-a-visa-link6">Contact us</a>
+                          <a className="obtain-a-visa-link6">Need help?</a>
                         </Link>
                         <div className="obtain-a-visa-actions"></div>
                       </div>
@@ -574,6 +574,7 @@ const ObtainAVisa = (props) => {
             display: flex;
             overflow: hidden;
             position: relative;
+            margin-top: var(--dl-space-space-fourunits);
             align-items: center;
           }
           .obtain-a-visa-column {
@@ -648,7 +649,7 @@ const ObtainAVisa = (props) => {
             padding-top: var(--dl-space-space-fourunits);
           }
           .obtain-a-visa-text01 {
-            background-color: var(--dl-color-theme-primary1);
+            background-color: var(--dl-color-theme-color3);
           }
           .obtain-a-visa-container04 {
             flex: 0 0 auto;
@@ -1188,8 +1189,8 @@ const ObtainAVisa = (props) => {
             font-weight: 200;
           }
           .obtain-a-visa-link6 {
-            fill: var(--dl-color-theme-accent1);
-            color: var(--dl-color-theme-accent1);
+            fill: var(--dl-color-theme-neutral-dark);
+            color: var(--dl-color-theme-neutral-dark);
             width: auto;
             height: auto;
             padding: var(--dl-space-space-unit);
@@ -1199,11 +1200,15 @@ const ObtainAVisa = (props) => {
             transition: 0.3s;
             font-family: 'Josefin Sans';
             font-weight: 200;
+            border-color: var(--dl-color-gray-black);
+            border-width: 1px;
             text-decoration: none;
-            background-color: var(--dl-color-theme-neutral-dark);
+            background-color: var(--dl-color-theme-neutral-light);
           }
           .obtain-a-visa-link6:hover {
-            background-color: var(--dl-color-theme-primary2);
+            fill: var(--dl-color-theme-color4);
+            color: var(--dl-color-theme-color4);
+            background-color: var(--dl-color-theme-color5);
           }
           .obtain-a-visa-actions {
             gap: var(--dl-space-space-unit);
@@ -1219,7 +1224,7 @@ const ObtainAVisa = (props) => {
             position: sticky;
             transform: rotate(-2deg);
             margin-bottom: var(--dl-space-space-twounits);
-            background-color: var(--dl-color-theme-accent1);
+            background-color: var(--dl-color-theme-color4);
           }
           .obtain-a-visa-text28 {
             font-size: 2rem;
@@ -1248,7 +1253,7 @@ const ObtainAVisa = (props) => {
             position: sticky;
             transform: rotate(2deg);
             margin-bottom: var(--dl-space-space-twounits);
-            background-color: var(--dl-color-theme-accent2);
+            background-color: var(--dl-color-theme-color3);
           }
           .obtain-a-visa-text31 {
             font-size: 2rem;
@@ -1277,7 +1282,7 @@ const ObtainAVisa = (props) => {
             position: sticky;
             transform: rotate(-2deg);
             margin-bottom: var(--dl-space-space-twounits);
-            background-color: var(--dl-color-theme-accent1);
+            background-color: var(--dl-color-theme-color2);
           }
           .obtain-a-visa-text34 {
             font-size: 2rem;
@@ -2143,8 +2148,8 @@ const ObtainAVisa = (props) => {
             font-weight: 300;
           }
           .obtain-a-visa-link7 {
-            fill: var(--dl-color-theme-accent1);
-            color: var(--dl-color-theme-accent1);
+            fill: var(--dl-color-theme-color4);
+            color: var(--dl-color-theme-color4);
             font-size: 1.5rem;
             align-self: center;
             font-style: normal;
@@ -2157,7 +2162,7 @@ const ObtainAVisa = (props) => {
             padding-right: var(--dl-space-space-halfunit);
             padding-bottom: var(--dl-space-space-halfunit);
             text-decoration: underline;
-            background-color: var(--dl-color-theme-primary2);
+            background-color: var(--dl-color-theme-color5);
           }
           @media (max-width: 1600px) {
             .obtain-a-visa-content {
@@ -2211,6 +2216,9 @@ const ObtainAVisa = (props) => {
             }
           }
           @media (max-width: 1200px) {
+            .obtain-a-visa-container01 {
+              height: auto;
+            }
             .obtain-a-visa-container15 {
               width: 80%;
             }
@@ -2234,8 +2242,18 @@ const ObtainAVisa = (props) => {
             .obtain-a-visa-container01 {
               flex-direction: column;
             }
+            .obtain-a-visa-column {
+              margin-top: var(--dl-space-space-fourunits);
+            }
             .obtain-a-visa-content {
               gap: var(--dl-space-space-oneandhalfunits);
+            }
+            .obtain-a-visa-image1 {
+              width: 75%;
+              display: none;
+            }
+            .obtain-a-visa-max-width {
+              max-width: auto;
             }
             .obtain-a-visa-container04 {
               height: auto;
@@ -2282,6 +2300,9 @@ const ObtainAVisa = (props) => {
             .obtain-a-visa-max-width3 {
               flex-direction: column;
             }
+            .obtain-a-visa-text37 {
+              width: 75%;
+            }
             .obtain-a-visa-container40 {
               width: 90%;
             }
@@ -2296,11 +2317,14 @@ const ObtainAVisa = (props) => {
             }
           }
           @media (max-width: 767px) {
+            .obtain-a-visa-column {
+              padding: var(--dl-space-space-oneandhalfunits);
+            }
             .obtain-a-visa-heading1 {
               text-align: center;
             }
             .obtain-a-visa-content1 {
-              text-align: center;
+              text-align: left;
             }
             .obtain-a-visa-container15 {
               width: 100%;
@@ -2325,6 +2349,9 @@ const ObtainAVisa = (props) => {
             .obtain-a-visa-container37 {
               width: 100%;
             }
+            .obtain-a-visa-text37 {
+              width: 75%;
+            }
             .obtain-a-visa-container40 {
               width: 100%;
             }
@@ -2339,17 +2366,27 @@ const ObtainAVisa = (props) => {
             }
           }
           @media (max-width: 479px) {
+            .obtain-a-visa-column {
+              padding: 0px;
+            }
+            .obtain-a-visa-content {
+              width: 85%;
+            }
             .obtain-a-visa-heading1 {
               text-align: center;
             }
             .obtain-a-visa-content1 {
-              text-align: center;
+              width: auto;
+              text-align: left;
             }
             .obtain-a-visa-container15 {
               width: 100%;
             }
             .obtain-a-visa-container26 {
               width: 100%;
+            }
+            .obtain-a-visa-text37 {
+              width: 75%;
             }
             .obtain-a-visa-container40 {
               width: 100%;

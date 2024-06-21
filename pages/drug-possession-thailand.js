@@ -416,13 +416,7 @@ const DrugPossessionThailand = (props) => {
           .drug-possession-thailand-text03 {
             font-family: 'Noto Sans Thai';
           }
-          .drug-possession-thailand-text05 {
-            font-style: normal;
-            font-family: 'Noto Sans Thai';
-            font-weight: 400;
-          }
           .drug-possession-thailand-text06 {
-            font-style: normal;
             font-family: 'Noto Sans Thai';
             font-weight: 400;
           }
@@ -524,7 +518,7 @@ const DrugPossessionThailand = (props) => {
             font-size: 1.5rem;
             font-style: normal;
             margin-top: var(--dl-space-space-oneandhalfunits);
-            font-family: 'Josefin Sans';
+            font-family: 'Noto Sans Thai';
             font-weight: 400;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
@@ -543,7 +537,7 @@ const DrugPossessionThailand = (props) => {
             font-size: 1.5rem;
             font-style: normal;
             margin-top: var(--dl-space-space-oneandhalfunits);
-            font-family: 'Josefin Sans';
+            font-family: 'Noto Sans Thai';
             font-weight: 400;
             margin-bottom: 0px;
           }
@@ -653,8 +647,11 @@ const DrugPossessionThailand = (props) => {
             text-decoration: none;
           }
           .drug-possession-thailand-text48:hover {
-            color: var(--dl-color-gray-white);
-            background-color: #1b1b1b;
+            fill: var(--dl-color-theme-color4);
+            color: var(--dl-color-theme-color4);
+            align-self: center;
+            border-color: var(--dl-color-theme-color5);
+            background-color: var(--dl-color-theme-color5);
           }
           @media (max-width: 1200px) {
             .drug-possession-thailand-container2 {
@@ -672,6 +669,9 @@ const DrugPossessionThailand = (props) => {
             .drug-possession-thailand-text25 {
               width: 90%;
             }
+            .drug-possession-thailand-text29 {
+              width: 90%;
+            }
             .drug-possession-thailand-ul1 {
               width: 90%;
             }
@@ -683,15 +683,42 @@ const DrugPossessionThailand = (props) => {
             .drug-possession-thailand-text23 {
               width: 90%;
             }
+            .drug-possession-thailand-text29 {
+              width: 90%;
+            }
           }
           @media (max-width: 767px) {
+            .drug-possession-thailand-text29 {
+              width: 90%;
+            }
             .drug-possession-thailand-text48 {
               align-self: flex-start;
             }
           }
           @media (max-width: 479px) {
+            .drug-possession-thailand-text02 {
+              font-size: 1.5rem;
+              font-family: Josefin Sans;
+              font-weight: 200;
+            }
+            .drug-possession-thailand-text03 {
+              font-family: Noto Sans Thai;
+            }
+            .drug-possession-thailand-text05 {
+              font-style: normal;
+              font-family: Noto Sans Thai;
+              font-weight: 400;
+            }
+            .drug-possession-thailand-text06 {
+              font-style: normal;
+              font-family: Noto Sans Thai;
+              font-weight: 400;
+            }
+            .drug-possession-thailand-text29 {
+              width: 90%;
+            }
             .drug-possession-thailand-text48 {
-              align-self: flex-start;
+              align-self: center;
             }
           }
         `}

@@ -599,8 +599,11 @@ const OnlineFraud = (props) => {
             text-decoration: none;
           }
           .online-fraud-text46:hover {
-            color: var(--dl-color-gray-white);
-            background-color: #1b1b1b;
+            fill: var(--dl-color-theme-color4);
+            color: var(--dl-color-theme-color4);
+            align-self: center;
+            border-color: var(--dl-color-theme-color5);
+            background-color: var(--dl-color-theme-color5);
           }
           @media (max-width: 1200px) {
             .online-fraud-container2 {

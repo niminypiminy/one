@@ -812,8 +812,8 @@ const ThaiAustraliaFreeTradeAgreement = (props) => {
             font-weight: 300;
           }
           .thai-australia-free-trade-agreement-text01 {
-            color: var(--dl-color-theme-accent1);
-            background-color: var(--dl-color-theme-primary2);
+            color: var(--dl-color-theme-neutral-dark);
+            background-color: var(--dl-color-theme-color2);
           }
           .thai-australia-free-trade-agreement-text03 {
             font-size: 1.5rem;
@@ -851,7 +851,7 @@ const ThaiAustraliaFreeTradeAgreement = (props) => {
             transform: scale(1.2);
           }
           .thai-australia-free-trade-agreement-icon {
-            fill: var(--dl-color-theme-accent2);
+            fill: var(--dl-color-theme-color4);
             width: var(--dl-size-size-small);
             height: var(--dl-size-size-small);
           }
@@ -885,7 +885,7 @@ const ThaiAustraliaFreeTradeAgreement = (props) => {
             transform: scale(1.2);
           }
           .thai-australia-free-trade-agreement-icon02 {
-            fill: var(--dl-color-theme-accent2);
+            fill: var(--dl-color-theme-color4);
             width: var(--dl-size-size-small);
             height: var(--dl-size-size-small);
           }
@@ -1080,7 +1080,8 @@ const ThaiAustraliaFreeTradeAgreement = (props) => {
             background-color: #1b1b1b;
           }
           .thai-australia-free-trade-agreement-text14 {
-            color: var(--dl-color-gray-white);
+            fill: var(--dl-color-theme-accent1);
+            color: var(--dl-color-theme-accent1);
             font-size: 1.5rem;
             font-style: normal;
             font-family: Josefin Sans;
@@ -1098,7 +1099,8 @@ const ThaiAustraliaFreeTradeAgreement = (props) => {
             background-color: #1b1b1b;
           }
           .thai-australia-free-trade-agreement-text15 {
-            color: var(--dl-color-gray-white);
+            fill: var(--dl-color-theme-accent1);
+            color: var(--dl-color-theme-accent1);
             font-size: 1.5rem;
             font-style: normal;
             font-family: Josefin Sans;
@@ -1116,7 +1118,8 @@ const ThaiAustraliaFreeTradeAgreement = (props) => {
             background-color: #1b1b1b;
           }
           .thai-australia-free-trade-agreement-text16 {
-            color: var(--dl-color-gray-white);
+            fill: var(--dl-color-theme-accent1);
+            color: var(--dl-color-theme-accent1);
             font-size: 1.5rem;
             font-style: normal;
             font-family: Josefin Sans;
@@ -1961,13 +1964,12 @@ const ThaiAustraliaFreeTradeAgreement = (props) => {
             gap: var(--dl-space-space-oneandhalfunits);
             width: 60%;
             display: flex;
-            opacity: 0.9;
             padding: var(--dl-space-space-unit);
             margin-top: var(--dl-space-space-fourunits);
             align-items: center;
             flex-direction: column;
             justify-content: center;
-            background-color: var(--dl-color-theme-primary2);
+            background-color: var(--dl-color-theme-color1);
           }
           .thai-australia-free-trade-agreement-heading09 {
             gap: var(--dl-space-space-twounits);
@@ -2384,8 +2386,8 @@ const ThaiAustraliaFreeTradeAgreement = (props) => {
             height: 16px;
           }
           .thai-australia-free-trade-agreement-link2 {
-            fill: var(--dl-color-theme-accent1);
-            color: var(--dl-color-theme-accent1);
+            fill: var(--dl-color-theme-color4);
+            color: var(--dl-color-theme-color4);
             font-size: 1.5rem;
             font-style: normal;
             margin-top: var(--dl-space-space-fourunits);
@@ -2396,7 +2398,7 @@ const ThaiAustraliaFreeTradeAgreement = (props) => {
             padding-right: var(--dl-space-space-halfunit);
             padding-bottom: var(--dl-space-space-halfunit);
             text-decoration: underline;
-            background-color: var(--dl-color-theme-primary2);
+            background-color: var(--dl-color-theme-color5);
           }
           @media (max-width: 1600px) {
             .thai-australia-free-trade-agreement-image {
@@ -2422,7 +2424,6 @@ const ThaiAustraliaFreeTradeAgreement = (props) => {
               height: auto;
             }
             .thai-australia-free-trade-agreement-header {
-              color: var(--dl-color-gray-white);
               box-shadow: 5px 5px 10px 0px #000000;
             }
             .thai-australia-free-trade-agreement-list {

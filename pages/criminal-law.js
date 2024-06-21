@@ -186,8 +186,10 @@ const CriminalLaw = (props) => {
             text-decoration: none;
           }
           .criminal-law-text02:hover {
-            color: var(--dl-color-gray-white);
-            background-color: var(--dl-color-theme-primary2);
+            fill: var(--dl-color-theme-color4);
+            color: var(--dl-color-theme-color4);
+            border-color: var(--dl-color-theme-color1);
+            background-color: var(--dl-color-theme-color5);
           }
           .criminal-law-container4 {
             flex: 0 0 auto;
@@ -255,12 +257,14 @@ const CriminalLaw = (props) => {
             flex-shrink: 0;
           }
           .criminal-law-text03 {
+            fill: var(--dl-color-theme-neutral-dark);
+            color: var(--dl-color-theme-neutral-dark);
             width: auto;
             font-size: 2rem;
             font-style: normal;
             font-family: 'Josefin Sans';
             font-weight: 300;
-            background-color: var(--dl-color-theme-accent2);
+            background-color: var(--dl-color-theme-color3);
           }
           .criminal-law-content {
             gap: 24px;
@@ -296,6 +300,12 @@ const CriminalLaw = (props) => {
             }
             .criminal-law-max-width {
               width: 80%;
+            }
+            .criminal-law-text03 {
+              font-size: 2rem;
+              font-style: normal;
+              font-family: Josefin Sans;
+              font-weight: 300;
             }
           }
           @media (max-width: 1200px) {

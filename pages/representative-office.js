@@ -830,7 +830,7 @@ const RepresentativeOffice = (props) => {
             transform: scale(1.2);
           }
           .representative-office-icon {
-            fill: var(--dl-color-theme-accent2);
+            fill: var(--dl-color-theme-color4);
             width: var(--dl-size-size-small);
             height: var(--dl-size-size-small);
           }
@@ -865,7 +865,7 @@ const RepresentativeOffice = (props) => {
             border-color: var(--dl-color-gray-black);
           }
           .representative-office-icon02 {
-            fill: var(--dl-color-theme-accent2);
+            fill: var(--dl-color-theme-color4);
             width: var(--dl-size-size-small);
             height: var(--dl-size-size-small);
           }
@@ -899,7 +899,7 @@ const RepresentativeOffice = (props) => {
             transform: scale(1.2);
           }
           .representative-office-icon04 {
-            fill: var(--dl-color-theme-accent2);
+            fill: var(--dl-color-theme-color4);
             width: var(--dl-size-size-small);
             height: var(--dl-size-size-small);
           }
@@ -937,7 +937,7 @@ const RepresentativeOffice = (props) => {
             transform: scale(1.2);
           }
           .representative-office-icon06 {
-            fill: var(--dl-color-theme-accent2);
+            fill: var(--dl-color-theme-color4);
             width: var(--dl-size-size-small);
             height: var(--dl-size-size-small);
           }
@@ -1156,8 +1156,10 @@ const RepresentativeOffice = (props) => {
             text-decoration: none;
           }
           .representative-office-text18:hover {
-            color: var(--dl-color-gray-white);
-            background-color: #1b1b1b;
+            fill: var(--dl-color-theme-color4);
+            color: var(--dl-color-theme-color4);
+            border-color: var(--dl-color-theme-color5);
+            background-color: var(--dl-color-theme-color5);
           }
           .representative-office-features1 {
             width: 100%;
@@ -1580,8 +1582,8 @@ const RepresentativeOffice = (props) => {
             font-weight: 300;
           }
           .representative-office-text40 {
-            color: var(--dl-color-theme-accent1);
-            background-color: var(--dl-color-theme-primary2);
+            color: var(--dl-color-theme-neutral-dark);
+            background-color: var(--dl-color-theme-color3);
           }
           .representative-office-container26 {
             flex: 0 0 auto;
@@ -1995,7 +1997,8 @@ const RepresentativeOffice = (props) => {
             justify-content: center;
           }
           .representative-office-header {
-            color: var(--dl-color-gray-white);
+            fill: var(--dl-color-theme-accent1);
+            color: var(--dl-color-theme-accent1);
             opacity: 0.9;
             padding: var(--dl-space-space-unit);
             font-size: 2rem;
@@ -2220,8 +2223,8 @@ const RepresentativeOffice = (props) => {
             height: 16px;
           }
           .representative-office-link2 {
-            fill: var(--dl-color-theme-accent1);
-            color: var(--dl-color-theme-accent1);
+            fill: var(--dl-color-theme-color4);
+            color: var(--dl-color-theme-color4);
             font-size: 1.5rem;
             align-self: center;
             font-style: normal;
@@ -2233,7 +2236,7 @@ const RepresentativeOffice = (props) => {
             padding-right: var(--dl-space-space-halfunit);
             padding-bottom: var(--dl-space-space-halfunit);
             text-decoration: underline;
-            background-color: var(--dl-color-theme-primary2);
+            background-color: var(--dl-color-theme-color5);
           }
           @media (max-width: 1600px) {
             .representative-office-image {

@@ -751,8 +751,10 @@ const Page = (props) => {
             text-decoration: none;
           }
           .page-text67:hover {
-            color: var(--dl-color-gray-white);
-            background-color: #1b1b1b;
+            fill: var(--dl-color-theme-color4);
+            color: var(--dl-color-theme-color4);
+            border-color: var(--dl-color-theme-color5);
+            background-color: var(--dl-color-theme-color5);
           }
           @media (max-width: 1600px) {
             .page-text03 {
@@ -787,7 +789,7 @@ const Page = (props) => {
               width: 90%;
             }
             .page-text67 {
-              align-self: flex-start;
+              align-self: center;
             }
           }
           @media (max-width: 479px) {
@@ -797,9 +799,6 @@ const Page = (props) => {
             }
             .page-text03 {
               width: 90%;
-            }
-            .page-text67 {
-              align-self: flex-start;
             }
           }
         `}

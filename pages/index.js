@@ -358,7 +358,6 @@ const Home = (props) => {
           }
           .home-text02 {
             color: var(--dl-color-theme-neutral-dark);
-            background-color: var(--dl-color-theme-accent2);
           }
           .home-text04 {
             width: 75%;
@@ -385,18 +384,22 @@ const Home = (props) => {
             align-items: flex-start;
           }
           .home-link02 {
-            fill: var(--dl-color-theme-neutral-light);
-            color: var(--dl-color-theme-neutral-light);
+            fill: var(--dl-color-theme-color4);
+            color: var(--dl-color-theme-color4);
             transition: 0.3s;
             text-decoration: none;
-            background-color: #1b1b1b;
+            background-color: var(--dl-color-theme-color1);
           }
           .home-link02:hover {
-            fill: var(--dl-color-theme-accent1);
-            color: var(--dl-color-theme-accent1);
-            background-color: var(--dl-color-theme-primary1);
+            fill: var(--dl-color-theme-color1);
+            color: var(--dl-color-theme-color1);
+            opacity: 1;
+            background-color: var(--dl-color-theme-color2);
           }
           .home-text08 {
+            fill: var(--dl-color-theme-color4);
+            color: var(--dl-color-theme-color4);
+            font-size: 1.2rem;
             font-style: normal;
             text-align: center;
             font-family: 'Josefin Sans';
@@ -407,19 +410,21 @@ const Home = (props) => {
             align-items: flex-start;
           }
           .home-link03 {
-            fill: var(--dl-color-theme-neutral-dark);
-            color: var(--dl-color-theme-neutral-dark);
+            fill: var(--dl-color-theme-color1);
+            color: var(--dl-color-theme-color1);
             transition: 0.3s;
             font-family: 'Josefin Sans';
-            border-color: var(--dl-color-theme-neutral-dark);
+            border-color: var(--dl-color-theme-color1);
             text-decoration: none;
           }
           .home-link03:hover {
-            fill: var(--dl-color-theme-accent1);
-            color: var(--dl-color-theme-accent1);
-            background-color: var(--dl-color-theme-primary2);
+            fill: var(--dl-color-theme-color4);
+            color: var(--dl-color-theme-color4);
+            border-color: var(--dl-color-theme-color1);
+            background-color: var(--dl-color-theme-color1);
           }
           .home-text09 {
+            font-size: 1.2rem;
             font-style: normal;
             text-align: center;
             font-family: 'Josefin Sans';
@@ -461,8 +466,8 @@ const Home = (props) => {
             font-weight: 400;
           }
           .home-text12 {
-            color: var(--dl-color-theme-accent1);
-            background-color: var(--dl-color-theme-primary2);
+            color: var(--dl-color-theme-color4);
+            background-color: var(--dl-color-theme-neutral-dark);
           }
           .home-text13 {
             font-size: 1.5rem;
@@ -558,14 +563,14 @@ const Home = (props) => {
             border-radius: var(--dl-radius-radius-cardradius);
             flex-direction: column;
             justify-content: center;
-            background-color: #521e01;
+            background-color: var(--dl-color-theme-color1);
           }
           .home-link04 {
             display: contents;
           }
           .home-text14 {
-            fill: var(--dl-color-theme-secondary1);
-            color: var(--dl-color-theme-secondary1);
+            fill: var(--dl-color-theme-accent1);
+            color: var(--dl-color-theme-accent1);
             font-size: 2rem;
             font-style: normal;
             transition: 0.3s;
@@ -574,7 +579,7 @@ const Home = (props) => {
             text-decoration: none;
           }
           .home-text14:hover {
-            border-color: var(--dl-color-theme-accent2);
+            border-color: var(--dl-color-theme-color4);
             border-width: 1px;
             border-top-width: 0px;
             border-left-width: 0px;
@@ -584,8 +589,8 @@ const Home = (props) => {
             display: contents;
           }
           .home-text17 {
-            fill: var(--dl-color-theme-secondary1);
-            color: var(--dl-color-theme-secondary1);
+            fill: var(--dl-color-theme-accent1);
+            color: var(--dl-color-theme-accent1);
             font-size: 2rem;
             font-style: normal;
             transition: 0.3s;
@@ -594,7 +599,7 @@ const Home = (props) => {
             text-decoration: none;
           }
           .home-text17:hover {
-            border-color: var(--dl-color-theme-accent2);
+            border-color: var(--dl-color-theme-color4);
             border-width: 1px;
             border-top-width: 0px;
             border-left-width: 0px;
@@ -708,8 +713,8 @@ const Home = (props) => {
             color: var(--dl-color-gray-black);
           }
           .home-text24 {
-            color: var(--dl-color-theme-neutral-light);
-            background-color: var(--dl-color-theme-primary1);
+            color: var(--dl-color-theme-color4);
+            background-color: var(--dl-color-theme-color5);
           }
           .home-text25 {
             color: var(--dl-color-gray-black);
@@ -759,8 +764,9 @@ const Home = (props) => {
             display: flex;
             transition: 0.3s;
             align-items: center;
-            padding-top: 110px;
+            padding-top: var(--dl-space-space-fiveunits);
             padding-left: var(--dl-space-space-fiveunits);
+            border-radius: var(--dl-radius-radius-buttonradius);
             padding-right: var(--dl-space-space-fiveunits);
             flex-direction: column;
             padding-bottom: var(--dl-space-space-fiveunits);
@@ -777,7 +783,8 @@ const Home = (props) => {
             flex-direction: column;
           }
           .home-title {
-            color: rgb(247, 247, 247);
+            fill: var(--dl-color-theme-accent1);
+            color: var(--dl-color-theme-accent1);
             width: 100%;
             font-size: 2.5rem;
             max-width: 800px;
@@ -791,14 +798,15 @@ const Home = (props) => {
             display: contents;
           }
           .home-text27 {
-            color: var(--dl-color-gray-white);
+            fill: var(--dl-color-theme-accent1);
+            color: var(--dl-color-theme-accent1);
             font-size: 1.5rem;
             font-style: normal;
             transition: 0.3s;
             font-family: Josefin Sans;
             font-weight: 200;
             padding-top: var(--dl-space-space-unit);
-            border-color: #ffffff;
+            border-color: var(--dl-color-theme-accent1);
             border-width: 1px;
             padding-left: var(--dl-space-space-unit);
             padding-right: var(--dl-space-space-unit);
@@ -807,10 +815,10 @@ const Home = (props) => {
             background-color: #1b1b1b;
           }
           .home-text27:hover {
-            fill: var(--dl-color-theme-neutral-light);
-            color: var(--dl-color-theme-neutral-light);
+            fill: var(--dl-color-theme-color1);
+            color: var(--dl-color-theme-color1);
             border: none;
-            background-color: var(--dl-color-theme-primary2);
+            background-color: var(--dl-color-theme-color4);
           }
           .home-newsletter {
             gap: var(--dl-space-space-threeunits);
@@ -895,7 +903,7 @@ const Home = (props) => {
             border-radius: var(--dl-radius-radius-round);
             flex-direction: row;
             justify-content: center;
-            background-color: var(--dl-color-theme-primary2);
+            background-color: var(--dl-color-theme-color3);
           }
           .home-image {
             width: 18px;
@@ -908,6 +916,16 @@ const Home = (props) => {
             .home-container {
               border-left-width: 0px;
             }
+            .home-text10 {
+              font-size: 2rem;
+              font-style: normal;
+              font-family: Josefin Sans;
+              font-weight: 400;
+            }
+            .home-text12 {
+              color: var(--dl-color-theme-color4);
+              background-color: var(--dl-color-theme-neutral-dark);
+            }
             .home-container3 {
               align-items: center;
               border-color: var(--dl-color-gray-white);
@@ -917,18 +935,40 @@ const Home = (props) => {
               border-radius: var(--dl-radius-radius-cardradius);
             }
             .home-text14 {
-              color: var(--dl-color-gray-white);
+              font-size: 2rem;
+              font-style: normal;
               font-family: Josefin Sans;
+              font-weight: 200;
+              text-decoration: none;
             }
             .home-text17 {
-              color: var(--dl-color-gray-white);
+              font-size: 2rem;
+              font-style: normal;
+              font-family: Josefin Sans;
+              font-weight: 200;
+              text-decoration: none;
             }
             .home-text18 {
               color: var(--dl-color-gray-black);
             }
+            .home-text22 {
+              font-size: 2.5rem;
+              font-style: normal;
+              font-family: Josefin Sans;
+              font-weight: 300;
+            }
+            .home-text23 {
+              color: var(--dl-color-gray-black);
+            }
+            .home-text24 {
+              color: var(--dl-color-theme-color4);
+              background-color: var(--dl-color-theme-color5);
+            }
+            .home-text25 {
+              color: var(--dl-color-gray-black);
+            }
             .home-container7 {
               width: 80%;
-              border-radius: var(--dl-radius-radius-radius8);
             }
             .home-title {
               color: rgb(247, 247, 247);
@@ -1084,6 +1124,9 @@ const Home = (props) => {
             }
           }
           @media (max-width: 767px) {
+            .home-header23 {
+              height: 75vh;
+            }
             .home-column {
               padding-top: var(--dl-space-space-threeunits);
               padding-left: var(--dl-space-space-threeunits);
@@ -1171,8 +1214,13 @@ const Home = (props) => {
             }
           }
           @media (max-width: 479px) {
+            .home-header23 {
+              height: auto;
+              margin-top: var(--dl-space-space-fiveunits);
+              margin-bottom: var(--dl-space-space-fiveunits);
+            }
             .home-actions {
-              width: 100%;
+              width: 50%;
               flex-direction: column;
             }
             .home-container1 {

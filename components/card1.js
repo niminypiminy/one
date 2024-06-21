@@ -35,7 +35,7 @@ const Card1 = (props) => {
             border-radius: 50%;
             flex-direction: column;
             justify-content: center;
-            background-color: var(--dl-color-theme-secondary2);
+            background-color: var(--dl-color-theme-color4);
           }
           .card1-content {
             gap: var(--dl-space-space-halfunit);
@@ -60,67 +60,12 @@ const Card1 = (props) => {
             font-weight: 200;
             line-height: 28px;
           }
-          .card1-root-class-name {
-            height: 100%;
-            opacity: 0.9;
-            background-color: #1b1b1b;
-          }
-          .card1-root-class-name1 {
-            height: 100%;
-            opacity: 0.9;
-            background-color: #1b1b1b;
-          }
-          .card1-root-class-name2 {
-            height: 100%;
-            opacity: 0.9;
-            background-color: #1b1b1b;
-          }
-          .card1-root-class-name3 {
-            height: 100%;
-            opacity: 0.9;
-            background-color: #1b1b1b;
-          }
           @media (max-width: 1600px) {
             .card1-description {
               font-size: 1.5rem;
               font-style: normal;
               font-family: Josefin Sans;
               font-weight: 200;
-            }
-            .card1-root-class-name {
-              height: 100%;
-              opacity: 0.9;
-            }
-            .card1-root-class-name1 {
-              height: 100%;
-              opacity: 0.9;
-            }
-            .card1-root-class-name2 {
-              height: 100%;
-              opacity: 0.9;
-            }
-            .card1-root-class-name3 {
-              height: 100%;
-              opacity: 0.9;
-            }
-          }
-          @media (max-width: 1200px) {
-            .card1-root-class-name3 {
-              width: 100%;
-            }
-          }
-          @media (max-width: 991px) {
-            .card1-root-class-name {
-              width: 95%;
-            }
-            .card1-root-class-name1 {
-              width: 95%;
-            }
-            .card1-root-class-name2 {
-              width: 95%;
-            }
-            .card1-root-class-name3 {
-              width: 95%;
             }
           }
         `}

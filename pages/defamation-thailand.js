@@ -726,8 +726,10 @@ const DefamationThailand = (props) => {
             text-decoration: none;
           }
           .defamation-thailand-text53:hover {
-            color: var(--dl-color-gray-white);
-            background-color: #1b1b1b;
+            fill: var(--dl-color-theme-color4);
+            color: var(--dl-color-theme-color4);
+            border-color: var(--dl-color-theme-color5);
+            background-color: var(--dl-color-theme-color5);
           }
           @media (max-width: 1200px) {
             .defamation-thailand-container2 {
@@ -757,12 +759,7 @@ const DefamationThailand = (props) => {
           }
           @media (max-width: 767px) {
             .defamation-thailand-text53 {
-              align-self: flex-start;
-            }
-          }
-          @media (max-width: 479px) {
-            .defamation-thailand-text53 {
-              align-self: flex-start;
+              align-self: center;
             }
           }
         `}

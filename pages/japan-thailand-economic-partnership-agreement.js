@@ -367,10 +367,9 @@ const JapanThailandEconomicPartnershipAgreement = (props) => {
         <div className="japan-thailand-economic-partnership-agreement-container39">
           <span className="japan-thailand-economic-partnership-agreement-text56">
             The ministry of commerce will request a number of documents, such as
-            certificate of nationality of person requesting the certificate, a
-            letter informing the proportion of shareholding, evidence of a
-            juristic person registered in Thailand, explanation of the business,
-            copy of passport, etc.
+            certificate proving japanese nationality, a letter informing the
+            proportion of shareholding, evidence of registration in Thailand,
+            explanation of the business, and copy of the passport.
           </span>
           <Link href="/contact">
             <a className="japan-thailand-economic-partnership-agreement-link1">
@@ -416,8 +415,8 @@ const JapanThailandEconomicPartnershipAgreement = (props) => {
             font-weight: 300;
           }
           .japan-thailand-economic-partnership-agreement-text03 {
-            color: var(--dl-color-theme-accent1);
-            background-color: var(--dl-color-theme-primary2);
+            color: var(--dl-color-theme-neutral-dark);
+            background-color: var(--dl-color-theme-color3);
           }
           .japan-thailand-economic-partnership-agreement-text04 {
             width: 75%;
@@ -1271,11 +1270,11 @@ const JapanThailandEconomicPartnershipAgreement = (props) => {
             font-style: normal;
             text-align: center;
             font-family: 'Josefin Sans';
-            font-weight: 300;
+            font-weight: 200;
           }
           .japan-thailand-economic-partnership-agreement-link1 {
-            fill: var(--dl-color-theme-accent1);
-            color: var(--dl-color-theme-accent1);
+            fill: var(--dl-color-theme-color4);
+            color: var(--dl-color-theme-color4);
             font-size: 1.5rem;
             font-style: normal;
             margin-top: var(--dl-space-space-fourunits);
@@ -1286,7 +1285,7 @@ const JapanThailandEconomicPartnershipAgreement = (props) => {
             padding-right: var(--dl-space-space-halfunit);
             padding-bottom: var(--dl-space-space-halfunit);
             text-decoration: underline;
-            background-color: var(--dl-color-theme-primary2);
+            background-color: var(--dl-color-theme-color5);
           }
           @media (max-width: 1600px) {
             .japan-thailand-economic-partnership-agreement-hero {
@@ -1469,9 +1468,6 @@ const JapanThailandEconomicPartnershipAgreement = (props) => {
             .japan-thailand-economic-partnership-agreement-image {
               width: 80%;
             }
-            .japan-thailand-economic-partnership-agreement-text05 {
-              text-align: center;
-            }
             .japan-thailand-economic-partnership-agreement-container02 {
               width: 100%;
               flex-direction: column;
@@ -1485,7 +1481,6 @@ const JapanThailandEconomicPartnershipAgreement = (props) => {
             }
             .japan-thailand-economic-partnership-agreement-text18 {
               width: 75%;
-              text-align: center;
             }
             .japan-thailand-economic-partnership-agreement-container04 {
               width: 100%;
@@ -1548,6 +1543,7 @@ const JapanThailandEconomicPartnershipAgreement = (props) => {
             }
             .japan-thailand-economic-partnership-agreement-text05 {
               width: 100%;
+              text-align: center;
             }
             .japan-thailand-economic-partnership-agreement-container03 {
               grid-template-columns: 1fr;

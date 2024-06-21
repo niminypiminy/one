@@ -932,8 +932,10 @@ const Defamation = (props) => {
             text-decoration: none;
           }
           .defamation-text78:hover {
-            color: var(--dl-color-gray-white);
-            background-color: #1b1b1b;
+            fill: var(--dl-color-theme-color3);
+            color: var(--dl-color-theme-color3);
+            border-color: var(--dl-color-theme-color5);
+            background-color: var(--dl-color-theme-color5);
           }
           @media (max-width: 1600px) {
             .defamation-text68 {
@@ -976,15 +978,12 @@ const Defamation = (props) => {
           }
           @media (max-width: 767px) {
             .defamation-text78 {
-              align-self: flex-start;
+              align-self: center;
             }
           }
           @media (max-width: 479px) {
             .defamation-text68 {
               width: 90%;
-            }
-            .defamation-text78 {
-              align-self: flex-start;
             }
           }
         `}

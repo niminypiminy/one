@@ -226,8 +226,9 @@ const CorporateLaw = (props) => {
             text-decoration: none;
           }
           .corporate-law-text8:hover {
-            color: var(--dl-color-gray-white);
-            background-color: var(--dl-color-theme-primary2);
+            fill: var(--dl-color-theme-color4);
+            color: var(--dl-color-theme-color4);
+            background-color: var(--dl-color-theme-color1);
           }
           @media (max-width: 1600px) {
             .corporate-law-container1 {
@@ -235,10 +236,6 @@ const CorporateLaw = (props) => {
             }
             .corporate-law-image {
               box-shadow: 5px 5px 10px 0px #000000;
-            }
-            .corporate-law-text {
-              color: var(--dl-color-gray-black);
-              width: 100%;
             }
             .corporate-law-text1 {
               width: 100%;

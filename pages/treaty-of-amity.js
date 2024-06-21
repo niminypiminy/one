@@ -662,7 +662,7 @@ const TreatyOfAmity = (props) => {
           }
           .treaty-of-amity-text02 {
             color: var(--dl-color-theme-accent1);
-            background-color: var(--dl-color-theme-primary2);
+            background-color: var(--dl-color-theme-color5);
           }
           .treaty-of-amity-text03 {
             width: 75%;
@@ -732,7 +732,7 @@ const TreatyOfAmity = (props) => {
             transform: scale(1.2);
           }
           .treaty-of-amity-icon {
-            fill: var(--dl-color-theme-accent2);
+            fill: var(--dl-color-theme-color4);
             width: var(--dl-size-size-small);
             height: var(--dl-size-size-small);
           }
@@ -766,7 +766,7 @@ const TreatyOfAmity = (props) => {
             transform: scale(1.2);
           }
           .treaty-of-amity-icon02 {
-            fill: var(--dl-color-theme-accent2);
+            fill: var(--dl-color-theme-color4);
             width: var(--dl-size-size-small);
             height: var(--dl-size-size-small);
           }
@@ -1024,8 +1024,8 @@ const TreatyOfAmity = (props) => {
             font-weight: 300;
           }
           .treaty-of-amity-text30 {
-            color: var(--dl-color-theme-accent1);
-            background-color: var(--dl-color-theme-primary2);
+            color: var(--dl-color-theme-neutral-dark);
+            background-color: var(--dl-color-theme-color4);
           }
           .treaty-of-amity-container12 {
             flex: 0 0 auto;
@@ -1534,7 +1534,7 @@ const TreatyOfAmity = (props) => {
             margin-bottom: var(--dl-space-space-sixunits);
             flex-direction: column;
             justify-content: center;
-            background-color: #521e01;
+            background-color: var(--dl-color-theme-color5);
           }
           .treaty-of-amity-icon23 {
             fill: var(--dl-color-gray-white);
@@ -1584,7 +1584,8 @@ const TreatyOfAmity = (props) => {
             justify-content: center;
           }
           .treaty-of-amity-header {
-            color: var(--dl-color-gray-white);
+            fill: var(--dl-color-theme-accent1);
+            color: var(--dl-color-theme-accent1);
             opacity: 0.9;
             padding: var(--dl-space-space-unit);
             font-size: 2rem;
@@ -1818,8 +1819,8 @@ const TreatyOfAmity = (props) => {
             height: 16px;
           }
           .treaty-of-amity-link4 {
-            fill: var(--dl-color-theme-accent1);
-            color: var(--dl-color-theme-accent1);
+            fill: var(--dl-color-theme-color4);
+            color: var(--dl-color-theme-color4);
             font-size: 1.5rem;
             align-self: center;
             font-style: normal;
@@ -1832,7 +1833,7 @@ const TreatyOfAmity = (props) => {
             padding-right: var(--dl-space-space-halfunit);
             padding-bottom: var(--dl-space-space-halfunit);
             text-decoration: underline;
-            background-color: var(--dl-color-theme-primary2);
+            background-color: var(--dl-color-theme-color5);
           }
           @media (max-width: 1600px) {
             .treaty-of-amity-text {
@@ -1843,7 +1844,7 @@ const TreatyOfAmity = (props) => {
             }
             .treaty-of-amity-text02 {
               color: var(--dl-color-theme-accent1);
-              background-color: var(--dl-color-theme-primary2);
+              background-color: var(--dl-color-theme-color5);
             }
             .treaty-of-amity-image {
               box-shadow: 5px 5px 10px 0px #000000;
@@ -1946,7 +1947,7 @@ const TreatyOfAmity = (props) => {
               width: 80%;
             }
             .treaty-of-amity-container34 {
-              width: 75%;
+              width: 60%;
             }
           }
           @media (max-width: 991px) {
@@ -2007,6 +2008,9 @@ const TreatyOfAmity = (props) => {
             }
             .treaty-of-amity-container23 {
               width: 90%;
+            }
+            .treaty-of-amity-container34 {
+              width: 75%;
             }
             .treaty-of-amity-text54 {
               width: 70%;
@@ -2069,6 +2073,7 @@ const TreatyOfAmity = (props) => {
           @media (max-width: 767px) {
             .treaty-of-amity-hero {
               padding-left: var(--dl-space-space-twounits);
+              margin-bottom: var(--dl-space-space-threeunits);
               padding-right: var(--dl-space-space-twounits);
             }
             .treaty-of-amity-container01 {
@@ -2090,7 +2095,7 @@ const TreatyOfAmity = (props) => {
             }
             .treaty-of-amity-container02 {
               height: 40vh;
-              margin-top: var(--dl-space-space-fourunits);
+              margin-top: var(--dl-space-space-sixunits);
               align-items: center;
               justify-content: center;
             }
@@ -2362,6 +2367,7 @@ const TreatyOfAmity = (props) => {
               gap: var(--dl-space-space-unit);
             }
             .treaty-of-amity-header {
+              fill: var(--dl-color-theme-accent1);
               width: 100%;
               padding: var(--dl-space-space-unit);
               align-self: center;
@@ -2405,6 +2411,7 @@ const TreatyOfAmity = (props) => {
               width: 90%;
               height: 50vh;
               align-self: center;
+              margin-bottom: var(--dl-space-space-sixunits);
             }
             .treaty-of-amity-text09 {
               width: 90%;
@@ -2443,7 +2450,7 @@ const TreatyOfAmity = (props) => {
               align-self: center;
               padding-top: var(--dl-space-space-twounits);
               padding-left: var(--dl-space-space-unit);
-              margin-bottom: var(--dl-space-space-fourunits);
+              margin-bottom: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-unit);
               padding-bottom: var(--dl-space-space-twounits);
             }
@@ -2538,6 +2545,7 @@ const TreatyOfAmity = (props) => {
             }
             .treaty-of-amity-container34 {
               width: 100%;
+              height: 75vh;
             }
             .treaty-of-amity-text54 {
               color: var(--dl-color-gray-white);

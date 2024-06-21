@@ -555,15 +555,15 @@ const Navbar = (props) => {
             height: 7px;
           }
           .navbar-text01 {
-            fill: var(--dl-color-theme-accent1);
-            color: var(--dl-color-theme-accent1);
+            fill: var(--dl-color-theme-color4);
+            color: var(--dl-color-theme-color4);
             padding: var(--dl-space-space-halfunit);
             font-size: 1.2rem;
             font-style: normal;
             font-family: 'Josefin Sans';
             font-weight: 300;
             line-height: 27px;
-            background-color: var(--dl-color-theme-primary2);
+            background-color: var(--dl-color-theme-color1);
           }
           .navbar-desktop-menu {
             display: none;
@@ -787,15 +787,15 @@ const Navbar = (props) => {
             height: 7px;
           }
           .navbar-text03 {
-            fill: var(--dl-color-theme-neutral-light);
-            color: var(--dl-color-theme-neutral-light);
+            fill: var(--dl-color-theme-color4);
+            color: var(--dl-color-theme-color4);
             padding: var(--dl-space-space-halfunit);
             font-size: 1.2rem;
             font-style: normal;
             font-family: Josefin Sans;
             font-weight: 300;
             line-height: 27px;
-            background-color: var(--dl-color-theme-primary2);
+            background-color: var(--dl-color-theme-color1);
           }
           .navbar-menu-close {
             display: flex;
@@ -816,7 +816,8 @@ const Navbar = (props) => {
             justify-content: center;
           }
           .navbar-link01 {
-            color: var(--dl-color-gray-white);
+            fill: var(--dl-color-theme-color4);
+            color: var(--dl-color-theme-color4);
             width: auto;
             font-size: 1.5rem;
             font-style: normal;
@@ -830,12 +831,12 @@ const Navbar = (props) => {
             padding-right: var(--dl-space-space-unit);
             padding-bottom: var(--dl-space-space-unit);
             text-decoration: none;
-            background-color: var(--dl-color-gray-black);
+            background-color: var(--dl-color-theme-color1);
           }
           .navbar-link01:hover {
             fill: var(--dl-color-theme-accent1);
             color: var(--dl-color-theme-accent1);
-            background-color: var(--dl-color-theme-primary2);
+            background-color: var(--dl-color-theme-color3);
           }
           .navbar-thq-dropdown1 {
             cursor: pointer;
@@ -867,9 +868,9 @@ const Navbar = (props) => {
             vertical-align: middle;
           }
           .navbar-text04:hover {
-            fill: var(--dl-color-theme-accent1);
-            color: var(--dl-color-theme-accent1);
-            background-color: var(--dl-color-theme-primary2);
+            fill: var(--dl-color-theme-neutral-light);
+            color: var(--dl-color-theme-neutral-light);
+            background-color: var(--dl-color-theme-color3);
           }
           .navbar-dropdown-arrow {
             transition: 0.3s;
@@ -1134,9 +1135,9 @@ const Navbar = (props) => {
             vertical-align: middle;
           }
           .navbar-text11:hover {
-            fill: var(--dl-color-theme-accent1);
-            color: var(--dl-color-theme-accent1);
-            background-color: var(--dl-color-theme-primary2);
+            fill: var(--dl-color-theme-neutral-light);
+            color: var(--dl-color-theme-neutral-light);
+            background-color: var(--dl-color-theme-color3);
           }
           .navbar-dropdown-arrow1 {
             transition: 0.3s;
@@ -1263,9 +1264,9 @@ const Navbar = (props) => {
             vertical-align: middle;
           }
           .navbar-text14:hover {
-            fill: var(--dl-color-theme-accent1);
-            color: var(--dl-color-theme-accent1);
-            background-color: var(--dl-color-theme-primary2);
+            fill: var(--dl-color-theme-neutral-light);
+            color: var(--dl-color-theme-neutral-light);
+            background-color: var(--dl-color-theme-color3);
           }
           .navbar-dropdown-arrow2 {
             transition: 0.3s;
@@ -1613,9 +1614,9 @@ const Navbar = (props) => {
             text-decoration: none;
           }
           .navbar-link18:hover {
-            fill: var(--dl-color-theme-accent1);
-            color: var(--dl-color-theme-accent1);
-            background-color: var(--dl-color-theme-primary2);
+            fill: var(--dl-color-theme-neutral-light);
+            color: var(--dl-color-theme-neutral-light);
+            background-color: var(--dl-color-theme-color3);
           }
           .navbar-link20 {
             color: var(--dl-color-gray-black);
@@ -1631,9 +1632,9 @@ const Navbar = (props) => {
             text-decoration: none;
           }
           .navbar-link20:hover {
-            fill: var(--dl-color-theme-accent1);
-            color: var(--dl-color-theme-accent1);
-            background-color: var(--dl-color-theme-primary2);
+            fill: var(--dl-color-theme-neutral-light);
+            color: var(--dl-color-theme-neutral-light);
+            background-color: var(--dl-color-theme-color3);
           }
           .navbar-social-bar {
             width: 100%;
@@ -1784,9 +1785,6 @@ const Navbar = (props) => {
               align-self: center;
               align-items: center;
               justify-content: center;
-            }
-            .navbar-link01 {
-              background-color: var(--dl-color-gray-black);
             }
             .navbar-text04 {
               font-size: 1.2rem;
@@ -1947,6 +1945,12 @@ const Navbar = (props) => {
             }
           }
           @media (max-width: 767px) {
+            .navbar-text {
+              font-size: 1rem;
+            }
+            .navbar-text01 {
+              font-size: 1rem;
+            }
             .navbar-burger-menu {
               width: 40px;
               height: 40px;
@@ -1965,14 +1969,13 @@ const Navbar = (props) => {
               min-width: 100%;
             }
             .navbar-text {
-              color: rgb(18, 40, 33);
-              width: auto;
-              font-size: 24px;
-              line-height: 36px;
-              margin-left: 0px;
+              margin: 0px;
+              font-size: 1rem;
             }
             .navbar-text01 {
               width: auto;
+              padding: var(--dl-space-space-halfunit);
+              font-size: 1rem;
             }
             .navbar-text02 {
               color: rgb(18, 40, 33);
@@ -1982,12 +1985,13 @@ const Navbar = (props) => {
             }
             .navbar-social-bar {
               padding-top: var(--dl-space-space-twounits);
-              padding-left: var(--dl-space-space-unit);
-              padding-right: var(--dl-space-space-unit);
+              padding-left: var(--dl-space-space-halfunit);
+              padding-right: var(--dl-space-space-halfunit);
               padding-bottom: var(--dl-space-space-twounits);
             }
             .navbar-container3 {
               position: static;
+              margin-top: 0px;
               margin-bottom: 0px;
               flex-direction: column;
             }

@@ -197,8 +197,9 @@ const ContractLaw = (props) => {
             text-decoration: none;
           }
           .contract-law-text02:hover {
-            color: var(--dl-color-gray-white);
-            background-color: var(--dl-color-theme-primary2);
+            fill: var(--dl-color-theme-color4);
+            color: var(--dl-color-theme-color4);
+            background-color: var(--dl-color-theme-color5);
           }
           .contract-law-layout186 {
             width: 100%;
@@ -222,8 +223,8 @@ const ContractLaw = (props) => {
             font-weight: 300;
           }
           .contract-law-text07 {
-            color: var(--dl-color-theme-neutral-light);
-            background-color: var(--dl-color-theme-primary2);
+            color: var(--dl-color-theme-color4);
+            background-color: var(--dl-color-theme-color1);
           }
           .contract-law-text08 {
             color: var(--dl-color-theme-neutral-light);
@@ -254,7 +255,7 @@ const ContractLaw = (props) => {
             margin-bottom: var(--dl-space-space-sixunits);
             flex-direction: column;
             justify-content: center;
-            background-color: #521e01;
+            background-color: var(--dl-color-theme-color1);
           }
           .contract-law-content {
             gap: 24px;
@@ -294,12 +295,15 @@ const ContractLaw = (props) => {
               height: auto;
               box-shadow: 5px 5px 10px 0px #000000;
             }
-            .contract-law-text {
-              color: var(--dl-color-gray-black);
-              width: 100%;
-            }
             .contract-law-text01 {
               width: 100%;
+            }
+            .contract-law-text07 {
+              color: var(--dl-color-theme-color4);
+              background-color: var(--dl-color-theme-color1);
+            }
+            .contract-law-text08 {
+              color: var(--dl-color-theme-neutral-light);
             }
           }
           @media (max-width: 1200px) {

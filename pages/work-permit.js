@@ -419,12 +419,7 @@ const WorkPermit = (props) => {
             height: 100vh;
             display: flex;
             align-items: center;
-            border-color: var(--dl-color-gray-black);
-            border-width: 1px;
             justify-content: center;
-            border-top-width: 0px;
-            border-left-width: 0px;
-            border-right-width: 0px;
           }
           .work-permit-container02 {
             flex: 0 0 auto;
@@ -469,8 +464,8 @@ const WorkPermit = (props) => {
             font-weight: 300;
           }
           .work-permit-text02 {
-            color: var(--dl-color-theme-secondary1);
-            background-color: var(--dl-color-theme-primary2);
+            color: var(--dl-color-theme-neutral-dark);
+            background-color: var(--dl-color-theme-color2);
           }
           .work-permit-text03 {
             font-size: 1.5rem;
@@ -491,7 +486,7 @@ const WorkPermit = (props) => {
             align-items: center;
             flex-direction: column;
             justify-content: center;
-            background-color: #521e01;
+            background-color: var(--dl-color-theme-color1);
           }
           .work-permit-header {
             gap: var(--dl-space-space-oneandhalfunits);
@@ -507,8 +502,8 @@ const WorkPermit = (props) => {
             flex-direction: column;
           }
           .work-permit-text06 {
-            fill: var(--dl-color-theme-accent1);
-            color: var(--dl-color-theme-accent1);
+            fill: var(--dl-color-theme-neutral-light);
+            color: var(--dl-color-theme-neutral-light);
             width: 100%;
             font-size: 2rem;
             max-width: auto;
@@ -547,7 +542,7 @@ const WorkPermit = (props) => {
             font-weight: 300;
           }
           .work-permit-text10 {
-            background-color: var(--dl-color-theme-accent2);
+            background-color: var(--dl-color-theme-color3);
           }
           .work-permit-text11 {
             width: 30%;
@@ -683,14 +678,15 @@ const WorkPermit = (props) => {
             justify-content: center;
           }
           .work-permit-text12 {
-            color: var(--dl-color-gray-white);
+            fill: var(--dl-color-theme-accent1);
+            color: var(--dl-color-theme-accent1);
             opacity: 0.9;
             padding: var(--dl-space-space-unit);
             font-size: 2rem;
             font-style: normal;
             font-family: 'Josefin Sans';
             font-weight: 300;
-            background-color: var(--dl-color-theme-neutral-dark);
+            background-color: #1b1b1b;
           }
           .work-permit-text13 {
             width: 50%;
@@ -920,7 +916,7 @@ const WorkPermit = (props) => {
             font-style: normal;
             text-align: center;
             font-family: 'Josefin Sans';
-            font-weight: 400;
+            font-weight: 300;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
             text-transform: capitalize;
           }
@@ -1217,8 +1213,8 @@ const WorkPermit = (props) => {
             font-weight: 200;
           }
           .work-permit-link {
-            fill: var(--dl-color-theme-accent1);
-            color: var(--dl-color-theme-accent1);
+            fill: var(--dl-color-theme-color4);
+            color: var(--dl-color-theme-color4);
             font-size: 1.5rem;
             align-self: center;
             font-style: normal;
@@ -1231,11 +1227,13 @@ const WorkPermit = (props) => {
             padding-right: var(--dl-space-space-halfunit);
             padding-bottom: var(--dl-space-space-halfunit);
             text-decoration: underline;
-            background-color: var(--dl-color-theme-primary2);
+            background-color: var(--dl-color-theme-color5);
           }
           @media (max-width: 1600px) {
             .work-permit-container01 {
               height: 100vh;
+              margin-top: var(--dl-space-space-threeunits);
+              margin-bottom: var(--dl-space-space-threeunits);
             }
             .work-permit-image {
               margin-right: 0px;
@@ -1277,7 +1275,7 @@ const WorkPermit = (props) => {
           }
           @media (max-width: 1200px) {
             .work-permit-container01 {
-              height: 50vh;
+              height: 75vh;
               align-items: center;
               flex-direction: row;
               justify-content: center;
@@ -1296,6 +1294,12 @@ const WorkPermit = (props) => {
             }
             .work-permit-container04 {
               margin-top: var(--dl-space-space-threeunits);
+            }
+            .work-permit-text11 {
+              width: auto;
+            }
+            .work-permit-stats {
+              height: auto;
             }
             .work-permit-ul {
               width: 75%;
@@ -1318,9 +1322,6 @@ const WorkPermit = (props) => {
             }
           }
           @media (max-width: 991px) {
-            .work-permit-container01 {
-              height: 50vh;
-            }
             .work-permit-image {
               width: 100%;
             }
@@ -1338,6 +1339,9 @@ const WorkPermit = (props) => {
             .work-permit-text07 {
               width: 75%;
               align-self: center;
+            }
+            .work-permit-text11 {
+              width: 75%;
             }
             .work-permit-stats {
               height: auto;
@@ -1378,7 +1382,6 @@ const WorkPermit = (props) => {
           }
           @media (max-width: 767px) {
             .work-permit-container01 {
-              height: auto;
               flex-direction: row;
             }
             .work-permit-container02 {
@@ -1412,6 +1415,9 @@ const WorkPermit = (props) => {
               margin-top: var(--dl-space-space-fiveunits);
               margin-bottom: var(--dl-space-space-fiveunits);
             }
+            .work-permit-text13 {
+              width: 75%;
+            }
             .work-permit-banner {
               width: 100%;
               height: 75vh;
@@ -1419,7 +1425,7 @@ const WorkPermit = (props) => {
               padding-right: var(--dl-space-space-unit);
             }
             .work-permit-text53 {
-              width: 100%;
+              width: 80%;
             }
             .work-permit-container08 {
               width: 100%;
@@ -1494,6 +1500,9 @@ const WorkPermit = (props) => {
               margin-bottom: var(--dl-space-space-twounits);
               padding-right: 0px;
             }
+            .work-permit-container05 {
+              height: auto;
+            }
             .work-permit-text06 {
               width: 90%;
               align-self: center;
@@ -1502,6 +1511,9 @@ const WorkPermit = (props) => {
               width: 90%;
               max-width: auto;
               align-self: center;
+            }
+            .work-permit-text13 {
+              width: 75%;
             }
             .work-permit-banner {
               width: 100%;
@@ -1513,7 +1525,7 @@ const WorkPermit = (props) => {
               padding-bottom: 0px;
             }
             .work-permit-text53 {
-              width: 100%;
+              width: 75%;
               margin-bottom: 0px;
             }
             .work-permit-container08 {

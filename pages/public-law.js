@@ -94,7 +94,7 @@ const PublicLaw = (props) => {
           .public-law-container1 {
             flex: 0 0 auto;
             width: 100%;
-            height: 75vh;
+            height: 100vh;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -153,9 +153,10 @@ const PublicLaw = (props) => {
             text-decoration: none;
           }
           .public-law-text7:hover {
-            fill: var(--dl-color-theme-accent1);
-            color: var(--dl-color-theme-accent1);
-            background-color: var(--dl-color-theme-primary2);
+            fill: var(--dl-color-theme-color4);
+            color: var(--dl-color-theme-color4);
+            border-color: var(--dl-color-theme-color5);
+            background-color: var(--dl-color-theme-color5);
           }
           .public-law-container4 {
             flex: 0 0 auto;

@@ -34,27 +34,35 @@ const AboutUs = (props) => {
             <div className="about-us-content">
               <h1 className="about-us-text thq-heading-1">About us</h1>
               <p className="about-us-text1 thq-body-large">
-                At Danneskiold &amp; Associates LP, we are dedicated to
-                delivering practical, effective, and affordable legal solutions
-                tailored to our clients needs. Unlike business service firms
-                that act as intermediaries between lawyers and clients and focus
-                on conversion rate optimization, we are a law firm dedicated to
-                winning cases. We handle a diverse range of legal matters,
-                catering to both individual and corporate needs, and we deliver
-                tangible results, not empty promises. We take on cases only when
-                we can provide genuine value. Additionally, your case is always
-                handled in-house, ensuring personalized attention and expertise
-                every step of the way. For more information, please contact us.
-                Our team strives to respond as promptly as possible, typically
-                within the hour unless we are in court.
+                <span>
+                  At Danneskiold &amp; Associates LP, we focus on providing
+                  practical, effective, and affordable legal solutions. Our team
+                  of experienced attorneys have a proven track record of
+                  success, and we&apos;re proud of our reputation for being
+                  fierce advocates who fight tirelessly to protect our
+                  clients&apos; rights and interests. Unlike many law firms, we
+                  focus on tangible results, not empty promises.
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: ' ',
+                    }}
+                  />
+                </span>
+                <span>
+                  We respond promptly to all
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: ' ',
+                    }}
+                  />
+                </span>
+                <Link href="/contact">
+                  <a className="about-us-link">inquiries</a>
+                </Link>
+                <span>
+                  , usually within the hour, unless we&apos;re in court.
+                </span>
               </p>
-            </div>
-            <div className="about-us-actions">
-              <Link href="/contact">
-                <a className="about-us-link thq-button-outline">
-                  <span className="thq-body-small">Contact Us</span>
-                </a>
-              </Link>
             </div>
           </div>
         </div>
@@ -113,16 +121,8 @@ const AboutUs = (props) => {
             font-family: 'Josefin Sans';
             font-weight: 200;
           }
-          .about-us-actions {
-            gap: var(--dl-space-space-unit);
-            display: flex;
-            align-items: flex-start;
-            padding-top: var(--dl-space-space-unit);
-          }
           .about-us-link {
-            padding: var(--dl-space-space-oneandhalfunits);
-            margin-top: var(--dl-space-space-unit);
-            text-decoration: none;
+            text-decoration: underline;
           }
           @media (max-width: 1200px) {
             .about-us-column {
@@ -136,20 +136,15 @@ const AboutUs = (props) => {
           }
           @media (max-width: 767px) {
             .about-us-header78 {
+              width: 100%;
               padding: var(--dl-space-space-threeunits);
             }
           }
           @media (max-width: 479px) {
             .about-us-header78 {
+              margin-right: 0px;
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
-            }
-            .about-us-actions {
-              width: 100%;
-              flex-direction: column;
-            }
-            .about-us-link {
-              width: 100%;
             }
           }
         `}

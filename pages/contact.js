@@ -232,8 +232,8 @@ const Contact = (props) => {
             font-weight: 200;
           }
           .contact-button {
-            fill: var(--dl-color-theme-neutral-light);
-            color: var(--dl-color-theme-neutral-light);
+            fill: var(--dl-color-theme-color4);
+            color: var(--dl-color-theme-color4);
             font-size: 1.5rem;
             align-self: center;
             font-style: normal;
@@ -243,7 +243,7 @@ const Contact = (props) => {
             font-weight: 200;
             border-radius: 0px;
             text-decoration: none;
-            background-color: var(--dl-color-theme-primary2);
+            background-color: var(--dl-color-theme-color1);
           }
           .contact-button:hover {
             fill: var(--dl-color-theme-neutral-light);
@@ -251,7 +251,7 @@ const Contact = (props) => {
             opacity: 1;
             border-color: var(--dl-color-gray-black);
             border-width: 1px;
-            background-color: var(--dl-color-theme-neutral-dark);
+            background-color: var(--dl-color-theme-color2);
           }
           @media (max-width: 1600px) {
             .contact-container1 {
@@ -298,6 +298,7 @@ const Contact = (props) => {
             }
             .contact-button {
               margin-top: var(--dl-space-space-twounits);
+              background-color: var(--dl-color-theme-color5);
             }
           }
           @media (max-width: 1200px) {

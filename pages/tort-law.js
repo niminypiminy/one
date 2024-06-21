@@ -33,7 +33,7 @@ const TortLaw = (props) => {
           <div className="tort-law-container2">
             <img
               alt="plaintiff slipped on the floor"
-              src="/tort%20law-600w.jpeg"
+              src="/tort%20law-800w.jpeg"
               className="tort-law-image"
             />
           </div>
@@ -155,9 +155,10 @@ const TortLaw = (props) => {
             text-decoration: none;
           }
           .tort-law-text2:hover {
-            fill: var(--dl-color-theme-accent1);
-            color: var(--dl-color-theme-accent1);
-            background-color: var(--dl-color-theme-primary2);
+            fill: var(--dl-color-theme-color4);
+            color: var(--dl-color-theme-color4);
+            border-color: var(--dl-color-theme-color5);
+            background-color: var(--dl-color-theme-color5);
           }
           @media (max-width: 1600px) {
             .tort-law-container1 {
@@ -175,8 +176,11 @@ const TortLaw = (props) => {
             }
           }
           @media (max-width: 1200px) {
+            .tort-law-container1 {
+              flex-direction: row;
+            }
             .tort-law-container2 {
-              width: 40%;
+              width: 50%;
             }
             .tort-law-container4 {
               width: 95%;

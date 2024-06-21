@@ -150,7 +150,6 @@ const VirtualOffice = (props) => {
             width: 50%;
             height: 100%;
             display: flex;
-            opacity: 0.9;
             max-width: auto;
             box-shadow: 5px 5px 10px 0px #d4d4d4;
             transition: 0.3s;
@@ -158,7 +157,7 @@ const VirtualOffice = (props) => {
             margin-right: var(--dl-space-space-twounits);
             flex-direction: column;
             justify-content: center;
-            background-color: #1b1b1b;
+            background-color: var(--dl-color-theme-color1);
           }
           .virtual-office-container6:hover {
             transform: scale(1.02);
@@ -185,14 +184,15 @@ const VirtualOffice = (props) => {
             width: 50%;
             height: 100%;
             display: flex;
-            opacity: 0.9;
             max-width: auto;
             box-shadow: 5px 5px 10px 0px #d4d4d4;
             transition: 0.3s;
             align-items: center;
+            border-color: var(--dl-color-gray-black);
+            border-width: 1px;
             flex-direction: column;
             justify-content: center;
-            background-color: #1b1b1b;
+            background-color: var(--dl-color-theme-color1);
           }
           .virtual-office-container7:hover {
             transform: scale(1.02);

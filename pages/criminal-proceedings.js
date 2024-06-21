@@ -755,8 +755,9 @@ const CriminalProceedings = (props) => {
             text-decoration: none;
           }
           .criminal-proceedings-text44:hover {
-            color: var(--dl-color-gray-white);
-            background-color: #1b1b1b;
+            fill: var(--dl-color-theme-color4);
+            color: var(--dl-color-theme-color4);
+            background-color: var(--dl-color-theme-color5);
           }
           @media (max-width: 1600px) {
             .criminal-proceedings-text22 {
@@ -820,7 +821,7 @@ const CriminalProceedings = (props) => {
               width: 90%;
             }
             .criminal-proceedings-text44 {
-              align-self: flex-start;
+              align-self: center;
             }
           }
           @media (max-width: 479px) {
@@ -850,9 +851,6 @@ const CriminalProceedings = (props) => {
             }
             .criminal-proceedings-text39 {
               width: 90%;
-            }
-            .criminal-proceedings-text44 {
-              align-self: flex-start;
             }
           }
         `}

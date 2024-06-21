@@ -424,13 +424,13 @@ const Component7 = (props) => {
             justify-content: center;
           }
           .component7-button {
-            fill: var(--dl-color-theme-neutral-dark);
-            color: var(--dl-color-theme-neutral-dark);
+            fill: var(--dl-color-theme-color4);
+            color: var(--dl-color-theme-color4);
             font-size: 1.5rem;
             font-style: normal;
             font-family: 'Josefin Sans';
             font-weight: 300;
-            background-color: var(--dl-color-theme-accent2);
+            background-color: var(--dl-color-theme-color5);
           }
           .component7-button1 {
             fill: var(--dl-color-theme-neutral-dark);
@@ -443,7 +443,9 @@ const Component7 = (props) => {
             border-color: var(--dl-color-theme-neutral-dark);
           }
           .component7-button1:hover {
-            background-color: var(--dl-color-theme-accent2);
+            fill: var(--dl-color-theme-color4);
+            color: var(--dl-color-theme-color4);
+            background-color: var(--dl-color-theme-color5);
           }
           .component7-button2 {
             fill: var(--dl-color-theme-neutral-dark);
@@ -456,16 +458,18 @@ const Component7 = (props) => {
             border-color: var(--dl-color-theme-neutral-dark);
           }
           .component7-button2:hover {
-            background-color: var(--dl-color-theme-accent2);
+            fill: var(--dl-color-theme-color4);
+            color: var(--dl-color-theme-color4);
+            background-color: var(--dl-color-theme-color5);
           }
           .component7-button3 {
-            fill: var(--dl-color-theme-neutral-dark);
-            color: var(--dl-color-theme-neutral-dark);
+            fill: var(--dl-color-theme-color4);
+            color: var(--dl-color-theme-color4);
             font-size: 1.5rem;
             font-style: normal;
             font-family: 'Josefin Sans';
             font-weight: 300;
-            background-color: var(--dl-color-theme-accent2);
+            background-color: var(--dl-color-theme-color5);
           }
           .component7-button4 {
             fill: var(--dl-color-theme-neutral-dark);
@@ -478,16 +482,18 @@ const Component7 = (props) => {
             border-color: var(--dl-color-theme-neutral-dark);
           }
           .component7-button4:hover {
-            background-color: var(--dl-color-theme-accent2);
+            fill: var(--dl-color-theme-color4);
+            color: var(--dl-color-theme-color4);
+            background-color: var(--dl-color-theme-color5);
           }
           .component7-button5 {
-            fill: var(--dl-color-theme-neutral-dark);
-            color: var(--dl-color-theme-neutral-dark);
+            fill: var(--dl-color-theme-color4);
+            color: var(--dl-color-theme-color4);
             font-size: 1.5rem;
             font-style: normal;
             font-family: 'Josefin Sans';
             font-weight: 300;
-            background-color: var(--dl-color-theme-accent2);
+            background-color: var(--dl-color-theme-color5);
           }
           .component7-container2 {
             flex: 0 0 auto;
@@ -1372,22 +1378,6 @@ const Component7 = (props) => {
             font-weight: 300;
             line-height: 36px;
           }
-          @media (max-width: 1600px) {
-            .component7-text {
-              font-style: normal;
-              font-weight: 400;
-            }
-            .component7-text09 {
-              font-style: normal;
-              font-weight: 400;
-            }
-          }
-          @media (max-width: 1200px) {
-            .component7-text23 {
-              font-style: normal;
-              font-weight: 600;
-            }
-          }
           @media (max-width: 991px) {
             .component7-row {
               flex-direction: column;
@@ -1540,9 +1530,7 @@ const Component7 = (props) => {
               flex-direction: column;
             }
             .component7-text09 {
-              font-size: 2rem;
               margin-top: var(--dl-space-space-fourunits);
-              line-height: 15px;
               margin-bottom: var(--dl-space-space-fourunits);
               padding-bottom: var(--dl-space-space-halfunit);
             }
@@ -1780,10 +1768,7 @@ const Component7 = (props) => {
               flex-direction: column;
             }
             .component7-text23 {
-              font-style: normal;
               margin-top: var(--dl-space-space-fourunits);
-              font-family: Josefin Sans;
-              font-weight: 600;
               margin-bottom: var(--dl-space-space-fourunits);
               padding-bottom: var(--dl-space-space-halfunit);
             }
@@ -2169,32 +2154,14 @@ const Component7 = (props) => {
               flex-direction: column;
             }
           }
-          @media (max-width: 767px) {
-            .component7-text {
-              font-style: normal;
-              font-weight: 600;
-            }
-            .component7-text23 {
-              font-style: normal;
-              font-weight: 600;
-            }
-          }
           @media (max-width: 479px) {
             .component7-container1 {
               align-items: stretch;
               flex-direction: column;
             }
-            .component7-text {
-              font-style: normal;
-              font-weight: 600;
-            }
             .component7-list {
               margin-left: var(--dl-space-space-fourunits);
               margin-right: var(--dl-space-space-fourunits);
-            }
-            .component7-text23 {
-              font-style: normal;
-              font-weight: 600;
             }
           }
         `}

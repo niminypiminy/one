@@ -3,7 +3,6 @@ import Link from 'next/link'
 import Head from 'next/head'
 
 import Navbar from '../components/navbar'
-import Card1 from '../components/card1'
 import Footer1 from '../components/footer1'
 
 const BoardOfInvestment = (props) => {
@@ -44,7 +43,7 @@ const BoardOfInvestment = (props) => {
                 />
               </span>
               <span className="board-of-investment-text02">
-                Investment (BOI) 
+                Investment (BOI).
               </span>
             </h1>
             <span className="board-of-investment-text03">
@@ -81,29 +80,48 @@ const BoardOfInvestment = (props) => {
         </div>
         <section id="arrow" className="board-of-investment-section">
           <main className="board-of-investment-cards">
-            <Card1
-              header="No Tax"
-              description="Exempt from paying corporate income tax for up to thirteen years, or a 50% reduction when investing in certain industries."
-              rootClassName="card1-root-class-name"
-            ></Card1>
-            <Card1
-              icon="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
-              header="No Tariffs"
-              description="The BOI will waive import tariffs for machines and other raw materials, if necessary for business operation and relocation."
-              rootClassName="card1-root-class-name1"
-            ></Card1>
-            <Card1
-              icon="0 0 1024 1024"
-              header="Ownership"
-              description="100% foreign ownership is permitted, and foreign investors and their next of kin may receive permission to work and reside in Thailand."
-              rootClassName="card1-root-class-name2"
-            ></Card1>
-            <Card1
-              icon="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
-              header="Own Property"
-              description="In some cases, companies registered with the BOI are permitted to own land"
-              rootClassName="card1-root-class-name3"
-            ></Card1>
+            <section className="board-of-investment-card">
+              <div className="board-of-investment-icon"></div>
+              <main className="board-of-investment-content">
+                <h1 className="board-of-investment-header">No Tax</h1>
+                <p className="board-of-investment-description">
+                  Exempt from paying corporate income tax for up to thirteen
+                  years, or a 50% reduction when investing in certain
+                  industries.
+                </p>
+              </main>
+            </section>
+            <section className="board-of-investment-card1">
+              <div className="board-of-investment-icon1"></div>
+              <main className="board-of-investment-content01">
+                <h1 className="board-of-investment-header1">No Tariffs</h1>
+                <p className="board-of-investment-description1">
+                  The BOI will waive import tariffs for machines and other raw
+                  materials, if necessary for business operation and relocation.
+                </p>
+              </main>
+            </section>
+            <section className="board-of-investment-card2">
+              <div className="board-of-investment-icon2"></div>
+              <main className="board-of-investment-content02">
+                <h1 className="board-of-investment-header2">Ownership</h1>
+                <p className="board-of-investment-description2">
+                  100% foreign ownership is permitted, and foreign investors and
+                  their next of kin may receive permission to work and reside in
+                  Thailand.
+                </p>
+              </main>
+            </section>
+            <section className="board-of-investment-card3">
+              <div className="board-of-investment-icon3"></div>
+              <main className="board-of-investment-content03">
+                <h1 className="board-of-investment-header3">Own Property</h1>
+                <p className="board-of-investment-description3">
+                  In some cases, companies registered with the BOI are permitted
+                  to own land
+                </p>
+              </main>
+            </section>
           </main>
         </section>
         <div className="board-of-investment-layout349 thq-section-padding">
@@ -122,7 +140,7 @@ const BoardOfInvestment = (props) => {
         <div className="board-of-investment-layout226 thq-section-padding">
           <div className="board-of-investment-max-width1 thq-section-max-width thq-grid-auto-300">
             <div className="thq-flex-column">
-              <div className="thq-flex-column board-of-investment-content">
+              <div className="thq-flex-column board-of-investment-content04">
                 <h3 className="board-of-investment-title1 thq-heading-3">
                   Category 1 (FBA) 
                 </h3>
@@ -135,7 +153,7 @@ const BoardOfInvestment = (props) => {
               </div>
             </div>
             <div className="thq-flex-column">
-              <div className="thq-flex-column board-of-investment-content1">
+              <div className="thq-flex-column board-of-investment-content05">
                 <strong className="board-of-investment-title2 thq-heading-3">
                   Category 2 and 3
                 </strong>
@@ -162,7 +180,7 @@ const BoardOfInvestment = (props) => {
               </div>
             </div>
             <div className="thq-flex-column">
-              <div className="thq-flex-column board-of-investment-content2">
+              <div className="thq-flex-column board-of-investment-content06">
                 <strong className="board-of-investment-title3 thq-heading-3">
                   Investment Promotion
                 </strong>
@@ -179,7 +197,7 @@ const BoardOfInvestment = (props) => {
         <div className="board-of-investment-layout2261 thq-section-padding">
           <div className="board-of-investment-max-width2 thq-section-max-width thq-grid-auto-300">
             <div className="thq-flex-column">
-              <div className="thq-flex-column board-of-investment-content3">
+              <div className="thq-flex-column board-of-investment-content07">
                 <h3 className="board-of-investment-title11 thq-heading-3">
                   Minimal Capital
                 </h3>
@@ -191,7 +209,7 @@ const BoardOfInvestment = (props) => {
               </div>
             </div>
             <div className="thq-flex-column">
-              <div className="thq-flex-column board-of-investment-content4">
+              <div className="thq-flex-column board-of-investment-content08">
                 <strong className="board-of-investment-title21 thq-heading-3">
                   Projects over 10M Baht
                 </strong>
@@ -203,7 +221,7 @@ const BoardOfInvestment = (props) => {
               </div>
             </div>
             <div className="thq-flex-column">
-              <div className="thq-flex-column board-of-investment-content5">
+              <div className="thq-flex-column board-of-investment-content09">
                 <strong className="board-of-investment-title31 thq-heading-3">
                   Debt to Equity Ratio
                 </strong>
@@ -379,8 +397,8 @@ const BoardOfInvestment = (props) => {
             font-weight: 300;
           }
           .board-of-investment-text02 {
-            color: var(--dl-color-theme-accent1);
-            background-color: var(--dl-color-theme-primary2);
+            color: var(--dl-color-theme-neutral-dark);
+            background-color: var(--dl-color-theme-color3);
           }
           .board-of-investment-text03 {
             width: 75%;
@@ -431,10 +449,11 @@ const BoardOfInvestment = (props) => {
             gap: var(--dl-space-space-fiveunits);
             flex: 1;
             width: 100%;
-            height: 60vh;
+            height: auto;
             display: flex;
             align-self: center;
             margin-top: var(--dl-space-space-sixunits);
+            min-height: auto;
             margin-bottom: var(--dl-space-space-sixunits);
             flex-direction: row;
             justify-content: center;
@@ -442,13 +461,210 @@ const BoardOfInvestment = (props) => {
           .board-of-investment-cards {
             gap: var(--dl-space-space-threeunits);
             width: 90%;
-            height: auto;
+            height: 75vh;
             display: flex;
-            max-width: 100%;
+            max-width: auto;
             margin-top: var(--dl-space-space-fourunits);
+            min-height: auto;
             align-items: center;
             flex-direction: row;
             justify-content: center;
+          }
+          .board-of-investment-card {
+            gap: var(--dl-space-space-oneandhalfunits);
+            flex: 1;
+            height: 90%;
+            display: flex;
+            padding: var(--dl-space-space-threeunits);
+            position: relative;
+            align-items: flex-start;
+            border-radius: 20px;
+            flex-direction: column;
+            justify-content: flex-start;
+            background-color: var(--dl-color-theme-color1);
+          }
+          .board-of-investment-icon {
+            border: 2px dashed rgba(120, 120, 120, 0.4);
+            display: flex;
+            padding: var(--dl-space-space-unit);
+            align-items: center;
+            aspect-ratio: 1;
+            border-radius: 50%;
+            flex-direction: column;
+            justify-content: center;
+            background-color: var(--dl-color-theme-color4);
+          }
+          .board-of-investment-content {
+            gap: var(--dl-space-space-halfunit);
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: flex-start;
+          }
+          .board-of-investment-header {
+            fill: var(--dl-color-theme-neutral-light);
+            color: var(--dl-color-theme-neutral-light);
+            font-size: 2rem;
+            font-style: normal;
+            font-family: Josefin Sans;
+            font-weight: 200;
+            line-height: 36px;
+          }
+          .board-of-investment-description {
+            fill: var(--dl-color-theme-accent1);
+            color: var(--dl-color-theme-accent1);
+            font-size: 1.5rem;
+            font-style: normal;
+            font-family: Josefin Sans;
+            font-weight: 200;
+            line-height: 28px;
+          }
+          .board-of-investment-card1 {
+            gap: var(--dl-space-space-oneandhalfunits);
+            flex: 1;
+            height: 90%;
+            display: flex;
+            padding: var(--dl-space-space-threeunits);
+            position: relative;
+            align-items: flex-start;
+            border-radius: 20px;
+            flex-direction: column;
+            justify-content: flex-start;
+            background-color: var(--dl-color-theme-color1);
+          }
+          .board-of-investment-icon1 {
+            border: 2px dashed rgba(120, 120, 120, 0.4);
+            display: flex;
+            padding: var(--dl-space-space-unit);
+            align-items: center;
+            aspect-ratio: 1;
+            border-radius: 50%;
+            flex-direction: column;
+            justify-content: center;
+            background-color: var(--dl-color-theme-color4);
+          }
+          .board-of-investment-content01 {
+            gap: var(--dl-space-space-halfunit);
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: flex-start;
+          }
+          .board-of-investment-header1 {
+            fill: var(--dl-color-theme-neutral-light);
+            color: var(--dl-color-theme-neutral-light);
+            font-size: 2rem;
+            font-style: normal;
+            font-family: Josefin Sans;
+            font-weight: 200;
+            line-height: 36px;
+          }
+          .board-of-investment-description1 {
+            fill: var(--dl-color-theme-accent1);
+            color: var(--dl-color-theme-accent1);
+            font-size: 1.5rem;
+            font-style: normal;
+            font-family: Josefin Sans;
+            font-weight: 200;
+            line-height: 28px;
+          }
+          .board-of-investment-card2 {
+            gap: var(--dl-space-space-oneandhalfunits);
+            flex: 1;
+            height: 90%;
+            display: flex;
+            padding: var(--dl-space-space-threeunits);
+            position: relative;
+            align-items: flex-start;
+            border-radius: 20px;
+            flex-direction: column;
+            justify-content: flex-start;
+            background-color: var(--dl-color-theme-color1);
+          }
+          .board-of-investment-icon2 {
+            border: 2px dashed rgba(120, 120, 120, 0.4);
+            display: flex;
+            padding: var(--dl-space-space-unit);
+            align-items: center;
+            aspect-ratio: 1;
+            border-radius: 50%;
+            flex-direction: column;
+            justify-content: center;
+            background-color: var(--dl-color-theme-color4);
+          }
+          .board-of-investment-content02 {
+            gap: var(--dl-space-space-halfunit);
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: flex-start;
+          }
+          .board-of-investment-header2 {
+            fill: var(--dl-color-theme-neutral-light);
+            color: var(--dl-color-theme-neutral-light);
+            font-size: 2rem;
+            font-style: normal;
+            font-family: Josefin Sans;
+            font-weight: 200;
+            line-height: 36px;
+          }
+          .board-of-investment-description2 {
+            fill: var(--dl-color-theme-accent1);
+            color: var(--dl-color-theme-accent1);
+            font-size: 1.5rem;
+            font-style: normal;
+            font-family: Josefin Sans;
+            font-weight: 200;
+            line-height: 28px;
+          }
+          .board-of-investment-card3 {
+            gap: var(--dl-space-space-oneandhalfunits);
+            flex: 1;
+            height: 90%;
+            display: flex;
+            padding: var(--dl-space-space-threeunits);
+            position: relative;
+            align-items: flex-start;
+            border-radius: 20px;
+            flex-direction: column;
+            justify-content: flex-start;
+            background-color: var(--dl-color-theme-color1);
+          }
+          .board-of-investment-icon3 {
+            border: 2px dashed rgba(120, 120, 120, 0.4);
+            display: flex;
+            padding: var(--dl-space-space-unit);
+            align-items: center;
+            aspect-ratio: 1;
+            border-radius: 50%;
+            flex-direction: column;
+            justify-content: center;
+            background-color: var(--dl-color-theme-color4);
+          }
+          .board-of-investment-content03 {
+            gap: var(--dl-space-space-halfunit);
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: flex-start;
+          }
+          .board-of-investment-header3 {
+            fill: var(--dl-color-theme-neutral-light);
+            color: var(--dl-color-theme-neutral-light);
+            font-size: 2rem;
+            font-style: normal;
+            font-family: Josefin Sans;
+            font-weight: 200;
+            line-height: 36px;
+          }
+          .board-of-investment-description3 {
+            fill: var(--dl-color-theme-accent1);
+            color: var(--dl-color-theme-accent1);
+            font-size: 1.5rem;
+            font-style: normal;
+            font-family: Josefin Sans;
+            font-weight: 200;
+            line-height: 28px;
           }
           .board-of-investment-layout349 {
             gap: var(--dl-space-space-twounits);
@@ -498,14 +714,8 @@ const BoardOfInvestment = (props) => {
             align-self: center;
             align-items: center;
             flex-shrink: 0;
-            border-color: var(--dl-color-gray-black);
-            border-width: 1px;
             flex-direction: row;
             justify-content: center;
-            border-top-width: 1px;
-            border-left-width: 1px;
-            border-right-width: 1px;
-            border-bottom-width: 1px;
           }
           .board-of-investment-max-width1 {
             align-self: flex-start;
@@ -566,14 +776,8 @@ const BoardOfInvestment = (props) => {
             align-self: center;
             align-items: center;
             flex-shrink: 0;
-            border-color: var(--dl-color-gray-black);
-            border-width: 1px;
             flex-direction: row;
             justify-content: center;
-            border-top-width: 0px;
-            border-left-width: 1px;
-            border-right-width: 1px;
-            border-bottom-width: 1px;
           }
           .board-of-investment-max-width2 {
             align-self: flex-start;
@@ -1036,7 +1240,8 @@ const BoardOfInvestment = (props) => {
             font-weight: 200;
           }
           .board-of-investment-link2 {
-            color: var(--dl-color-theme-neutral-light);
+            fill: var(--dl-color-theme-accent1);
+            color: var(--dl-color-theme-color4);
             font-size: 1.5rem;
             font-style: normal;
             margin-top: var(--dl-space-space-fourunits);
@@ -1047,7 +1252,7 @@ const BoardOfInvestment = (props) => {
             padding-right: var(--dl-space-space-halfunit);
             padding-bottom: var(--dl-space-space-halfunit);
             text-decoration: underline;
-            background-color: var(--dl-color-theme-primary2);
+            background-color: var(--dl-color-theme-color5);
           }
           @media (max-width: 1600px) {
             .board-of-investment-container {
@@ -1077,11 +1282,48 @@ const BoardOfInvestment = (props) => {
               margin-top: var(--dl-space-space-twounits);
             }
             .board-of-investment-section {
-              margin-top: var(--dl-space-space-sixunits);
+              align-items: center;
+              justify-content: center;
             }
-            .board-of-investment-cards {
-              height: auto;
-              max-width: 100%;
+            .board-of-investment-header {
+              fill: var(--dl-color-theme-neutral-light);
+              color: var(--dl-color-theme-neutral-light);
+            }
+            .board-of-investment-description {
+              font-size: 1.5rem;
+              font-style: normal;
+              font-family: Josefin Sans;
+              font-weight: 200;
+            }
+            .board-of-investment-header1 {
+              fill: var(--dl-color-theme-neutral-light);
+              color: var(--dl-color-theme-neutral-light);
+            }
+            .board-of-investment-description1 {
+              font-size: 1.5rem;
+              font-style: normal;
+              font-family: Josefin Sans;
+              font-weight: 200;
+            }
+            .board-of-investment-header2 {
+              fill: var(--dl-color-theme-neutral-light);
+              color: var(--dl-color-theme-neutral-light);
+            }
+            .board-of-investment-description2 {
+              font-size: 1.5rem;
+              font-style: normal;
+              font-family: Josefin Sans;
+              font-weight: 200;
+            }
+            .board-of-investment-header3 {
+              fill: var(--dl-color-theme-neutral-light);
+              color: var(--dl-color-theme-neutral-light);
+            }
+            .board-of-investment-description3 {
+              font-size: 1.5rem;
+              font-style: normal;
+              font-family: Josefin Sans;
+              font-weight: 200;
             }
             .board-of-investment-container23 {
               width: 50%;
@@ -1109,6 +1351,7 @@ const BoardOfInvestment = (props) => {
               flex-direction: row;
             }
             .board-of-investment-cards {
+              height: auto;
               flex-direction: column;
             }
             .board-of-investment-container03 {
@@ -1175,25 +1418,25 @@ const BoardOfInvestment = (props) => {
             .board-of-investment-layout226 {
               width: 80%;
             }
-            .board-of-investment-content {
+            .board-of-investment-content04 {
               align-items: center;
             }
-            .board-of-investment-content1 {
+            .board-of-investment-content05 {
               align-items: center;
             }
-            .board-of-investment-content2 {
+            .board-of-investment-content06 {
               align-items: center;
             }
             .board-of-investment-layout2261 {
               width: 80%;
             }
-            .board-of-investment-content3 {
+            .board-of-investment-content07 {
               align-items: center;
             }
-            .board-of-investment-content4 {
+            .board-of-investment-content08 {
               align-items: center;
             }
-            .board-of-investment-content5 {
+            .board-of-investment-content09 {
               align-items: center;
             }
             .board-of-investment-container03 {

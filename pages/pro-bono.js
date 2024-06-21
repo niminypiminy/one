@@ -132,9 +132,10 @@ const ProBono = (props) => {
             border-width: 1px;
           }
           .pro-bono-text5:hover {
-            fill: var(--dl-color-theme-accent1);
-            color: var(--dl-color-theme-accent1);
-            background-color: var(--dl-color-theme-primary2);
+            fill: var(--dl-color-theme-color4);
+            color: var(--dl-color-theme-color4);
+            border-color: var(--dl-color-theme-color5);
+            background-color: var(--dl-color-theme-color5);
           }
           .pro-bono-container4 {
             flex: 0 0 auto;
@@ -154,7 +155,6 @@ const ProBono = (props) => {
           }
           @media (max-width: 1600px) {
             .pro-bono-container1 {
-              height: 70vh;
               align-items: center;
               justify-content: center;
             }

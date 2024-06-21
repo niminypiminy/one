@@ -650,20 +650,20 @@ const LimitedPartnershipLP = (props) => {
             font-weight: 300;
           }
           .limited-partnership-lp-text02 {
-            color: var(--dl-color-theme-accent1);
-            background-color: var(--dl-color-theme-primary2);
+            color: var(--dl-color-theme-neutral-dark);
+            background-color: var(--dl-color-theme-color3);
           }
           .limited-partnership-lp-text03 {
-            color: var(--dl-color-theme-accent1);
-            background-color: var(--dl-color-theme-primary2);
+            color: var(--dl-color-theme-neutral-dark);
+            background-color: var(--dl-color-theme-color3);
           }
           .limited-partnership-lp-text04 {
-            color: var(--dl-color-theme-accent1);
-            background-color: var(--dl-color-theme-primary2);
+            color: var(--dl-color-theme-neutral-dark);
+            background-color: var(--dl-color-theme-color3);
           }
           .limited-partnership-lp-text05 {
-            color: var(--dl-color-theme-accent1);
-            background-color: var(--dl-color-theme-primary2);
+            color: var(--dl-color-theme-neutral-dark);
+            background-color: var(--dl-color-theme-color3);
           }
           .limited-partnership-lp-text06 {
             font-size: 1.5rem;
@@ -717,7 +717,7 @@ const LimitedPartnershipLP = (props) => {
             transform: scale(1.2);
           }
           .limited-partnership-lp-icon {
-            fill: var(--dl-color-theme-accent2);
+            fill: var(--dl-color-theme-color4);
             width: var(--dl-size-size-small);
             height: var(--dl-size-size-small);
           }
@@ -751,7 +751,7 @@ const LimitedPartnershipLP = (props) => {
             transform: scale(1.2);
           }
           .limited-partnership-lp-icon02 {
-            fill: var(--dl-color-theme-accent2);
+            fill: var(--dl-color-theme-color4);
             width: var(--dl-size-size-small);
             height: var(--dl-size-size-small);
           }
@@ -966,8 +966,10 @@ const LimitedPartnershipLP = (props) => {
             text-decoration: none;
           }
           .limited-partnership-lp-text26:hover {
-            color: var(--dl-color-gray-white);
-            background-color: #1b1b1b;
+            fill: var(--dl-color-theme-color4);
+            color: var(--dl-color-theme-color4);
+            border-color: var(--dl-color-theme-color5);
+            background-color: var(--dl-color-theme-color5);
           }
           .limited-partnership-lp-steps {
             width: 80%;
@@ -990,8 +992,8 @@ const LimitedPartnershipLP = (props) => {
             font-weight: 300;
           }
           .limited-partnership-lp-text29 {
-            color: var(--dl-color-theme-accent1);
-            background-color: var(--dl-color-theme-primary2);
+            color: var(--dl-color-theme-color1);
+            background-color: var(--dl-color-theme-color4);
           }
           .limited-partnership-lp-container15 {
             flex: 0 0 auto;
@@ -1448,7 +1450,8 @@ const LimitedPartnershipLP = (props) => {
             justify-content: center;
           }
           .limited-partnership-lp-header {
-            color: var(--dl-color-gray-white);
+            fill: var(--dl-color-theme-accent1);
+            color: var(--dl-color-theme-accent1);
             opacity: 0.9;
             padding: var(--dl-space-space-halfunit);
             font-size: 2rem;
@@ -1676,8 +1679,8 @@ const LimitedPartnershipLP = (props) => {
             height: 16px;
           }
           .limited-partnership-lp-link3 {
-            fill: var(--dl-color-theme-accent1);
-            color: var(--dl-color-theme-accent1);
+            fill: var(--dl-color-theme-color4);
+            color: var(--dl-color-theme-color4);
             font-size: 1.5rem;
             align-self: center;
             font-style: normal;
@@ -1690,7 +1693,7 @@ const LimitedPartnershipLP = (props) => {
             padding-right: var(--dl-space-space-halfunit);
             padding-bottom: var(--dl-space-space-halfunit);
             text-decoration: underline;
-            background-color: var(--dl-color-theme-primary2);
+            background-color: var(--dl-color-theme-color5);
           }
           @media (max-width: 1600px) {
             .limited-partnership-lp-image {

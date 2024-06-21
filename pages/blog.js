@@ -342,8 +342,10 @@ const Blog = (props) => {
             text-decoration: none;
           }
           .blog-text03:hover {
-            color: var(--dl-color-gray-white);
-            background-color: #1b1b1b;
+            fill: var(--dl-color-theme-color4);
+            color: var(--dl-color-theme-color4);
+            border-color: var(--dl-color-theme-color1);
+            background-color: var(--dl-color-theme-color1);
           }
           .blog-image-container {
             flex: 1;
@@ -437,8 +439,10 @@ const Blog = (props) => {
             text-decoration: none;
           }
           .blog-text07:hover {
-            color: var(--dl-color-gray-white);
-            background-color: #1b1b1b;
+            fill: var(--dl-color-theme-color4);
+            color: var(--dl-color-theme-color4);
+            border-color: var(--dl-color-theme-color1);
+            background-color: var(--dl-color-theme-color1);
           }
           .blog-domestic-abuse {
             display: flex;
@@ -516,8 +520,10 @@ const Blog = (props) => {
             text-decoration: none;
           }
           .blog-text11:hover {
-            color: var(--dl-color-gray-white);
-            background-color: #1b1b1b;
+            fill: var(--dl-color-theme-color4);
+            color: var(--dl-color-theme-color4);
+            border-color: var(--dl-color-theme-color1);
+            background-color: var(--dl-color-theme-color1);
           }
           .blog-image-container2 {
             flex: 1;
@@ -611,8 +617,10 @@ const Blog = (props) => {
             text-decoration: none;
           }
           .blog-text15:hover {
-            color: var(--dl-color-gray-white);
-            background-color: #1b1b1b;
+            fill: var(--dl-color-theme-color4);
+            color: var(--dl-color-theme-color4);
+            border-color: var(--dl-color-theme-color1);
+            background-color: var(--dl-color-theme-color1);
           }
           .blog-criminal-porceedings {
             display: flex;
@@ -693,8 +701,10 @@ const Blog = (props) => {
             text-decoration: none;
           }
           .blog-text21:hover {
-            color: var(--dl-color-gray-white);
-            background-color: #1b1b1b;
+            fill: var(--dl-color-theme-color4);
+            color: var(--dl-color-theme-color4);
+            border-color: var(--dl-color-theme-color1);
+            background-color: var(--dl-color-theme-color1);
           }
           .blog-image-container4 {
             flex: 1;

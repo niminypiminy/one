@@ -589,8 +589,10 @@ const DrugPossession = (props) => {
             text-decoration: none;
           }
           .drug-possession-text42:hover {
-            color: var(--dl-color-gray-white);
-            background-color: #1b1b1b;
+            fill: var(--dl-color-theme-color4);
+            color: var(--dl-color-theme-color4);
+            border-color: var(--dl-color-theme-color5);
+            background-color: var(--dl-color-theme-color5);
           }
           @media (max-width: 1200px) {
             .drug-possession-container2 {
@@ -617,12 +619,12 @@ const DrugPossession = (props) => {
           }
           @media (max-width: 767px) {
             .drug-possession-text42 {
-              align-self: flex-start;
+              align-self: center;
             }
           }
           @media (max-width: 479px) {
             .drug-possession-text42 {
-              align-self: flex-start;
+              align-self: center;
             }
           }
         `}

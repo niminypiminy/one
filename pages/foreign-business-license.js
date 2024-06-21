@@ -108,7 +108,6 @@ const ForeignBusinessLicense = (props) => {
             </div>
           </div>
           <div className="foreign-business-license-content">
-            <div className="foreign-business-license-image1"></div>
             <div className="foreign-business-license-accordion">
               <div
                 data-role="accordion-container"
@@ -371,20 +370,20 @@ const ForeignBusinessLicense = (props) => {
             margin-bottom: var(--dl-space-space-twounits);
           }
           .foreign-business-license-text03 {
-            color: var(--dl-color-theme-accent1);
-            background-color: var(--dl-color-theme-primary2);
+            color: var(--dl-color-theme-neutral-dark);
+            background-color: var(--dl-color-theme-color4);
           }
           .foreign-business-license-text04 {
-            color: var(--dl-color-theme-accent1);
-            background-color: var(--dl-color-theme-primary2);
+            color: var(--dl-color-theme-neutral-dark);
+            background-color: var(--dl-color-theme-color4);
           }
           .foreign-business-license-text07 {
-            color: var(--dl-color-theme-accent1);
-            background-color: var(--dl-color-theme-primary2);
+            color: var(--dl-color-theme-neutral-dark);
+            background-color: var(--dl-color-theme-color2);
           }
           .foreign-business-license-text08 {
-            color: var(--dl-color-theme-accent1);
-            background-color: var(--dl-color-theme-primary2);
+            color: var(--dl-color-theme-neutral-dark);
+            background-color: var(--dl-color-theme-color2);
           }
           .foreign-business-license-data {
             gap: var(--dl-space-space-fiveunits);
@@ -399,7 +398,7 @@ const ForeignBusinessLicense = (props) => {
             padding-right: var(--dl-space-space-fiveunits);
             flex-direction: column;
             padding-bottom: var(--dl-space-space-fiveunits);
-            background-color: #1b1b1b;
+            background-color: var(--dl-color-theme-color1);
           }
           .foreign-business-license-header-container {
             gap: var(--dl-space-space-oneandhalfunits);
@@ -434,12 +433,6 @@ const ForeignBusinessLicense = (props) => {
             flex-direction: row;
             justify-content: space-between;
           }
-          .foreign-business-license-image1 {
-            border: 2px dashed rgba(120, 120, 120, 0.4);
-            display: flex;
-            align-items: flex-start;
-            flex-direction: column;
-          }
           .foreign-business-license-accordion {
             width: 100%;
             display: flex;
@@ -451,6 +444,7 @@ const ForeignBusinessLicense = (props) => {
           .foreign-business-license-element {
             width: 100%;
             flex-direction: row;
+            border-top-width: 0px;
           }
           .foreign-business-license-container05 {
             flex: 0 0 auto;
@@ -460,8 +454,8 @@ const ForeignBusinessLicense = (props) => {
             flex-direction: column;
           }
           .foreign-business-license-header1 {
-            fill: var(--dl-color-theme-accent1);
-            color: var(--dl-color-theme-accent1);
+            fill: var(--dl-color-theme-neutral-light);
+            color: var(--dl-color-theme-neutral-light);
             width: 100%;
             font-size: 2rem;
             font-style: normal;
@@ -491,8 +485,8 @@ const ForeignBusinessLicense = (props) => {
             flex-direction: column;
           }
           .foreign-business-license-header2 {
-            fill: var(--dl-color-theme-accent1);
-            color: var(--dl-color-theme-accent1);
+            fill: var(--dl-color-theme-neutral-light);
+            color: var(--dl-color-theme-neutral-light);
             width: 100%;
             font-size: 2rem;
             font-style: normal;
@@ -513,6 +507,7 @@ const ForeignBusinessLicense = (props) => {
           .foreign-business-license-element2 {
             width: 100%;
             flex-direction: row;
+            border-bottom-width: 0px;
           }
           .foreign-business-license-container07 {
             flex: 0 0 auto;
@@ -522,8 +517,8 @@ const ForeignBusinessLicense = (props) => {
             flex-direction: column;
           }
           .foreign-business-license-header3 {
-            fill: var(--dl-color-theme-accent1);
-            color: var(--dl-color-theme-accent1);
+            fill: var(--dl-color-theme-neutral-light);
+            color: var(--dl-color-theme-neutral-light);
             width: 100%;
             font-size: 2rem;
             font-style: normal;
@@ -567,11 +562,14 @@ const ForeignBusinessLicense = (props) => {
             flex-direction: column;
           }
           .foreign-business-license-text18 {
+            color: var(--dl-color-theme-accent1);
+            opacity: 0.9;
             font-size: 2rem;
             font-style: normal;
             text-align: center;
             font-family: 'Josefin Sans';
             font-weight: 300;
+            background-color: rgb(25, 24, 24);
           }
           .foreign-business-license-text19 {
             font-size: 1.5rem;
@@ -947,8 +945,8 @@ const ForeignBusinessLicense = (props) => {
             font-weight: 300;
           }
           .foreign-business-license-link {
-            fill: var(--dl-color-theme-accent1);
-            color: var(--dl-color-theme-accent1);
+            fill: var(--dl-color-theme-color4);
+            color: var(--dl-color-theme-color4);
             font-size: 1.5rem;
             align-self: center;
             font-style: normal;
@@ -960,7 +958,7 @@ const ForeignBusinessLicense = (props) => {
             padding-right: var(--dl-space-space-halfunit);
             padding-bottom: var(--dl-space-space-halfunit);
             text-decoration: underline;
-            background-color: var(--dl-color-theme-primary2);
+            background-color: var(--dl-color-theme-color5);
           }
           @media (max-width: 1600px) {
             .foreign-business-license-container01 {
@@ -1061,6 +1059,9 @@ const ForeignBusinessLicense = (props) => {
             }
           }
           @media (max-width: 767px) {
+            .foreign-business-license-container01 {
+              height: 75vh;
+            }
             .foreign-business-license-container02 {
               display: none;
             }
@@ -1075,7 +1076,6 @@ const ForeignBusinessLicense = (props) => {
               align-self: center;
             }
             .foreign-business-license-text {
-              align-self: center;
               text-align: left;
             }
             .foreign-business-license-text01 {
@@ -1094,16 +1094,14 @@ const ForeignBusinessLicense = (props) => {
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-threeunits);
             }
-            .foreign-business-license-heading {
-              font-size: 36px;
-            }
-            .foreign-business-license-image1 {
-              width: 100%;
-            }
             .foreign-business-license-max-width {
               flex-direction: column;
             }
+            .foreign-business-license-text18 {
+              align-self: center;
+            }
             .foreign-business-license-text19 {
+              text-align: center;
               padding-left: 0px;
               padding-right: 0px;
             }
@@ -1135,12 +1133,21 @@ const ForeignBusinessLicense = (props) => {
               padding-left: 0px;
               padding-right: 0px;
             }
+            .foreign-business-license-heading {
+              margin-right: 0px;
+            }
             .foreign-business-license-text17 {
               color: var(--dl-color-gray-white);
               font-size: 1.5rem;
               font-style: normal;
               font-family: Josefin Sans;
               font-weight: 200;
+            }
+            .foreign-business-license-text18 {
+              align-self: center;
+            }
+            .foreign-business-license-text19 {
+              text-align: center;
             }
             .foreign-business-license-container10 {
               width: 100%;
