@@ -1989,6 +1989,9 @@ const Navbar = (props) => {
               line-height: 36px;
               margin-left: 0px;
             }
+            .navbar-text03 {
+              display: none;
+            }
             .navbar-social-bar {
               padding-top: var(--dl-space-space-twounits);
               padding-left: var(--dl-space-space-halfunit);
@@ -1996,6 +1999,7 @@ const Navbar = (props) => {
               padding-bottom: var(--dl-space-space-twounits);
             }
             .navbar-container3 {
+              display: none;
               position: static;
               margin-top: 0px;
               margin-bottom: 0px;
