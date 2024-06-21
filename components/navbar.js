@@ -1958,6 +1958,12 @@ const Navbar = (props) => {
               border-radius: var(--dl-radius-radius-round);
               justify-content: center;
             }
+            .navbar-text02 {
+              font-size: 1rem;
+            }
+            .navbar-text03 {
+              font-size: 1rem;
+            }
             .navbar-social-bar {
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
@@ -1979,7 +1985,7 @@ const Navbar = (props) => {
             }
             .navbar-text02 {
               color: rgb(18, 40, 33);
-              font-size: 24px;
+              font-size: 1.2rem;
               line-height: 36px;
               margin-left: 0px;
             }

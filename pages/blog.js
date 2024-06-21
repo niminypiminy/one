@@ -715,6 +715,10 @@ const Blog = (props) => {
             border-radius: var(--dl-radius-radius-radius4);
           }
           @media (max-width: 991px) {
+            .blog-title {
+              font-style: normal;
+              font-weight: 400;
+            }
             .blog-drug-possession-thailand {
               flex-direction: column;
             }
