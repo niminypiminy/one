@@ -1019,10 +1019,6 @@ const Home = (props) => {
             }
           }
           @media (max-width: 991px) {
-            .home-header23 {
-              margin-top: var(--dl-space-space-threeunits);
-              margin-bottom: var(--dl-space-space-threeunits);
-            }
             .home-header76 {
               padding-left: 0px;
               padding-right: 0px;
@@ -1127,6 +1123,9 @@ const Home = (props) => {
             .home-header23 {
               height: 75vh;
             }
+            .home-text {
+              font-size: 2rem;
+            }
             .home-column {
               padding-top: var(--dl-space-space-threeunits);
               padding-left: var(--dl-space-space-threeunits);
@@ -1216,8 +1215,11 @@ const Home = (props) => {
           @media (max-width: 479px) {
             .home-header23 {
               height: auto;
-              margin-top: var(--dl-space-space-fiveunits);
-              margin-bottom: var(--dl-space-space-fiveunits);
+              margin-top: var(--dl-space-space-twounits);
+              margin-bottom: var(--dl-space-space-twounits);
+            }
+            .home-text {
+              font-size: 2rem;
             }
             .home-actions {
               width: 50%;
@@ -1236,8 +1238,10 @@ const Home = (props) => {
               width: 100%;
             }
             .home-column {
+              margin-top: var(--dl-space-space-fiveunits);
               padding-top: var(--dl-space-space-oneandhalfunits);
               padding-left: var(--dl-space-space-oneandhalfunits);
+              margin-bottom: var(--dl-space-space-threeunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
             .home-text10 {
