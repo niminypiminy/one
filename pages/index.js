@@ -294,7 +294,7 @@ const Home = (props) => {
             </p>
           </div>
           <form
-            enctype="multipart/form-data"
+            enctype="application/x-www-form-urlencoded"
             action="https://submit-form.com/xJUhskwkA"
             name="newsletterform"
             method="POST"
@@ -303,10 +303,10 @@ const Home = (props) => {
             <div className="home-email">
               <input
                 type="email"
-                placeholder="Enter your email"
+                placeholder="Email"
+                id="emailnewsletter"
                 name="emailnewsletter"
                 required="true"
-                id="emailnewsletter"
                 className="home-textinput input"
               />
               <div

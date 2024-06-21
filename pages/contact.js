@@ -32,7 +32,8 @@ const Contact = (props) => {
               name="submit-form"
               action="https://submit-form.com/BCiQzHi2"
               method="POST"
-              enctype="multipart/form-data"
+              enctype="application/x-www-form-urlencoded"
+              target="_blank"
               className="contact-form"
             >
               <h1 className="contact-text">
