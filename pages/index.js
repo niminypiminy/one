@@ -293,18 +293,32 @@ const Home = (props) => {
               Get legal insights and market updates.
             </p>
           </div>
-          <div className="home-content3">
+          <form
+            enctype="multipart/form-data"
+            action="https://submit-form.com/xJUhskwkA"
+            name="newsletterform"
+            method="POST"
+            className="home-form"
+          >
             <div className="home-email">
               <input
-                type="text"
+                type="email"
                 placeholder="Enter your email"
+                name="emailnewsletter"
+                required="true"
+                id="emailnewsletter"
                 className="home-textinput input"
               />
-              <div className="home-submit">
+              <div
+                id="submitform"
+                name="submitform"
+                type="submit"
+                className="home-submit"
+              >
                 <img alt="image" src="/frame.svg" className="home-image" />
               </div>
             </div>
-          </div>
+          </form>
         </section>
         <Footer1></Footer1>
       </div>
@@ -863,12 +877,11 @@ const Home = (props) => {
             font-weight: 200;
             line-height: 30px;
           }
-          .home-content3 {
-            gap: var(--dl-space-space-unit);
+          .home-form {
             width: 100%;
+            height: auto;
             display: flex;
             align-items: center;
-            flex-direction: column;
             justify-content: center;
           }
           .home-email {

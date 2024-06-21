@@ -108,7 +108,6 @@ const Contact = (props) => {
                 name="message"
                 type="text"
                 placeholder="Message"
-                required='""'
                 className="contact-textarea textarea"
               ></textarea>
               <button
